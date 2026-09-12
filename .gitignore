@@ -12,3 +12,7 @@ data/interim/
 data/processed/
 results/
 !results/.gitkeep
+.env
+.env.*
+!.env.example
+data/raw/
