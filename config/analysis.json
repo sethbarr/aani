@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "seed": 1729,
+  "permutations": 10000,
+  "bootstrap_resamples": 10000,
+  "potency_threshold_um": 10.0,
+  "minimum_genera": 25,
+  "extraction_confidence": 0.8,
+  "taxonomy_confidence": 95,
+  "organisms": ["Candida albicans", "Cryptococcus neoformans", "Aspergillus fumigatus"],
+  "endpoints": ["MIC", "IC50"],
+  "experimental_evidence": ["field_choice_assay", "lab_bioassay"]
+}
