@@ -1,0 +1,141 @@
+{
+  "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
+  "completed_at": "2026-09-13T00:24:49.970592+00:00",
+  "offline": false,
+  "network_requests": 0,
+  "config": {
+    "version": 1,
+    "seed": 1729,
+    "permutations": 10000,
+    "bootstrap_resamples": 10000,
+    "potency_threshold_um": 10.0,
+    "minimum_genera": 25,
+    "extraction_confidence": 0.8,
+    "taxonomy_confidence": 95,
+    "organisms": [
+      "Candida albicans",
+      "Cryptococcus neoformans",
+      "Aspergillus fumigatus"
+    ],
+    "endpoints": [
+      "MIC",
+      "IC50"
+    ],
+    "experimental_evidence": [
+      "field_choice_assay",
+      "lab_bioassay"
+    ]
+  },
+  "inputs": {
+    "observations": {
+      "path": "data/processed/behaviour/observations.jsonl",
+      "sha256": "ae4c9900272601c57529e16378a968cbe3ce37a2ed7e326a6a4024d954ab324e",
+      "rows": 89,
+      "blocked_reason": null
+    },
+    "occurrences": {
+      "path": "data/processed/chemistry/occurrences.jsonl",
+      "sha256": "37c9e4e74cb0b633be27f5197f45c3ac9b091612a048a68da5762c34d698198b",
+      "rows": 27033,
+      "blocked_reason": null
+    },
+    "labels": {
+      "path": "data/processed/bioactivity/labels.jsonl",
+      "sha256": "875e1151bbdd1ae9d490d9894b5df6626f1f174e333f19b6b37eddee8f3baf59",
+      "rows": 2183,
+      "blocked_reason": null
+    }
+  },
+  "input_hashes": {
+    "data/processed/behaviour/observations.jsonl": "ae4c9900272601c57529e16378a968cbe3ce37a2ed7e326a6a4024d954ab324e",
+    "data/processed/chemistry/occurrences.jsonl": "37c9e4e74cb0b633be27f5197f45c3ac9b091612a048a68da5762c34d698198b",
+    "data/processed/bioactivity/labels.jsonl": "875e1151bbdd1ae9d490d9894b5df6626f1f174e333f19b6b37eddee8f3baf59"
+  },
+  "upstream_metrics": {
+    "chemistry": {
+      "input_hash": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
+      "imported_at": "2026-09-13T00:04:50.467719+00:00",
+      "accepted": 27033,
+      "review": 0,
+      "unique_occurrences": 3774,
+      "unique_compounds": 2183,
+      "genera_with_chemistry": 12,
+      "status": "completed",
+      "blocked_reason": null,
+      "export_records_scanned": 6467819,
+      "candidate_export_records": 53897,
+      "transform_review": 26864,
+      "requested_genera": 15,
+      "conflict_genera_with_chemistry": 4,
+      "eligible_genera_with_chemistry": 8
+    },
+    "bioactivity": {
+      "status": "complete",
+      "blocked_reason": null,
+      "incomplete_reason": null,
+      "compounds": 2183,
+      "matched_compounds": 849,
+      "active": 7,
+      "inactive": 17,
+      "unknown": 2159,
+      "failed_compounds": 0,
+      "retrieved_measurements": 8947,
+      "classified_measurements": 51,
+      "discordant_compounds": 3,
+      "unique_assays_with_classified_measurements": 23,
+      "database_status": {
+        "activities": 24527044,
+        "chembl_db_version": "ChEMBL_37",
+        "chembl_release_date": "2026-05-01",
+        "compound_records": 3824604,
+        "disinct_compounds": 2921148,
+        "publications": 101100,
+        "status": "UP",
+        "targets": 18552
+      },
+      "cached_requests": 109,
+      "all_imported_compounds": 2183,
+      "selected_compounds": 2183,
+      "excluded_outside_eligible_genera_compounds": 0,
+      "eligible_behaviour_genera": null,
+      "selected_genera": [
+        "Acalypha",
+        "Arabidopsis",
+        "Hymenaea",
+        "Inga",
+        "Miconia",
+        "Ocimum",
+        "Phaseolus",
+        "Randia",
+        "Sorocea",
+        "Spondias",
+        "Trichilia",
+        "Vicia"
+      ],
+      "selected_occurrences": 27033,
+      "selection_rule": "All imported genera, including conflict genera, to support prespecified sensitivity reaggregation. Conflicts remain excluded from primary inference.",
+      "primary_scope_compounds": 1851,
+      "additional_sensitivity_scope_compounds": 332,
+      "primary_scope_genera": [
+        "Acalypha",
+        "Arabidopsis",
+        "Desmopsis",
+        "Hiraea",
+        "Ocimum",
+        "Phaseolus",
+        "Randia",
+        "Sorocea",
+        "Spondias",
+        "Vicia"
+      ]
+    }
+  },
+  "reporting_rule": "No test or shortlist below 25 joined genera or two genera per direction.",
+  "model_environment": {
+    "status": "unavailable",
+    "reason": "lme4_unavailable",
+    "executable": "/opt/homebrew/bin/Rscript",
+    "version_output": "R version 4.5.0 (2025-04-11)",
+    "error_output": ""
+  }
+}

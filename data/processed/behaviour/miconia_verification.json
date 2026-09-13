@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "tococa_resolved_to_Miconia_microphysca_acceptance_ids": [
+    "4da934a686bc45b2254d3a0b0b7add0bfad9104f8ae245eb4df41120598d6439"
+  ],
+  "Saverschek_Miconia_argentea_rejection_ids": [
+    "2b05379911572fb599b996e2755e10734f2e86cbccfcd6e4758fad0d77584a47",
+    "a4bbe970dda3ab38952b431af0f02140bcddfaf6ffa04578514906816f7416ae",
+    "38711c0c0687d8e7a466ecae0d6162c7c905809ade4944706da239aeb008941b",
+    "81623114794139c96e57f36437ac21ae9912064bd9d5c8a4e257244e99060a75",
+    "0ade410613df80c3df426080bf9ca7ba9e8b624f49a0121c84765cfdb89145b5",
+    "db62c8c466f805c3c7147227c3d74afd7ba34da4771bc990b2a6d167aba83011"
+  ],
+  "Saverschek_Miconia_argentea_acceptance_ids": [
+    "3918cefb54888c2704fb65d7e2c5e7a01ef469e2d619e902e342d7ff78d85ec9",
+    "3d19ac02cc354bd290f45bc8e0f27980bac9dd32c30ec6915669fcc87f8a187b",
+    "e323899975f07576afe7b58f3b204934bcfaa13835ec63d5bff546c9c609c0f8",
+    "6712e415a15eed9e9994fb4d5d2344a0d57f364d1f5409eefddbb184c59086ef"
+  ],
+  "conflict_genus_present": true,
+  "primary_eligible": false
+}

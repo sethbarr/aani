@@ -1,0 +1,12 @@
+stage,count,unit,status,blocked_reason
+papers_retrieved,33,unique sources with cached full text,complete,
+screened_in,13,unique sources selected by any inclusion route,complete,
+extraction_jobs,23,model jobs,complete,
+candidate_records,61,original model candidates,complete,
+grounding_passed,41,original model candidates,complete,
+semantically_retained,9,original model records retained by source review,complete,
+names_resolved,16,distinct accepted species identities,complete,
+genera_after_aggregation,10,directionally consistent genera,complete,
+genera_with_chemistry,8,eligible genera with at least one imported occurrence,complete,
+genera_with_classified_compounds,7,eligible genera with at least one active or inactive compound,complete,
+genera_available_for_primary_test,7,joined genera available before the feasibility gate,complete,

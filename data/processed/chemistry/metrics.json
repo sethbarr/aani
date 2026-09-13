@@ -1,0 +1,17 @@
+{
+  "input_hash": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
+  "imported_at": "2026-09-13T00:04:50.467719+00:00",
+  "accepted": 27033,
+  "review": 0,
+  "unique_occurrences": 3774,
+  "unique_compounds": 2183,
+  "genera_with_chemistry": 12,
+  "status": "completed",
+  "blocked_reason": null,
+  "export_records_scanned": 6467819,
+  "candidate_export_records": 53897,
+  "transform_review": 26864,
+  "requested_genera": 15,
+  "conflict_genera_with_chemistry": 4,
+  "eligible_genera_with_chemistry": 8
+}

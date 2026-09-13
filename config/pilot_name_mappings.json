@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "reviewed_date": "2026-09-12",
+  "method": "Codex-assisted source review; independent anchor and record-identity check before taxonomy or activity joining",
+  "mappings": [
+    {
+      "source_id": "PMC11543716",
+      "plant_name_as_written": "Arabidopsis",
+      "scientific_name": "Arabidopsis thaliana",
+      "taxonomic_rank": "species",
+      "source_document_hash": "2dd53ea7f029687391a9d0b7bd94e101307dbd46f63401343168f5da4896d68a",
+      "evidence": [{"block_id": "b00007", "quote": "Arabidopsis (Arabidopsis thaliana (L.) Heynh.; Brassicaceae) Col-0 plants"}]
+    },
+    {
+      "source_id": "PMC11543716",
+      "plant_name_as_written": "lima bean",
+      "scientific_name": "Phaseolus lunatus",
+      "taxonomic_rank": "species",
+      "source_document_hash": "2dd53ea7f029687391a9d0b7bd94e101307dbd46f63401343168f5da4896d68a",
+      "evidence": [
+        {"block_id": "b00007", "quote": "Lima bean (P. lunatus; Fabaceae)"},
+        {"block_id": "b00016", "quote": "Fig. 3Volatile emission of Phaseolus lunatus upon different kinds of leaf damage."},
+        {"block_id": "b00018", "quote": "lima bean (P. lunatus)"}
+      ]
+    },
+    {
+      "source_id": "PMC11543716",
+      "plant_name_as_written": "Lima bean",
+      "scientific_name": "Phaseolus lunatus",
+      "taxonomic_rank": "species",
+      "source_document_hash": "2dd53ea7f029687391a9d0b7bd94e101307dbd46f63401343168f5da4896d68a",
+      "evidence": [
+        {"block_id": "b00007", "quote": "Lima bean (P. lunatus; Fabaceae)"},
+        {"block_id": "b00016", "quote": "Fig. 3Volatile emission of Phaseolus lunatus upon different kinds of leaf damage."}
+      ]
+    },
+    {
+      "source_id": "PMC11543716",
+      "plant_name_as_written": "faba bean",
+      "scientific_name": "Vicia faba",
+      "taxonomic_rank": "species",
+      "source_document_hash": "2dd53ea7f029687391a9d0b7bd94e101307dbd46f63401343168f5da4896d68a",
+      "evidence": [{"block_id": "b00007", "quote": "faba bean (Vicia faba L.; Fabaceae)"}]
+    },
+    {
+      "source_id": "PMC11543716",
+      "plant_name_as_written": "tococa",
+      "scientific_name": "Tococa quadrialata",
+      "taxonomic_rank": "species",
+      "source_document_hash": "2dd53ea7f029687391a9d0b7bd94e101307dbd46f63401343168f5da4896d68a",
+      "evidence": [
+        {"block_id": "b00007", "quote": "Tococa (Tococa quadrialata (Naudin) J. F. Macbr., recently renamed Miconia microphysca Michelang.; Melastomataceae)"},
+        {"block_id": "b00018", "quote": "tococa (T. quadrialata)"}
+      ]
+    }
+  ]
+}

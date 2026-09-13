@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "source_checked_on": "2026-09-12",
+  "default_records": ["F003", "F008", "F010"],
+  "candidate_roles": {
+    "F003": "Ecological lead: dillapiole",
+    "F008": "Ecological lead: caryophyllene epoxide",
+    "F010": "Reported cultivar-null comparator: kolavenol; activity elsewhere remains unknown"
+  },
+  "design": {
+    "dose_slots": 4,
+    "technical_replicates": 3,
+    "independent_runs": 2,
+    "layout_seed": 1729,
+    "purpose": "Exploratory cross-fungus activity profiling; this small, selected panel does not estimate enrichment from ant avoidance."
+  },
+  "fungi": [
+    {
+      "id": "attine_cultivar",
+      "name": "Identified ant fungal cultivar",
+      "group": "Ecological reference",
+      "lineage": "Confirm identity with donor; leafcutter cultivars are typically basidiomycetes",
+      "rationale": "Test the fungus relevant to the original behavioural hypothesis.",
+      "source_lead": "Nicole Gerardo lab, Emory; user's postdoctoral connection",
+      "source_url": "https://biology.emory.edu/people/bios/faculty/gerardo-nicole.html",
+      "availability": "Unconfirmed; no request sent",
+      "sample_requirement": "Prefer an identified cultivar isolate with donor colony, host ant, origin and culture history. Keep any intact garden sample as a separate community experiment.",
+      "assay_family": "Cultivar growth or imaging assay; donor method required",
+      "scope": "core"
+    },
+    {
+      "id": "s_cerevisiae",
+      "name": "Saccharomyces cerevisiae",
+      "group": "Budding yeast",
+      "lineage": "Ascomycota / Saccharomycotina",
+      "rationale": "A tractable budding-yeast comparison outside the ant association.",
+      "source_lead": "Host laboratory or culture collection; strain to be selected",
+      "source_url": "https://www.yeastgenome.org/",
+      "availability": "Strain and stock unconfirmed",
+      "sample_requirement": "Identified laboratory strain and stock provenance",
+      "assay_family": "Yeast growth assay; method and readout to be selected",
+      "scope": "core"
+    },
+    {
+      "id": "s_pombe",
+      "name": "Schizosaccharomyces pombe",
+      "group": "Fission yeast",
+      "lineage": "Ascomycota / Taphrinomycotina",
+      "rationale": "Add an evolutionarily distinct yeast rather than relying on budding yeast alone.",
+      "source_lead": "Host laboratory or culture collection; PomBase community reference",
+      "source_url": "https://www.pombase.org/",
+      "availability": "Strain and stock unconfirmed",
+      "sample_requirement": "Identified laboratory strain and stock provenance",
+      "assay_family": "Yeast growth assay; method and readout to be selected",
+      "scope": "core"
+    },
+    {
+      "id": "n_crassa",
+      "name": "Neurospora crassa",
+      "group": "Filamentous ascomycete",
+      "lineage": "Ascomycota / Pezizomycotina",
+      "rationale": "Test whether yeast activity extends to filamentous growth.",
+      "source_lead": "Fungal Genetics Stock Center; exact strain and availability to confirm",
+      "source_url": "https://www.fgsc.net/",
+      "availability": "Strain and stock unconfirmed",
+      "sample_requirement": "Identified laboratory strain and stock provenance",
+      "assay_family": "Filamentous growth or imaging assay; plate format suitability unverified",
+      "scope": "core"
+    },
+    {
+      "id": "p_ostreatus",
+      "name": "Pleurotus ostreatus",
+      "group": "Free-living basidiomycete",
+      "lineage": "Basidiomycota / Agaricomycotina",
+      "rationale": "Separate activity against the ant cultivar from activity in another mushroom-forming lineage.",
+      "source_lead": "ATCC catalog example 90076; final isolate and stock to confirm",
+      "source_url": "https://www.atcc.org/products/90076",
+      "availability": "Catalog lead only; availability unconfirmed",
+      "sample_requirement": "Identified isolate; use a documented culture rather than an uncharacterized garden mixture",
+      "assay_family": "Mycelial growth or imaging assay; plate format suitability unverified",
+      "scope": "core"
+    },
+    {
+      "id": "c_albicans",
+      "name": "Candida albicans",
+      "group": "Clinical relevance expansion",
+      "lineage": "Ascomycota",
+      "rationale": "Directly assess a translational target named in the retrospective project.",
+      "source_lead": "Specialist testing laboratory; no provider confirmed",
+      "source_url": null,
+      "availability": "Provider and strain unconfirmed",
+      "sample_requirement": "Provider-defined strain and accepted material specification",
+      "assay_family": "Provider-validated susceptibility assay; separate work order",
+      "scope": "specialist"
+    },
+    {
+      "id": "c_neoformans",
+      "name": "Cryptococcus neoformans",
+      "group": "Clinical relevance expansion",
+      "lineage": "Basidiomycota",
+      "rationale": "Assess transfer to a clinically relevant basidiomycete yeast.",
+      "source_lead": "Specialist testing laboratory; no provider confirmed",
+      "source_url": null,
+      "availability": "Provider and strain unconfirmed",
+      "sample_requirement": "Provider-defined strain and accepted material specification",
+      "assay_family": "Provider-validated susceptibility assay; separate work order",
+      "scope": "specialist"
+    },
+    {
+      "id": "a_fumigatus",
+      "name": "Aspergillus fumigatus",
+      "group": "Clinical relevance expansion",
+      "lineage": "Ascomycota",
+      "rationale": "Assess transfer to a clinically relevant filamentous fungus.",
+      "source_lead": "Specialist testing laboratory; no provider confirmed",
+      "source_url": null,
+      "availability": "Provider and strain unconfirmed",
+      "sample_requirement": "Provider-defined strain and accepted material specification",
+      "assay_family": "Provider-validated susceptibility assay; separate work order",
+      "scope": "specialist"
+    }
+  ],
+  "partners": [
+    {
+      "id": "potato",
+      "name": "Potato",
+      "role": "Possible protocol planning and assay optimization partner",
+      "status": "Handoff brief available; no integration or account access verified",
+      "verified": "Public products include literature review, experimental design and protocol planning; assay optimization advertises early access.",
+      "unknowns": ["Available account features", "Public API and import formats", "Opentrons export support for this assay", "Emerald integration", "Pilot terms and cost"],
+      "url": "https://www.potato.ai/products/"
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald Cloud Lab",
+      "role": "Possible remote execution provider",
+      "status": "Feasibility brief available; no submission made",
+      "verified": "Public workflow supports remote experiments through Command Center and Symbolic Lab Language.",
+      "unknowns": ["Acceptance of each strain and compound", "Cultivar-specific method support", "Instrument and readout availability", "Account, quote and turnaround", "SLL translation and sample logistics"],
+      "url": "https://www.emeraldcloudlab.com/how-it-works/"
+    },
+    {
+      "id": "gerardo",
+      "name": "Gerardo lab / Emory",
+      "role": "Possible cultivar source and ecological assay collaborator",
+      "status": "User's existing connection; no request sent",
+      "verified": "Current Emory faculty profile lists fungus-growing ants and associated fungi among the lab's systems.",
+      "unknowns": ["Current cultivar stocks", "Isolate identity and donor colony metadata", "Sharing availability", "Existing assay and culture history", "Preferred collaboration or referral"],
+      "url": "https://biology.emory.edu/people/bios/faculty/gerardo-nicole.html"
+    }
+  ]
+}

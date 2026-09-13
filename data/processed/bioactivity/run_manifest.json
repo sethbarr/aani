@@ -1,0 +1,64 @@
+{
+  "completed_at": "2026-09-13T00:21:38.488179+00:00",
+  "offline": false,
+  "input_hashes": {
+    "data/processed/chemistry/occurrences.jsonl": "37c9e4e74cb0b633be27f5197f45c3ac9b091612a048a68da5762c34d698198b",
+    "data/processed/chemistry/metrics.json": "fe261b5ad544ab882bb0c735bb6ab1ebbbf8249ff2990e648edd0e76a461a321",
+    "data/processed/behaviour/genera.jsonl": "08968033cdb85a458cbc473ec76404c6bc663600c3de0c30747f3503235f59c8"
+  },
+  "chemistry_metrics": {
+    "input_hash": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
+    "imported_at": "2026-09-13T00:04:50.467719+00:00",
+    "accepted": 27033,
+    "review": 0,
+    "unique_occurrences": 3774,
+    "unique_compounds": 2183,
+    "genera_with_chemistry": 12,
+    "status": "completed",
+    "blocked_reason": null,
+    "export_records_scanned": 6467819,
+    "candidate_export_records": 53897,
+    "transform_review": 26864,
+    "requested_genera": 15,
+    "conflict_genera_with_chemistry": 4,
+    "eligible_genera_with_chemistry": 8
+  },
+  "selection": {
+    "all_imported_compounds": 2183,
+    "selected_compounds": 2183,
+    "excluded_outside_eligible_genera_compounds": 0,
+    "eligible_behaviour_genera": null,
+    "selected_genera": [
+      "Acalypha",
+      "Arabidopsis",
+      "Hymenaea",
+      "Inga",
+      "Miconia",
+      "Ocimum",
+      "Phaseolus",
+      "Randia",
+      "Sorocea",
+      "Spondias",
+      "Trichilia",
+      "Vicia"
+    ],
+    "selected_occurrences": 27033,
+    "selection_rule": "All imported genera, including conflict genera, to support prespecified sensitivity reaggregation. Conflicts remain excluded from primary inference.",
+    "primary_scope_compounds": 1851,
+    "additional_sensitivity_scope_compounds": 332,
+    "primary_scope_genera": [
+      "Acalypha",
+      "Arabidopsis",
+      "Desmopsis",
+      "Hiraea",
+      "Ocimum",
+      "Phaseolus",
+      "Randia",
+      "Sorocea",
+      "Spondias",
+      "Vicia"
+    ]
+  },
+  "blocked_reason": null,
+  "network_cache": "data/raw"
+}

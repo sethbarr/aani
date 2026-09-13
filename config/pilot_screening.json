@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewer": "codex_assisted",
+  "basis": "title_and_abstract",
+  "decisions": [
+    {
+      "source_id": "PMC12941067",
+      "decision": "include",
+      "reason": "Leaf-cutting ant foraging on Eucalyptus grandis is compared across fungal inoculation methods and untreated plant controls. Preserve treatment context when assessing individual observation eligibility.",
+      "evidence_block_ids": ["b00000", "b00001"]
+    },
+    {
+      "source_id": "PMC12847897",
+      "decision": "include",
+      "reason": "Atta sexdens colonies receive different plant diets; plant-specific acceptance during acclimation and subsequent substrate acceptance are reported. Body spot-check identifies heat sterilization and mixed diets that require observation-level review.",
+      "evidence_block_ids": ["b00000", "b00033", "b00034"]
+    },
+    {
+      "source_id": "PMC12238522",
+      "decision": "exclude",
+      "reason": "Wheat zinc biofortification study; Atta Habib is a wheat genotype, with no leaf-cutting ant behavior.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC12308287",
+      "decision": "exclude",
+      "reason": "Fungal species descriptions and collection substrates. Mention of fungus isolated from leaves inside an Atta nest does not describe plant-substrate choice or rejection.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC12277563",
+      "decision": "exclude",
+      "reason": "Ant embryogenesis and segmentation study, without plant-substrate behavior.",
+      "evidence_block_ids": ["b00000", "b00001"]
+    },
+    {
+      "source_id": "PMC11596322",
+      "decision": "exclude",
+      "reason": "Van Atta antenna-array engineering study; Atta is unrelated to the ant genus in this context.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC11543716",
+      "decision": "include",
+      "reason": "Reports leaf-cutting ant attack on named host and non-host plant species. Retain for extraction of explicit observed plant use and any contextual behavioral reports; host terminology alone does not establish rejection.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC11195475",
+      "decision": "exclude",
+      "reason": "Review of ant combat, recruitment, and battle tactics; the behavioral endpoint is inter-ant competition rather than plant-substrate choice.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC11824891",
+      "decision": "exclude",
+      "reason": "Atta texana temperature sensing and thermal preferences for fungus growth, without plant-substrate choice.",
+      "evidence_block_ids": ["b00000", "b00001"]
+    },
+    {
+      "source_id": "PMC10810168",
+      "decision": "exclude",
+      "reason": "Insecticide detoxification in Megachilidae bees; wrong focal taxon and no leaf-cutting ant plant-substrate behavior.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC10598784",
+      "decision": "exclude",
+      "reason": "Review of fungal pathogen application for pest-ant control, with mortality and colony inactivation endpoints. Its abstract and spot-checked behavioral discussion concern pathogen defenses and bait application rather than plant-substrate choice.",
+      "evidence_block_ids": ["b00000", "b00003", "b00004", "b00062"]
+    },
+    {
+      "source_id": "PMC9965205",
+      "decision": "include",
+      "reason": "Acromyrmex experiment measures bait acceptance and subsequent fresh Acalypha leaf cutting, including control colonies. Retain for natural leaf observations while preserving fungal exposure and manufactured-bait context.",
+      "evidence_block_ids": ["b00000", "b00011", "b00018", "b00020"]
+    },
+    {
+      "source_id": "PMC9636231",
+      "decision": "exclude",
+      "reason": "Rose leaf selection by solitary leafcutter bees for nest construction; wrong focal taxon for the Atta/Acromyrmex pilot.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC9288931",
+      "decision": "exclude",
+      "reason": "Atta sexdens hygiene responses to fungal exposure, including fungus grooming and weeding; no plant-substrate choice endpoint is described.",
+      "evidence_block_ids": ["b00000", "b00002"]
+    },
+    {
+      "source_id": "PMC9286363",
+      "decision": "include",
+      "reason": "Samples plant fragments actively foraged by free-ranging Atta colombica and studies provisioning choices. Field acceptance observations are relevant regardless of the nutrient-toxin hypothesis outcome.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC8778871",
+      "decision": "include",
+      "reason": "Atta sexdens cutting preference is compared between endophyte-colonized and control Eucalyptus urophylla plants. Preserve inoculation status when assessing natural-substrate evidence.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC8611346",
+      "decision": "exclude",
+      "reason": "Acromyrmex nest architecture, ventilation, and carbon dioxide concentrations; plant material is discussed as nest covering, without fungal-food substrate choice.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC7657914",
+      "decision": "exclude",
+      "reason": "Acromyrmex chooses artificial sticks by thickness during turret construction; physical building-material selection is outside fungal-food plant-substrate behavior.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC7541895",
+      "decision": "include",
+      "reason": "Compares grass- and dicot-cutting Atta fungus gardens in relation to harvested substrate. Retained as a borderline source for explicit plant-use or secondary behavioral observations, although the abstract mainly describes microbiomes.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC6989564",
+      "decision": "exclude",
+      "reason": "Ant karyotype and cytogenetic survey; no plant-substrate behavior.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC6329224",
+      "decision": "exclude",
+      "reason": "Human meditation and creative cognition study; ATTA denotes a creativity test, not the ant genus.",
+      "evidence_block_ids": ["b00000", "b00001"]
+    },
+    {
+      "source_id": "PMC6198993",
+      "decision": "exclude",
+      "reason": "Computational and behavioral study of ant traffic priority rules; the endpoint is trail organization rather than plant selection or rejection.",
+      "evidence_block_ids": ["b00000", "b00001"]
+    },
+    {
+      "source_id": "PMC6085703",
+      "decision": "exclude",
+      "reason": "Ethnobiological study of human consumption and collection of edible insects, including Atta; does not study leaf-cutting ants choosing plants.",
+      "evidence_block_ids": ["b00000", "b00001", "b00002", "b00003"]
+    },
+    {
+      "source_id": "PMC6106195",
+      "decision": "exclude",
+      "reason": "Flower preferences and pollen transport by cavity-nesting solitary bees; wrong focal taxon for the Atta/Acromyrmex pilot.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC5769659",
+      "decision": "exclude",
+      "reason": "Atta sexdens vibrational orientation and multimodal communication. Substrate here means the physical medium transmitting vibration, not plant food choice.",
+      "evidence_block_ids": ["b00000", "b00002"]
+    },
+    {
+      "source_id": "PMC5746809",
+      "decision": "include",
+      "reason": "Examines carrying and handling of orange pellets under cycloheximide treatment and subsequent untreated feeding. Retained as a borderline substrate-behavior source; manufactured baits and treatment effects require observation-level exclusion or separate labeling.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC5414240",
+      "decision": "include",
+      "reason": "Compares vegetation carried into Atta sexdens nests with vegetation removed and discusses recognition during substrate quality control. Also includes inoculated rice, which requires distinct treatment context.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC5380341",
+      "decision": "exclude",
+      "reason": "Acromyrmex carbon dioxide preferences for fungus-garden placement and worker location; no plant-substrate choice.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC5509771",
+      "decision": "exclude",
+      "reason": "Gallery construction and prey capture by Azteca and Allomerus plant-ants. Atta workers are experimental prey or intruders, not plant-substrate foragers in this study.",
+      "evidence_block_ids": ["b00000"]
+    },
+    {
+      "source_id": "PMC6155182",
+      "decision": "include",
+      "reason": "Atta and Acromyrmex behavioral responses to a named plant's essential oil are directly tested. Retained conservatively as a borderline behavioral source; treated surfaces and isolated components do not by themselves establish natural plant rejection.",
+      "evidence_block_ids": ["b00000", "b00024", "b00048"]
+    }
+  ]
+}

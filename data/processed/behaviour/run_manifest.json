@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
+  "stage": "behaviour",
+  "network_required": false,
+  "replay": ".venv/bin/python -m scripts.behaviour --offline",
+  "inputs": [
+    {
+      "path": "data/interim/taxonomy_pilot/observations.jsonl",
+      "sha256": "40bccd963248ff6f761cbcdc9f09f0d9e5ad7175b199e806ff4ca9cd51a853de"
+    },
+    {
+      "path": "data/interim/taxonomy_recovered/observations.jsonl",
+      "sha256": "afb6211a90ee0fa9de5e56b18b95375632d6ef42ee8c8246e8f316d7b2fad33a"
+    },
+    {
+      "path": "data/interim/taxonomy_saverschek/observations.jsonl",
+      "sha256": "54d238e722285c0be6f573bea069e9ae96253c96a69c6f5063a9509829b0723a"
+    },
+    {
+      "path": "results/saverschek_audit/taxonomy_matched_directional.jsonl",
+      "sha256": "5600dd5af9bf24d9b1fcb7b20493ccee4835491de1410a45235d113082dd5e5a"
+    },
+    {
+      "path": "results/saverschek_audit/manifest.json",
+      "sha256": "bc991f8fda28c9e654361774db6c30629f89321dbf26a1947eba56f2720a0417"
+    },
+    {
+      "path": "config/analysis.json",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9"
+    },
+    {
+      "path": "data/interim/corpus/texts/PMC11543716.json",
+      "sha256": "4546e42bbf65ad0a6500a6c3bf428260c2f549756ad85d79ce56fb9b7d4a8382"
+    },
+    {
+      "path": "data/interim/corpus/texts/PMC9965205.json",
+      "sha256": "fec8b0c3eac48666e76c467b164430b55f82663d8ab89c5fe0a2e06455cfd4ec"
+    },
+    {
+      "path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d"
+    },
+    {
+      "path": "data/interim/pending_evidence_review/corpus/texts/PMC3140513.json",
+      "sha256": "edb21909b97be82db8d6a99e68cb1968c706293c1da4f503375611765de4d48f"
+    },
+    {
+      "path": "data/interim/pending_evidence_review/corpus/texts/PMC5710599.json",
+      "sha256": "cf63d39d09aafa42b3a4cfb10b181870f6db9fac4f737376f9d78723ebd7abb4"
+    },
+    {
+      "path": "data/raw/http/116284de183ef1ceb3783ddea9b8f2e94e3642999f0ed83ce3412178cfc4fe41.json",
+      "sha256": "41cba3a8969e2b3e678a1572759343c329110372517541b617e3223f8579f1cb"
+    },
+    {
+      "path": "data/raw/http/28d91885cf086ea3cae28a2279359cf36f5b9cfff10364e9fba43e1fb1183941.json",
+      "sha256": "6b204bf24d6ce36023b6444a80dddeaea670f8e6745b8e0fb378269855c50196"
+    },
+    {
+      "path": "data/raw/http/32f43b593d42b9b814d41cb3bb44333d92a394bbf1dce42cc743830e97f731f1.json",
+      "sha256": "f71886d6d1309464ae190d8b0db34c41ac257386f296e13f204b0587e983cf7a"
+    },
+    {
+      "path": "data/raw/http/348073c78bf66bb091eb11ec520df30adb5ed4a3982932ed5597c0e2455011b6.json",
+      "sha256": "0f3a12312900d320de6f0ae3e785f5bf020339dcd64dc6d39813d39d679f9700"
+    },
+    {
+      "path": "data/raw/http/62aa78a35430aba26dab192f4366b5374b6dcf2fbfacc0d5934b5fb98e74ef32.json",
+      "sha256": "d2c511beaeb9b9e33342c2e08d4fd62bd3d768a4df2b5a94dd4ba7619cea19ff"
+    },
+    {
+      "path": "data/raw/http/8c87b98751e34e62d2da23b1d086bd1b9329814ddf19534f71a48a40174e6fb0.json",
+      "sha256": "d68d5ba4d0898275ec4373cf3dd828c66f549d8e324271f410dd679961df95cd"
+    },
+    {
+      "path": "data/raw/http/9a6ccac241257d364fc2dd2d29a19f719fd7651aaec13bf29b963f535d329c14.json",
+      "sha256": "a47c9197ce6f10a6741c2e7e3f29727312ff0b88653a440f14fcd31896e13693"
+    },
+    {
+      "path": "data/raw/http/9d9f4290c533b516723b81f040fdef330ff014f400ba204bdfc16aff1597bdd0.json",
+      "sha256": "308cc5bc10f219a76d6312026ed54aeac756caf1a68317fb00d744018fc5a49c"
+    },
+    {
+      "path": "data/raw/http/a491aa7664070fa742ecbae8c8f20cce6e42268ddf16a4f5e266434e8d49fa7e.json",
+      "sha256": "a6126f008847a693a35ac6f2406eff0cdfaac9166bea77d99f3fc6fd3fd6da28"
+    },
+    {
+      "path": "data/raw/http/b638ba012013c56eb211293489ff125d66bc7f0f3a3d986a551c293783bcafe4.json",
+      "sha256": "248797c32772b2a3e305e482077d65161ceef0386f0a9b0b45fdc177a0e3c3cb"
+    },
+    {
+      "path": "data/raw/http/b68f9bc01e75eeb7a5082a3dd15c09574e0adf05d9d398ba811e71ef97691920.json",
+      "sha256": "99cc38aa88019f2b290a7fcb85276fe8e3db7eb990c13c9f928bf0578cbf4c0a"
+    },
+    {
+      "path": "data/raw/http/cbe44d1145d71354b6413fb9aad6a161e8db857e826151aabd02f8c92fd08046.json",
+      "sha256": "d1adde28f39fd9d04564967d6bf71c75f45b4e45e5b8de27cc83efc549f1cca1"
+    },
+    {
+      "path": "data/raw/http/cd774790bd9ff98c428fb61a162bc164a12cdcf542408aaaf314114e1b49d045.json",
+      "sha256": "fb9c4bc031a70fbe8c742b2167c02de92ff6070fb599c56a39ca12a72e6aa154"
+    },
+    {
+      "path": "data/raw/http/e1b119103fd1c273585717f5dd0556297b040edb57b4e9c21da384322180d613.json",
+      "sha256": "fc8b7a41e889c094d082b05d0fc4fa5cb67a3d642549d17d5b83fc148c22d847"
+    },
+    {
+      "path": "data/raw/http/ec59f69902719116815f630362af5d6285d4bcaaab7d79efc03d3049d833840d.json",
+      "sha256": "2cca9f3a9141ccb75674d5a2b0847c2dc40764d8bab6e685274749b6084e0114"
+    },
+    {
+      "path": "data/raw/http/fe00347278518ee534a45f98189357338e65144b9c2b9e7e9ccbc6f48e4fcc41.json",
+      "sha256": "2197817e80367722c940b91ef24e9ffb5eef1440c8b8914529992c9522e03f8b"
+    },
+    {
+      "path": "docs/analysis_plan.md",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d"
+    },
+    {
+      "path": "results/saverschek_audit/evidence_anchors.json",
+      "sha256": "3b9d28a3762190529b718de6d9fbd308bbb8d9f0a052c9b5a9c11da9c4fcc5ae"
+    }
+  ],
+  "replacement_policy": "Read all three requested taxonomy outputs. Replace every SAVERSCHEK2010 coarse model record with the completed audit's taxonomy-matched directional contexts, retaining all opposite directions. Do not append both representations. Curated contexts are separate from model candidate and validation denominators.",
+  "deduplication": "Whitespace-normalized source, genus, direction, quote, ant and actual experimental context; different habitats, test days and designs remain distinct.",
+  "limitations": [
+    "Curated context totals are not model records or independent biological replicates.",
+    "Saverschek original PDF graphics and numerical transcriptions remain unverified.",
+    "Only the completed audit's supported, exact-taxonomy directional contexts enter."
+  ]
+}

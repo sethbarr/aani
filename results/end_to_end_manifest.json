@@ -1,0 +1,73 @@
+{
+  "project": "aani",
+  "assembled_at": "2026-09-13T00:33:12.411350+00:00",
+  "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
+  "frozen_files": [
+    {
+      "path": "docs/analysis_plan.md",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "matches_frozen_commit": true
+    },
+    {
+      "path": "config/analysis.json",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "matches_frozen_commit": true
+    }
+  ],
+  "execution_status": "complete",
+  "primary_status": "feasibility_failure",
+  "estimable": false,
+  "counts": {
+    "papers_retrieved": 33,
+    "screened_in": 13,
+    "extraction_jobs": 23,
+    "candidate_records": 61,
+    "grounding_passed": 41,
+    "semantically_retained": 9,
+    "names_resolved": 16,
+    "genera_after_aggregation": 10,
+    "genera_with_chemistry": 8,
+    "genera_with_classified_compounds": 7,
+    "genera_available_for_primary_test": 7
+  },
+  "inference_blockers": [
+    "fewer_than_minimum_joined_genera",
+    "need_two_genera_per_direction",
+    "lme4_unavailable"
+  ],
+  "artifacts": [
+    {
+      "path": "data/processed/behaviour/run_manifest.json",
+      "sha256": "7ded06a1df1a375a0abd1660359600344909ffd364106bb21d5c70c279007e21"
+    },
+    {
+      "path": "data/processed/chemistry/run_manifest.json",
+      "sha256": "820f396fa2b819ecb8c5014d22c17673a59167f486923f832f0f5879cd68cea4"
+    },
+    {
+      "path": "data/processed/bioactivity/run_manifest.json",
+      "sha256": "c6677fd6738a29a746b08de3cc55f7faf32f1c8713719dfd9505682423283f60"
+    },
+    {
+      "path": "results/run_manifest.json",
+      "sha256": "4e1d33f0c32612f13283154adc26afc521db9ffbf7f305541ef3f9825afe769a"
+    },
+    {
+      "path": "results/funnel.json",
+      "sha256": "8a3ef4ba3d00da7e921af3cefc7845939ee4a2b3fd4f0e32812461b3a03708f5"
+    },
+    {
+      "path": "results/offline_replay.json",
+      "sha256": "a237bd572c9e047dd77b33fbf029ba80882a0517b075c241df9b0281835f7ff9"
+    },
+    {
+      "path": "docs/amendment_2026-09-12_reporting_gate.md",
+      "sha256": "9810855a347355ab0baf1c9985ead0e1d3810660b6b300bc532ffe8e05f43418"
+    }
+  ],
+  "offline_replay": {
+    "status": "passed",
+    "verification_report": "results/offline_replay.json"
+  },
+  "note": "Assembled from individually executed stage manifests and the verified full offline chain; stage retrieval/execution times remain in the original manifests."
+}
