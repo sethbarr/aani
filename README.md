@@ -1,13 +1,41 @@
-# aani: chemical information in animal behaviour
+# aani: learning to listen to millions of years of coevolution
 
-**Artificial and animal intelligence. An evolved biological prior, made computable at literature scale.**
+**Before there was artificial intelligence there was animal intelligence.
+Here we're raising one to the power of the other.**
 
-When a leafcutter colony refuses a plant, that refusal is a chemical assay run by
-evolution, scored against a live fungus and replicated across colonies and
-seasons. Fifty years of those observations sit in the literature, unstructured and
-unjoinable to chemistry. aani makes them computable: papers in, grounded
-behavioural observations out, resolved to accepted plant names, joined to chemical
-structures and measured antifungal activity, with a source anchor at every link.
+When our ancestors got sick, we used herbs to heal ourselves. We learned which
+herbs by trial and error, and by watching other animals treat themselves.
+
+Today we face compounding problems:
+
+1. Infectious diseases emerge more often than they used to.
+2. Our existing treatments lose ground as pathogens evolve resistance.
+3. We are slow to develop new ones.
+4. We are losing the biodiversity that might hold the next generation of
+   treatments, every day.
+5. We can't AI our way out of this. Or can we?
+
+Maybe we need to listen to a different kind of AI. Animal Intelligence.
+
+Wild animals defend themselves against infection, and some do it chemically. If we
+re-learn how, we may unlock tools for some of the hardest problems in human and
+agricultural medicine. Fungal disease is one of them.
+
+Fungi don't get the attention that viruses like SARS-CoV-2, dengue and HIV do, or
+bacteria like tuberculosis and cholera. They are a harder problem than either.
+Fungi are close relatives of ours — humans and fungi are far closer to each other
+than either is to bacteria — so a compound that kills a fungal infection tends to
+harm us too. That shared biology is why we have so few antifungal drugs.
+
+Leafcutter ants have been solving this problem for tens of millions of years. They
+farm a fungus, and they reject plants that would harm it. Each refusal is a
+chemical assay run by evolution, scored against a live fungus, replicated across
+colonies and seasons. Fifty years of those observations sit in the literature,
+unstructured and unjoinable to chemistry.
+
+aani makes them computable: papers in, grounded behavioural observations out,
+resolved to accepted plant names, joined to chemical structures and measured
+antifungal activity, with a source anchor at every link.`
 
 **What this run measured.** The pipeline executes end to end on public data with the
 analysis plan frozen before any outcome was seen. The primary test is
