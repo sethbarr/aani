@@ -12,9 +12,9 @@ CHECKLIST = "7ddf754f-d193-4cc9-b351-99906754a03b"
 
 
 def interpret_match(
-    response: dict, expected_rank: str, threshold: int = 95
+    response: dict, expected_rank: str, threshold: int = 95, kingdom: str = "Plantae"
 ) -> tuple[dict | None, str | None]:
-    """Accept exact botanical matches with complete genus/family context.
+    """Accept exact matches in one configured kingdom with genus/family context.
 
     GBIF has returned both a flat v1-style payload and a nested v2 payload over
     the lifetime of the matcher. The request uses v2, but accepting the flat
@@ -55,9 +55,9 @@ def interpret_match(
         rank = str(row.get("rank") or "").upper()
         if rank:
             ranks[rank] = row
-    kingdom = ranks.get("KINGDOM", {}).get("name") or response.get("kingdom")
-    if str(kingdom).lower() != "plantae":
-        return None, "not_plantae"
+    matched_kingdom = ranks.get("KINGDOM", {}).get("name") or response.get("kingdom")
+    if str(matched_kingdom).casefold() != kingdom.casefold():
+        return None, "not_plantae" if kingdom == "Plantae" else "wrong_kingdom"
     genus = ranks.get("GENUS", {}).get("name") or response.get("genus")
     if accepted_rank == "genus":
         genus = accepted.get("canonicalName") or accepted.get("name") or genus
@@ -91,15 +91,21 @@ def interpret_match(
 
 
 def normalise(
-    observations: list[dict], cache: CachedHTTP, output: Path, confidence: int = 95
+    observations: list[dict],
+    cache: CachedHTTP,
+    output: Path,
+    confidence: int = 95,
+    kingdom: str = "Plantae",
+    name_field: str = "plant_name_as_written",
+    rank_field: str = "taxonomic_rank",
 ) -> dict:
-    """Resolve unique plant names while retaining every observation's provenance."""
+    """Resolve unique names while retaining every observation's provenance."""
     matched, review = [], []
     memo = {}
     for observation in observations:
         identity = (
-            observation.get("taxonomy_query_name", observation["plant_name_as_written"]),
-            observation.get("taxonomy_query_rank", observation["taxonomic_rank"]),
+            observation.get("taxonomy_query_name", observation[name_field]),
+            observation.get("taxonomy_query_rank", observation[rank_field]),
         )
         if identity not in memo:
             try:
@@ -108,11 +114,11 @@ def normalise(
                     {
                         "scientificName": identity[0],
                         "taxonRank": identity[1].upper(),
-                        "kingdom": "Plantae",
+                        "kingdom": kingdom,
                         "checklistKey": CHECKLIST,
                     },
                 )
-                resolved, reason = interpret_match(response, identity[1], confidence)
+                resolved, reason = interpret_match(response, identity[1], confidence, kingdom)
                 memo[identity] = (resolved, reason, key)
             except (httpx.HTTPError, OfflineCacheMiss) as error:
                 memo[identity] = (None, str(error), None)
