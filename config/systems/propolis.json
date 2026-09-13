@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "slug": "propolis",
+  "exploratory": true,
+  "behaving_organism": "Apis mellifera",
+  "behaviour": "resin collection and propolis deposition, including increased collection under pathogen challenge",
+  "direction_semantics": {
+    "accept": "A plant resin source is directly reported as collected or deposited as propolis.",
+    "reject": null,
+    "unknown": "A resin source is available without observed collection, absent from a list, or lacks a direct collection observation."
+  },
+  "chemical_target_class": "plant-resin natural products",
+  "chemistry_backend": "LOTUS",
+  "taxonomy_kingdom": "Plantae",
+  "taxonomy_target": "resin_source",
+  "assay_organisms": [
+    "Candida albicans",
+    "Cryptococcus neoformans",
+    "Aspergillus fumigatus"
+  ],
+  "expected_outcome": "This system is the most likely of the three to retain records through the assay join because propolis chemistry has extensive experimental coverage.",
+  "seed_query": "honeybee propolis resin foraging plant source",
+  "europe_pmc_query": "TITLE_ABS:(honeybee OR honey bee OR Apis mellifera) AND TITLE_ABS:(propolis OR resin) AND (foraging OR collection OR plant OR source) AND OPEN_ACCESS:Y",
+  "screening_terms": ["propolis", "resin", "apis", "honeybee", "honey bee", "foraging", "collection", "plant source"],
+  "corpus_limit": 20,
+  "extraction_job_limit": 12,
+  "extraction_grounding": "single_quote_v1",
+  "run_chemistry": true,
+  "run_bioactivity": true,
+  "time_limit_hours": 4
+}

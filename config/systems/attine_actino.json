@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "slug": "attine_actino",
+  "exploratory": true,
+  "positive_control": true,
+  "behaving_organism": "attine ants",
+  "behaviour": "cultivation of cuticular Pseudonocardia that suppresses Escovopsis",
+  "direction_semantics": {
+    "accept": "An attine association with, maintenance of, or cultivation of cuticular Pseudonocardia is directly reported.",
+    "reject": "A controlled comparison directly reports absence or removal of the association.",
+    "unknown": "Association is inferred from omission or is not directly observed."
+  },
+  "chemical_target_class": "microbial antifungal compounds produced by ant-associated actinomycetes",
+  "chemistry_backend": "none",
+  "taxonomy_kingdom": "Bacteria",
+  "taxonomy_target": "cultivated_microbe",
+  "assay_organisms": [],
+  "expected_outcome": "The default extractor recovers explicit organism-compound-activity statements, including dentigerumycin, from the positive-control papers.",
+  "seed_query": "attine ant Pseudonocardia Escovopsis antifungal",
+  "europe_pmc_query": "TITLE_ABS:(attine OR fungus-growing ant) AND TITLE_ABS:(Pseudonocardia OR actinomycete OR Escovopsis) AND (antifungal OR antibiotic OR symbiosis) AND OPEN_ACCESS:Y",
+  "screening_terms": ["attine", "fungus-growing ant", "pseudonocardia", "actinomycete", "escovopsis", "antifungal", "dentigerumycin"],
+  "corpus_limit": 20,
+  "extraction_job_limit": 12,
+  "extraction_grounding": "single_quote_v1",
+  "run_chemistry": false,
+  "run_bioactivity": false,
+  "reference_sources": [
+    {
+      "citation": "Currie et al. 1999 Nature",
+      "doi": "10.1038/19519"
+    },
+    {
+      "citation": "Oh et al. 2009 Nature Chemical Biology",
+      "doi": "10.1038/nchembio.159"
+    }
+  ],
+  "time_limit_hours": 4
+}

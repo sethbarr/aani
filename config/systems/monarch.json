@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "slug": "monarch",
+  "exploratory": true,
+  "behaving_organism": "Danaus plexippus",
+  "behaviour": "oviposition preference on milkweed species by infected and uninfected females",
+  "direction_semantics": {
+    "accept": "A milkweed is directly preferred for oviposition in a reported observation or choice test.",
+    "reject": "A milkweed is directly avoided in an oviposition choice test.",
+    "unknown": "A milkweed is absent from a list or lacks a direct preference or avoidance observation."
+  },
+  "chemical_target_class": "milkweed natural products, including cardenolides",
+  "chemistry_backend": "LOTUS",
+  "taxonomy_kingdom": "Plantae",
+  "taxonomy_target": "oviposition_substrate",
+  "assay_organisms": [
+    "Candida albicans",
+    "Cryptococcus neoformans",
+    "Aspergillus fumigatus"
+  ],
+  "biological_assay_target": "Ophryocystis elektroscirrha",
+  "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+  "expected_outcome": "This system has the strongest behavioural design in the set and loses coverage at the assay join, showing that the measured assay wall generalises.",
+  "seed_query": "monarch oviposition milkweed cardenolide parasite",
+  "europe_pmc_query": "TITLE_ABS:(monarch OR Danaus plexippus) AND TITLE_ABS:(oviposition OR milkweed OR Asclepias) AND (cardenolide OR parasite OR Ophryocystis OR preference) AND OPEN_ACCESS:Y",
+  "screening_terms": ["danaus plexippus", "monarch", "oviposition", "milkweed", "asclepias", "ophryocystis", "cardenolide", "preference"],
+  "corpus_limit": 20,
+  "extraction_job_limit": 12,
+  "extraction_grounding": "single_quote_v1",
+  "run_chemistry": true,
+  "run_bioactivity": true,
+  "time_limit_hours": 4
+}
