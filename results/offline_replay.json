@@ -1,761 +1,210 @@
 {
   "status": "passed",
-  "verified_at": "2026-09-13T00:33:12.410529+00:00",
-  "upstream_stages": {
-    "status": "passed",
-    "files_compared": 50,
-    "checks": [
-      {
-        "original": "data/interim/extraction_gemini/observations.jsonl",
-        "replay": "data/interim/pipeline_offline_check/extraction_pilot/observations.jsonl",
-        "sha256": "f85067b154922dfaa980421ca44619e3cf9071c1bbc86943d1912dc42a8e5878",
-        "identical": true
-      },
-      {
-        "original": "data/interim/extraction_gemini/rejections.jsonl",
-        "replay": "data/interim/pipeline_offline_check/extraction_pilot/rejections.jsonl",
-        "sha256": "bbd8edb3aa4ecb1f2d32204eadca872b7d86df0895ca735212468a1137e517f7",
-        "identical": true
-      },
-      {
-        "original": "data/interim/extraction_gemini/failures.jsonl",
-        "replay": "data/interim/pipeline_offline_check/extraction_pilot/failures.jsonl",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "identical": true
-      },
-      {
-        "original": "data/interim/extraction_gemini/metrics.json",
-        "replay": "data/interim/pipeline_offline_check/extraction_pilot/metrics.json",
-        "sha256": "6e06622a83470945516cc3539a50dbe32228db6e2225ade5be3da383267b6d34",
-        "identical": true
-      },
-      {
-        "original": "data/interim/extraction_saverschek/observations.jsonl",
-        "replay": "data/interim/pipeline_offline_check/extraction_saverschek/observations.jsonl",
-        "sha256": "d44e9145de2f07b6344719fa58fb5147fbe6aaf3f8c6d85aef705d35d5878540",
-        "identical": true
-      },
-      {
-        "original": "data/interim/extraction_saverschek/rejections.jsonl",
-        "replay": "data/interim/pipeline_offline_check/extraction_saverschek/rejections.jsonl",
-        "sha256": "d653f4e646090ece9fb1b15042ab313a103d643e435ec0330529eafbfa2cefed",
-        "identical": true
-      },
-      {
-        "original": "data/interim/extraction_saverschek/failures.jsonl",
-        "replay": "data/interim/pipeline_offline_check/extraction_saverschek/failures.jsonl",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "identical": true
-      },
-      {
-        "original": "data/interim/extraction_saverschek/metrics.json",
-        "replay": "data/interim/pipeline_offline_check/extraction_saverschek/metrics.json",
-        "sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_pilot/observations.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_pilot/observations.jsonl",
-        "sha256": "40bccd963248ff6f761cbcdc9f09f0d9e5ad7175b199e806ff4ca9cd51a853de",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_pilot/review.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_pilot/review.jsonl",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_pilot/metrics.json",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_pilot/metrics.json",
-        "sha256": "074a3ff10615e178cdff0ecbe73698c35bdcd68294a65ab9873a4949bcf0dc70",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_recovered/observations.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_recovered/observations.jsonl",
-        "sha256": "afb6211a90ee0fa9de5e56b18b95375632d6ef42ee8c8246e8f316d7b2fad33a",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_recovered/review.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_recovered/review.jsonl",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_recovered/metrics.json",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_recovered/metrics.json",
-        "sha256": "3609e333bffc500b1f665dd9ade7144d4ebead55258787821ec351d8df27ba9c",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_saverschek/observations.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_saverschek/observations.jsonl",
-        "sha256": "54d238e722285c0be6f573bea069e9ae96253c96a69c6f5063a9509829b0723a",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_saverschek/review.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_saverschek/review.jsonl",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "identical": true
-      },
-      {
-        "original": "data/interim/taxonomy_saverschek/metrics.json",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_saverschek/metrics.json",
-        "sha256": "3609e333bffc500b1f665dd9ade7144d4ebead55258787821ec351d8df27ba9c",
-        "identical": true
-      },
-      {
-        "original": "data/interim/saverschek_audit/taxonomy/observations.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_audit/observations.jsonl",
-        "sha256": "0c613c125aef206094984b054870ddce77aa0bf52496b2b3d79cab73d3302c33",
-        "identical": true
-      },
-      {
-        "original": "data/interim/saverschek_audit/taxonomy/review.jsonl",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_audit/review.jsonl",
-        "sha256": "65e4da5beb63cdc27d8b66caaa6a83bccf7c982288ce8c7d219a115b0718997a",
-        "identical": true
-      },
-      {
-        "original": "data/interim/saverschek_audit/taxonomy/metrics.json",
-        "replay": "data/interim/pipeline_offline_check/taxonomy_audit/metrics.json",
-        "sha256": "c300e1bc0ab72ac7c9418e3b7c558ab4929491956b8409922434e42f41e7a9ce",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC10598784.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC10598784.json",
-        "sha256": "41b1e3c587b3bc83e603f34f2854acb2bbaa86f40bcac0f20e14d4e93c78ef04",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC10810168.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC10810168.json",
-        "sha256": "55bf9e8a2d829661486970451a43d63b68ab5c0362ce750c94d55fc13c66e0d9",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC11195475.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC11195475.json",
-        "sha256": "e337d793cb65f023c6a897ef4fc61eeb778e7d7c32dceb6136e1e918d9daaba3",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC11543716.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC11543716.json",
-        "sha256": "4546e42bbf65ad0a6500a6c3bf428260c2f549756ad85d79ce56fb9b7d4a8382",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC11596322.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC11596322.json",
-        "sha256": "79664985ebcee26ccbd244859f9416b4bc98a44a1de02533e961b127bd152b40",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC11824891.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC11824891.json",
-        "sha256": "fc75367424a9d1814663a1681a97e9aa706c168c571a9a01ab5c86e835d43db5",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC12238522.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC12238522.json",
-        "sha256": "b60ae532c655a544399453a29ab9a1af49d01114c35aed4e2b5bf63f2a0a48a0",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC12277563.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC12277563.json",
-        "sha256": "2867f662cab974b2f085346dd135609cb87650bd3e11c4bbded4d57fbd132a09",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC12308287.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC12308287.json",
-        "sha256": "dde75d1c68be677def3856c3ec18530829c830c4907c25cd726820c29a311507",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC12847897.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC12847897.json",
-        "sha256": "5de131808dbb4d5b87add8e73454d9a2566e8b4bf26da3719961f7bf4619e786",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC12941067.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC12941067.json",
-        "sha256": "c4b5ab0236533851ded456a96eb6b378bc9e243a17663a19ebe59e2df94dbb0a",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC5380341.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC5380341.json",
-        "sha256": "62bd742c014b968c2075f378c6814d11222032dc8f6ba1461af950b888ddb8c3",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC5414240.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC5414240.json",
-        "sha256": "d441f1938c7247fff5dc2626058665bd81c269c879c70564509ffad96a0ade61",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC5509771.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC5509771.json",
-        "sha256": "def7b91108641d3a0b6e375897aab9e7410c019adbd0cd65d35d721f19f22420",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC5746809.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC5746809.json",
-        "sha256": "9abe7d5d049151f29007c15b5222bd67a1e491d652be901c18c4f572a45432ef",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC5769659.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC5769659.json",
-        "sha256": "56acd62db007b8e7eaf8b93a80fd6f45b9c36b4ae6819cfaa9019a3fd2563023",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC6085703.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC6085703.json",
-        "sha256": "86659675244d36b75863a7d8746b140923d3b7d56d110ce66086631e4c630e6b",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC6106195.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC6106195.json",
-        "sha256": "538aadb8cac5b4bfb053c4e1280e2611d40f5678108393843b997acdafe66ad3",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC6155182.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC6155182.json",
-        "sha256": "b2a7f78d8ce8d2bd4b484c5d0a2215661960dbfa69b9df64443d6addbf8d22ea",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC6198993.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC6198993.json",
-        "sha256": "7f860534ccb5bf8363b2cadb24069ab35bc91045390d9251df87ddcd5c2ad3a1",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC6329224.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC6329224.json",
-        "sha256": "f59d6c56cadc689e1dbfffe3d00ddf1b9d6ce2584ab0b1a4eab3e5092bf96c54",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC6989564.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC6989564.json",
-        "sha256": "cf0ced1e0d24ab287ba58c29f10cdbbff591a9be91c385784131d088d9e5486e",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC7541895.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC7541895.json",
-        "sha256": "90cee597e10ea1d0ac93e6d5f9d61089c79203b8393e9ffd74980b1620225caf",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC7657914.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC7657914.json",
-        "sha256": "a38b1a024e0c892043520e0a55a1fd12930ad6c837a9ff2590be151552c073a6",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC8611346.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC8611346.json",
-        "sha256": "b30f899f2ff5d7cc290d6ce01003367cc6f81b582ed1990f8fbdd765c74edbd9",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC8778871.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC8778871.json",
-        "sha256": "9902bc170145c60d9d93ac3fa2e344f8ef8249cabca52049e28ced216f412827",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC9286363.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC9286363.json",
-        "sha256": "bb2376d9e31e5094464df63ba4d7bcdd2ad95549fdb243e539d31139f0350a72",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC9288931.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC9288931.json",
-        "sha256": "ec0dd5f7ba9003ca286813eecab926611084dac8942937c808b58571187da788",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC9636231.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC9636231.json",
-        "sha256": "ccde931bd19d0a98f5c8bccf418bbe90cbb9c20c5ef7c10498038ee3257c5afc",
-        "identical": true
-      },
-      {
-        "original": "data/interim/corpus/texts/PMC9965205.json",
-        "replay": "data/interim/pipeline_offline_check/corpus/texts/PMC9965205.json",
-        "sha256": "fec8b0c3eac48666e76c467b164430b55f82663d8ab89c5fe0a2e06455cfd4ec",
-        "identical": true
-      }
-    ]
-  },
-  "note": "Historical corpus/extraction/taxonomy regenerated from request-hashed cache. Completion timestamps in run manifests are not scientific outputs.",
-  "end_to_end_replay": {
-    "status": "passed",
-    "execution_manifest": "results/pipeline_replay/pipeline_execution.json",
-    "execution_manifest_sha256": "3006b4b2bee0198860b1e4084764ae4b4bed107e946cccf3c1122955b1869ef4",
-    "stage_returncodes": {
-      "behaviour": 0,
-      "chemistry": 0,
-      "bioactivity": 0,
-      "analysis": 0,
-      "funnel": 0
+  "verified_at": "2026-09-13T14:37:52.390728+00:00",
+  "blocked_reason": null,
+  "files_compared": 23,
+  "checks": [
+    {
+      "original": "data/processed/behaviour/observations.jsonl",
+      "replay": "data/interim/day2_replay/behaviour/observations.jsonl",
+      "sha256": "53cbc79b3658d574e5769b834d37b8f690e19628b0d9cdcefdf5f6efa927a2a5",
+      "identical": true
     },
-    "all_stages_used_offline": true,
-    "files_compared": 59,
-    "checks": [
-      {
-        "original": "data/processed/behaviour/observations.jsonl",
-        "replay": "data/processed/pipeline_replay/behaviour/observations.jsonl",
-        "sha256": "ae4c9900272601c57529e16378a968cbe3ce37a2ed7e326a6a4024d954ab324e",
-        "replay_sha256": "ae4c9900272601c57529e16378a968cbe3ce37a2ed7e326a6a4024d954ab324e",
-        "identical": true
-      },
-      {
-        "original": "data/processed/behaviour/genera.jsonl",
-        "replay": "data/processed/pipeline_replay/behaviour/genera.jsonl",
-        "sha256": "08968033cdb85a458cbc473ec76404c6bc663600c3de0c30747f3503235f59c8",
-        "replay_sha256": "08968033cdb85a458cbc473ec76404c6bc663600c3de0c30747f3503235f59c8",
-        "identical": true
-      },
-      {
-        "original": "data/processed/behaviour/all_genera.jsonl",
-        "replay": "data/processed/pipeline_replay/behaviour/all_genera.jsonl",
-        "sha256": "63757d823cb6332b5ad40a51f36fe7b0b8fc3d764865aeb4c86d76c58a6f2657",
-        "replay_sha256": "63757d823cb6332b5ad40a51f36fe7b0b8fc3d764865aeb4c86d76c58a6f2657",
-        "identical": true
-      },
-      {
-        "original": "data/processed/behaviour/conflicts.jsonl",
-        "replay": "data/processed/pipeline_replay/behaviour/conflicts.jsonl",
-        "sha256": "413500ffc5a549b4dc75ca25ea9a6396ff4f53b7b99a98a914039bd50e51ff2e",
-        "replay_sha256": "413500ffc5a549b4dc75ca25ea9a6396ff4f53b7b99a98a914039bd50e51ff2e",
-        "identical": true
-      },
-      {
-        "original": "data/processed/behaviour/metrics.json",
-        "replay": "data/processed/pipeline_replay/behaviour/metrics.json",
-        "sha256": "28fd586086624905ca3b0284c388fadc58662738b22d5bae8b2dec92b2e39bfd",
-        "replay_sha256": "28fd586086624905ca3b0284c388fadc58662738b22d5bae8b2dec92b2e39bfd",
-        "identical": true
-      },
-      {
-        "original": "data/processed/behaviour/miconia_verification.json",
-        "replay": "data/processed/pipeline_replay/behaviour/miconia_verification.json",
-        "sha256": "cd6ee56ff64bbd2db8548e683fc305ec1f4669c9ce65a6cbca848382e86d4e4c",
-        "replay_sha256": "cd6ee56ff64bbd2db8548e683fc305ec1f4669c9ce65a6cbca848382e86d4e4c",
-        "identical": true
-      },
-      {
-        "original": "data/processed/chemistry/occurrences.jsonl",
-        "replay": "data/processed/pipeline_replay/chemistry/occurrences.jsonl",
-        "sha256": "37c9e4e74cb0b633be27f5197f45c3ac9b091612a048a68da5762c34d698198b",
-        "replay_sha256": "37c9e4e74cb0b633be27f5197f45c3ac9b091612a048a68da5762c34d698198b",
-        "identical": true
-      },
-      {
-        "original": "data/processed/chemistry/review.jsonl",
-        "replay": "data/processed/pipeline_replay/chemistry/review.jsonl",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "identical": true
-      },
-      {
-        "original": "data/processed/chemistry/metrics.json",
-        "replay": "data/processed/pipeline_replay/chemistry/metrics.json",
-        "sha256": "fe261b5ad544ab882bb0c735bb6ab1ebbbf8249ff2990e648edd0e76a461a321",
-        "replay_sha256": "fe261b5ad544ab882bb0c735bb6ab1ebbbf8249ff2990e648edd0e76a461a321",
-        "identical": true
-      },
-      {
-        "original": "data/processed/chemistry/genus_coverage.jsonl",
-        "replay": "data/processed/pipeline_replay/chemistry/genus_coverage.jsonl",
-        "sha256": "fb344c3cb676905abfe08ac196383a1d3f0a976bf6b568767410f387878ace7e",
-        "replay_sha256": "fb344c3cb676905abfe08ac196383a1d3f0a976bf6b568767410f387878ace7e",
-        "identical": true
-      },
-      {
-        "original": "data/processed/bioactivity/labels.jsonl",
-        "replay": "data/processed/pipeline_replay/bioactivity/labels.jsonl",
-        "sha256": "875e1151bbdd1ae9d490d9894b5df6626f1f174e333f19b6b37eddee8f3baf59",
-        "replay_sha256": "875e1151bbdd1ae9d490d9894b5df6626f1f174e333f19b6b37eddee8f3baf59",
-        "identical": true
-      },
-      {
-        "original": "data/processed/bioactivity/measurements.jsonl",
-        "replay": "data/processed/pipeline_replay/bioactivity/measurements.jsonl",
-        "sha256": "b77767be655f6ba7a6ec86a15901a8973680126147ba8059dbea0dc5e6ca9556",
-        "replay_sha256": "b77767be655f6ba7a6ec86a15901a8973680126147ba8059dbea0dc5e6ca9556",
-        "identical": true
-      },
-      {
-        "original": "data/processed/bioactivity/retrieval_status.jsonl",
-        "replay": "data/processed/pipeline_replay/bioactivity/retrieval_status.jsonl",
-        "sha256": "d4997fcc3a80ad7f907aa5cad252f4516c940d2076a3f5e8a52f6b294b3b5524",
-        "replay_sha256": "d4997fcc3a80ad7f907aa5cad252f4516c940d2076a3f5e8a52f6b294b3b5524",
-        "identical": true
-      },
-      {
-        "original": "data/processed/bioactivity/query_manifest.json",
-        "replay": "data/processed/pipeline_replay/bioactivity/query_manifest.json",
-        "sha256": "d1c772cf45f1c6eb70baa49f2ceb5722ff2c5fbcc40b15087a79d3bde7777e71",
-        "replay_sha256": "d1c772cf45f1c6eb70baa49f2ceb5722ff2c5fbcc40b15087a79d3bde7777e71",
-        "identical": true
-      },
-      {
-        "original": "data/processed/bioactivity/metrics.json",
-        "replay": "data/processed/pipeline_replay/bioactivity/metrics.json",
-        "sha256": "a2baa9f2ff3a765e0d77364906602c51109285b598978fbc4eeecf173d2ff150",
-        "replay_sha256": "a2baa9f2ff3a765e0d77364906602c51109285b598978fbc4eeecf173d2ff150",
-        "identical": true
-      },
-      {
-        "original": "data/processed/bioactivity/selection.json",
-        "replay": "data/processed/pipeline_replay/bioactivity/selection.json",
-        "sha256": "f710220d6ed164ec785f7ede0f71bb622795ce52584fb0a380f34de12c6c3697",
-        "replay_sha256": "f710220d6ed164ec785f7ede0f71bb622795ce52584fb0a380f34de12c6c3697",
-        "identical": true
-      },
-      {
-        "original": "data/processed/bioactivity/eligible_assays.jsonl",
-        "replay": "data/processed/pipeline_replay/bioactivity/eligible_assays.jsonl",
-        "sha256": "6e22d725c7e013b6f2481155af3e5773907086c57166ce5cb90f9d60448d920a",
-        "replay_sha256": "6e22d725c7e013b6f2481155af3e5773907086c57166ce5cb90f9d60448d920a",
-        "identical": true
-      },
-      {
-        "original": "results/primary/summary.json",
-        "replay": "results/pipeline_replay/primary/summary.json",
-        "sha256": "3bb36b5cccbad572d4a3b94790e4104ab6edc3f4a6ff72514afdd978c2d89ea2",
-        "replay_sha256": "3bb36b5cccbad572d4a3b94790e4104ab6edc3f4a6ff72514afdd978c2d89ea2",
-        "identical": true
-      },
-      {
-        "original": "results/primary/genera.csv",
-        "replay": "results/pipeline_replay/primary/genera.csv",
-        "sha256": "7f37dfa7e1f0ba29fb6f4e204b2b6f08c66427d64c1ee79c2fa93fc73b27974d",
-        "replay_sha256": "7f37dfa7e1f0ba29fb6f4e204b2b6f08c66427d64c1ee79c2fa93fc73b27974d",
-        "identical": true
-      },
-      {
-        "original": "results/primary/compounds.csv",
-        "replay": "results/pipeline_replay/primary/compounds.csv",
-        "sha256": "15f72ef3ddf1e9f477a31596f82adc4c484feef716d60d768af6109d87d3f659",
-        "replay_sha256": "15f72ef3ddf1e9f477a31596f82adc4c484feef716d60d768af6109d87d3f659",
-        "identical": true
-      },
-      {
-        "original": "results/primary/review.jsonl",
-        "replay": "results/pipeline_replay/primary/review.jsonl",
-        "sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "replay_sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "identical": true
-      },
-      {
-        "original": "results/primary/null.npy",
-        "replay": "results/pipeline_replay/primary/null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "results/primary/family_null.npy",
-        "replay": "results/pipeline_replay/primary/family_null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/primary/genera.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/primary/genera.jsonl",
-        "sha256": "0b6d5445617cede4100011c9d7aa8b6b249514799812d73e9d4c387a68b70a5f",
-        "replay_sha256": "0b6d5445617cede4100011c9d7aa8b6b249514799812d73e9d4c387a68b70a5f",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/primary/compounds.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/primary/compounds.jsonl",
-        "sha256": "1c5b1a20d36530567d139b8069bc394c8f73ecc4d6f6ad8432eae3f6c57b3060",
-        "replay_sha256": "1c5b1a20d36530567d139b8069bc394c8f73ecc4d6f6ad8432eae3f6c57b3060",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/primary/review.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/primary/review.jsonl",
-        "sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "replay_sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "identical": true
-      },
-      {
-        "original": "results/experimental/summary.json",
-        "replay": "results/pipeline_replay/experimental/summary.json",
-        "sha256": "79d1aa0afc5735f5467e1cd73d51053c7e58cc069c1acb95389c79d9458322c3",
-        "replay_sha256": "79d1aa0afc5735f5467e1cd73d51053c7e58cc069c1acb95389c79d9458322c3",
-        "identical": true
-      },
-      {
-        "original": "results/experimental/genera.csv",
-        "replay": "results/pipeline_replay/experimental/genera.csv",
-        "sha256": "7f37dfa7e1f0ba29fb6f4e204b2b6f08c66427d64c1ee79c2fa93fc73b27974d",
-        "replay_sha256": "7f37dfa7e1f0ba29fb6f4e204b2b6f08c66427d64c1ee79c2fa93fc73b27974d",
-        "identical": true
-      },
-      {
-        "original": "results/experimental/compounds.csv",
-        "replay": "results/pipeline_replay/experimental/compounds.csv",
-        "sha256": "15f72ef3ddf1e9f477a31596f82adc4c484feef716d60d768af6109d87d3f659",
-        "replay_sha256": "15f72ef3ddf1e9f477a31596f82adc4c484feef716d60d768af6109d87d3f659",
-        "identical": true
-      },
-      {
-        "original": "results/experimental/review.jsonl",
-        "replay": "results/pipeline_replay/experimental/review.jsonl",
-        "sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "replay_sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "identical": true
-      },
-      {
-        "original": "results/experimental/null.npy",
-        "replay": "results/pipeline_replay/experimental/null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "results/experimental/family_null.npy",
-        "replay": "results/pipeline_replay/experimental/family_null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/experimental/genera.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/experimental/genera.jsonl",
-        "sha256": "0b6d5445617cede4100011c9d7aa8b6b249514799812d73e9d4c387a68b70a5f",
-        "replay_sha256": "0b6d5445617cede4100011c9d7aa8b6b249514799812d73e9d4c387a68b70a5f",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/experimental/compounds.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/experimental/compounds.jsonl",
-        "sha256": "1c5b1a20d36530567d139b8069bc394c8f73ecc4d6f6ad8432eae3f6c57b3060",
-        "replay_sha256": "1c5b1a20d36530567d139b8069bc394c8f73ecc4d6f6ad8432eae3f6c57b3060",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/experimental/review.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/experimental/review.jsonl",
-        "sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "replay_sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "identical": true
-      },
-      {
-        "original": "results/delayed/summary.json",
-        "replay": "results/pipeline_replay/delayed/summary.json",
-        "sha256": "b5320c3f642d0fcbb1839d685c173f266831ce3ab7c4d848cbfbf73db59a45a5",
-        "replay_sha256": "b5320c3f642d0fcbb1839d685c173f266831ce3ab7c4d848cbfbf73db59a45a5",
-        "identical": true
-      },
-      {
-        "original": "results/delayed/genera.csv",
-        "replay": "results/pipeline_replay/delayed/genera.csv",
-        "sha256": "4a956c6dbe4b7c7e468b27cd8a8d445b3470ad21fb84a529a1aead1df1344366",
-        "replay_sha256": "4a956c6dbe4b7c7e468b27cd8a8d445b3470ad21fb84a529a1aead1df1344366",
-        "identical": true
-      },
-      {
-        "original": "results/delayed/compounds.csv",
-        "replay": "results/pipeline_replay/delayed/compounds.csv",
-        "sha256": "2b1da2c186e01f779e14e2aed36e28f4a9dd2c5c1291e0b792c05c4e3e1fc754",
-        "replay_sha256": "2b1da2c186e01f779e14e2aed36e28f4a9dd2c5c1291e0b792c05c4e3e1fc754",
-        "identical": true
-      },
-      {
-        "original": "results/delayed/review.jsonl",
-        "replay": "results/pipeline_replay/delayed/review.jsonl",
-        "sha256": "90dcad39db4066baff15dea6847208de394ccbd17f5be3ff35b8feada5b8a3b2",
-        "replay_sha256": "90dcad39db4066baff15dea6847208de394ccbd17f5be3ff35b8feada5b8a3b2",
-        "identical": true
-      },
-      {
-        "original": "results/delayed/null.npy",
-        "replay": "results/pipeline_replay/delayed/null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "results/delayed/family_null.npy",
-        "replay": "results/pipeline_replay/delayed/family_null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/delayed/genera.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/delayed/genera.jsonl",
-        "sha256": "76bf26e0b0ff5628d6e1ca35774abfaea3cc564675e926e3f83f68eb0d4b0ba9",
-        "replay_sha256": "76bf26e0b0ff5628d6e1ca35774abfaea3cc564675e926e3f83f68eb0d4b0ba9",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/delayed/compounds.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/delayed/compounds.jsonl",
-        "sha256": "20bea35995c347271d62e7a781f47cf996f90b8d82d13a3d835247bd02046220",
-        "replay_sha256": "20bea35995c347271d62e7a781f47cf996f90b8d82d13a3d835247bd02046220",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/delayed/review.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/delayed/review.jsonl",
-        "sha256": "90dcad39db4066baff15dea6847208de394ccbd17f5be3ff35b8feada5b8a3b2",
-        "replay_sha256": "90dcad39db4066baff15dea6847208de394ccbd17f5be3ff35b8feada5b8a3b2",
-        "identical": true
-      },
-      {
-        "original": "results/nondiscordant/summary.json",
-        "replay": "results/pipeline_replay/nondiscordant/summary.json",
-        "sha256": "eacff8ba9df4fe969d20600d2e334ef0a584e682444b152a698cff23165e572e",
-        "replay_sha256": "eacff8ba9df4fe969d20600d2e334ef0a584e682444b152a698cff23165e572e",
-        "identical": true
-      },
-      {
-        "original": "results/nondiscordant/genera.csv",
-        "replay": "results/pipeline_replay/nondiscordant/genera.csv",
-        "sha256": "8e886bcc14771cea0de7ff486aa2750adb603bb6b95b7fdda4c58803cdccce2b",
-        "replay_sha256": "8e886bcc14771cea0de7ff486aa2750adb603bb6b95b7fdda4c58803cdccce2b",
-        "identical": true
-      },
-      {
-        "original": "results/nondiscordant/compounds.csv",
-        "replay": "results/pipeline_replay/nondiscordant/compounds.csv",
-        "sha256": "b062377c598159abf519a1123fb0973fd1fb9c3daa854bf04f3ea459b96cebdb",
-        "replay_sha256": "b062377c598159abf519a1123fb0973fd1fb9c3daa854bf04f3ea459b96cebdb",
-        "identical": true
-      },
-      {
-        "original": "results/nondiscordant/review.jsonl",
-        "replay": "results/pipeline_replay/nondiscordant/review.jsonl",
-        "sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "replay_sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "identical": true
-      },
-      {
-        "original": "results/nondiscordant/null.npy",
-        "replay": "results/pipeline_replay/nondiscordant/null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "results/nondiscordant/family_null.npy",
-        "replay": "results/pipeline_replay/nondiscordant/family_null.npy",
-        "sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "replay_sha256": "fdee2f2368bf2af9c942f32cce9d982e48dfc46889bf923e99bc9ac834a4ba46",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/nondiscordant/genera.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/nondiscordant/genera.jsonl",
-        "sha256": "ee6c87e540d064fdcf240381f1c7797670dac93f35b99be6c503e4a3b77c1bae",
-        "replay_sha256": "ee6c87e540d064fdcf240381f1c7797670dac93f35b99be6c503e4a3b77c1bae",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/nondiscordant/compounds.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/nondiscordant/compounds.jsonl",
-        "sha256": "222823438649cb8782ab060f4e7d0607e4eec8606f96b13ae3082818c1e92e40",
-        "replay_sha256": "222823438649cb8782ab060f4e7d0607e4eec8606f96b13ae3082818c1e92e40",
-        "identical": true
-      },
-      {
-        "original": "data/processed/analysis/nondiscordant/review.jsonl",
-        "replay": "data/processed/pipeline_replay/analysis/nondiscordant/review.jsonl",
-        "sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "replay_sha256": "d1a3048fb466da594d1cf45e7324dd1d0da7c82b626b186133c6ed893c82721f",
-        "identical": true
-      },
-      {
-        "original": "results/metrics.json",
-        "replay": "results/pipeline_replay/metrics.json",
-        "sha256": "28aa236ffd9234ecde4f4c238c51de6165f0fc10f231942d9617d76c328089e2",
-        "replay_sha256": "28aa236ffd9234ecde4f4c238c51de6165f0fc10f231942d9617d76c328089e2",
-        "identical": true
-      },
-      {
-        "original": "results/summary.json",
-        "replay": "results/pipeline_replay/summary.json",
-        "sha256": "6e9937f610f374e0916aafdd4b9809077a9a6b1c553740f9de63c9d14ae1d901",
-        "replay_sha256": "6e9937f610f374e0916aafdd4b9809077a9a6b1c553740f9de63c9d14ae1d901",
-        "identical": true
-      },
-      {
-        "original": "results/candidate_genera.csv",
-        "replay": "results/pipeline_replay/candidate_genera.csv",
-        "sha256": "911a8d0b27d81e4b89458a86f76b57aac1c364b1e34da79f72c4352505cedc5c",
-        "replay_sha256": "911a8d0b27d81e4b89458a86f76b57aac1c364b1e34da79f72c4352505cedc5c",
-        "identical": true
-      },
-      {
-        "original": "results/funnel.csv",
-        "replay": "results/pipeline_replay/funnel.csv",
-        "sha256": "8716a0ecac96908d7234e83f3f1b3546ad8ad646f50fc0e473087fdeed3a0386",
-        "replay_sha256": "8716a0ecac96908d7234e83f3f1b3546ad8ad646f50fc0e473087fdeed3a0386",
-        "identical": true
-      },
-      {
-        "original": "results/pipeline_report.md",
-        "replay": "results/pipeline_replay/pipeline_report.md",
-        "sha256": "5ce57b5c73590021935802f62b14f8f7e4cdcb7f0ca89e9ffaf926a5101ed1fa",
-        "replay_sha256": "5ce57b5c73590021935802f62b14f8f7e4cdcb7f0ca89e9ffaf926a5101ed1fa",
-        "identical": true
-      },
-      {
-        "original": "data/interim/chemistry/occurrence_contract.csv",
-        "replay": "data/interim/pipeline_offline_check/chemistry_final/occurrence_contract.csv",
-        "sha256": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
-        "replay_sha256": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
-        "identical": true
-      }
-    ],
-    "funnel_semantically_identical_fields": [
-      "counts",
-      "stages",
-      "cohorts",
-      "curation_bridge",
-      "miconia_conflict_verification",
-      "stage_metrics",
-      "status",
-      "estimable",
-      "inference_blockers"
-    ],
-    "volatile_manifest_fields_excluded_from_byte_comparison": [
-      "generated_at",
-      "completed_at",
-      "offline",
-      "input/output directory paths"
-    ]
-  },
-  "total_byte_identical_comparisons": 109,
-  "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
+    {
+      "original": "data/processed/behaviour/genera.jsonl",
+      "replay": "data/interim/day2_replay/behaviour/genera.jsonl",
+      "sha256": "e89c8c4a82ee96ca3a5770a3701f0610b60a69d248fb85eb23ede536d86c901a",
+      "identical": true
+    },
+    {
+      "original": "data/processed/behaviour/all_genera.jsonl",
+      "replay": "data/interim/day2_replay/behaviour/all_genera.jsonl",
+      "sha256": "cab7d38ea4153dd5fbf0d9ddea6954d73e135d04ea4b85eb2a0b82eaf7d4a4bd",
+      "identical": true
+    },
+    {
+      "original": "data/processed/behaviour/metrics.json",
+      "replay": "data/interim/day2_replay/behaviour/metrics.json",
+      "sha256": "4002be6c0a7f250f9ca4733f4d515aaac16a13901558ce572bf7041e189eadbf",
+      "identical": true
+    },
+    {
+      "original": "data/processed/bioactivity/labels.jsonl",
+      "replay": "data/interim/day2_replay/bioactivity/labels.jsonl",
+      "sha256": "95c7aac2c46bda48cbb112299aefe7c84f869fa567374ca6944234ce73c59b4d",
+      "identical": true
+    },
+    {
+      "original": "data/processed/bioactivity/measurements.jsonl",
+      "replay": "data/interim/day2_replay/bioactivity/measurements.jsonl",
+      "sha256": "e71de1253732ef7f52c77ceb1090669926bee04403c7c6ae79563d73149b592a",
+      "identical": true
+    },
+    {
+      "original": "data/processed/bioactivity/retrieval_status.jsonl",
+      "replay": "data/interim/day2_replay/bioactivity/retrieval_status.jsonl",
+      "sha256": "9e8f9c145132604bc8584e52d8f677f34fb54e930d1ad464ad27be39af971e00",
+      "identical": true
+    },
+    {
+      "original": "data/processed/bioactivity/metrics.json",
+      "replay": "data/interim/day2_replay/bioactivity/metrics.json",
+      "sha256": "143d16707ea5f75bd88d9b388c890be6c31b74f0b925c111a95b02065d59e7d9",
+      "identical": true
+    },
+    {
+      "original": "results/summary.json",
+      "replay": "data/interim/day2_replay/analysis/summary.json",
+      "sha256": "93f1a550390071d6fbd5e5ded2222613fec4f9ec6ace317f6c352a1f48f8fa26",
+      "identical": true
+    },
+    {
+      "original": "results/metrics.json",
+      "replay": "data/interim/day2_replay/analysis/metrics.json",
+      "sha256": "01164964f60024aee5f907b56404a5539f5a57f5f871ab3875dfc39ed7567e08",
+      "identical": true
+    },
+    {
+      "original": "results/candidate_genera.csv",
+      "replay": "data/interim/day2_replay/analysis/candidate_genera.csv",
+      "sha256": "911a8d0b27d81e4b89458a86f76b57aac1c364b1e34da79f72c4352505cedc5c",
+      "identical": true
+    },
+    {
+      "original": "results/primary/genera.csv",
+      "replay": "data/interim/day2_replay/analysis/primary/genera.csv",
+      "sha256": "7f37dfa7e1f0ba29fb6f4e204b2b6f08c66427d64c1ee79c2fa93fc73b27974d",
+      "identical": true
+    },
+    {
+      "original": "results/primary/compounds.csv",
+      "replay": "data/interim/day2_replay/analysis/primary/compounds.csv",
+      "sha256": "15f72ef3ddf1e9f477a31596f82adc4c484feef716d60d768af6109d87d3f659",
+      "identical": true
+    },
+    {
+      "original": "results/primary/summary.json",
+      "replay": "data/interim/day2_replay/analysis/primary/summary.json",
+      "sha256": "bb4dc17b69f5ab53ef7c38aa074b2716ae19e0cf7f25874d72721f270eb983c2",
+      "identical": true
+    },
+    {
+      "original": "results/experimental/genera.csv",
+      "replay": "data/interim/day2_replay/analysis/experimental/genera.csv",
+      "sha256": "7f37dfa7e1f0ba29fb6f4e204b2b6f08c66427d64c1ee79c2fa93fc73b27974d",
+      "identical": true
+    },
+    {
+      "original": "results/experimental/compounds.csv",
+      "replay": "data/interim/day2_replay/analysis/experimental/compounds.csv",
+      "sha256": "15f72ef3ddf1e9f477a31596f82adc4c484feef716d60d768af6109d87d3f659",
+      "identical": true
+    },
+    {
+      "original": "results/experimental/summary.json",
+      "replay": "data/interim/day2_replay/analysis/experimental/summary.json",
+      "sha256": "4060bb0a9de00b6f75452dea8ca7578c9c930a78a87a3f100b76aacb6b1eecc7",
+      "identical": true
+    },
+    {
+      "original": "results/delayed/genera.csv",
+      "replay": "data/interim/day2_replay/analysis/delayed/genera.csv",
+      "sha256": "4a956c6dbe4b7c7e468b27cd8a8d445b3470ad21fb84a529a1aead1df1344366",
+      "identical": true
+    },
+    {
+      "original": "results/delayed/compounds.csv",
+      "replay": "data/interim/day2_replay/analysis/delayed/compounds.csv",
+      "sha256": "2b1da2c186e01f779e14e2aed36e28f4a9dd2c5c1291e0b792c05c4e3e1fc754",
+      "identical": true
+    },
+    {
+      "original": "results/delayed/summary.json",
+      "replay": "data/interim/day2_replay/analysis/delayed/summary.json",
+      "sha256": "b5320c3f642d0fcbb1839d685c173f266831ce3ab7c4d848cbfbf73db59a45a5",
+      "identical": true
+    },
+    {
+      "original": "results/nondiscordant/genera.csv",
+      "replay": "data/interim/day2_replay/analysis/nondiscordant/genera.csv",
+      "sha256": "8e886bcc14771cea0de7ff486aa2750adb603bb6b95b7fdda4c58803cdccce2b",
+      "identical": true
+    },
+    {
+      "original": "results/nondiscordant/compounds.csv",
+      "replay": "data/interim/day2_replay/analysis/nondiscordant/compounds.csv",
+      "sha256": "b062377c598159abf519a1123fb0973fd1fb9c3daa854bf04f3ea459b96cebdb",
+      "identical": true
+    },
+    {
+      "original": "results/nondiscordant/summary.json",
+      "replay": "data/interim/day2_replay/analysis/nondiscordant/summary.json",
+      "sha256": "328abf76702f7f31238c9b75673f9bab891088735692381d2c7403c3975a935c",
+      "identical": true
+    }
+  ],
+  "baseline_inputs": [
+    {
+      "path": "data/interim/saverschek_audit/natural_audit.json",
+      "sha256": "6bfbedec4ea1ae511ea4619075f3a6e586790522c3a63c13afa91f089597275e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/saverschek_audit/natural_notes.md",
+      "sha256": "9710ed56aaa781aeb638131804a156963414fa09c6dd7f1e6a6fb5bd04156d10",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/seth/Documents/ChatGPT/hackathon/scripts/recall_baseline.py",
+      "sha256": "140c60488dad86a7dbe4ae6a2825c64cf8e242dfae5f4ba952182e241a026dc1",
+      "unchanged": true
+    },
+    {
+      "path": "src/evaluation/recall.py",
+      "sha256": "657bd629521bb5867a5c687bb9d045d1ef5fb8be51904bc27774d74cdc33f4e1",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/extraction_saverschek/observations.jsonl",
+      "sha256": "d44e9145de2f07b6344719fa58fb5147fbe6aaf3f8c6d85aef705d35d5878540",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/extraction_saverschek/rejections.jsonl",
+      "sha256": "d653f4e646090ece9fb1b15042ab313a103d643e435ec0330529eafbfa2cefed",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/extraction_saverschek/metrics.json",
+      "sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/extraction_saverschek/run_manifest.json",
+      "sha256": "da1a57dae81504301cd4b2fcb6825f0025a2a78e68a36196c734e2079fe79d2d",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "sha256": "fd9fa7e6954201b7c278d01d79af0283fe828aded8d4130ed7f5fc0c1b1bea04",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/extraction_saverschek/responses/879dfc2e9796044d9d30281be7278487fe7a8de7fff4d1261433abe423d5d857.json",
+      "sha256": "7cac82199df82c743ec69ab06c9ae09061f69c63d7eb7e44f716cc350d919149",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/extraction_saverschek/responses/87eee85c85a2c72ac1a75ac860a1d831bcd88b88af325d3b851085cedf02a952.json",
+      "sha256": "02eba4f88aa0c0684abec47f922cc498092378578c5a39586c0a203596cf0d56",
+      "unchanged": true
+    }
+  ],
   "frozen_files": [
     {
       "path": "docs/analysis_plan.md",
@@ -768,22 +217,6 @@
       "matches_frozen_commit": true
     }
   ],
-  "validation": {
-    "scientific_tests": {
-      "tests": 73,
-      "failures": 0,
-      "errors": 0,
-      "skipped": 0
-    },
-    "test_command": ".venv/bin/pytest -q --ignore=tests/test_experiment_planner.py --junitxml=results/pipeline_logs/scientific_tests.xml",
-    "test_scope": "Pipeline suite; separate experiment planner excluded",
-    "junit_report": "results/pipeline_logs/scientific_tests.xml",
-    "ruff_status": "passed",
-    "ruff_report": "results/pipeline_logs/ruff.txt"
-  },
-  "stage_specific_reports": [
-    "data/processed/behaviour/offline_replay.json",
-    "data/processed/chemistry/offline_replay.json",
-    "data/processed/stages_5_6_replay_verification.json"
-  ]
+  "scope": "Offline replay of behaviour with Trema supplement, full activity retrieval and analysis. Chemistry is the completed day-two full export scan, reused unchanged as an input.",
+  "prior_day1_replay": "results/day2_blockers/offline_replay.json"
 }

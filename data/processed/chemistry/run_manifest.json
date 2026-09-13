@@ -23,18 +23,18 @@
     "scope": "This pinned Zenodo export is licensed CC BY 4.0; no CC0 claim is inferred from other LOTUS dissemination channels."
   },
   "genus_input_path": "data/processed/behaviour/all_genera.jsonl",
-  "genus_input_sha256": "63757d823cb6332b5ad40a51f36fe7b0b8fc3d764865aeb4c86d76c58a6f2657",
+  "genus_input_sha256": "cab7d38ea4153dd5fbf0d9ddea6954d73e135d04ea4b85eb2a0b82eaf7d4a4bd",
   "transformer_sha256": "80301dc88b619c49873e2a388ec682814c3622e4de95548830474e38cba6a1c7",
   "importer_sha256": "52adc356c43352f108701cc15ec7f81d8fedab0b9a2d388f6eefa3afd7d5842f",
   "transform": {
     "export_records_scanned": 6467819,
-    "candidate_export_records": 53897,
-    "contract_rows": 27033,
-    "transform_review": 26864,
+    "candidate_export_records": 54243,
+    "contract_rows": 27235,
+    "transform_review": 27008,
     "contract_path": "data/interim/chemistry/occurrence_contract.csv",
-    "contract_sha256": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
+    "contract_sha256": "1dcd1d19cfbb269e4326c4a62979eed068fb4e1b03c69de8e611e1f37db806cb",
     "selected_source_rows_path": "data/interim/chemistry/selected_export_records.jsonl",
-    "selected_source_rows_sha256": "54bca87930e53e547698eecdf23dd0a076c9f959b026aa5eba4630a69b9358c0",
+    "selected_source_rows_sha256": "3deef277053c43379344548aee41e63d06a8065fa81ae88aaa1636139501f12d",
     "requested_genera": [
       "Acalypha",
       "Arabidopsis",
@@ -49,6 +49,7 @@
       "Sorocea",
       "Spondias",
       "Tetragastris",
+      "Trema",
       "Trichilia",
       "Vicia"
     ]
@@ -63,20 +64,20 @@
     "Import only this explicitly labelled local genus subset, not the entire bulk export; keep all occurrence provenance and deduplicate structures only by full InChIKey downstream."
   ],
   "metrics": {
-    "input_hash": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
+    "input_hash": "1dcd1d19cfbb269e4326c4a62979eed068fb4e1b03c69de8e611e1f37db806cb",
     "imported_at": "2026-09-13T00:04:50.467719+00:00",
-    "accepted": 27033,
+    "accepted": 27235,
     "review": 0,
-    "unique_occurrences": 3774,
-    "unique_compounds": 2183,
-    "genera_with_chemistry": 12,
+    "unique_occurrences": 3803,
+    "unique_compounds": 2198,
+    "genera_with_chemistry": 13,
     "status": "completed",
     "blocked_reason": null,
     "export_records_scanned": 6467819,
-    "candidate_export_records": 53897,
-    "transform_review": 26864,
-    "requested_genera": 15,
+    "candidate_export_records": 54243,
+    "transform_review": 27008,
+    "requested_genera": 16,
     "conflict_genera_with_chemistry": 4,
-    "eligible_genera_with_chemistry": 8
+    "eligible_genera_with_chemistry": 9
   }
 }

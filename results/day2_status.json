@@ -1,0 +1,278 @@
+{
+  "date": "2026-09-13",
+  "assembled_at": "2026-09-13T14:39:03.410627+00:00",
+  "status": "complete",
+  "blocked_reason": null,
+  "baseline": {
+    "PRIMARY": {
+      "species_denominator": 6,
+      "species_direction_pair_denominator": 6,
+      "unscorable_species": [],
+      "reference_provenance_species": {
+        "author_prose": 2,
+        "table_derived": 4
+      },
+      "table_membership_dependent_species": 4,
+      "stages": {
+        "detection": {
+          "species_count": 6,
+          "species_direction_pair_count": 6
+        },
+        "survival": {
+          "species_count": 2,
+          "species_direction_pair_count": 2
+        },
+        "correctness": {
+          "species_count": 2,
+          "species_direction_pair_count": 2
+        }
+      }
+    },
+    "CONTEXT": {
+      "species_denominator": 5,
+      "species_direction_pair_denominator": 10,
+      "unscorable_species": [],
+      "reference_provenance_species": {
+        "author_prose": 4,
+        "table_derived": 1
+      },
+      "table_membership_dependent_species": 1,
+      "stages": {
+        "detection": {
+          "species_count": 4,
+          "species_direction_pair_count": 4,
+          "direction_coverage": {
+            "both_directions_surfaced": 0,
+            "collapsed_to_one": 4,
+            "absent": 1,
+            "unscorable": 0
+          }
+        },
+        "survival": {
+          "species_count": 1,
+          "species_direction_pair_count": 1,
+          "direction_coverage": {
+            "both_directions_surfaced": 0,
+            "collapsed_to_one": 1,
+            "absent": 4,
+            "unscorable": 0
+          }
+        },
+        "correctness": {
+          "species_count": 1,
+          "species_direction_pair_count": 1,
+          "direction_coverage": {
+            "both_directions_surfaced": 0,
+            "collapsed_to_one": 1,
+            "absent": 4,
+            "unscorable": 0
+          }
+        }
+      }
+    }
+  },
+  "model_environment": {
+    "status": "available",
+    "reason": null,
+    "executable": "/opt/homebrew/bin/Rscript",
+    "version_output": "R version 4.5.0 (2025-04-11) \nlme4=2.0.6",
+    "error_output": ""
+  },
+  "trema": {
+    "reported_at": "2026-09-13T14:35:30.020911+00:00",
+    "status": "complete",
+    "blocked_reason": null,
+    "taxonomy": {
+      "source_name": "Trema micrantha",
+      "accepted_name": "Trema micranthum",
+      "accepted_usage_key": "582Z4",
+      "family": "Cannabaceae",
+      "match_type": "EXACT",
+      "confidence": 100.0,
+      "resolved_context_records": 7
+    },
+    "chemistry": {
+      "database": "LOTUS",
+      "has_chemistry": true,
+      "imported_records": 202,
+      "distinct_compounds": 26,
+      "distinct_occurrences": 29,
+      "exact_accepted_species_distinct_compounds": 6,
+      "exact_accepted_species_distinct_occurrences": 6,
+      "exact_accepted_species_source_records": 12,
+      "genus_level_distinct_occurrences": 29,
+      "genus_level_source_records": 190,
+      "genus_only_distinct_occurrences": 23,
+      "occurrence_ids_shared_between_levels": 6,
+      "occurrence_names": [
+        "Trema cannabina",
+        "Trema humbertii",
+        "Trema micrantha",
+        "Trema micranthum",
+        "Trema orientale",
+        "Trema orientalis",
+        "Trema tomentosa var. viridis"
+      ],
+      "scope_note": "The frozen genus-level join includes other Trema species and the legacy micrantha spelling; species-level labels require exact accepted-name equality. Occurrence IDs hash genus, compound and reference, so the species and genus occurrence sets overlap."
+    },
+    "bioactivity": {
+      "retrieval_complete": true,
+      "matched_compounds": 16,
+      "classified_compounds": 0,
+      "unknown_compounds": 26,
+      "retrieved_measurements": 586,
+      "measurement_label_reasons": {
+        "ineligible_assay": 569,
+        "unsupported_units": 13,
+        "flagged_measurement": 4
+      },
+      "classified_measurements": 0,
+      "failed_compounds": 0,
+      "database_version": "ChEMBL_37"
+    },
+    "join": {
+      "eligible_for_classified_primary_join": false,
+      "exclusion_reason": "no_classified_compounds",
+      "added_classified_rejected_genera": 0,
+      "interpretation": "Unknown activity remains unknown. Only classified compounds can add a genus to the primary join; the 25-genus feasibility gate still applies."
+    },
+    "inputs": [
+      {
+        "path": "data/interim/trema_resolution/manifest.json",
+        "sha256": "4fbaa1ad1d415153905c2d16c68807df4aadc9a1386b4743dcb2032b356f58ca"
+      },
+      {
+        "path": "data/interim/trema_resolution/observations.jsonl",
+        "sha256": "84ae72892a7c06013445f0d99f71580a0e9915293a8b8f28504c44e806f00a49"
+      },
+      {
+        "path": "data/interim/trema_resolution/chemistry/metrics.json",
+        "sha256": "c9e0877f4a754bf88775a6feb281f8b77821d79424cfbe4e2fc6940b6fd5d339"
+      },
+      {
+        "path": "data/interim/trema_resolution/chemistry/occurrences.jsonl",
+        "sha256": "5364fe018647033aadd4021ac0d0e7274e6f78e8bcf24232a2fe339f6de4b86b"
+      },
+      {
+        "path": "data/interim/trema_resolution/chemistry/genus_coverage.jsonl",
+        "sha256": "0f3a923eb08302b04df8bd1f5f6d8c81e851e37c656902797654d928ee0113a0"
+      },
+      {
+        "path": "data/interim/trema_resolution/bioactivity/metrics.json",
+        "sha256": "3f68e37c452c2540cf4690259d351e4e1ac2b3d6aaea6fff57b7ab04907a746f"
+      },
+      {
+        "path": "data/interim/trema_resolution/bioactivity/labels.jsonl",
+        "sha256": "0577cb7905c24f5bf9a4e18b800b5b1aa4c8e7091dfdb86f237204959c4ac5f5"
+      },
+      {
+        "path": "data/interim/trema_resolution/bioactivity/measurements.jsonl",
+        "sha256": "0f407042bae871f9b43a3d7d197a388a523499be9dcb272a55e204dc18f38adf"
+      },
+      {
+        "path": "data/interim/trema_resolution/bioactivity/query_manifest.json",
+        "sha256": "955c3465be55ef40e865a83c437343d6fd43ae4d38e06ff7ce35bdd5dbd1096d"
+      }
+    ]
+  },
+  "funnel_changes": {
+    "names_resolved": {
+      "before": 16,
+      "current": 17
+    },
+    "genera_after_aggregation": {
+      "before": 10,
+      "current": 11
+    },
+    "genera_with_chemistry": {
+      "before": 8,
+      "current": 9
+    },
+    "genera_with_classified_compounds": {
+      "before": 7,
+      "current": 7
+    },
+    "genera_available_for_primary_test": {
+      "before": 7,
+      "current": 7
+    },
+    "mapped_structures": {
+      "before": 2183,
+      "current": 2198
+    }
+  },
+  "primary_status": "feasibility_failure",
+  "primary_estimable": false,
+  "n_accepted": 6,
+  "n_rejected": 1,
+  "inference_blockers": [
+    "fewer_than_minimum_joined_genera",
+    "need_two_genera_per_direction"
+  ],
+  "verification": {
+    "status": "passed",
+    "files_compared": 23,
+    "frozen_files": [
+      {
+        "path": "docs/analysis_plan.md",
+        "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+        "matches_frozen_commit": true
+      },
+      {
+        "path": "config/analysis.json",
+        "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+        "matches_frozen_commit": true
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "results/recall_baseline.json",
+      "sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d"
+    },
+    {
+      "path": "results/recall_baseline.md",
+      "sha256": "2d01e3f36f4a4173980d19db2c4b8f5673091af6abcef9ca1e3fe97b57629afb"
+    },
+    {
+      "path": "results/metrics.json",
+      "sha256": "01164964f60024aee5f907b56404a5539f5a57f5f871ab3875dfc39ed7567e08"
+    },
+    {
+      "path": "results/funnel.json",
+      "sha256": "d6aa5582742e355ddf45ac7eb884fa336ca39fb5cac06fa12d47339750b7899d"
+    },
+    {
+      "path": "results/run_manifest.json",
+      "sha256": "cb757dbb270e231bff2cb837a6b0e8108d68ba24ea8a19e2b385ea69360d61f2"
+    },
+    {
+      "path": "results/offline_replay.json",
+      "sha256": "87d4f452d24822d42e0d9955097d54ebba1be0414c38d693ffaed4ff6b3c97ae"
+    },
+    {
+      "path": "data/processed/behaviour/run_manifest.json",
+      "sha256": "d17d8a0c2fd674ba79776d05831a511d6e8f32baee6e11bdc755a87ac354e5e8"
+    },
+    {
+      "path": "data/processed/chemistry/run_manifest.json",
+      "sha256": "db87cb865a102058959cd4464132862faccd1862ba8603f25c6c7604c313438f"
+    },
+    {
+      "path": "data/processed/bioactivity/run_manifest.json",
+      "sha256": "442de21eb904b4674442266313e93747926096eb15f70ed90e11459ec937e7d5"
+    },
+    {
+      "path": "results/day2_blockers/lme4_status.json",
+      "sha256": "382cfa1c3e55526f3bffcc392cff4dfad98e82a13a567854a1f38d7f26b56c41"
+    },
+    {
+      "path": "results/day2_blockers/trema_status.json",
+      "sha256": "fb76aba99184a30a8e1d7cccc3b58cb047c5bdff9a97f5a823d5b2056012b4e5"
+    },
+    {
+      "path": "docs/amendment_2026-09-13_trema_taxonomy.md",
+      "sha256": "c4e7e0640d4b18d9fdfdf78ca74abb3f7380b1eb9df2d8b289c7f4caa69597f9"
+    }
+  ]
+}

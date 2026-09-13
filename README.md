@@ -35,21 +35,22 @@ unstructured and unjoinable to chemistry.
 
 aani makes them computable: papers in, grounded behavioural observations out,
 resolved to accepted plant names, joined to chemical structures and measured
-antifungal activity, with a source anchor at every link.`
+antifungal activity, with a source anchor at every link.
 
 **What this run measured.** The pipeline executes end to end on public data with the
 analysis plan frozen before any outcome was seen. The primary test is
 non-estimable, and the coverage funnel says precisely why. Two findings stand:
 
-1. **Assay coverage is the binding constraint.** Of 2,183 mapped structures, 24 carry
-   an eligible antifungal measurement — 1.1%. Behavioural evidence is recoverable.
+1. **Assay coverage is the binding constraint.** Of 2,198 mapped structures, 24 carry
+   an eligible antifungal measurement. Behavioural evidence is recoverable.
    Phytochemistry is recoverable. Whole-organism antifungal activity data for plant
    natural products essentially is not.
 2. **Quote-grounding is necessary and far from sufficient.** 61 candidate records,
-   41 passed automatic grounding, 9 survived source review. Of the 89 directional
-   contexts that reached analysis, 6 came from model extraction and 83 from curator
-   audit. The gap is recall, not hallucination: exact-substring grounding cannot
-   survive tables, abbreviations and encoding artifacts.
+   41 passed automatic grounding, 9 survived source review; these are stage yields.
+   Of the 96 directional contexts that reached analysis, 6 came from model extraction
+   and 90 from curator audit. The [development baseline](results/recall_baseline.md)
+   measures the original extractor against one panel from one paper: all six PRIMARY
+   species were detected, and two survived grounding with the correct direction.
 
 The prior is old; the proposal to mine it dates to zoopharmacognosy work in the
 1990s. What is new is that extracting and joining scattered behavioural
@@ -63,7 +64,7 @@ summaries. Full texts, raw API caches, complete processed datasets and local
 research/build artifacts are excluded. Offline replay requires the prepared
 inputs and populated cache described in [the pipeline guide](docs/pipeline.md);
 a fresh clone alone cannot reproduce the full run. With those inputs available,
-run `.venv/bin/python -m scripts.run_pipeline --offline` without an API key.
+run the offline command below with the explicit Trema taxonomy supplement.
 
 The idea has a history: zoopharmacognosy was an established research proposal by
 the early 1990s, including Rodriguez and Wrangham's 1993 chapter on medicinal
@@ -116,45 +117,46 @@ comparison group and validation; generalisation is a future test.
 Stages 1-6 have executed. **The primary test is non-estimable at the prespecified
 thresholds:** seven joined genera, comprising six accepted and one rejected,
 fall below both the 25-genus trigger and the minimum two genera per direction.
-Effect estimates and P-values are null. R is installed; lme4 is unavailable,
-and no substitute model is fitted.
+Effect estimates and P-values are null. R 4.5.0 and lme4 2.0-6 are available;
+the feasibility gate prevents model fitting on the current data.
 
 | Coverage stage | Current result |
 | --- | --- |
 | Retrieved sources | 33 in this run's corpus lineage: 30 fixed-pilot plus three targeted additions |
 | Selected sources | 13: ten formally screened in and three source-following/targeted inclusions |
 | Model extraction | 23 jobs; 61 candidates; 41 grounding passes; nine original semantic inclusions |
-| Current source-audited evidence | 96 directional contexts before taxonomy; 89 matched contexts; 16 resolved species |
-| Genus aggregation | Ten eligible genera: six accepted, four rejected; five conflicts excluded |
-| Verified LOTUS chemistry | Eight eligible genera; Desmopsis and Hiraea have missing chemistry |
-| Classified-compound coverage | Seven eligible genera; Randia has zero classified compounds and is excluded |
+| Current source-audited evidence | 96 directional contexts before taxonomy; 96 matched contexts; 17 resolved species |
+| Genus aggregation | Eleven eligible genera: six accepted, five rejected; five conflicts excluded |
+| Verified LOTUS chemistry | Nine eligible genera; Desmopsis and Hiraea have missing chemistry |
+| Classified-compound coverage | Seven eligible genera; Randia and Trema have zero classified compounds and are excluded |
 | Primary test | Feasibility failure; no inferential statistic computed |
 
 Curator recovery replaces incomplete model summaries and has separate
 provenance; its contexts are not additional model successes or independent
 replicates. The Miconia conflict was verified from tococa/M. microphysca acceptance
-and Saverschek M. argentea acceptance and rejection. Trema remains on taxonomy
-review. See [the machine-readable funnel](results/funnel.json),
+and Saverschek M. argentea acceptance and rejection. Trema now resolves to accepted
+T. micranthum through a [dated taxonomy supplement](docs/amendment_2026-09-13_trema_taxonomy.md).
+Its 26 compounds all have unknown eligible activity. See [the machine-readable funnel](results/funnel.json),
 [run report](results/pipeline_report.md), and
 [Miconia verification](data/processed/behaviour/miconia_verification.json).
 
 Chemistry uses the complete, checksum-verified LOTUS v4 export, with a documented
 local genus filter and CC BY 4.0 attribution. Activity retrieval uses ChEMBL 37
-and retains unknowns outside the classified denominator. All 2,183 mapped
-structures were queried: seven active, 17 inactive and 2,159 unknown, with zero
-retrieval failures. The primary subset contains 1,851 structures; the remainder
+and retains unknowns outside the classified denominator. All 2,198 mapped
+structures were queried: seven active, 17 inactive and 2,174 unknown, with zero
+retrieval failures. The primary subset contains 1,866 structures; the remainder
 supports sensitivity reaggregation. See [export provenance](docs/chemistry_export.md).
 
 Run stages 3-6 from the prepared, source-audited taxonomy inputs:
 
 ```bash
-.venv/bin/python -m scripts.run_pipeline
+.venv/bin/python -m scripts.run_pipeline --taxonomy-supplement data/interim/trema_resolution/manifest.json
 ```
 
 Replay with no network requests:
 
 ```bash
-.venv/bin/python -m scripts.run_pipeline --offline
+.venv/bin/python -m scripts.run_pipeline --offline --taxonomy-supplement data/interim/trema_resolution/manifest.json
 ```
 
 The [frozen analysis plan](docs/analysis_plan.md) and `config/analysis.json` are
@@ -168,6 +170,12 @@ cutting, natural acceptability and comparative preference.
 Python 3.12; pandas for tables; validated structured JSON for extraction; R/lme4
 for the secondary model. API responses are cached under `data/raw/` by request
 hash. Each stage also supports replay from cached or explicitly imported data.
+
+The [day-two report](results/day2_status.md) records the three-stage extraction
+baseline, reference provenance and dependency/taxonomy outcomes. The development
+set has six PRIMARY species and five CONTEXT species, scored separately.
+Rebuild its unchanged-extractor measurement with
+`.venv/bin/python -m scripts.recall_baseline`.
 
 ## Prospective experimental validation
 

@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-from scripts.funnel import current_stages, historical_stages
+from scripts.funnel import current_stages, historical_stages, taxonomy_review_status
 from src.common.io import read_json, read_jsonl, write_json, write_jsonl
 
 
@@ -154,11 +154,25 @@ def test_real_current_behaviour_reports_five_conflicts_and_miconia() -> None:
     """Verify actual resolved species and excluded-genus counts from the merged evidence."""
     stages, _, miconia, _ = current_stages(Path("data/processed"), Path("results"))
     named = stage_map(stages)
-    assert named["names_resolved"]["count"] == 16
-    assert named["names_resolved"]["observation_contexts"] == 89
+    assert named["names_resolved"]["count"] == 17
+    assert named["names_resolved"]["observation_contexts"] == 96
     assert named["names_resolved"]["species_in_conflicted_genera"] == 6
-    assert named["genera_after_aggregation"]["count"] == 10
+    assert named["genera_after_aggregation"]["count"] == 11
     assert named["genera_after_aggregation"]["conflict_genera"] == 5
     assert miconia["accepted_names"] == ["Miconia argentea", "Miconia microphysca"]
     assert miconia["directions"] == ["accepted", "rejected"]
     assert miconia["sources"] == ["PMC11543716", "SAVERSCHEK2010"]
+
+
+def test_review_resolution_retains_history_and_reports_pending_names(tmp_path: Path) -> None:
+    """Clear only a name actually present in the current taxonomy-resolved table."""
+    review = tmp_path / "review.jsonl"
+    observations = tmp_path / "observations.jsonl"
+    write_jsonl(review, [{"plant_name_as_written": "Trema micrantha"},
+                        {"plant_name_as_written": "Pending species"}])
+    write_jsonl(observations, [{"plant_name_as_written": "Trema micrantha",
+                               "accepted_name": "Trema micranthum"}])
+    result = taxonomy_review_status(review, observations)
+    assert result["historical_taxonomy_review_species"] == ["Pending species", "Trema micrantha"]
+    assert result["taxonomy_review_species"] == ["Pending species"]
+    assert result["taxonomy_review_resolved_species"] == ["Trema micrantha"]

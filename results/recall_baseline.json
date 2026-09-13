@@ -1,0 +1,1501 @@
+{
+  "schema_version": 1,
+  "set_type": "DEVELOPMENT SET",
+  "source_id": "SAVERSCHEK2010",
+  "status": "complete",
+  "blocked_reason": null,
+  "unit": "species-direction pair",
+  "panel_species_denominator": 11,
+  "sampling_scope": "One panel from one paper; it is not a sample from any population.",
+  "name_matching": "Exact full names as written; taxonomy resolution does not gate this measurement.",
+  "direction_scoring": "Only structured outcome fields count; a second direction mentioned in a quote does not count as an emitted pair.",
+  "provenance_convention": "Conservative named-prose convention: author_prose requires an explicitly named species/genus and direction (named groups qualify). Table category-to-row mapping is table_derived even where group/complement prose corroborates the label. A mixed species receives its weaker pair tag. Numerical signs never define a reference direction.",
+  "inventory": {
+    "candidate_records": 14,
+    "grounding_passes": 6,
+    "grounding_failures": 8,
+    "reconciled_with_original_artifacts": true,
+    "blocked_reason": null,
+    "natural_panel_candidates": 11,
+    "outside_panel_candidates": 3
+  },
+  "groups": {
+    "PRIMARY": {
+      "species_denominator": 6,
+      "species_direction_pair_denominator": 6,
+      "unscorable_species": [],
+      "reference_provenance_species": {
+        "author_prose": 2,
+        "table_derived": 4
+      },
+      "table_membership_dependent_species": 4,
+      "stages": {
+        "detection": {
+          "species_count": 6,
+          "species_direction_pair_count": 6
+        },
+        "survival": {
+          "species_count": 2,
+          "species_direction_pair_count": 2
+        },
+        "correctness": {
+          "species_count": 2,
+          "species_direction_pair_count": 2
+        }
+      }
+    },
+    "CONTEXT": {
+      "species_denominator": 5,
+      "species_direction_pair_denominator": 10,
+      "unscorable_species": [],
+      "reference_provenance_species": {
+        "author_prose": 4,
+        "table_derived": 1
+      },
+      "table_membership_dependent_species": 1,
+      "stages": {
+        "detection": {
+          "species_count": 4,
+          "species_direction_pair_count": 4,
+          "direction_coverage": {
+            "both_directions_surfaced": 0,
+            "collapsed_to_one": 4,
+            "absent": 1,
+            "unscorable": 0
+          }
+        },
+        "survival": {
+          "species_count": 1,
+          "species_direction_pair_count": 1,
+          "direction_coverage": {
+            "both_directions_surfaced": 0,
+            "collapsed_to_one": 1,
+            "absent": 4,
+            "unscorable": 0
+          }
+        },
+        "correctness": {
+          "species_count": 1,
+          "species_direction_pair_count": 1,
+          "direction_coverage": {
+            "both_directions_surfaced": 0,
+            "collapsed_to_one": 1,
+            "absent": 4,
+            "unscorable": 0
+          }
+        }
+      }
+    }
+  },
+  "species": [
+    {
+      "species": "Desmopsis panamensis",
+      "group": "PRIMARY",
+      "reference_directions": [
+        "rejected"
+      ],
+      "provenance_strength": "author_prose",
+      "table_membership_dependency": false,
+      "reference_support": [
+        {
+          "direction": "rejected",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "individual_desmopsis",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 343,
+              "source_line_end": 347,
+              "evidence_quote": "trail clearing occurred. Desmopsis panamensis, on the other hand, was immediately rejected by all colonies, irrespective of the habitat (Fig. 3b). Foragers from all colonies showed active avoidance, which means almost no intake and a very marked trail-clearing behaviour on all tested days. Hymenaea courbaril was actively rejected by",
+              "raw_request_hashes": [
+                "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:2"
+      ],
+      "surviving_candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:2"
+      ],
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [
+        "rejected"
+      ],
+      "correct_directions": [
+        "rejected"
+      ],
+      "incorrect_surviving_directions": [],
+      "context_stages": null
+    },
+    {
+      "species": "Hiraea grandifolia",
+      "group": "PRIMARY",
+      "reference_directions": [
+        "rejected"
+      ],
+      "provenance_strength": "table_derived",
+      "table_membership_dependency": true,
+      "reference_support": [
+        {
+          "direction": "rejected",
+          "provenance_strength": "table_derived",
+          "attribution": "all_nine_except_spondias_and_miconia",
+          "table_membership_dependency": true,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_day2",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 384,
+              "source_line_end": 386,
+              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_immediate_group",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 584,
+              "source_line_end": 590,
+              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_caption",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 602,
+              "source_line_end": 605,
+              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_row_hiraea",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 586,
+              "source_line_end": 586,
+              "evidence_quote": "Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:5"
+      ],
+      "surviving_candidate_ids": [],
+      "detection": true,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": null
+    },
+    {
+      "species": "Randia armata",
+      "group": "PRIMARY",
+      "reference_directions": [
+        "rejected"
+      ],
+      "provenance_strength": "table_derived",
+      "table_membership_dependency": true,
+      "reference_support": [
+        {
+          "direction": "rejected",
+          "provenance_strength": "table_derived",
+          "attribution": "all_nine_except_spondias_and_miconia",
+          "table_membership_dependency": true,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_day2",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 384,
+              "source_line_end": 386,
+              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_immediate_group",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 584,
+              "source_line_end": 590,
+              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_caption",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 602,
+              "source_line_end": 605,
+              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_row_randia",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 588,
+              "source_line_end": 588,
+              "evidence_quote": "Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:6"
+      ],
+      "surviving_candidate_ids": [],
+      "detection": true,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": null
+    },
+    {
+      "species": "Sorocea affinis",
+      "group": "PRIMARY",
+      "reference_directions": [
+        "rejected"
+      ],
+      "provenance_strength": "table_derived",
+      "table_membership_dependency": true,
+      "reference_support": [
+        {
+          "direction": "rejected",
+          "provenance_strength": "table_derived",
+          "attribution": "all_nine_except_spondias_and_miconia",
+          "table_membership_dependency": true,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_day2",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 384,
+              "source_line_end": 386,
+              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_immediate_group",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 584,
+              "source_line_end": 590,
+              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_caption",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 602,
+              "source_line_end": 605,
+              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_row_sorocea",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 589,
+              "source_line_end": 589,
+              "evidence_quote": "Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:7"
+      ],
+      "surviving_candidate_ids": [],
+      "detection": true,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": null
+    },
+    {
+      "species": "Trema micrantha",
+      "group": "PRIMARY",
+      "reference_directions": [
+        "rejected"
+      ],
+      "provenance_strength": "table_derived",
+      "table_membership_dependency": true,
+      "reference_support": [
+        {
+          "direction": "rejected",
+          "provenance_strength": "table_derived",
+          "attribution": "all_nine_except_spondias_and_miconia",
+          "table_membership_dependency": true,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_day2",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 384,
+              "source_line_end": 386,
+              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_immediate_group",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 584,
+              "source_line_end": 590,
+              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_caption",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 602,
+              "source_line_end": 605,
+              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_row_trema",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 590,
+              "source_line_end": 590,
+              "evidence_quote": "Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:8"
+      ],
+      "surviving_candidate_ids": [],
+      "detection": true,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": null
+    },
+    {
+      "species": "Spondias mombin",
+      "group": "PRIMARY",
+      "reference_directions": [
+        "accepted"
+      ],
+      "provenance_strength": "author_prose",
+      "table_membership_dependency": false,
+      "reference_support": [
+        {
+          "direction": "accepted",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "individual_spondias",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 341,
+              "source_line_end": 343,
+              "evidence_quote": "from both the p-habitat and the a-habitat. Spondias mombin (Fig. 3a) was always accepted on all days in both habitats, and no trail clearing occurred. Desmopsis panamensis, on the other hand,",
+              "raw_request_hashes": [
+                "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:1"
+      ],
+      "surviving_candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:1"
+      ],
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "accepted"
+      ],
+      "surviving_directions": [
+        "accepted"
+      ],
+      "correct_directions": [
+        "accepted"
+      ],
+      "incorrect_surviving_directions": [],
+      "context_stages": null
+    },
+    {
+      "species": "Hymenaea courbaril",
+      "group": "CONTEXT",
+      "reference_directions": [
+        "accepted",
+        "rejected"
+      ],
+      "provenance_strength": "author_prose",
+      "table_membership_dependency": false,
+      "reference_support": [
+        {
+          "direction": "accepted",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "individual_hymenaea",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 347,
+              "source_line_end": 355,
+              "evidence_quote": "on all tested days. Hymenaea courbaril was actively rejected by foragers from colonies in the p-habitat (Fig. 3c). They showed almost no intake and trail-clearing behaviour on all 3 days, with a slightly increasing rejection over time. Foragers from colonies in the a-habitat, conversely, accepted H. courbaril well on day 1, with nearly no trail clearing, but rejected it on the two following tests on days 2 and 3. The rejection increased slightly from hardly any intake and little trail clearing on the second day to marked rejection with strong trail clearing on the third day.",
+              "raw_request_hashes": [
+                "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        },
+        {
+          "direction": "rejected",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "individual_hymenaea",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 347,
+              "source_line_end": 355,
+              "evidence_quote": "on all tested days. Hymenaea courbaril was actively rejected by foragers from colonies in the p-habitat (Fig. 3c). They showed almost no intake and trail-clearing behaviour on all 3 days, with a slightly increasing rejection over time. Foragers from colonies in the a-habitat, conversely, accepted H. courbaril well on day 1, with nearly no trail clearing, but rejected it on the two following tests on days 2 and 3. The rejection increased slightly from hardly any intake and little trail clearing on the second day to marked rejection with strong trail clearing on the third day.",
+              "raw_request_hashes": [
+                "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:3",
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:4"
+      ],
+      "surviving_candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:3"
+      ],
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [
+        "rejected"
+      ],
+      "correct_directions": [
+        "rejected"
+      ],
+      "incorrect_surviving_directions": [],
+      "context_stages": {
+        "detection": "collapsed_to_one",
+        "survival": "collapsed_to_one",
+        "correctness": "collapsed_to_one"
+      }
+    },
+    {
+      "species": "Inga goldmanii",
+      "group": "CONTEXT",
+      "reference_directions": [
+        "accepted",
+        "rejected"
+      ],
+      "provenance_strength": "author_prose",
+      "table_membership_dependency": false,
+      "reference_support": [
+        {
+          "direction": "accepted",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_group_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_four",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 378,
+              "source_line_end": 384,
+              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        },
+        {
+          "direction": "rejected",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_group_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_four",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 378,
+              "source_line_end": 384,
+              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:9"
+      ],
+      "surviving_candidate_ids": [],
+      "detection": true,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": {
+        "detection": "collapsed_to_one",
+        "survival": "absent",
+        "correctness": "absent"
+      }
+    },
+    {
+      "species": "Tetragastris panamensis",
+      "group": "CONTEXT",
+      "reference_directions": [
+        "accepted",
+        "rejected"
+      ],
+      "provenance_strength": "author_prose",
+      "table_membership_dependency": false,
+      "reference_support": [
+        {
+          "direction": "accepted",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_group_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_four",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 378,
+              "source_line_end": 384,
+              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        },
+        {
+          "direction": "rejected",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_group_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_four",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 378,
+              "source_line_end": 384,
+              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:10"
+      ],
+      "surviving_candidate_ids": [],
+      "detection": true,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": {
+        "detection": "collapsed_to_one",
+        "survival": "absent",
+        "correctness": "absent"
+      }
+    },
+    {
+      "species": "Trichilia tuberculata",
+      "group": "CONTEXT",
+      "reference_directions": [
+        "accepted",
+        "rejected"
+      ],
+      "provenance_strength": "author_prose",
+      "table_membership_dependency": false,
+      "reference_support": [
+        {
+          "direction": "accepted",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_group_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_four",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 378,
+              "source_line_end": 384,
+              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        },
+        {
+          "direction": "rejected",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_group_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_a_four",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 378,
+              "source_line_end": 384,
+              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [
+        "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:11"
+      ],
+      "surviving_candidate_ids": [],
+      "detection": true,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": {
+        "detection": "collapsed_to_one",
+        "survival": "absent",
+        "correctness": "absent"
+      }
+    },
+    {
+      "species": "Miconia argentea",
+      "group": "CONTEXT",
+      "reference_directions": [
+        "accepted",
+        "rejected"
+      ],
+      "provenance_strength": "table_derived",
+      "table_membership_dependency": true,
+      "reference_support": [
+        {
+          "direction": "accepted",
+          "provenance_strength": "author_prose",
+          "attribution": "explicit_named_prose",
+          "table_membership_dependency": false,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "simultaneous_miconia",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 392,
+              "source_line_end": 394,
+              "evidence_quote": "same in both locations on the second day. As in the a-habitat, Miconia was also accepted on both days of the experiment, in contrast to the results of the individual tests (Table 1).",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "miconia_context_reversal",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00006",
+              "publication_page": 695,
+              "pdf_page": 7,
+              "source_line_start": 609,
+              "source_line_end": 617,
+              "evidence_quote": "Miconia argentea was surprisingly well accepted in the ranking experiment, in contrast to the previous experiment when it was offered alone. A reason for this could be the reference material with which M. argentea was offered. Animals generally seem to rank resources in their foraging area and appear to concentrate their foraging effort on the best items (MacArthur & Pianka 1966; Schoener 1969; Wirth et al. 2003). Within the given choice among 11 species of low palatability, M. argentea seemed to be the second best option next to S. mombin. Sampling behaviour and intake of",
+              "raw_request_hashes": [
+                "174793afe6a1e000da99ce37c52ca2b34e2f0dc8125dba9eff5abb2e70a2ca84"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        },
+        {
+          "direction": "rejected",
+          "provenance_strength": "table_derived",
+          "attribution": "all_ten_except_spondias",
+          "table_membership_dependency": true,
+          "numerical_values_used_for_direction": false,
+          "anchors": [
+            {
+              "anchor_id": "individual_spondias",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 341,
+              "source_line_end": 343,
+              "evidence_quote": "from both the p-habitat and the a-habitat. Spondias mombin (Fig. 3a) was always accepted on all days in both habitats, and no trail clearing occurred. Desmopsis panamensis, on the other hand,",
+              "raw_request_hashes": [
+                "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "individual_group_directions",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00003",
+              "publication_page": 692,
+              "pdf_page": 4,
+              "source_line_start": 366,
+              "source_line_end": 377,
+              "evidence_quote": "Comparisons between the responses of colonies from the two habitats when presented with the 10 other, less-attractive plant species clearly indicated the occurrence of experience-based delayed avoidance. Avoidance, both immediate and delayed, was manifested as a very low to nonexistent intake and a marked trail clearing, resulting mostly in negative PIs. Whereas colonies from the p-habitat rejected the 10 tested plant species during the first test on day 1, as well as on the following days, colonies from the a-habitat initially accepted four of the 10 species (Hymenaea, Inga, Tetragastris and Trichilia), but rejected them on the following 2 days in a way similar to the colonies in the p-habitat (Table 1, habitat\u0002related rejection species). On day 1, their PIs values were signifi\u0002cantly higher than those of colonies from the p-habitat (statistics in Table 1).",
+              "raw_request_hashes": [
+                "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6",
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_immediate_group",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 584,
+              "source_line_end": 590,
+              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_caption",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 602,
+              "source_line_end": 605,
+              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            },
+            {
+              "anchor_id": "table_row_miconia",
+              "source_id": "SAVERSCHEK2010",
+              "block_id": "b00005",
+              "publication_page": 694,
+              "pdf_page": 6,
+              "source_line_start": 587,
+              "source_line_end": 587,
+              "evidence_quote": "Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00",
+              "raw_request_hashes": [
+                "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
+              ],
+              "quote_verification": "exact_substring_in_cached_source_block",
+              "visual_verification": "unverified"
+            }
+          ]
+        }
+      ],
+      "scorable": true,
+      "blocked_reason": null,
+      "candidate_ids": [],
+      "surviving_candidate_ids": [],
+      "detection": false,
+      "survival": false,
+      "correctness": false,
+      "proposed_directions": [],
+      "surviving_directions": [],
+      "correct_directions": [],
+      "incorrect_surviving_directions": [],
+      "context_stages": {
+        "detection": "absent",
+        "survival": "absent",
+        "correctness": "absent"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:1",
+      "record_digest": "f84a412afbc5b8d4295e154d41b0f0c475d07c880f1d7381f0dd6a13c87083d6",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Spondias mombin",
+        "taxonomic_rank": "species",
+        "outcome": "accepted",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "PIs ranged between 0.20 and 0.38 depending on the day of the experiment and the habitat",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 692; PDF page 4",
+        "block_id": "b00003",
+        "evidence_quote": "Spondias mombin (Fig. 3a) was always accepted on all days in both habitats, and no trail clearing occurred.",
+        "extraction_confidence": 0.95,
+        "substrate_treatment": "natural",
+        "rejection_timing": "unspecified",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests comparing colonies in habitats with and without tested plant species over 3 days",
+        "original_source_id": null
+      },
+      "grounding_status": "passed",
+      "grounding_failure_reason": null,
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:2",
+      "record_digest": "a0f6af04ecc20711d1bfc42dcf36c0e172008c7bd3fb10bffce05bed2830f8b3",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Desmopsis panamensis",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "PIs: -0.11 to -0.02 across days and habitats",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 692; PDF page 4",
+        "block_id": "b00003",
+        "evidence_quote": "Desmopsis panamensis, on the other hand, was immediately rejected by all colonies, irrespective of the habitat (Fig. 3b).",
+        "extraction_confidence": 0.95,
+        "substrate_treatment": "natural",
+        "rejection_timing": "immediate",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests comparing colonies in habitats with and without tested plant species over 3 days",
+        "original_source_id": null
+      },
+      "grounding_status": "passed",
+      "grounding_failure_reason": null,
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:3",
+      "record_digest": "e4b8c5e8efc534395206db99e14f7f0011d180d506d718cc4b877eb3400eb9ed",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Hymenaea courbaril",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "PIs: -0.01 to -0.07 across days 1-3",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 692; PDF page 4",
+        "block_id": "b00003",
+        "evidence_quote": "Hymenaea courbaril was actively rejected by foragers from colonies in the p-habitat (Fig. 3c). They showed almost no intake and trail-clearing behaviour on all 3 days, with a slightly increasing rejection over time.",
+        "extraction_confidence": 0.95,
+        "substrate_treatment": "natural",
+        "rejection_timing": "immediate",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests on colonies in habitat with the plant species present (p-habitat)",
+        "original_source_id": null
+      },
+      "grounding_status": "passed",
+      "grounding_failure_reason": null,
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:4",
+      "record_digest": "7d574be9f58c6e760537bd2a7bb931e23ee62922d5f21c050aa6322d4b1f8f31",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Hymenaea courbaril",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "Day 1 PIs: 0.10±0.04; Day 2: -0.01±0.01; Day 3: -0.04±0.03",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 692; PDF page 4",
+        "block_id": "b00003",
+        "evidence_quote": "Foragers from colonies in the a-habitat, conversely, accepted H. courbaril well on day 1, with nearly no trail clearing, but rejected it on the two following tests on days 2 and 3.",
+        "extraction_confidence": 0.95,
+        "substrate_treatment": "natural",
+        "rejection_timing": "delayed",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests on colonies in habitat without the plant species present (a-habitat)",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "plant_not_in_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:5",
+      "record_digest": "56ff011cec6cf4d5b7617e212d9aedbc7083bba2a9b3de058b5528fb60937225",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Hiraea grandifolia",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "PIs: -0.13±0.07 to -0.01±0.01 across days and habitats",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 694; PDF page 6",
+        "block_id": "b00005",
+        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Hiraea grandifolia",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "immediate",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests over 3 consecutive days for colonies in p-habitat and a-habitat",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "ungrounded_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:6",
+      "record_digest": "6e338c2dcfd17b07c09d2c4a1d58805f149fa0014d10c5da51bde899b524f241",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Randia armata",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "PIs: -0.50±0.18 to -0.03±0.01 across days and habitats",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 694; PDF page 6",
+        "block_id": "b00005",
+        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Randia armata",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "immediate",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests over 3 consecutive days for colonies in p-habitat and a-habitat",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "ungrounded_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:7",
+      "record_digest": "45dadebafa81fe6d1a7385ea13ca14c7fb147c2c72cbda8a02fdbd2038a052e0",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Sorocea affinis",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "PIs: -0.27±0.14 to -0.00±0.00 across days and habitats",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 694; PDF page 6",
+        "block_id": "b00005",
+        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Sorocea affinis",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "immediate",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests over 3 consecutive days for colonies in p-habitat and a-habitat",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "ungrounded_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:8",
+      "record_digest": "aee6f9f54df14d7d5b6d7f528eb5d853fa3baf4bfe643a03dc702ec84515b155",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Trema micrantha",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "PIs: -0.04±0.04 to -0.02±0.01 across days and habitats",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 694; PDF page 6",
+        "block_id": "b00005",
+        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Trema micrantha",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "immediate",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests over 3 consecutive days for colonies in p-habitat and a-habitat",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "ungrounded_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:9",
+      "record_digest": "b481038edc2f0aa49fe4f08e17f461b834bec0137a7b32e158db48f162a6a84f",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Inga goldmanii",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "Day 1 PIs: 0.30±0.05; Day 2: -0.11±0.03; Day 3: -0.06±0.01 (in a-habitat)",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 694; PDF page 6",
+        "block_id": "b00005",
+        "evidence_quote": "Inga goldmanii 0.03±0.02 -0.020.01 -0.040.02 0.30±0.05 -0.11±0.03 -0.060.01 Between habitats on day 1: P<0.001 Day 1–day 2 in a-habitat: P<0.0001",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "delayed",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests over 3 consecutive days for colonies in p-habitat and a-habitat",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "ungrounded_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:10",
+      "record_digest": "494a2e7e9a9e511026a2d109d1067af06f8b228dbfafe63961c8f77bb3ccfcb1",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Tetragastris panamensis",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "Day 1 PIs: 0.14±0.10; Day 2: -0.04±0.03; Day 3: -0.05±0.03 (in a-habitat)",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 694; PDF page 6",
+        "block_id": "b00005",
+        "evidence_quote": "Tetragastris panamensis -0.32±0.11 -0.150.03 -0.130.02 0.14±0.10 -0.040.03 -0.050.03 Between habitats on day 1: P<0.001",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "delayed",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests over 3 consecutive days for colonies in p-habitat and a-habitat",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "ungrounded_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:11",
+      "record_digest": "046f9f2d065618c2c240a31196f07a67c0588b0bf5758bdc3bfd4ce55c2063c7",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "Trichilia tuberculata",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "Day 1 PIs: 0.20±0.07; Day 2: 0.06±0.03; Day 3: -0.01±0.00 (in a-habitat)",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 694; PDF page 6",
+        "block_id": "b00005",
+        "evidence_quote": "Trichilia tuberculata -0.02±0.07 -0.060.01 -0.040.03 0.20±0.07 0.06±0.03 -0.010.00 Between habitats on day 1: P<0.05 Day 1–day 2 in a-habitat: P<0.05",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "delayed",
+        "behavioural_choice": true,
+        "study_context": "Field acceptance tests over 3 consecutive days for colonies in p-habitat and a-habitat",
+        "original_source_id": null
+      },
+      "grounding_status": "failed",
+      "grounding_failure_reason": "ungrounded_quote",
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:12",
+      "record_digest": "728d2fb492f178a4fead4830b64dcdfe5595fdba25e88c92037263d05fc3aa48",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "S. lindenianum",
+        "taxonomic_rank": "species",
+        "outcome": "accepted",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": null,
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 692; PDF page 4",
+        "block_id": "b00003",
+        "evidence_quote": "As all five experimental colonies readily accepted S. lindenianum before the treatment, this acceptance served as a control to show the unchanged and high palatability of the substrate over time.",
+        "extraction_confidence": 0.9,
+        "substrate_treatment": "natural",
+        "rejection_timing": "unspecified",
+        "behavioural_choice": true,
+        "study_context": "Baseline palatability acceptance control before fungicide treatment across field colonies",
+        "original_source_id": null
+      },
+      "grounding_status": "passed",
+      "grounding_failure_reason": null,
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf:13",
+      "record_digest": "82ae7d63efd7d7a75ad436ffe6a87448a7bfacb5bb4c0242e7a56692a0441da1",
+      "response_path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "input_hash": "23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf",
+      "record": {
+        "ant_species": "Atta colombica",
+        "plant_name_as_written": "S. lindenianum",
+        "taxonomic_rank": "species",
+        "outcome": "rejected",
+        "evidence_type": "field_choice_assay",
+        "quantitative_measure": "avoided the substrate for 12 weeks accepting only 0–5% of their original intake",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 693; PDF page 5",
+        "block_id": "b00004",
+        "evidence_quote": "After the initial intake of leaf discs of S. lindenianum treated with fungicide and the observed rejection 2 days later, very low intake of the untreated substrate could be observed for approximately 12 weeks (Fig. 6a).",
+        "extraction_confidence": 0.95,
+        "substrate_treatment": "natural",
+        "rejection_timing": "delayed",
+        "behavioural_choice": true,
+        "study_context": "Long-term memory bioassay testing untreated leaves every 2 weeks after initial exposure to fungicide-treated leaves",
+        "original_source_id": null
+      },
+      "grounding_status": "passed",
+      "grounding_failure_reason": null,
+      "blocked_reason": null
+    },
+    {
+      "candidate_id": "879dfc2e9796044d9d30281be7278487fe7a8de7fff4d1261433abe423d5d857:1",
+      "record_digest": "d0a97bfd097acee6f394ba103fcf30dad7310df5de9be0fa535d5526d8b2cce0",
+      "response_path": "data/interim/extraction_saverschek/responses/879dfc2e9796044d9d30281be7278487fe7a8de7fff4d1261433abe423d5d857.json",
+      "input_hash": "879dfc2e9796044d9d30281be7278487fe7a8de7fff4d1261433abe423d5d857",
+      "record": {
+        "ant_species": "Acromyrmex octospinosus",
+        "plant_name_as_written": "yellow yams",
+        "taxonomic_rank": "other",
+        "outcome": "rejected",
+        "evidence_type": "review_secondary",
+        "quantitative_measure": "rejected yellow yams for 38 days after the last contact",
+        "source_id": "SAVERSCHEK2010",
+        "section": "Published page 696; PDF page 8",
+        "block_id": "b00007",
+        "evidence_quote": "Laboratory colonies of A. octospinosus rejected yellow yams for 38 days after the last contact (Rahbe et al. 1988)",
+        "extraction_confidence": 0.95,
+        "substrate_treatment": "unclear",
+        "rejection_timing": "delayed",
+        "behavioural_choice": true,
+        "study_context": "Long-term memory avoidance test in laboratory colonies",
+        "original_source_id": "Rahbe et al. 1988"
+      },
+      "grounding_status": "passed",
+      "grounding_failure_reason": null,
+      "blocked_reason": null
+    }
+  ],
+  "generated_at": "2026-09-13T14:33:11.222298+00:00",
+  "inputs": [
+    {
+      "path": "data/interim/saverschek_audit/natural_audit.json",
+      "sha256": "6bfbedec4ea1ae511ea4619075f3a6e586790522c3a63c13afa91f089597275e"
+    },
+    {
+      "path": "data/interim/saverschek_audit/natural_notes.md",
+      "sha256": "9710ed56aaa781aeb638131804a156963414fa09c6dd7f1e6a6fb5bd04156d10"
+    },
+    {
+      "path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d"
+    },
+    {
+      "path": "/Users/seth/Documents/ChatGPT/hackathon/scripts/recall_baseline.py",
+      "sha256": "140c60488dad86a7dbe4ae6a2825c64cf8e242dfae5f4ba952182e241a026dc1"
+    },
+    {
+      "path": "src/evaluation/recall.py",
+      "sha256": "657bd629521bb5867a5c687bb9d045d1ef5fb8be51904bc27774d74cdc33f4e1"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/observations.jsonl",
+      "sha256": "d44e9145de2f07b6344719fa58fb5147fbe6aaf3f8c6d85aef705d35d5878540"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/rejections.jsonl",
+      "sha256": "d653f4e646090ece9fb1b15042ab313a103d643e435ec0330529eafbfa2cefed"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/metrics.json",
+      "sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/run_manifest.json",
+      "sha256": "da1a57dae81504301cd4b2fcb6825f0025a2a78e68a36196c734e2079fe79d2d"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/responses/23daef60e365638a8a2074f8470c0db5f8925c7c751d5efa92dc4256863fedbf.json",
+      "sha256": "fd9fa7e6954201b7c278d01d79af0283fe828aded8d4130ed7f5fc0c1b1bea04"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/responses/879dfc2e9796044d9d30281be7278487fe7a8de7fff4d1261433abe423d5d857.json",
+      "sha256": "7cac82199df82c743ec69ab06c9ae09061f69c63d7eb7e44f716cc350d919149"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/responses/87eee85c85a2c72ac1a75ac860a1d831bcd88b88af325d3b851085cedf02a952.json",
+      "sha256": "02eba4f88aa0c0684abec47f922cc498092378578c5a39586c0a203596cf0d56"
+    }
+  ],
+  "cached_source_matches_audit_hash": true
+}

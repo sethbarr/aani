@@ -4,10 +4,12 @@ import base64
 import csv
 import hashlib
 import json
+import shlex
 from collections import Counter
 from pathlib import Path
 
 from src.behaviour.aggregation import aggregate, deduplicate, verify_miconia
+from src.behaviour.supplement import load_supplement
 from src.common.io import normalise_space, read_json, read_jsonl, write_json, write_jsonl
 from src.taxonomy.gbif import interpret_match
 
@@ -79,7 +81,7 @@ def write_csv(path: Path, rows: list[dict], fallback_columns: list[str]) -> None
                           for key, value in row.items()} for row in rows)
 
 
-def load_inputs(root: Path) -> tuple[list[dict], list[dict], list[dict], dict]:
+def load_inputs(root: Path, taxonomy_supplements: list[Path] | None = None) -> tuple[list[dict], list[dict], list[dict], dict]:
     """Read all three requested inputs and replace coarse Saverschek evidence explicitly."""
     baseline = []
     inputs = []
@@ -118,6 +120,13 @@ def load_inputs(root: Path) -> tuple[list[dict], list[dict], list[dict], dict]:
         })
     combined = preserved + [{**row, "merge_input_path": str(audit_path.relative_to(root))}
                             for row in audit]
+    supplement_records = 0
+    for supplied in taxonomy_supplements or []:
+        path = supplied if supplied.is_absolute() else root / supplied
+        additions, descriptors = load_supplement(root, path, combined)
+        combined.extend(additions)
+        inputs.extend([file_manifest(path, root), *descriptors])
+        supplement_records += len(additions)
     lineage = {
         "baseline_input_counts": counts, "baseline_taxonomy_records": len(baseline),
         "superseded_model_records": len(superseded),
@@ -125,21 +134,25 @@ def load_inputs(root: Path) -> tuple[list[dict], list[dict], list[dict], dict]:
         "preserved_manually_recovered_records": sum(
             row.get("provider") != "gemini" for row in preserved
         ),
-        "curated_context_records": len(audit),
+        "curated_context_records": len(audit) + supplement_records,
+        "taxonomy_supplement_context_records": supplement_records,
+        "taxonomy_supplement_manifests": [str(path) for path in taxonomy_supplements or []],
         "records_after_replacement_before_deduplication": len(combined),
         "replacement_policy": (
             "Read all three requested taxonomy outputs. Replace every SAVERSCHEK2010 "
             "coarse model record with the completed audit's taxonomy-matched directional "
             "contexts, retaining all opposite directions. Do not append both representations. "
-            "Curated contexts are separate from model candidate and validation denominators."
+            "Explicit taxonomy supplements add all supported contexts for reviewed taxa, "
+            "preserving original source evidence and directions. Curated contexts have "
+            "separate denominators from model candidates."
         ),
     }
     return combined, replacements, inputs, lineage
 
 
-def run_merge(root: Path, output: Path) -> dict:
+def run_merge(root: Path, output: Path, taxonomy_supplements: list[Path] | None = None) -> dict:
     """Verify immutable inputs, merge local evidence and write reproducible aggregation."""
-    rows, replacements, inputs, lineage = load_inputs(root)
+    rows, replacements, inputs, lineage = load_inputs(root, taxonomy_supplements)
     anchors_path = root / AUDIT_DIRECTORY / "evidence_anchors.json"
     anchors = read_json(anchors_path)
     config_path = root / "config/analysis.json"
@@ -200,7 +213,10 @@ def run_merge(root: Path, output: Path) -> dict:
     write_json(output / "run_manifest.json", {
         "schema_version": 1, "protocol_commit": PROTOCOL_COMMIT,
         "stage": "behaviour", "network_required": False,
-        "replay": ".venv/bin/python -m scripts.behaviour --offline",
+        "replay": ".venv/bin/python -m scripts.behaviour --offline" + "".join(
+            f" --taxonomy-supplement {shlex.quote(str(path))}"
+            for path in taxonomy_supplements or []
+        ),
         "inputs": inputs, "replacement_policy": lineage["replacement_policy"],
         "deduplication": (
             "Whitespace-normalized source, genus, direction, quote, ant and actual experimental "

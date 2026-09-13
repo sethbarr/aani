@@ -26,6 +26,18 @@ def file_record(path: Path) -> dict:
     return {"path": str(path), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
 
 
+def taxonomy_review_status(review_path: Path, observations_path: Path) -> dict:
+    """Preserve historical review names and identify current explicit resolutions."""
+    reviewed = {row["plant_name_as_written"] for row in read_jsonl(review_path)}
+    current = optional_rows(observations_path)
+    resolved = sorted({row["plant_name_as_written"] for row in current} & reviewed)
+    return {
+        "historical_taxonomy_review_species": sorted(reviewed),
+        "taxonomy_review_species": sorted(reviewed - set(resolved)),
+        "taxonomy_review_resolved_species": resolved,
+    }
+
+
 def metric_stage(name: str, count: int | None, unit: str, status: str = "complete",
                  blocked_reason: str | None = None, **details: object) -> dict:
     """Construct a stage with explicit units and absence semantics."""
@@ -218,7 +230,7 @@ def main() -> None:
             "all_semantically_retained_contexts_after_curation_before_taxonomy":
                 curation_count,
             "saverschek_unresolved_direction_contexts": source_audit["unresolved_context_cells"],
-            "taxonomy_review_species": sorted({r["plant_name_as_written"] for r in read_jsonl(taxonomy_review_path)}),
+            **taxonomy_review_status(taxonomy_review_path, args.processed / "behaviour/observations.jsonl"),
             "note": "Curator expansion/replacement changes the unit. Contexts are not original model candidates or independent biological replicates.",
         },
         "miconia_conflict_verification": miconia,
@@ -254,7 +266,11 @@ def main() -> None:
               "", f"Imported {chemistry.get('accepted')} provenance rows / {chemistry.get('unique_occurrences')} distinct occurrences / {chemistry.get('unique_compounds')} structures across the full audited genus scope.",
               "", f"ChEMBL retrieved {activity.get('compounds')} structures: {activity.get('active')} active, {activity.get('inactive')} inactive and {activity.get('unknown')} unknown; {activity.get('failed_compounds')} retrieval failures. Unknowns are excluded from the classified denominator.",
               "", f"The primary join contains {primary.get('n_accepted')} accepted and {primary.get('n_rejected')} rejected genera. Inference blockers: {', '.join(report['inference_blockers']) or 'none reported'}. All unavailable endpoints remain null; no substitute model or shortlist was produced.",
-              "", "Missing chemistry is reported for Desmopsis and Hiraea. Randia has 12 mapped structures but zero classified compounds and is excluded. These are different missingness states.",
+              "", "Missing chemistry genera: " + ", ".join(next(
+                  s["missing_chemistry_genera"] or [] for s in stages if s["stage"] == "genera_with_chemistry"
+              )) + ". Genera with mapped chemistry and zero classified compounds: " + ", ".join(next(
+                  s["zero_classified_genera"] or [] for s in stages if s["stage"] == "genera_with_classified_compounds"
+              )) + ". Unknown activity remains outside the classified denominator.",
               "", "Original data and frozen protocol files remain intact. `results/offline_replay.json` records the completed offline replay checks; README and the pipeline guide describe the runnable chain."]
     (args.results / "pipeline_report.md").write_text("\n".join(lines) + "\n")
     print({"counts": report["counts"], "status": report["status"], "estimable": report["estimable"]})

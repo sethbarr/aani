@@ -1,0 +1,97 @@
+{
+  "reported_at": "2026-09-13T14:35:30.020911+00:00",
+  "status": "complete",
+  "blocked_reason": null,
+  "taxonomy": {
+    "source_name": "Trema micrantha",
+    "accepted_name": "Trema micranthum",
+    "accepted_usage_key": "582Z4",
+    "family": "Cannabaceae",
+    "match_type": "EXACT",
+    "confidence": 100.0,
+    "resolved_context_records": 7
+  },
+  "chemistry": {
+    "database": "LOTUS",
+    "has_chemistry": true,
+    "imported_records": 202,
+    "distinct_compounds": 26,
+    "distinct_occurrences": 29,
+    "exact_accepted_species_distinct_compounds": 6,
+    "exact_accepted_species_distinct_occurrences": 6,
+    "exact_accepted_species_source_records": 12,
+    "genus_level_distinct_occurrences": 29,
+    "genus_level_source_records": 190,
+    "genus_only_distinct_occurrences": 23,
+    "occurrence_ids_shared_between_levels": 6,
+    "occurrence_names": [
+      "Trema cannabina",
+      "Trema humbertii",
+      "Trema micrantha",
+      "Trema micranthum",
+      "Trema orientale",
+      "Trema orientalis",
+      "Trema tomentosa var. viridis"
+    ],
+    "scope_note": "The frozen genus-level join includes other Trema species and the legacy micrantha spelling; species-level labels require exact accepted-name equality. Occurrence IDs hash genus, compound and reference, so the species and genus occurrence sets overlap."
+  },
+  "bioactivity": {
+    "retrieval_complete": true,
+    "matched_compounds": 16,
+    "classified_compounds": 0,
+    "unknown_compounds": 26,
+    "retrieved_measurements": 586,
+    "measurement_label_reasons": {
+      "ineligible_assay": 569,
+      "unsupported_units": 13,
+      "flagged_measurement": 4
+    },
+    "classified_measurements": 0,
+    "failed_compounds": 0,
+    "database_version": "ChEMBL_37"
+  },
+  "join": {
+    "eligible_for_classified_primary_join": false,
+    "exclusion_reason": "no_classified_compounds",
+    "added_classified_rejected_genera": 0,
+    "interpretation": "Unknown activity remains unknown. Only classified compounds can add a genus to the primary join; the 25-genus feasibility gate still applies."
+  },
+  "inputs": [
+    {
+      "path": "data/interim/trema_resolution/manifest.json",
+      "sha256": "4fbaa1ad1d415153905c2d16c68807df4aadc9a1386b4743dcb2032b356f58ca"
+    },
+    {
+      "path": "data/interim/trema_resolution/observations.jsonl",
+      "sha256": "84ae72892a7c06013445f0d99f71580a0e9915293a8b8f28504c44e806f00a49"
+    },
+    {
+      "path": "data/interim/trema_resolution/chemistry/metrics.json",
+      "sha256": "c9e0877f4a754bf88775a6feb281f8b77821d79424cfbe4e2fc6940b6fd5d339"
+    },
+    {
+      "path": "data/interim/trema_resolution/chemistry/occurrences.jsonl",
+      "sha256": "5364fe018647033aadd4021ac0d0e7274e6f78e8bcf24232a2fe339f6de4b86b"
+    },
+    {
+      "path": "data/interim/trema_resolution/chemistry/genus_coverage.jsonl",
+      "sha256": "0f3a923eb08302b04df8bd1f5f6d8c81e851e37c656902797654d928ee0113a0"
+    },
+    {
+      "path": "data/interim/trema_resolution/bioactivity/metrics.json",
+      "sha256": "3f68e37c452c2540cf4690259d351e4e1ac2b3d6aaea6fff57b7ab04907a746f"
+    },
+    {
+      "path": "data/interim/trema_resolution/bioactivity/labels.jsonl",
+      "sha256": "0577cb7905c24f5bf9a4e18b800b5b1aa4c8e7091dfdb86f237204959c4ac5f5"
+    },
+    {
+      "path": "data/interim/trema_resolution/bioactivity/measurements.jsonl",
+      "sha256": "0f407042bae871f9b43a3d7d197a388a523499be9dcb272a55e204dc18f38adf"
+    },
+    {
+      "path": "data/interim/trema_resolution/bioactivity/query_manifest.json",
+      "sha256": "955c3465be55ef40e865a83c437343d6fd43ae4d38e06ff7ce35bdd5dbd1096d"
+    }
+  ]
+}

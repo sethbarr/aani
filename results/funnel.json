@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "aani",
-  "generated_at": "2026-09-13T00:31:53.085587+00:00",
+  "generated_at": "2026-09-13T14:37:34.503659+00:00",
   "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
   "offline": false,
   "status": "feasibility_failure",
@@ -13,9 +13,9 @@
     "candidate_records": 61,
     "grounding_passed": 41,
     "semantically_retained": 9,
-    "names_resolved": 16,
-    "genera_after_aggregation": 10,
-    "genera_with_chemistry": 8,
+    "names_resolved": 17,
+    "genera_after_aggregation": 11,
+    "genera_with_chemistry": 9,
     "genera_with_classified_compounds": 7,
     "genera_available_for_primary_test": 7
   },
@@ -73,23 +73,23 @@
     },
     {
       "stage": "names_resolved",
-      "count": 16,
+      "count": 17,
       "unit": "distinct accepted species identities",
       "status": "complete",
       "blocked_reason": null,
-      "observation_contexts": 89,
+      "observation_contexts": 96,
       "conflict_genera": 5,
       "species_in_conflicted_genera": 6,
       "conflict_observation_contexts": 47
     },
     {
       "stage": "genera_after_aggregation",
-      "count": 10,
+      "count": 11,
       "unit": "directionally consistent genera",
       "status": "complete",
       "blocked_reason": null,
       "accepted": 6,
-      "rejected": 4,
+      "rejected": 5,
       "conflict_genera": 5,
       "conflicts": [
         "Hymenaea",
@@ -101,7 +101,7 @@
     },
     {
       "stage": "genera_with_chemistry",
-      "count": 8,
+      "count": 9,
       "unit": "eligible genera with at least one imported occurrence",
       "status": "complete",
       "blocked_reason": null,
@@ -111,8 +111,8 @@
       ],
       "conflict_genera_with_chemistry": 4,
       "conflict_genera_excluded_from_primary": 5,
-      "imported_occurrences": 27033,
-      "imported_unique_structures": 2183
+      "imported_occurrences": 27235,
+      "imported_unique_structures": 2198
     },
     {
       "stage": "genera_with_classified_compounds",
@@ -122,15 +122,16 @@
       "blocked_reason": null,
       "classified_structures_observed": 24,
       "all_retrieved_classified_structures": 24,
-      "primary_scope_structures": 1851,
+      "primary_scope_structures": 1866,
       "failed_compounds": 0,
       "coverage_complete": true,
       "count_interpretation": "observed_coverage_in_completed_retrieval",
       "zero_classified_interpretation": "zero_observed_classified_compounds; unknown is not inactive",
       "zero_classified_genera": [
-        "Randia"
+        "Randia",
+        "Trema"
       ],
-      "zero_classified_genera_count": 1,
+      "zero_classified_genera_count": 2,
       "conflict_genera_excluded_from_primary": 5
     },
     {
@@ -264,7 +265,11 @@
     "saverschek_curated_directional_contexts": 87,
     "all_semantically_retained_contexts_after_curation_before_taxonomy": 96,
     "saverschek_unresolved_direction_contexts": 23,
-    "taxonomy_review_species": [
+    "historical_taxonomy_review_species": [
+      "Trema micrantha"
+    ],
+    "taxonomy_review_species": [],
+    "taxonomy_review_resolved_species": [
       "Trema micrantha"
     ],
     "note": "Curator expansion/replacement changes the unit. Contexts are not original model candidates or independent biological replicates."
@@ -310,58 +315,62 @@
       "superseded_model_records": 3,
       "preserved_model_records": 6,
       "preserved_manually_recovered_records": 3,
-      "curated_context_records": 80,
-      "records_after_replacement_before_deduplication": 89,
-      "replacement_policy": "Read all three requested taxonomy outputs. Replace every SAVERSCHEK2010 coarse model record with the completed audit's taxonomy-matched directional contexts, retaining all opposite directions. Do not append both representations. Curated contexts are separate from model candidate and validation denominators.",
-      "grounding_and_cached_taxonomy_reverified_records": 89,
-      "deduplicated_observations": 89,
+      "curated_context_records": 87,
+      "taxonomy_supplement_context_records": 7,
+      "taxonomy_supplement_manifests": [
+        "data/interim/trema_resolution/manifest.json"
+      ],
+      "records_after_replacement_before_deduplication": 96,
+      "replacement_policy": "Read all three requested taxonomy outputs. Replace every SAVERSCHEK2010 coarse model record with the completed audit's taxonomy-matched directional contexts, retaining all opposite directions. Do not append both representations. Explicit taxonomy supplements add all supported contexts for reviewed taxa, preserving original source evidence and directions. Curated contexts have separate denominators from model candidates.",
+      "grounding_and_cached_taxonomy_reverified_records": 96,
+      "deduplicated_observations": 96,
       "identical_grounded_duplicates_removed": 0,
       "semantically_retained_model_records_in_current_merge": 6,
-      "manually_recovered_records_in_current_merge": 83,
-      "resolved_accepted_species": 16,
-      "unique_names_as_written": 18,
+      "manually_recovered_records_in_current_merge": 90,
+      "resolved_accepted_species": 17,
+      "unique_names_as_written": 19,
       "source_count": 5,
       "ant_species_count": 5,
-      "genera_before_conflict_exclusion": 15,
-      "genera_after_aggregation": 10,
+      "genera_before_conflict_exclusion": 16,
+      "genera_after_aggregation": 11,
       "accepted_genera": 6,
-      "rejected_genera": 4,
+      "rejected_genera": 5,
       "conflict_genera": 5,
       "conflict_observations": 47,
-      "primary_eligible_observations": 42,
+      "primary_eligible_observations": 49,
       "eligibility_review_observations": 0,
       "miconia_conflict_verified": true,
       "observation_count_interpretation": "grounded_contexts_not_independent_replicates",
       "network_requests": 0
     },
     "chemistry": {
-      "input_hash": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
+      "input_hash": "1dcd1d19cfbb269e4326c4a62979eed068fb4e1b03c69de8e611e1f37db806cb",
       "imported_at": "2026-09-13T00:04:50.467719+00:00",
-      "accepted": 27033,
+      "accepted": 27235,
       "review": 0,
-      "unique_occurrences": 3774,
-      "unique_compounds": 2183,
-      "genera_with_chemistry": 12,
+      "unique_occurrences": 3803,
+      "unique_compounds": 2198,
+      "genera_with_chemistry": 13,
       "status": "completed",
       "blocked_reason": null,
       "export_records_scanned": 6467819,
-      "candidate_export_records": 53897,
-      "transform_review": 26864,
-      "requested_genera": 15,
+      "candidate_export_records": 54243,
+      "transform_review": 27008,
+      "requested_genera": 16,
       "conflict_genera_with_chemistry": 4,
-      "eligible_genera_with_chemistry": 8
+      "eligible_genera_with_chemistry": 9
     },
     "bioactivity": {
       "status": "complete",
       "blocked_reason": null,
       "incomplete_reason": null,
-      "compounds": 2183,
-      "matched_compounds": 849,
+      "compounds": 2198,
+      "matched_compounds": 854,
       "active": 7,
       "inactive": 17,
-      "unknown": 2159,
+      "unknown": 2174,
       "failed_compounds": 0,
-      "retrieved_measurements": 8947,
+      "retrieved_measurements": 8974,
       "classified_measurements": 51,
       "discordant_compounds": 3,
       "unique_assays_with_classified_measurements": 23,
@@ -376,8 +385,8 @@
         "targets": 18552
       },
       "cached_requests": 109,
-      "all_imported_compounds": 2183,
-      "selected_compounds": 2183,
+      "all_imported_compounds": 2198,
+      "selected_compounds": 2198,
       "excluded_outside_eligible_genera_compounds": 0,
       "eligible_behaviour_genera": null,
       "selected_genera": [
@@ -391,12 +400,13 @@
         "Randia",
         "Sorocea",
         "Spondias",
+        "Trema",
         "Trichilia",
         "Vicia"
       ],
-      "selected_occurrences": 27033,
+      "selected_occurrences": 27235,
       "selection_rule": "All imported genera, including conflict genera, to support prespecified sensitivity reaggregation. Conflicts remain excluded from primary inference.",
-      "primary_scope_compounds": 1851,
+      "primary_scope_compounds": 1866,
       "additional_sensitivity_scope_compounds": 332,
       "primary_scope_genera": [
         "Acalypha",
@@ -408,6 +418,7 @@
         "Randia",
         "Sorocea",
         "Spondias",
+        "Trema",
         "Vicia"
       ]
     },
@@ -433,19 +444,19 @@
       "within_family": false,
       "variable_families": 0,
       "variable_genera": 0,
-      "genera_after_aggregation": 10,
+      "genera_after_aggregation": 11,
       "conflicting_genera": 5,
-      "genera_with_chemistry": 8,
+      "genera_with_chemistry": 9,
       "genera_missing_chemistry": 2,
       "genera_with_classified_compound": 7,
-      "genera_with_zero_classified_compounds": 1,
+      "genera_with_zero_classified_compounds": 2,
       "genera_available_for_primary_test": 7,
       "activity_retrieval_complete": true,
       "unretrieved_mapped_compounds": 0,
       "sensitivity_support_complete": true,
       "execution_status": "complete",
       "blocked_reason": null,
-      "zero_classified_genera": 1,
+      "zero_classified_genera": 2,
       "within_family_sensitivity": {
         "status": "feasibility_failure",
         "estimable": false,
@@ -474,10 +485,10 @@
         "estimable": false,
         "reason": "prespecified_feasibility_gate",
         "environment": {
-          "status": "unavailable",
-          "reason": "lme4_unavailable",
+          "status": "available",
+          "reason": null,
           "executable": "/opt/homebrew/bin/Rscript",
-          "version_output": "R version 4.5.0 (2025-04-11)",
+          "version_output": "R version 4.5.0 (2025-04-11) \nlme4=2.0.6",
           "error_output": ""
         }
       },
@@ -492,8 +503,7 @@
   "blocked_stages": [],
   "inference_blockers": [
     "fewer_than_minimum_joined_genera",
-    "need_two_genera_per_direction",
-    "lme4_unavailable"
+    "need_two_genera_per_direction"
   ],
   "input_manifests": [
     {
@@ -546,7 +556,7 @@
     },
     {
       "path": "data/processed/behaviour/all_genera.jsonl",
-      "sha256": "63757d823cb6332b5ad40a51f36fe7b0b8fc3d764865aeb4c86d76c58a6f2657"
+      "sha256": "cab7d38ea4153dd5fbf0d9ddea6954d73e135d04ea4b85eb2a0b82eaf7d4a4bd"
     },
     {
       "path": "data/processed/behaviour/conflicts.jsonl",
@@ -554,47 +564,47 @@
     },
     {
       "path": "data/processed/behaviour/genera.jsonl",
-      "sha256": "08968033cdb85a458cbc473ec76404c6bc663600c3de0c30747f3503235f59c8"
+      "sha256": "e89c8c4a82ee96ca3a5770a3701f0610b60a69d248fb85eb23ede536d86c901a"
     },
     {
       "path": "data/processed/behaviour/metrics.json",
-      "sha256": "28fd586086624905ca3b0284c388fadc58662738b22d5bae8b2dec92b2e39bfd"
+      "sha256": "4002be6c0a7f250f9ca4733f4d515aaac16a13901558ce572bf7041e189eadbf"
     },
     {
       "path": "data/processed/behaviour/observations.jsonl",
-      "sha256": "ae4c9900272601c57529e16378a968cbe3ce37a2ed7e326a6a4024d954ab324e"
+      "sha256": "53cbc79b3658d574e5769b834d37b8f690e19628b0d9cdcefdf5f6efa927a2a5"
     },
     {
       "path": "data/processed/behaviour/run_manifest.json",
-      "sha256": "7ded06a1df1a375a0abd1660359600344909ffd364106bb21d5c70c279007e21"
+      "sha256": "d17d8a0c2fd674ba79776d05831a511d6e8f32baee6e11bdc755a87ac354e5e8"
     },
     {
       "path": "data/processed/bioactivity/labels.jsonl",
-      "sha256": "875e1151bbdd1ae9d490d9894b5df6626f1f174e333f19b6b37eddee8f3baf59"
+      "sha256": "95c7aac2c46bda48cbb112299aefe7c84f869fa567374ca6944234ce73c59b4d"
     },
     {
       "path": "data/processed/bioactivity/metrics.json",
-      "sha256": "a2baa9f2ff3a765e0d77364906602c51109285b598978fbc4eeecf173d2ff150"
+      "sha256": "143d16707ea5f75bd88d9b388c890be6c31b74f0b925c111a95b02065d59e7d9"
     },
     {
       "path": "data/processed/bioactivity/run_manifest.json",
-      "sha256": "c6677fd6738a29a746b08de3cc55f7faf32f1c8713719dfd9505682423283f60"
+      "sha256": "442de21eb904b4674442266313e93747926096eb15f70ed90e11459ec937e7d5"
     },
     {
       "path": "data/processed/chemistry/metrics.json",
-      "sha256": "fe261b5ad544ab882bb0c735bb6ab1ebbbf8249ff2990e648edd0e76a461a321"
+      "sha256": "db3081b0290d282a198ae8327c5b6843659b3520dcf2fdd16b7891475d42c650"
     },
     {
       "path": "data/processed/chemistry/occurrences.jsonl",
-      "sha256": "37c9e4e74cb0b633be27f5197f45c3ac9b091612a048a68da5762c34d698198b"
+      "sha256": "5b22d4cd15a6ce08f880bc079ec6ada48f53c4991155847f2bf851699c5cc400"
     },
     {
       "path": "data/processed/chemistry/run_manifest.json",
-      "sha256": "820f396fa2b819ecb8c5014d22c17673a59167f486923f832f0f5879cd68cea4"
+      "sha256": "db87cb865a102058959cd4464132862faccd1862ba8603f25c6c7604c313438f"
     },
     {
       "path": "results/primary/summary.json",
-      "sha256": "3bb36b5cccbad572d4a3b94790e4104ab6edc3f4a6ff72514afdd978c2d89ea2"
+      "sha256": "bb4dc17b69f5ab53ef7c38aa074b2716ae19e0cf7f25874d72721f270eb983c2"
     },
     {
       "path": "results/saverschek_audit/summary.json",

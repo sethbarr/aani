@@ -248,6 +248,9 @@ def run_analysis(
         "primary_status": summaries["primary"]["status"],
         "primary_estimable": summaries["primary"]["estimable"],
         "model_environment": environment,
+        "inference_blockers": summaries["primary"].get("feasibility_failures", []) + (
+            [environment["reason"]] if environment.get("reason") else []
+        ),
     }
     provenance = {
         "protocol_commit": commit,

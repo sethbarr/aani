@@ -1,6 +1,6 @@
 {
   "project": "aani",
-  "assembled_at": "2026-09-13T00:33:12.411350+00:00",
+  "assembled_at": "2026-09-13T14:39:03.410627+00:00",
   "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
   "frozen_files": [
     {
@@ -24,50 +24,70 @@
     "candidate_records": 61,
     "grounding_passed": 41,
     "semantically_retained": 9,
-    "names_resolved": 16,
-    "genera_after_aggregation": 10,
-    "genera_with_chemistry": 8,
+    "names_resolved": 17,
+    "genera_after_aggregation": 11,
+    "genera_with_chemistry": 9,
     "genera_with_classified_compounds": 7,
     "genera_available_for_primary_test": 7
   },
   "inference_blockers": [
     "fewer_than_minimum_joined_genera",
-    "need_two_genera_per_direction",
-    "lme4_unavailable"
+    "need_two_genera_per_direction"
   ],
   "artifacts": [
     {
-      "path": "data/processed/behaviour/run_manifest.json",
-      "sha256": "7ded06a1df1a375a0abd1660359600344909ffd364106bb21d5c70c279007e21"
+      "path": "results/recall_baseline.json",
+      "sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d"
     },
     {
-      "path": "data/processed/chemistry/run_manifest.json",
-      "sha256": "820f396fa2b819ecb8c5014d22c17673a59167f486923f832f0f5879cd68cea4"
+      "path": "results/recall_baseline.md",
+      "sha256": "2d01e3f36f4a4173980d19db2c4b8f5673091af6abcef9ca1e3fe97b57629afb"
     },
     {
-      "path": "data/processed/bioactivity/run_manifest.json",
-      "sha256": "c6677fd6738a29a746b08de3cc55f7faf32f1c8713719dfd9505682423283f60"
-    },
-    {
-      "path": "results/run_manifest.json",
-      "sha256": "4e1d33f0c32612f13283154adc26afc521db9ffbf7f305541ef3f9825afe769a"
+      "path": "results/metrics.json",
+      "sha256": "01164964f60024aee5f907b56404a5539f5a57f5f871ab3875dfc39ed7567e08"
     },
     {
       "path": "results/funnel.json",
-      "sha256": "8a3ef4ba3d00da7e921af3cefc7845939ee4a2b3fd4f0e32812461b3a03708f5"
+      "sha256": "d6aa5582742e355ddf45ac7eb884fa336ca39fb5cac06fa12d47339750b7899d"
+    },
+    {
+      "path": "results/run_manifest.json",
+      "sha256": "cb757dbb270e231bff2cb837a6b0e8108d68ba24ea8a19e2b385ea69360d61f2"
     },
     {
       "path": "results/offline_replay.json",
-      "sha256": "a237bd572c9e047dd77b33fbf029ba80882a0517b075c241df9b0281835f7ff9"
+      "sha256": "87d4f452d24822d42e0d9955097d54ebba1be0414c38d693ffaed4ff6b3c97ae"
     },
     {
-      "path": "docs/amendment_2026-09-12_reporting_gate.md",
-      "sha256": "9810855a347355ab0baf1c9985ead0e1d3810660b6b300bc532ffe8e05f43418"
+      "path": "data/processed/behaviour/run_manifest.json",
+      "sha256": "d17d8a0c2fd674ba79776d05831a511d6e8f32baee6e11bdc755a87ac354e5e8"
+    },
+    {
+      "path": "data/processed/chemistry/run_manifest.json",
+      "sha256": "db87cb865a102058959cd4464132862faccd1862ba8603f25c6c7604c313438f"
+    },
+    {
+      "path": "data/processed/bioactivity/run_manifest.json",
+      "sha256": "442de21eb904b4674442266313e93747926096eb15f70ed90e11459ec937e7d5"
+    },
+    {
+      "path": "results/day2_blockers/lme4_status.json",
+      "sha256": "382cfa1c3e55526f3bffcc392cff4dfad98e82a13a567854a1f38d7f26b56c41"
+    },
+    {
+      "path": "results/day2_blockers/trema_status.json",
+      "sha256": "fb76aba99184a30a8e1d7cccc3b58cb047c5bdff9a97f5a823d5b2056012b4e5"
+    },
+    {
+      "path": "docs/amendment_2026-09-13_trema_taxonomy.md",
+      "sha256": "c4e7e0640d4b18d9fdfdf78ca74abb3f7380b1eb9df2d8b289c7f4caa69597f9"
     }
   ],
   "offline_replay": {
     "status": "passed",
-    "verification_report": "results/offline_replay.json"
+    "verification_report": "results/offline_replay.json",
+    "scope": "Offline replay of behaviour with Trema supplement, full activity retrieval and analysis. Chemistry is the completed day-two full export scan, reused unchanged as an input."
   },
-  "note": "Assembled from individually executed stage manifests and the verified full offline chain; stage retrieval/execution times remain in the original manifests."
+  "prior_run_manifest": "results/day2_blockers/end_to_end_manifest.json"
 }

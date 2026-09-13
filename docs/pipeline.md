@@ -103,14 +103,16 @@ four genera; full taxonomy outputs replay identically with `--offline`.
 Merge the three taxonomy outputs with the completed source-audit replacement:
 
 ```bash
-.venv/bin/python -m scripts.behaviour --output data/processed/behaviour
+.venv/bin/python -m scripts.behaviour --output data/processed/behaviour --taxonomy-supplement data/interim/trema_resolution/manifest.json
 ```
 
 The three early Saverschek rows are explicitly superseded by 80 audited,
-taxonomy-matched contexts. This preserves Miconia's contrary directions, which
-the early extraction omitted. `observations.jsonl` retains all 89 contexts for
-sensitivity reaggregation; `all_genera.jsonl` contains 15 genera;
-`genera.jsonl` contains ten eligible genera; `conflicts.jsonl` contains five
+taxonomy-matched contexts, with seven Trema contexts added by the
+[September 13 taxonomy supplement](amendment_2026-09-13_trema_taxonomy.md).
+This preserves Miconia's contrary directions, which the early extraction omitted.
+`observations.jsonl` retains all 96 contexts for sensitivity reaggregation;
+`all_genera.jsonl` contains 16 genera; `genera.jsonl` contains eleven eligible genera;
+`conflicts.jsonl` contains five
 conflicts. Exact source/context deduplication, source/ant/observation counts,
 Miconia verification and every replacement hash are saved alongside them.
 The older `data/interim/evidence_current/` remains an archived provisional snapshot.
@@ -128,7 +130,7 @@ The pinned [LOTUS v4 export](https://doi.org/10.5281/zenodo.6582121) is
 CC BY 4.0. Complete download and published checksum verification precede the
 local genus filter. Version, URL, retrieval time, file hash, licence, original
 row locators and transformation rules are saved in `run_manifest.json`.
-All 15 genera are represented in coverage reporting, including conflicts.
+All 16 genera are represented in coverage reporting, including conflicts.
 The contract CSV is `data/interim/chemistry/occurrence_contract.csv`; it can also
 be imported directly with `scripts.chemistry PATH --offline`.
 See [chemistry export provenance](chemistry_export.md) for complete details.
@@ -177,11 +179,21 @@ Missing upstream data emits explicit blocked metrics and schema-bearing empty
 artifacts; it does not become an observed zero-coverage result.
 
 The complete prepared-input chain is also available as
-`.venv/bin/python -m scripts.run_pipeline`. Add `--offline` to replay every stage
+`.venv/bin/python -m scripts.run_pipeline --taxonomy-supplement data/interim/trema_resolution/manifest.json`.
+Add `--offline` to replay every stage
 from local inputs/cached responses. Individual chemistry, behaviour, bioactivity,
 analysis and funnel commands also support `--offline`. `--start-at analysis`
-resumes after retrieval. Original corpus/extraction/taxonomy offline checks and
-the completed-stage replay results are consolidated in `results/offline_replay.json`.
+resumes after retrieval. The September 13 offline verification covers behaviour,
+activity and analysis in `results/offline_replay.json`, reusing the completed
+chemistry export scan. The previous full-run replay report is retained at
+`results/day2_blockers/offline_replay.json`.
+
+The Saverschek DEVELOPMENT SET baseline is generated from the saved curator audit
+and original extraction with `.venv/bin/python -m scripts.recall_baseline`.
+Its [report](../results/recall_baseline.md) records separate PRIMARY and CONTEXT
+counts, reference provenance and contamination risk. Reproduce the day-two
+verification with `.venv/bin/python -m scripts.verify_day2`, then assemble the
+combined report with `.venv/bin/python -m scripts.day2_report`.
 
 ## Stage 8: prospective experiment planning
 

@@ -75,11 +75,14 @@ def main() -> None:
     parser.add_argument("--results", type=Path, default=Path("results"))
     parser.add_argument("--interim", type=Path, default=Path("data/interim/chemistry"))
     parser.add_argument("--offline", action="store_true")
+    parser.add_argument("--taxonomy-supplement", type=Path, action="append", default=[])
     parser.add_argument("--start-at", choices=["behaviour", "chemistry", "bioactivity", "analysis", "funnel"],
                         default="behaviour")
     args = parser.parse_args()
     protocol = committed_protocol(Path.cwd())
     stages = stage_commands(args.processed, args.results, args.interim, args.offline)
+    for supplement in args.taxonomy_supplement:
+        stages[0]["arguments"].extend(["--taxonomy-supplement", str(supplement)])
     start = next(index for index, stage in enumerate(stages) if stage["name"] == args.start_at)
     manifest = {"project": "aani", "protocol_commit": protocol, "offline": args.offline,
                 "started_at": timestamp(), "stages": [], "prepared_upstream_stages": ["corpus", "extraction", "taxonomy"]}

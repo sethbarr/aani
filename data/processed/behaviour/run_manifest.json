@@ -3,7 +3,7 @@
   "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
   "stage": "behaviour",
   "network_required": false,
-  "replay": ".venv/bin/python -m scripts.behaviour --offline",
+  "replay": ".venv/bin/python -m scripts.behaviour --offline --taxonomy-supplement data/interim/trema_resolution/manifest.json",
   "inputs": [
     {
       "path": "data/interim/taxonomy_pilot/observations.jsonl",
@@ -24,6 +24,34 @@
     {
       "path": "results/saverschek_audit/manifest.json",
       "sha256": "bc991f8fda28c9e654361774db6c30629f89321dbf26a1947eba56f2720a0417"
+    },
+    {
+      "path": "data/interim/trema_resolution/manifest.json",
+      "sha256": "4fbaa1ad1d415153905c2d16c68807df4aadc9a1386b4743dcb2032b356f58ca"
+    },
+    {
+      "path": "results/saverschek_audit/curated_directional_observations.jsonl",
+      "sha256": "b0b37dbd5535aee76ab6915f5a93e854c6be83637047cdb8f80a333636e82406"
+    },
+    {
+      "path": "data/interim/trema_resolution/observations.jsonl",
+      "sha256": "84ae72892a7c06013445f0d99f71580a0e9915293a8b8f28504c44e806f00a49"
+    },
+    {
+      "path": "docs/amendment_2026-09-13_trema_taxonomy.md",
+      "sha256": "c4e7e0640d4b18d9fdfdf78ca74abb3f7380b1eb9df2d8b289c7f4caa69597f9"
+    },
+    {
+      "path": "data/raw/http/cb9d68d50b6dd0401456f4b49933e91b8dc5a50c740d8ae03116c8a9e1edae8b.json",
+      "sha256": "aa6638977918fcf24af6dc5c32f2c6fa0d2530335b55e7db419e2ad1ac87dcad"
+    },
+    {
+      "path": "data/raw/http/5fc3c4f06621eaebc461863f4a8ac347e91448e00a2f0f98a31e03ba3bc8cc1f.json",
+      "sha256": "2e4b3a24fd2cac1390c7bae250fbca5b13530266c47c16d64b47ec3ee49b2530"
+    },
+    {
+      "path": "data/raw/http/1ac9e05119f33d36da82aaef3bb2d96b8cc44919b3aa917e97bf8f2352e1d924.json",
+      "sha256": "d99cc155b1d05edeecbf3ab6b68b000ff0e039010348768b5d1d1bb163b2e4f7"
     },
     {
       "path": "config/analysis.json",
@@ -64,6 +92,10 @@
     {
       "path": "data/raw/http/348073c78bf66bb091eb11ec520df30adb5ed4a3982932ed5597c0e2455011b6.json",
       "sha256": "0f3a12312900d320de6f0ae3e785f5bf020339dcd64dc6d39813d39d679f9700"
+    },
+    {
+      "path": "data/raw/http/5fc3c4f06621eaebc461863f4a8ac347e91448e00a2f0f98a31e03ba3bc8cc1f.json",
+      "sha256": "2e4b3a24fd2cac1390c7bae250fbca5b13530266c47c16d64b47ec3ee49b2530"
     },
     {
       "path": "data/raw/http/62aa78a35430aba26dab192f4366b5374b6dcf2fbfacc0d5934b5fb98e74ef32.json",
@@ -122,7 +154,7 @@
       "sha256": "3b9d28a3762190529b718de6d9fbd308bbb8d9f0a052c9b5a9c11da9c4fcc5ae"
     }
   ],
-  "replacement_policy": "Read all three requested taxonomy outputs. Replace every SAVERSCHEK2010 coarse model record with the completed audit's taxonomy-matched directional contexts, retaining all opposite directions. Do not append both representations. Curated contexts are separate from model candidate and validation denominators.",
+  "replacement_policy": "Read all three requested taxonomy outputs. Replace every SAVERSCHEK2010 coarse model record with the completed audit's taxonomy-matched directional contexts, retaining all opposite directions. Do not append both representations. Explicit taxonomy supplements add all supported contexts for reviewed taxa, preserving original source evidence and directions. Curated contexts have separate denominators from model candidates.",
   "deduplication": "Whitespace-normalized source, genus, direction, quote, ant and actual experimental context; different habitats, test days and designs remain distinct.",
   "limitations": [
     "Curated context totals are not model records or independent biological replicates.",

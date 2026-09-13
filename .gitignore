@@ -45,6 +45,14 @@ results/*
 !results/end_to_end_manifest.json
 !results/offline_replay.json
 !results/candidate_genera.csv
+!results/recall_baseline.json
+!results/recall_baseline.md
+!results/day2_status.json
+!results/day2_status.md
+!results/day2_blockers/
+results/day2_blockers/*
+!results/day2_blockers/lme4_status.json
+!results/day2_blockers/trema_status.json
 !results/primary/
 !results/experimental/
 !results/delayed/

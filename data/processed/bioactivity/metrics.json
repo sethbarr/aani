@@ -2,13 +2,13 @@
   "status": "complete",
   "blocked_reason": null,
   "incomplete_reason": null,
-  "compounds": 2183,
-  "matched_compounds": 849,
+  "compounds": 2198,
+  "matched_compounds": 854,
   "active": 7,
   "inactive": 17,
-  "unknown": 2159,
+  "unknown": 2174,
   "failed_compounds": 0,
-  "retrieved_measurements": 8947,
+  "retrieved_measurements": 8974,
   "classified_measurements": 51,
   "discordant_compounds": 3,
   "unique_assays_with_classified_measurements": 23,
@@ -23,8 +23,8 @@
     "targets": 18552
   },
   "cached_requests": 109,
-  "all_imported_compounds": 2183,
-  "selected_compounds": 2183,
+  "all_imported_compounds": 2198,
+  "selected_compounds": 2198,
   "excluded_outside_eligible_genera_compounds": 0,
   "eligible_behaviour_genera": null,
   "selected_genera": [
@@ -38,12 +38,13 @@
     "Randia",
     "Sorocea",
     "Spondias",
+    "Trema",
     "Trichilia",
     "Vicia"
   ],
-  "selected_occurrences": 27033,
+  "selected_occurrences": 27235,
   "selection_rule": "All imported genera, including conflict genera, to support prespecified sensitivity reaggregation. Conflicts remain excluded from primary inference.",
-  "primary_scope_compounds": 1851,
+  "primary_scope_compounds": 1866,
   "additional_sensitivity_scope_compounds": 332,
   "primary_scope_genera": [
     "Acalypha",
@@ -55,6 +56,7 @@
     "Randia",
     "Sorocea",
     "Spondias",
+    "Trema",
     "Vicia"
   ]
 }

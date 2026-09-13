@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-13",
+  "status": "available",
+  "blocked_reason": null,
+  "r_executable": "/opt/homebrew/bin/Rscript",
+  "r_version": "4.5.0",
+  "lme4_package_version": "2.0-6",
+  "lme4_reported_version": "2.0.6",
+  "library_path": "/opt/homebrew/lib/R/4.5/site-library/lme4",
+  "runtime_environment_overrides": {},
+  "installation_source": "https://cloud.r-project.org",
+  "initial_installation_errors": [
+    "nloptr: CMake was not found on the PATH; ERROR: configuration failed for package 'nloptr'",
+    "minqa and RcppEigen: R's FLIBS referred to GCC 14 while installed GCC is 15.2.0; ld: library 'emutls_w' not found"
+  ],
+  "resolution": [
+    "Installed CMake 4.4.3 with Homebrew.",
+    "Retried source installation with R_MAKEVARS_USER pointing to results/day2_blockers/Makevars, which supplies the verified GCC 15 library paths.",
+    "Preserved the original R configuration. The Makevars override was used only for installation."
+  ],
+  "checks": {
+    "require_namespace": "passed",
+    "pipeline_model_environment": "available",
+    "glmer_bobyqa_smoke_test": "passed on the lme4 built-in cbpp data"
+  },
+  "logs": [
+    "results/day2_blockers/lme4_install.log",
+    "results/day2_blockers/cmake_install.log",
+    "results/day2_blockers/lme4_install_retry.log",
+    "results/day2_blockers/lme4_verification.log"
+  ],
+  "analysis_rerun": {
+    "status": "complete",
+    "model_environment": {
+      "status": "available",
+      "reason": null,
+      "executable": "/opt/homebrew/bin/Rscript",
+      "version_output": "R version 4.5.0 (2025-04-11) \nlme4=2.0.6",
+      "error_output": ""
+    },
+    "manifest": "results/run_manifest.json"
+  }
+}
