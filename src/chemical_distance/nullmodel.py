@@ -1,19 +1,8 @@
-"""Ask whether the tested compounds occupy a distinctive region of the corpus.
+"""Measure retrieved assay coverage against random subsets of the same plant corpus.
 
-The headline contrast between classified and unknown compounds cannot separate
-chemical novelty from the tautology that co-assayed compounds resemble one
-another, because the classified compounds are themselves reference members.
-This module removes that confound. It compares the real tested set against
-random subsets of the same corpus, drawn at the same size, and scores every
-subset by how far it leaves the compounds it does not contain.
-
-Under the null of testing unrelated to chemistry, the tested set is an ordinary
-random subset and the remainder sits no further away than chance. A tested set
-concentrated on a narrow chemical region leaves the remainder further away than
-chance, which is what the chemical-novelty explanation predicts.
-
-Nothing here produces or approaches an activity value. Every quantity is a
-distance between structures.
+Random selections preserve reference size and use their own complement as queries.
+The comparison describes within-corpus coverage under exchangeable membership;
+it does not identify the cause of coverage or describe an external assay universe.
 """
 
 from dataclasses import dataclass
@@ -223,3 +212,19 @@ def rarefaction(
         ]
         points.append(RarefactionPoint(size=size, median=float(np.mean(values)), draws=draws))
     return tuple(points)
+
+
+def coverage_reading(result: NullResult) -> str:
+    """Describe placement in a random-reference range without a causal conclusion."""
+    if result.observed < result.null_low:
+        position = "below"
+    elif result.observed > result.null_high:
+        position = "above"
+    else:
+        position = "within"
+    return (
+        f"The observed median similarity is {position} the central 95% range of "
+        "random-reference statistics. This describes the retrieved reference's coverage "
+        "within this corpus under the size-matched randomization. Genus composition, "
+        "molecular size, and duplicate fingerprints require separate sensitivity checks."
+    )

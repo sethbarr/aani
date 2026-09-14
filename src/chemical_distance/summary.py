@@ -5,7 +5,7 @@ from pathlib import Path
 
 from src.chemical_distance.convention import DOMAIN_CONVENTION
 from src.chemical_distance.neighbours import Distribution
-from src.chemical_distance.nullmodel import NullResult, RarefactionPoint
+from src.chemical_distance.nullmodel import NullResult, RarefactionPoint, coverage_reading
 
 
 @dataclass(frozen=True)
@@ -161,7 +161,7 @@ def render_distributions(report: Report) -> list[str]:
         "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
         distribution_row("Unknown activity vs tested set", report.unknown_vs_tested),
         distribution_row(
-            "  of which never tested at all", report.unknown_never_tested
+            "  of which no eligible measurement was retrieved", report.unknown_never_tested
         ),
         distribution_row(
             "  of which tested but unclassifiable", report.unknown_already_tested
@@ -242,25 +242,7 @@ def render_null(report: Report) -> list[str]:
         Markdown lines.
     """
     result = report.null_result
-    inside = result.null_low <= result.observed <= result.null_high
-    if result.observed < result.null_low:
-        reading = (
-            "The tested compounds leave the rest of the corpus further away than any "
-            "comparable random subset does, which means testing concentrated on a narrow "
-            "region of this chemical space rather than sampling it evenly."
-        )
-    elif inside:
-        reading = (
-            "The tested compounds leave the rest of the corpus exactly as far away as a "
-            "random subset of the same size would, so nothing about which compounds were "
-            "tested is chemically distinctive."
-        )
-    else:
-        reading = (
-            "The tested compounds leave the rest of the corpus closer than a random subset "
-            "of the same size would, so testing spread across this chemical space more "
-            "evenly than chance."
-        )
+    reading = coverage_reading(result)
     lines = [
         f"Each of {result.draws} draws takes a random subset of the corpus the size of the",
         "tested set and measures how far it leaves every compound it does not contain. The",
@@ -273,7 +255,7 @@ def render_null(report: Report) -> list[str]:
         f"| Median similarity, observed against the real tested set | "
         f"{result.observed:.3f} |",
         f"| Median similarity, random subsets of the same size | {result.null_median:.3f} |",
-        f"| Random subsets, 95% interval | {result.null_low:.3f} to {result.null_high:.3f} |",
+        f"| Random subsets, central 95% range | {result.null_low:.3f} to {result.null_high:.3f} |",
         f"| Draws at or below observed | {result.at_or_below} of {result.draws} |",
         f"| p | {result.p_value:.4f} |",
         "",
@@ -289,10 +271,9 @@ def render_null(report: Report) -> list[str]:
     lines.extend(
         [
             "",
-            "The curve is still climbing steeply at the full reference size, so the absolute",
-            "similarities above understate what a complete tested set would give. The",
-            "permutation control is unaffected, because every draw is matched to the real",
-            "reference set for size.",
+            "These points show sensitivity to reference size within the retrieved set.",
+            "The randomization matches the observed reference count. Expanding the retrieved",
+            "reference can change both similarities and the observed-versus-null comparison.",
         ]
     )
     return lines
@@ -309,7 +290,7 @@ def render(report: Report) -> str:
     """
     missing = ", ".join(report.missing_organisms) if report.missing_organisms else "none"
     lines = [
-        "# Chemical distance between untested plant structures and tested compounds",
+        "# Chemical distance and retrieved assay coverage within the plant corpus",
         "",
         "**This analysis produces a distance measurement and a ranked test list only.**",
         "It contains no predicted activity label, no probability and no imputed value.",
@@ -317,7 +298,7 @@ def render(report: Report) -> str:
         "admissible to the enrichment analysis, and the feasibility-failure label is",
         "unchanged.",
         "",
-        "## 1. Reference set: compounds that have been tested",
+        "## 1. Reference set: compounds with eligible measurements retrieved",
         "",
         "The reference set is every compound for which the bioactivity stage retrieved",
         "at least one measurement on an eligible functional assay against the target",
@@ -340,8 +321,8 @@ def render(report: Report) -> str:
         f"Classified compounds number {report.reference_active + report.reference_inactive}, "
         f"being {report.reference_active} active and {report.reference_inactive} inactive. "
         "The remainder were measured on an eligible assay whose value could not be read "
-        "against the frozen threshold, overwhelmingly because the reported units are not "
-        "convertible to a molar concentration.",
+        "against the frozen threshold, often because the reported units were not "
+        "converted to a molar concentration under the frozen rules.",
         "",
         "## 2. Query set: unknown-activity plant structures",
         "",
@@ -353,16 +334,16 @@ def render(report: Report) -> str:
         f"- Already carrying an eligible measurement that yielded no usable label: "
         f"{report.query_overlap} ({percent(report.query_overlap, report.query_size)})",
         "",
-        "Every compound is excluded from its own reference set, so no compound is its",
-        "own nearest neighbour and the overlap above cannot inflate any similarity.",
+        "Each compound identifier is excluded from its own reference set. Distinct",
+        "identifiers can have identical fingerprints; the robustness analysis separately",
+        "collapses those classes to test sensitivity to repeated representations.",
         "",
         f"A further {report.query_low_complexity} query compounds "
         f"({percent(report.query_low_complexity, report.query_size)}) carry fewer than "
         f"{report.low_complexity_floor} heavy atoms. A structure that small sets almost no "
-        "fingerprint bits, so it scores as maximally novel for want of substance rather "
-        "than for want of a resembling tested compound, and the two single-atom records at "
-        "the head of the ranked table are artefacts of exactly this. The table carries a "
-        "heavy atom count so these can be discounted on sight.",
+        "fingerprint bits and can have low similarity because of its size. The two "
+        "single-atom records lead the current ranking. The table retains heavy-atom "
+        "counts; the predeclared robustness analysis evaluates a size-filtered population.",
         "",
         "## 3. Nearest-neighbour similarity distributions",
         "",
@@ -376,8 +357,8 @@ def render(report: Report) -> str:
             "",
             f"The {DOMAIN_CONVENTION} similarity threshold is a working convention for",
             "flagging a query compound as outside the applicability domain of a reference",
-            "set. It is a convention in common use, not a law of chemistry, and nothing in",
-            "this analysis depends on its exact value.",
+            "set. Changing this convention changes the counts below the threshold. The",
+            "median-similarity randomization comparison is independent of that threshold.",
             "",
             "## 4. Bemis-Murcko scaffold overlap",
             "",
@@ -398,7 +379,7 @@ def render(report: Report) -> str:
     lines.extend(
         [
             "",
-            "## 6. Does testing track chemistry, or only history?",
+            "## 6. Retrieved reference coverage under random selection",
             "",
         ]
     )
@@ -408,15 +389,14 @@ def render(report: Report) -> str:
             "",
             "## 7. Limitations that bound every number above",
             "",
-            "**The reference set is the compounds retrieved during the bioactivity stage,",
-            "not every compound ChEMBL holds for these assays.** The cached retrieval",
-            f"filtered activities by plant compound, so although the {report.eligible_assays}",
-            "eligible assays are a complete inventory, the compounds measured in them were",
-            "never fetched and no structures for them exist offline. Every similarity here",
-            f"is therefore a distance to {report.reference_size} compounds rather than to",
-            "the true tested chemical space, and a fuller reference set would raise the",
-            "similarities and shrink the share falling below the convention. The direction",
-            "of the contrast would survive; the absolute values would not.",
+            "**Reference membership is limited to compounds with eligible measurements",
+            "retrieved during this pipeline.** Activities were filtered by plant compound.",
+            f"The {report.eligible_assays} eligible assays define the assay inventory; their",
+            "complete set of measured compounds was not retrieved. These similarities use",
+            f"the {report.reference_size} retrieved reference compounds. Adding compounds to",
+            "a fixed reference can only increase or preserve nearest-neighbour similarities",
+            "for a fixed query set. The observed-versus-null contrast can change direction",
+            "when the reference and its randomization are expanded.",
             "",
             f"**{', '.join(report.missing_organisms) or 'No requested organism'} is absent",
             "from the frozen inventory.** The retrieval asked ChEMBL for three organisms,",
@@ -424,7 +404,8 @@ def render(report: Report) -> str:
             "",
             "**Reference and query are drawn from the same corpus.** Every reference",
             "compound is also a plant structure from these genera, so this measures",
-            "distance within the corpus, not distance to antifungal chemistry at large.",
+            "distance within the corpus. Its relation to the wider antifungal assay",
+            "universe requires a broader reference retrieval.",
             "",
             "## 8. Verdict",
             "",

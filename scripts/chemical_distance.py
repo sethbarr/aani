@@ -1,8 +1,7 @@
-"""Measure how far untested plant structures sit from tested compounds.
+"""Measure chemical distance to the retrieved reference within the plant corpus.
 
-This run answers why most mapped plant structures carry no eligible antifungal
-measurement, by measuring their chemical distance from the compounds that do.
-It is offline, uses RDKit only, and produces no predicted activity of any kind.
+This offline analysis describes assay coverage with RDKit fingerprints. It makes
+no activity prediction and does not establish why a compound lacks retrieved data.
 """
 
 import hashlib
@@ -209,62 +208,31 @@ def build_verdict(
     overlap: int,
     overlap_total: int,
 ) -> str:
-    """Compose the verdict on whether chemical novelty explains the gap.
-
-    The classified-versus-unknown contrast cannot settle the question on its
-    own, because the classified compounds belong to the reference set and
-    co-assayed compounds resemble one another. The permutation control settles
-    it, by asking whether the real tested set is chemically distinctive against
-    random subsets of the same size drawn from the same corpus.
+    """Describe the observed corpus contrast without attributing its cause.
 
     Args:
-        never_tested: Distribution for unknown compounds never assayed at all.
-        already_tested: Distribution for unknown compounds assayed without a
-            usable label.
-        classified: Classified-compound distribution against the tested set.
-        null: The random-reference permutation control.
-        overlap: Distinct unknown scaffolds shared with the tested set.
-        overlap_total: Distinct unknown scaffolds in total.
+        never_tested: Compounds with no eligible measurement retrieved.
+        already_tested: Compounds with a retrieved measurement and no usable label.
+        classified: Compounds with a classified measurement.
+        null: Original random-reference comparison within this corpus.
+        overlap: Unknown-compound scaffolds shared with the reference.
+        overlap_total: Distinct unknown-compound scaffolds.
 
     Returns:
-        One sentence stating the verdict, with the numbers it rests on.
+        Numerical corpus comparison with its retrieval and causal limits.
     """
-    confounded = abs(classified.median - already_tested.median) < 0.5 * (
-        classified.median - never_tested.median
-    )
-    caveat = (
-        "the raw contrast between classified and unknown compounds is uninformative on "
-        "its own, since compounds assayed without a usable label sit just as close at "
-        f"{already_tested.median:.3f}, but "
-        if confounded
-        else ""
-    )
-    if null.observed < null.null_low:
-        reading = (
-            "the tested compounds leave the rest of the corpus further away than every "
-            "comparable random subset does, so testing concentrated on a narrow region of "
-            "this chemical space and the coverage gap is genuinely a novelty gap rather "
-            "than an artefact of which compounds share an assay"
-        )
-    elif null.observed > null.null_high:
-        reading = (
-            "the tested compounds leave the rest of the corpus closer than a random subset "
-            "would, so chemical novelty does not explain the coverage gap"
-        )
-    else:
-        reading = (
-            "the tested compounds leave the rest of the corpus no further away than a "
-            "random subset of the same size, so chemical novelty does not explain the "
-            "coverage gap, which is better attributed to where assay effort has gone"
-        )
     return (
-        f"Never-assayed compounds sit at a median nearest-neighbour similarity of "
-        f"{null.observed:.3f} to the tested set against a random-subset null of "
-        f"{null.null_median:.3f} with a 95% interval of {null.null_low:.3f} to "
-        f"{null.null_high:.3f} and {null.at_or_below} of {null.draws} draws at or below "
-        f"the observed value, and only {overlap} of {overlap_total} distinct unknown "
-        f"scaffolds occur in the tested set at all, so {caveat}{reading}."
+        f"Compounds with no eligible assay measurement retrieved have median similarity "
+        f"{null.observed:.3f} to the retrieved reference, compared with a random-reference "
+        f"median of {null.null_median:.3f}. The central 95% of random-reference statistics "
+        f"span {null.null_low:.3f}–{null.null_high:.3f}; {null.at_or_below} of {null.draws} "
+        f"draws are at or below the observed value. Retrieved but unclassifiable compounds "
+        f"have median similarity {already_tested.median:.3f}, and {overlap} of {overlap_total} "
+        "unknown-compound scaffolds occur in the reference. This comparison describes "
+        "coverage within the retrieved plant corpus. Its cause and its relationship to "
+        "all compounds with antifungal assay data remain unresolved."
     )
+
 
 
 def file_digest(path: Path) -> str:
