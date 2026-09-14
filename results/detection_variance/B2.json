@@ -1,0 +1,98 @@
+{
+  "draw": "B2",
+  "arm": "B",
+  "status": "incomplete",
+  "scored_at": "2026-09-14T14:41:33.774814+00:00",
+  "within_deadline": true,
+  "total_candidates": 2,
+  "candidate_passes": 0,
+  "candidate_failures": 2,
+  "primary": {
+    "detection": null,
+    "survival": null,
+    "correctness": null
+  },
+  "primary_reference_pairs": {
+    "detection": null,
+    "survival": null,
+    "correctness": null
+  },
+  "omitted_species": null,
+  "primary_species": null,
+  "failure_reasons": {
+    "plant_not_in_name_evidence": 1,
+    "ant_identity_mismatch": 1
+  },
+  "sampling": {
+    "draw": "B2",
+    "outcomes": [
+      {
+        "chunk_index": 0,
+        "input_hash": "e24ec478c693a17c2239a85a7ef94f88184aa3b95197e88c51805e1a3d50ac59",
+        "status": "complete",
+        "response_path": "data/interim/detection_variance/B2/responses/0.json",
+        "response_sha256": "b93082f183d3d0bfc81eee0da3d784122dcc60ae74964dda4fbf6ed2ef48d50f",
+        "candidate_count": 0
+      },
+      {
+        "chunk_index": 1,
+        "input_hash": "04a927732854b82cfb727f448e4cf35c3a6042a8b967ec8db9098aa4bac2b8a9",
+        "status": "failed",
+        "reason": "JSONDecodeError: Invalid control character at: line 113 column 45 (char 4771)"
+      },
+      {
+        "chunk_index": 2,
+        "input_hash": "d34f9ffc3e88d4505108085d37763331d7b4ffb1d44b3a90165cfc9f9e4dca93",
+        "status": "complete",
+        "response_path": "data/interim/detection_variance/B2/responses/2.json",
+        "response_sha256": "3c3610fe87445147a5b92371e45ea985d99aa92f502a24d85e95bbe93b941f5c",
+        "candidate_count": 2
+      }
+    ],
+    "attempt_log": [
+      {
+        "request_hash": "359de59c84d22b94e47da6318a4eb6deb37295ffb42129cc0fd15e3999551b21",
+        "attempt_number": 1,
+        "started_at": "2026-09-14T14:39:55.543727+00:00",
+        "kind": "http_response",
+        "retry_reason": null,
+        "finished_at": "2026-09-14T14:39:59.616085+00:00",
+        "http_status": 200
+      },
+      {
+        "request_hash": "b9bc3886625763c49addc952f56b09edea765dcab2cbf74c197d661b868518de",
+        "attempt_number": 1,
+        "started_at": "2026-09-14T14:39:59.620651+00:00",
+        "kind": "http_response",
+        "retry_reason": null,
+        "finished_at": "2026-09-14T14:40:07.624089+00:00",
+        "http_status": 200
+      },
+      {
+        "request_hash": "cf52fbaaa0b708fbeb0419c0fb7ae279150aee46b3cf1a72dc2a7f99d13923ef",
+        "attempt_number": 1,
+        "started_at": "2026-09-14T14:40:07.626858+00:00",
+        "kind": "http_response",
+        "retry_reason": null,
+        "finished_at": "2026-09-14T14:40:13.635091+00:00",
+        "http_status": 200
+      }
+    ],
+    "retries": 0,
+    "updated_at": "2026-09-14T14:40:13.637631+00:00"
+  },
+  "responses": [
+    {
+      "chunk_index": 0,
+      "sha256": "b93082f183d3d0bfc81eee0da3d784122dcc60ae74964dda4fbf6ed2ef48d50f",
+      "response_id": null,
+      "resolved_model": "gemini-3.8-flash"
+    },
+    {
+      "chunk_index": 2,
+      "sha256": "3c3610fe87445147a5b92371e45ea985d99aa92f502a24d85e95bbe93b941f5c",
+      "response_id": null,
+      "resolved_model": "gemini-3.8-flash"
+    }
+  ]
+}

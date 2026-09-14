@@ -1,0 +1,28 @@
+{
+  "status": "completed_with_incomplete_draw",
+  "recorded_at": "2026-09-14T14:42:44.878138+00:00",
+  "model_calls": 24,
+  "transport_retries": 0,
+  "http_200_responses": 24,
+  "complete_draws": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "B1",
+    "B3",
+    "B4"
+  ],
+  "incomplete_draws": {
+    "B2": "Chunk 1 returned invalid structured JSON: unescaped control character; no retry or repair."
+  },
+  "first_attempt_started_at": "2026-09-14T14:35:48.049481+00:00",
+  "last_attempt_finished_at": "2026-09-14T14:41:30.292990+00:00",
+  "deadline": "2026-09-14T16:34:12Z",
+  "within_execution_window": true,
+  "predeclaration_commit": "3a29ebd8622b3c47af95eb6b9846328a27c86bd8",
+  "restart_commit": "2d6c9e9dcf2471fc12e558368c302da5b4fb4e08",
+  "frozen_inputs_verified": 640,
+  "independent_reconciliation": "passed",
+  "arm_b_biological_export": false
+}

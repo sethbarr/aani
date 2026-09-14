@@ -1,0 +1,302 @@
+{
+  "status": "passed",
+  "verified_at": "2026-09-14T14:41:56.585434+00:00",
+  "integrity": {
+    "verified_at": "2026-09-14T14:41:56.525922+00:00",
+    "files_checked": 640,
+    "all_unchanged": true,
+    "frozen_protocol_files": [
+      {
+        "path": "docs/analysis_plan.md",
+        "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+        "matches_frozen_commit": true
+      },
+      {
+        "path": "config/analysis.json",
+        "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+        "matches_frozen_commit": true
+      }
+    ]
+  },
+  "draws": [
+    {
+      "draw": "A1",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+          "response_sha256": "33d234571b7645cfb03122206f98d08e49fd3400dad0632e58841841a53e2a21",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+          "response_sha256": "23a1b1095ff440f2e94c285d8a94299b944e9e04da4744dbb3c296f090f27913",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+          "response_sha256": "2d05ecbdf324c7ab715b28a835ff8d6340b0d2c3136bad4d85cc6e7ab6d7e446",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "97936c81bc7c5c8f3cc1634c0598872cd0f39d9f0d271bdcd84357d03a7612fb",
+        "a1b0bf8e8d2070289473920afb6a838b188914f527cc2fd1699f74f24d00b7bc",
+        "b7597d1cbd39aea326adf9363aad273298bfe12e19fa0c92b8c921bdfafed8e9"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 24,
+      "baseline_scores_match": true
+    },
+    {
+      "draw": "A2",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+          "response_sha256": "e2ec2e55a0aef43ad8e6af34ea9e869beb09232369e429438c1e0793e407e58f",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+          "response_sha256": "56113f11f0ce6eda8da8da48ea873d24de572eeb0addee9bacc834229bc77f87",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+          "response_sha256": "10cc8690d1f50feb6cb3bd0cdad59278544a5fd8653dcdff4bb00a64791612b1",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "b8e3fef8cb7752f6252f93c9d8e2240f86ba6495ee1814eda9a0503fcb462f0e",
+        "41ea8a5689799a706c2b74a427a2705e67a6bb9616386f636b4e7d3f33a52c37",
+        "59f5abf1327d2026fa8869341153ebe2fc0a6c76735bf13fe38bb8ffd146d4c7"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 24,
+      "baseline_scores_match": true
+    },
+    {
+      "draw": "A3",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+          "response_sha256": "1bb3cfce1eddab996ff64959381149cd637d01d2696c14dd54c0cff30099c6ac",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+          "response_sha256": "b5e0b73f85f6d9b02d45b4e512e864c4820282b37734ec27769265ee590a32b1",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+          "response_sha256": "cffcc522930bc6e2610f797c8127520e3750bcbb0fa4630fa4f97b3177050d63",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "81ffe13c8dc0a386c429cb5125883639069486ccc0d56887b1f7aec156c5dc1d",
+        "e8886043a95cfe7be11f1ad8a29243b44005d60fb58736522bc1191007d263cc",
+        "0c99bc9fa802e3a0955e7a4c1e087be6694cdf2e349534b840292f3bff4e19ff"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 25,
+      "baseline_scores_match": true
+    },
+    {
+      "draw": "A4",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+          "response_sha256": "5c78287dc8ae31257046eed348acea1f99d8b12d1f3e5e22c71a1e7554f512c2",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+          "response_sha256": "e9eb42019377d020fed883eb26196b1966df2f2c957fc65c90bbebaa4f8c7555",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+          "response_sha256": "f8086a89555548885d143ffc26f665c083d350468519feab8b110adca5c8cdb0",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "a30efc9fec55ca65d92984214712efc9b82992d09497df4e29e284da53e2b3d8",
+        "87b77fa06674861e791104fb872e82eabf31ccfcb3d31aa4d00700eeea4fc3a6",
+        "f31a1f3347d3baabe7f90b382b75fd27dff301e2311ca4b4cb1e64a4c09c1503"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 26,
+      "baseline_scores_match": true
+    },
+    {
+      "draw": "B1",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "359de59c84d22b94e47da6318a4eb6deb37295ffb42129cc0fd15e3999551b21",
+          "response_sha256": "b65c7d64a55a84a72f0c23d0f7570f67f1a9396a2de38ece37e958a79c16eabc",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "b9bc3886625763c49addc952f56b09edea765dcab2cbf74c197d661b868518de",
+          "response_sha256": "3e63f2d7bcc63a1e254eb6b5b3a1da7bab0db88776a2602ccae615b0a4d49088",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "cf52fbaaa0b708fbeb0419c0fb7ae279150aee46b3cf1a72dc2a7f99d13923ef",
+          "response_sha256": "d811c74f950ab1de14a4049fa7b25db242f44c95e4c37c4132976309747bed3d",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "050d0e7e8c3e9ce30af506a0aa16c18c66382350d73fd6b77b107d0486aca233",
+        "cafa8e16cd5f8fcfe653eed886a2cc8d570262d2b84aa2c2b9c05ecb0c5ddbac",
+        "bbe0caa1c20c520b454673fa8acccd54c4580cc676360c62344bc7f420b0046f"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 20,
+      "baseline_scores_match": true
+    },
+    {
+      "draw": "B2",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "359de59c84d22b94e47da6318a4eb6deb37295ffb42129cc0fd15e3999551b21",
+          "response_sha256": "b93082f183d3d0bfc81eee0da3d784122dcc60ae74964dda4fbf6ed2ef48d50f",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "b9bc3886625763c49addc952f56b09edea765dcab2cbf74c197d661b868518de",
+          "request_matches": true,
+          "response_saved_in_transport_cache": true,
+          "parse_failure": "JSONDecodeError: Invalid control character at: line 113 column 45 (char 4771)",
+          "missingness_reported": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "cf52fbaaa0b708fbeb0419c0fb7ae279150aee46b3cf1a72dc2a7f99d13923ef",
+          "response_sha256": "3c3610fe87445147a5b92371e45ea985d99aa92f502a24d85e95bbe93b941f5c",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "d300861106399b8be2be4c0975ad52d008fbff90b69159486b8284ec112005ae",
+        "6067ffbb14cace6a564f6ebbc9ebd205e6af55e8f1475c7f1e6eeb63e5c4455c",
+        "80db8349dc0ff22fdcd6619d012bf3a0d4b0bb9ed1489c2fcf754081fbcd2993"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 2,
+      "baseline_scores_match": true
+    },
+    {
+      "draw": "B3",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "359de59c84d22b94e47da6318a4eb6deb37295ffb42129cc0fd15e3999551b21",
+          "response_sha256": "46b34978585dbf40c2c8e772aa643a15e2ea5eb7cd3cb4f78dca31f7a02540c3",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "b9bc3886625763c49addc952f56b09edea765dcab2cbf74c197d661b868518de",
+          "response_sha256": "95a799efdbd6ce5e09a0f036b8eb339697058a3300ce49bad894b08dc134d9cd",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "cf52fbaaa0b708fbeb0419c0fb7ae279150aee46b3cf1a72dc2a7f99d13923ef",
+          "response_sha256": "1d0a5eb2bda9bd1ecd7c405b99d99c96af09f2b32b8f39c762dced788bbe4c32",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "3b523d6b5de95c2eef3609c129bffd6e6bc32aee2a251e9b6748389c3fc47609",
+        "9458bccf5b47c56cbc7e491d0c38fbd725f8d14d482fc2bdbecebe6d6ff0b99c",
+        "c42fbee7b78d3d3a8b3af88682450fb2bd8230738cc0ccb6724cfbbf97872ca3"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 17,
+      "baseline_scores_match": true
+    },
+    {
+      "draw": "B4",
+      "failures": [],
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "request_hash": "359de59c84d22b94e47da6318a4eb6deb37295ffb42129cc0fd15e3999551b21",
+          "response_sha256": "f77d0f87f7ae5f3233bfaa281c4c0424c02b68c9ee223ea6051daacbfec08238",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 1,
+          "request_hash": "b9bc3886625763c49addc952f56b09edea765dcab2cbf74c197d661b868518de",
+          "response_sha256": "ad6c7d66ee958a0dbe1e657c348325a86b821c26c3aed444eaf4b47b72da4272",
+          "request_matches": true
+        },
+        {
+          "chunk_index": 2,
+          "request_hash": "cf52fbaaa0b708fbeb0419c0fb7ae279150aee46b3cf1a72dc2a7f99d13923ef",
+          "response_sha256": "420e66aecc7ed5ac0a9aa44c920d103a6be6fce357a7e342acbbdf251029c483",
+          "request_matches": true
+        }
+      ],
+      "response_hashes": [
+        "dba09c3aa03d097ccbf1d8071d712188aab39fe25c5678278dfc5ea17f2d7ef6",
+        "cf3477285c6b95de92c0aec8642f5e02c566f6527693ff6b95188eef394525e0",
+        "706461e76ec171a1a0b90979fb59c5d8a9b2cb6ff576737065fa7030c4e19afe"
+      ],
+      "resolved_models": [
+        "gemini-3.8-flash"
+      ],
+      "candidate_count": 18,
+      "baseline_scores_match": true
+    }
+  ],
+  "response_count": 24,
+  "distinct_response_byte_hashes": 24,
+  "preparation_precedes_calls": true,
+  "model_requests_during_verification": 0,
+  "response_id_note": "Provider responses omit IDs; independence is checked using fresh caches, attempt logs, and distinct response-byte hashes."
+}

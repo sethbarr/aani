@@ -1,0 +1,197 @@
+{
+  "draw": "B3",
+  "arm": "B",
+  "status": "complete",
+  "scored_at": "2026-09-14T14:41:34.137540+00:00",
+  "within_deadline": true,
+  "total_candidates": 17,
+  "candidate_passes": 12,
+  "candidate_failures": 5,
+  "primary": {
+    "detection": 6,
+    "survival": 6,
+    "correctness": 6
+  },
+  "primary_reference_pairs": {
+    "detection": 6,
+    "survival": 6,
+    "correctness": 6
+  },
+  "omitted_species": [],
+  "primary_species": [
+    {
+      "species": "Desmopsis panamensis",
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [
+        "rejected"
+      ],
+      "correct_directions": [
+        "rejected"
+      ]
+    },
+    {
+      "species": "Hiraea grandifolia",
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [
+        "rejected"
+      ],
+      "correct_directions": [
+        "rejected"
+      ]
+    },
+    {
+      "species": "Randia armata",
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [
+        "rejected"
+      ],
+      "correct_directions": [
+        "rejected"
+      ]
+    },
+    {
+      "species": "Sorocea affinis",
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [
+        "rejected"
+      ],
+      "correct_directions": [
+        "rejected"
+      ]
+    },
+    {
+      "species": "Trema micrantha",
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "rejected"
+      ],
+      "surviving_directions": [
+        "rejected"
+      ],
+      "correct_directions": [
+        "rejected"
+      ]
+    },
+    {
+      "species": "Spondias mombin",
+      "detection": true,
+      "survival": true,
+      "correctness": true,
+      "proposed_directions": [
+        "accepted"
+      ],
+      "surviving_directions": [
+        "accepted"
+      ],
+      "correct_directions": [
+        "accepted"
+      ]
+    }
+  ],
+  "failure_reasons": {
+    "plant_not_in_name_evidence": 4,
+    "ant_identity_mismatch": 1
+  },
+  "sampling": {
+    "draw": "B3",
+    "outcomes": [
+      {
+        "chunk_index": 0,
+        "input_hash": "e24ec478c693a17c2239a85a7ef94f88184aa3b95197e88c51805e1a3d50ac59",
+        "status": "complete",
+        "response_path": "data/interim/detection_variance/B3/responses/0.json",
+        "response_sha256": "46b34978585dbf40c2c8e772aa643a15e2ea5eb7cd3cb4f78dca31f7a02540c3",
+        "candidate_count": 1
+      },
+      {
+        "chunk_index": 1,
+        "input_hash": "04a927732854b82cfb727f448e4cf35c3a6042a8b967ec8db9098aa4bac2b8a9",
+        "status": "complete",
+        "response_path": "data/interim/detection_variance/B3/responses/1.json",
+        "response_sha256": "95a799efdbd6ce5e09a0f036b8eb339697058a3300ce49bad894b08dc134d9cd",
+        "candidate_count": 13
+      },
+      {
+        "chunk_index": 2,
+        "input_hash": "d34f9ffc3e88d4505108085d37763331d7b4ffb1d44b3a90165cfc9f9e4dca93",
+        "status": "complete",
+        "response_path": "data/interim/detection_variance/B3/responses/2.json",
+        "response_sha256": "1d0a5eb2bda9bd1ecd7c405b99d99c96af09f2b32b8f39c762dced788bbe4c32",
+        "candidate_count": 3
+      }
+    ],
+    "attempt_log": [
+      {
+        "request_hash": "359de59c84d22b94e47da6318a4eb6deb37295ffb42129cc0fd15e3999551b21",
+        "attempt_number": 1,
+        "started_at": "2026-09-14T14:40:14.554770+00:00",
+        "kind": "http_response",
+        "retry_reason": null,
+        "finished_at": "2026-09-14T14:40:26.600887+00:00",
+        "http_status": 200
+      },
+      {
+        "request_hash": "b9bc3886625763c49addc952f56b09edea765dcab2cbf74c197d661b868518de",
+        "attempt_number": 1,
+        "started_at": "2026-09-14T14:40:26.605154+00:00",
+        "kind": "http_response",
+        "retry_reason": null,
+        "finished_at": "2026-09-14T14:40:39.006218+00:00",
+        "http_status": 200
+      },
+      {
+        "request_hash": "cf52fbaaa0b708fbeb0419c0fb7ae279150aee46b3cf1a72dc2a7f99d13923ef",
+        "attempt_number": 1,
+        "started_at": "2026-09-14T14:40:39.008917+00:00",
+        "kind": "http_response",
+        "retry_reason": null,
+        "finished_at": "2026-09-14T14:41:01.526044+00:00",
+        "http_status": 200
+      }
+    ],
+    "retries": 0,
+    "updated_at": "2026-09-14T14:41:01.528653+00:00"
+  },
+  "responses": [
+    {
+      "chunk_index": 0,
+      "sha256": "46b34978585dbf40c2c8e772aa643a15e2ea5eb7cd3cb4f78dca31f7a02540c3",
+      "response_id": null,
+      "resolved_model": "gemini-3.8-flash"
+    },
+    {
+      "chunk_index": 1,
+      "sha256": "95a799efdbd6ce5e09a0f036b8eb339697058a3300ce49bad894b08dc134d9cd",
+      "response_id": null,
+      "resolved_model": "gemini-3.8-flash"
+    },
+    {
+      "chunk_index": 2,
+      "sha256": "1d0a5eb2bda9bd1ecd7c405b99d99c96af09f2b32b8f39c762dced788bbe4c32",
+      "response_id": null,
+      "resolved_model": "gemini-3.8-flash"
+    }
+  ]
+}
