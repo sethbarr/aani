@@ -1,0 +1,65 @@
+{
+  "verified_at": "2026-09-14T15:48:50.147761+00:00",
+  "tested_commit": "4965b2911446af6416d14bedc2888c76caaa5b32",
+  "public_snapshot_pytest": {
+    "passed": 1031,
+    "failed": 26,
+    "skipped": 1,
+    "reason": "Historical baseline hash checks encounter the publication-redacted recall_baseline.json."
+  },
+  "private_fixture_pytest": {
+    "tests": 1058,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "passed": 1057
+  },
+  "private_inputs_unchanged_after_tests": true,
+  "offline_replays": [
+    {
+      "sample": "baseline",
+      "status": "passed",
+      "scientific_artifacts_compared": 9,
+      "baseline_convention_counts_identical": true,
+      "model_requests": 0
+    },
+    {
+      "sample": "sample1",
+      "status": "passed",
+      "scientific_artifacts_compared": 13,
+      "baseline_convention_counts_identical": true,
+      "model_requests": 0
+    },
+    {
+      "sample": "sample2",
+      "status": "passed",
+      "scientific_artifacts_compared": 13,
+      "baseline_convention_counts_identical": true,
+      "model_requests": 0
+    },
+    {
+      "sample": "sample3",
+      "status": "passed",
+      "scientific_artifacts_compared": 13,
+      "baseline_convention_counts_identical": true,
+      "model_requests": 0
+    },
+    {
+      "sample": "sample4",
+      "status": "passed",
+      "scientific_artifacts_compared": 13,
+      "baseline_convention_counts_identical": true,
+      "model_requests": 0
+    }
+  ],
+  "private_inputs_unchanged_after_replay": true,
+  "detection_variance_reconciliation": {
+    "status": "passed",
+    "calls": 24,
+    "distinct_response_byte_hashes": 24,
+    "model_requests_during_verification": 0
+  },
+  "lint": "passed for detection variance and chemical distance source and tests",
+  "skipped_dependency": "RDKit-dependent test module; optional RDKit package unavailable in .venv",
+  "model_calls_during_final_checks": 0
+}

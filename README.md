@@ -36,7 +36,7 @@ aani makes them computable: papers in, grounded behavioural observations out,
 resolved to accepted plant names, joined to chemical structures and measured
 antifungal activity, with a source anchor at every link.
 
-**Current status — 13 September 2026.** The primary pipeline executes end to end
+**Current status — 14 September 2026.** The primary pipeline executes end to end
 with the analysis plan frozen before outcomes were examined. The biological test
 remains a feasibility failure: seven usable genera fall below the 25-genus gate,
 and only one is in the rejected arm. Two measured limits guide the next work:
@@ -56,8 +56,11 @@ and only one is in the rejected arm. Two measured limits guide the next work:
    V6 retains all six PRIMARY directions in three saved development samples.
    The fresh fourth sample retains two of six because four species were never
    proposed. It does not exceed the baseline's two-of-six survival count. The
-   [reader series](#extraction-validity) separates development from held-out results
-   and records the remaining identity and plant-name failures.
+   [reader series](#extraction-validity) separates development from held-out results.
+   A subsequent [predeclared schema comparison](results/detection_variance/summary.md)
+   made 24 calls with frozen v6 and zero retries. All seven complete draws detected
+   and retained all six PRIMARY species; the eighth draw returned invalid JSON.
+   The comparison cannot distinguish sampling variance from proposal suppression.
 
 The prior is old; the proposal to mine it dates to zoopharmacognosy work in the
 1990s. What is new is that extracting and joining scattered behavioural
@@ -78,8 +81,8 @@ elsewhere have at most 15 words each.
 
 These checks cover the current staged and working snapshot. Earlier Git commits
 contain unsanitized reference artifacts; history has not been rewritten. Review
-that history before publishing it. Several new implementation files also remain
-untracked or unstaged, so the complete release still needs a code inventory.
+that history before publishing it. The detection experiment and chemical-distance
+implementation are committed with their validation tests.
 
 Offline replay requires the prepared inputs and populated cache described in
 [the pipeline guide](docs/pipeline.md); a fresh clone alone cannot reproduce the
@@ -219,6 +222,16 @@ source review.
 | [v4](results/grounding_development_v4/summary.md) | 6 of 6 in samples 1 and 2 | Unique source-span inference resolves model-side control characters; both samples informed the rule. |
 | [v5](results/grounding_development_v5/summary.md) | 6 of 6 in samples 1–3 | Bounded printable-character equivalences preserve previous leafcutter survivors. |
 | [v6](results/grounding_development_v6/summary.md) | 6 of 6 in samples 1–3; 2 of 6 in fresh sample 4 | Cache-side control inference recovers seven sample-3 records; sample 4 omits four PRIMARY species. |
+
+The [14 September detection experiment](results/detection_variance/summary.md)
+compares four new two-span draws against four new single-span draws with identical
+source-level ant identity context and frozen v6 validation. Arm A detected six
+PRIMARY species in every draw (mean 6; range 6–6), with 85 of 99 candidates
+surviving. Three complete Arm B draws also detected six each (mean 6; range 6–6),
+with 38 of 55 candidates surviving. B2's table response was invalid JSON and remains
+unscorable; no retry or repair was used. No PRIMARY species was omitted in a
+complete draw. The ceiling counts and incomplete B arm leave both hypotheses
+unresolved. Single-span records remain isolated from biological outputs.
 
 [Held-out sample 3](results/grounding_development_v4/heldout_summary.md)
 retained PRIMARY 6 of 6 and CONTEXT 5 of 10 under the frozen v4 rule. Seven records
