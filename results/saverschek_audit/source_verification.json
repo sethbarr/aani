@@ -1,0 +1,284 @@
+{
+  "source_id": "SAVERSCHEK2010",
+  "doi": "10.1016/j.anbehav.2009.12.021",
+  "title": "Avoiding plants unsuitable for the symbiotic fungus: learning and long-term memory in leaf-cutting ants",
+  "auditor": "Codex source-verification subagent",
+  "scope": "Original-source access and visual verification, independently of behavioural interpretation and without changing the frozen corpus or model outputs.",
+  "status": "full_indexed_text_available_original_pdf_and_visual_verification_unavailable",
+  "original_pdf_bytes_archived": false,
+  "visual_verification_complete": false,
+  "table_1_numeric_transcription_visually_verified": false,
+  "figure_4_graphical_values_visually_verified": false,
+  "figure_5_graphical_values_visually_verified": false,
+  "existing_source": {
+    "representation": "web_extracted_pdf_text",
+    "pdf_pages": 10,
+    "indexed_line_count": 1005,
+    "line_coverage_report": "data/interim/corpus_targeted_saverschek/web_line_coverage.json",
+    "source_blocks": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+    "access_log": "data/interim/corpus_targeted_saverschek/access_log.json",
+    "source_url": "https://www.researchgate.net/profile/Flavio-Roces/publication/248591945_Avoiding_plants_unsuitable_for_the_symbiotic_fungus_learning_and_long-term_memory_in_leaf-cutting_ants/links/5a437795a6fdcce19716aba4/Avoiding-plants-unsuitable-for-the-symbiotic-fungus-learning-and-long-term-memory-in-leaf-cutting-ants.pdf"
+  },
+  "current_checks": [
+    {
+      "check": "Re-open author-uploaded original PDF through web tool",
+      "result": "Available as indexed application/pdf text; ten pages and 1005 lines. This is not an archive of original PDF bytes."
+    },
+    {
+      "check": "Render published pages 694 and 695 through web PDF screenshot",
+      "result": "Both requests failed with Cache miss. Table 1 and Figure 4 remain visually unverified. Further requests to the same failed rendering route were not repeated."
+    },
+    {
+      "check": "Exact title, DOI, PII and institutional/author repository searches",
+      "result": "Found original ScienceDirect bibliographic records, author ResearchGate page, institutional publication bibliography and later citing works; no readable alternate original or manuscript PDF."
+    },
+    {
+      "check": "University of Wuerzburg author bibliography (previously cached HTML)",
+      "result": "Target citation links only to ScienceDirect; no institutional PDF link."
+    },
+    {
+      "check": "Author-uploaded ResearchGate HTML representation",
+      "result": "Table 1, Figure 4 caption and narrative are exposed in indexed HTML text. They match the existing PDF text representation at the level reviewed, including corrupted minus/plus-minus glyphs. These are two renderings of the same source and are not independent biological evidence or visual corroboration."
+    },
+    {
+      "check": "ResearchGate figure page links",
+      "result": "Links for the example field acceptance, treated-substrate short-term and long-term figures failed with Cache miss or Error fetching; no viewable figure image was obtained."
+    },
+    {
+      "check": "Previously cached German National Library thesis PDF",
+      "result": "131 PDF pages inspected by text extraction. No occurrence of Desmopsis or Hiraea; the thesis is a separate work and does not supply the target paper's table or field-comparison figure. It is not substituted for the journal article."
+    },
+    {
+      "check": "User-supplied Obsidian literature inventory",
+      "result": "No Saverschek-named fulltext found. The DOI/title match is discovery record s2_20cc892ef0 / Semantic Scholar paper 20cc892ef013e5103f855cac816018f2fb566adb, with empty local_file and open_access_url fields. No chemistry-assay files were read."
+    }
+  ],
+  "interpretation_limits": [
+    "Complete indexed text coverage supports a text-complete audit, but does not justify saying the original PDF, mathematical symbols, table layout or graph bars have been visually verified.",
+    "Do not silently repair the corrupted numeric glyphs or infer exact Figure 4 values from axis text. Retain raw tokens and label any normalized numeric transcription provisional.",
+    "The Table 1 author categories and result narrative can be audited as text. A positive or zero palatability index is not a universal rule for acceptance: preserve the author's context-specific classification.",
+    "Do not equate an alternate rendering of the same paper with an independent study or an independent confirmation of a biological outcome.",
+    "The paper's copyright notice is preserved in the existing archive. Discovery and local verification do not establish a licence to redistribute the original paper."
+  ],
+  "remaining_resolution": "A legitimate readable copy of the published PDF or author manuscript is required to complete visual verification of Table 1 and Figures 4/5. No login, paywall, CAPTCHA or access-control bypass was attempted, and no authors were contacted.",
+  "paid_model_calls": 0,
+  "old_corpus_or_model_outputs_modified": false,
+  "verified_at": "2026-09-12T21:41:27.384852+00:00",
+  "web_requests": [
+    {
+      "request_hash": "d5a1359eac580119e1d90d6e96d6f73dc55be84bdd0da322977fa9232e8bf412",
+      "tool": "web.run",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"Saverschek\" \"Avoiding plants unsuitable\" pdf"
+          },
+          {
+            "q": "\"10.1016/j.anbehav.2009.12.021\" pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "retrieved_at": "2026-09-12T21:35:26.628Z",
+      "raw_cache_path": "data/raw/web/d5a1359eac580119e1d90d6e96d6f73dc55be84bdd0da322977fa9232e8bf412.json",
+      "raw_cache_sha256": "508f70ecbf2b13b9f35a261a2480f227288fb6800797bf84ca8cae243fd85209"
+    },
+    {
+      "request_hash": "bfda63693d03f3c0a7929c62c04d4431bedcdd2cfdb1625fca7e4b9faf919740",
+      "tool": "web.run",
+      "arguments": {
+        "open": [
+          {
+            "ref_id": "https://www.researchgate.net/profile/Flavio-Roces/publication/248591945_Avoiding_plants_unsuitable_for_the_symbiotic_fungus_learning_and_long-term_memory_in_leaf-cutting_ants/links/5a437795a6fdcce19716aba4/Avoiding-plants-unsuitable-for-the-symbiotic-fungus-learning-and-long-term-memory-in-leaf-cutting-ants.pdf"
+          }
+        ],
+        "response_length": "short"
+      },
+      "retrieved_at": "2026-09-12T21:35:45.730Z",
+      "raw_cache_path": "data/raw/web/bfda63693d03f3c0a7929c62c04d4431bedcdd2cfdb1625fca7e4b9faf919740.json",
+      "raw_cache_sha256": "5822c5a920a4a40e7da8c68cb5fd075ed13ff50177173e10fa9986d508262cb0"
+    },
+    {
+      "request_hash": "45a6a727006b4cddabc1390354f434abfc4dc7c33a4e96c35d67e6bb60ec6504",
+      "tool": "web.run",
+      "arguments": {
+        "screenshot": [
+          {
+            "ref_id": "turn50view0",
+            "pageno": 5
+          },
+          {
+            "ref_id": "turn50view0",
+            "pageno": 6
+          }
+        ],
+        "response_length": "short"
+      },
+      "retrieved_at": "2026-09-12T21:35:58.279Z",
+      "raw_cache_path": "data/raw/web/45a6a727006b4cddabc1390354f434abfc4dc7c33a4e96c35d67e6bb60ec6504.json",
+      "raw_cache_sha256": "dd1fe6285c1457125ba98b8218cff1cc204e154d559c52d4934f26deaff3efd4"
+    },
+    {
+      "request_hash": "e7206c0ce0ed227201cc4feef021442b6e929cd516d79e3dfe9bdb47b0da9a0f",
+      "tool": "web.run",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"Saverschek\" \"2010\" filetype:pdf \"689\""
+          },
+          {
+            "q": "\"Avoiding plants unsuitable\" \"pdf\" -site:researchgate.net -site:sciencedirect.com -site:nature.com -site:pmc.ncbi.nlm.nih.gov"
+          },
+          {
+            "q": "site:repository.si.edu \"Saverschek\" \"2010\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "retrieved_at": "2026-09-12T21:35:59.320Z",
+      "raw_cache_path": "data/raw/web/e7206c0ce0ed227201cc4feef021442b6e929cd516d79e3dfe9bdb47b0da9a0f.json",
+      "raw_cache_sha256": "049298099bb9500fb0845f5a98593749bbab3ec4e63ce123fc4166de270a4bed"
+    },
+    {
+      "request_hash": "af4f6b68499b099ee77d5207ffa1001eb541af3e4a77dbce8da8846efd253368",
+      "tool": "web.run",
+      "arguments": {
+        "open": [
+          {
+            "ref_id": "https://www.researchgate.net/publication/248591945_Avoiding_plants_unsuitable_for_the_symbiotic_fungus_learning_and_long-term_memory_in_leaf-cutting_ants"
+          }
+        ],
+        "response_length": "long"
+      },
+      "retrieved_at": "2026-09-12T21:36:13.750Z",
+      "raw_cache_path": "data/raw/web/af4f6b68499b099ee77d5207ffa1001eb541af3e4a77dbce8da8846efd253368.json",
+      "raw_cache_sha256": "3f54d96b52f92d6310606e868df0ee9d3a205100ee5152d24b265b6c3ae06e1e"
+    },
+    {
+      "request_hash": "edbc06d33e6d2e7d2536232f0202719f913f46bed7ce38e146fe26dd244ad294",
+      "tool": "web.run",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"Saverschek\" \"2010\" \"pdf\" \"uni-wuerzburg\""
+          },
+          {
+            "q": "\"S000334720900579X\" pdf"
+          },
+          {
+            "q": "\"Saverschek\" \"Avoiding plants\" \"repository\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "retrieved_at": "2026-09-12T21:36:14.813Z",
+      "raw_cache_path": "data/raw/web/edbc06d33e6d2e7d2536232f0202719f913f46bed7ce38e146fe26dd244ad294.json",
+      "raw_cache_sha256": "4ff42c649e9b783525556651985142ee8886eb9cc9adb251802828f76a8f5a41"
+    },
+    {
+      "request_hash": "e01f634c427f62682123f706ce4b81ee3ccd61423059965c9ae7881cbd5c86b4",
+      "tool": "web.run",
+      "arguments": {
+        "click": [
+          {
+            "ref_id": "turn53view0",
+            "id": 20
+          },
+          {
+            "ref_id": "turn53view0",
+            "id": 14
+          },
+          {
+            "ref_id": "turn53view0",
+            "id": 16
+          }
+        ],
+        "response_length": "short"
+      },
+      "retrieved_at": "2026-09-12T21:37:22.650Z",
+      "raw_cache_path": "data/raw/web/e01f634c427f62682123f706ce4b81ee3ccd61423059965c9ae7881cbd5c86b4.json",
+      "raw_cache_sha256": "e433301c8e26282641bb48f8bbf8400a22eae874621418b4b12fa3b59e0d4d80"
+    },
+    {
+      "request_hash": "cc0713b1cf23cf20a2af9f8ad4231fd54a32dc8f6c14623fd3ae16737df7c4b8",
+      "tool": "web.run",
+      "arguments": {
+        "click": [
+          {
+            "ref_id": "turn53view0",
+            "id": 23
+          },
+          {
+            "ref_id": "turn53view0",
+            "id": 24
+          },
+          {
+            "ref_id": "turn53view0",
+            "id": 25
+          }
+        ],
+        "response_length": "short"
+      },
+      "retrieved_at": "2026-09-12T21:37:56.155Z",
+      "raw_cache_path": "data/raw/web/cc0713b1cf23cf20a2af9f8ad4231fd54a32dc8f6c14623fd3ae16737df7c4b8.json",
+      "raw_cache_sha256": "1e8944da39541e0d7b35523881fcef174c151e7e1b9cad75257380bc94539d5a"
+    },
+    {
+      "request_hash": "69a23a7ab9244f3ec21532f7590515a1463228c84d34095c970d422108e23829",
+      "tool": "web.run",
+      "arguments": {
+        "find": [
+          {
+            "ref_id": "turn53view0",
+            "pattern": "Hiraea grandifolia"
+          },
+          {
+            "ref_id": "turn53view0",
+            "pattern": "Table 1"
+          },
+          {
+            "ref_id": "turn53view0",
+            "pattern": "Figure 4"
+          }
+        ],
+        "response_length": "short"
+      },
+      "retrieved_at": "2026-09-12T21:38:33.780Z",
+      "raw_cache_path": "data/raw/web/69a23a7ab9244f3ec21532f7590515a1463228c84d34095c970d422108e23829.json",
+      "raw_cache_sha256": "d903c7732406d11ca65bef7842643695fba11f5e477d749cee0f1485a4cfb6a2"
+    }
+  ],
+  "input_artifacts": [
+    {
+      "path": "data/interim/corpus_targeted_saverschek/web_line_coverage.json",
+      "sha256": "9b43e408f41a531bc15bb80ad668bbaded631f2d18ffed648be00f73a8689cfb"
+    },
+    {
+      "path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d"
+    },
+    {
+      "path": "data/interim/corpus_targeted_saverschek/access_log.json",
+      "sha256": "f8411d991a1e1c7794de3f69175619c22e005e9fa01530b0d69c950e6ef92663"
+    },
+    {
+      "path": "data/interim/corpus_targeted_saverschek/access/8635d63be34b144d763255c1b79f6bd66cdaa5744b032b678d94676ee0c0a30c.pdf",
+      "sha256": "40f5338f94daea544ca8466c5270807852bb49d7a736651f13b01d8217713a38"
+    }
+  ],
+  "tail_recovery": {
+    "artifact": "data/interim/saverschek_audit/source_verification/recovered_tail.json",
+    "sha256": "83aa178fe73fd1cd449edaf1e3fa67e55266c5ab0f028529d4dd6d7dfdcbf718",
+    "figure_7_caption_lines": [
+      899,
+      906
+    ],
+    "figure_7_graphical_lines": [
+      883,
+      898
+    ],
+    "caption_recovered_from_existing_raw": true,
+    "canonical_blocks_omit_figure_7": true,
+    "original_pdf_visual_verification": false
+  }
+}

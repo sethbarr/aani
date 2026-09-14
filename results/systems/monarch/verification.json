@@ -1,0 +1,3226 @@
+{
+  "schema_version": 1,
+  "system": "monarch",
+  "verified_at": "2026-09-13T17:07:26.825793+00:00",
+  "status": "passed",
+  "failed_checks": 0,
+  "unavailable_checks": 0,
+  "passed_checks": 336,
+  "network_calls": 0,
+  "model_calls": 0,
+  "approved_jobs": 10,
+  "ignored_provenance_fields": [
+    "cache_path",
+    "completed_at",
+    "config_path",
+    "contract_path",
+    "deadline",
+    "funnel_path",
+    "generated_at",
+    "genus_input_path",
+    "imported_at",
+    "input_path",
+    "offline",
+    "output_path",
+    "prepared_at",
+    "retrieved_at",
+    "selected_source_rows_path",
+    "semantic_input_path",
+    "started_at"
+  ],
+  "corpus_replay": {
+    "live_ready_texts": 20,
+    "replay_ready_texts": 20,
+    "texts_compared": 20,
+    "documents": [
+      {
+        "source_id": "PMC13433141",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC13433141.json",
+        "sha256": "9c2fb12e98e3bfb0c0a73a71574195a7abbbcd2af1c85e01aeb4b69fa8354447",
+        "document_digest": "4329495af034b654fdf3f9cdacfae464ede097dcf62bd7ed4145b2634a4a8743",
+        "blocks_digest": "5bce702cf3e7da541e29dcdaa27cbcef3d867b48aa32d6ab37629c07a6f79292",
+        "blocks": 42
+      },
+      {
+        "source_id": "PMC12991640",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC12991640.json",
+        "sha256": "5832c679cb1ca2efc3aa533cd3e019e07f31dc9e0defdf3417c0234268bc6d43",
+        "document_digest": "84d19b1e825de46ed471460bf3944cc8b54223e516e26da1f593f436870aa28b",
+        "blocks_digest": "983f1c8f13f2c01c38c284d5aecc6e00bb590cc0a56deff9569283480578c266",
+        "blocks": 66
+      },
+      {
+        "source_id": "PMC12942626",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC12942626.json",
+        "sha256": "3c2da8b17a2195f9b5247ac0932ab2ba9f7eb972e5adcd4b23d842e03a4af9a9",
+        "document_digest": "2132a46904d55e00dfcb176388dc7176536bf1409df388a69db799039cba261b",
+        "blocks_digest": "1da714d8e085babe42e245b9836fce8e8d31c0a24e42a2a713dac4c68b2983a6",
+        "blocks": 28
+      },
+      {
+        "source_id": "PMC12903895",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC12903895.json",
+        "sha256": "4852f31a5792c3c44eac1d8587b32aa36bafd4d98aefe69981a7094cec012a0a",
+        "document_digest": "c5a7d5fe6bb59ecfcb9ea4a50df835ccfa556df7d8a20de5d02faf4b617a162a",
+        "blocks_digest": "d74a15a49ea6f85233b0bc858851c21866b24becc1616e276f8845a0681277c7",
+        "blocks": 57
+      },
+      {
+        "source_id": "PMC12585044",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+        "sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+        "document_digest": "a052dfa0008f872546b4434addff7727947f76f589eb6a9dead6f4501b16c42e",
+        "blocks_digest": "7baffbd1982fdd081b681133a5458f8bb74fd597be59282046a28f625d61ba05",
+        "blocks": 49
+      },
+      {
+        "source_id": "PMC12344286",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC12344286.json",
+        "sha256": "eb0ee3e69214718a566c8f421875160a254de2daaed40fa4abfd649a75a738d1",
+        "document_digest": "1c96df321a359fa65f14d62803e92764da3eee35787f8faa3b68ecc031fdc3ca",
+        "blocks_digest": "e7a7ba01411f0da0a74b82a39557ba95dc2d551d83386eeb1fcbf0df2dc0787d",
+        "blocks": 39
+      },
+      {
+        "source_id": "PMC12215521",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC12215521.json",
+        "sha256": "19633887cb292ffb06a1105214de60edff9274f135a15718a3301b52f109c262",
+        "document_digest": "a8a478caf03178df74cda0c84d833127e5dd995cda3675c84d1bf3c8d5b1993f",
+        "blocks_digest": "cf0ad57b07db29883d93465c35746e291c8bedbf745ade4f694e97bcc3d0a9ce",
+        "blocks": 28
+      },
+      {
+        "source_id": "PMC11879272",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC11879272.json",
+        "sha256": "ae3baacbeb22405ccfa9f0d401c3351253bcd8754b44c35c433936aeb6ae30b3",
+        "document_digest": "fedd3984006a7c84eb9164ef13b2f5c52f60b169053e14c84064ab4166532f49",
+        "blocks_digest": "35b07ccaa0a92ab79537170f403b446fadb51effe15deb4bac98d7cdd7db3a3c",
+        "blocks": 61
+      },
+      {
+        "source_id": "PMC11122559",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC11122559.json",
+        "sha256": "70552017c33a647ff49f169216bfb887c4b57b909d0dbd4d38f6a6f9d1f397da",
+        "document_digest": "68cb7a8729348c665ab6eaa99af3ddc7b4a48521449e421f74f9d7979ebe7eb3",
+        "blocks_digest": "d785fbb47b904dfda4be2719a3e26e7b07ddff64287703390dfb8495d7254d5c",
+        "blocks": 43
+      },
+      {
+        "source_id": "PMC10954652",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC10954652.json",
+        "sha256": "8ac300d03efa9c51f98c4aafcc337dc15c380b150a422485106d27ebffffcb48",
+        "document_digest": "fe860c7e0d2dd45de1a819ae0d7e076303ffa2aa4638df676bfa66475e413310",
+        "blocks_digest": "4c07a100accb50b108c6928448f2a2da23762baf2d5f6fd79d9e480bab7894fd",
+        "blocks": 61
+      },
+      {
+        "source_id": "PMC10878802",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC10878802.json",
+        "sha256": "1a23023f93a48a8825ea7d2e619cbac1f817fd13a18bf97a40f4cdf1f662167b",
+        "document_digest": "bbdacc8c64f862cfa8c9bc8249bdaa9a523ce23cd96bde7178ac46715034aead",
+        "blocks_digest": "49e83567dc29c3daa26626870613c40f34d8d22705a248c7ef8e821db6654a4b",
+        "blocks": 37
+      },
+      {
+        "source_id": "PMC10370756",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC10370756.json",
+        "sha256": "1bfad74be23588151c2a2971c4a63cd5384fc37823ed254dd3d9c797d62f8d50",
+        "document_digest": "b38b791d7c6c3dda188311a6fb8b21f96fef45e633e97127ffdae6f629e27771",
+        "blocks_digest": "f8620c1c83bc46f793e3fea913dae9625479b35eeda10248fa1452bcbb53a7fe",
+        "blocks": 31
+      },
+      {
+        "source_id": "PMC10430791",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC10430791.json",
+        "sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c",
+        "document_digest": "e3abacbda0e767f9b81d29ae5f4b46236beda7de5d825b2f1a35cc3399e614e0",
+        "blocks_digest": "e8154848e49b912a303de438a80f89c03b3fa14feefed6577f02859e730fe534",
+        "blocks": 31
+      },
+      {
+        "source_id": "PMC9845971",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC9845971.json",
+        "sha256": "8e28acbe1dae7809eb3e508bf159556322d59835fd3644664a8da674d3e51148",
+        "document_digest": "05674990aad1262a14e83b2fb14a74f3448cf170deb1dcb08599f9bf34b07028",
+        "blocks_digest": "7479068c2d544ec005b9fd6a0c58e2b522b2f4a4cac83c14e264514dae0e17b5",
+        "blocks": 54
+      },
+      {
+        "source_id": "PMC9685589",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC9685589.json",
+        "sha256": "4570166de8ac41c1dd03dcf4a8d254c33fd71d6326988843626444a9302defb5",
+        "document_digest": "a71f6ded95ad53159de534e5dcd4ec6111a1b19c6f25be8897c3968375003940",
+        "blocks_digest": "14de476670e936d844ac48b1a4b9dd1959b0f87e592ebf243042e3cd5e5ebd57",
+        "blocks": 24
+      },
+      {
+        "source_id": "PMC9351326",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC9351326.json",
+        "sha256": "d17d32f396deed65c631eca42d4bb401641cd998c7dc90eebdce8b77dfc10192",
+        "document_digest": "30f38f1938302d7f12c0bea04d45fbe7a42d2853ab09465f6fe0cec9f1e36e8b",
+        "blocks_digest": "7cdd0f94bbb9c175609ab94d9d7ac312a5369cf5bd383aa46a49602029123a7e",
+        "blocks": 76
+      },
+      {
+        "source_id": "PMC9273743",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC9273743.json",
+        "sha256": "02ac97a2886fb8987d8b7e4a76fe475b21e5c0047ef9725d8396c1d9f7470fe0",
+        "document_digest": "49535b40b676778ab4135afad2865b509a3f902b1f9d7625e528017f3fc4f2f3",
+        "blocks_digest": "204ea4a1a9d365d5e049fe21f261729456bf50d13926afd548584738ac9e9bae",
+        "blocks": 131
+      },
+      {
+        "source_id": "PMC9197062",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC9197062.json",
+        "sha256": "054c2269ab3d427b604d8d100fd218fcd94d041e28e01f71f2277f503aa0d3ad",
+        "document_digest": "fb4552a56df0598af13444d1cd8487077f6a6c3201f963d44ba459fe5aded507",
+        "blocks_digest": "3d9b2c307485cfdaf07b007ceecb130dee96e5fbdd9557aac277eaa94e030ab8",
+        "blocks": 70
+      },
+      {
+        "source_id": "PMC9210279",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC9210279.json",
+        "sha256": "7bb9651c554359325dc85d2d4673e1e85d2f690718d59a8c3a0d7ec124f5eedb",
+        "document_digest": "2dfdbca41f0fade7581c01d874ca2db85ab76371c4a5d58ec786d298be3519ca",
+        "blocks_digest": "7ee0165451f0def285eff353c613eab67ae9fec67cbf5c04e6df0811ff3d7b0d",
+        "blocks": 35
+      },
+      {
+        "source_id": "PMC8908431",
+        "path": "data/interim/systems/monarch/corpus/texts/PMC8908431.json",
+        "sha256": "349b3f8e064f7a641702539583fd4c888bf89bfbf5d795d250e1ee4bd09e7895",
+        "document_digest": "5f1e7cccab7c4e2587e1f2f05db800a5f9aa94306978422e29abe0b7e208e0ea",
+        "blocks_digest": "f1fea85fffc5680430f61df7f35b26ba34cc7f5d4dc0c0056ca9857ee495cd3d",
+        "blocks": 35
+      }
+    ]
+  },
+  "cache_inventory": [
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/037e03621afd45dfed6b3a24fda1cbd3d9d6a8efbe20a58682af0692ad90fe0d.json",
+      "bytes": 1347136,
+      "sha256": "f379d031ac63540d3df0dc95f72147ee8138eeef243187414b674ffdbccd5133",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/0eb0f0fc94e755164b52c5d67706f12a907e483743f28140fc170dc190dc729f.json",
+      "bytes": 64202,
+      "sha256": "2f87a6503c5f6edc6b020e73617821a9d37f901ef7758a195003a04586d3862d",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/14856509cad5424413e0e78472d13ab020a568b4ae4bf03419fc99c4bb1cde05.json",
+      "bytes": 442956,
+      "sha256": "9952f2fe71fcdd440de441bb6c8b78e047bed0aaef476173fb04db27ad25f7cd",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/1665220b071c72e8162524d8848a2b73e1efba7730b2920153c12944c86951d6.json",
+      "bytes": 1356308,
+      "sha256": "9e642f5c94f7e7a88d7050e39583ec991bc659e74461a6d2ab0940110e9ee490",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/1778ad37a660db1a54ac014cbf613c7334b2bec64f25f1de1dc1ce1b433d87ba.json",
+      "bytes": 1342739,
+      "sha256": "4c055985c468b62198e83d45b7c8238ed106caa9da63ec17a5a1e1d746dcc052",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/244bb83a5b6e3f5f1b21a0b13a399bef3be3bb001a556950ece8b1e22476cba1.json",
+      "bytes": 65618,
+      "sha256": "b4e3f2142bc11ab0ebb0a6ef8449caa70d7fb82a023ac1f99d79d0e43fba86cc",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/31d75e2b10b4d213b600d9c1c2e9a53e38330dba154abd92f6abbfe07d7d3b22.json",
+      "bytes": 1287123,
+      "sha256": "f5f72fd7a9ea9dc770eb9ef1781c5ffbe265fd126babd568475284c01dff7730",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/3445d97f08e3b93ffe74a783cf0dcfbd4e6e92cb5e7b26410e0a574e480346dd.json",
+      "bytes": 30625,
+      "sha256": "089fe5270bd8193ba8c16ccdd7ea73984c1802c89d2268e957280cd025bc51b3",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/3f3c0e795b6bdfcac6fb527bea48c436cbdf49f26a31e0994c0903e1705b5a42.json",
+      "bytes": 60862,
+      "sha256": "18e937d6380a1ec2d2b7aabf2163d56157863c04ba8715ddc519f0986ededf59",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/47618a44b2e89ff6d7dd56f2b6a44b3a77b08658b11cf516ef315107a9ff451f.json",
+      "bytes": 29206,
+      "sha256": "7bb982d96199320cbcf4eed66944b126d241c37ba45dd666ef1cb89614095145",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/4f0b7adfddfdd54439adc494ca23324c165e9d923594d35fbb7871370cb3f425.json",
+      "bytes": 1263668,
+      "sha256": "06b1bc28523f5367a73b0d17cd10054330eefdf5934793fcd7b4eeac949e3060",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/5377f0dc6b1dad15128a72ca58eacb208da6e892557ddbc317aa6e1ade170197.json",
+      "bytes": 44586,
+      "sha256": "fdf4382796db2c66552595f4d0dd829a06e7a6931d6178c4aac649421bb68a03",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/5c00dbd76f9fbc66f43af72d48bb45d1cb953ccb19e3946993d06645fa697589.json",
+      "bytes": 133650,
+      "sha256": "0b531d0e4d350fa72948d8c20ad629a8d104f422e9137b9cb489639ba8e7ec08",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/60bd80804b2580e1c62e749ce9b1897df6ae0e9f1e7ca74be9cd24a2498f8af7.json",
+      "bytes": 85281,
+      "sha256": "df162aa55899e5079357008c0e03c41daa61d15b42680d2b877f1767fcdcdb9c",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/657b97ade89fd45d6cec2fd86b49f218a2e9a6e3f52cbac1e2fece54e53c9866.json",
+      "bytes": 1334216,
+      "sha256": "ef09ae38e35c089397b89bdad6fea4410e4947793bc014178295481bea33f1b3",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/696a8f590e4453ac9cfa427b979a0bb19b8465688cb655c7d5c3d7f10176ecb0.json",
+      "bytes": 1318855,
+      "sha256": "182371ae2115a2ec044931093da98e3a2d9f4f76d5fd8d2ca53003aa6ab887a8",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/6acb7c0e192c7dbdf0bdf37f8b946cdd5d22da64cbc508af3591f036b8e747bd.json",
+      "bytes": 1282103,
+      "sha256": "f8e92012b37573ad0d3620d4a57a3643609ba8c0b371de00e1e595556b047a29",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/6c65c07aabae5b884cf4b14b741f885ab0971ec82a77b1321393dc37e46198f9.json",
+      "bytes": 32454,
+      "sha256": "ff2d7f273e3edde48959087d0b5b7724146473b3bf83ff3b236bdd602b6941af",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/70536cff01a9a3a9747176c4f27f52cbfb0f43a0f2edb244beaf5fb234c8d057.json",
+      "bytes": 1332223,
+      "sha256": "b32ccf29ddb76962e9fba714627a18e7d126fdf86d917998da1653d4428e4b59",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/7663b7557e1cdf2962f5fc8c075c0ced1e4c09b30fd8ee95e74b67b79a259992.json",
+      "bytes": 1268071,
+      "sha256": "92c972f424a66cfa5eb4d8064d7e7b481bc16757cdb21f0ec1ee3e9aa4dbc4e0",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/76d6dc4aa3db3f3fb12eaf2bcc446788409db7926e2da5435cf21d3967c6aff1.json",
+      "bytes": 88953,
+      "sha256": "d6386332343f775d76d993b456be5e77a853224274d978945a25cd436acb47d7",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/78e8500e187230aa49b6a3891b42e280eb7880a7cab2d6e707d03dbd82a9d725.json",
+      "bytes": 185903,
+      "sha256": "254022c9c7fbb3275f1c29a7c2efc9e149442d8f462080ecffdc7423d9f55d44",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/7ec8193adda00177931174e12fc4f584b7ddbbc8ce7a95f46ee5e55039ecfb9e.json",
+      "bytes": 43305,
+      "sha256": "8e81476a298ef765f3dead718b29c8e2a6afefb2863f1189e866d99756b6b29b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/800207850c28376c834ecc0f43dfbe73518e8f3b2d4d8f441ec0297b962faaa5.json",
+      "bytes": 624,
+      "sha256": "5f200cf888c9ed1cc1ce36766a8bc12339fb2e55e6920cead88b0aa7a3c441bb",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/83365d544e9fe8e4a26f0b17cc6b695c851d61629f444875686165ea84a66b7e.json",
+      "bytes": 50010,
+      "sha256": "bd03e5eb7b8570f954c34abd68d31f893cbd854545c4e7c923bdab29ce46699c",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/86505e55753c849226b1eabd8052e486a86d751ba1bd38bbcb2008afddd0fc96.json",
+      "bytes": 1355051,
+      "sha256": "70be570d903b23f7b87bb049a3a6062841d86151da110d32fa6e9329fd37f35f",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/8bec154f4c30f7a5b515438291e43bd2b1b08f1f8b8e33bdab0ba869994c9d8f.json",
+      "bytes": 32218,
+      "sha256": "7b793ba01552d8a773459ee3694762399035e94bdf3bf4fc6301bac6ac35734b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/94aaf2e3dc248cdfe6d25cc0eac3274776a9d47432f55d9ea4865ff7ae4c59e5.json",
+      "bytes": 92800,
+      "sha256": "a2b3ed3b59e8006c25ace7384421e249aa2a38bf35ba162b547b25b49599053d",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/a0194b1684088409a52de90e2ff00f271cef52169e3045497b30f175be8b4662.json",
+      "bytes": 62734,
+      "sha256": "7e42b45204cc9741026daa54e909064fcfd0f0ffac0d68d5b0e3c6ba64f76185",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/a45b5a43be43c740e5e2078d50f9dbed48716b74df1090fd128a2b37556d9a21.json",
+      "bytes": 238687,
+      "sha256": "b3e1dcade4edf4f6a757093d46442aa70ef44ce5e81faf91c1bd83831802a73b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/bba60dccf74f257ed7c3b5e62f1b3b0e748532dc85f3435e708a1ce6d58e320d.json",
+      "bytes": 438401,
+      "sha256": "645292fcd5c656b66f05c3c1e03b941ccb9122d526b5a513c9b2c02062ace971",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/c3e9b83c636638851cf1ac538b3b774849f85d75b69fdb576ded46d3fe5472c6.json",
+      "bytes": 1330403,
+      "sha256": "fb65ed35e6dd0f5a8c8622db507191f7df49aa790fb9af6909016bd8e022f2e6",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/c570c012a4fdb98120fb583d27ff3a2d0b1cab97ff6b8999a1cb72bdad2cd1b1.json",
+      "bytes": 558,
+      "sha256": "d795aa2b343d75c1279625af3c192e56103e92a89b65e91fb591641b5b823504",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/c76cde9cb3ca2d7164bf94709dc9709ab60d7bb6c9bed1f97caab18d78611da2.json",
+      "bytes": 1389099,
+      "sha256": "5d717835af7f492a0d2200ffdd5d2f3e0e66d81842768df76a5bd608ff4fd9d2",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/d1e6eb340b458cbfabed24b37ff81e19029984c89ec185207184a35c2f2acd90.json",
+      "bytes": 99192,
+      "sha256": "6402e5cc2127cbd044a169d547ec59bf800a7f564c599af60e64fff03bb78934",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/d856022b26037d83d62a6df7ad0b1b3ba3320447d073b71a994956f70d4ab9c2.json",
+      "bytes": 52178,
+      "sha256": "40fdcb3ee1defefb4b87c500bdf947ce9698a69371b4e56f0e598e6671201d62",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/e65ecd135951c45632013a5b774ca5d4bab9d8b7c15ea9dd764b73ad1198989b.json",
+      "bytes": 1323224,
+      "sha256": "e4470c42b552a79914eb124bfbbc1b8ecbd0c79219ba2eeee8655e2f6e1140c3",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/ee26ef8666fc1c6106e04e2cc3ec88c64bd17ea59a2dc4b025dad70703e18a68.json",
+      "bytes": 1371528,
+      "sha256": "b539107dc81c38ba236da2e3e6bfbf52bd119d883ed9dcdf4cbbe0c271f04419",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/f2583fc46376194f7ad3fc31a2a1b37af33b6dfa06850b8764df03636f12054e.json",
+      "bytes": 1311984,
+      "sha256": "3abddfb9d9898ebd22d81960e2120dcf846de9441df16665745944659a49016e",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chembl/http/f806997febcd3c731faddf9ac40ecdae4b2220c97a6b3deed2406bd2c8e32e92.json",
+      "bytes": 741507,
+      "sha256": "a92ab02c55a812fa800ccf4c4b08e54524ff558bd267047d9cec27558f988350",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chemistry_export/downloads/6893a0d2b680e5ecbe5b835c82d72aa4001c3ee0aa62e3d58932a03191cb8f31.body",
+      "bytes": 315165362,
+      "sha256": "ffb310fffb395514e2fec5f42b682812d4f459c8783b884c67a737621ee2b5d2"
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chemistry_export/downloads/6893a0d2b680e5ecbe5b835c82d72aa4001c3ee0aa62e3d58932a03191cb8f31.json",
+      "bytes": 876,
+      "sha256": "49021ac4bfac7e3a7521c9c586fb4ab1bf947f99c99539422a1ce1b95357f417"
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chemistry_export/http/d9ad38cf97dad1f63814b8cab62dc190cc77d6b0cc4dc5aa8b896fb1da28fe2f.json",
+      "bytes": 9089,
+      "sha256": "f8fb97bcd51ce6255f312236872beb26803214145a7e6d8a2e87bad27bc85e46",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chemistry_export/http/f6744a0d1e201d86fb659b7fc192a11b8902ca9499cdd1885992f0f5a030a254.json",
+      "bytes": 65636,
+      "sha256": "de54480d26bb89e37d61d5be47ada8148bca4ae71a0e10af0c221216e77a78f8",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/chemistry_imports/55ccaf9f4c3d697cd7cbc125be1e6a0037553fe3f135edf041340971485e6780.csv",
+      "bytes": 2044134,
+      "sha256": "55ccaf9f4c3d697cd7cbc125be1e6a0037553fe3f135edf041340971485e6780"
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/089629e795a54a77d25e10ff130a4faa6ae1676bfac58e08e495edc0905c5cb3.json",
+      "bytes": 154214,
+      "sha256": "48447b85ff36731258b82eebddf20fb44ea2e25f48518dee6e2f32712d8f3a26",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/1a83de060b962c33f9cd4afcf4a3fdbc07c5f9d9a7e1f4277bb1963f8e130379.json",
+      "bytes": 210445,
+      "sha256": "616d05995ce6e3874a3d4834948fd774d963dbf1682af5f382b666608e9a9f22",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/1c0426b8cd82dcae3d448a7e9148bf7c0018fc8b3fc1cc06cd061d3308faeb1e.json",
+      "bytes": 111368,
+      "sha256": "7a800abde364e5ba53bf4c580891afe2ff5a50050ad6fe952c7b846b28751590",
+      "attempts": 3
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/1de26d86169662b0d892088255d2543492de7d87553d425a9d443bd9cbfda977.json",
+      "bytes": 34417,
+      "sha256": "40d7af990101fdc3f421b285883268bbc67fe68b59374fe94b9f0cc839731bb5",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb.json",
+      "bytes": 13680,
+      "sha256": "19ed8003d1c662aa503a89649ade93831f8eb99a8bca99f11479efaf4bd9623b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/296d4bf7109438eee3b0201b2b30a8114e2bfd7b0330aae0a0f98dc71d321dcb.json",
+      "bytes": 152178,
+      "sha256": "0024170089486f5319b5482854f545bcf6fb2118d356495218998a941826552c",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/2f24544daa4c10f987a353e95d05507ef02a83432d2fde0b9d3f62926adbace7.json",
+      "bytes": 99509,
+      "sha256": "2e1f5737c977ca89bd63c8e45efcdf388776054d1172463f106bfe5588042d86",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/40438c84546dd0e1a1a922926bb0756447f1c1130fc735e1c08c9f1792e57e23.json",
+      "bytes": 210637,
+      "sha256": "11ff8252ef2349e63a1e8f59f9677b38f493b5de1b446d7340760b1872955ea3",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c.json",
+      "bytes": 33111,
+      "sha256": "e553290fe5bb9c74260cc1e878bc2cba4e12072e190c38729c441b6ff82cad55",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/5946a60a78bfa4f7549a4ebb46a2e01549375f2f0e243e7a172cd4058b655536.json",
+      "bytes": 159226,
+      "sha256": "68eb543bcfc8f520812042617ca4040f5bddd778ffa2cba76d992c286d0197c5",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/5ac9a148e1dae4f0e4a0824d7627075e405fa5b7c32e59df651c534996f1969c.json",
+      "bytes": 215794,
+      "sha256": "e8b7525e1dd7d775030dfdb4f113c16fc345bbbf1f2c5bdd66d55d0b0e456ae0",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/5ad4381202112519e2a5a42f57b1ca3a4e875efe9f47baccb3f304880514dadb.json",
+      "bytes": 1731,
+      "sha256": "546b723c2a55b4eaece64789d593cd6d558508856468022f4556905c182d4aa4",
+      "attempts": 4
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/6639baa6170ef41f2f1e56f6f30cea667b27550795cb8f4096d8b104b7140b29.json",
+      "bytes": 236994,
+      "sha256": "bec4b86440f82f371f32d36ad02b6355a72ce2091f3c6cc650e65e5190447f28",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051.json",
+      "bytes": 23258,
+      "sha256": "11a1d6679aa9b6a7122d60c9345b333b43a4c95e5c065930726566fa83eac4e4",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78.json",
+      "bytes": 34466,
+      "sha256": "853e1d79b1085a9cc424a51e1efed1c4e1a5906f497f1a888606a40249883812",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6.json",
+      "bytes": 31306,
+      "sha256": "da89a1d61b2459b25d9e7bec53e0eb4946ec084a6df4bcbb6f91a88f8aa99beb",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/95df7524273b3e05f1da4becbfcab9ab8ef1407448f6cbb5b8952e97779c8618.json",
+      "bytes": 1611,
+      "sha256": "c0da3c2e6e6a5178921efc8f8cdde905d9d85eec22c46d5756d24a19b34ef9dc",
+      "attempts": 4
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/96b079fc79aba191ae3af78a1615f19cdadee02a3546d02b3cd6852a66440d76.json",
+      "bytes": 372439,
+      "sha256": "555ba570d1341aca3c0ffab693e7dfca19c6c6d7167103d9e053d34f0cdd35d4",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/9ec545d786c82f26857f63b62268aca12be85f46becb4c17bd418305fc84c263.json",
+      "bytes": 158233,
+      "sha256": "983e375a8916320f8979f762fdf751c4f65a02a16aeb69380b92ee85b088fe05",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/b5bf6e87c4a0c0eeb94097864ee393c947c6eb0834899c745bda0250686b34b2.json",
+      "bytes": 84394,
+      "sha256": "cfaa378c9273be6c65e3e52b9fd33f3ee1b259c5821c3011b396df71609ed933",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae.json",
+      "bytes": 25963,
+      "sha256": "44fca07d14dc4be0d64e9abfef63d557850e0524345c8fa3730fc6927fdf2582",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/c25498a532174bed4ffe632ff38f4c5161d948d8a267b6477516f06f92db3f2b.json",
+      "bytes": 224674,
+      "sha256": "2457e7b9d33c4bbee0181290f6490be319cdda5ab34142f03798b312bd3c7bbf",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724.json",
+      "bytes": 36425,
+      "sha256": "9f25b819648837ebb21024a6f119f43a7336dd138d000caf49f0c0ef45607dd9",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/c3345d760eb8761d7c95fad9340d458532151aca3b91df4b5c8d392e4336c874.json",
+      "bytes": 150106,
+      "sha256": "891f007910e793d397e9e6ca19b821fd32846a9896f7d9a4b2d0f15063fc4d3f",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/c5a59386ec5eb00b6ac21d6690b8e117c67b4cc617672a5ccb1311169afdddb9.json",
+      "bytes": 137966,
+      "sha256": "ac9027d156db41454339dbc56d12bc9aed218a08f25ddf528acb6d9e3773761d",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/c80622044f7ae6b82ae6ba4c1b7561b01fb63fdb9ff28685ba9dc9768a4faae3.json",
+      "bytes": 33836,
+      "sha256": "045a6ebec057d0de55a7ed93a7ca7abc734138e745a9a8da3f68ac59656b5989",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/ca475d455ecb5daf5e1e78f8df2e915264ae164d01873f129088637aea619f4b.json",
+      "bytes": 422178,
+      "sha256": "896abcf7bd2612660623d489370667c5a20d33b765c2b56d48d722b3fec0543a",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/ced2ec80410224fe01e9cd069c1713e3fc50934bf92c70b63b4152ca828c4d14.json",
+      "bytes": 188685,
+      "sha256": "141179c179d4948d52649dd99563c0406f3cbbc028d4bab4f9294cb10ce7bc63",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/cf01e20d779121a06939383acb4400845ff0d2166072abe97e12f166eff7ef3f.json",
+      "bytes": 10112,
+      "sha256": "daebc3813bffe41c44f44f725e173bd39cde435d315609d7a99e0bc1a357e67d",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/d08306622660a8c5bd24388161f1234c791c4299221bf3c38d7451b9b0e90cf6.json",
+      "bytes": 155502,
+      "sha256": "36081f0b5a17845fdf79a61691580b8bc95e2ef7128da95b20a4611ba69614ba",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/d9d7f92a2f845788606aa7a11b026412aff03540c255c27e9838e264e379fa87.json",
+      "bytes": 354345,
+      "sha256": "24ccfd65c59954f68d542915ff1ebc6114e706c70fb7d8b1ff8c5075df66e55e",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/e751a375efc4348fdb8878706a8a2fd99948634e42300bafc1c4316b0e748566.json",
+      "bytes": 225289,
+      "sha256": "aab0adbd970b3a9369e83782e387d150be49b04e98609f6d7f6d0afc11c67633",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/http/f25ef6e088a0f60ee1c4944924398956529d59874777b8438061acb06e84c603.json",
+      "bytes": 207182,
+      "sha256": "100c08dc4568c7c296ae3bf56596e434dba50dfaa48cc62985a0b6a349e48802",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/taxonomy/http/b68dfc0200211558e7a10d6a13ccc185030c521ee1ac5945abcf5fda6a21c96b.json",
+      "bytes": 2245,
+      "sha256": "35640002b594ab9a10f3b88c5c515230b90a79990546910013b38ffd0d65f887",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/monarch/cache/taxonomy/http/fb321516914c109ffed18c59a97aa5811c09bf99abb83525e5988429ccdc101b.json",
+      "bytes": 2036,
+      "sha256": "67ed184e78a0f1e9d084ffb3f247cecbb110cb53ed365447d3ab48f4e2a1c74f",
+      "attempts": 1
+    }
+  ],
+  "checks": [
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/037e03621afd45dfed6b3a24fda1cbd3d9d6a8efbe20a58682af0692ad90fe0d.json",
+      "request_hash": "037e03621afd45dfed6b3a24fda1cbd3d9d6a8efbe20a58682af0692ad90fe0d"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/037e03621afd45dfed6b3a24fda1cbd3d9d6a8efbe20a58682af0692ad90fe0d.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/0eb0f0fc94e755164b52c5d67706f12a907e483743f28140fc170dc190dc729f.json",
+      "request_hash": "0eb0f0fc94e755164b52c5d67706f12a907e483743f28140fc170dc190dc729f"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/0eb0f0fc94e755164b52c5d67706f12a907e483743f28140fc170dc190dc729f.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/14856509cad5424413e0e78472d13ab020a568b4ae4bf03419fc99c4bb1cde05.json",
+      "request_hash": "14856509cad5424413e0e78472d13ab020a568b4ae4bf03419fc99c4bb1cde05"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/14856509cad5424413e0e78472d13ab020a568b4ae4bf03419fc99c4bb1cde05.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/1665220b071c72e8162524d8848a2b73e1efba7730b2920153c12944c86951d6.json",
+      "request_hash": "1665220b071c72e8162524d8848a2b73e1efba7730b2920153c12944c86951d6"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/1665220b071c72e8162524d8848a2b73e1efba7730b2920153c12944c86951d6.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/1778ad37a660db1a54ac014cbf613c7334b2bec64f25f1de1dc1ce1b433d87ba.json",
+      "request_hash": "1778ad37a660db1a54ac014cbf613c7334b2bec64f25f1de1dc1ce1b433d87ba"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/1778ad37a660db1a54ac014cbf613c7334b2bec64f25f1de1dc1ce1b433d87ba.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/244bb83a5b6e3f5f1b21a0b13a399bef3be3bb001a556950ece8b1e22476cba1.json",
+      "request_hash": "244bb83a5b6e3f5f1b21a0b13a399bef3be3bb001a556950ece8b1e22476cba1"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/244bb83a5b6e3f5f1b21a0b13a399bef3be3bb001a556950ece8b1e22476cba1.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/31d75e2b10b4d213b600d9c1c2e9a53e38330dba154abd92f6abbfe07d7d3b22.json",
+      "request_hash": "31d75e2b10b4d213b600d9c1c2e9a53e38330dba154abd92f6abbfe07d7d3b22"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/31d75e2b10b4d213b600d9c1c2e9a53e38330dba154abd92f6abbfe07d7d3b22.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/3445d97f08e3b93ffe74a783cf0dcfbd4e6e92cb5e7b26410e0a574e480346dd.json",
+      "request_hash": "3445d97f08e3b93ffe74a783cf0dcfbd4e6e92cb5e7b26410e0a574e480346dd"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/3445d97f08e3b93ffe74a783cf0dcfbd4e6e92cb5e7b26410e0a574e480346dd.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/3f3c0e795b6bdfcac6fb527bea48c436cbdf49f26a31e0994c0903e1705b5a42.json",
+      "request_hash": "3f3c0e795b6bdfcac6fb527bea48c436cbdf49f26a31e0994c0903e1705b5a42"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/3f3c0e795b6bdfcac6fb527bea48c436cbdf49f26a31e0994c0903e1705b5a42.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/47618a44b2e89ff6d7dd56f2b6a44b3a77b08658b11cf516ef315107a9ff451f.json",
+      "request_hash": "47618a44b2e89ff6d7dd56f2b6a44b3a77b08658b11cf516ef315107a9ff451f"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/47618a44b2e89ff6d7dd56f2b6a44b3a77b08658b11cf516ef315107a9ff451f.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/4f0b7adfddfdd54439adc494ca23324c165e9d923594d35fbb7871370cb3f425.json",
+      "request_hash": "4f0b7adfddfdd54439adc494ca23324c165e9d923594d35fbb7871370cb3f425"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/4f0b7adfddfdd54439adc494ca23324c165e9d923594d35fbb7871370cb3f425.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/5377f0dc6b1dad15128a72ca58eacb208da6e892557ddbc317aa6e1ade170197.json",
+      "request_hash": "5377f0dc6b1dad15128a72ca58eacb208da6e892557ddbc317aa6e1ade170197"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/5377f0dc6b1dad15128a72ca58eacb208da6e892557ddbc317aa6e1ade170197.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/5c00dbd76f9fbc66f43af72d48bb45d1cb953ccb19e3946993d06645fa697589.json",
+      "request_hash": "5c00dbd76f9fbc66f43af72d48bb45d1cb953ccb19e3946993d06645fa697589"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/5c00dbd76f9fbc66f43af72d48bb45d1cb953ccb19e3946993d06645fa697589.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/60bd80804b2580e1c62e749ce9b1897df6ae0e9f1e7ca74be9cd24a2498f8af7.json",
+      "request_hash": "60bd80804b2580e1c62e749ce9b1897df6ae0e9f1e7ca74be9cd24a2498f8af7"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/60bd80804b2580e1c62e749ce9b1897df6ae0e9f1e7ca74be9cd24a2498f8af7.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/657b97ade89fd45d6cec2fd86b49f218a2e9a6e3f52cbac1e2fece54e53c9866.json",
+      "request_hash": "657b97ade89fd45d6cec2fd86b49f218a2e9a6e3f52cbac1e2fece54e53c9866"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/657b97ade89fd45d6cec2fd86b49f218a2e9a6e3f52cbac1e2fece54e53c9866.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/696a8f590e4453ac9cfa427b979a0bb19b8465688cb655c7d5c3d7f10176ecb0.json",
+      "request_hash": "696a8f590e4453ac9cfa427b979a0bb19b8465688cb655c7d5c3d7f10176ecb0"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/696a8f590e4453ac9cfa427b979a0bb19b8465688cb655c7d5c3d7f10176ecb0.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/6acb7c0e192c7dbdf0bdf37f8b946cdd5d22da64cbc508af3591f036b8e747bd.json",
+      "request_hash": "6acb7c0e192c7dbdf0bdf37f8b946cdd5d22da64cbc508af3591f036b8e747bd"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/6acb7c0e192c7dbdf0bdf37f8b946cdd5d22da64cbc508af3591f036b8e747bd.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/6c65c07aabae5b884cf4b14b741f885ab0971ec82a77b1321393dc37e46198f9.json",
+      "request_hash": "6c65c07aabae5b884cf4b14b741f885ab0971ec82a77b1321393dc37e46198f9"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/6c65c07aabae5b884cf4b14b741f885ab0971ec82a77b1321393dc37e46198f9.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/70536cff01a9a3a9747176c4f27f52cbfb0f43a0f2edb244beaf5fb234c8d057.json",
+      "request_hash": "70536cff01a9a3a9747176c4f27f52cbfb0f43a0f2edb244beaf5fb234c8d057"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/70536cff01a9a3a9747176c4f27f52cbfb0f43a0f2edb244beaf5fb234c8d057.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/7663b7557e1cdf2962f5fc8c075c0ced1e4c09b30fd8ee95e74b67b79a259992.json",
+      "request_hash": "7663b7557e1cdf2962f5fc8c075c0ced1e4c09b30fd8ee95e74b67b79a259992"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/7663b7557e1cdf2962f5fc8c075c0ced1e4c09b30fd8ee95e74b67b79a259992.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/76d6dc4aa3db3f3fb12eaf2bcc446788409db7926e2da5435cf21d3967c6aff1.json",
+      "request_hash": "76d6dc4aa3db3f3fb12eaf2bcc446788409db7926e2da5435cf21d3967c6aff1"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/76d6dc4aa3db3f3fb12eaf2bcc446788409db7926e2da5435cf21d3967c6aff1.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/78e8500e187230aa49b6a3891b42e280eb7880a7cab2d6e707d03dbd82a9d725.json",
+      "request_hash": "78e8500e187230aa49b6a3891b42e280eb7880a7cab2d6e707d03dbd82a9d725"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/78e8500e187230aa49b6a3891b42e280eb7880a7cab2d6e707d03dbd82a9d725.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/7ec8193adda00177931174e12fc4f584b7ddbbc8ce7a95f46ee5e55039ecfb9e.json",
+      "request_hash": "7ec8193adda00177931174e12fc4f584b7ddbbc8ce7a95f46ee5e55039ecfb9e"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/7ec8193adda00177931174e12fc4f584b7ddbbc8ce7a95f46ee5e55039ecfb9e.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/800207850c28376c834ecc0f43dfbe73518e8f3b2d4d8f441ec0297b962faaa5.json",
+      "request_hash": "800207850c28376c834ecc0f43dfbe73518e8f3b2d4d8f441ec0297b962faaa5"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/800207850c28376c834ecc0f43dfbe73518e8f3b2d4d8f441ec0297b962faaa5.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/83365d544e9fe8e4a26f0b17cc6b695c851d61629f444875686165ea84a66b7e.json",
+      "request_hash": "83365d544e9fe8e4a26f0b17cc6b695c851d61629f444875686165ea84a66b7e"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/83365d544e9fe8e4a26f0b17cc6b695c851d61629f444875686165ea84a66b7e.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/86505e55753c849226b1eabd8052e486a86d751ba1bd38bbcb2008afddd0fc96.json",
+      "request_hash": "86505e55753c849226b1eabd8052e486a86d751ba1bd38bbcb2008afddd0fc96"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/86505e55753c849226b1eabd8052e486a86d751ba1bd38bbcb2008afddd0fc96.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/8bec154f4c30f7a5b515438291e43bd2b1b08f1f8b8e33bdab0ba869994c9d8f.json",
+      "request_hash": "8bec154f4c30f7a5b515438291e43bd2b1b08f1f8b8e33bdab0ba869994c9d8f"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/8bec154f4c30f7a5b515438291e43bd2b1b08f1f8b8e33bdab0ba869994c9d8f.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/94aaf2e3dc248cdfe6d25cc0eac3274776a9d47432f55d9ea4865ff7ae4c59e5.json",
+      "request_hash": "94aaf2e3dc248cdfe6d25cc0eac3274776a9d47432f55d9ea4865ff7ae4c59e5"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/94aaf2e3dc248cdfe6d25cc0eac3274776a9d47432f55d9ea4865ff7ae4c59e5.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/a0194b1684088409a52de90e2ff00f271cef52169e3045497b30f175be8b4662.json",
+      "request_hash": "a0194b1684088409a52de90e2ff00f271cef52169e3045497b30f175be8b4662"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/a0194b1684088409a52de90e2ff00f271cef52169e3045497b30f175be8b4662.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/a45b5a43be43c740e5e2078d50f9dbed48716b74df1090fd128a2b37556d9a21.json",
+      "request_hash": "a45b5a43be43c740e5e2078d50f9dbed48716b74df1090fd128a2b37556d9a21"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/a45b5a43be43c740e5e2078d50f9dbed48716b74df1090fd128a2b37556d9a21.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/bba60dccf74f257ed7c3b5e62f1b3b0e748532dc85f3435e708a1ce6d58e320d.json",
+      "request_hash": "bba60dccf74f257ed7c3b5e62f1b3b0e748532dc85f3435e708a1ce6d58e320d"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/bba60dccf74f257ed7c3b5e62f1b3b0e748532dc85f3435e708a1ce6d58e320d.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/c3e9b83c636638851cf1ac538b3b774849f85d75b69fdb576ded46d3fe5472c6.json",
+      "request_hash": "c3e9b83c636638851cf1ac538b3b774849f85d75b69fdb576ded46d3fe5472c6"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/c3e9b83c636638851cf1ac538b3b774849f85d75b69fdb576ded46d3fe5472c6.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/c570c012a4fdb98120fb583d27ff3a2d0b1cab97ff6b8999a1cb72bdad2cd1b1.json",
+      "request_hash": "c570c012a4fdb98120fb583d27ff3a2d0b1cab97ff6b8999a1cb72bdad2cd1b1"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/c570c012a4fdb98120fb583d27ff3a2d0b1cab97ff6b8999a1cb72bdad2cd1b1.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/c76cde9cb3ca2d7164bf94709dc9709ab60d7bb6c9bed1f97caab18d78611da2.json",
+      "request_hash": "c76cde9cb3ca2d7164bf94709dc9709ab60d7bb6c9bed1f97caab18d78611da2"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/c76cde9cb3ca2d7164bf94709dc9709ab60d7bb6c9bed1f97caab18d78611da2.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/d1e6eb340b458cbfabed24b37ff81e19029984c89ec185207184a35c2f2acd90.json",
+      "request_hash": "d1e6eb340b458cbfabed24b37ff81e19029984c89ec185207184a35c2f2acd90"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/d1e6eb340b458cbfabed24b37ff81e19029984c89ec185207184a35c2f2acd90.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/d856022b26037d83d62a6df7ad0b1b3ba3320447d073b71a994956f70d4ab9c2.json",
+      "request_hash": "d856022b26037d83d62a6df7ad0b1b3ba3320447d073b71a994956f70d4ab9c2"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/d856022b26037d83d62a6df7ad0b1b3ba3320447d073b71a994956f70d4ab9c2.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/e65ecd135951c45632013a5b774ca5d4bab9d8b7c15ea9dd764b73ad1198989b.json",
+      "request_hash": "e65ecd135951c45632013a5b774ca5d4bab9d8b7c15ea9dd764b73ad1198989b"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/e65ecd135951c45632013a5b774ca5d4bab9d8b7c15ea9dd764b73ad1198989b.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/ee26ef8666fc1c6106e04e2cc3ec88c64bd17ea59a2dc4b025dad70703e18a68.json",
+      "request_hash": "ee26ef8666fc1c6106e04e2cc3ec88c64bd17ea59a2dc4b025dad70703e18a68"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/ee26ef8666fc1c6106e04e2cc3ec88c64bd17ea59a2dc4b025dad70703e18a68.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/f2583fc46376194f7ad3fc31a2a1b37af33b6dfa06850b8764df03636f12054e.json",
+      "request_hash": "f2583fc46376194f7ad3fc31a2a1b37af33b6dfa06850b8764df03636f12054e"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/f2583fc46376194f7ad3fc31a2a1b37af33b6dfa06850b8764df03636f12054e.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/f806997febcd3c731faddf9ac40ecdae4b2220c97a6b3deed2406bd2c8e32e92.json",
+      "request_hash": "f806997febcd3c731faddf9ac40ecdae4b2220c97a6b3deed2406bd2c8e32e92"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chembl/http/f806997febcd3c731faddf9ac40ecdae4b2220c97a6b3deed2406bd2c8e32e92.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chemistry_export/http/d9ad38cf97dad1f63814b8cab62dc190cc77d6b0cc4dc5aa8b896fb1da28fe2f.json",
+      "request_hash": "d9ad38cf97dad1f63814b8cab62dc190cc77d6b0cc4dc5aa8b896fb1da28fe2f"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chemistry_export/http/d9ad38cf97dad1f63814b8cab62dc190cc77d6b0cc4dc5aa8b896fb1da28fe2f.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chemistry_export/http/f6744a0d1e201d86fb659b7fc192a11b8902ca9499cdd1885992f0f5a030a254.json",
+      "request_hash": "f6744a0d1e201d86fb659b7fc192a11b8902ca9499cdd1885992f0f5a030a254"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/chemistry_export/http/f6744a0d1e201d86fb659b7fc192a11b8902ca9499cdd1885992f0f5a030a254.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/089629e795a54a77d25e10ff130a4faa6ae1676bfac58e08e495edc0905c5cb3.json",
+      "request_hash": "089629e795a54a77d25e10ff130a4faa6ae1676bfac58e08e495edc0905c5cb3"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/089629e795a54a77d25e10ff130a4faa6ae1676bfac58e08e495edc0905c5cb3.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/1a83de060b962c33f9cd4afcf4a3fdbc07c5f9d9a7e1f4277bb1963f8e130379.json",
+      "request_hash": "1a83de060b962c33f9cd4afcf4a3fdbc07c5f9d9a7e1f4277bb1963f8e130379"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/1a83de060b962c33f9cd4afcf4a3fdbc07c5f9d9a7e1f4277bb1963f8e130379.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/1c0426b8cd82dcae3d448a7e9148bf7c0018fc8b3fc1cc06cd061d3308faeb1e.json",
+      "request_hash": "1c0426b8cd82dcae3d448a7e9148bf7c0018fc8b3fc1cc06cd061d3308faeb1e"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/1c0426b8cd82dcae3d448a7e9148bf7c0018fc8b3fc1cc06cd061d3308faeb1e.json",
+      "attempts": 3
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/1de26d86169662b0d892088255d2543492de7d87553d425a9d443bd9cbfda977.json",
+      "request_hash": "1de26d86169662b0d892088255d2543492de7d87553d425a9d443bd9cbfda977"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/1de26d86169662b0d892088255d2543492de7d87553d425a9d443bd9cbfda977.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb.json",
+      "request_hash": "23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/296d4bf7109438eee3b0201b2b30a8114e2bfd7b0330aae0a0f98dc71d321dcb.json",
+      "request_hash": "296d4bf7109438eee3b0201b2b30a8114e2bfd7b0330aae0a0f98dc71d321dcb"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/296d4bf7109438eee3b0201b2b30a8114e2bfd7b0330aae0a0f98dc71d321dcb.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/2f24544daa4c10f987a353e95d05507ef02a83432d2fde0b9d3f62926adbace7.json",
+      "request_hash": "2f24544daa4c10f987a353e95d05507ef02a83432d2fde0b9d3f62926adbace7"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/2f24544daa4c10f987a353e95d05507ef02a83432d2fde0b9d3f62926adbace7.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/40438c84546dd0e1a1a922926bb0756447f1c1130fc735e1c08c9f1792e57e23.json",
+      "request_hash": "40438c84546dd0e1a1a922926bb0756447f1c1130fc735e1c08c9f1792e57e23"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/40438c84546dd0e1a1a922926bb0756447f1c1130fc735e1c08c9f1792e57e23.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c.json",
+      "request_hash": "506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/5946a60a78bfa4f7549a4ebb46a2e01549375f2f0e243e7a172cd4058b655536.json",
+      "request_hash": "5946a60a78bfa4f7549a4ebb46a2e01549375f2f0e243e7a172cd4058b655536"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/5946a60a78bfa4f7549a4ebb46a2e01549375f2f0e243e7a172cd4058b655536.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/5ac9a148e1dae4f0e4a0824d7627075e405fa5b7c32e59df651c534996f1969c.json",
+      "request_hash": "5ac9a148e1dae4f0e4a0824d7627075e405fa5b7c32e59df651c534996f1969c"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/5ac9a148e1dae4f0e4a0824d7627075e405fa5b7c32e59df651c534996f1969c.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/5ad4381202112519e2a5a42f57b1ca3a4e875efe9f47baccb3f304880514dadb.json",
+      "request_hash": "5ad4381202112519e2a5a42f57b1ca3a4e875efe9f47baccb3f304880514dadb"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/5ad4381202112519e2a5a42f57b1ca3a4e875efe9f47baccb3f304880514dadb.json",
+      "attempts": 4
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/6639baa6170ef41f2f1e56f6f30cea667b27550795cb8f4096d8b104b7140b29.json",
+      "request_hash": "6639baa6170ef41f2f1e56f6f30cea667b27550795cb8f4096d8b104b7140b29"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/6639baa6170ef41f2f1e56f6f30cea667b27550795cb8f4096d8b104b7140b29.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051.json",
+      "request_hash": "78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78.json",
+      "request_hash": "8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6.json",
+      "request_hash": "8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/95df7524273b3e05f1da4becbfcab9ab8ef1407448f6cbb5b8952e97779c8618.json",
+      "request_hash": "95df7524273b3e05f1da4becbfcab9ab8ef1407448f6cbb5b8952e97779c8618"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/95df7524273b3e05f1da4becbfcab9ab8ef1407448f6cbb5b8952e97779c8618.json",
+      "attempts": 4
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/96b079fc79aba191ae3af78a1615f19cdadee02a3546d02b3cd6852a66440d76.json",
+      "request_hash": "96b079fc79aba191ae3af78a1615f19cdadee02a3546d02b3cd6852a66440d76"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/96b079fc79aba191ae3af78a1615f19cdadee02a3546d02b3cd6852a66440d76.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/9ec545d786c82f26857f63b62268aca12be85f46becb4c17bd418305fc84c263.json",
+      "request_hash": "9ec545d786c82f26857f63b62268aca12be85f46becb4c17bd418305fc84c263"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/9ec545d786c82f26857f63b62268aca12be85f46becb4c17bd418305fc84c263.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/b5bf6e87c4a0c0eeb94097864ee393c947c6eb0834899c745bda0250686b34b2.json",
+      "request_hash": "b5bf6e87c4a0c0eeb94097864ee393c947c6eb0834899c745bda0250686b34b2"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/b5bf6e87c4a0c0eeb94097864ee393c947c6eb0834899c745bda0250686b34b2.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae.json",
+      "request_hash": "bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c25498a532174bed4ffe632ff38f4c5161d948d8a267b6477516f06f92db3f2b.json",
+      "request_hash": "c25498a532174bed4ffe632ff38f4c5161d948d8a267b6477516f06f92db3f2b"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c25498a532174bed4ffe632ff38f4c5161d948d8a267b6477516f06f92db3f2b.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724.json",
+      "request_hash": "c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c3345d760eb8761d7c95fad9340d458532151aca3b91df4b5c8d392e4336c874.json",
+      "request_hash": "c3345d760eb8761d7c95fad9340d458532151aca3b91df4b5c8d392e4336c874"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c3345d760eb8761d7c95fad9340d458532151aca3b91df4b5c8d392e4336c874.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c5a59386ec5eb00b6ac21d6690b8e117c67b4cc617672a5ccb1311169afdddb9.json",
+      "request_hash": "c5a59386ec5eb00b6ac21d6690b8e117c67b4cc617672a5ccb1311169afdddb9"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c5a59386ec5eb00b6ac21d6690b8e117c67b4cc617672a5ccb1311169afdddb9.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c80622044f7ae6b82ae6ba4c1b7561b01fb63fdb9ff28685ba9dc9768a4faae3.json",
+      "request_hash": "c80622044f7ae6b82ae6ba4c1b7561b01fb63fdb9ff28685ba9dc9768a4faae3"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/c80622044f7ae6b82ae6ba4c1b7561b01fb63fdb9ff28685ba9dc9768a4faae3.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/ca475d455ecb5daf5e1e78f8df2e915264ae164d01873f129088637aea619f4b.json",
+      "request_hash": "ca475d455ecb5daf5e1e78f8df2e915264ae164d01873f129088637aea619f4b"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/ca475d455ecb5daf5e1e78f8df2e915264ae164d01873f129088637aea619f4b.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/ced2ec80410224fe01e9cd069c1713e3fc50934bf92c70b63b4152ca828c4d14.json",
+      "request_hash": "ced2ec80410224fe01e9cd069c1713e3fc50934bf92c70b63b4152ca828c4d14"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/ced2ec80410224fe01e9cd069c1713e3fc50934bf92c70b63b4152ca828c4d14.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/cf01e20d779121a06939383acb4400845ff0d2166072abe97e12f166eff7ef3f.json",
+      "request_hash": "cf01e20d779121a06939383acb4400845ff0d2166072abe97e12f166eff7ef3f"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/cf01e20d779121a06939383acb4400845ff0d2166072abe97e12f166eff7ef3f.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/d08306622660a8c5bd24388161f1234c791c4299221bf3c38d7451b9b0e90cf6.json",
+      "request_hash": "d08306622660a8c5bd24388161f1234c791c4299221bf3c38d7451b9b0e90cf6"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/d08306622660a8c5bd24388161f1234c791c4299221bf3c38d7451b9b0e90cf6.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/d9d7f92a2f845788606aa7a11b026412aff03540c255c27e9838e264e379fa87.json",
+      "request_hash": "d9d7f92a2f845788606aa7a11b026412aff03540c255c27e9838e264e379fa87"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/d9d7f92a2f845788606aa7a11b026412aff03540c255c27e9838e264e379fa87.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/e751a375efc4348fdb8878706a8a2fd99948634e42300bafc1c4316b0e748566.json",
+      "request_hash": "e751a375efc4348fdb8878706a8a2fd99948634e42300bafc1c4316b0e748566"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/e751a375efc4348fdb8878706a8a2fd99948634e42300bafc1c4316b0e748566.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/f25ef6e088a0f60ee1c4944924398956529d59874777b8438061acb06e84c603.json",
+      "request_hash": "f25ef6e088a0f60ee1c4944924398956529d59874777b8438061acb06e84c603"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/http/f25ef6e088a0f60ee1c4944924398956529d59874777b8438061acb06e84c603.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/taxonomy/http/b68dfc0200211558e7a10d6a13ccc185030c521ee1ac5945abcf5fda6a21c96b.json",
+      "request_hash": "b68dfc0200211558e7a10d6a13ccc185030c521ee1ac5945abcf5fda6a21c96b"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/taxonomy/http/b68dfc0200211558e7a10d6a13ccc185030c521ee1ac5945abcf5fda6a21c96b.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/taxonomy/http/fb321516914c109ffed18c59a97aa5811c09bf99abb83525e5988429ccdc101b.json",
+      "request_hash": "fb321516914c109ffed18c59a97aa5811c09bf99abb83525e5988429ccdc101b"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/cache/taxonomy/http/fb321516914c109ffed18c59a97aa5811c09bf99abb83525e5988429ccdc101b.json",
+      "attempts": 1
+    },
+    {
+      "check": "cache_inventory",
+      "status": "passed",
+      "files": 80,
+      "bytes": 346130893
+    },
+    {
+      "check": "corpus_source_statuses",
+      "status": "passed",
+      "live_sources": 22,
+      "replay_sources": 22
+    },
+    {
+      "check": "corpus_ready_source_set",
+      "status": "passed"
+    },
+    {
+      "check": "corpus_text:PMC13433141",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC13433141.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC13433141.json",
+      "comparison": "byte_exact",
+      "live_sha256": "9c2fb12e98e3bfb0c0a73a71574195a7abbbcd2af1c85e01aeb4b69fa8354447",
+      "replay_sha256": "9c2fb12e98e3bfb0c0a73a71574195a7abbbcd2af1c85e01aeb4b69fa8354447"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC13433141"
+    },
+    {
+      "check": "corpus_text:PMC12991640",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC12991640.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC12991640.json",
+      "comparison": "byte_exact",
+      "live_sha256": "5832c679cb1ca2efc3aa533cd3e019e07f31dc9e0defdf3417c0234268bc6d43",
+      "replay_sha256": "5832c679cb1ca2efc3aa533cd3e019e07f31dc9e0defdf3417c0234268bc6d43"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12991640"
+    },
+    {
+      "check": "corpus_text:PMC12942626",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC12942626.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC12942626.json",
+      "comparison": "byte_exact",
+      "live_sha256": "3c2da8b17a2195f9b5247ac0932ab2ba9f7eb972e5adcd4b23d842e03a4af9a9",
+      "replay_sha256": "3c2da8b17a2195f9b5247ac0932ab2ba9f7eb972e5adcd4b23d842e03a4af9a9"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12942626"
+    },
+    {
+      "check": "corpus_text:PMC12903895",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC12903895.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC12903895.json",
+      "comparison": "byte_exact",
+      "live_sha256": "4852f31a5792c3c44eac1d8587b32aa36bafd4d98aefe69981a7094cec012a0a",
+      "replay_sha256": "4852f31a5792c3c44eac1d8587b32aa36bafd4d98aefe69981a7094cec012a0a"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12903895"
+    },
+    {
+      "check": "corpus_text:PMC12585044",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC12585044.json",
+      "comparison": "byte_exact",
+      "live_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+      "replay_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12585044"
+    },
+    {
+      "check": "corpus_text:PMC12344286",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC12344286.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC12344286.json",
+      "comparison": "byte_exact",
+      "live_sha256": "eb0ee3e69214718a566c8f421875160a254de2daaed40fa4abfd649a75a738d1",
+      "replay_sha256": "eb0ee3e69214718a566c8f421875160a254de2daaed40fa4abfd649a75a738d1"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12344286"
+    },
+    {
+      "check": "corpus_text:PMC12215521",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC12215521.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC12215521.json",
+      "comparison": "byte_exact",
+      "live_sha256": "19633887cb292ffb06a1105214de60edff9274f135a15718a3301b52f109c262",
+      "replay_sha256": "19633887cb292ffb06a1105214de60edff9274f135a15718a3301b52f109c262"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12215521"
+    },
+    {
+      "check": "corpus_text:PMC11879272",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC11879272.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC11879272.json",
+      "comparison": "byte_exact",
+      "live_sha256": "ae3baacbeb22405ccfa9f0d401c3351253bcd8754b44c35c433936aeb6ae30b3",
+      "replay_sha256": "ae3baacbeb22405ccfa9f0d401c3351253bcd8754b44c35c433936aeb6ae30b3"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC11879272"
+    },
+    {
+      "check": "corpus_text:PMC11122559",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC11122559.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC11122559.json",
+      "comparison": "byte_exact",
+      "live_sha256": "70552017c33a647ff49f169216bfb887c4b57b909d0dbd4d38f6a6f9d1f397da",
+      "replay_sha256": "70552017c33a647ff49f169216bfb887c4b57b909d0dbd4d38f6a6f9d1f397da"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC11122559"
+    },
+    {
+      "check": "corpus_text:PMC10954652",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC10954652.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC10954652.json",
+      "comparison": "byte_exact",
+      "live_sha256": "8ac300d03efa9c51f98c4aafcc337dc15c380b150a422485106d27ebffffcb48",
+      "replay_sha256": "8ac300d03efa9c51f98c4aafcc337dc15c380b150a422485106d27ebffffcb48"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC10954652"
+    },
+    {
+      "check": "corpus_text:PMC10878802",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC10878802.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC10878802.json",
+      "comparison": "byte_exact",
+      "live_sha256": "1a23023f93a48a8825ea7d2e619cbac1f817fd13a18bf97a40f4cdf1f662167b",
+      "replay_sha256": "1a23023f93a48a8825ea7d2e619cbac1f817fd13a18bf97a40f4cdf1f662167b"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC10878802"
+    },
+    {
+      "check": "corpus_text:PMC10370756",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC10370756.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC10370756.json",
+      "comparison": "byte_exact",
+      "live_sha256": "1bfad74be23588151c2a2971c4a63cd5384fc37823ed254dd3d9c797d62f8d50",
+      "replay_sha256": "1bfad74be23588151c2a2971c4a63cd5384fc37823ed254dd3d9c797d62f8d50"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC10370756"
+    },
+    {
+      "check": "corpus_text:PMC10430791",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC10430791.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC10430791.json",
+      "comparison": "byte_exact",
+      "live_sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c",
+      "replay_sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC10430791"
+    },
+    {
+      "check": "corpus_text:PMC9845971",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC9845971.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC9845971.json",
+      "comparison": "byte_exact",
+      "live_sha256": "8e28acbe1dae7809eb3e508bf159556322d59835fd3644664a8da674d3e51148",
+      "replay_sha256": "8e28acbe1dae7809eb3e508bf159556322d59835fd3644664a8da674d3e51148"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9845971"
+    },
+    {
+      "check": "corpus_text:PMC9685589",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC9685589.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC9685589.json",
+      "comparison": "byte_exact",
+      "live_sha256": "4570166de8ac41c1dd03dcf4a8d254c33fd71d6326988843626444a9302defb5",
+      "replay_sha256": "4570166de8ac41c1dd03dcf4a8d254c33fd71d6326988843626444a9302defb5"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9685589"
+    },
+    {
+      "check": "corpus_text:PMC9351326",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC9351326.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC9351326.json",
+      "comparison": "byte_exact",
+      "live_sha256": "d17d32f396deed65c631eca42d4bb401641cd998c7dc90eebdce8b77dfc10192",
+      "replay_sha256": "d17d32f396deed65c631eca42d4bb401641cd998c7dc90eebdce8b77dfc10192"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9351326"
+    },
+    {
+      "check": "corpus_text:PMC9273743",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC9273743.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC9273743.json",
+      "comparison": "byte_exact",
+      "live_sha256": "02ac97a2886fb8987d8b7e4a76fe475b21e5c0047ef9725d8396c1d9f7470fe0",
+      "replay_sha256": "02ac97a2886fb8987d8b7e4a76fe475b21e5c0047ef9725d8396c1d9f7470fe0"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9273743"
+    },
+    {
+      "check": "corpus_text:PMC9197062",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC9197062.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC9197062.json",
+      "comparison": "byte_exact",
+      "live_sha256": "054c2269ab3d427b604d8d100fd218fcd94d041e28e01f71f2277f503aa0d3ad",
+      "replay_sha256": "054c2269ab3d427b604d8d100fd218fcd94d041e28e01f71f2277f503aa0d3ad"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9197062"
+    },
+    {
+      "check": "corpus_text:PMC9210279",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC9210279.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC9210279.json",
+      "comparison": "byte_exact",
+      "live_sha256": "7bb9651c554359325dc85d2d4673e1e85d2f690718d59a8c3a0d7ec124f5eedb",
+      "replay_sha256": "7bb9651c554359325dc85d2d4673e1e85d2f690718d59a8c3a0d7ec124f5eedb"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9210279"
+    },
+    {
+      "check": "corpus_text:PMC8908431",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/corpus/texts/PMC8908431.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/corpus/texts/PMC8908431.json",
+      "comparison": "byte_exact",
+      "live_sha256": "349b3f8e064f7a641702539583fd4c888bf89bfbf5d795d250e1ee4bd09e7895",
+      "replay_sha256": "349b3f8e064f7a641702539583fd4c888bf89bfbf5d795d250e1ee4bd09e7895"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8908431"
+    },
+    {
+      "check": "payload_approval_scope",
+      "status": "passed",
+      "approved_jobs": 10,
+      "selected_jobs": 10
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC12585044",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "blocks_digest": "797cc0dc7d3a1f9c1d4e9fe6fdf122617e56075415e302ff1708f63ec030c8bb"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json",
+      "input_hash": "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC12585044",
+      "input_hash": "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+      "blocks_digest": "c7752105771a0bff2245b08a717bbfcb624ba7e7189572a9998524208aa5c0c4"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC10370756",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+      "blocks_digest": "1fd3ba51b713aacbc2be24eafeff42ae9aca914884a8f2aca8de42c972192cce"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json",
+      "input_hash": "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC10370756",
+      "input_hash": "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+      "blocks_digest": "7d49b11793817f2344ee5aed2bdf6fbc21b9435a51b965f82c45c489975518b5"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC10430791",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+      "blocks_digest": "e8154848e49b912a303de438a80f89c03b3fa14feefed6577f02859e730fe534"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489.json",
+      "input_hash": "eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC9351326",
+      "input_hash": "eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489",
+      "blocks_digest": "671ce04e09ddd2e5556c12a0f4a7443c0061eaa75e2fc6ced773debb9f2acdb7"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d.json",
+      "input_hash": "7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC9351326",
+      "input_hash": "7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d",
+      "blocks_digest": "394f731e0a66e67f522453824f56e4b76af5eb78e231b90d3354eb035c754216"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4.json",
+      "input_hash": "b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC9351326",
+      "input_hash": "b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4",
+      "blocks_digest": "8e1182667cee4ca918ad56d0e9fbe597bd9f3bdc9c1b24eaa0e19092706ce185"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json",
+      "input_hash": "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC9197062",
+      "input_hash": "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+      "blocks_digest": "d968a7a646754de2215726a9c728359fb759d402992ffc00e887af31fdbcbef6"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction_payloads/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC9197062",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc",
+      "blocks_digest": "0dfc028afa7affe612d88340ae7979acaf9baebee0b87bf6d25c2b812838107f"
+    },
+    {
+      "check": "extraction_replay:observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/observations.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "dcbf436c4886504a0403883389383420ec99fa8f889506c8c8e64f860ed3875b",
+      "replay_sha256": "dcbf436c4886504a0403883389383420ec99fa8f889506c8c8e64f860ed3875b",
+      "live_records": 5,
+      "replay_records": 5
+    },
+    {
+      "check": "extraction_replay:rejections.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/rejections.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/rejections.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "extraction_replay:failures.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/failures.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/failures.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "extraction_replay:job_status.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/job_status.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/job_status.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "054cd0cc5a5f1ac95f139a75548e9bfa3d930eaf6066dfc2e2f046396252a3c9",
+      "replay_sha256": "054cd0cc5a5f1ac95f139a75548e9bfa3d930eaf6066dfc2e2f046396252a3c9",
+      "live_records": 10,
+      "replay_records": 10
+    },
+    {
+      "check": "extraction_replay:partial_observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/partial_observations.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/partial_observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "extraction_replay:observations_progress.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/observations_progress.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/observations_progress.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "dcbf436c4886504a0403883389383420ec99fa8f889506c8c8e64f860ed3875b",
+      "replay_sha256": "dcbf436c4886504a0403883389383420ec99fa8f889506c8c8e64f860ed3875b",
+      "live_records": 5,
+      "replay_records": 5
+    },
+    {
+      "check": "extraction_replay:metrics.json",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/metrics.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/metrics.json",
+      "comparison": "byte_exact",
+      "live_sha256": "bbf669b36e81ae3a9330e8429edce60912c068c246ad4e434fcd2f488fcfed94",
+      "replay_sha256": "bbf669b36e81ae3a9330e8429edce60912c068c246ad4e434fcd2f488fcfed94"
+    },
+    {
+      "check": "extraction_replay:run_manifest",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/run_manifest.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/run_manifest.json",
+      "comparison": "scientific_json",
+      "live_sha256": "56bd9d17513f19019c58283dde75764c18eeb136e0d2f9e8ad426496c485a633",
+      "replay_sha256": "51035829231e56d84ba8b6aec9060419e472691d672aa3dc05fcf89770050210",
+      "live_scientific_hash": "15195c5a6e54d235b0d1550b1d7cfd63734a30a0ef46b186e4c99b30e8272549",
+      "replay_scientific_hash": "15195c5a6e54d235b0d1550b1d7cfd63734a30a0ef46b186e4c99b30e8272549",
+      "live_scientific_metrics": {
+        "jobs": 10,
+        "input_hashes": [
+          "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+          "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+          "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+          "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+          "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+          "eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489",
+          "7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d",
+          "b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4",
+          "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+          "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+        ],
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "grounding_version": "single_quote_v1",
+        "prompt_schema_comparability": "system_adapted; differs_from_leafcutter_default_contract",
+        "saverschek_v2_priority_status": "complete",
+        "metrics": {
+          "papers": 5,
+          "jobs": 10,
+          "candidate_records": 5,
+          "grounded_records": 5,
+          "retained_records": 5,
+          "retained_records_interpretation": "complete_source_grounded_records_before_semantic_review",
+          "complete_papers": 5,
+          "incomplete_papers": 0,
+          "complete_jobs": 10,
+          "rejected_candidates": 0,
+          "rejection_rate": 0.0,
+          "response_failures": 0,
+          "blocked_reason": null,
+          "unattempted_jobs": 0
+        }
+      },
+      "replay_scientific_metrics": {
+        "jobs": 10,
+        "input_hashes": [
+          "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+          "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+          "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+          "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+          "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+          "eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489",
+          "7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d",
+          "b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4",
+          "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+          "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+        ],
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "grounding_version": "single_quote_v1",
+        "prompt_schema_comparability": "system_adapted; differs_from_leafcutter_default_contract",
+        "saverschek_v2_priority_status": "complete",
+        "metrics": {
+          "papers": 5,
+          "jobs": 10,
+          "candidate_records": 5,
+          "grounded_records": 5,
+          "retained_records": 5,
+          "retained_records_interpretation": "complete_source_grounded_records_before_semantic_review",
+          "complete_papers": 5,
+          "incomplete_papers": 0,
+          "complete_jobs": 10,
+          "rejected_candidates": 0,
+          "rejection_rate": 0.0,
+          "response_failures": 0,
+          "blocked_reason": null,
+          "unattempted_jobs": 0
+        }
+      }
+    },
+    {
+      "check": "extraction_jobs_match_selection",
+      "status": "passed",
+      "completed": 10,
+      "total": 10
+    },
+    {
+      "check": "model_response_replay:5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json",
+      "comparison": "byte_exact",
+      "live_sha256": "41154b8305f4cc8e598661ce8363496eb1ffdfb315f34d98f9ebb73a1bff0859",
+      "replay_sha256": "41154b8305f4cc8e598661ce8363496eb1ffdfb315f34d98f9ebb73a1bff0859"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "request_hash": "c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724",
+      "cached_response_sha256": "eead972439540c09de44fdb6ef829f32ff3f702479a65162cad3f9d1735a6eff"
+    },
+    {
+      "check": "model_response_replay:428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json",
+      "comparison": "byte_exact",
+      "live_sha256": "c3811d593c21c3a1046e7b22116d239630ee34961c6ed24691f11568ce8d0239",
+      "replay_sha256": "c3811d593c21c3a1046e7b22116d239630ee34961c6ed24691f11568ce8d0239"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+      "request_hash": "78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051",
+      "cached_response_sha256": "b072b3197f142378e50555292109385ac1431e9dd25b23cb2a163f9cc12cb74f"
+    },
+    {
+      "check": "model_response_replay:423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json",
+      "comparison": "byte_exact",
+      "live_sha256": "3efc7e40aab6846c50bcc0392e44df68d6564505c4744e98dc821c3bf1b63463",
+      "replay_sha256": "3efc7e40aab6846c50bcc0392e44df68d6564505c4744e98dc821c3bf1b63463"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+      "request_hash": "506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c",
+      "cached_response_sha256": "abda78af5485617ce16b1b70a3f65d4272b2f8698a8ed4c1830decce458d30bc"
+    },
+    {
+      "check": "model_response_replay:2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json",
+      "comparison": "byte_exact",
+      "live_sha256": "762280f36b0d67d001bc7e77f685ee2a43fb5f8ea1ced9541e1014aa36f75719",
+      "replay_sha256": "762280f36b0d67d001bc7e77f685ee2a43fb5f8ea1ced9541e1014aa36f75719"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+      "request_hash": "23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb",
+      "cached_response_sha256": "a8885d7580fd5c9ca1f3afe24c74d1f6be387eb1a3f986cbe8f78bd874d55368"
+    },
+    {
+      "check": "model_response_replay:de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json",
+      "comparison": "byte_exact",
+      "live_sha256": "ae833a4c54a1c44cd26dd889d4e2bcdf130fee15b97f2fd932e9c6ae834132d5",
+      "replay_sha256": "ae833a4c54a1c44cd26dd889d4e2bcdf130fee15b97f2fd932e9c6ae834132d5"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+      "request_hash": "8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6",
+      "cached_response_sha256": "c5e1995f7b1cf9a5fd5e79013d6d5da1ef0338f39064b56908c3a962ee1ac2c8"
+    },
+    {
+      "check": "model_response_replay:eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489.json",
+      "comparison": "byte_exact",
+      "live_sha256": "b0e402737c03bd0b172ffd0585b98f73fb12e8b54726af75b34d3ebd531ce233",
+      "replay_sha256": "b0e402737c03bd0b172ffd0585b98f73fb12e8b54726af75b34d3ebd531ce233"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489",
+      "request_hash": "c80622044f7ae6b82ae6ba4c1b7561b01fb63fdb9ff28685ba9dc9768a4faae3",
+      "cached_response_sha256": "6e4b5490b172106d94b86ac40b7eb202aefbc771ad94fcc1455fdbe011d03593"
+    },
+    {
+      "check": "model_response_replay:7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d.json",
+      "comparison": "byte_exact",
+      "live_sha256": "394d437df042ba7ea5fd8289536c3655c0f1dd2f3bd22ab1c9f0e67be932aba0",
+      "replay_sha256": "394d437df042ba7ea5fd8289536c3655c0f1dd2f3bd22ab1c9f0e67be932aba0"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d",
+      "request_hash": "1de26d86169662b0d892088255d2543492de7d87553d425a9d443bd9cbfda977",
+      "cached_response_sha256": "43f0c5cdd9c0c23602a5ea4aa9a2b76166487c349c0609d3d47ebbe8ad6769fa"
+    },
+    {
+      "check": "model_response_replay:b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4.json",
+      "comparison": "byte_exact",
+      "live_sha256": "fe4fc52662fc7346af076ef218fc97c59057465dcdbb32ce95bf2e02cd6bb713",
+      "replay_sha256": "fe4fc52662fc7346af076ef218fc97c59057465dcdbb32ce95bf2e02cd6bb713"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4",
+      "request_hash": "cf01e20d779121a06939383acb4400845ff0d2166072abe97e12f166eff7ef3f",
+      "cached_response_sha256": "4241ed8cc9ce360a7f5efa186bc16425c2ee5c99c7722baa2cedcad3cbbb5ed7"
+    },
+    {
+      "check": "model_response_replay:2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json",
+      "comparison": "byte_exact",
+      "live_sha256": "2f9b40ed25e383a6f822501dee20cabb8a15933c1d825267ad40fa4feb63f258",
+      "replay_sha256": "2f9b40ed25e383a6f822501dee20cabb8a15933c1d825267ad40fa4feb63f258"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+      "request_hash": "8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78",
+      "cached_response_sha256": "ca803ad0036ebcc1563780c01185d280acb457a624584f17206826509413cf72"
+    },
+    {
+      "check": "model_response_replay:10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/extraction/responses/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/extraction/responses/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json",
+      "comparison": "byte_exact",
+      "live_sha256": "577615d5be923193de2af2e7ca7cc33457ca5b764021c911f27577d11ed62a38",
+      "replay_sha256": "577615d5be923193de2af2e7ca7cc33457ca5b764021c911f27577d11ed62a38"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc",
+      "request_hash": "bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae",
+      "cached_response_sha256": "40bcbe74ee6234fbf664ae45ac118a7ec1e49b99a65e2cabddc1d512e1faf721"
+    },
+    {
+      "check": "model_response_file_set",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/extraction",
+      "files": 10,
+      "expected": 10
+    },
+    {
+      "check": "model_response_file_set",
+      "status": "passed",
+      "path": "data/interim/systems/monarch/offline_replay/extraction",
+      "files": 10,
+      "expected": 10
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "824ea5be5084af89f7f550b4ba011622b19550a306f68bf4bc2b9af4afa67c95",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "824ea5be5084af89f7f550b4ba011622b19550a306f68bf4bc2b9af4afa67c95",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "64c983fe790e8f4d415a34719c7f6d31ceee20715283e6733c1ada12318428e0",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "64c983fe790e8f4d415a34719c7f6d31ceee20715283e6733c1ada12318428e0",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "ded847959937f544e88afe52ef0e1aced69ea24140638afffdd602cf25aee9db",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "ded847959937f544e88afe52ef0e1aced69ea24140638afffdd602cf25aee9db",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "fd4bc2a165044f99e2b8f13a4c5ce84194125401463c80e0e0f46126ebf2ec9f",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "fd4bc2a165044f99e2b8f13a4c5ce84194125401463c80e0e0f46126ebf2ec9f",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "f2681f96c6d66ee7eb69ad34bc3b2d5c4d88e3a1e55434124acebad3f6371af6",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "f2681f96c6d66ee7eb69ad34bc3b2d5c4d88e3a1e55434124acebad3f6371af6",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+    },
+    {
+      "check": "semantic_record_ids_unique",
+      "status": "passed"
+    },
+    {
+      "check": "semantic_raw_fields_unchanged",
+      "status": "passed",
+      "record_id": "824ea5be5084af89f7f550b4ba011622b19550a306f68bf4bc2b9af4afa67c95"
+    },
+    {
+      "check": "semantic_raw_fields_unchanged",
+      "status": "passed",
+      "record_id": "fd4bc2a165044f99e2b8f13a4c5ce84194125401463c80e0e0f46126ebf2ec9f"
+    },
+    {
+      "check": "semantic_review_actual_counts",
+      "status": "passed",
+      "raw_grounded": 5,
+      "semantic_included": 2
+    },
+    {
+      "check": "downstream_metrics:taxonomy",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/taxonomy/metrics.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/taxonomy/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "8a75d9ebcf328636abd1fb9c13f674b4dc242f3589622972ab7364a87210259c",
+      "replay_sha256": "29addf34ca08160172ad542ff14fcca53eb3e63fe82e96757c42b9f9b92f42f6",
+      "live_scientific_hash": "76e8fce19b142cc68fb8597654852d81d7909285d094e276e5066fbe7adffe4f",
+      "replay_scientific_hash": "76e8fce19b142cc68fb8597654852d81d7909285d094e276e5066fbe7adffe4f",
+      "live_scientific_metrics": {
+        "matched_observations": 2,
+        "review_observations": 0,
+        "unique_names": 2,
+        "status": "complete",
+        "blocked_reason": null,
+        "incomplete_reason": null,
+        "failed_observations": 0,
+        "system": "monarch",
+        "kingdom": "Plantae",
+        "resolved_taxa": 2,
+        "input_sha256": "8d1dc8f646779584cb35ff527bc2e839b1d030548d302427b38c4eb50eb2688d"
+      },
+      "replay_scientific_metrics": {
+        "matched_observations": 2,
+        "review_observations": 0,
+        "unique_names": 2,
+        "status": "complete",
+        "blocked_reason": null,
+        "incomplete_reason": null,
+        "failed_observations": 0,
+        "system": "monarch",
+        "kingdom": "Plantae",
+        "resolved_taxa": 2,
+        "input_sha256": "8d1dc8f646779584cb35ff527bc2e839b1d030548d302427b38c4eb50eb2688d"
+      }
+    },
+    {
+      "check": "downstream_records:taxonomy/observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/taxonomy/observations.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/taxonomy/observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "a69aa92ed5cf44c496cf869e4dfde02d52cb2f481ab105dd4406a0d2c08381f2",
+      "replay_sha256": "a69aa92ed5cf44c496cf869e4dfde02d52cb2f481ab105dd4406a0d2c08381f2",
+      "live_records": 2,
+      "replay_records": 2
+    },
+    {
+      "check": "downstream_records:taxonomy/review.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/taxonomy/review.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/taxonomy/review.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_metrics:behaviour",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/behaviour/metrics.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/behaviour/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "cf08f297f9e81e2f5f15dce1de983f222dac197395b4432d14bf053f0cf637b4",
+      "replay_sha256": "427517b63244c28f9e1cddd1ba0ea630ac5d4f86225c1f23a3ec0a30a5262137",
+      "live_scientific_hash": "e925d6b0d85df67cfe407a5a1cbe3f6c56156087b6591070b5fe375c4ae6eaaa",
+      "replay_scientific_hash": "e925d6b0d85df67cfe407a5a1cbe3f6c56156087b6591070b5fe375c4ae6eaaa",
+      "live_scientific_metrics": {
+        "status": "complete",
+        "blocked_reason": null,
+        "input_sha256": "a69aa92ed5cf44c496cf869e4dfde02d52cb2f481ab105dd4406a0d2c08381f2",
+        "resolved_observations": 2,
+        "duplicate_observations": 0,
+        "resolved_genera": 1,
+        "eligible_genera": 1,
+        "accepted_genera": 1,
+        "rejected_genera": 0,
+        "conflict_genera": 0,
+        "unknown_genera": 0,
+        "focal_eligible_genera": 0,
+        "infection_comparison_eligible_genera": 0,
+        "ancillary_oviposition_genera": 1,
+        "direct_directional_observations": 1,
+        "unknown_direction_observations": 0,
+        "ineligible_observations": 1
+      },
+      "replay_scientific_metrics": {
+        "status": "complete",
+        "blocked_reason": null,
+        "input_sha256": "a69aa92ed5cf44c496cf869e4dfde02d52cb2f481ab105dd4406a0d2c08381f2",
+        "resolved_observations": 2,
+        "duplicate_observations": 0,
+        "resolved_genera": 1,
+        "eligible_genera": 1,
+        "accepted_genera": 1,
+        "rejected_genera": 0,
+        "conflict_genera": 0,
+        "unknown_genera": 0,
+        "focal_eligible_genera": 0,
+        "infection_comparison_eligible_genera": 0,
+        "ancillary_oviposition_genera": 1,
+        "direct_directional_observations": 1,
+        "unknown_direction_observations": 0,
+        "ineligible_observations": 1
+      }
+    },
+    {
+      "check": "downstream_records:behaviour/conflicts.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/behaviour/conflicts.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/behaviour/conflicts.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:behaviour/duplicates.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/behaviour/duplicates.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/behaviour/duplicates.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:behaviour/genera.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/behaviour/genera.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/behaviour/genera.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "c6e2b2aff29b364c7d9e0e3f62f8d0a728f72307dfeae9d8c2064dff7a4ea73e",
+      "replay_sha256": "c6e2b2aff29b364c7d9e0e3f62f8d0a728f72307dfeae9d8c2064dff7a4ea73e",
+      "live_records": 1,
+      "replay_records": 1
+    },
+    {
+      "check": "downstream_records:behaviour/genus_coverage.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/behaviour/genus_coverage.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/behaviour/genus_coverage.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "cd628b9569d347cc0f5dbdae7fcc7bbd05b635a23c8c0cd0e7d6d7f0c2726214",
+      "replay_sha256": "cd628b9569d347cc0f5dbdae7fcc7bbd05b635a23c8c0cd0e7d6d7f0c2726214",
+      "live_records": 1,
+      "replay_records": 1
+    },
+    {
+      "check": "downstream_records:behaviour/observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/behaviour/observations.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/behaviour/observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "9a1d8c073e291433bef55335a90131d0846aab76a0b1086059bb06f6fc2e8da1",
+      "replay_sha256": "9a1d8c073e291433bef55335a90131d0846aab76a0b1086059bb06f6fc2e8da1",
+      "live_records": 2,
+      "replay_records": 2
+    },
+    {
+      "check": "downstream_records:behaviour/review.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/behaviour/review.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/behaviour/review.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "a81e3a4c40228253bb8111c5a36fbfed0d2f6e0cd708dc051a0a8f49d108ac48",
+      "replay_sha256": "a81e3a4c40228253bb8111c5a36fbfed0d2f6e0cd708dc051a0a8f49d108ac48",
+      "live_records": 1,
+      "replay_records": 1
+    },
+    {
+      "check": "downstream_metrics:chemistry",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/chemistry/metrics.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/chemistry/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "5f2f0a44b458929bd7d2a9aae4e427c434097f943cfa90942e942f2deda69c05",
+      "replay_sha256": "5f2f0a44b458929bd7d2a9aae4e427c434097f943cfa90942e942f2deda69c05",
+      "live_scientific_hash": "e9f255ddf83bab1bb9297f2a303a3f4019dd108739598208c262267ed0ba81b7",
+      "replay_scientific_hash": "e9f255ddf83bab1bb9297f2a303a3f4019dd108739598208c262267ed0ba81b7",
+      "live_scientific_metrics": {
+        "input_hash": "55ccaf9f4c3d697cd7cbc125be1e6a0037553fe3f135edf041340971485e6780",
+        "accepted": 2964,
+        "review": 0,
+        "unique_occurrences": 511,
+        "unique_compounds": 417,
+        "genera_with_chemistry": 1,
+        "status": "completed",
+        "blocked_reason": null,
+        "export_records_scanned": 6467819,
+        "candidate_export_records": 5563,
+        "transform_review": 2599,
+        "requested_genera": 1,
+        "conflict_genera_with_chemistry": 0,
+        "eligible_genera_with_chemistry": 1
+      },
+      "replay_scientific_metrics": {
+        "input_hash": "55ccaf9f4c3d697cd7cbc125be1e6a0037553fe3f135edf041340971485e6780",
+        "accepted": 2964,
+        "review": 0,
+        "unique_occurrences": 511,
+        "unique_compounds": 417,
+        "genera_with_chemistry": 1,
+        "status": "completed",
+        "blocked_reason": null,
+        "export_records_scanned": 6467819,
+        "candidate_export_records": 5563,
+        "transform_review": 2599,
+        "requested_genera": 1,
+        "conflict_genera_with_chemistry": 0,
+        "eligible_genera_with_chemistry": 1
+      }
+    },
+    {
+      "check": "downstream_records:chemistry/genus_coverage.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/chemistry/genus_coverage.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/chemistry/genus_coverage.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "0f57de04b5ca172f3090c90c557bad106dd515d882b02aa38d9a2f49e5187683",
+      "replay_sha256": "0f57de04b5ca172f3090c90c557bad106dd515d882b02aa38d9a2f49e5187683",
+      "live_records": 1,
+      "replay_records": 1
+    },
+    {
+      "check": "downstream_records:chemistry/occurrences.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/chemistry/occurrences.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/chemistry/occurrences.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "174929ff4b191bf3d8c4afd3af333f93e24fd1917c8aa12cc783e8f9466029be",
+      "replay_sha256": "174929ff4b191bf3d8c4afd3af333f93e24fd1917c8aa12cc783e8f9466029be",
+      "live_records": 2964,
+      "replay_records": 2964
+    },
+    {
+      "check": "downstream_records:chemistry/review.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/chemistry/review.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/chemistry/review.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_metrics:bioactivity",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/bioactivity/metrics.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/bioactivity/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "8b903ae5000bb8b39246b3693da1817e687fd9d8a1af606454834e4eef023f0b",
+      "replay_sha256": "8b903ae5000bb8b39246b3693da1817e687fd9d8a1af606454834e4eef023f0b",
+      "live_scientific_hash": "c0a43cab765492f8e3981c4854c4b61a927eb76669a537d22be0d8c9f5e49e76",
+      "replay_scientific_hash": "c0a43cab765492f8e3981c4854c4b61a927eb76669a537d22be0d8c9f5e49e76",
+      "live_scientific_metrics": {
+        "status": "complete",
+        "blocked_reason": null,
+        "incomplete_reason": null,
+        "compounds": 417,
+        "matched_compounds": 69,
+        "active": 0,
+        "inactive": 1,
+        "unknown": 416,
+        "failed_compounds": 0,
+        "retrieved_measurements": 1030,
+        "classified_measurements": 1,
+        "discordant_compounds": 0,
+        "unique_assays_with_classified_measurements": 1,
+        "database_status": {
+          "activities": 24527044,
+          "chembl_db_version": "ChEMBL_37",
+          "chembl_release_date": "2026-05-01",
+          "compound_records": 3824604,
+          "disinct_compounds": 2921148,
+          "publications": 101100,
+          "status": "UP",
+          "targets": 18552
+        },
+        "cached_requests": 39,
+        "selected_compounds": 417,
+        "selected_occurrences": 2964,
+        "eligible_behaviour_genera": [
+          "Asclepias"
+        ],
+        "excluded_occurrences": 0,
+        "selection_rule": "Semantically retained direct directional genera before bioactivity.",
+        "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+        "query_count": 39,
+        "classified_compounds": 1,
+        "genera_with_classified_compounds": 1,
+        "classification_denominator": "active_and_inactive_with_successful_retrieval",
+        "coverage_complete": true
+      },
+      "replay_scientific_metrics": {
+        "status": "complete",
+        "blocked_reason": null,
+        "incomplete_reason": null,
+        "compounds": 417,
+        "matched_compounds": 69,
+        "active": 0,
+        "inactive": 1,
+        "unknown": 416,
+        "failed_compounds": 0,
+        "retrieved_measurements": 1030,
+        "classified_measurements": 1,
+        "discordant_compounds": 0,
+        "unique_assays_with_classified_measurements": 1,
+        "database_status": {
+          "activities": 24527044,
+          "chembl_db_version": "ChEMBL_37",
+          "chembl_release_date": "2026-05-01",
+          "compound_records": 3824604,
+          "disinct_compounds": 2921148,
+          "publications": 101100,
+          "status": "UP",
+          "targets": 18552
+        },
+        "cached_requests": 39,
+        "selected_compounds": 417,
+        "selected_occurrences": 2964,
+        "eligible_behaviour_genera": [
+          "Asclepias"
+        ],
+        "excluded_occurrences": 0,
+        "selection_rule": "Semantically retained direct directional genera before bioactivity.",
+        "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+        "query_count": 39,
+        "classified_compounds": 1,
+        "genera_with_classified_compounds": 1,
+        "classification_denominator": "active_and_inactive_with_successful_retrieval",
+        "coverage_complete": true
+      }
+    },
+    {
+      "check": "downstream_records:bioactivity/eligible_assays.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/bioactivity/eligible_assays.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/bioactivity/eligible_assays.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "6e22d725c7e013b6f2481155af3e5773907086c57166ce5cb90f9d60448d920a",
+      "replay_sha256": "6e22d725c7e013b6f2481155af3e5773907086c57166ce5cb90f9d60448d920a",
+      "live_records": 16322,
+      "replay_records": 16322
+    },
+    {
+      "check": "downstream_records:bioactivity/labels.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/bioactivity/labels.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/bioactivity/labels.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "0b3e3a8d84e8c8c39e2fed408de22e325739e2ec18e4ab077e7c682f81f503c0",
+      "replay_sha256": "0b3e3a8d84e8c8c39e2fed408de22e325739e2ec18e4ab077e7c682f81f503c0",
+      "live_records": 417,
+      "replay_records": 417
+    },
+    {
+      "check": "downstream_records:bioactivity/measurements.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/bioactivity/measurements.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/bioactivity/measurements.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "3f2c5782d3bab975446cdefccbdf0cbeaa644471c3b0c183d7e459b3c79cfd8d",
+      "replay_sha256": "3f2c5782d3bab975446cdefccbdf0cbeaa644471c3b0c183d7e459b3c79cfd8d",
+      "live_records": 1030,
+      "replay_records": 1030
+    },
+    {
+      "check": "downstream_records:bioactivity/retrieval_status.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/bioactivity/retrieval_status.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/bioactivity/retrieval_status.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "d4b6ff89658ab4676ff7616f4034c584bde4995f7dce38a90f8a0ef8425ac015",
+      "replay_sha256": "d4b6ff89658ab4676ff7616f4034c584bde4995f7dce38a90f8a0ef8425ac015",
+      "live_records": 417,
+      "replay_records": 417
+    },
+    {
+      "check": "downstream_metrics:assay_scope",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/assay_scope/metrics.json",
+      "replay_path": "data/interim/systems/monarch/offline_replay/assay_scope/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "71084fef604c65692f461ad24e1a493d2a904207a48fdce2c1d60d3df584b9c0",
+      "replay_sha256": "fd390f278f0e35b18029a84a58d644fbe65f3bb1e11efd28fb797da9b4b36650",
+      "live_scientific_hash": "9bf5f382966865c99aaf72ffa3fc0d37cf93e4c6d08a75830154c6f332f351b9",
+      "replay_scientific_hash": "9bf5f382966865c99aaf72ffa3fc0d37cf93e4c6d08a75830154c6f332f351b9",
+      "live_scientific_metrics": {
+        "system": "monarch",
+        "status": "complete",
+        "blocked_reason": null,
+        "primary_fungal_assays": 16322,
+        "primary_assays_by_organism": {
+          "Candida albicans": 11912,
+          "Cryptococcus neoformans": 2038,
+          "Aspergillus fumigatus": 2372
+        },
+        "parasite_organism": "Ophryocystis elektroscirrha",
+        "parasite_assays_all_types": 0,
+        "primary_assay_type": "F",
+        "parasite_assay_type_filter": null,
+        "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+        "parasite_absent_from_complete_inventory": true,
+        "zero_assays_interpretation": "Database assay coverage only; inactivity is unmeasured.",
+        "query_count": 22,
+        "errors": {}
+      },
+      "replay_scientific_metrics": {
+        "system": "monarch",
+        "status": "complete",
+        "blocked_reason": null,
+        "primary_fungal_assays": 16322,
+        "primary_assays_by_organism": {
+          "Candida albicans": 11912,
+          "Cryptococcus neoformans": 2038,
+          "Aspergillus fumigatus": 2372
+        },
+        "parasite_organism": "Ophryocystis elektroscirrha",
+        "parasite_assays_all_types": 0,
+        "primary_assay_type": "F",
+        "parasite_assay_type_filter": null,
+        "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+        "parasite_absent_from_complete_inventory": true,
+        "zero_assays_interpretation": "Database assay coverage only; inactivity is unmeasured.",
+        "query_count": 22,
+        "errors": {}
+      }
+    },
+    {
+      "check": "downstream_records:assay_scope/parasite_assays.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/assay_scope/parasite_assays.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/assay_scope/parasite_assays.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:assay_scope/primary_fungal_assays.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/monarch/assay_scope/primary_fungal_assays.jsonl",
+      "replay_path": "data/interim/systems/monarch/offline_replay/assay_scope/primary_fungal_assays.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "6e22d725c7e013b6f2481155af3e5773907086c57166ce5cb90f9d60448d920a",
+      "replay_sha256": "6e22d725c7e013b6f2481155af3e5773907086c57166ce5cb90f9d60448d920a",
+      "live_records": 16322,
+      "replay_records": 16322
+    },
+    {
+      "check": "frozen_primary_file",
+      "status": "passed",
+      "path": "docs/analysis_plan.md",
+      "commit": "98b5e09",
+      "expected_sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d"
+    },
+    {
+      "check": "frozen_primary_file",
+      "status": "passed",
+      "path": "config/analysis.json",
+      "commit": "98b5e09",
+      "expected_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9"
+    },
+    {
+      "check": "primary_recorded_hashes_available",
+      "status": "passed",
+      "inputs": 28
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "config/pilot_screening.json",
+      "expected_sha256": "93ed535fd4ffdc39564372d3e56de9826c4b167a06a141c1ed8a3c9e8aa58643",
+      "sha256": "93ed535fd4ffdc39564372d3e56de9826c4b167a06a141c1ed8a3c9e8aa58643"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/corpus/manifest.jsonl",
+      "expected_sha256": "9eefbbe489358f3bc8105a590043d78dc28fd15cb7acb6ca042923c3175fc065",
+      "sha256": "9eefbbe489358f3bc8105a590043d78dc28fd15cb7acb6ca042923c3175fc065"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/corpus_targeted_saverschek/manifest.jsonl",
+      "expected_sha256": "1e7dec315c7f2f0428644a06419a9864ec8abe7f5b06cf97677dd7293f174767",
+      "sha256": "1e7dec315c7f2f0428644a06419a9864ec8abe7f5b06cf97677dd7293f174767"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_gemini/metrics.json",
+      "expected_sha256": "6e06622a83470945516cc3539a50dbe32228db6e2225ade5be3da383267b6d34",
+      "sha256": "6e06622a83470945516cc3539a50dbe32228db6e2225ade5be3da383267b6d34"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_gemini/semantic_review_observations.jsonl",
+      "expected_sha256": "80d80534d1bf7cb69dacf478bd2efc4b98ed15e45fa3c8d641a6662f14b2d9f0",
+      "sha256": "80d80534d1bf7cb69dacf478bd2efc4b98ed15e45fa3c8d641a6662f14b2d9f0"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_saverschek/metrics.json",
+      "expected_sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871",
+      "sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_saverschek/semantic_review_observations.jsonl",
+      "expected_sha256": "6223434bbc33e193dd0693f24f15b14a1e844b32b4f1c8906c2a0b584ac50a8c",
+      "sha256": "6223434bbc33e193dd0693f24f15b14a1e844b32b4f1c8906c2a0b584ac50a8c"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/pending_evidence_review/corpus/manifest.jsonl",
+      "expected_sha256": "ca43ca3a53b762e13c498256c95b1b329f4107dddb3b6cb16e01ec31c0c6c8ca",
+      "sha256": "ca43ca3a53b762e13c498256c95b1b329f4107dddb3b6cb16e01ec31c0c6c8ca"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/saverschek_audit/taxonomy/review.jsonl",
+      "expected_sha256": "65e4da5beb63cdc27d8b66caaa6a83bccf7c982288ce8c7d219a115b0718997a",
+      "sha256": "65e4da5beb63cdc27d8b66caaa6a83bccf7c982288ce8c7d219a115b0718997a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/taxonomy_pilot/observations.jsonl",
+      "expected_sha256": "40bccd963248ff6f761cbcdc9f09f0d9e5ad7175b199e806ff4ca9cd51a853de",
+      "sha256": "40bccd963248ff6f761cbcdc9f09f0d9e5ad7175b199e806ff4ca9cd51a853de"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/taxonomy_recovered/observations.jsonl",
+      "expected_sha256": "afb6211a90ee0fa9de5e56b18b95375632d6ef42ee8c8246e8f316d7b2fad33a",
+      "sha256": "afb6211a90ee0fa9de5e56b18b95375632d6ef42ee8c8246e8f316d7b2fad33a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/taxonomy_saverschek/observations.jsonl",
+      "expected_sha256": "54d238e722285c0be6f573bea069e9ae96253c96a69c6f5063a9509829b0723a",
+      "sha256": "54d238e722285c0be6f573bea069e9ae96253c96a69c6f5063a9509829b0723a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/all_genera.jsonl",
+      "expected_sha256": "cab7d38ea4153dd5fbf0d9ddea6954d73e135d04ea4b85eb2a0b82eaf7d4a4bd",
+      "sha256": "cab7d38ea4153dd5fbf0d9ddea6954d73e135d04ea4b85eb2a0b82eaf7d4a4bd"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/conflicts.jsonl",
+      "expected_sha256": "413500ffc5a549b4dc75ca25ea9a6396ff4f53b7b99a98a914039bd50e51ff2e",
+      "sha256": "413500ffc5a549b4dc75ca25ea9a6396ff4f53b7b99a98a914039bd50e51ff2e"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/genera.jsonl",
+      "expected_sha256": "e89c8c4a82ee96ca3a5770a3701f0610b60a69d248fb85eb23ede536d86c901a",
+      "sha256": "e89c8c4a82ee96ca3a5770a3701f0610b60a69d248fb85eb23ede536d86c901a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/metrics.json",
+      "expected_sha256": "4002be6c0a7f250f9ca4733f4d515aaac16a13901558ce572bf7041e189eadbf",
+      "sha256": "4002be6c0a7f250f9ca4733f4d515aaac16a13901558ce572bf7041e189eadbf"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/observations.jsonl",
+      "expected_sha256": "53cbc79b3658d574e5769b834d37b8f690e19628b0d9cdcefdf5f6efa927a2a5",
+      "sha256": "53cbc79b3658d574e5769b834d37b8f690e19628b0d9cdcefdf5f6efa927a2a5"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/run_manifest.json",
+      "expected_sha256": "d17d8a0c2fd674ba79776d05831a511d6e8f32baee6e11bdc755a87ac354e5e8",
+      "sha256": "d17d8a0c2fd674ba79776d05831a511d6e8f32baee6e11bdc755a87ac354e5e8"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/bioactivity/labels.jsonl",
+      "expected_sha256": "95c7aac2c46bda48cbb112299aefe7c84f869fa567374ca6944234ce73c59b4d",
+      "sha256": "95c7aac2c46bda48cbb112299aefe7c84f869fa567374ca6944234ce73c59b4d"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/bioactivity/metrics.json",
+      "expected_sha256": "143d16707ea5f75bd88d9b388c890be6c31b74f0b925c111a95b02065d59e7d9",
+      "sha256": "143d16707ea5f75bd88d9b388c890be6c31b74f0b925c111a95b02065d59e7d9"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/bioactivity/run_manifest.json",
+      "expected_sha256": "442de21eb904b4674442266313e93747926096eb15f70ed90e11459ec937e7d5",
+      "sha256": "442de21eb904b4674442266313e93747926096eb15f70ed90e11459ec937e7d5"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/chemistry/metrics.json",
+      "expected_sha256": "db3081b0290d282a198ae8327c5b6843659b3520dcf2fdd16b7891475d42c650",
+      "sha256": "db3081b0290d282a198ae8327c5b6843659b3520dcf2fdd16b7891475d42c650"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/chemistry/occurrences.jsonl",
+      "expected_sha256": "5b22d4cd15a6ce08f880bc079ec6ada48f53c4991155847f2bf851699c5cc400",
+      "sha256": "5b22d4cd15a6ce08f880bc079ec6ada48f53c4991155847f2bf851699c5cc400"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/chemistry/run_manifest.json",
+      "expected_sha256": "db87cb865a102058959cd4464132862faccd1862ba8603f25c6c7604c313438f",
+      "sha256": "db87cb865a102058959cd4464132862faccd1862ba8603f25c6c7604c313438f"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "results/primary/summary.json",
+      "expected_sha256": "bb4dc17b69f5ab53ef7c38aa074b2716ae19e0cf7f25874d72721f270eb983c2",
+      "sha256": "bb4dc17b69f5ab53ef7c38aa074b2716ae19e0cf7f25874d72721f270eb983c2"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "results/saverschek_audit/summary.json",
+      "expected_sha256": "b029924d72026f5629a271f647e7aa4e11aa5330b77b9ab072a4aa30bc005ded",
+      "sha256": "b029924d72026f5629a271f647e7aa4e11aa5330b77b9ab072a4aa30bc005ded"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "docs/analysis_plan.md",
+      "expected_sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "config/analysis.json",
+      "expected_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9"
+    }
+  ]
+}

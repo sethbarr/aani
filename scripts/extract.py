@@ -23,6 +23,9 @@ def main() -> None:
     parser.add_argument("--screening", type=Path)
     parser.add_argument("--limit-papers", type=int)
     parser.add_argument("--provider", choices=("openai", "gemini"))
+    parser.add_argument("--grounding", choices=("single_quote_v1", "multispan_v1", "multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"),
+                        default="single_quote_v1")
+    parser.add_argument("--ant-identity-overrides", type=Path)
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--export", type=Path)
     mode.add_argument("--responses", type=Path)
@@ -33,9 +36,12 @@ def main() -> None:
     args.provider = args.provider or os.environ.get("EXTRACTION_PROVIDER", "openai")
     if args.provider not in {"openai", "gemini"}:
         parser.error("EXTRACTION_PROVIDER must be openai or gemini")
-    args.output = args.output or Path(
+    default_output = Path(
         "data/interim/extraction_gemini" if args.provider == "gemini" else "data/interim/extraction"
     )
+    if args.grounding != "single_quote_v1":
+        default_output = default_output.with_name(f"{default_output.name}_{args.grounding}")
+    args.output = args.output or default_output
     if args.model == "from_environment":
         setting = "GEMINI_MODEL" if args.provider == "gemini" else "OPENAI_MODEL"
         args.model = os.environ.get(setting) or (
@@ -43,7 +49,26 @@ def main() -> None:
         )
         if not args.model:
             parser.error(f"Set {setting} in .env or supply --model MODEL_NAME")
-    jobs = make_jobs(args.corpus, screening=args.screening, limit_papers=args.limit_papers)
+    overrides = None
+    if args.ant_identity_overrides is not None:
+        overrides = read_json(args.ant_identity_overrides)
+        if not isinstance(overrides, dict) or not all(isinstance(v, dict) for v in overrides.values()):
+            parser.error("Ant identity overrides must map source IDs to resolution objects")
+        if args.grounding not in {"multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+            parser.error("Ant identity overrides require --grounding multispan_v2")
+    jobs = make_jobs(args.corpus, screening=args.screening, limit_papers=args.limit_papers,
+                     grounding_version=args.grounding, ant_identity_overrides=overrides)
+    if args.grounding in {"multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+        destination = args.export if args.export else args.output
+        write_json(destination / "source_ant_identities.json", {
+            job["source_id"]: job["source_ant_identity"] for job in jobs
+        })
+        if args.grounding in {"multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+            write_json(destination / "glyph_policy.json", jobs[0]["glyph_policy"] if jobs else {})
+        if args.grounding in {"multispan_v4", "multispan_v5", "multispan_v6"}:
+            write_json(destination / "glyph_source_hashes.json", {
+                job["input_hash"]: job["glyph_source_hashes"] for job in jobs
+            })
     if args.export:
         export_jobs(jobs, args.export)
         print(json.dumps({"jobs": len(jobs), "destination": str(args.export)}))
@@ -61,7 +86,21 @@ def main() -> None:
             "screening_hash": digest(read_json(args.screening)) if args.screening else None,
             "limit_papers": args.limit_papers,
             "jobs": len(jobs),
+            "grounding_version": args.grounding,
             "input_hashes": [job["input_hash"] for job in jobs],
+            **({"ant_identity_overrides_path": str(args.ant_identity_overrides)
+                if args.ant_identity_overrides else None,
+                "ant_identity_overrides_hash": digest(overrides) if overrides is not None else None,
+                "source_ant_identities": {
+                    job["source_id"]: job["source_ant_identity"] for job in jobs
+                }} if args.grounding in {
+                    "multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"
+                } else {}),
+            **({"glyph_policy": jobs[0]["glyph_policy"] if jobs else {}}
+               if args.grounding in {"multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"} else {}),
+            **({"glyph_source_hashes": {
+                job["input_hash"]: job["glyph_source_hashes"] for job in jobs
+            }} if args.grounding in {"multispan_v4", "multispan_v5", "multispan_v6"} else {}),
         },
     )
     cache = CachedHTTP(

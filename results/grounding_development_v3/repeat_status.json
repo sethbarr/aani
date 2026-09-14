@@ -1,0 +1,56 @@
+{
+  "label": "repeat sample",
+  "status": "complete",
+  "blocked_reason": null,
+  "sampled_once": true,
+  "cache": "data/raw/grounding_v3_repeat",
+  "output": "data/interim/extraction_saverschek_multispan_v2_repeat_for_v3",
+  "pooled_with_v3": false,
+  "requests": [
+    {
+      "input_hash": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "request_descriptor_identical": true,
+      "repeat_cache_path": "data/raw/grounding_v3_repeat/http/da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b.json",
+      "original_cache_path": "data/raw/http/da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b.json",
+      "repeat_attempt_count": 1,
+      "repeat_attempt_statuses": [
+        200
+      ],
+      "repeat_response_sha256": "6a3212d3a16bc7aa4de48fbd781de8153a95462f53e75643e6fb19d14e979669",
+      "original_response_sha256": "72b7495897e1dd069e71872bc16ebc777b700ca16062bd788e3a04016d2052d4",
+      "response_bytes_differ": true,
+      "response_id": null
+    },
+    {
+      "input_hash": "760c7967955ef359b90add36a5b38d956a3db6720ceda2300d59a5e7eaa8036f",
+      "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+      "request_descriptor_identical": true,
+      "repeat_cache_path": "data/raw/grounding_v3_repeat/http/8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76.json",
+      "original_cache_path": "data/raw/http/8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76.json",
+      "repeat_attempt_count": 1,
+      "repeat_attempt_statuses": [
+        200
+      ],
+      "repeat_response_sha256": "8f70e20e512d9fb81a1cff3cf8cc2ab0037b0b5ff614028a7742cf6e2c65865e",
+      "original_response_sha256": "39305828f84f3b80408544ba1bd5860e9bac9a2a976e1f3286963303f562429d",
+      "response_bytes_differ": true,
+      "response_id": null
+    },
+    {
+      "input_hash": "76a001e2f6434c4094c9d607e0cf68775de9b5a4cd417ee48bd1fe803e5d3d77",
+      "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+      "request_descriptor_identical": true,
+      "repeat_cache_path": "data/raw/grounding_v3_repeat/http/bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc.json",
+      "original_cache_path": "data/raw/http/bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc.json",
+      "repeat_attempt_count": 1,
+      "repeat_attempt_statuses": [
+        200
+      ],
+      "repeat_response_sha256": "7841c8f250632ed99d6ed3cedbb248d59af231ffe6c98dc03623bbaae6323a35",
+      "original_response_sha256": "272711384331c63a9e7d185a737861cc15072e08a136c3ebf1b352b4ccc69c01",
+      "response_bytes_differ": true,
+      "response_id": null
+    }
+  ]
+}

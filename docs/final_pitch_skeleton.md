@@ -1,0 +1,6 @@
+- Problem: [Assay coverage gap] — 24/2,198 structures (1.1%); [primary funnel](../results/funnel.json).
+- Why now: [Enabling data and models] — LOTUS, ChEMBL, GBIF and structured outputs; [submission](../results/business_case/judges_submission_v2.md#1-short-writeup).
+- What aani does: [Traceable research pipeline] — paper → observation → name → structure → assay; [pipeline report](../results/pipeline_report.md).
+- What it measured: [Frozen feasibility test] — seven joined genera against gates of 25 total and two per direction; [primary status](../results/metrics.json).
+- What it found: [Coverage, reader and transfer limits] — PRIMARY 6/6 on held-out sample 3, 2/6 on sample 4; [reader evidence](../results/business_case/judges_submission_v2.md#3-demonstration-links), [systems](../results/systems/summary.md).
+- What's next: [Paid deployment measuring research time saved] — [next milestone](../results/business_case/judges_submission_v2.md#1-short-writeup).

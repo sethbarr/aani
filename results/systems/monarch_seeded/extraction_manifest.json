@@ -1,0 +1,308 @@
+{
+  "system": "monarch_seeded",
+  "adapter_system": "monarch",
+  "offline": false,
+  "started_at": "2026-09-13T19:43:26.008722+00:00",
+  "deadline": "2026-09-13T21:33:36.047810+00:00",
+  "deadline_source": "targeted_retrieval_started_at",
+  "deadline_scope": "Original targeted retrieval start; copied discovery dates are excluded.",
+  "model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "grounding_version": "single_quote_v1",
+  "maximum_characters": 24000,
+  "minimum_confidence": 0.8,
+  "approval_path": "/Users/seth/Documents/ChatGPT/hackathon/results/systems/monarch_seeded/payload_approval.json",
+  "approval_sha256": "07002c1c425e09cb533577e7e4eb5bafa639d939b13b65a487c7b71824e2da0d",
+  "approved_input_hashes": [
+    "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+    "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+    "d439161df97c68aca43c760469d35e5cdb4544a634685817c38d3c25f02546fc",
+    "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+    "f3d19f66cdd5e6e6c73791b7190c64752465d494971ef1c64ffa874c2c1605b5",
+    "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+    "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+    "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+    "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+    "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+    "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+    "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+  ],
+  "jobs": 12,
+  "complete_source_selection_verified": true,
+  "compatibility": {
+    "compatible": true,
+    "checks": {
+      "model_matches_original": true,
+      "provider_matches_original": true,
+      "config_sha256_matches_original": true,
+      "grounding_matches_original": true,
+      "regenerated_original_input_hashes_match": true,
+      "prompt_matches_all_original_payloads": true,
+      "schema_matches_all_original_payloads": true,
+      "original_payload_hashes_valid": true
+    },
+    "model": "gemini-3.8-flash",
+    "provider": "gemini",
+    "grounding_version": "single_quote_v1",
+    "maximum_characters": 24000,
+    "config_sha256": "438163ba972a5c405c3cc6dfd257bb74aaa3a643f27a6441184ef1347e8809dd",
+    "prompt_digest": "02f816bd104896fe8096a5181309fc84bb31bcff7673a80fba619162eb4467a8",
+    "schema_digest": "6bf3159e0f01541a983ebabe7b07af31d8c1fe6ec5c6db023db84b8fa801eec9",
+    "adapter_module_sha256": "bcf4e938e4271fb8bc506bbe4e7380cb1aa93abfee02d2e38425e0293543ed90",
+    "adapter_file_comparison": "The original module-file hash was unrecorded. Original complete payloads are regenerated and compared by hash; prompt and schema are compared directly.",
+    "original_payload_index_sha256": "cfa6ebac2669d3a1c8b38c25d6253967bd118f75ad845733c88d07b778369944",
+    "original_payload_count": 10
+  },
+  "cache_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction",
+  "envelope_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes",
+  "approved_response_directory": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/extraction/approved_responses/523eba3e8c4d4b9e217e1118c8f0fdd56f6f9dbdd021977c05bb5aebc4ba0b5b",
+  "assay_config_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+  "analysis_performed": false,
+  "status": "complete",
+  "completed_at": "2026-09-13T19:43:37.253785+00:00",
+  "metrics": {
+    "papers": 6,
+    "jobs": 12,
+    "candidate_records": 13,
+    "grounded_records": 9,
+    "retained_records": 9,
+    "retained_records_interpretation": "complete_source_grounded_records_before_semantic_review",
+    "complete_papers": 6,
+    "incomplete_papers": 0,
+    "complete_jobs": 12,
+    "rejected_candidates": 4,
+    "rejection_rate": 0.3076923076923077,
+    "response_failures": 0,
+    "blocked_reason": null,
+    "unattempted_jobs": 0,
+    "status": "complete",
+    "response_acquisition_failures": 0,
+    "reused_discovery_jobs": 7,
+    "seed_jobs_with_responses": 5,
+    "persisted_new_response_attempts": 5,
+    "request_count_caveat": "Transport failures can occur before an HTTP response is persisted."
+  },
+  "response_acquisition": [
+    {
+      "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+      "source_id": "LEFEVRE2010",
+      "cohort": "targeted_seed",
+      "status": "complete",
+      "request_hash": "63eb0a8af65e02e533660d5c65c735a1030819a419078ddf1f9a0b3fce3ea092",
+      "origin": "seed_provider_response",
+      "envelope_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330.json",
+      "envelope_sha256": "733360390aaf3b74ab5d2f30f3fad587b87e8d251956fb1b11305bbf67f15423",
+      "new_model_request_function_called": true,
+      "new_persisted_response_attempts": 1,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330.json"
+    },
+    {
+      "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+      "source_id": "LEFEVRE2010",
+      "cohort": "targeted_seed",
+      "status": "complete",
+      "request_hash": "91bd7ca6fd42271bd995b4c4ec422212f1bfb99fc9f017bb457789cde32760a4",
+      "origin": "seed_provider_response",
+      "envelope_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108.json",
+      "envelope_sha256": "0a3e5c2f66a36ea30033de366d36faba6029ecc53be38896bb01390dabb13163",
+      "new_model_request_function_called": true,
+      "new_persisted_response_attempts": 1,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108.json"
+    },
+    {
+      "input_hash": "d439161df97c68aca43c760469d35e5cdb4544a634685817c38d3c25f02546fc",
+      "source_id": "LEFEVRE2012",
+      "cohort": "targeted_seed",
+      "status": "complete",
+      "request_hash": "76f20ca5aab4b103b8a035ed2f60f683553fe9ff711518409f367020a8baef05",
+      "origin": "seed_provider_response",
+      "envelope_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/d439161df97c68aca43c760469d35e5cdb4544a634685817c38d3c25f02546fc.json",
+      "envelope_sha256": "40b23a7c0be2b9d42a77fb297b9e1fde859b7e9b9568fe95e6db83916b3a7ee4",
+      "new_model_request_function_called": true,
+      "new_persisted_response_attempts": 1,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/d439161df97c68aca43c760469d35e5cdb4544a634685817c38d3c25f02546fc.json"
+    },
+    {
+      "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+      "source_id": "LEFEVRE2012",
+      "cohort": "targeted_seed",
+      "status": "complete",
+      "request_hash": "74b0d3c143f651a7e3d687538db4065c208e3e5ea0c04ba1bf27c7b72a9d5f9a",
+      "origin": "seed_provider_response",
+      "envelope_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe.json",
+      "envelope_sha256": "2fc5677ca7d15e81c74fec89a34f25902ef1083d7950ff17c06bc867309dad89",
+      "new_model_request_function_called": true,
+      "new_persisted_response_attempts": 1,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe.json"
+    },
+    {
+      "input_hash": "f3d19f66cdd5e6e6c73791b7190c64752465d494971ef1c64ffa874c2c1605b5",
+      "source_id": "LEFEVRE2012",
+      "cohort": "targeted_seed",
+      "status": "complete",
+      "request_hash": "e4fc31691fee96dc179ec280e5890c52e9f2942030ba0a5f98bba64ca63cf4a6",
+      "origin": "seed_provider_response",
+      "envelope_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/f3d19f66cdd5e6e6c73791b7190c64752465d494971ef1c64ffa874c2c1605b5.json",
+      "envelope_sha256": "86311a7d5843c0cc6de955c9a86a889c71044b2b93d3682838001f9e4868c06d",
+      "new_model_request_function_called": true,
+      "new_persisted_response_attempts": 1,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/f3d19f66cdd5e6e6c73791b7190c64752465d494971ef1c64ffa874c2c1605b5.json"
+    },
+    {
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "source_id": "PMC12585044",
+      "cohort": "original_discovery",
+      "status": "complete",
+      "request_hash": "c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724",
+      "origin": "original_discovery_response",
+      "envelope_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/extraction/responses/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json",
+        "sha256": "41154b8305f4cc8e598661ce8363496eb1ffdfb315f34d98f9ebb73a1bff0859"
+      },
+      "raw_response_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/cache/http/c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/http/c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724.json",
+        "sha256": "9f25b819648837ebb21024a6f119f43a7336dd138d000caf49f0c0ef45607dd9"
+      },
+      "original_request_hash": "c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724",
+      "new_model_request_function_called": false,
+      "new_persisted_response_attempts": 0,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json"
+    },
+    {
+      "input_hash": "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+      "source_id": "PMC12585044",
+      "cohort": "original_discovery",
+      "status": "complete",
+      "request_hash": "78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051",
+      "origin": "original_discovery_response",
+      "envelope_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/extraction/responses/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json",
+        "sha256": "c3811d593c21c3a1046e7b22116d239630ee34961c6ed24691f11568ce8d0239"
+      },
+      "raw_response_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/cache/http/78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/http/78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051.json",
+        "sha256": "11a1d6679aa9b6a7122d60c9345b333b43a4c95e5c065930726566fa83eac4e4"
+      },
+      "original_request_hash": "78dd5ee7ac6254588cf7a7ce38075799063126ce0d2ea9cbe0a0c498614ad051",
+      "new_model_request_function_called": false,
+      "new_persisted_response_attempts": 0,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json"
+    },
+    {
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+      "source_id": "PMC10370756",
+      "cohort": "original_discovery",
+      "status": "complete",
+      "request_hash": "506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c",
+      "origin": "original_discovery_response",
+      "envelope_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/extraction/responses/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json",
+        "sha256": "3efc7e40aab6846c50bcc0392e44df68d6564505c4744e98dc821c3bf1b63463"
+      },
+      "raw_response_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/cache/http/506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/http/506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c.json",
+        "sha256": "e553290fe5bb9c74260cc1e878bc2cba4e12072e190c38729c441b6ff82cad55"
+      },
+      "original_request_hash": "506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c",
+      "new_model_request_function_called": false,
+      "new_persisted_response_attempts": 0,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json"
+    },
+    {
+      "input_hash": "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+      "source_id": "PMC10370756",
+      "cohort": "original_discovery",
+      "status": "complete",
+      "request_hash": "23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb",
+      "origin": "original_discovery_response",
+      "envelope_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/extraction/responses/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json",
+        "sha256": "762280f36b0d67d001bc7e77f685ee2a43fb5f8ea1ced9541e1014aa36f75719"
+      },
+      "raw_response_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/cache/http/23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/http/23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb.json",
+        "sha256": "19ed8003d1c662aa503a89649ade93831f8eb99a8bca99f11479efaf4bd9623b"
+      },
+      "original_request_hash": "23b5b29682a19cd2d69eab4479899e42e3d8657bd99240bffedbd16f463ff8eb",
+      "new_model_request_function_called": false,
+      "new_persisted_response_attempts": 0,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json"
+    },
+    {
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+      "source_id": "PMC10430791",
+      "cohort": "original_discovery",
+      "status": "complete",
+      "request_hash": "8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6",
+      "origin": "original_discovery_response",
+      "envelope_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/extraction/responses/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json",
+        "sha256": "ae833a4c54a1c44cd26dd889d4e2bcdf130fee15b97f2fd932e9c6ae834132d5"
+      },
+      "raw_response_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/cache/http/8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/http/8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6.json",
+        "sha256": "da89a1d61b2459b25d9e7bec53e0eb4946ec084a6df4bcbb6f91a88f8aa99beb"
+      },
+      "original_request_hash": "8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6",
+      "new_model_request_function_called": false,
+      "new_persisted_response_attempts": 0,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json"
+    },
+    {
+      "input_hash": "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+      "source_id": "PMC9197062",
+      "cohort": "original_discovery",
+      "status": "complete",
+      "request_hash": "8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78",
+      "origin": "original_discovery_response",
+      "envelope_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/extraction/responses/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json",
+        "sha256": "2f9b40ed25e383a6f822501dee20cabb8a15933c1d825267ad40fa4feb63f258"
+      },
+      "raw_response_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/cache/http/8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/http/8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78.json",
+        "sha256": "853e1d79b1085a9cc424a51e1efed1c4e1a5906f497f1a888606a40249883812"
+      },
+      "original_request_hash": "8a11500db6280c52337352074619e6cae49e2962fd135e39f624b3deb6f04d78",
+      "new_model_request_function_called": false,
+      "new_persisted_response_attempts": 0,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json"
+    },
+    {
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc",
+      "source_id": "PMC9197062",
+      "cohort": "original_discovery",
+      "status": "complete",
+      "request_hash": "bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae",
+      "origin": "original_discovery_response",
+      "envelope_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/extraction/responses/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelopes/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json",
+        "sha256": "577615d5be923193de2af2e7ca7cc33457ca5b764021c911f27577d11ed62a38"
+      },
+      "raw_response_copy": {
+        "source_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch/cache/http/bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae.json",
+        "copy_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/http/bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae.json",
+        "sha256": "44fca07d14dc4be0d64e9abfef63d557850e0524345c8fa3730fc6927fdf2582"
+      },
+      "original_request_hash": "bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae",
+      "new_model_request_function_called": false,
+      "new_persisted_response_attempts": 0,
+      "initial_acquisition_provenance_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/extraction/envelope_provenance/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json"
+    }
+  ],
+  "output_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/extraction",
+  "raw_candidates_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/extraction/candidates.jsonl"
+}

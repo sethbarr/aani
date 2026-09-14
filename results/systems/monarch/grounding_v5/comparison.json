@@ -1,0 +1,440 @@
+{
+  "status": "passed",
+  "metrics": {
+    "system": "monarch",
+    "mode": "printable_confusables_v5_on_system_single_quote_v1",
+    "status": "complete",
+    "blocked_reason": null,
+    "offline": true,
+    "model_calls": 0,
+    "network_calls": 0,
+    "jobs_replayed": 10,
+    "candidate_records": 5,
+    "v4_accepted": 5,
+    "v5_accepted": 5,
+    "exact_grounding_routes": 5,
+    "control_glyph_grounding_routes": 0,
+    "printable_confusable_grounding_routes": 0,
+    "newly_accepted_record_ids": [],
+    "lost_record_ids": [],
+    "unchanged_record_ids": [
+      "64c983fe790e8f4d415a34719c7f6d31ceee20715283e6733c1ada12318428e0",
+      "824ea5be5084af89f7f550b4ba011622b19550a306f68bf4bc2b9af4afa67c95",
+      "ded847959937f544e88afe52ef0e1aced69ea24140638afffdd602cf25aee9db",
+      "f2681f96c6d66ee7eb69ad34bc3b2d5c4d88e3a1e55434124acebad3f6371af6",
+      "fd4bc2a165044f99e2b8f13a4c5ce84194125401463c80e0e0f46126ebf2ec9f"
+    ],
+    "direction_changes": []
+  },
+  "byte_comparisons": [
+    {
+      "path": "observations.jsonl",
+      "sha256": "4ae3417683e480e2f31d8ccd00ab1f0981e3ffb8e1392d9701c469f16216d0e2",
+      "identical": true
+    },
+    {
+      "path": "candidate_audit.jsonl",
+      "sha256": "630c34b7d7e3a0a45a20fb01998dea1c8bb5a0aa03392d43105aad4ab7993d28",
+      "identical": true
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "0bce8723d38b0b4c155f67626608461e1d22eac5260247aa2dfa6fe779f22a5f",
+      "identical": true
+    },
+    {
+      "path": "job_status.jsonl",
+      "sha256": "0135354fee06840e5e218eac3575d42566a9fd150e63ad4373e6c42dded89439",
+      "identical": true
+    },
+    {
+      "path": "jobs/2370c92b31bddb6c2014646e9e8cda7068f16ff6cab394a788154d2a66bdbd73.json",
+      "sha256": "0298752596453f129d983211ddbe86ad46910392359ce544eeefc8067346ec28",
+      "identical": true
+    },
+    {
+      "path": "jobs/24aa81538e2681ae2aec7551d5043faab219ffb19e4bf7f0c83807ff8c18a4fd.json",
+      "sha256": "3f89249ed9827cb73b80fafbed7599c8f6e07b8ceed9efa4f8afa7feeb98c835",
+      "identical": true
+    },
+    {
+      "path": "jobs/4eb2e5452fbdfd87804578c4ded55687233fbfceca477bacd80cca1666605279.json",
+      "sha256": "99f939f20c62fe4ea12f3572473a2db35408de5dfbe8b850319e6c7a7776e457",
+      "identical": true
+    },
+    {
+      "path": "jobs/7daea54fc154a00a4d2168030a36825a3f77b69b67effebb0b0efa72e6ff0eaa.json",
+      "sha256": "12ffacaccd48717aa558eb546937e6e6a0d1b0de18e003482500c9c4d0a25dc2",
+      "identical": true
+    },
+    {
+      "path": "jobs/8c1d83769e11918a1f76b7976da1bf8088a43c4286cb0f2fe30815e4cd63deba.json",
+      "sha256": "8c4dabf0db119d2101550cf626128eea606e7f9f41622eeb9c92cad3cc4d72ae",
+      "identical": true
+    },
+    {
+      "path": "jobs/aa036276a4e3c4dda4070087867e34e2cda360ca1ed80497177c8a9dbda826a4.json",
+      "sha256": "074b7ea7d7797a6361e463eed2624c0ed8171f2217d040265e2b99c4cfc926c0",
+      "identical": true
+    },
+    {
+      "path": "jobs/ca05d88a3372c84e7ebb9be8c6e7fd0316862e0b608c607e07622719dea07d69.json",
+      "sha256": "4e21888de66eb08fb410df5781d1163a7288e7f5cf7a9dbf82db1f939731f2b1",
+      "identical": true
+    },
+    {
+      "path": "jobs/cff46f82905964f2b8459d7816ddcc205062ebcd22382a946d8f0b4f6a8c11c1.json",
+      "sha256": "77eb98130b3d5337ac20ef2ecbb3ed15e3dc44dacd49308407b9f6b2815ae72e",
+      "identical": true
+    },
+    {
+      "path": "jobs/f7632de8517c491ababd19dfb7a4d6ccbceca1413b0f5f4afb400b22820971ce.json",
+      "sha256": "2d36ef637a2771f4b25ecc0bcb284b9e852271379401b0c354b28333c2383bac",
+      "identical": true
+    },
+    {
+      "path": "jobs/faaefe8fdd72cf83ffba0a2e621e49a625d9d2ba57a55ba61e0530454c784588.json",
+      "sha256": "1e1763a39fd151d23162b6a128c8ca2b6845ec04e8bd5a3466e37db817e96f29",
+      "identical": true
+    }
+  ],
+  "protected_inputs": [
+    {
+      "path": "config/analysis.json",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "unchanged": true
+    },
+    {
+      "path": "config/grounding_glyphs_v4.json",
+      "sha256": "0951f604d10acd1f9fdea61c13e93cbaa86cda5986dd385c0395a8cd62e77061",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/failures.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/job_status.jsonl",
+      "sha256": "054cd0cc5a5f1ac95f139a75548e9bfa3d930eaf6066dfc2e2f046396252a3c9",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/metrics.json",
+      "sha256": "bbf669b36e81ae3a9330e8429edce60912c068c246ad4e434fcd2f488fcfed94",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/observations.jsonl",
+      "sha256": "dcbf436c4886504a0403883389383420ec99fa8f889506c8c8e64f860ed3875b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/observations_progress.jsonl",
+      "sha256": "dcbf436c4886504a0403883389383420ec99fa8f889506c8c8e64f860ed3875b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/partial_observations.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/rejections.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json",
+      "sha256": "577615d5be923193de2af2e7ca7cc33457ca5b764021c911f27577d11ed62a38",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json",
+      "sha256": "2f9b40ed25e383a6f822501dee20cabb8a15933c1d825267ad40fa4feb63f258",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json",
+      "sha256": "762280f36b0d67d001bc7e77f685ee2a43fb5f8ea1ced9541e1014aa36f75719",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json",
+      "sha256": "3efc7e40aab6846c50bcc0392e44df68d6564505c4744e98dc821c3bf1b63463",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json",
+      "sha256": "c3811d593c21c3a1046e7b22116d239630ee34961c6ed24691f11568ce8d0239",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json",
+      "sha256": "41154b8305f4cc8e598661ce8363496eb1ffdfb315f34d98f9ebb73a1bff0859",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d.json",
+      "sha256": "394d437df042ba7ea5fd8289536c3655c0f1dd2f3bd22ab1c9f0e67be932aba0",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4.json",
+      "sha256": "fe4fc52662fc7346af076ef218fc97c59057465dcdbb32ce95bf2e02cd6bb713",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json",
+      "sha256": "ae833a4c54a1c44cd26dd889d4e2bcdf130fee15b97f2fd932e9c6ae834132d5",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/responses/eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489.json",
+      "sha256": "b0e402737c03bd0b172ffd0585b98f73fb12e8b54726af75b34d3ebd531ce233",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/run_manifest.json",
+      "sha256": "56bd9d17513f19019c58283dde75764c18eeb136e0d2f9e8ad426496c485a633",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction/semantic_review.json",
+      "sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc.json",
+      "sha256": "0ac616164bb31f294ae48b4e9b0f285cc8ce6f3398b2a78fd4ea105f41641225",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86.json",
+      "sha256": "134a3a1c0b0b033eca4f7157236cf7936d794ad9f93e3c94ec58bba9c3c4c87a",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a.json",
+      "sha256": "a456b59e8379c961d48db8ea0055c16016033a5ac90260c21d74e25192636f0c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa.json",
+      "sha256": "2045f9f2d62dd2b594d09a1ee6294971ade596e47c702349b0930d4465fd9ab4",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594.json",
+      "sha256": "588ae6b9957e662830c154f0838d2cc9ab034beee920314cbfaf993ec9917d0f",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585.json",
+      "sha256": "76fe818d60c01abc086c9dac0438048c075b8bbda2354b1e006bc3b36c8896ef",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/7e5b579ea9ff0bc9d264d906da51605b23a15cc201367e22715e1bcf6c69141d.json",
+      "sha256": "558c9346961d5f221c9bf6262368573f1de8efbf5176ec86af4eb8f1cb89f6bf",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/b0efd0b203ce9c39a55b38efdb93fead9a11aa8c42360b978062bddaca734cc4.json",
+      "sha256": "2029062f3fabf86f6caa3bee6e93f8b0b9e102dd524c8bebdcc2f83515779e7e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455.json",
+      "sha256": "3c06f86dff10852abad7a4dd25460d6d48edbfdaf201f82202f8bdcba0f5c324",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/eeddcad406c0ed297b5403c45fd6552f2687582569cdeb3b97e164a444113489.json",
+      "sha256": "967c883b26629502698d41ccf5fb5350dae381bc75d607a3844e3f464fba05a0",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/extraction_payloads/index.json",
+      "sha256": "cfa6ebac2669d3a1c8b38c25d6253967bd118f75ad845733c88d07b778369944",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/candidate_audit.jsonl",
+      "sha256": "06b8a54c8c4f181e6f255b37e2b7ccfb16a21d368cbc14c2818a16376dcec70e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/job_status.jsonl",
+      "sha256": "7c7a02a4f04bd934456acc0fba85f7338bd87e1f0686d14b46808be01c85d2ad",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/194c2d310371a152a0c05051cbf283fae4e5f4b7ae646c2ac9e87fb970c1ab5b.json",
+      "sha256": "e5700741b21896b8e284ee4008259b2a74b06db98970c79307550cd38a6433b1",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/5479348f53aabc0db6a5f2b656ac27a1db4b5fd306fb0e1e5b0cc88f1b5d0e2d.json",
+      "sha256": "ec1c440a8a67a04432810b569481ac7aad7ea7555994e06668ca00f38372c5e3",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/67e266b486fafa1e2aa7563bd6f1ef51ef4625435a5989c8ec834a5d78fa9a2a.json",
+      "sha256": "710ac673b6a53f7dca431b8a7d1a1d114bb42c23178edfa4191300f2020eb566",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/6a4f97137c8d0734a4dd2cb55cc01d0348d16b6130b187aadb72ee81106dd2e3.json",
+      "sha256": "07a20d031c1e646fc1a52281c1094bba57080c290e704a3acae62616388e156b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/9094248a719ba7aea33173edc8a2b0275bad5a8eea219d4500dfd2a983b7d48e.json",
+      "sha256": "165f988b0db8f315c15a44ce81dd6208101e0f469073c57564d4d5cbf9468f5b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/9c26c546fc3bd5c45cb4db480dbae6c3e0253ce8dfc33c4e9af27626fe8a9857.json",
+      "sha256": "ecedd8ec7e93534b32286517ec604b1f5161f1d3359d661e2f827e607a273856",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/b1acc21693c05eb482b2a171e8509a255110d583c12b22f7c9f9e1b2dab16702.json",
+      "sha256": "cb067cacf7054b6a1b51aa098d7a724f7391fbf4834cabffeebf77acc1f35dd9",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/b923c8cd3dc3e15dd38bac1d3c99119841ec53ebecab30d60fb5494e273d5802.json",
+      "sha256": "d76053791074b17b2a566b06231f22ae6ba8622e8e696431e9dcb65e8609d31a",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/c7b5e3c11904cc7c89d6238e51277b75e79a91931b1ffb4a331e52e96ef2786d.json",
+      "sha256": "76ff372ec078f3d05e8e6f12bd25924cdb680671de6ef9eae6731f0773845d8e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/jobs/ecc525d23018691a879b63463d671006472867ac2811d48c3091b536051f8d46.json",
+      "sha256": "d627ae30a14282eafd5900fc18da33517721d40a272d2c8b38e86d121a49fa3e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/metrics.json",
+      "sha256": "c7351fd26211b4388175f697f042e8fc6be770201bc6fa5e6fd72104b8a3fa16",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/replay/observations.jsonl",
+      "sha256": "e01a44c46e7830adb170282a3f94d9e144ff1838fc98d9a28a15f40cc20aa58e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/candidate_audit.jsonl",
+      "sha256": "06b8a54c8c4f181e6f255b37e2b7ccfb16a21d368cbc14c2818a16376dcec70e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/job_status.jsonl",
+      "sha256": "7c7a02a4f04bd934456acc0fba85f7338bd87e1f0686d14b46808be01c85d2ad",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/194c2d310371a152a0c05051cbf283fae4e5f4b7ae646c2ac9e87fb970c1ab5b.json",
+      "sha256": "e5700741b21896b8e284ee4008259b2a74b06db98970c79307550cd38a6433b1",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/5479348f53aabc0db6a5f2b656ac27a1db4b5fd306fb0e1e5b0cc88f1b5d0e2d.json",
+      "sha256": "ec1c440a8a67a04432810b569481ac7aad7ea7555994e06668ca00f38372c5e3",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/67e266b486fafa1e2aa7563bd6f1ef51ef4625435a5989c8ec834a5d78fa9a2a.json",
+      "sha256": "710ac673b6a53f7dca431b8a7d1a1d114bb42c23178edfa4191300f2020eb566",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/6a4f97137c8d0734a4dd2cb55cc01d0348d16b6130b187aadb72ee81106dd2e3.json",
+      "sha256": "07a20d031c1e646fc1a52281c1094bba57080c290e704a3acae62616388e156b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/9094248a719ba7aea33173edc8a2b0275bad5a8eea219d4500dfd2a983b7d48e.json",
+      "sha256": "165f988b0db8f315c15a44ce81dd6208101e0f469073c57564d4d5cbf9468f5b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/9c26c546fc3bd5c45cb4db480dbae6c3e0253ce8dfc33c4e9af27626fe8a9857.json",
+      "sha256": "ecedd8ec7e93534b32286517ec604b1f5161f1d3359d661e2f827e607a273856",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/b1acc21693c05eb482b2a171e8509a255110d583c12b22f7c9f9e1b2dab16702.json",
+      "sha256": "cb067cacf7054b6a1b51aa098d7a724f7391fbf4834cabffeebf77acc1f35dd9",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/b923c8cd3dc3e15dd38bac1d3c99119841ec53ebecab30d60fb5494e273d5802.json",
+      "sha256": "d76053791074b17b2a566b06231f22ae6ba8622e8e696431e9dcb65e8609d31a",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/c7b5e3c11904cc7c89d6238e51277b75e79a91931b1ffb4a331e52e96ef2786d.json",
+      "sha256": "76ff372ec078f3d05e8e6f12bd25924cdb680671de6ef9eae6731f0773845d8e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/jobs/ecc525d23018691a879b63463d671006472867ac2811d48c3091b536051f8d46.json",
+      "sha256": "d627ae30a14282eafd5900fc18da33517721d40a272d2c8b38e86d121a49fa3e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/metrics.json",
+      "sha256": "c7351fd26211b4388175f697f042e8fc6be770201bc6fa5e6fd72104b8a3fa16",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/monarch/grounding_v4/run/observations.jsonl",
+      "sha256": "e01a44c46e7830adb170282a3f94d9e144ff1838fc98d9a28a15f40cc20aa58e",
+      "unchanged": true
+    },
+    {
+      "path": "docs/analysis_plan.md",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/monarch/grounding_v4/comparison.json",
+      "sha256": "1d8efc30cf5bd8f7e9d021d7cd02938fbe664c4e81f45d4df5e73c8aa83dc85f",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/monarch/grounding_v4/protocol.json",
+      "sha256": "7f2f371685d0cdf5b82fb218371b3d2789327b848b6411e4800489f034f0f6ed",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/monarch/grounding_v4/summary.md",
+      "sha256": "bab52cb4a41bf35256ce2dfcd14acc51c60ff8806ca77ef09f23c3a5ae0e8421",
+      "unchanged": true
+    },
+    {
+      "path": "src/extraction/adaptive_glyph_grounding.py",
+      "sha256": "297a55e6f461c26c91a9f51dc24a4bcf14de6c67bc40aceef9d605788024b342",
+      "unchanged": true
+    },
+    {
+      "path": "src/extraction/multispan_v4.py",
+      "sha256": "de9491a16ac4afe6a53ffa706614d0d5aed2a541b234307d6dfed37c3a2fffd4",
+      "unchanged": true
+    },
+    {
+      "path": "src/systems/grounding_v4.py",
+      "sha256": "90d78213cbfd8fa753af97884b87db6c8ff2d344aec904ab7640c9faae5aa79d",
+      "unchanged": true
+    }
+  ],
+  "model_calls": 0,
+  "network_calls": 0
+}

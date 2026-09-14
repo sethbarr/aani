@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "system_slug": "attine_actino",
+  "scope": "microbial",
+  "query_kingdom_hint": "Bacteria",
+  "required_domain": "Bacteria",
+  "required_rank": "genus",
+  "required_match_type": "EXACT",
+  "minimum_confidence": 90,
+  "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b"
+}

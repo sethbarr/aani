@@ -1,0 +1,14 @@
+{
+  "version": "glyph_v3",
+  "scopes": [
+    {
+      "source_id": "SAVERSCHEK2010",
+      "block_id": "b00005",
+      "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d"
+    }
+  ],
+  "substitutions": [
+    {"model": "\u0001", "source": "±"},
+    {"model": "\u0003", "source": "¼"}
+  ]
+}

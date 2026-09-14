@@ -1,0 +1,131 @@
+{
+  "system": "attine_actino",
+  "review_version": "attine_semantic_review_v1",
+  "status": "complete",
+  "reference_set_hash": "5fc2b31b4b796d9afad3d646ce55cb13ec09c0a9dc2d637075a0f19422cfa4ee",
+  "fixed_reference_denominator": 2,
+  "recovered_reference_items": 1,
+  "reference_recall": 0.5,
+  "recall_unit": "fixed_reference_item",
+  "partial_matches_count_as_recovered": false,
+  "items": [
+    {
+      "reference_id": "currie_1999_antibiotic_suppression",
+      "doi": "10.1038/19519",
+      "source_id": "CURRIE1999",
+      "full_source_selected": true,
+      "all_source_jobs_complete": true,
+      "source_input_hashes": [
+        "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f"
+      ],
+      "model_candidates": 0,
+      "grounded_records_before_semantic_review": 0,
+      "grounding_rejections": 0,
+      "recovered": false,
+      "outcome": "empty_model_output",
+      "primary_match_record_ids": [],
+      "secondary_content_match_record_ids": [],
+      "secondary_attribution_policy": "Content similarity in another paper does not establish original-source attribution and never enters primary reference recall.",
+      "candidate_component_comparison": [
+        {
+          "record_id": "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e",
+          "source_id": "PMC2748230",
+          "semantically_retained": true,
+          "components": {
+            "producer": false,
+            "compound": false,
+            "activity_target": true,
+            "inhibition": true
+          },
+          "all_fields_match": false,
+          "stage": "grounded_before_semantic_review"
+        },
+        {
+          "record_id": "6d6b5479a3f72359c788bbf01215728695d395b9cd1a2a3dfa53ca5672cf28c1",
+          "source_id": "PMC13098279",
+          "semantically_retained": false,
+          "components": {
+            "producer": false,
+            "compound": false,
+            "activity_target": true,
+            "inhibition": true
+          },
+          "all_fields_match": false,
+          "stage": "grounded_before_semantic_review"
+        }
+      ],
+      "failed_grounding_candidate_comparison": []
+    },
+    {
+      "reference_id": "oh_2009_dentigerumycin",
+      "doi": "10.1038/nchembio.159",
+      "source_id": "PMC2748230",
+      "full_source_selected": true,
+      "all_source_jobs_complete": true,
+      "source_input_hashes": [
+        "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1"
+      ],
+      "model_candidates": 1,
+      "grounded_records_before_semantic_review": 1,
+      "grounding_rejections": 0,
+      "recovered": true,
+      "outcome": "recovered",
+      "primary_match_record_ids": [
+        "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e"
+      ],
+      "secondary_content_match_record_ids": [],
+      "secondary_attribution_policy": "Content similarity in another paper does not establish original-source attribution and never enters primary reference recall.",
+      "candidate_component_comparison": [
+        {
+          "record_id": "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e",
+          "source_id": "PMC2748230",
+          "semantically_retained": true,
+          "components": {
+            "producer": true,
+            "compound": true,
+            "activity_target": true,
+            "inhibition": true
+          },
+          "all_fields_match": true,
+          "stage": "grounded_before_semantic_review"
+        },
+        {
+          "record_id": "6d6b5479a3f72359c788bbf01215728695d395b9cd1a2a3dfa53ca5672cf28c1",
+          "source_id": "PMC13098279",
+          "semantically_retained": false,
+          "components": {
+            "producer": true,
+            "compound": true,
+            "activity_target": true,
+            "inhibition": true
+          },
+          "all_fields_match": true,
+          "stage": "grounded_before_semantic_review"
+        }
+      ],
+      "failed_grounding_candidate_comparison": []
+    }
+  ],
+  "historical_taxonomy_annotation": {
+    "source_id": "CURRIE1999",
+    "original_producer_wording": "Streptomyces",
+    "corrigendum_classification": "Pseudonocardiaceae",
+    "corrigendum_block_id": "pdf:p461:corrigendum",
+    "interpretation": "The family-level correction is recorded separately. It does not supply a Pseudonocardia genus assignment or replace the producer wording in a model record.",
+    "taxonomy_query_changed": false
+  },
+  "limitations": [
+    "This is a two-item exploratory recall check, with no enrichment, specificity, or independent-replication claim.",
+    "The Currie source contains historical taxonomy, embedded PDF glyph artifacts and printed hyphenation. An empty model output does not identify which factor caused the omission.",
+    "Semantic review uses explicit assistant adjudications after extraction. Its counts describe this reviewed run and do not estimate annotation accuracy."
+  ],
+  "input_sha256": {
+    "run_manifest": "c64b632830cdaf58fae3a42e1cb93390105a0ab53d3a5b13ccdec6622436bd04",
+    "metrics": "e6893300c577e159f035ad45707ccd0d8c790db73115bbc09b58df8158cdf1c2",
+    "observations": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+    "rejections": "3975d5739a069484eb37dc065d91cd187ba43307ff0c35384d553ac0d2e586d5",
+    "job_status": "ace9eaba8ce1b9a98c851c7d9ae6f1d80ccfef08c13bb5fdbf28b96ebd87dfad",
+    "selection": "cad1a0436ccdc58eeae76f2e93b329781084713be91018613091f60ab5d79b64",
+    "reference_set": "785b777806a9dbf3777eec804f191abf5d78ce37f85b04fb684ac7159a7bfd5d"
+  }
+}

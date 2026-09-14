@@ -1,0 +1,634 @@
+{
+  "system": "attine_actino",
+  "status": "complete",
+  "review_version": "attine_semantic_review_v1",
+  "reviewer": "Codex",
+  "blinded": false,
+  "method": "Explicit record-by-record scientific adjudication, followed by deterministic source, field and relation checks.",
+  "reviewed": 10,
+  "included": 5,
+  "excluded": 5,
+  "exclusion_reasons": {
+    "activity_outcome_not_stated": 2,
+    "compound_identity_overstated": 1,
+    "activity_target_not_in_quote": 1,
+    "protection_does_not_specify_growth_suppression": 1,
+    "reject_comparison_absent_from_quote": 1,
+    "secondary_statement_labeled_observational": 1
+  },
+  "retained_evidence_roles": {
+    "direct_primary": 2,
+    "secondary": 3
+  },
+  "retained_direction_counts": {
+    "accept": 5
+  },
+  "retained_behavioural_choice_records": 0,
+  "retained_explicit_named_compound_activity_records": 1,
+  "raw_observations_changed": false,
+  "adjudications_hash": "4bcde479ea884b192c01c68f674630eeb8d956b4d346a27f94646b14585b6e01",
+  "input_sha256": {
+    "run_manifest": "c64b632830cdaf58fae3a42e1cb93390105a0ab53d3a5b13ccdec6622436bd04",
+    "metrics": "e6893300c577e159f035ad45707ccd0d8c790db73115bbc09b58df8158cdf1c2",
+    "observations": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+    "rejections": "3975d5739a069484eb37dc065d91cd187ba43307ff0c35384d553ac0d2e586d5",
+    "job_status": "ace9eaba8ce1b9a98c851c7d9ae6f1d80ccfef08c13bb5fdbf28b96ebd87dfad",
+    "selection": "cad1a0436ccdc58eeae76f2e93b329781084713be91018613091f60ab5d79b64",
+    "reference_set": "785b777806a9dbf3777eec804f191abf5d78ce37f85b04fb684ac7159a7bfd5d"
+  },
+  "input_paths": {
+    "run_manifest": "data/interim/systems/attine_actino/extraction/run_manifest.json",
+    "metrics": "data/interim/systems/attine_actino/extraction/metrics.json",
+    "observations": "data/interim/systems/attine_actino/extraction/observations.jsonl",
+    "rejections": "data/interim/systems/attine_actino/extraction/rejections.jsonl",
+    "job_status": "data/interim/systems/attine_actino/extraction/job_status.jsonl",
+    "selection": "data/interim/systems/attine_actino/execution_selection.json",
+    "reference_set": "results/systems/attine_actino/reference_set.json"
+  },
+  "source_exposure": {
+    "discovery_sources_retrieved": 20,
+    "additional_reference_sources": 2,
+    "selected_sources": 5,
+    "selected_jobs": 11
+  },
+  "decisions": [
+    {
+      "record_id": "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e",
+      "raw_record_hash": "812f8f8edcd1ed751fc70224e7b42e3494c8dbca2bd30a7d2f4d0003cfaef708",
+      "source_id": "PMC2748230",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1",
+      "block_id": "bioc:passage_offset_2434",
+      "quote": {
+        "private_reference": "r00000"
+      },
+      "decision": "include",
+      "reason_codes": [],
+      "evidence_role": "direct_primary",
+      "host_identity_grounding": "quote",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": true,
+      "direction_supported": true,
+      "note": "The quote links the cuticular Pseudonocardia isolate from Apterostigma dentigerum, assay-guided identification of dentigerumycin, and Escovopsis inhibition in one contiguous source passage.",
+      "checks": {
+        "issues": []
+      }
+    },
+    {
+      "record_id": "329abdd3e6632d8d109922fc803f0d69b4d7ee7b947f565b96e5276b798bebf2",
+      "raw_record_hash": "83d2e3081ddfaaa1c87cfcd78386a628b265aa7c496d72a0598fc5c117c100d7",
+      "source_id": "PMC13098279",
+      "input_hash": "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189",
+      "block_id": "b00002",
+      "quote": {
+        "private_reference": "r00001"
+      },
+      "decision": "include",
+      "reason_codes": [],
+      "evidence_role": "secondary",
+      "host_identity_grounding": "same_source_block",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": true,
+      "direction_supported": true,
+      "note": "The quote directly reports colonization of worker cuticle and production of compounds inhibiting Escovopsis. The host wording Fungus-growing ants (subtribe Attini) occurs in the opening sentence of this same block. No compound identity was extracted, so the row supports association and activity coverage only.",
+      "checks": {
+        "issues": []
+      }
+    },
+    {
+      "record_id": "71f57e3566ef0fa46aa3db44d3f838613e53303a9928d7d2fa7d50fd0c718a15",
+      "raw_record_hash": "d058ad0fe1a57e1a4f9f91902fbe788ba79daa293752ca039e482c985dc22fff",
+      "source_id": "PMC13098279",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753",
+      "block_id": "b00035",
+      "quote": {
+        "private_reference": "r00002"
+      },
+      "decision": "exclude",
+      "reason_codes": [
+        "activity_outcome_not_stated"
+      ],
+      "evidence_role": "study_aim",
+      "host_identity_grounding": "quote",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": false,
+      "direction_supported": true,
+      "note": "The sentence describes investigating antimicrobial variation and microbial interactions. It does not report suppression of Escovopsis. The full raw record is excluded without changing its activity field.",
+      "checks": {
+        "issues": [
+          "activity_outcome_not_stated",
+          "activity_relation_unsupported"
+        ]
+      }
+    },
+    {
+      "record_id": "6d6b5479a3f72359c788bbf01215728695d395b9cd1a2a3dfa53ca5672cf28c1",
+      "raw_record_hash": "662f20e0c82df012d77dc7e18f314264fd38ca13c714d415f86b3493d8c2d547",
+      "source_id": "PMC13098279",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753",
+      "block_id": "b00039",
+      "quote": {
+        "private_reference": "r00003"
+      },
+      "decision": "exclude",
+      "reason_codes": [
+        "compound_identity_overstated"
+      ],
+      "evidence_role": "secondary",
+      "host_identity_grounding": "quote",
+      "producer_relation_supported": true,
+      "compound_relation_supported": false,
+      "activity_relation_supported": true,
+      "direction_supported": true,
+      "note": "The sentence reports dentigerumycin analogs, including dentigerumycin F, and describes the cyclic depsipeptide family. The extracted parent identity dentigerumycin collapses this compound distinction. This is a related secondary mention and cannot establish recovery of the named Oh compound.",
+      "checks": {
+        "issues": [
+          "compound_identity_overstated",
+          "compound_relation_unsupported"
+        ]
+      }
+    },
+    {
+      "record_id": "b909994a2d7f929467c79b5e6d595c69b57dc1a5214aea5d565845526dfca15b",
+      "raw_record_hash": "43bce55ce433bae97d2d6e8aaa1acf273f8c42474996b062b4f86f67a01d9a48",
+      "source_id": "PMC10384482",
+      "input_hash": "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b",
+      "block_id": "b00005",
+      "quote": {
+        "private_reference": "r00004"
+      },
+      "decision": "exclude",
+      "reason_codes": [
+        "activity_target_not_in_quote",
+        "activity_outcome_not_stated"
+      ],
+      "evidence_role": "secondary",
+      "host_identity_grounding": "source_context",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": false,
+      "direction_supported": true,
+      "note": "The quote states that Pseudonocardia are ant symbionts. It contains neither Escovopsis weberi nor a report of suppression.",
+      "checks": {
+        "issues": [
+          "activity_outcome_not_stated",
+          "activity_relation_unsupported",
+          "activity_target_not_in_quote"
+        ]
+      }
+    },
+    {
+      "record_id": "e6dbd8242865c85c5ac38cabcd186e68d13787d22407c5fa6c2161f069f2a019",
+      "raw_record_hash": "ef56a82f55d2ba22bc1fb13abe966a30d92ab7b2027aa4aabd2ca6df148af222",
+      "source_id": "PMC8689564",
+      "input_hash": "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12",
+      "block_id": "b00003",
+      "quote": {
+        "private_reference": "r00005"
+      },
+      "decision": "exclude",
+      "reason_codes": [
+        "protection_does_not_specify_growth_suppression"
+      ],
+      "evidence_role": "secondary",
+      "host_identity_grounding": "quote",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": false,
+      "direction_supported": true,
+      "note": "The quote describes an antibiotic-producing ectosymbiont that helps protect gardens from Escovopsis. This ecological protection wording does not itself specify the extracted growth-suppression outcome.",
+      "checks": {
+        "issues": [
+          "activity_relation_unsupported",
+          "protection_does_not_specify_growth_suppression"
+        ]
+      }
+    },
+    {
+      "record_id": "97376a7596dee491b5d00cab9be98be51d9e44e3084f31062f8116d9cb7ccb52",
+      "raw_record_hash": "95be6b058e11a69b63c1a76bb489bfc0ec3bc6858ba16d4e4a83279cdb0954bd",
+      "source_id": "PMC8689564",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+      "block_id": "b00037",
+      "quote": {
+        "private_reference": "r00006"
+      },
+      "decision": "include",
+      "reason_codes": [],
+      "evidence_role": "secondary",
+      "host_identity_grounding": "quote",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": true,
+      "direction_supported": true,
+      "note": "The quote cites inhibitory activity by Pseudonocardia isolated from Trachymyrmex ants against Escovopsis. Its qualifier may have is retained in the quote and this remains a qualified secondary report. No compound identity was extracted.",
+      "checks": {
+        "issues": []
+      }
+    },
+    {
+      "record_id": "b1527d731386132cd7bbf13a800f1dbdcdd288981ab10637ba104a8db9e39d9e",
+      "raw_record_hash": "c20cf1dd8817afe65f4654190ecaf96e521141da2267bbba44753b424f4f73af",
+      "source_id": "PMC8689564",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+      "block_id": "b00035",
+      "quote": {
+        "private_reference": "r00007"
+      },
+      "decision": "include",
+      "reason_codes": [],
+      "evidence_role": "secondary",
+      "host_identity_grounding": "quote",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": true,
+      "direction_supported": true,
+      "note": "The quote describes increased Pseudonocardia coverage on workers associated with Escovopsis presence. The extracted activity outcome is unknown and the compound field is null, preserving the limited claim.",
+      "checks": {
+        "issues": []
+      }
+    },
+    {
+      "record_id": "8d3be3a7f056c9ad459bda876e98cdd2f5b1df268ce6c1a2c0544885a8528309",
+      "raw_record_hash": "7e3646e26192bcda037031a4152975b801cc65267fbbaa8b5b88cfcecbca6407",
+      "source_id": "PMC8689564",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+      "block_id": "b00040",
+      "quote": {
+        "private_reference": "r00008"
+      },
+      "decision": "include",
+      "reason_codes": [],
+      "evidence_role": "direct_primary",
+      "host_identity_grounding": "same_source_block",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": true,
+      "direction_supported": true,
+      "note": "The quote reports visible Pseudonocardia on the Acromyrmex study species. The opening sentence of this same block identifies these as leaf-cutter ants. It supports a direct association observation; the row has no compound or activity claim and behavioural_choice remains false.",
+      "checks": {
+        "issues": []
+      }
+    },
+    {
+      "record_id": "2de86549feb977111a081ab1060385ef5f9af7bdc1065c6ea810826f08cdecbe",
+      "raw_record_hash": "99d6b17334929c9b87436b3b6e3d019ddb8c4c597fc081e859e65dae488f04c9",
+      "source_id": "PMC8689564",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+      "block_id": "b00041",
+      "quote": {
+        "private_reference": "r00009"
+      },
+      "decision": "exclude",
+      "reason_codes": [
+        "reject_comparison_absent_from_quote",
+        "secondary_statement_labeled_observational"
+      ],
+      "evidence_role": "secondary",
+      "host_identity_grounding": "quote",
+      "producer_relation_supported": true,
+      "compound_relation_supported": true,
+      "activity_relation_supported": true,
+      "direction_supported": false,
+      "note": "The quoted sentence cites general absence of Pseudonocardia in Atta and its resulting inability to transmit the bacterium. The full block describes a cross-fostering experiment, but this quote does not report the controlled comparison required for the configured reject direction. Citation 43 also marks this sentence as secondary support.",
+      "checks": {
+        "issues": [
+          "direction_unsupported",
+          "reject_comparison_absent_from_quote",
+          "secondary_statement_labeled_observational"
+        ]
+      }
+    }
+  ],
+  "policy": "Each inclusion retains all original extracted fields. Explicit compound and activity fields must occur in the same grounded quote and the reviewed relation must be supported. Broader host wording may be supported by the same source block with its scope recorded. Secondary reports remain secondary. Excluded records are not repaired or promoted.",
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+    "original_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          0,
+          "quote"
+        ],
+        "private_utf8_byte_start": 2758,
+        "private_utf8_byte_end": 3515,
+        "encoded_span_sha256": "796ed33defc3cfe29f65901c8b986f841429f2e2774853d135868a7157e475d4",
+        "value_utf8_sha256": "daf024e71bffc07d5b46d184dc92fc94116925894df7268d7dea291a06a9e3ef",
+        "source_ids": [
+          "PMC2748230"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC2748230",
+            "block_id": "bioc:passage_offset_2434",
+            "private_source_path": "data/interim/systems/attine_actino/reference_sources/corpus/texts/PMC2748230.json",
+            "source_file_sha256": "58d1e84827ebcc799fef11b204fe1990c424869d903d8a43099167c2588f415d",
+            "block_text_sha256": "818d94c3f5a1eb8494e957595bfe8fb532d95f66264316d3daf81aa1666dbbba",
+            "block_utf8_byte_start": 269,
+            "block_utf8_byte_end": 1024,
+            "span_sha256": "daf024e71bffc07d5b46d184dc92fc94116925894df7268d7dea291a06a9e3ef",
+            "source_words": 109,
+            "kind": "paragraph"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          1,
+          "quote"
+        ],
+        "private_utf8_byte_start": 4431,
+        "private_utf8_byte_end": 4858,
+        "encoded_span_sha256": "361807e2bcfc5ea7635e422ac420d5f12ba5034b578dbe200de7cf9c49c086e5",
+        "value_utf8_sha256": "f9180127334b441549637a162c1c57156296579133a0913df9194fb125099408",
+        "source_ids": [
+          "PMC13098279"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC13098279",
+            "block_id": "b00002",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC13098279.json",
+            "source_file_sha256": "14ce82367ccce0089e10318c12673d26d35faf057002c1eb656cb9cf086b4a1d",
+            "block_text_sha256": "f2cdb96c50b63f6b8649e2796c2894d989ce672bd7f56c7773f8b2813425c28a",
+            "block_utf8_byte_start": 335,
+            "block_utf8_byte_end": 760,
+            "span_sha256": "f9180127334b441549637a162c1c57156296579133a0913df9194fb125099408",
+            "source_words": 57,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00002",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          2,
+          "quote"
+        ],
+        "private_utf8_byte_start": 5902,
+        "private_utf8_byte_end": 6145,
+        "encoded_span_sha256": "f53bc1e158c9dc8eee77199fe5c1306c3b7799cf89517272c25f39bd482b33d6",
+        "value_utf8_sha256": "62ad1f1ff493bc18ef1f3d54e6f9dc1933d8b8344a162e1a161be1805ecc919b",
+        "source_ids": [
+          "PMC13098279"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC13098279",
+            "block_id": "b00035",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC13098279.json",
+            "source_file_sha256": "14ce82367ccce0089e10318c12673d26d35faf057002c1eb656cb9cf086b4a1d",
+            "block_text_sha256": "f8573776e8871cb5960d832d812a7c63556c803f7eb305d9f75a8b0958e3a7b9",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 241,
+            "span_sha256": "62ad1f1ff493bc18ef1f3d54e6f9dc1933d8b8344a162e1a161be1805ecc919b",
+            "source_words": 33,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00003",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          3,
+          "quote"
+        ],
+        "private_utf8_byte_start": 7208,
+        "private_utf8_byte_end": 7448,
+        "encoded_span_sha256": "7b7e7887e33c06292a45ffd944486bccbe67f9663251e1319ae81acf21f09cab",
+        "value_utf8_sha256": "e0e54ff03792fab78df1e307c5459e029c7fffdee131f875764d9a371dd4bae7",
+        "source_ids": [
+          "PMC13098279"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC13098279",
+            "block_id": "b00039",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC13098279.json",
+            "source_file_sha256": "14ce82367ccce0089e10318c12673d26d35faf057002c1eb656cb9cf086b4a1d",
+            "block_text_sha256": "8eba08bf5f6699b09d0e795ab094526689bd5b6a9436cda4f16021ab8b333e20",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 238,
+            "span_sha256": "e0e54ff03792fab78df1e307c5459e029c7fffdee131f875764d9a371dd4bae7",
+            "source_words": 27,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00004",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          4,
+          "quote"
+        ],
+        "private_utf8_byte_start": 8602,
+        "private_utf8_byte_end": 8693,
+        "encoded_span_sha256": "1b2444da5fb7122ffd04205d99b132b740a4b0490c89b8ca1712e693b9cae173",
+        "value_utf8_sha256": "3f7428f002c00b78cf6a5b7a0fc54d2da4e61d801d0b81d97e35cc0ef6ff286f",
+        "source_ids": [
+          "PMC10384482"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10384482",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC10384482.json",
+            "source_file_sha256": "33c68520f5a40f1d79d7dddfb1bb6496b645c5dbf8caf5c364d2ffaec1a097c1",
+            "block_text_sha256": "7785f920377dc6d1076763ec5fc6eb4c6ee8666b87d866d70f0e539e70dd7a46",
+            "block_utf8_byte_start": 303,
+            "block_utf8_byte_end": 392,
+            "span_sha256": "3f7428f002c00b78cf6a5b7a0fc54d2da4e61d801d0b81d97e35cc0ef6ff286f",
+            "source_words": 14,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00005",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          5,
+          "quote"
+        ],
+        "private_utf8_byte_start": 9765,
+        "private_utf8_byte_end": 10016,
+        "encoded_span_sha256": "0e87d0148bb0d6370b650bf8766c86124628a3eb57fcf43371e67e437872c89c",
+        "value_utf8_sha256": "cdf4c40272422ceb4ea799f2c89c3603a36d22cfe372afbe323b22e07c760ed1",
+        "source_ids": [
+          "PMC8689564"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC8689564",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC8689564.json",
+            "source_file_sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c",
+            "block_text_sha256": "a14e362ea6e144f2b5626c39226ddb3d0837b4cc485fb78b66492c9cd2c03989",
+            "block_utf8_byte_start": 704,
+            "block_utf8_byte_end": 953,
+            "span_sha256": "cdf4c40272422ceb4ea799f2c89c3603a36d22cfe372afbe323b22e07c760ed1",
+            "source_words": 31,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00006",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          6,
+          "quote"
+        ],
+        "private_utf8_byte_start": 11114,
+        "private_utf8_byte_end": 11295,
+        "encoded_span_sha256": "a49d2862b0e53a81dc8ea2d0695c244c804a57f858efad9c556b25d3b7da56f5",
+        "value_utf8_sha256": "28447223fca09cb0637a1605d3d6cfe5fee7434dd92372ce349989c2ac6f0ca6",
+        "source_ids": [
+          "PMC8689564"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC8689564",
+            "block_id": "b00037",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC8689564.json",
+            "source_file_sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c",
+            "block_text_sha256": "aa5b38db0f17d52ba6d2c0e0643f5195bb3e4805b7d7eddbf6f331ce3d88ffeb",
+            "block_utf8_byte_start": 608,
+            "block_utf8_byte_end": 787,
+            "span_sha256": "28447223fca09cb0637a1605d3d6cfe5fee7434dd92372ce349989c2ac6f0ca6",
+            "source_words": 24,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00007",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          7,
+          "quote"
+        ],
+        "private_utf8_byte_start": 12252,
+        "private_utf8_byte_end": 12427,
+        "encoded_span_sha256": "d19cb6b85bd29b8398a3b32dd056fe4dcf3570e60a83fbdda1512d9a64c6c280",
+        "value_utf8_sha256": "afd3b7cacec65c64d7703c40d8e514f729bafb9c1ac8e321e5a34b66314b9342",
+        "source_ids": [
+          "PMC8689564"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC8689564",
+            "block_id": "b00035",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC8689564.json",
+            "source_file_sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c",
+            "block_text_sha256": "426daf4d2e311ed8b8ea551a585a50fc7a6364d74336fd8e33778bb6e8b374d5",
+            "block_utf8_byte_start": 547,
+            "block_utf8_byte_end": 720,
+            "span_sha256": "afd3b7cacec65c64d7703c40d8e514f729bafb9c1ac8e321e5a34b66314b9342",
+            "source_words": 25,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00008",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          8,
+          "quote"
+        ],
+        "private_utf8_byte_start": 13353,
+        "private_utf8_byte_end": 13456,
+        "encoded_span_sha256": "5ce6e3cdd94657bba0a725380911d394c3fab32b1be83201351691f291ac028b",
+        "value_utf8_sha256": "efe9299459dc3e6236391c0e50fe83f545eebe50854661d2ff4ce3866424d024",
+        "source_ids": [
+          "PMC8689564"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC8689564",
+            "block_id": "b00040",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC8689564.json",
+            "source_file_sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c",
+            "block_text_sha256": "0791976dd3a8647220013319ccbef7ef3577de28f415a275da1a82f176e8c465",
+            "block_utf8_byte_start": 528,
+            "block_utf8_byte_end": 629,
+            "span_sha256": "efe9299459dc3e6236391c0e50fe83f545eebe50854661d2ff4ce3866424d024",
+            "source_words": 14,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00009",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/semantic_review.json",
+        "private_file_sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+        "json_path": [
+          "decisions",
+          9,
+          "quote"
+        ],
+        "private_utf8_byte_start": 14471,
+        "private_utf8_byte_end": 14616,
+        "encoded_span_sha256": "402cf1f9d24e4a537d18782075cc02b7bc9dccf94aee799651e081161d2762af",
+        "value_utf8_sha256": "6cc1c9ef08dbee631b01ca91cff8121fcecb1be9bbdcdc5479ba8298a89cbde0",
+        "source_ids": [
+          "PMC8689564"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC8689564",
+            "block_id": "b00041",
+            "private_source_path": "data/interim/systems/attine_actino/corpus/texts/PMC8689564.json",
+            "source_file_sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c",
+            "block_text_sha256": "c9ade22e7935893e6179b576135fbeb937cd89d452fe7479adbd932ba44b1539",
+            "block_utf8_byte_start": 447,
+            "block_utf8_byte_end": 590,
+            "span_sha256": "6cc1c9ef08dbee631b01ca91cff8121fcecb1be9bbdcdc5479ba8298a89cbde0",
+            "source_words": 23,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
+}

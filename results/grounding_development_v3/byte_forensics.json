@@ -1,0 +1,1063 @@
+{
+  "schema_version": 1,
+  "development_set": "One panel from one paper; implementers know the reference.",
+  "diagnosis": "b_model_response",
+  "conclusion": "The cached source glyphs survive job export and request JSON encoding. The substitutions are present in the API's saved raw model-output response before local parsing or validation.",
+  "request_evidence_limit": "The HTTP cache preserves a sanitized request descriptor, not an outbound packet capture. Request wire-body bytes below are explicitly reconstructed with the installed httpx serializer; saved descriptor bytes and raw response bytes are inspected directly.",
+  "serialization_evidence": "request_gemini uses json.dumps for input; U+00B1 and U+00BC become literal JSON escapes u00b1 and u00bc without changing their decoded codepoints. HTTPX serializes the outer JSON body. Decoding the stored request input exactly reproduces every original source block.",
+  "fix_layer": "Quote comparison in the validator; retain source text, model output and request serialization.",
+  "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+  "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+  "httpx_version_for_reconstruction": "0.28.1",
+  "request_implementation": "src/extraction/gemini.py:request_gemini",
+  "cache_implementation": "src/common/cache.py:CachedHTTP.request",
+  "source_block_codepoints": {
+    "b00000": {
+      "U+0001": 0,
+      "U+0003": 0,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 0
+    },
+    "b00001": {
+      "U+0001": 0,
+      "U+0003": 0,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 0
+    },
+    "b00002": {
+      "U+0001": 0,
+      "U+0003": 0,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 0
+    },
+    "b00003": {
+      "U+0001": 0,
+      "U+0003": 0,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 0
+    },
+    "b00004": {
+      "U+0001": 0,
+      "U+0003": 1,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 1
+    },
+    "b00005": {
+      "U+0001": 0,
+      "U+0003": 56,
+      "U+0004": 49,
+      "U+00B1": 10,
+      "U+00BC": 2
+    },
+    "b00006": {
+      "U+0001": 0,
+      "U+0003": 1,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 15
+    },
+    "b00007": {
+      "U+0001": 0,
+      "U+0003": 1,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 8
+    },
+    "b00008": {
+      "U+0001": 0,
+      "U+0003": 0,
+      "U+0004": 0,
+      "U+00B1": 0,
+      "U+00BC": 0
+    }
+  },
+  "pre_existing_controls": "U+0003 already occurs 56 times in table block b00005 and U+0004 occurs 49 times; those exact control characters are preserved. Source-wide U+0001 count is zero.",
+  "jobs": [
+    {
+      "input_hash": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "job_path": "data/interim/extraction_jobs_saverschek_multispan_v2/6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729.json",
+      "job_file_sha256": "307abc5fb52463da13013b6c18899ffcaa4468100ccb92e3a2a561c4c199b0fb",
+      "request_cache_path": "data/raw/http/da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b.json",
+      "request_cache_file_sha256": "77f519e155eef97c28902fb11a236adabb646e86f86beefa9d1df64ef34b0113",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v2/responses/6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729.json",
+      "response_envelope_file_sha256": "afae4b516abded009ddcac568a152168bbc3da16357c8efea7a19034932f8d3a",
+      "request_blocks_equal_exported_job_blocks": true,
+      "request_blocks_equal_source_blocks": true,
+      "request_system_instruction_equal_job_prompt": true,
+      "request_input_json_sha256": "2361284ec44bc36914e3b32fe75afd7cf7f43314453f28db39abb22a935c05bb",
+      "request_input_escape_counts": {
+        "literal_backslash_u0001": 0,
+        "literal_backslash_u0003": 58,
+        "literal_backslash_u00b1": 10,
+        "literal_backslash_u00bc": 18
+      },
+      "decoded_request_block_codepoints": {
+        "U+0001": 0,
+        "U+0003": 58,
+        "U+0004": 49,
+        "U+00B1": 10,
+        "U+00BC": 18
+      },
+      "reconstructed_httpx_request_body_sha256": "86b104f93465ab9dab634d35a316bc97b03d8a42c0e4e5b6f36da9955f2e0edd",
+      "reconstructed_httpx_request_body_size_bytes": 32527,
+      "raw_response_sha256": "72b7495897e1dd069e71872bc16ebc777b700ca16062bd788e3a04016d2052d4",
+      "raw_response_size_bytes": 43252,
+      "raw_response_model_output_equals_saved_envelope": true,
+      "raw_response_status": 200,
+      "api_attempt_count": 1,
+      "candidate_count": 22,
+      "parsed_model_output_codepoints": {
+        "U+0001": 28,
+        "U+0003": 82,
+        "U+0004": 79,
+        "U+00B1": 0,
+        "U+00BC": 0
+      }
+    },
+    {
+      "input_hash": "760c7967955ef359b90add36a5b38d956a3db6720ceda2300d59a5e7eaa8036f",
+      "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+      "job_path": "data/interim/extraction_jobs_saverschek_multispan_v2/760c7967955ef359b90add36a5b38d956a3db6720ceda2300d59a5e7eaa8036f.json",
+      "job_file_sha256": "4022f9a4c9923125384f47c7482f5b4866b7220f81df7613f2148e87c9c627b6",
+      "request_cache_path": "data/raw/http/8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76.json",
+      "request_cache_file_sha256": "501e6a21ac19986cee13a8238d8a77454c5fc1b3c8e8bf16bd81fd071ecc465e",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v2/responses/760c7967955ef359b90add36a5b38d956a3db6720ceda2300d59a5e7eaa8036f.json",
+      "response_envelope_file_sha256": "2e0d946a5ab79a94670d7abea7fad05d0881a7671a71c1a4ab23750f9e663b35",
+      "request_blocks_equal_exported_job_blocks": true,
+      "request_blocks_equal_source_blocks": true,
+      "request_system_instruction_equal_job_prompt": true,
+      "request_input_json_sha256": "9a0db9b3fe88f8a12248201f1f8a85dc9d46902f662a3a25aa760aebe75d106d",
+      "request_input_escape_counts": {
+        "literal_backslash_u0001": 0,
+        "literal_backslash_u0003": 1,
+        "literal_backslash_u00b1": 0,
+        "literal_backslash_u00bc": 8
+      },
+      "decoded_request_block_codepoints": {
+        "U+0001": 0,
+        "U+0003": 1,
+        "U+0004": 0,
+        "U+00B1": 0,
+        "U+00BC": 8
+      },
+      "reconstructed_httpx_request_body_sha256": "08f79c93d21f4e518842a62dc80304adf1663443ca42fa836ddf990aa1c8ddef",
+      "reconstructed_httpx_request_body_size_bytes": 18481,
+      "raw_response_sha256": "39305828f84f3b80408544ba1bd5860e9bac9a2a976e1f3286963303f562429d",
+      "raw_response_size_bytes": 5554,
+      "raw_response_model_output_equals_saved_envelope": true,
+      "raw_response_status": 200,
+      "api_attempt_count": 1,
+      "candidate_count": 2,
+      "parsed_model_output_codepoints": {
+        "U+0001": 0,
+        "U+0003": 0,
+        "U+0004": 0,
+        "U+00B1": 0,
+        "U+00BC": 0
+      }
+    },
+    {
+      "input_hash": "76a001e2f6434c4094c9d607e0cf68775de9b5a4cd417ee48bd1fe803e5d3d77",
+      "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+      "job_path": "data/interim/extraction_jobs_saverschek_multispan_v2/76a001e2f6434c4094c9d607e0cf68775de9b5a4cd417ee48bd1fe803e5d3d77.json",
+      "job_file_sha256": "8d4e3c1b193af00494d700a7b6f38b2256230105562bc9475f870dad1bb86c75",
+      "request_cache_path": "data/raw/http/bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc.json",
+      "request_cache_file_sha256": "4cfb408376526bd375f363391d23f076e383eee662de7faa4c2d8d9edafc1f1c",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v2/responses/76a001e2f6434c4094c9d607e0cf68775de9b5a4cd417ee48bd1fe803e5d3d77.json",
+      "response_envelope_file_sha256": "67e9e4f56b1d1a1147e7c3b2b0fed08b04b771fcfd02cb1fafcb98e116a7fc3f",
+      "request_blocks_equal_exported_job_blocks": true,
+      "request_blocks_equal_source_blocks": true,
+      "request_system_instruction_equal_job_prompt": true,
+      "request_input_json_sha256": "f476f3d4bdacfff896cf7db09e8f5dc9098e6b11e55cd6bbef74b01c53d7521e",
+      "request_input_escape_counts": {
+        "literal_backslash_u0001": 0,
+        "literal_backslash_u0003": 0,
+        "literal_backslash_u00b1": 0,
+        "literal_backslash_u00bc": 0
+      },
+      "decoded_request_block_codepoints": {
+        "U+0001": 0,
+        "U+0003": 0,
+        "U+0004": 0,
+        "U+00B1": 0,
+        "U+00BC": 0
+      },
+      "reconstructed_httpx_request_body_sha256": "e6b1610752f5a898f950bbd5001c8f6a79265c7f9fdf8b9d1660cbb74ec6937e",
+      "reconstructed_httpx_request_body_size_bytes": 30604,
+      "raw_response_sha256": "272711384331c63a9e7d185a737861cc15072e08a136c3ebf1b352b4ccc69c01",
+      "raw_response_size_bytes": 5494,
+      "raw_response_model_output_equals_saved_envelope": true,
+      "raw_response_status": 200,
+      "api_attempt_count": 1,
+      "candidate_count": 2,
+      "parsed_model_output_codepoints": {
+        "U+0001": 0,
+        "U+0003": 0,
+        "U+0004": 0,
+        "U+00B1": 0,
+        "U+00BC": 0
+      }
+    }
+  ],
+  "byte_offset_convention": "Zero-based bytes within the exact named file, base64-decoded saved response body, or explicitly reconstructed request body.",
+  "middle_request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+  "byte_examples": [
+    {
+      "example": "Hymenaea table row",
+      "source_json_bytes": {
+        "byte_offset_zero_based": 41031,
+        "length_bytes": 35,
+        "utf8_text": {
+          "private_reference": "r00000"
+        },
+        "hex": {
+          "private_reference": "r00001"
+        }
+      },
+      "stored_request_descriptor_bytes": {
+        "byte_offset_zero_based": 23318,
+        "length_bytes": 41,
+        "utf8_text": {
+          "private_reference": "r00002"
+        },
+        "hex": {
+          "private_reference": "r00003"
+        }
+      },
+      "reconstructed_httpx_request_body_bytes": {
+        "byte_offset_zero_based": 23186,
+        "length_bytes": 41,
+        "utf8_text": {
+          "private_reference": "r00004"
+        },
+        "hex": {
+          "private_reference": "r00005"
+        }
+      },
+      "saved_raw_response_bytes": {
+        "byte_offset_zero_based": 6094,
+        "length_bytes": 41,
+        "utf8_text": {
+          "private_reference": "r00006"
+        },
+        "hex": {
+          "private_reference": "r00007"
+        }
+      }
+    },
+    {
+      "example": "Table 1 caption",
+      "source_json_bytes": {
+        "byte_offset_zero_based": 39921,
+        "length_bytes": 28,
+        "utf8_text": {
+          "private_reference": "r00008"
+        },
+        "hex": {
+          "private_reference": "r00009"
+        }
+      },
+      "stored_request_descriptor_bytes": {
+        "byte_offset_zero_based": 22131,
+        "length_bytes": 33,
+        "utf8_text": {
+          "private_reference": "r00010"
+        },
+        "hex": {
+          "private_reference": "r00011"
+        }
+      },
+      "reconstructed_httpx_request_body_bytes": {
+        "byte_offset_zero_based": 21999,
+        "length_bytes": 33,
+        "utf8_text": {
+          "private_reference": "r00012"
+        },
+        "hex": {
+          "private_reference": "r00013"
+        }
+      },
+      "saved_raw_response_bytes": {
+        "byte_offset_zero_based": 2134,
+        "length_bytes": 33,
+        "utf8_text": {
+          "private_reference": "r00014"
+        },
+        "hex": {
+          "private_reference": "r00015"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "jobs_checked": 3,
+    "blocks_checked": 9,
+    "rejected_records": 16,
+    "records_with_only_bounded_glyph_mismatch_in_the_failed_quote": 13,
+    "mismatched_quote_spans": 13,
+    "span_kinds": {
+      "supporting": 10,
+      "primary": 3
+    },
+    "records_per_substitution": {
+      "U+0003 -> U+00BC": 2,
+      "U+0001 -> U+00B1": 11
+    },
+    "character_substitutions": {
+      "U+0003 -> U+00BC": 2,
+      "U+0001 -> U+00B1": 28
+    }
+  },
+  "mismatch_matching_method": "Existing whitespace normalization, then equal-length substring comparison accepting exact characters or only output U+0001 at source U+00B1 and output U+0003 at source U+00BC. Every remaining character must match.",
+  "mismatch_records": [
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:1",
+      "record_digest": "b99cfe693abb57d8dbff3fb504a37826a0c79900ea9f4a0524f6d61ecf1fe629",
+      "species": "Spondias mombin",
+      "direction": "accepted",
+      "v2_rejection_reason": "supporting_evidence[0]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[0]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 4898,
+          "changes": [
+            {
+              "quote_character_offset": 98,
+              "normalized_source_character_offset": 4996,
+              "output_codepoint": "U+0003",
+              "cached_codepoint": "U+00BC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:3",
+      "record_digest": "e3529bab4bd31d1a5651e222fcfcd7114a4dad565a98505d43cb78a8ede3e2b0",
+      "species": "Hymenaea courbaril",
+      "direction": "rejected",
+      "v2_rejection_reason": "supporting_evidence[1]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[1]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 5707,
+          "changes": [
+            {
+              "quote_character_offset": 50,
+              "normalized_source_character_offset": 5757,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 82,
+              "normalized_source_character_offset": 5789,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:4",
+      "record_digest": "b661312b73c16edee50422a950405b6d04cd21d98a54c379873960b7ac10760d",
+      "species": "Hymenaea courbaril",
+      "direction": "accepted",
+      "v2_rejection_reason": "supporting_evidence[0]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[0]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 5707,
+          "changes": [
+            {
+              "quote_character_offset": 50,
+              "normalized_source_character_offset": 5757,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 82,
+              "normalized_source_character_offset": 5789,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:6",
+      "record_digest": "7115cc61ad17c8575950617b3d2301fa7ba8e87ecad19dddd6909b615f75f6e8",
+      "species": "Hiraea grandifolia",
+      "direction": "rejected",
+      "v2_rejection_reason": "supporting_evidence[1]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[1]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 4898,
+          "changes": [
+            {
+              "quote_character_offset": 98,
+              "normalized_source_character_offset": 4996,
+              "output_codepoint": "U+0003",
+              "cached_codepoint": "U+00BC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:12",
+      "record_digest": "18c8aa40a5db9a635713ad1cd926f11914aa9a4791f60cf673c9f966decbd882",
+      "species": "Inga goldmanii",
+      "direction": "rejected",
+      "v2_rejection_reason": "ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "evidence_quote",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 5851,
+          "changes": [
+            {
+              "quote_character_offset": 19,
+              "normalized_source_character_offset": 5870,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 51,
+              "normalized_source_character_offset": 5902,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 62,
+              "normalized_source_character_offset": 5913,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:13",
+      "record_digest": "d5a54a44d41f0ece7843691363192c2417aac7ccb83686283f80ad83496f4721",
+      "species": "Inga goldmanii",
+      "direction": "accepted",
+      "v2_rejection_reason": "supporting_evidence[0]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[0]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 5851,
+          "changes": [
+            {
+              "quote_character_offset": 19,
+              "normalized_source_character_offset": 5870,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 51,
+              "normalized_source_character_offset": 5902,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 62,
+              "normalized_source_character_offset": 5913,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:14",
+      "record_digest": "fdd4ae1287d4ce23df62fa67291532329120ad7d492b3ed45e887d23450d7341",
+      "species": "Inga goldmanii",
+      "direction": "rejected",
+      "v2_rejection_reason": "supporting_evidence[1]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[1]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 5851,
+          "changes": [
+            {
+              "quote_character_offset": 19,
+              "normalized_source_character_offset": 5870,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 51,
+              "normalized_source_character_offset": 5902,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 62,
+              "normalized_source_character_offset": 5913,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:15",
+      "record_digest": "83dbc92d16eeb825126cb4c23e1049b8f6e0243007d9d5a3d5f9acb972a40445",
+      "species": "Tetragastris panamensis",
+      "direction": "rejected",
+      "v2_rejection_reason": "ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "evidence_quote",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 6000,
+          "changes": [
+            {
+              "quote_character_offset": 29,
+              "normalized_source_character_offset": 6029,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 61,
+              "normalized_source_character_offset": 6061,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:16",
+      "record_digest": "0dc947087d3c65f16342090e8790a9f02592a3c6069714ab19740409108faba1",
+      "species": "Tetragastris panamensis",
+      "direction": "accepted",
+      "v2_rejection_reason": "supporting_evidence[0]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[0]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 6000,
+          "changes": [
+            {
+              "quote_character_offset": 29,
+              "normalized_source_character_offset": 6029,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 61,
+              "normalized_source_character_offset": 6061,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:17",
+      "record_digest": "65d28f416e0f088d2ff42dd28773bd5c150c100b596d30311b9a34671da1e151",
+      "species": "Tetragastris panamensis",
+      "direction": "rejected",
+      "v2_rejection_reason": "supporting_evidence[1]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[1]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 6000,
+          "changes": [
+            {
+              "quote_character_offset": 29,
+              "normalized_source_character_offset": 6029,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 61,
+              "normalized_source_character_offset": 6061,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:18",
+      "record_digest": "c11e701c52c82e913b8f1b91defa7d2c6f79d50777222c886d78a4187ccc5a69",
+      "species": "Trichilia tuberculata",
+      "direction": "rejected",
+      "v2_rejection_reason": "ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "evidence_quote",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 6124,
+          "changes": [
+            {
+              "quote_character_offset": 27,
+              "normalized_source_character_offset": 6151,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 59,
+              "normalized_source_character_offset": 6183,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 69,
+              "normalized_source_character_offset": 6193,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:19",
+      "record_digest": "6aa758da8ef93ed114a29792ff1f67af633f483ca9d3bfe40de381b55009565e",
+      "species": "Trichilia tuberculata",
+      "direction": "accepted",
+      "v2_rejection_reason": "supporting_evidence[0]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[0]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 6124,
+          "changes": [
+            {
+              "quote_character_offset": 27,
+              "normalized_source_character_offset": 6151,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 59,
+              "normalized_source_character_offset": 6183,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 69,
+              "normalized_source_character_offset": 6193,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729:20",
+      "record_digest": "c5203278e7e5fce7af57256cbd9b863fa2c6cf05d85edc42e94b4239b5b183c7",
+      "species": "Trichilia tuberculata",
+      "direction": "rejected",
+      "v2_rejection_reason": "supporting_evidence[1]:ungrounded_quote",
+      "mismatched_spans": [
+        {
+          "span": "supporting_evidence[1]",
+          "block_id": "b00005",
+          "normalized_source_match_offset": 6124,
+          "changes": [
+            {
+              "quote_character_offset": 27,
+              "normalized_source_character_offset": 6151,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 59,
+              "normalized_source_character_offset": 6183,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            },
+            {
+              "quote_character_offset": 69,
+              "normalized_source_character_offset": 6193,
+              "output_codepoint": "U+0001",
+              "cached_codepoint": "U+00B1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blocked_reason": null,
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+    "original_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "source_json_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 9636,
+        "private_utf8_byte_end": 9674,
+        "encoded_span_sha256": "08288b4da326c2c1ef7faa7514be7db1b96b8abca6606f723ca7e89b0c5ba1db",
+        "value_utf8_sha256": "a24c78992928c1923a4969ee704ef921069b4758de442cdd7d0a9601608bbc08",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "source_json_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 9691,
+        "private_utf8_byte_end": 9763,
+        "encoded_span_sha256": "7c22d4fc490ef61e1560d008f0855e79eaa6b761faee3662261b0e419c055227",
+        "value_utf8_sha256": "7565d6655ac23aa0aaa98e1c962d122189e0cfaa853f86aebc1584e3eae02ce8",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00002",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "stored_request_descriptor_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 9906,
+        "private_utf8_byte_end": 9953,
+        "encoded_span_sha256": "fc78834f4573fe9e4dc9f77fdec21dae570550a80fae43dcb075a7e8bf2b82ba",
+        "value_utf8_sha256": "99f9895e008ee13a2d77a2bc8bd563f5983521e8795b780fd99c115f46842c91",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00003",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "stored_request_descriptor_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 9970,
+        "private_utf8_byte_end": 10054,
+        "encoded_span_sha256": "d313ebc41e30a4719fe1cb7d69c48785bbbded6a6403397166a8217cf661d049",
+        "value_utf8_sha256": "6ac3057361446acb60e3cadaa7bc2faebacad84cbee6f1ba410f35164f70c63b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00004",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "reconstructed_httpx_request_body_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 10204,
+        "private_utf8_byte_end": 10251,
+        "encoded_span_sha256": "fc78834f4573fe9e4dc9f77fdec21dae570550a80fae43dcb075a7e8bf2b82ba",
+        "value_utf8_sha256": "99f9895e008ee13a2d77a2bc8bd563f5983521e8795b780fd99c115f46842c91",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00005",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "reconstructed_httpx_request_body_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 10268,
+        "private_utf8_byte_end": 10352,
+        "encoded_span_sha256": "d313ebc41e30a4719fe1cb7d69c48785bbbded6a6403397166a8217cf661d049",
+        "value_utf8_sha256": "6ac3057361446acb60e3cadaa7bc2faebacad84cbee6f1ba410f35164f70c63b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00006",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "saved_raw_response_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 10487,
+        "private_utf8_byte_end": 10534,
+        "encoded_span_sha256": "7a5cddbe4dbf5d4ca99e7b828c1eff4560e9ba16531ba6664293c3dd6c634329",
+        "value_utf8_sha256": "1361f365c583c64ac339f13763067edb11ea34963a5d737a3f136b5c220bbb6a",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00007",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          0,
+          "saved_raw_response_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 10551,
+        "private_utf8_byte_end": 10635,
+        "encoded_span_sha256": "b67e5d3d321e671508dbc9b423be830ca73d7716765c08e880410ae72ba23acf",
+        "value_utf8_sha256": "4249f8b729b5ea854ce9b683d43b4f18596bf265202929229b3f4a0b212737e4",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00008",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "source_json_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 10812,
+        "private_utf8_byte_end": 10842,
+        "encoded_span_sha256": "3cd54ffac2172b3025e2aeffd401a5dbf6c4c94ed8324947ddfb56b40ebafc72",
+        "value_utf8_sha256": "0164b9cb88699829996037597205dabe36bb890796dc36bae95c98eea647ae2e",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 4994,
+            "block_utf8_byte_end": 5022,
+            "span_sha256": "0164b9cb88699829996037597205dabe36bb890796dc36bae95c98eea647ae2e",
+            "source_words": 3,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00009",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "source_json_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 10859,
+        "private_utf8_byte_end": 10917,
+        "encoded_span_sha256": "ca2b9f5ff1b8862853bc694079c62aaba8e986ebfb4ca930c8a01c1ad7280d06",
+        "value_utf8_sha256": "48a004522287b9e551d87ece918c929032454a161594feedfc53e510003b5876",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 4994,
+            "block_utf8_byte_end": 5022,
+            "span_sha256": "0164b9cb88699829996037597205dabe36bb890796dc36bae95c98eea647ae2e",
+            "source_words": 3,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00010",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "stored_request_descriptor_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 11060,
+        "private_utf8_byte_end": 11097,
+        "encoded_span_sha256": "5dea55bc64a6ed18d1c9b7ca518fca7ff1ed11726be1fd7233806e06bdab7df3",
+        "value_utf8_sha256": "42f7d753316e061b062a37e6c8d3cb6bdd83d9660912442368f19405d5fd65ad",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00011",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "stored_request_descriptor_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 11114,
+        "private_utf8_byte_end": 11182,
+        "encoded_span_sha256": "b37382fd9b85d66c0c03ba7e4a55e508c9c056b42b19e5e5686410af81bc094a",
+        "value_utf8_sha256": "c101e51c88f3fe5b457a7c8f9414a59b63c44cdc33d81c2de02697adc3b294f9",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00012",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "reconstructed_httpx_request_body_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 11332,
+        "private_utf8_byte_end": 11369,
+        "encoded_span_sha256": "5dea55bc64a6ed18d1c9b7ca518fca7ff1ed11726be1fd7233806e06bdab7df3",
+        "value_utf8_sha256": "42f7d753316e061b062a37e6c8d3cb6bdd83d9660912442368f19405d5fd65ad",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00013",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "reconstructed_httpx_request_body_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 11386,
+        "private_utf8_byte_end": 11454,
+        "encoded_span_sha256": "b37382fd9b85d66c0c03ba7e4a55e508c9c056b42b19e5e5686410af81bc094a",
+        "value_utf8_sha256": "c101e51c88f3fe5b457a7c8f9414a59b63c44cdc33d81c2de02697adc3b294f9",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00014",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "saved_raw_response_bytes",
+          "utf8_text"
+        ],
+        "private_utf8_byte_start": 11589,
+        "private_utf8_byte_end": 11626,
+        "encoded_span_sha256": "c65fd931a182bdef3a7b028bdc93a85f31f986e33614a3700cbb6f91c69d3c25",
+        "value_utf8_sha256": "b5b30540fe77475a4cbbe8d9dd4633857829257d196a7ed163e73bf0a1fb64d9",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00015",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v3/byte_forensics.json",
+        "private_file_sha256": "d3f4d37f464cbbbf14004cf6e098d6cb43ecadd5002aa94993baaaf89560740d",
+        "json_path": [
+          "byte_examples",
+          1,
+          "saved_raw_response_bytes",
+          "hex"
+        ],
+        "private_utf8_byte_start": 11643,
+        "private_utf8_byte_end": 11711,
+        "encoded_span_sha256": "3d423aef40da0c0feb9ddcab5988f28746a9d6c9d57738ec243e818ec106d083",
+        "value_utf8_sha256": "d949d569a81164b7587b2d8864b12a77e8aead6989ae9c021f3583a080d2e560",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
+}

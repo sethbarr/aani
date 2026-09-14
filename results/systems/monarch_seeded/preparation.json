@@ -1,0 +1,90 @@
+{
+  "system": "monarch_seeded",
+  "adapter_system": "monarch",
+  "offline": false,
+  "status": "awaiting_payload_export_approval",
+  "blocked_reason": null,
+  "prepared_at": "2026-09-13T19:24:37.017320+00:00",
+  "approval_status": "pending",
+  "external_payload_sent": false,
+  "model_api_called": false,
+  "payloads_prepared": true,
+  "model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "corpus": {
+    "system": "monarch_seeded",
+    "status": "complete",
+    "offline": false,
+    "ready_sources": 25,
+    "original_discovery_ready": 20,
+    "original_discovery_attempted": 22,
+    "retrieved_seed_sources": 5,
+    "deduplicated_sources": 0,
+    "screened_sources": 25,
+    "screened_in": 8,
+    "screened_out": 17,
+    "source_texts_byte_verified": 25,
+    "original_discovery_texts_archived": 20
+  },
+  "compatibility": {
+    "compatible": true,
+    "checks": {
+      "model_matches_original": true,
+      "provider_matches_original": true,
+      "config_sha256_matches_original": true,
+      "grounding_matches_original": true,
+      "regenerated_original_input_hashes_match": true,
+      "prompt_matches_all_original_payloads": true,
+      "schema_matches_all_original_payloads": true,
+      "original_payload_hashes_valid": true
+    },
+    "model": "gemini-3.8-flash",
+    "provider": "gemini",
+    "grounding_version": "single_quote_v1",
+    "maximum_characters": 24000,
+    "config_sha256": "438163ba972a5c405c3cc6dfd257bb74aaa3a643f27a6441184ef1347e8809dd",
+    "prompt_digest": "02f816bd104896fe8096a5181309fc84bb31bcff7673a80fba619162eb4467a8",
+    "schema_digest": "6bf3159e0f01541a983ebabe7b07af31d8c1fe6ec5c6db023db84b8fa801eec9",
+    "adapter_module_sha256": "bcf4e938e4271fb8bc506bbe4e7380cb1aa93abfee02d2e38425e0293543ed90",
+    "adapter_file_comparison": "The original module-file hash was unrecorded. Original complete payloads are regenerated and compared by hash; prompt and schema are compared directly.",
+    "original_payload_index_sha256": "cfa6ebac2669d3a1c8b38c25d6253967bd118f75ad845733c88d07b778369944",
+    "original_payload_count": 10
+  },
+  "jobs": 12,
+  "job_limit": 12,
+  "included_sources": [
+    "LEFEVRE2010",
+    "LEFEVRE2012",
+    "PMC12585044",
+    "PMC10370756",
+    "PMC10430791",
+    "PMC9197062"
+  ],
+  "sources_excluded_by_job_cap": [
+    "PMC9351326",
+    "PMC9273743"
+  ],
+  "grounding_version": "single_quote_v1",
+  "input_hashes": [
+    "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+    "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+    "d439161df97c68aca43c760469d35e5cdb4544a634685817c38d3c25f02546fc",
+    "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+    "f3d19f66cdd5e6e6c73791b7190c64752465d494971ef1c64ffa874c2c1605b5",
+    "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+    "428dbfc3cd6f7f665699a4a51713d1ddb20ec0673f0affd929d65660b85e4594",
+    "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+    "2cdaa5dde9c0ac2106a36788354e7958b9b98ffe1aed4fbdc877603908a7e17a",
+    "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+    "2666034203337d398a6d9d790e1443868bc2a18ece604ad6c5491b9e89c92c86",
+    "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc"
+  ],
+  "seed_sources_selected_for_extraction": [
+    "LEFEVRE2010",
+    "LEFEVRE2012"
+  ],
+  "corpus_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/corpus",
+  "screening_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/screening.json",
+  "payload_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/extraction_payloads",
+  "analysis_performed": false
+}

@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-13T19:27:50.972774+00:00",
+  "blocked_reason": null,
+  "tests": {
+    "command": [
+      ".venv/bin/pytest",
+      "-q",
+      "tests/test_cache_control_grounding.py",
+      "tests/test_multispan_v6.py",
+      "tests/test_cache_control_comparison.py",
+      "tests/test_cache_control_failures.py",
+      "tests/test_single_attempt_transport.py",
+      "tests/test_adaptive_glyph_grounding.py",
+      "tests/test_multispan_v4.py",
+      "tests/test_printable_confusable_grounding.py",
+      "tests/test_v5_grounding_modes.py",
+      "tests/test_generalized_glyph_modes.py",
+      "tests/test_v6_grounding_modes.py"
+    ],
+    "returncode": 0,
+    "result": "390 passed in 1.03s",
+    "blocked_reason": null
+  },
+  "lint": {
+    "command": [
+      ".venv/bin/ruff",
+      "check",
+      "scripts/verify_grounding_v6.py",
+      "scripts/draw_grounding_v6_holdout.py",
+      "scripts/run_frozen_v6.py",
+      "scripts/audit_grounding_v6_holdout.py",
+      "scripts/report_grounding_v6.py",
+      "scripts/test_grounding_v6.py",
+      "src/extraction/cache_control_grounding.py",
+      "src/extraction/multispan_v6.py",
+      "src/extraction/single_attempt_transport.py",
+      "src/evaluation/cache_control_comparison.py",
+      "src/evaluation/cache_control_failures.py",
+      "src/extraction/pipeline.py",
+      "scripts/extract.py",
+      "tests/test_cache_control_grounding.py",
+      "tests/test_multispan_v6.py",
+      "tests/test_cache_control_comparison.py",
+      "tests/test_cache_control_failures.py",
+      "tests/test_single_attempt_transport.py",
+      "tests/test_adaptive_glyph_grounding.py",
+      "tests/test_multispan_v4.py",
+      "tests/test_printable_confusable_grounding.py",
+      "tests/test_v5_grounding_modes.py",
+      "tests/test_generalized_glyph_modes.py",
+      "tests/test_v6_grounding_modes.py"
+    ],
+    "returncode": 0,
+    "result": "All checks passed!",
+    "blocked_reason": null
+  },
+  "sample4_not_drawn": true
+}

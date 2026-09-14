@@ -16,7 +16,7 @@ Protocol: `98b5e09199a5eef0c46be452793e953f5a2af31e`.
 | genera_with_classified_compounds | 7 | eligible genera with at least one active or inactive compound; complete |
 | genera_available_for_primary_test | 7 | joined genera available before the feasibility gate; complete |
 
-The model branch is separate from curator recovery: 96 retained directional contexts before taxonomy, including source-following corrections and the complete Saverschek audit. These are not 96 model successes or independent observations.
+The current [behaviour metrics](../data/processed/behaviour/metrics.json) record 96 retained directional contexts: 6 model and 90 curator, including 87 Saverschek contexts. Those Saverschek contexts include the seven taxonomy-supplement contexts. The original model branch retains its separate nine-record source-review yield; curator replacement changes the final representation. Contexts share source evidence and are not independent biological observations.
 
 Miconia verification: **conflict**; both accepted species identities and opposing directions were checked from records.
 

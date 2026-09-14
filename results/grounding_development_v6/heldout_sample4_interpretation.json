@@ -1,0 +1,68 @@
+{
+  "score_sha256": "b45d43aeb292ad89a1e9dd53d5ae8854e43b6948453a5bc46b78d19acaaa6dc8",
+  "glyph_audit_sha256": "709cd694e8c6c95dd3d96414739615a60fd9f8e42f3ffefe0b1b0fcf8dfeeb1f",
+  "verdict": "Sample 4 leaves v6’s cache-side generalisation untested because none of its 13 proposals exercised the new route; proposal omissions limited PRIMARY to 2 of 6 and CONTEXT to 3 of 10.",
+  "route_counts": {
+    "exact": 42,
+    "source_anchored_control_glyph": 1
+  },
+  "records_using_cache_control": 0,
+  "unproposed_reference_pairs": [
+    {
+      "species": "Hiraea grandifolia",
+      "group": "PRIMARY",
+      "direction": "rejected"
+    },
+    {
+      "species": "Randia armata",
+      "group": "PRIMARY",
+      "direction": "rejected"
+    },
+    {
+      "species": "Sorocea affinis",
+      "group": "PRIMARY",
+      "direction": "rejected"
+    },
+    {
+      "species": "Trema micrantha",
+      "group": "PRIMARY",
+      "direction": "rejected"
+    },
+    {
+      "species": "Inga goldmanii",
+      "group": "CONTEXT",
+      "direction": "accepted"
+    },
+    {
+      "species": "Inga goldmanii",
+      "group": "CONTEXT",
+      "direction": "rejected"
+    },
+    {
+      "species": "Tetragastris panamensis",
+      "group": "CONTEXT",
+      "direction": "accepted"
+    },
+    {
+      "species": "Tetragastris panamensis",
+      "group": "CONTEXT",
+      "direction": "rejected"
+    },
+    {
+      "species": "Trichilia tuberculata",
+      "group": "CONTEXT",
+      "direction": "accepted"
+    },
+    {
+      "species": "Trichilia tuberculata",
+      "group": "CONTEXT",
+      "direction": "rejected"
+    },
+    {
+      "species": "Miconia argentea",
+      "group": "CONTEXT",
+      "direction": "rejected"
+    }
+  ],
+  "rule_changed_after_draw": false
+}

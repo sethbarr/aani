@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "system": "propolis",
+  "status": "complete",
+  "blocked_reason": null,
+  "review_type": "post_extraction_semantic_review",
+  "review_date": "2026-09-13",
+  "input_path": "data/interim/systems/propolis/extraction/observations.jsonl",
+  "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "rejected_candidates_path": "data/interim/systems/propolis/extraction/rejections.jsonl",
+  "rejected_candidates_sha256": "64f6af7454f1d18c74c400450cc7fef9daacc793b47187ab4da47c63a39ee315",
+  "model_candidates": 2,
+  "grounded_records": 0,
+  "reviewed": 0,
+  "rejected_candidates_audited": 2,
+  "included": 0,
+  "excluded": 0,
+  "secondary_included": 0,
+  "primary_source_included": 0,
+  "direct_directional_included": 0,
+  "focal_eligible": 0,
+  "eligible_output_path": "data/interim/systems/propolis/semantic_review/observations.jsonl",
+  "criteria": [
+    "Grounding rejection precedes semantic eligibility. Preserve raw rejected candidates and document why they failed.",
+    "The frozen whitespace-only quote rule is retained; no quote repair, validation-rule change, or additional model sample is applied."
+  ],
+  "limitations": [
+    "Both candidates describe one secondary Populus preference statement in the same source and context.",
+    "Both quotes substitute U+2011 NON-BREAKING HYPHEN for source U+2010 HYPHEN. The section strings have the same substitution. Whitespace normalization preserves this difference.",
+    "Zero retained records reflect extraction and strict grounding attrition within the approved sample. They do not establish absent bee behavior, missing plant chemistry, or missing fungal assay coverage.",
+    "The poplar common-name candidate also needs taxonomic review if evaluated under a future grounding extension."
+  ],
+  "decisions": [
+    {
+      "candidate_hash": "aa19e89f5e021b21acc17a632f3ce1c1e136729c50accae361c364ca0c0b5463",
+      "source_id": "PMC12950336",
+      "input_hash": "4b71fa5646642c1c984de9441886ff3d8306af4d4995ad22c844ce225cd2f6f0",
+      "block_id": "b00047",
+      "target_name_as_written": "Populus nigra",
+      "decision": "grounding_excluded",
+      "grounding_reason": "ungrounded_quote",
+      "additional_check_failure": "section_mismatch",
+      "quote_difference": {
+        "candidate_character": "U+2011",
+        "source_character": "U+2010",
+        "context": "phenolic-rich"
+      },
+      "semantic_secondary": true,
+      "semantic_direct_observation": false,
+      "focal_eligible": false,
+      "reason": "The model reported a secondary, geographically contextual Populus preference. Its quote and section fail exact source matching under the approved rule."
+    },
+    {
+      "candidate_hash": "c68fed94ca9a7e7259b2cdc0d79f9c297404187c5e032ef1d0f82d4c615d0e34",
+      "source_id": "PMC12950336",
+      "input_hash": "4b71fa5646642c1c984de9441886ff3d8306af4d4995ad22c844ce225cd2f6f0",
+      "block_id": "b00047",
+      "target_name_as_written": "poplar",
+      "decision": "grounding_excluded",
+      "grounding_reason": "ungrounded_quote",
+      "additional_check_failure": "section_mismatch",
+      "quote_difference": {
+        "candidate_character": "U+2011",
+        "source_character": "U+2010",
+        "context": "phenolic-rich"
+      },
+      "semantic_secondary": true,
+      "semantic_direct_observation": false,
+      "focal_eligible": false,
+      "reason": "The candidate repeats the same secondary preference at common-name level. Quote and section mismatches exclude it; it supplies no independent observation."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "verified_at": "2026-09-13T17:38:29.957257+00:00",
+  "system": "attine_actino",
+  "status": "complete",
+  "analysis_freeze_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
+  "config_path": "config/attine_actino_taxonomy_microbial.json",
+  "config_sha256": "9b6ef122ab0a041101e0c140c099b492e30a9b7916fd3bbf20992f150575a075",
+  "offline_replay_verified": true,
+  "model_api_called": false,
+  "gbif_api_called": false,
+  "chemistry_run": false,
+  "bioactivity_run": false,
+  "input_path": "data/interim/systems/attine_actino/semantic_review/observations.jsonl",
+  "input_sha256": "0d986cfe447e5d060e9ebaf59b16f690fc18bc5322005b75f24cb89658093ba5",
+  "output_path": "data/interim/systems/attine_actino/taxonomy_microbial",
+  "metrics": {
+    "status": "complete",
+    "offline": true,
+    "external_requests": 0,
+    "input_observations": 5,
+    "matched_observations": 5,
+    "review_observations": 0,
+    "unique_names": 1,
+    "resolved_genera": [
+      "Pseudonocardia"
+    ],
+    "resolved_taxa": 1,
+    "taxonomy_request_hashes": [
+      "8c7f44df24ab6264e885096e6e0986b1f40841595e361189ce4d24a489223398"
+    ],
+    "rule": {
+      "schema_version": 1,
+      "system_slug": "attine_actino",
+      "scope": "microbial",
+      "query_kingdom_hint": "Bacteria",
+      "required_domain": "Bacteria",
+      "required_rank": "genus",
+      "required_match_type": "EXACT",
+      "minimum_confidence": 90,
+      "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b"
+    }
+  },
+  "preserved_artifact_sha256": {
+    "positive_control": "334e295e77e727662592cec9f6cc929242b73797ea2808a7d42ab49dc7f4b45f",
+    "original_taxonomy_metrics": "2d4de2b5213812dda16aad63cbaa330d56fa986460dc8b9fac3a2efb3cd18f75"
+  },
+  "output_sha256": {
+    "observations": "92350013da0beec29c03bd0bac4acd7fecc11bd890f9821541299ab8d6f864dd",
+    "review": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "metrics": "6c661f5119c66b3875aa8a4f4c4e06be2533d47cebe0a36cf1c81e663ab7709c"
+  }
+}

@@ -1,0 +1,1010 @@
+{
+  "status": "complete",
+  "blocked_reason": null,
+  "model_requests": 0,
+  "applied_to_validator": false,
+  "score_path": "results/grounding_development_v4/heldout_scores.json",
+  "classification_unit": "first_ordered_failure_per_rejected_record",
+  "candidate_records_seen": 24,
+  "rejected_records": 11,
+  "category_counts": {
+    "unresolved_control_glyph": 0,
+    "printable_unicode_substitution": 0,
+    "identity": 3,
+    "name_surface": 1,
+    "other": 7
+  },
+  "ordered_failure_reason_counts": {
+    "invalid_exact_name_link": 1,
+    "name_surface_not_in_quote": 1,
+    "ungrounded_quote": 7,
+    "unabbreviated_genus_required": 2
+  },
+  "first_failure_substitutions": [],
+  "all_rejected_span_substitutions": [],
+  "records": [
+    {
+      "record_id": "cc34faea50709719e62a24a2007fef9b9472d21a48b08b710b4059bf374ce56f",
+      "raw_candidate_hash": "cc34faea50709719e62a24a2007fef9b9472d21a48b08b710b4059bf374ce56f",
+      "input_hash": "914636fec704329306215ae0369c2f33e7a883f54f943d487a405a2c13693784",
+      "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 0,
+      "candidate_index": 0,
+      "proposal_order": 0,
+      "plant_name_as_written": "Stigmaphyllon lindenianum",
+      "outcome": "accepted",
+      "ordered_failure_reason": "invalid_exact_name_link",
+      "category": "identity",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/914636fec704329306215ae0369c2f33e7a883f54f943d487a405a2c13693784.json",
+      "response_envelope_sha256": "9e335f7217c927eb46ac260198a9b31bc1cecbeb905e3728a382772a4e7cfb1a",
+      "first_failure_span": null,
+      "rejected_spans_in_validator_order": [],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "07bf489c64065adee948ce0b5b91940bc900626fb37041f34a3e8a82c2287232",
+      "raw_candidate_hash": "07bf489c64065adee948ce0b5b91940bc900626fb37041f34a3e8a82c2287232",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 10,
+      "proposal_order": 11,
+      "plant_name_as_written": "Hymenaea courbaril",
+      "outcome": "rejected",
+      "ordered_failure_reason": "name_surface_not_in_quote",
+      "category": "name_surface",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": null,
+      "rejected_spans_in_validator_order": [],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "610b4c743e780f51f60b42e14455a32cf0dc5e06b225f76b4fb205d9ac72bdc6",
+      "raw_candidate_hash": "610b4c743e780f51f60b42e14455a32cf0dc5e06b225f76b4fb205d9ac72bdc6",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 11,
+      "proposal_order": 12,
+      "plant_name_as_written": "Inga goldmanii",
+      "outcome": "accepted",
+      "ordered_failure_reason": "ungrounded_quote",
+      "category": "other",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": {
+        "field": "evidence_quote",
+        "index": null,
+        "route": "rejected",
+        "source_id": "SAVERSCHEK2010",
+        "source_block": "b00003",
+        "section": "Published page 692; PDF page 4",
+        "emitted_quote": {
+          "private_reference": "r00000"
+        },
+        "rejection_reason": "ungrounded_quote",
+        "conflicting_match_evidence": null,
+        "diagnostic": {
+          "status": "unattributed",
+          "applied_to_validator": false,
+          "unique_source_alignment": false,
+          "alignment_count": 0,
+          "blocked_reason": "no_exact_other_characters_alignment",
+          "evidence": null
+        }
+      },
+      "rejected_spans_in_validator_order": [
+        {
+          "field": "evidence_quote",
+          "index": null,
+          "route": "rejected",
+          "source_id": "SAVERSCHEK2010",
+          "source_block": "b00003",
+          "section": "Published page 692; PDF page 4",
+          "emitted_quote": {
+            "private_reference": "r00001"
+          },
+          "rejection_reason": "ungrounded_quote",
+          "conflicting_match_evidence": null,
+          "diagnostic": {
+            "status": "unattributed",
+            "applied_to_validator": false,
+            "unique_source_alignment": false,
+            "alignment_count": 0,
+            "blocked_reason": "no_exact_other_characters_alignment",
+            "evidence": null
+          }
+        }
+      ],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "5e350c3f4b391ce7c9118f80fdcded2567d5fd026305150f81930d41bbd4bbde",
+      "raw_candidate_hash": "5e350c3f4b391ce7c9118f80fdcded2567d5fd026305150f81930d41bbd4bbde",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 12,
+      "proposal_order": 13,
+      "plant_name_as_written": "Inga goldmanii",
+      "outcome": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "category": "other",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": {
+        "field": "evidence_quote",
+        "index": null,
+        "route": "rejected",
+        "source_id": "SAVERSCHEK2010",
+        "source_block": "b00003",
+        "section": "Published page 692; PDF page 4",
+        "emitted_quote": {
+          "private_reference": "r00002"
+        },
+        "rejection_reason": "ungrounded_quote",
+        "conflicting_match_evidence": null,
+        "diagnostic": {
+          "status": "unattributed",
+          "applied_to_validator": false,
+          "unique_source_alignment": false,
+          "alignment_count": 0,
+          "blocked_reason": "no_exact_other_characters_alignment",
+          "evidence": null
+        }
+      },
+      "rejected_spans_in_validator_order": [
+        {
+          "field": "evidence_quote",
+          "index": null,
+          "route": "rejected",
+          "source_id": "SAVERSCHEK2010",
+          "source_block": "b00003",
+          "section": "Published page 692; PDF page 4",
+          "emitted_quote": {
+            "private_reference": "r00003"
+          },
+          "rejection_reason": "ungrounded_quote",
+          "conflicting_match_evidence": null,
+          "diagnostic": {
+            "status": "unattributed",
+            "applied_to_validator": false,
+            "unique_source_alignment": false,
+            "alignment_count": 0,
+            "blocked_reason": "no_exact_other_characters_alignment",
+            "evidence": null
+          }
+        }
+      ],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "ced5ecf3436c1b0076d49b676175d83a374d11cf43dbc76f6506845d86002fe1",
+      "raw_candidate_hash": "ced5ecf3436c1b0076d49b676175d83a374d11cf43dbc76f6506845d86002fe1",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 13,
+      "proposal_order": 14,
+      "plant_name_as_written": "Tetragastris panamensis",
+      "outcome": "accepted",
+      "ordered_failure_reason": "ungrounded_quote",
+      "category": "other",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": {
+        "field": "evidence_quote",
+        "index": null,
+        "route": "rejected",
+        "source_id": "SAVERSCHEK2010",
+        "source_block": "b00003",
+        "section": "Published page 692; PDF page 4",
+        "emitted_quote": {
+          "private_reference": "r00004"
+        },
+        "rejection_reason": "ungrounded_quote",
+        "conflicting_match_evidence": null,
+        "diagnostic": {
+          "status": "unattributed",
+          "applied_to_validator": false,
+          "unique_source_alignment": false,
+          "alignment_count": 0,
+          "blocked_reason": "no_exact_other_characters_alignment",
+          "evidence": null
+        }
+      },
+      "rejected_spans_in_validator_order": [
+        {
+          "field": "evidence_quote",
+          "index": null,
+          "route": "rejected",
+          "source_id": "SAVERSCHEK2010",
+          "source_block": "b00003",
+          "section": "Published page 692; PDF page 4",
+          "emitted_quote": {
+            "private_reference": "r00005"
+          },
+          "rejection_reason": "ungrounded_quote",
+          "conflicting_match_evidence": null,
+          "diagnostic": {
+            "status": "unattributed",
+            "applied_to_validator": false,
+            "unique_source_alignment": false,
+            "alignment_count": 0,
+            "blocked_reason": "no_exact_other_characters_alignment",
+            "evidence": null
+          }
+        }
+      ],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "765778645bfe45f15b1c9e3fbcdd347d9e1969773c3abc42e19a1ad52f83d504",
+      "raw_candidate_hash": "765778645bfe45f15b1c9e3fbcdd347d9e1969773c3abc42e19a1ad52f83d504",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 14,
+      "proposal_order": 15,
+      "plant_name_as_written": "Tetragastris panamensis",
+      "outcome": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "category": "other",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": {
+        "field": "evidence_quote",
+        "index": null,
+        "route": "rejected",
+        "source_id": "SAVERSCHEK2010",
+        "source_block": "b00003",
+        "section": "Published page 692; PDF page 4",
+        "emitted_quote": {
+          "private_reference": "r00006"
+        },
+        "rejection_reason": "ungrounded_quote",
+        "conflicting_match_evidence": null,
+        "diagnostic": {
+          "status": "unattributed",
+          "applied_to_validator": false,
+          "unique_source_alignment": false,
+          "alignment_count": 0,
+          "blocked_reason": "no_exact_other_characters_alignment",
+          "evidence": null
+        }
+      },
+      "rejected_spans_in_validator_order": [
+        {
+          "field": "evidence_quote",
+          "index": null,
+          "route": "rejected",
+          "source_id": "SAVERSCHEK2010",
+          "source_block": "b00003",
+          "section": "Published page 692; PDF page 4",
+          "emitted_quote": {
+            "private_reference": "r00007"
+          },
+          "rejection_reason": "ungrounded_quote",
+          "conflicting_match_evidence": null,
+          "diagnostic": {
+            "status": "unattributed",
+            "applied_to_validator": false,
+            "unique_source_alignment": false,
+            "alignment_count": 0,
+            "blocked_reason": "no_exact_other_characters_alignment",
+            "evidence": null
+          }
+        }
+      ],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "b36b24567132641c9e6600eb759f530491ebf0083a17ea92bf2fd761eb335bec",
+      "raw_candidate_hash": "b36b24567132641c9e6600eb759f530491ebf0083a17ea92bf2fd761eb335bec",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 15,
+      "proposal_order": 16,
+      "plant_name_as_written": "Tetragastris panamensis",
+      "outcome": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "category": "other",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": {
+        "field": "evidence_quote",
+        "index": null,
+        "route": "rejected",
+        "source_id": "SAVERSCHEK2010",
+        "source_block": "b00003",
+        "section": "Published page 692; PDF page 4",
+        "emitted_quote": {
+          "private_reference": "r00008"
+        },
+        "rejection_reason": "ungrounded_quote",
+        "conflicting_match_evidence": null,
+        "diagnostic": {
+          "status": "unattributed",
+          "applied_to_validator": false,
+          "unique_source_alignment": false,
+          "alignment_count": 0,
+          "blocked_reason": "no_exact_other_characters_alignment",
+          "evidence": null
+        }
+      },
+      "rejected_spans_in_validator_order": [
+        {
+          "field": "evidence_quote",
+          "index": null,
+          "route": "rejected",
+          "source_id": "SAVERSCHEK2010",
+          "source_block": "b00003",
+          "section": "Published page 692; PDF page 4",
+          "emitted_quote": {
+            "private_reference": "r00009"
+          },
+          "rejection_reason": "ungrounded_quote",
+          "conflicting_match_evidence": null,
+          "diagnostic": {
+            "status": "unattributed",
+            "applied_to_validator": false,
+            "unique_source_alignment": false,
+            "alignment_count": 0,
+            "blocked_reason": "no_exact_other_characters_alignment",
+            "evidence": null
+          }
+        }
+      ],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "cbc4d423967a9379a60458ab66577daae6ae5f874fb4c247970696198f6cbd19",
+      "raw_candidate_hash": "cbc4d423967a9379a60458ab66577daae6ae5f874fb4c247970696198f6cbd19",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 16,
+      "proposal_order": 17,
+      "plant_name_as_written": "Trichilia tuberculata",
+      "outcome": "accepted",
+      "ordered_failure_reason": "ungrounded_quote",
+      "category": "other",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": {
+        "field": "evidence_quote",
+        "index": null,
+        "route": "rejected",
+        "source_id": "SAVERSCHEK2010",
+        "source_block": "b00003",
+        "section": "Published page 692; PDF page 4",
+        "emitted_quote": {
+          "private_reference": "r00010"
+        },
+        "rejection_reason": "ungrounded_quote",
+        "conflicting_match_evidence": null,
+        "diagnostic": {
+          "status": "unattributed",
+          "applied_to_validator": false,
+          "unique_source_alignment": false,
+          "alignment_count": 0,
+          "blocked_reason": "no_exact_other_characters_alignment",
+          "evidence": null
+        }
+      },
+      "rejected_spans_in_validator_order": [
+        {
+          "field": "evidence_quote",
+          "index": null,
+          "route": "rejected",
+          "source_id": "SAVERSCHEK2010",
+          "source_block": "b00003",
+          "section": "Published page 692; PDF page 4",
+          "emitted_quote": {
+            "private_reference": "r00011"
+          },
+          "rejection_reason": "ungrounded_quote",
+          "conflicting_match_evidence": null,
+          "diagnostic": {
+            "status": "unattributed",
+            "applied_to_validator": false,
+            "unique_source_alignment": false,
+            "alignment_count": 0,
+            "blocked_reason": "no_exact_other_characters_alignment",
+            "evidence": null
+          }
+        }
+      ],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "d9844a1898e93c3354fbd2749a35e06620c59db166a85956da9188c7a7c10b57",
+      "raw_candidate_hash": "d9844a1898e93c3354fbd2749a35e06620c59db166a85956da9188c7a7c10b57",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 18,
+      "proposal_order": 19,
+      "plant_name_as_written": "Trichilia tuberculata",
+      "outcome": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "category": "other",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": {
+        "field": "evidence_quote",
+        "index": null,
+        "route": "rejected",
+        "source_id": "SAVERSCHEK2010",
+        "source_block": "b00003",
+        "section": "Published page 692; PDF page 4",
+        "emitted_quote": {
+          "private_reference": "r00012"
+        },
+        "rejection_reason": "ungrounded_quote",
+        "conflicting_match_evidence": null,
+        "diagnostic": {
+          "status": "unattributed",
+          "applied_to_validator": false,
+          "unique_source_alignment": false,
+          "alignment_count": 0,
+          "blocked_reason": "no_exact_other_characters_alignment",
+          "evidence": null
+        }
+      },
+      "rejected_spans_in_validator_order": [
+        {
+          "field": "evidence_quote",
+          "index": null,
+          "route": "rejected",
+          "source_id": "SAVERSCHEK2010",
+          "source_block": "b00003",
+          "section": "Published page 692; PDF page 4",
+          "emitted_quote": {
+            "private_reference": "r00013"
+          },
+          "rejection_reason": "ungrounded_quote",
+          "conflicting_match_evidence": null,
+          "diagnostic": {
+            "status": "unattributed",
+            "applied_to_validator": false,
+            "unique_source_alignment": false,
+            "alignment_count": 0,
+            "blocked_reason": "no_exact_other_characters_alignment",
+            "evidence": null
+          }
+        }
+      ],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "c6bb70ed5c2c0f02612c6240796da39c1e9e245739b9ce54b7dab72ef3bc425e",
+      "raw_candidate_hash": "c6bb70ed5c2c0f02612c6240796da39c1e9e245739b9ce54b7dab72ef3bc425e",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 19,
+      "proposal_order": 20,
+      "plant_name_as_written": "S. lindenianum",
+      "outcome": "accepted",
+      "ordered_failure_reason": "unabbreviated_genus_required",
+      "category": "identity",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": null,
+      "rejected_spans_in_validator_order": [],
+      "later_non_quote_gates_adjudicated": false
+    },
+    {
+      "record_id": "08e01008db0e7c2e2014a4d01dd6ede81e4a40098a8a847aa146d557ab4b0ea6",
+      "raw_candidate_hash": "08e01008db0e7c2e2014a4d01dd6ede81e4a40098a8a847aa146d557ab4b0ea6",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "source_id": "SAVERSCHEK2010",
+      "chunk_index": 1,
+      "candidate_index": 20,
+      "proposal_order": 21,
+      "plant_name_as_written": "S. lindenianum",
+      "outcome": "rejected",
+      "ordered_failure_reason": "unabbreviated_genus_required",
+      "category": "identity",
+      "response_envelope_path": "data/interim/extraction_saverschek_multispan_v4_sample3/responses/2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a.json",
+      "response_envelope_sha256": "87ec37223667e4b31979aa8af0cc7b68213d6ef8ec9c1aa4075808979c94dc2a",
+      "first_failure_span": null,
+      "rejected_spans_in_validator_order": [],
+      "later_non_quote_gates_adjudicated": false
+    }
+  ],
+  "score_sha256": "03bb36570391c2e1de5ebdf906b704869d1f1c528b989f7767a3555b3e00c37e",
+  "audit_started_at": "2026-09-13T17:33:43.763387+00:00",
+  "audit_completed_at": "2026-09-13T17:33:43.830470+00:00",
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+    "original_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          2,
+          "first_failure_span",
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 4065,
+        "private_utf8_byte_end": 4320,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          2,
+          "rejected_spans_in_validator_order",
+          0,
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 5011,
+        "private_utf8_byte_end": 5266,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00002",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          3,
+          "first_failure_span",
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 6919,
+        "private_utf8_byte_end": 7174,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00003",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          3,
+          "rejected_spans_in_validator_order",
+          0,
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 7865,
+        "private_utf8_byte_end": 8120,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00004",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          4,
+          "first_failure_span",
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 9782,
+        "private_utf8_byte_end": 10037,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00005",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          4,
+          "rejected_spans_in_validator_order",
+          0,
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 10728,
+        "private_utf8_byte_end": 10983,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00006",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          5,
+          "first_failure_span",
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 12645,
+        "private_utf8_byte_end": 12900,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00007",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          5,
+          "rejected_spans_in_validator_order",
+          0,
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 13591,
+        "private_utf8_byte_end": 13846,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00008",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          6,
+          "first_failure_span",
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 15508,
+        "private_utf8_byte_end": 15902,
+        "encoded_span_sha256": "829e77e7ce016e27dd8c7008eb624414eaa774fbb80bb356a81d18e27322664b",
+        "value_utf8_sha256": "8f8553500da68860d9dab4853483c8eaa7bbbe749719e37adf5082c7fda20871",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "22a7d4c62ab5502046f114ec59b88827f48af4b328b9e465b0bfdc5ecb0fb177",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00009",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          6,
+          "rejected_spans_in_validator_order",
+          0,
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 16593,
+        "private_utf8_byte_end": 16987,
+        "encoded_span_sha256": "829e77e7ce016e27dd8c7008eb624414eaa774fbb80bb356a81d18e27322664b",
+        "value_utf8_sha256": "8f8553500da68860d9dab4853483c8eaa7bbbe749719e37adf5082c7fda20871",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "22a7d4c62ab5502046f114ec59b88827f48af4b328b9e465b0bfdc5ecb0fb177",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00010",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          7,
+          "first_failure_span",
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 18647,
+        "private_utf8_byte_end": 18902,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00011",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          7,
+          "rejected_spans_in_validator_order",
+          0,
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 19593,
+        "private_utf8_byte_end": 19848,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00012",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          8,
+          "first_failure_span",
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 21508,
+        "private_utf8_byte_end": 21902,
+        "encoded_span_sha256": "829e77e7ce016e27dd8c7008eb624414eaa774fbb80bb356a81d18e27322664b",
+        "value_utf8_sha256": "8f8553500da68860d9dab4853483c8eaa7bbbe749719e37adf5082c7fda20871",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "22a7d4c62ab5502046f114ec59b88827f48af4b328b9e465b0bfdc5ecb0fb177",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00013",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_failures.json",
+        "private_file_sha256": "d06e2149d4a747846ef1784a93cb11af8cf281580a4f84e28d214c6063216232",
+        "json_path": [
+          "records",
+          8,
+          "rejected_spans_in_validator_order",
+          0,
+          "emitted_quote"
+        ],
+        "private_utf8_byte_start": 22593,
+        "private_utf8_byte_end": 22987,
+        "encoded_span_sha256": "829e77e7ce016e27dd8c7008eb624414eaa774fbb80bb356a81d18e27322664b",
+        "value_utf8_sha256": "8f8553500da68860d9dab4853483c8eaa7bbbe749719e37adf5082c7fda20871",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "22a7d4c62ab5502046f114ec59b88827f48af4b328b9e465b0bfdc5ecb0fb177",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
+}

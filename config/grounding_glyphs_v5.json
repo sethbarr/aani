@@ -1,0 +1,19 @@
+{
+  "version": "printable_confusables_v5",
+  "control_glyph_policy": {
+    "version": "glyph_v4",
+    "model_characters": "non_whitespace_c0",
+    "source_glyphs": ["±", "¼"],
+    "mapping_scope": "candidate",
+    "alignment": "unique_equal_length"
+  },
+  "printable_equivalence_classes": [
+    ["-", "‐", "‑", "‒", "–", "—", "−"],
+    ["'", "‘", "’"],
+    ["\"", "“", "”"],
+    [" ", " "]
+  ],
+  "mapping_scope": "candidate",
+  "alignment": "unique_equal_length",
+  "comparison_order": ["exact", "control_glyph_v4", "printable_confusable"]
+}

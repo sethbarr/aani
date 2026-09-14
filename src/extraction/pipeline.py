@@ -1,5 +1,6 @@
 """Export, execute or import reproducible structured extraction requests."""
 
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -16,8 +17,26 @@ from src.common.io import (
     write_json,
     write_jsonl,
 )
+from src.extraction.ant_identity import resolve_source_ant_identity
 from src.extraction.errors import ExtractionServiceUnavailable
 from src.extraction.gemini import request_gemini
+from src.extraction.identity_prompt import source_identity_prompt
+from src.extraction.multispan import MultiSpanExtraction, validate_multispan_candidate
+from src.extraction.multispan_v2 import validate_multispan_v2_candidate
+from src.extraction.multispan_v3 import candidate_grounding_audit, validate_multispan_v3_candidate
+from src.extraction.multispan_v4 import (
+    candidate_grounding_audit_v4,
+    validate_multispan_v4_candidate,
+)
+from src.extraction.multispan_v5 import (
+    candidate_grounding_audit_v5,
+    validate_multispan_v5_candidate,
+)
+from src.extraction.multispan_v6 import (
+    candidate_grounding_audit_v6,
+    validate_multispan_v6_candidate,
+)
+from src.extraction.prompts import MULTISPAN_PROMPT
 from src.extraction.schema import PROMPT, Extraction, Observation
 
 
@@ -26,8 +45,21 @@ def make_jobs(
     maximum_characters: int = 24000,
     screening: Path | None = None,
     limit_papers: int | None = None,
+    grounding_version: str = "single_quote_v1",
+    ant_identity_overrides: dict | None = None,
+    glyph_policy: dict | None = None,
 ) -> list[dict]:
     """Partition complete source blocks without silently truncating paper text."""
+    if grounding_version not in {"single_quote_v1", "multispan_v1", "multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+        raise ValueError(f"Unsupported grounding version: {grounding_version}")
+    if ant_identity_overrides is not None and grounding_version not in {"multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+        raise ValueError("Ant identity overrides require multispan_v2")
+    if glyph_policy is not None and grounding_version not in {"multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+        raise ValueError("Glyph policy requires multispan_v3")
+    if grounding_version in {"multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"} and glyph_policy is None:
+        policy_name = f"grounding_glyphs_{grounding_version.split('_')[-1]}.json"
+        policy_path = Path(__file__).resolve().parents[2] / "config" / policy_name
+        glyph_policy = read_json(policy_path)
     papers = read_jsonl(corpus / "manifest.jsonl")
     if screening is not None:
         decisions = read_json(screening)["decisions"]
@@ -49,6 +81,11 @@ def make_jobs(
     jobs = []
     for paper in papers:
         document = read_json(corpus / "texts" / f"{paper['source_id']}.json")
+        identity = None
+        if grounding_version in {"multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+            identity = resolve_source_ant_identity(
+                paper, document, (ant_identity_overrides or {}).get(paper["source_id"])
+            )
         chunks = []
         current = []
         size = 0
@@ -71,6 +108,24 @@ def make_jobs(
                 "schema": Extraction.model_json_schema(),
                 "blocks": blocks,
             }
+            if grounding_version == "multispan_v1":
+                job.update({"prompt": MULTISPAN_PROMPT,
+                            "schema": MultiSpanExtraction.model_json_schema(),
+                            "grounding_version": grounding_version})
+            elif grounding_version in {"multispan_v2", "multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+                job.update({"prompt": source_identity_prompt(identity),
+                            "schema": MultiSpanExtraction.model_json_schema(),
+                            "grounding_version": grounding_version,
+                            "source_ant_identity": identity})
+                if grounding_version in {"multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"}:
+                    job["glyph_policy"] = glyph_policy
+                if grounding_version in {"multispan_v4", "multispan_v5", "multispan_v6"}:
+                    job["glyph_source_hashes"] = {
+                        "source_id": paper["source_id"],
+                        "blocks": {block["block_id"]: hashlib.sha256(
+                            block["text"].encode("utf-8")
+                        ).hexdigest() for block in blocks},
+                    }
             job["input_hash"] = digest(job)
             jobs.append(job)
     return jobs
@@ -118,7 +173,7 @@ def request_extraction(
     body = {
         "model": model,
         "store": False,
-        "instructions": PROMPT,
+        "instructions": job.get("prompt", PROMPT),
         "input": json.dumps(
             {"source_id": job["source_id"], "title": job["title"], "blocks": job["blocks"]}
         ),
@@ -223,6 +278,7 @@ def run_extraction(
 ) -> dict:
     """Validate API or imported answers and separately count incomplete papers."""
     accepted, rejected, failures, status = [], [], [], []
+    glyph_audits: list[dict] = []
     blocked_reason = None
     for job_index, job in enumerate(jobs):
         try:
@@ -249,8 +305,45 @@ def run_extraction(
             records = envelope["output"]["records"]
             if not isinstance(records, list):
                 raise ValueError("output.records must be an array")
-            for candidate in records:
-                valid, reason = validate_candidate(candidate, job, minimum_confidence)
+            for candidate_index, candidate in enumerate(records):
+                if job.get("grounding_version") == "multispan_v1":
+                    valid, reason = validate_multispan_candidate(candidate, job, minimum_confidence)
+                elif job.get("grounding_version") == "multispan_v2":
+                    valid, reason = validate_multispan_v2_candidate(candidate, job, minimum_confidence)
+                elif job.get("grounding_version") == "multispan_v3":
+                    valid, reason = validate_multispan_v3_candidate(candidate, job, minimum_confidence)
+                    glyph_audits.append({
+                        "source_id": job["source_id"], "input_hash": job["input_hash"],
+                        "candidate_index": candidate_index, "raw_candidate_hash": digest(candidate),
+                        "survived": valid is not None, "rejection_reason": reason,
+                        **candidate_grounding_audit(candidate, job),
+                    })
+                elif job.get("grounding_version") == "multispan_v4":
+                    valid, reason = validate_multispan_v4_candidate(candidate, job, minimum_confidence)
+                    glyph_audits.append({
+                        "source_id": job["source_id"], "input_hash": job["input_hash"],
+                        "candidate_index": candidate_index, "raw_candidate_hash": digest(candidate),
+                        "survived": valid is not None, "rejection_reason": reason,
+                        **candidate_grounding_audit_v4(candidate, job),
+                    })
+                elif job.get("grounding_version") == "multispan_v5":
+                    valid, reason = validate_multispan_v5_candidate(candidate, job, minimum_confidence)
+                    glyph_audits.append({
+                        "source_id": job["source_id"], "input_hash": job["input_hash"],
+                        "candidate_index": candidate_index, "raw_candidate_hash": digest(candidate),
+                        "survived": valid is not None, "rejection_reason": reason,
+                        **candidate_grounding_audit_v5(candidate, job),
+                    })
+                elif job.get("grounding_version") == "multispan_v6":
+                    valid, reason = validate_multispan_v6_candidate(candidate, job, minimum_confidence)
+                    glyph_audits.append({
+                        "source_id": job["source_id"], "input_hash": job["input_hash"],
+                        "candidate_index": candidate_index, "raw_candidate_hash": digest(candidate),
+                        "survived": valid is not None, "rejection_reason": reason,
+                        **candidate_grounding_audit_v6(candidate, job),
+                    })
+                else:
+                    valid, reason = validate_candidate(candidate, job, minimum_confidence)
                 if reason:
                     rejected.append(
                         {
@@ -349,4 +442,6 @@ def run_extraction(
     write_jsonl(output / "failures.jsonl", failures)
     write_jsonl(output / "chunk_status.jsonl", status)
     write_json(output / "metrics.json", metrics)
+    if any(job.get("grounding_version") in {"multispan_v3", "multispan_v4", "multispan_v5", "multispan_v6"} for job in jobs):
+        write_jsonl(output / "glyph_grounding_audit.jsonl", glyph_audits)
     return metrics

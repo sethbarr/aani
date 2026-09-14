@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "project": "aani",
+  "generated_at": "2026-09-13T00:31:53.085587+00:00",
+  "protocol_commit": "98b5e09199a5eef0c46be452793e953f5a2af31e",
+  "offline": false,
+  "status": "feasibility_failure",
+  "estimable": false,
+  "counts": {
+    "papers_retrieved": 33,
+    "screened_in": 13,
+    "extraction_jobs": 23,
+    "candidate_records": 61,
+    "grounding_passed": 41,
+    "semantically_retained": 9,
+    "names_resolved": 16,
+    "genera_after_aggregation": 10,
+    "genera_with_chemistry": 8,
+    "genera_with_classified_compounds": 7,
+    "genera_available_for_primary_test": 7
+  },
+  "stages": [
+    {
+      "stage": "papers_retrieved",
+      "count": 33,
+      "unit": "unique sources with cached full text",
+      "status": "complete",
+      "blocked_reason": null,
+      "fixed_pilot": 30,
+      "targeted_additional": 3
+    },
+    {
+      "stage": "screened_in",
+      "count": 13,
+      "unit": "unique sources selected by any inclusion route",
+      "status": "complete",
+      "blocked_reason": null,
+      "formal_pilot_screening": 10,
+      "targeted_source_review": 3,
+      "note": "Targeted sources were not part of the fixed first-30 screening denominator."
+    },
+    {
+      "stage": "extraction_jobs",
+      "count": 23,
+      "unit": "model jobs",
+      "status": "complete",
+      "blocked_reason": null,
+      "papers_extracted": 11,
+      "failed_jobs": 0
+    },
+    {
+      "stage": "candidate_records",
+      "count": 61,
+      "unit": "original model candidates",
+      "status": "complete",
+      "blocked_reason": null
+    },
+    {
+      "stage": "grounding_passed",
+      "count": 41,
+      "unit": "original model candidates",
+      "status": "complete",
+      "blocked_reason": null,
+      "rejected": 20
+    },
+    {
+      "stage": "semantically_retained",
+      "count": 9,
+      "unit": "original model records retained by source review",
+      "status": "complete",
+      "blocked_reason": null,
+      "note": "Curator recovery is a separate branch below; it does not enlarge the model denominator."
+    },
+    {
+      "stage": "names_resolved",
+      "count": 16,
+      "unit": "distinct accepted species identities",
+      "status": "complete",
+      "blocked_reason": null,
+      "observation_contexts": 89,
+      "conflict_genera": 5,
+      "species_in_conflicted_genera": 6,
+      "conflict_observation_contexts": 47
+    },
+    {
+      "stage": "genera_after_aggregation",
+      "count": 10,
+      "unit": "directionally consistent genera",
+      "status": "complete",
+      "blocked_reason": null,
+      "accepted": 6,
+      "rejected": 4,
+      "conflict_genera": 5,
+      "conflicts": [
+        "Hymenaea",
+        "Inga",
+        "Miconia",
+        "Tetragastris",
+        "Trichilia"
+      ]
+    },
+    {
+      "stage": "genera_with_chemistry",
+      "count": 8,
+      "unit": "eligible genera with at least one imported occurrence",
+      "status": "complete",
+      "blocked_reason": null,
+      "missing_chemistry_genera": [
+        "Desmopsis",
+        "Hiraea"
+      ],
+      "conflict_genera_with_chemistry": 4,
+      "conflict_genera_excluded_from_primary": 5,
+      "imported_occurrences": 27033,
+      "imported_unique_structures": 2183
+    },
+    {
+      "stage": "genera_with_classified_compounds",
+      "count": 7,
+      "unit": "eligible genera with at least one active or inactive compound",
+      "status": "complete",
+      "blocked_reason": null,
+      "classified_structures_observed": 24,
+      "all_retrieved_classified_structures": 24,
+      "primary_scope_structures": 1851,
+      "failed_compounds": 0,
+      "coverage_complete": true,
+      "count_interpretation": "observed_coverage_in_completed_retrieval",
+      "zero_classified_interpretation": "zero_observed_classified_compounds; unknown is not inactive",
+      "zero_classified_genera": [
+        "Randia"
+      ],
+      "zero_classified_genera_count": 1,
+      "conflict_genera_excluded_from_primary": 5
+    },
+    {
+      "stage": "genera_available_for_primary_test",
+      "count": 7,
+      "unit": "joined genera available before the feasibility gate",
+      "status": "complete",
+      "blocked_reason": null,
+      "primary_status": "feasibility_failure",
+      "estimable": false,
+      "conflict_genera_excluded_from_primary": 5
+    }
+  ],
+  "cohorts": {
+    "fixed_pilot": {
+      "retrieved": 30,
+      "screened_in": 10,
+      "metrics": {
+        "papers": 10,
+        "chunks": 20,
+        "complete_papers": 10,
+        "incomplete_papers": 0,
+        "candidate_records": 47,
+        "validated_candidates": 35,
+        "rejected_candidates": 12,
+        "rejection_rate": 0.2553191489361702,
+        "response_failures": 0,
+        "blocked_reason": null,
+        "unattempted_chunks": 0,
+        "complete_paper_records": 35,
+        "partial_paper_records": 0,
+        "complete_papers_without_valid_records": 4,
+        "corpus_papers": 30,
+        "screened_out_papers": 20,
+        "limited_run": false,
+        "provider": "gemini",
+        "model": "gemini-3.8-flash"
+      },
+      "model_semantically_retained": 6
+    },
+    "targeted_saverschek": {
+      "retrieved": 1,
+      "screened_in": 1,
+      "metrics": {
+        "papers": 1,
+        "chunks": 3,
+        "complete_papers": 1,
+        "incomplete_papers": 0,
+        "candidate_records": 14,
+        "validated_candidates": 6,
+        "rejected_candidates": 8,
+        "rejection_rate": 0.5714285714285714,
+        "response_failures": 0,
+        "blocked_reason": null,
+        "unattempted_chunks": 0,
+        "complete_paper_records": 6,
+        "partial_paper_records": 0,
+        "complete_papers_without_valid_records": 0,
+        "corpus_papers": 1,
+        "screened_out_papers": 0,
+        "limited_run": false,
+        "provider": "gemini",
+        "model": "gemini-3.8-flash"
+      },
+      "model_semantically_retained": 3
+    },
+    "source_following_recovery": {
+      "additional_retrieved_sources": [
+        "PMC3140513",
+        "PMC5710599"
+      ],
+      "model_jobs": 0,
+      "curator_records": 3
+    },
+    "retrieved_source_ids": [
+      "PMC10598784",
+      "PMC10810168",
+      "PMC11195475",
+      "PMC11543716",
+      "PMC11596322",
+      "PMC11824891",
+      "PMC12238522",
+      "PMC12277563",
+      "PMC12308287",
+      "PMC12847897",
+      "PMC12941067",
+      "PMC3140513",
+      "PMC5380341",
+      "PMC5414240",
+      "PMC5509771",
+      "PMC5710599",
+      "PMC5746809",
+      "PMC5769659",
+      "PMC6085703",
+      "PMC6106195",
+      "PMC6155182",
+      "PMC6198993",
+      "PMC6329224",
+      "PMC6989564",
+      "PMC7541895",
+      "PMC7657914",
+      "PMC8611346",
+      "PMC8778871",
+      "PMC9286363",
+      "PMC9288931",
+      "PMC9636231",
+      "PMC9965205",
+      "SAVERSCHEK2010"
+    ],
+    "included_source_ids": [
+      "PMC11543716",
+      "PMC12847897",
+      "PMC12941067",
+      "PMC3140513",
+      "PMC5414240",
+      "PMC5710599",
+      "PMC5746809",
+      "PMC6155182",
+      "PMC7541895",
+      "PMC8778871",
+      "PMC9286363",
+      "PMC9965205",
+      "SAVERSCHEK2010"
+    ]
+  },
+  "curation_bridge": {
+    "model_semantic_denominator_unchanged": true,
+    "prior_pilot_taxonomy_rows": 6,
+    "manual_source_recovered_rows": 3,
+    "saverschek_old_taxonomy_rows_replaced": 3,
+    "saverschek_curated_directional_contexts": 87,
+    "all_semantically_retained_contexts_after_curation_before_taxonomy": 96,
+    "saverschek_unresolved_direction_contexts": 23,
+    "taxonomy_review_species": [
+      "Trema micrantha"
+    ],
+    "note": "Curator expansion/replacement changes the unit. Contexts are not original model candidates or independent biological replicates."
+  },
+  "miconia_conflict_verification": {
+    "status": "conflict",
+    "accepted_names": [
+      "Miconia argentea",
+      "Miconia microphysca"
+    ],
+    "directions": [
+      "accepted",
+      "rejected"
+    ],
+    "sources": [
+      "PMC11543716",
+      "SAVERSCHEK2010"
+    ],
+    "observation_ids": [
+      "4da934a686bc45b2254d3a0b0b7add0bfad9104f8ae245eb4df41120598d6439",
+      "2b05379911572fb599b996e2755e10734f2e86cbccfcd6e4758fad0d77584a47",
+      "a4bbe970dda3ab38952b431af0f02140bcddfaf6ffa04578514906816f7416ae",
+      "38711c0c0687d8e7a466ecae0d6162c7c905809ade4944706da239aeb008941b",
+      "81623114794139c96e57f36437ac21ae9912064bd9d5c8a4e257244e99060a75",
+      "0ade410613df80c3df426080bf9ca7ba9e8b624f49a0121c84765cfdb89145b5",
+      "db62c8c466f805c3c7147227c3d74afd7ba34da4771bc990b2a6d167aba83011",
+      "3918cefb54888c2704fb65d7e2c5e7a01ef469e2d619e902e342d7ff78d85ec9",
+      "3d19ac02cc354bd290f45bc8e0f27980bac9dd32c30ec6915669fcc87f8a187b",
+      "e323899975f07576afe7b58f3b204934bcfaa13835ec63d5bff546c9c609c0f8",
+      "6712e415a15eed9e9994fb4d5d2344a0d57f364d1f5409eefddbb184c59086ef"
+    ]
+  },
+  "stage_metrics": {
+    "behaviour": {
+      "status": "complete",
+      "blocked_reason": null,
+      "baseline_input_counts": {
+        "data/interim/taxonomy_pilot/observations.jsonl": 6,
+        "data/interim/taxonomy_recovered/observations.jsonl": 3,
+        "data/interim/taxonomy_saverschek/observations.jsonl": 3
+      },
+      "baseline_taxonomy_records": 12,
+      "superseded_model_records": 3,
+      "preserved_model_records": 6,
+      "preserved_manually_recovered_records": 3,
+      "curated_context_records": 80,
+      "records_after_replacement_before_deduplication": 89,
+      "replacement_policy": "Read all three requested taxonomy outputs. Replace every SAVERSCHEK2010 coarse model record with the completed audit's taxonomy-matched directional contexts, retaining all opposite directions. Do not append both representations. Curated contexts are separate from model candidate and validation denominators.",
+      "grounding_and_cached_taxonomy_reverified_records": 89,
+      "deduplicated_observations": 89,
+      "identical_grounded_duplicates_removed": 0,
+      "semantically_retained_model_records_in_current_merge": 6,
+      "manually_recovered_records_in_current_merge": 83,
+      "resolved_accepted_species": 16,
+      "unique_names_as_written": 18,
+      "source_count": 5,
+      "ant_species_count": 5,
+      "genera_before_conflict_exclusion": 15,
+      "genera_after_aggregation": 10,
+      "accepted_genera": 6,
+      "rejected_genera": 4,
+      "conflict_genera": 5,
+      "conflict_observations": 47,
+      "primary_eligible_observations": 42,
+      "eligibility_review_observations": 0,
+      "miconia_conflict_verified": true,
+      "observation_count_interpretation": "grounded_contexts_not_independent_replicates",
+      "network_requests": 0
+    },
+    "chemistry": {
+      "input_hash": "d8b52bab6f1bda7c3194fcf060a75a06d66e7ca407771a728444a695b4ef5d48",
+      "imported_at": "2026-09-13T00:04:50.467719+00:00",
+      "accepted": 27033,
+      "review": 0,
+      "unique_occurrences": 3774,
+      "unique_compounds": 2183,
+      "genera_with_chemistry": 12,
+      "status": "completed",
+      "blocked_reason": null,
+      "export_records_scanned": 6467819,
+      "candidate_export_records": 53897,
+      "transform_review": 26864,
+      "requested_genera": 15,
+      "conflict_genera_with_chemistry": 4,
+      "eligible_genera_with_chemistry": 8
+    },
+    "bioactivity": {
+      "status": "complete",
+      "blocked_reason": null,
+      "incomplete_reason": null,
+      "compounds": 2183,
+      "matched_compounds": 849,
+      "active": 7,
+      "inactive": 17,
+      "unknown": 2159,
+      "failed_compounds": 0,
+      "retrieved_measurements": 8947,
+      "classified_measurements": 51,
+      "discordant_compounds": 3,
+      "unique_assays_with_classified_measurements": 23,
+      "database_status": {
+        "activities": 24527044,
+        "chembl_db_version": "ChEMBL_37",
+        "chembl_release_date": "2026-05-01",
+        "compound_records": 3824604,
+        "disinct_compounds": 2921148,
+        "publications": 101100,
+        "status": "UP",
+        "targets": 18552
+      },
+      "cached_requests": 109,
+      "all_imported_compounds": 2183,
+      "selected_compounds": 2183,
+      "excluded_outside_eligible_genera_compounds": 0,
+      "eligible_behaviour_genera": null,
+      "selected_genera": [
+        "Acalypha",
+        "Arabidopsis",
+        "Hymenaea",
+        "Inga",
+        "Miconia",
+        "Ocimum",
+        "Phaseolus",
+        "Randia",
+        "Sorocea",
+        "Spondias",
+        "Trichilia",
+        "Vicia"
+      ],
+      "selected_occurrences": 27033,
+      "selection_rule": "All imported genera, including conflict genera, to support prespecified sensitivity reaggregation. Conflicts remain excluded from primary inference.",
+      "primary_scope_compounds": 1851,
+      "additional_sensitivity_scope_compounds": 332,
+      "primary_scope_genera": [
+        "Acalypha",
+        "Arabidopsis",
+        "Desmopsis",
+        "Hiraea",
+        "Ocimum",
+        "Phaseolus",
+        "Randia",
+        "Sorocea",
+        "Spondias",
+        "Vicia"
+      ]
+    },
+    "primary_test": {
+      "status": "feasibility_failure",
+      "estimable": false,
+      "reason": "fewer_than_minimum_joined_genera;need_two_genera_per_direction",
+      "feasibility_failures": [
+        "fewer_than_minimum_joined_genera",
+        "need_two_genera_per_direction"
+      ],
+      "minimum_genera": 25,
+      "minimum_per_direction": 2,
+      "n_genera": 7,
+      "n_rejected": 1,
+      "n_accepted": 6,
+      "observed_difference": null,
+      "rejected_mean": null,
+      "accepted_mean": null,
+      "p_one_sided": null,
+      "descriptive_bootstrap_95_interval": null,
+      "permutations": 0,
+      "within_family": false,
+      "variable_families": 0,
+      "variable_genera": 0,
+      "genera_after_aggregation": 10,
+      "conflicting_genera": 5,
+      "genera_with_chemistry": 8,
+      "genera_missing_chemistry": 2,
+      "genera_with_classified_compound": 7,
+      "genera_with_zero_classified_compounds": 1,
+      "genera_available_for_primary_test": 7,
+      "activity_retrieval_complete": true,
+      "unretrieved_mapped_compounds": 0,
+      "sensitivity_support_complete": true,
+      "execution_status": "complete",
+      "blocked_reason": null,
+      "zero_classified_genera": 1,
+      "within_family_sensitivity": {
+        "status": "feasibility_failure",
+        "estimable": false,
+        "reason": "fewer_than_minimum_joined_genera;need_two_genera_per_direction",
+        "feasibility_failures": [
+          "fewer_than_minimum_joined_genera",
+          "need_two_genera_per_direction"
+        ],
+        "minimum_genera": 25,
+        "minimum_per_direction": 2,
+        "n_genera": 7,
+        "n_rejected": 1,
+        "n_accepted": 6,
+        "observed_difference": null,
+        "rejected_mean": null,
+        "accepted_mean": null,
+        "p_one_sided": null,
+        "descriptive_bootstrap_95_interval": null,
+        "permutations": 0,
+        "within_family": true,
+        "variable_families": 0,
+        "variable_genera": 0
+      },
+      "mixed_effects": {
+        "status": "not_estimable",
+        "estimable": false,
+        "reason": "prespecified_feasibility_gate",
+        "environment": {
+          "status": "unavailable",
+          "reason": "lme4_unavailable",
+          "executable": "/opt/homebrew/bin/Rscript",
+          "version_output": "R version 4.5.0 (2025-04-11)",
+          "error_output": ""
+        }
+      },
+      "n_classified_structures": 24,
+      "shortlist": {
+        "status": "not_estimable",
+        "reason": "prespecified_feasibility_gate",
+        "ranked_genera": 0
+      }
+    }
+  },
+  "blocked_stages": [],
+  "inference_blockers": [
+    "fewer_than_minimum_joined_genera",
+    "need_two_genera_per_direction",
+    "lme4_unavailable"
+  ],
+  "input_manifests": [
+    {
+      "path": "config/pilot_screening.json",
+      "sha256": "93ed535fd4ffdc39564372d3e56de9826c4b167a06a141c1ed8a3c9e8aa58643"
+    },
+    {
+      "path": "data/interim/corpus/manifest.jsonl",
+      "sha256": "9eefbbe489358f3bc8105a590043d78dc28fd15cb7acb6ca042923c3175fc065"
+    },
+    {
+      "path": "data/interim/corpus_targeted_saverschek/manifest.jsonl",
+      "sha256": "1e7dec315c7f2f0428644a06419a9864ec8abe7f5b06cf97677dd7293f174767"
+    },
+    {
+      "path": "data/interim/extraction_gemini/metrics.json",
+      "sha256": "6e06622a83470945516cc3539a50dbe32228db6e2225ade5be3da383267b6d34"
+    },
+    {
+      "path": "data/interim/extraction_gemini/semantic_review_observations.jsonl",
+      "sha256": "80d80534d1bf7cb69dacf478bd2efc4b98ed15e45fa3c8d641a6662f14b2d9f0"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/metrics.json",
+      "sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871"
+    },
+    {
+      "path": "data/interim/extraction_saverschek/semantic_review_observations.jsonl",
+      "sha256": "6223434bbc33e193dd0693f24f15b14a1e844b32b4f1c8906c2a0b584ac50a8c"
+    },
+    {
+      "path": "data/interim/pending_evidence_review/corpus/manifest.jsonl",
+      "sha256": "ca43ca3a53b762e13c498256c95b1b329f4107dddb3b6cb16e01ec31c0c6c8ca"
+    },
+    {
+      "path": "data/interim/saverschek_audit/taxonomy/review.jsonl",
+      "sha256": "65e4da5beb63cdc27d8b66caaa6a83bccf7c982288ce8c7d219a115b0718997a"
+    },
+    {
+      "path": "data/interim/taxonomy_pilot/observations.jsonl",
+      "sha256": "40bccd963248ff6f761cbcdc9f09f0d9e5ad7175b199e806ff4ca9cd51a853de"
+    },
+    {
+      "path": "data/interim/taxonomy_recovered/observations.jsonl",
+      "sha256": "afb6211a90ee0fa9de5e56b18b95375632d6ef42ee8c8246e8f316d7b2fad33a"
+    },
+    {
+      "path": "data/interim/taxonomy_saverschek/observations.jsonl",
+      "sha256": "54d238e722285c0be6f573bea069e9ae96253c96a69c6f5063a9509829b0723a"
+    },
+    {
+      "path": "data/processed/behaviour/all_genera.jsonl",
+      "sha256": "63757d823cb6332b5ad40a51f36fe7b0b8fc3d764865aeb4c86d76c58a6f2657"
+    },
+    {
+      "path": "data/processed/behaviour/conflicts.jsonl",
+      "sha256": "413500ffc5a549b4dc75ca25ea9a6396ff4f53b7b99a98a914039bd50e51ff2e"
+    },
+    {
+      "path": "data/processed/behaviour/genera.jsonl",
+      "sha256": "08968033cdb85a458cbc473ec76404c6bc663600c3de0c30747f3503235f59c8"
+    },
+    {
+      "path": "data/processed/behaviour/metrics.json",
+      "sha256": "28fd586086624905ca3b0284c388fadc58662738b22d5bae8b2dec92b2e39bfd"
+    },
+    {
+      "path": "data/processed/behaviour/observations.jsonl",
+      "sha256": "ae4c9900272601c57529e16378a968cbe3ce37a2ed7e326a6a4024d954ab324e"
+    },
+    {
+      "path": "data/processed/behaviour/run_manifest.json",
+      "sha256": "7ded06a1df1a375a0abd1660359600344909ffd364106bb21d5c70c279007e21"
+    },
+    {
+      "path": "data/processed/bioactivity/labels.jsonl",
+      "sha256": "875e1151bbdd1ae9d490d9894b5df6626f1f174e333f19b6b37eddee8f3baf59"
+    },
+    {
+      "path": "data/processed/bioactivity/metrics.json",
+      "sha256": "a2baa9f2ff3a765e0d77364906602c51109285b598978fbc4eeecf173d2ff150"
+    },
+    {
+      "path": "data/processed/bioactivity/run_manifest.json",
+      "sha256": "c6677fd6738a29a746b08de3cc55f7faf32f1c8713719dfd9505682423283f60"
+    },
+    {
+      "path": "data/processed/chemistry/metrics.json",
+      "sha256": "fe261b5ad544ab882bb0c735bb6ab1ebbbf8249ff2990e648edd0e76a461a321"
+    },
+    {
+      "path": "data/processed/chemistry/occurrences.jsonl",
+      "sha256": "37c9e4e74cb0b633be27f5197f45c3ac9b091612a048a68da5762c34d698198b"
+    },
+    {
+      "path": "data/processed/chemistry/run_manifest.json",
+      "sha256": "820f396fa2b819ecb8c5014d22c17673a59167f486923f832f0f5879cd68cea4"
+    },
+    {
+      "path": "results/primary/summary.json",
+      "sha256": "3bb36b5cccbad572d4a3b94790e4104ab6edc3f4a6ff72514afdd978c2d89ea2"
+    },
+    {
+      "path": "results/saverschek_audit/summary.json",
+      "sha256": "b029924d72026f5629a271f647e7aa4e11aa5330b77b9ab072a4aa30bc005ded"
+    }
+  ],
+  "frozen_files": [
+    {
+      "path": "docs/analysis_plan.md",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d"
+    },
+    {
+      "path": "config/analysis.json",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9"
+    }
+  ],
+  "missingness_policy": "Missing chemistry is unknown coverage, not a zero-compound genus. Unknown or failed activity retrieval does not enter the classified denominator.",
+  "replay_report": "results/offline_replay.json"
+}

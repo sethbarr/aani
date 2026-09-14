@@ -1,5 +1,7 @@
 """Prepare and validate config-driven exploratory extraction jobs."""
 
+import json
+from datetime import UTC, datetime
 from pathlib import Path
 
 import httpx
@@ -191,6 +193,7 @@ def run_system_extraction(
     model: str | None = None,
     provider: str = "gemini",
     minimum_confidence: float = 0.8,
+    deadline: datetime | None = None,
 ) -> dict:
     """Run approved jobs and retain candidate, grounding, and failure denominators."""
     accepted: list[dict] = []
@@ -199,6 +202,17 @@ def run_system_extraction(
     status: list[dict] = []
     blocked_reason: str | None = None
     for index, job in enumerate(jobs):
+        if deadline is not None and datetime.now(UTC) >= deadline:
+            blocked_reason = "four_hour_wall_clock_limit"
+            status.extend(
+                {
+                    "source_id": pending["source_id"],
+                    "input_hash": pending["input_hash"],
+                    "status": "blocked",
+                }
+                for pending in jobs[index:]
+            )
+            break
         try:
             envelope = response_for_job(job, cache, responses, model, provider)
             write_json(output / "responses" / f"{job['input_hash']}.json", envelope)
@@ -222,6 +236,8 @@ def run_system_extraction(
                     valid["engine"] = envelope["engine"]
                     valid["provider"] = envelope.get("provider", "imported_unspecified")
                     valid["response_hash"] = digest(envelope)
+                    valid["extraction_request_hash"] = envelope.get("request_hash")
+                    valid["resolved_model"] = envelope.get("resolved_model", envelope["engine"])
                     accepted.append(valid)
             status.append(
                 {
@@ -251,6 +267,26 @@ def run_system_extraction(
             )
             if isinstance(error, ExtractionServiceUnavailable):
                 blocked_reason = str(error)
+            elif isinstance(error, httpx.TransportError):
+                blocked_reason = f"transport_error:{type(error).__name__}"
+        write_jsonl(output / "observations_progress.jsonl", accepted)
+        write_jsonl(output / "rejections.jsonl", rejected)
+        write_jsonl(output / "failures.jsonl", failures)
+        write_jsonl(output / "job_status.jsonl", status)
+        print(
+            json.dumps(
+                {
+                    "system": config.slug,
+                    "job": index + 1,
+                    "jobs": len(jobs),
+                    "source_id": job["source_id"],
+                    "status": status[-1]["status"],
+                    "grounded": len(accepted),
+                    "rejected": len(rejected),
+                }
+            ),
+            flush=True,
+        )
         if blocked_reason:
             status.extend(
                 {
@@ -271,6 +307,10 @@ def run_system_extraction(
         "candidate_records": total_candidates,
         "grounded_records": len(accepted),
         "retained_records": len(records),
+        "retained_records_interpretation": "complete_source_grounded_records_before_semantic_review",
+        "complete_papers": len({job["source_id"] for job in jobs} - incomplete),
+        "incomplete_papers": len(incomplete),
+        "complete_jobs": sum(row["status"] == "complete" for row in status),
         "rejected_candidates": len(rejected),
         "rejection_rate": len(rejected) / total_candidates if total_candidates else None,
         "response_failures": len(failures),
@@ -278,6 +318,10 @@ def run_system_extraction(
         "unattempted_jobs": sum(row["status"] == "blocked" for row in status),
     }
     write_jsonl(output / "observations.jsonl", records)
+    write_jsonl(
+        output / "partial_observations.jsonl",
+        [row for row in unique.values() if row["source_id"] in incomplete],
+    )
     write_jsonl(output / "rejections.jsonl", rejected)
     write_jsonl(output / "failures.jsonl", failures)
     write_jsonl(output / "job_status.jsonl", status)

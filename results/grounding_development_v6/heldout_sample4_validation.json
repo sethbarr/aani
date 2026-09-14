@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-13T19:29:02.355326+00:00",
+  "finished_at": "2026-09-13T19:29:02.760207+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "scripts.run_frozen_v6",
+    "--sample4"
+  ],
+  "returncode": 0,
+  "model_requests": 0,
+  "blocked_reason": null
+}

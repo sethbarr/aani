@@ -1,0 +1,30 @@
+{
+  "system": "monarch_seeded",
+  "adapter_system": "monarch",
+  "offline": false,
+  "completed_at": "2026-09-13T17:37:03.329040+00:00",
+  "cache_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/chembl",
+  "cache_imported_from_first_monarch_run": false,
+  "assay_config_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+  "metrics": {
+    "system": "monarch",
+    "status": "complete",
+    "blocked_reason": null,
+    "primary_fungal_assays": 16322,
+    "primary_assays_by_organism": {
+      "Candida albicans": 11912,
+      "Cryptococcus neoformans": 2038,
+      "Aspergillus fumigatus": 2372
+    },
+    "parasite_organism": "Ophryocystis elektroscirrha",
+    "parasite_assays_all_types": 0,
+    "primary_assay_type": "F",
+    "parasite_assay_type_filter": null,
+    "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+    "parasite_absent_from_complete_inventory": true,
+    "zero_assays_interpretation": "Database assay coverage only; inactivity is unmeasured.",
+    "query_count": 22,
+    "offline": false,
+    "errors": {}
+  }
+}

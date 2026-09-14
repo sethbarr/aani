@@ -1,0 +1,109 @@
+{
+  "system": "attine_actino",
+  "exploratory": true,
+  "stages": [
+    {
+      "stage": "model_candidates",
+      "count": 11,
+      "unit": "model records",
+      "status": "complete",
+      "blocked_reason": null,
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "grounded_records",
+      "count": 10,
+      "unit": "grounded model records",
+      "status": "complete",
+      "blocked_reason": null,
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "semantically_retained",
+      "count": 5,
+      "unit": "reviewed model records",
+      "status": "complete",
+      "blocked_reason": null,
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "names_resolved",
+      "count": 0,
+      "unit": "distinct accepted taxon identities",
+      "status": "complete",
+      "blocked_reason": null,
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "eligible_behaviour_genera",
+      "count": 0,
+      "unit": "directional genera",
+      "status": "complete",
+      "blocked_reason": null,
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "genera_with_chemistry",
+      "count": null,
+      "unit": "eligible genera",
+      "status": "not_applicable",
+      "blocked_reason": "disabled_in_system_config",
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "mapped_compounds",
+      "count": null,
+      "unit": "distinct full InChIKeys",
+      "status": "not_applicable",
+      "blocked_reason": "disabled_in_system_config",
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "classified_compounds",
+      "count": null,
+      "unit": "active or inactive compounds",
+      "status": "not_applicable",
+      "blocked_reason": "disabled_in_system_config",
+      "count_interpretation": "observed"
+    },
+    {
+      "stage": "genera_with_classified_compounds",
+      "count": null,
+      "unit": "eligible genera",
+      "status": "not_applicable",
+      "blocked_reason": "disabled_in_system_config",
+      "count_interpretation": "observed"
+    }
+  ],
+  "behaviour_metrics": {
+    "status": "complete",
+    "blocked_reason": null,
+    "input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/attine_actino/taxonomy/observations.jsonl",
+    "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "resolved_observations": 0,
+    "duplicate_observations": 0,
+    "resolved_genera": 0,
+    "eligible_genera": 0,
+    "accepted_genera": 0,
+    "rejected_genera": 0,
+    "conflict_genera": 0,
+    "unknown_genera": 0,
+    "focal_eligible_genera": 0,
+    "infection_comparison_eligible_genera": 0,
+    "ancillary_oviposition_genera": 0,
+    "direct_directional_observations": 0,
+    "unknown_direction_observations": 0,
+    "ineligible_observations": 0
+  },
+  "bioactivity_metrics": {
+    "status": "not_applicable",
+    "blocked_reason": "disabled_in_system_config"
+  },
+  "assay_scope_check": {
+    "status": "not_applicable",
+    "blocked_reason": "disabled_in_system_config"
+  },
+  "assay_mismatch": null,
+  "missingness_policy": "Unavailable stages have null counts. Unknown directions do not supply directional genera. Conflicts are excluded from chemistry inputs. Unknown or failed assay labels are excluded from classified denominators.",
+  "analysis_performed": false
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "system": "attine_actino",
+  "recall_denominator": 2,
+  "reference_set_hash": "5fc2b31b4b796d9afad3d646ce55cb13ec09c0a9dc2d637075a0f19422cfa4ee",
+  "status": "offline_reference_inputs_prepared",
+  "external_payload_sent": false,
+  "model_api_called": false,
+  "corpus_path": "data/interim/systems/attine_actino/reference_sources/corpus",
+  "screening_path": "data/interim/systems/attine_actino/reference_sources/screening.json",
+  "reference_sources_are_separate_from_original_20_source_corpus": true,
+  "original_prepared_jobs": 11,
+  "original_direct_reference_sources_exposed": [],
+  "original_direct_reference_sources_missing": [
+    "CURRIE1999",
+    "PMC2748230"
+  ],
+  "original_payloads_changed": false,
+  "maximum_characters": 24000,
+  "reference_job_metrics": {
+    "jobs": 2,
+    "job_limit": 12,
+    "included_sources": [
+      "CURRIE1999",
+      "PMC2748230"
+    ],
+    "sources_excluded_by_job_cap": [],
+    "grounding_version": "single_quote_v1"
+  },
+  "reference_jobs": [
+    {
+      "source_id": "CURRIE1999",
+      "input_hash": "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f",
+      "chunk_index": 0,
+      "chunk_count": 1
+    },
+    {
+      "source_id": "PMC2748230",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1",
+      "chunk_index": 0,
+      "chunk_count": 1
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CURRIE1999",
+      "block_count": 13,
+      "text_characters": 21751,
+      "document_hash": "c8ebcdd6f349ab152db293544ec28c4342a08671b9aa1ba37a01203371417923",
+      "provenance": {
+        "source_kind": "user_supplied_pdf",
+        "source_sha256": "4da1d9495dd70f2ec722ea64bf099ad746da30d87174b0753c27b8c151d8c824",
+        "extractor": "pdftotext version 25.12.0",
+        "bbox_output_sha256": "f7642201095fda918bc486313f5b1b4a6b7ae1fe01791cb413333ac3f6052341",
+        "selected_word_count": 3089,
+        "visual_review": "All five pages reviewed; only Currie article pages 701-704 and its page 461 corrigendum retained.",
+        "text_policy": "Preserve every selected pdftotext glyph; join words by spaces and lines by newlines; retain printed line-end hyphens; no glyph substitutions or Unicode normalization.",
+        "limitations": [
+          "Embedded PDF fonts produce artifacts including ® for fi, ¯ for fl, and some mathematical-symbol substitutions.",
+          "Table 1 is supplied as text; figure captions are included and figure images are omitted.",
+          "Printed line-end hyphens and page/column boundaries can prevent a quote spanning a word or sentence boundary."
+        ]
+      }
+    },
+    {
+      "source_id": "PMC2748230",
+      "block_count": 20,
+      "text_characters": 12771,
+      "document_hash": "3a7ecb8058016b8409b0f54a8c8cec4443f1ae33f138ddea568f43215bfa6e41",
+      "provenance": {
+        "source_kind": "cached_ncbi_bioc_author_manuscript",
+        "cache_request_hash": "e827b6bc341332e76294698e466ff9afe2fa12958b6cb9cb9a548a8113093585",
+        "cache_file_sha256": "7873185db57237726a6497986f47ecdd36d73c2df7537488e9ad380419d980bf",
+        "response_sha256": "f63849824d660da651e4c7a90055ea329226671e765437056d171d95cf07558e",
+        "retrieved_at": "2026-09-13T16:39:14.233806+00:00",
+        "license": "author_manuscript",
+        "text_policy": "All nonempty BioC passage text is copied unchanged, with original Unicode code points and offsets.",
+        "empty_passages": 20,
+        "limitations": [
+          "BioC supplies the author manuscript; its 20 reference passages have metadata and empty text.",
+          "The supplementary-material heading is present; the supplementary file contents and figure images are absent from this cached response.",
+          "BioC labels main article paragraphs INTRO, including results; section labels are retained as supplied."
+        ]
+      }
+    }
+  ],
+  "adequacy": {
+    "currie": "Full article text and relevant corrigendum supplied; abstract and Discussion each contain explicit Streptomyces-antibiotic-Escovopsis inhibitory statements. Embedded glyph artifacts are preserved.",
+    "oh": "Every available nonempty author-manuscript passage supplied; abstract has Pseudonocardia, dentigerumycin and Escovopsis inhibition together, and offset 9487 supplies MIC results.",
+    "reference_recall_status": "unmeasured_until_reference_jobs_run_and_grounded_records_scored",
+    "required_before_scoring": "Expose both reference sources using whole-source jobs within the system cap, and score the unchanged two-item denominator.",
+    "ground_truth_wording_caveat": "The frozen Currie abstract quote was visually transcribed and differs from embedded text glyphs and printed line-end hyphenation. A model record must quote the actual supplied blocks; semantic reference-item matching must not require verbatim equality to the visually transcribed ground-truth quote. The frozen Oh quantitative support uses micro sign U+00B5 while its source text uses Greek mu U+03BC; this support is outside the recall match criteria."
+  }
+}

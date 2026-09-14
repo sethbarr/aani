@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "system": "attine_actino",
+  "positive_control": true,
+  "created_at": "2026-09-13T16:38:39.264144+00:00",
+  "updated_at": "2026-09-13T16:50:47+00:00",
+  "created_before_extraction": true,
+  "extraction_started": false,
+  "purpose": "Prospective recall denominator for explicit attine-ant-associated bacterium-compound-activity statements.",
+  "reference_items": [
+    {
+      "reference_id": "currie_1999_antibiotic_suppression",
+      "citation": "Currie CR, Scott JA, Summerbell RC, Malloch D. Fungus-growing ants use antibiotic-producing bacteria to control garden parasites. Nature 398, 701-704 (1999).",
+      "doi": "10.1038/19519",
+      "producer_as_written": "Streptomyces",
+      "corrected_producer_classification": "Pseudonocardiaceae (Actinomycetes); the 2003 corrigendum states that the isolate is not a Streptomyces species.",
+      "compound_as_written": "antibiotics",
+      "compound_specificity": "generic_class",
+      "activity_target_as_written": "Escovopsis",
+      "activity_as_written": "suppress the growth",
+      "attine_context": "fungus-growing ants",
+      "evidence": {
+        "source_url": "data/interim/systems/attine_actino/reference_sources/currie_1999/source.pdf",
+        "source_scope": "user_supplied_full_article",
+        "block_id": "pdf:p701:abstract",
+        "quote": {
+          "private_reference": "r00000"
+        },
+        "quote_verification": "Visually transcribed from rendered page 701; the embedded PDF font maps the initial fi ligature to a non-letter in pdftotext output."
+      },
+      "source_access": {
+        "status": "full_text_user_supplied",
+        "blocker": null,
+        "supplied_path": "/Users/seth/Downloads/Currie et al. 1999 - Fungus-growing ants use antibiotic-producing bacteria to control garden parasites.pdf",
+        "archived_path": "data/interim/systems/attine_actino/reference_sources/currie_1999/source.pdf",
+        "sha256": "4da1d9495dd70f2ec722ea64bf099ad746da30d87174b0753c27b8c151d8c824",
+        "bytes": 625829,
+        "pdf_pages": 5,
+        "article_pages": "701-704",
+        "corrigendum_page": "461",
+        "europe_pmc_search_request_hash": "6b91e647dd7625289f1a1303a83912718374e3a7fd52746dd567268647364cc0",
+        "publisher_cache_request_hash": "e01390b434a46ff5b4f12296d7758c158f9b11ecf46522304b9f328309817a48",
+        "retrieval_history": "Europe PMC returned no article and the publisher body required subscription access before the user supplied this PDF."
+      },
+      "full_text_support": [
+        {
+          "block_id": "pdf:p703:results_and_figure_3",
+          "summary": "Replicated challenges report potent inhibition of Escovopsis, including complete suppression of spore germination in a subset of assays and inhibition across several attine genera."
+        },
+        {
+          "block_id": "pdf:p704:antibiotic_bioassay_challenges",
+          "summary": "The methods describe replicated actinomycete-fungus challenges, four Escovopsis strains, comparison cultures, and growth-inhibition scoring."
+        },
+        {
+          "block_id": "pdf:p461:corrigendum",
+          "summary": "The corrigendum assigns the Acromyrmex-associated bacterium to Pseudonocardiaceae and says the genus-level correction does not alter the remaining conclusions."
+        }
+      ],
+      "interpretation_note": "The reference keeps Streptomyces as the producer wording extracted from the 1999 article and records the later Pseudonocardiaceae correction separately."
+    },
+    {
+      "reference_id": "oh_2009_dentigerumycin",
+      "citation": "Oh DC, Poulsen M, Currie CR, Clardy J. Dentigerumycin: a bacterial mediator of an ant-fungus symbiosis. Nature Chemical Biology 5, 391-393 (2009).",
+      "doi": "10.1038/nchembio.159",
+      "pmcid": "PMC2748230",
+      "producer_as_written": "Pseudonocardia spp.",
+      "compound_as_written": "dentigerumycin",
+      "compound_specificity": "named_compound",
+      "activity_target_as_written": "Escovopsis sp.",
+      "activity_as_written": "selectively inhibit",
+      "attine_context": "Apterostigma dentigerum",
+      "evidence": {
+        "source_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC2748230/unicode",
+        "source_scope": "author_manuscript_abstract",
+        "block_id": "bioc:passage_offset_64",
+        "quote": {
+          "private_reference": "r00001"
+        }
+      },
+      "source_access": {
+        "status": "full_text_bioc_available",
+        "blocker": "Europe PMC found PMC2748230, but its fullTextXML endpoint returned HTTP 404. NCBI BioC supplied the author manuscript for text mining.",
+        "europe_pmc_search_request_hash": "55cbf93910da0530e86f7ac1854dadad87a5f08734c5afc31a8301e4ec9cca29",
+        "europe_pmc_fulltext_request_hash": "d1349749761de01ff88cbcc68e8964163e6496d7e92856ec0827c39d2872370d",
+        "bioc_cache_request_hash": "e827b6bc341332e76294698e466ff9afe2fa12958b6cb9cb9a548a8113093585"
+      },
+      "quantitative_support": {
+        "activity_measure": "MIC = 2.8 µM against the colony CC011120-4 Escovopsis parasite",
+        "source_block_id": "bioc:passage_offset_9487",
+        "scoring_role": "supporting_context_only"
+      }
+    }
+  ],
+  "scoring": {
+    "recall_denominator": 2,
+    "unit": "reference_item",
+    "match_rule": "Count a reference item recovered when an extracted, quote-grounded record identifies the source producer, compound or compound class, Escovopsis target, and reported inhibitory activity. Preserve the source wording; accept historical Streptomyces for the Currie item.",
+    "partial_matches_count_as_recovered": false
+  },
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/systems/attine_actino/reference_set.json",
+    "original_sha256": "785b777806a9dbf3777eec804f191abf5d78ce37f85b04fb684ac7159a7bfd5d",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/reference_set.json",
+        "private_file_sha256": "785b777806a9dbf3777eec804f191abf5d78ce37f85b04fb684ac7159a7bfd5d",
+        "json_path": [
+          "reference_items",
+          0,
+          "evidence",
+          "quote"
+        ],
+        "private_utf8_byte_start": 1343,
+        "private_utf8_byte_end": 1525,
+        "encoded_span_sha256": "d1cb7b777ca0303065a68039d70c7ef59020b5018255cb0180d5cf26c22179f3",
+        "value_utf8_sha256": "e38f8f47cc7e1f108ccac2637b318a6a37fb91b78fb73b2b6e0f8ef561a670ba",
+        "source_ids": [
+          "CURRIE1999"
+        ],
+        "source_spans": [
+          {
+            "source_id": "CURRIE1999",
+            "block_id": "pdf:p702:left_column",
+            "private_source_path": "data/interim/systems/attine_actino/reference_sources/corpus/texts/CURRIE1999.json",
+            "source_file_sha256": "5baa0eb410fba4f598bd64d142d66d8f2150dc5eca33cf90f793faa9cb4d60d2",
+            "block_text_sha256": "01a833354c313166bba4cd2a6018a6f5e1f4fe623cc3bdfcc76e6073bd9d6d06",
+            "block_utf8_byte_start": 600,
+            "block_utf8_byte_end": 650,
+            "span_sha256": "5b4ce92e3974948b55e37e6375e11e523b5465a28d6482caafce1a73f4ccf39b",
+            "source_words": 6,
+            "kind": "pdf_region"
+          },
+          {
+            "source_id": "CURRIE1999",
+            "block_id": "pdf:p701:abstract",
+            "private_source_path": "data/interim/systems/attine_actino/reference_sources/corpus/texts/CURRIE1999.json",
+            "source_file_sha256": "5baa0eb410fba4f598bd64d142d66d8f2150dc5eca33cf90f793faa9cb4d60d2",
+            "block_text_sha256": "94513c1d25288e21e1d1e8bd2eee8e2dda454e30d398abc97a704db52cc1fc71",
+            "block_utf8_byte_start": 725,
+            "block_utf8_byte_end": 776,
+            "span_sha256": "0d7e09e40a2a8093f088625c07a850572b9dde7e18e9e1c74d524af2f423513e",
+            "source_words": 7,
+            "kind": "pdf_region"
+          },
+          {
+            "source_id": "CURRIE1999",
+            "block_id": "pdf:p701:abstract",
+            "private_source_path": "data/interim/systems/attine_actino/reference_sources/corpus/texts/CURRIE1999.json",
+            "source_file_sha256": "5baa0eb410fba4f598bd64d142d66d8f2150dc5eca33cf90f793faa9cb4d60d2",
+            "block_text_sha256": "94513c1d25288e21e1d1e8bd2eee8e2dda454e30d398abc97a704db52cc1fc71",
+            "block_utf8_byte_start": 790,
+            "block_utf8_byte_end": 867,
+            "span_sha256": "07d3795b88c85454bd5bb9bf7c647842f2b474f64d7ce0976460250498f84dd9",
+            "source_words": 10,
+            "kind": "pdf_region"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/systems/attine_actino/reference_set.json",
+        "private_file_sha256": "785b777806a9dbf3777eec804f191abf5d78ce37f85b04fb684ac7159a7bfd5d",
+        "json_path": [
+          "reference_items",
+          1,
+          "evidence",
+          "quote"
+        ],
+        "private_utf8_byte_start": 4493,
+        "private_utf8_byte_end": 4695,
+        "encoded_span_sha256": "9e79f8673789e32fddc5732f92693f4337289af915a94386f7384799231279e9",
+        "value_utf8_sha256": "8ffde3dd90ada6364e11e4a87f85ab33ad89d845d715a961640c8d66aca609f4",
+        "source_ids": [
+          "PMC2748230"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC2748230",
+            "block_id": "bioc:passage_offset_64",
+            "private_source_path": "data/interim/systems/attine_actino/reference_sources/corpus/texts/PMC2748230.json",
+            "source_file_sha256": "58d1e84827ebcc799fef11b204fe1990c424869d903d8a43099167c2588f415d",
+            "block_text_sha256": "c2145852304bcbcafaf6a35617e435b6df947a85e649c5850966c02951ab8594",
+            "block_utf8_byte_start": 296,
+            "block_utf8_byte_end": 496,
+            "span_sha256": "8ffde3dd90ada6364e11e4a87f85ab33ad89d845d715a961640c8d66aca609f4",
+            "source_words": 25,
+            "kind": "abstract"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
+}

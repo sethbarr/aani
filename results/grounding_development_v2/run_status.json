@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "blocked_reason": null,
+  "user_approved_payload_export": true,
+  "completed_model_jobs": 3,
+  "candidate_records": 26,
+  "grounding_passes": 10,
+  "grounding_failures": 16,
+  "response_failures": 0,
+  "expected_jobs": 3,
+  "destination": "Gemini API configured in src/extraction/gemini.py",
+  "payload": "Cached Saverschek paper text blocks and source-level ant identity with its exact source anchor",
+  "previous_blocked_reason": "external_gemini_payload_export_requires_explicit_user_approval",
+  "approval_rejection_history": "The first execution request was rejected before process creation; zero live model requests were sent at that point. The user subsequently explicitly approved sending this payload to Gemini.",
+  "note": "The approved single three-job v2 run completed. All three saved responses will be retained; no additional sample was requested to improve the result. Offline saved-candidate diagnostics remain separate from this fresh model run."
+}

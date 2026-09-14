@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>aani experiment planning export</title>
+  <style>
+    body { max-width: 72rem; margin: auto; padding: 2rem; color: #203d32;
+      background: #f7f6ef; font: 1rem/1.5 system-ui, sans-serif; }
+    h1, h2 { line-height: 1.2; }
+    a { color: #205e46; }
+    select, button { font: inherit; }
+    :focus-visible { outline: 3px solid #a45b16; outline-offset: 3px; }
+    .scroll { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    caption { text-align: left; padding: .5rem 0; }
+    th, td { text-align: left; padding: .6rem; border-bottom: 1px solid #ccd5cb; }
+    pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+    li { margin: .4rem 0; }
+  </style>
+</head>
+<body>
+  <h1>Experiment planning export</h1>
+  <p>This draft records proposed materials, targets and an illustrative layout.
+    Biological methods require laboratory review before execution.</p>
+  <p id="status" role="status"></p>
+  <h2>Downloads</h2>
+  <ul id="downloads"></ul>
+  <h2>Study matrix</h2>
+  <div class="scroll"><table id="matrix"></table></div>
+  <h2>Illustrative plate layout</h2>
+  <p><label for="plate">Choose a plate</label> <select id="plate"></select></p>
+  <div class="scroll"><table id="layout"></table></div>
+  <h2>Planning limitations</h2>
+  <ul id="limitations"></ul>
+  <details><summary>Inspect the full plan and source evidence</summary><pre id="plan"></pre></details>
+  <noscript>Enable JavaScript to inspect the embedded plan and download its artifacts.</noscript>
+  <script id="plan-data" type="application/json">__PLAN_DATA__</script>
+  <script>__PLANNER_SCRIPT__</script>
+</body>
+</html>

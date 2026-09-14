@@ -1,0 +1,344 @@
+{
+  "system": "monarch_seeded",
+  "adapter_system": "monarch",
+  "offline": false,
+  "completed_at": "2026-09-13T19:50:04.945384+00:00",
+  "status": "complete",
+  "config_path": "/Users/seth/Documents/ChatGPT/hackathon/config/systems/monarch.json",
+  "config_sha256": "438163ba972a5c405c3cc6dfd257bb74aaa3a643f27a6441184ef1347e8809dd",
+  "semantic_input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/semantic_review/observations.jsonl",
+  "semantic_input_audit": {
+    "status": "complete",
+    "records": 4,
+    "infection_status_counts": {
+      "infected": 2,
+      "uninfected": 2
+    },
+    "unreported_infection_records": 0,
+    "record_origin_counts": {
+      "model_record": 4
+    },
+    "input_sha256": "b7a2fac4ef9cc8b192e0122c3af80512039c62bf72460d1956d0ef08e2494f37"
+  },
+  "assay_config_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+  "deadline": "2026-09-13T21:33:36.047810+00:00",
+  "deadline_source": "caller_supplied_new_retrieval_provenance",
+  "offline_replay_exempt_from_live_deadline": false,
+  "cache_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache",
+  "cache_imported_from_first_monarch_run": false,
+  "lotus_cache_copy": {
+    "source": "/Users/seth/Documents/ChatGPT/hackathon/data/raw/chemistry_export",
+    "destination": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/chemistry_export",
+    "files_copied": 4,
+    "bytes_copied": 315240963
+  },
+  "lotus_export_network_downloads": 0,
+  "stages": {
+    "taxonomy": {
+      "matched_observations": 4,
+      "review_observations": 0,
+      "unique_names": 2,
+      "status": "complete",
+      "blocked_reason": null,
+      "incomplete_reason": null,
+      "failed_observations": 0,
+      "system": "monarch",
+      "kingdom": "Plantae",
+      "resolved_taxa": 2,
+      "input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/semantic_review/observations.jsonl",
+      "input_sha256": "b7a2fac4ef9cc8b192e0122c3af80512039c62bf72460d1956d0ef08e2494f37",
+      "cache_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/cache/taxonomy",
+      "offline": false
+    },
+    "behaviour": {
+      "status": "complete",
+      "blocked_reason": null,
+      "input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/behaviour/aggregation_input.jsonl",
+      "input_sha256": "c1452a57f2e2f2b989c18094cbea6682df5d9b6b61b03cb1598a57b9e0a8ebc4",
+      "resolved_observations": 4,
+      "duplicate_observations": 0,
+      "resolved_genera": 1,
+      "eligible_genera": 1,
+      "accepted_genera": 1,
+      "rejected_genera": 0,
+      "conflict_genera": 0,
+      "unknown_genera": 0,
+      "focal_eligible_genera": 1,
+      "infection_comparison_eligible_genera": 1,
+      "ancillary_oviposition_genera": 0,
+      "direct_directional_observations": 2,
+      "unknown_direction_observations": 2,
+      "ineligible_observations": 2,
+      "infection_status_counts": {
+        "infected": 2,
+        "uninfected": 2
+      },
+      "source_input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/taxonomy/observations.jsonl",
+      "source_input_sha256": "33ec46804454b2e4dd010df9adb5b6dc0b4a946dac7cac81479710cd1a8f17ff",
+      "grouping_discriminator_fields": [
+        "study_context",
+        "infection_status",
+        "treatment_context",
+        "experiment_id",
+        "infection_comparison_id"
+      ],
+      "original_study_context_restored": true
+    },
+    "chemistry": {
+      "input_hash": "cedfe0eeb3cad89ad94446d8705a235c19cd0ed0746a46ab247d6f82335c9c73",
+      "imported_at": "2026-09-13T00:04:50.467719+00:00",
+      "accepted": 2964,
+      "review": 0,
+      "unique_occurrences": 511,
+      "unique_compounds": 417,
+      "genera_with_chemistry": 1,
+      "status": "completed",
+      "blocked_reason": null,
+      "export_records_scanned": 6467819,
+      "candidate_export_records": 5563,
+      "transform_review": 2599,
+      "requested_genera": 1,
+      "conflict_genera_with_chemistry": 0,
+      "eligible_genera_with_chemistry": 1
+    },
+    "assay_scope": {
+      "system": "monarch",
+      "status": "complete",
+      "blocked_reason": null,
+      "primary_fungal_assays": 16322,
+      "primary_assays_by_organism": {
+        "Candida albicans": 11912,
+        "Cryptococcus neoformans": 2038,
+        "Aspergillus fumigatus": 2372
+      },
+      "parasite_organism": "Ophryocystis elektroscirrha",
+      "parasite_assays_all_types": 0,
+      "primary_assay_type": "F",
+      "parasite_assay_type_filter": null,
+      "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+      "parasite_absent_from_complete_inventory": true,
+      "zero_assays_interpretation": "Database assay coverage only; inactivity is unmeasured.",
+      "query_count": 22,
+      "offline": false,
+      "errors": {}
+    },
+    "bioactivity": {
+      "status": "complete",
+      "blocked_reason": null,
+      "incomplete_reason": null,
+      "compounds": 417,
+      "matched_compounds": 69,
+      "active": 0,
+      "inactive": 1,
+      "unknown": 416,
+      "failed_compounds": 0,
+      "retrieved_measurements": 1030,
+      "classified_measurements": 1,
+      "discordant_compounds": 0,
+      "unique_assays_with_classified_measurements": 1,
+      "database_status": {
+        "activities": 24527044,
+        "chembl_db_version": "ChEMBL_37",
+        "chembl_release_date": "2026-05-01",
+        "compound_records": 3824604,
+        "disinct_compounds": 2921148,
+        "publications": 101100,
+        "status": "UP",
+        "targets": 18552
+      },
+      "cached_requests": 39,
+      "selected_compounds": 417,
+      "selected_occurrences": 2964,
+      "eligible_behaviour_genera": [
+        "Asclepias"
+      ],
+      "excluded_occurrences": 0,
+      "selection_rule": "Semantically retained direct directional genera before bioactivity.",
+      "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+      "query_count": 39,
+      "classified_compounds": 1,
+      "genera_with_classified_compounds": 1,
+      "classification_denominator": "active_and_inactive_with_successful_retrieval",
+      "coverage_complete": true
+    }
+  },
+  "errors": {},
+  "analysis_performed": false,
+  "funnel_path": "/Users/seth/Documents/ChatGPT/hackathon/results/systems/monarch_seeded/funnel.json",
+  "funnel": {
+    "system": "monarch_seeded",
+    "exploratory": true,
+    "stages": [
+      {
+        "stage": "model_candidates",
+        "count": 13,
+        "unit": "model records",
+        "status": "complete",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "grounded_records",
+        "count": 9,
+        "unit": "grounded model records",
+        "status": "complete",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "semantically_retained",
+        "count": 4,
+        "unit": "reviewed model records",
+        "status": "complete",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "names_resolved",
+        "count": 2,
+        "unit": "distinct accepted taxon identities",
+        "status": "complete",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "eligible_behaviour_genera",
+        "count": 1,
+        "unit": "directional genera",
+        "status": "complete",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "genera_with_chemistry",
+        "count": 1,
+        "unit": "eligible genera",
+        "status": "completed",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "mapped_compounds",
+        "count": 417,
+        "unit": "distinct full InChIKeys",
+        "status": "completed",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "classified_compounds",
+        "count": 1,
+        "unit": "active or inactive compounds",
+        "status": "complete",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      },
+      {
+        "stage": "genera_with_classified_compounds",
+        "count": 1,
+        "unit": "eligible genera",
+        "status": "complete",
+        "blocked_reason": null,
+        "count_interpretation": "observed"
+      }
+    ],
+    "behaviour_metrics": {
+      "status": "complete",
+      "blocked_reason": null,
+      "input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/behaviour/aggregation_input.jsonl",
+      "input_sha256": "c1452a57f2e2f2b989c18094cbea6682df5d9b6b61b03cb1598a57b9e0a8ebc4",
+      "resolved_observations": 4,
+      "duplicate_observations": 0,
+      "resolved_genera": 1,
+      "eligible_genera": 1,
+      "accepted_genera": 1,
+      "rejected_genera": 0,
+      "conflict_genera": 0,
+      "unknown_genera": 0,
+      "focal_eligible_genera": 1,
+      "infection_comparison_eligible_genera": 1,
+      "ancillary_oviposition_genera": 0,
+      "direct_directional_observations": 2,
+      "unknown_direction_observations": 2,
+      "ineligible_observations": 2,
+      "infection_status_counts": {
+        "infected": 2,
+        "uninfected": 2
+      },
+      "source_input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/taxonomy/observations.jsonl",
+      "source_input_sha256": "33ec46804454b2e4dd010df9adb5b6dc0b4a946dac7cac81479710cd1a8f17ff",
+      "grouping_discriminator_fields": [
+        "study_context",
+        "infection_status",
+        "treatment_context",
+        "experiment_id",
+        "infection_comparison_id"
+      ],
+      "original_study_context_restored": true
+    },
+    "bioactivity_metrics": {
+      "status": "complete",
+      "blocked_reason": null,
+      "incomplete_reason": null,
+      "compounds": 417,
+      "matched_compounds": 69,
+      "active": 0,
+      "inactive": 1,
+      "unknown": 416,
+      "failed_compounds": 0,
+      "retrieved_measurements": 1030,
+      "classified_measurements": 1,
+      "discordant_compounds": 0,
+      "unique_assays_with_classified_measurements": 1,
+      "database_status": {
+        "activities": 24527044,
+        "chembl_db_version": "ChEMBL_37",
+        "chembl_release_date": "2026-05-01",
+        "compound_records": 3824604,
+        "disinct_compounds": 2921148,
+        "publications": 101100,
+        "status": "UP",
+        "targets": 18552
+      },
+      "cached_requests": 39,
+      "selected_compounds": 417,
+      "selected_occurrences": 2964,
+      "eligible_behaviour_genera": [
+        "Asclepias"
+      ],
+      "excluded_occurrences": 0,
+      "selection_rule": "Semantically retained direct directional genera before bioactivity.",
+      "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+      "query_count": 39,
+      "classified_compounds": 1,
+      "genera_with_classified_compounds": 1,
+      "classification_denominator": "active_and_inactive_with_successful_retrieval",
+      "coverage_complete": true
+    },
+    "assay_scope_check": {
+      "system": "monarch",
+      "status": "complete",
+      "blocked_reason": null,
+      "primary_fungal_assays": 16322,
+      "primary_assays_by_organism": {
+        "Candida albicans": 11912,
+        "Cryptococcus neoformans": 2038,
+        "Aspergillus fumigatus": 2372
+      },
+      "parasite_organism": "Ophryocystis elektroscirrha",
+      "parasite_assays_all_types": 0,
+      "primary_assay_type": "F",
+      "parasite_assay_type_filter": null,
+      "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+      "parasite_absent_from_complete_inventory": true,
+      "zero_assays_interpretation": "Database assay coverage only; inactivity is unmeasured.",
+      "query_count": 22,
+      "offline": false,
+      "errors": {}
+    },
+    "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+    "missingness_policy": "Unavailable stages have null counts. Unknown directions do not supply directional genera. Conflicts are excluded from chemistry inputs. Unknown or failed assay labels are excluded from classified denominators.",
+    "analysis_performed": false,
+    "adapter_system": "monarch"
+  }
+}

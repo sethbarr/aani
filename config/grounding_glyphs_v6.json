@@ -1,0 +1,31 @@
+{
+  "version": "cache_side_controls_v6",
+  "prior_policy": {
+    "version": "printable_confusables_v5",
+    "control_glyph_policy": {
+      "version": "glyph_v4",
+      "model_characters": "non_whitespace_c0",
+      "source_glyphs": ["±", "¼"],
+      "mapping_scope": "candidate",
+      "alignment": "unique_equal_length"
+    },
+    "printable_equivalence_classes": [
+      ["-", "‐", "‑", "‒", "–", "—", "−"],
+      ["'", "‘", "’"],
+      ["\"", "“", "”"],
+      [" ", " "]
+    ],
+    "mapping_scope": "candidate",
+    "alignment": "unique_equal_length",
+    "comparison_order": ["exact", "control_glyph_v4", "printable_confusable"]
+  },
+  "cache_characters": "non_whitespace_c0",
+  "model_characters": "single_printable_unicode_punctuation_or_symbol",
+  "differing_positions": 1,
+  "mapping_scope": "candidate_bidirectional_for_cache_controls",
+  "alignment": "unique_equal_length",
+  "anchors": "mirrored_v4_literal_printable_both_sides",
+  "comparison_order": ["exact", "control_glyph_v4", "printable_confusable_v5", "cache_control"],
+  "fallback_after": "ungrounded_quote_only",
+  "section_policy": "unchanged_v5"
+}

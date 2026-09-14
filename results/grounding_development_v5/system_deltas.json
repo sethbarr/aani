@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "offline": true,
+  "model_calls": 0,
+  "network_calls": 0,
+  "systems": [
+    {
+      "system": "propolis",
+      "candidate_records": 2,
+      "v4_accepted": 0,
+      "v5_accepted": 2,
+      "newly_accepted": 2,
+      "lost": 0,
+      "direction_changes": 0,
+      "printable_confusable_routes": 2,
+      "semantic_review": {
+        "grounding_passes_advancing": 2,
+        "reviewed": 2,
+        "semantic_secondary": 2,
+        "semantic_direct_observations": 0,
+        "focal_eligible": 0,
+        "focal_retained": 0
+      },
+      "substitutions_per_candidate": {
+        "quote": [
+          {
+            "model_codepoint": "U+2011",
+            "source_codepoint": "U+2010",
+            "model_offset": 265,
+            "source_offset": 1431
+          }
+        ],
+        "section": [
+          {
+            "model_codepoint": "U+2011",
+            "source_codepoint": "U+2010",
+            "model_offset": 48,
+            "source_offset": 48
+          },
+          {
+            "model_codepoint": "U+2011",
+            "source_codepoint": "U+2010",
+            "model_offset": 61,
+            "source_offset": 61
+          }
+        ]
+      }
+    },
+    {
+      "system": "monarch",
+      "candidate_records": 5,
+      "v4_accepted": 5,
+      "v5_accepted": 5,
+      "newly_accepted": 0,
+      "lost": 0,
+      "direction_changes": 0,
+      "printable_confusable_routes": 0
+    },
+    {
+      "system": "attine_actino",
+      "candidate_records": 11,
+      "v4_accepted": 10,
+      "v5_accepted": 10,
+      "newly_accepted": 0,
+      "lost": 0,
+      "direction_changes": 0,
+      "printable_confusable_routes": 0,
+      "remaining_rejection_reason": "target_not_in_quote"
+    }
+  ],
+  "source_artifacts": {
+    "propolis": "results/systems/propolis/grounding_v5/comparison.json",
+    "monarch": "results/systems/monarch/grounding_v5/comparison.json",
+    "attine_actino": "results/systems/attine_actino/grounding_v5/comparison.json"
+  }
+}

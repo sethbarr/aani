@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-09-13T17:33:03.046032+00:00",
+  "finished_at": "2026-09-13T17:33:03.454559+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "scripts.extract",
+    "--provider",
+    "gemini",
+    "--model",
+    "gemini-3.8-flash",
+    "--grounding",
+    "multispan_v4",
+    "--corpus",
+    "data/interim/corpus_targeted_saverschek",
+    "--output",
+    "data/interim/extraction_saverschek_multispan_v4_sample3",
+    "--cache",
+    "data/raw/grounding_v4_sample3",
+    "--offline"
+  ],
+  "returncode": 0,
+  "model_requests": 0,
+  "candidate_failure_details_inspected_before_scoring": false,
+  "blocked_reason": null
+}

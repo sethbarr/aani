@@ -1,0 +1,14 @@
+{
+  "full_suite_command": ".venv/bin/python -m pytest -q",
+  "passed": 518,
+  "failed": 1,
+  "failure": {
+    "test": "tests/test_experiment_planner.py::test_export_escapes_evidence_and_clears_stale_simulation",
+    "reason": "FileNotFoundError: src/experiments/viewer.template.html",
+    "present_before_v4": true,
+    "changed_in_this_experiment": false
+  },
+  "synthetic_cases_passed": 91,
+  "synthetic_cases_failed": 0,
+  "model_requests": 0
+}

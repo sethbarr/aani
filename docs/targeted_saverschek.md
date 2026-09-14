@@ -47,7 +47,7 @@ are not a universal sign-of-index threshold.
 
 Earliest direct example, `b00003`:
 
-> Desmopsis panamensis, on the other hand, was immediately rejected by all colonies, irrespective of the habitat
+> [Private source reference r00000]
 
 Separate Stigmaphyllon lindenianum experiments used CHX, sugared leaves, and
 follow-up untreated leaves. Their induced rejection is not natural chemical
@@ -127,3 +127,9 @@ Rebuild without API calls:
 
 The new combined observations replace, rather than append to, the three old
 Saverschek inclusions. No chemistry or antifungal activity data were joined.
+
+## Publication source references
+
+Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.
+
+Full-text locators for this file are in [the publication audit](../results/publication_safety/audit.json).

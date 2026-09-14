@@ -1,0 +1,554 @@
+{
+  "metrics": {
+    "system": "monarch_seeded",
+    "started_at": "2026-09-13T17:33:36.047810+00:00",
+    "completed_at": "2026-09-13T17:33:40.192928+00:00",
+    "offline": false,
+    "seeds": 5,
+    "amendment": {
+      "path": "docs/amendment_2026-09-13_monarch_seeded.md",
+      "commit": "a70546497beeb59ba929bccf93bd4c46b19758b4",
+      "committed_at": "2026-09-13T13:30:55-04:00",
+      "committed_at_utc": "2026-09-13T17:30:55+00:00",
+      "file_sha256": "f1b930813d59578c52daa5fc95b50a5ba35875d2b816b115806eac0766a1bc68",
+      "recorded_before_retrieval": true,
+      "exploratory": true,
+      "excluded_from_inference": true,
+      "frozen_primary_commit": "98b5e09"
+    },
+    "retrieved": 0,
+    "not_open_access": 5,
+    "not_found": 0,
+    "bibliography_verified": 5
+  },
+  "seeds": [
+    {
+      "seed_id": "lefevre_2010",
+      "pmid": "21040353",
+      "doi": "10.1111/j.1461-0248.2010.01537.x",
+      "title": "Evidence for trans-generational medication in nature",
+      "year": "2010",
+      "checked_at": "2026-09-13T17:33:36.047947+00:00",
+      "access_scope": "Europe PMC fullTextXML",
+      "bibliography_verified": true,
+      "status": "not_open_access",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/21040353/",
+      "search_request_hash": "33e7e36c8fe18a6f2182bee59a8f7c69037738202a38b499f67ef55c2525aec2",
+      "verified_title": "Evidence for trans-generational medication in nature.",
+      "author_string": "Lefèvre T, Oliver L, Hunter MD, De Roode JC.",
+      "authors": {
+        "author": [
+          {
+            "fullName": "Lefèvre T",
+            "firstName": "Thierry",
+            "lastName": "Lefèvre",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9736-6142"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biology Department, Emory University, 1510 Clifton Road, Atlanta, GA 30322, USA. telefev@emory.edu"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oliver L",
+            "firstName": "Lindsay",
+            "lastName": "Oliver",
+            "initials": "L"
+          },
+          {
+            "fullName": "Hunter MD",
+            "firstName": "Mark D",
+            "lastName": "Hunter",
+            "initials": "MD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3761-8237"
+            }
+          },
+          {
+            "fullName": "De Roode JC",
+            "firstName": "Jacobus C",
+            "lastName": "De Roode",
+            "initials": "JC"
+          }
+        ]
+      },
+      "journal": {
+        "issue": "12",
+        "volume": "13",
+        "journalIssueId": 1785026,
+        "dateOfPublication": "2010 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2010,
+        "printPublicationDate": "2010-12-01",
+        "journal": {
+          "title": "Ecology letters",
+          "medlineAbbreviation": "Ecol Lett",
+          "essn": "1461-0248",
+          "issn": "1461-023X",
+          "nlmid": "101121949",
+          "isoabbreviation": "Ecol Lett"
+        }
+      },
+      "indexed_doi": "10.1111/j.1461-0248.2010.01537.x",
+      "pmcid": null,
+      "is_open_access": "N",
+      "in_pmc": "N",
+      "full_text_urls": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/79381/1/j.1461-0248.2010.01537.x.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/j.1461-0248.2010.01537.x"
+          }
+        ]
+      },
+      "reason": "Indexed citation has no PMCID and no Europe PMC fullTextXML route.",
+      "fulltext_attempt": "no_indexed_pmcid_route"
+    },
+    {
+      "seed_id": "lefevre_2012",
+      "pmid": "21939438",
+      "doi": "10.1111/j.1365-2656.2011.01901.x",
+      "title": "Behavioural resistance against a protozoan parasite in the monarch butterfly",
+      "year": "2012",
+      "checked_at": "2026-09-13T17:33:36.425445+00:00",
+      "access_scope": "Europe PMC fullTextXML",
+      "bibliography_verified": true,
+      "status": "not_open_access",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/21939438/",
+      "search_request_hash": "656281ca28dce4985780159e5150801f60d71939845f64b14b3b0d8794d00938",
+      "verified_title": "Behavioural resistance against a protozoan parasite in the monarch butterfly.",
+      "author_string": "Lefèvre T, Chiang A, Kelavkar M, Li H, Li J, de Castillejo CL, Oliver L, Potini Y, Hunter MD, de Roode JC.",
+      "authors": {
+        "author": [
+          {
+            "fullName": "Lefèvre T",
+            "firstName": "Thierry",
+            "lastName": "Lefèvre",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9736-6142"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biology Department, Emory University, 1510 Clifton Road, Atlanta, GA 30322, USA. telefev@emory.edu"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chiang A",
+            "firstName": "Allen",
+            "lastName": "Chiang",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kelavkar M",
+            "firstName": "Mangala",
+            "lastName": "Kelavkar",
+            "initials": "M"
+          },
+          {
+            "fullName": "Li H",
+            "firstName": "Hui",
+            "lastName": "Li",
+            "initials": "H"
+          },
+          {
+            "fullName": "Li J",
+            "firstName": "James",
+            "lastName": "Li",
+            "initials": "J"
+          },
+          {
+            "fullName": "de Castillejo CL",
+            "firstName": "Carlos Lopez Fernandez",
+            "lastName": "de Castillejo",
+            "initials": "CL"
+          },
+          {
+            "fullName": "Oliver L",
+            "firstName": "Lindsay",
+            "lastName": "Oliver",
+            "initials": "L"
+          },
+          {
+            "fullName": "Potini Y",
+            "firstName": "Yamini",
+            "lastName": "Potini",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Hunter MD",
+            "firstName": "Mark D",
+            "lastName": "Hunter",
+            "initials": "MD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3761-8237"
+            }
+          },
+          {
+            "fullName": "de Roode JC",
+            "firstName": "Jacobus C",
+            "lastName": "de Roode",
+            "initials": "JC"
+          }
+        ]
+      },
+      "journal": {
+        "issue": "1",
+        "volume": "81",
+        "journalIssueId": 1888034,
+        "dateOfPublication": "2012 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2012,
+        "printPublicationDate": "2012-01-01",
+        "journal": {
+          "title": "The Journal of animal ecology",
+          "medlineAbbreviation": "J Anim Ecol",
+          "essn": "1365-2656",
+          "issn": "0021-8790",
+          "nlmid": "0376574",
+          "isoabbreviation": "J Anim Ecol"
+        }
+      },
+      "indexed_doi": "10.1111/j.1365-2656.2011.01901.x",
+      "pmcid": null,
+      "is_open_access": "N",
+      "in_pmc": "N",
+      "full_text_urls": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/j.1365-2656.2011.01901.x"
+          }
+        ]
+      },
+      "reason": "Indexed citation has no PMCID and no Europe PMC fullTextXML route.",
+      "fulltext_attempt": "no_indexed_pmcid_route"
+    },
+    {
+      "seed_id": "deroode_2008",
+      "pmid": "18177332",
+      "doi": "10.1111/j.1365-2656.2007.01305.x",
+      "title": "Host plant species affects virulence in monarch butterfly parasites",
+      "year": "2008",
+      "checked_at": "2026-09-13T17:33:37.172057+00:00",
+      "access_scope": "Europe PMC fullTextXML",
+      "bibliography_verified": true,
+      "status": "not_open_access",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/18177332/",
+      "search_request_hash": "7f38d6a680415a42bd64a5766e5d97ecf765e8c569b211dae0c27c56a7f930c7",
+      "verified_title": "Host plant species affects virulence in monarch butterfly parasites.",
+      "author_string": "de Roode JC, Pedersen AB, Hunter MD, Altizer S.",
+      "authors": {
+        "author": [
+          {
+            "fullName": "de Roode JC",
+            "firstName": "Jacobus C",
+            "lastName": "de Roode",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Odum School of Ecology, University of Georgia, Athens, GA 30602-2202, USA. jaapderoode@hotmail.com"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pedersen AB",
+            "firstName": "Amy B",
+            "lastName": "Pedersen",
+            "initials": "AB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1385-1360"
+            }
+          },
+          {
+            "fullName": "Hunter MD",
+            "firstName": "Mark D",
+            "lastName": "Hunter",
+            "initials": "MD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3761-8237"
+            }
+          },
+          {
+            "fullName": "Altizer S",
+            "firstName": "Sonia",
+            "lastName": "Altizer",
+            "initials": "S"
+          }
+        ]
+      },
+      "journal": {
+        "issue": "1",
+        "volume": "77",
+        "journalIssueId": 1498894,
+        "dateOfPublication": "2008 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2008,
+        "printPublicationDate": "2008-01-01",
+        "journal": {
+          "title": "The Journal of animal ecology",
+          "medlineAbbreviation": "J Anim Ecol",
+          "isoabbreviation": "J Anim Ecol",
+          "nlmid": "0376574",
+          "essn": "1365-2656",
+          "issn": "0021-8790"
+        }
+      },
+      "indexed_doi": "10.1111/j.1365-2656.2007.01305.x",
+      "pmcid": null,
+      "is_open_access": "N",
+      "in_pmc": "N",
+      "full_text_urls": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2656.2007.01305.x"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/j.1365-2656.2007.01305.x"
+          }
+        ]
+      },
+      "reason": "Indexed citation has no PMCID and no Europe PMC fullTextXML route.",
+      "fulltext_attempt": "no_indexed_pmcid_route"
+    },
+    {
+      "seed_id": "sternberg_2012",
+      "pmid": "23106703",
+      "doi": "10.1111/j.1558-5646.2012.01693.x",
+      "title": "Food plant derived disease tolerance and resistance in a natural butterfly-plant-parasite interactions",
+      "year": "2012",
+      "checked_at": "2026-09-13T17:33:38.174139+00:00",
+      "access_scope": "Europe PMC fullTextXML",
+      "bibliography_verified": true,
+      "status": "not_open_access",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23106703/",
+      "search_request_hash": "83cd9633c2c427ac11a26e033436c7b913169e66f161560f9448dab4c770aac8",
+      "verified_title": "Food plant derived disease tolerance and resistance in a natural butterfly-plant-parasite interactions.",
+      "author_string": "Sternberg ED, Lefèvre T, Li J, de Castillejo CL, Li H, Hunter MD, de Roode JC.",
+      "authors": {
+        "author": [
+          {
+            "fullName": "Sternberg ED",
+            "firstName": "Eleanore D",
+            "lastName": "Sternberg",
+            "initials": "ED",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Emory University, 1510 Clifton Rd, Atlanta, Georgia 30322, USA. esternb@emory.edu"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lefèvre T",
+            "firstName": "Thierry",
+            "lastName": "Lefèvre",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9736-6142"
+            }
+          },
+          {
+            "fullName": "Li J",
+            "firstName": "James",
+            "lastName": "Li",
+            "initials": "J"
+          },
+          {
+            "fullName": "de Castillejo CL",
+            "firstName": "Carlos Lopez Fernandez",
+            "lastName": "de Castillejo",
+            "initials": "CL"
+          },
+          {
+            "fullName": "Li H",
+            "firstName": "Hui",
+            "lastName": "Li",
+            "initials": "H"
+          },
+          {
+            "fullName": "Hunter MD",
+            "firstName": "Mark D",
+            "lastName": "Hunter",
+            "initials": "MD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3761-8237"
+            }
+          },
+          {
+            "fullName": "de Roode JC",
+            "firstName": "Jacobus C",
+            "lastName": "de Roode",
+            "initials": "JC"
+          }
+        ]
+      },
+      "journal": {
+        "issue": "11",
+        "volume": "66",
+        "journalIssueId": 1978378,
+        "dateOfPublication": "2012 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2012,
+        "printPublicationDate": "2012-11-01",
+        "journal": {
+          "title": "Evolution; international journal of organic evolution",
+          "medlineAbbreviation": "Evolution",
+          "essn": "1558-5646",
+          "issn": "0014-3820",
+          "nlmid": "0373224",
+          "isoabbreviation": "Evolution"
+        }
+      },
+      "indexed_doi": "10.1111/j.1558-5646.2012.01693.x",
+      "pmcid": null,
+      "is_open_access": "N",
+      "in_pmc": "N",
+      "full_text_urls": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/j.1558-5646.2012.01693.x"
+          }
+        ]
+      },
+      "reason": "Indexed citation has no PMCID and no Europe PMC fullTextXML route.",
+      "fulltext_attempt": "no_indexed_pmcid_route"
+    },
+    {
+      "seed_id": "gowler_2015",
+      "pmid": "25953502",
+      "doi": "10.1007/s10886-015-0586-6",
+      "title": "Secondary Defense Chemicals in Milkweed Reduce Parasite Infection in Monarch Butterflies, Danaus plexippus",
+      "year": "2015",
+      "checked_at": "2026-09-13T17:33:39.185998+00:00",
+      "access_scope": "Europe PMC fullTextXML",
+      "bibliography_verified": true,
+      "status": "not_open_access",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25953502/",
+      "search_request_hash": "7e05f48c69dd0d2770444125dc17f2c32f15a6ff80ec5f7295c87c74884e1581",
+      "verified_title": "Secondary Defense Chemicals in Milkweed Reduce Parasite Infection in Monarch Butterflies, Danaus plexippus.",
+      "author_string": "Gowler CD, Leon KE, Hunter MD, de Roode JC.",
+      "authors": {
+        "author": [
+          {
+            "fullName": "Gowler CD",
+            "firstName": "Camden D",
+            "lastName": "Gowler",
+            "initials": "CD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biology Department, Emory University, 1510 Clifton Road, Atlanta, GA, 30322, USA, cgowler@umich.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leon KE",
+            "firstName": "Kristoffer E",
+            "lastName": "Leon",
+            "initials": "KE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2424-0458"
+            }
+          },
+          {
+            "fullName": "Hunter MD",
+            "firstName": "Mark D",
+            "lastName": "Hunter",
+            "initials": "MD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3761-8237"
+            }
+          },
+          {
+            "fullName": "de Roode JC",
+            "firstName": "Jacobus C",
+            "lastName": "de Roode",
+            "initials": "JC"
+          }
+        ]
+      },
+      "journal": {
+        "issue": "6",
+        "volume": "41",
+        "journalIssueId": 2294010,
+        "dateOfPublication": "2015 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2015,
+        "printPublicationDate": "2015-06-01",
+        "journal": {
+          "title": "Journal of chemical ecology",
+          "medlineAbbreviation": "J Chem Ecol",
+          "essn": "1573-1561",
+          "issn": "0098-0331",
+          "nlmid": "7505563",
+          "isoabbreviation": "J Chem Ecol"
+        }
+      },
+      "indexed_doi": "10.1007/s10886-015-0586-6",
+      "pmcid": null,
+      "is_open_access": "N",
+      "in_pmc": "N",
+      "full_text_urls": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1007/s10886-015-0586-6"
+          }
+        ]
+      },
+      "reason": "Indexed citation has no PMCID and no Europe PMC fullTextXML route.",
+      "fulltext_attempt": "no_indexed_pmcid_route"
+    }
+  ]
+}

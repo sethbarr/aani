@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "blocked_reason": null,
+  "genera_after_aggregation": 10,
+  "conflicting_genera": 5,
+  "genera_with_chemistry": 8,
+  "genera_missing_chemistry": 2,
+  "genera_with_classified_compound": 7,
+  "genera_with_zero_classified_compounds": 1,
+  "genera_available_for_primary_test": 7,
+  "activity_retrieval_complete": true,
+  "unretrieved_mapped_compounds": 0,
+  "primary_status": "feasibility_failure",
+  "primary_estimable": false,
+  "model_environment": {
+    "status": "unavailable",
+    "reason": "lme4_unavailable",
+    "executable": "/opt/homebrew/bin/Rscript",
+    "version_output": "R version 4.5.0 (2025-04-11)",
+    "error_output": ""
+  }
+}

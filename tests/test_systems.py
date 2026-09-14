@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pytest
 
-from scripts.system_pipeline import assert_isolated
-from src.common.io import write_json, write_jsonl
+from scripts.system_pipeline import assert_isolated, prepare_controls
+from src.common.io import read_json, write_json, write_jsonl
 from src.systems.config import load_system_config, system_paths
 from src.systems.extraction import make_system_jobs, validate_system_candidate
 
@@ -97,3 +97,36 @@ def test_system_grounding_and_direction_rules() -> None:
         {**candidate, "direction": "reject"}, job, config, 0.8
     )
     assert invalid is None and reason == "reject_direction_unavailable"
+
+
+def test_controls_replace_only_complete_discovery_sources(tmp_path: Path) -> None:
+    """Prioritize the fixed controls while preserving original payload indexes."""
+    config = Path("config/systems/attine_actino.json").resolve()
+    interim = tmp_path / "data/interim/systems/attine_actino"
+    reference = interim / "reference_sources"
+    papers = [{
+        "source_id": source, "status": "ready", "title": source,
+        "source_url": "https://example.org/" + source,
+    } for source in ("CURRIE1999", "PMC2748230")]
+    write_jsonl(reference / "corpus/manifest.jsonl", papers)
+    for paper in papers:
+        write_json(reference / "corpus/texts" / f"{paper['source_id']}.json", {
+            **paper, "blocks": [{"block_id": "b0", "section": "Body", "text": "reference"}],
+        })
+    write_json(reference / "screening.json", {"decisions": [
+        {"source_id": paper["source_id"], "decision": "include"} for paper in papers
+    ]})
+    discovery = {"jobs": [{
+        "source_id": source, "chunk_index": index, "chunk_count": chunks,
+        "input_hash": f"{source}_{index}",
+    } for source, chunks in (("PMC1", 9), ("PMC2", 2)) for index in range(chunks)]}
+    path = interim / "extraction_payloads/index.json"
+    write_json(path, discovery)
+    selected = prepare_controls(config, tmp_path)
+    assert len(selected["jobs"]) == 11
+    assert selected["discovery_sources_displaced"] == ["PMC2"]
+    assert {job["source_id"] for job in selected["jobs"]} == {
+        "CURRIE1999", "PMC2748230", "PMC1",
+    }
+    assert read_json(path) == discovery
+    assert not (tmp_path / "results/systems/attine_actino/payload_approval.json").exists()

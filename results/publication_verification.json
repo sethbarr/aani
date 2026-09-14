@@ -1,0 +1,225 @@
+{
+  "scope": "Seeded monarch prose reconciliation and publication verification",
+  "submission_finalisation": "monarch_source_disagreement_resolved",
+  "resolution": "User confirmed the specified funnel as authoritative; completed-run manifests agree. README and systems prose now describe recovered focal comparison, partial same-target model recovery and a fungal coverage probe.",
+  "funnel_sha256": "b395a282f3784a9f106166a58a3abdb5819e358016ac082fc1099e8ca2932723",
+  "source_agreement": {
+    "downstream_manifest_embedded_funnel": true,
+    "candidate_records": 13,
+    "grounded_records": 9,
+    "semantically_retained": 4,
+    "infection_status_counts": {
+      "infected": 2,
+      "uninfected": 2
+    },
+    "focal_eligible_genera": 1,
+    "infection_comparison_eligible_genera": 1
+  },
+  "sources": {
+    "results/systems/monarch_seeded/funnel.json": "b395a282f3784a9f106166a58a3abdb5819e358016ac082fc1099e8ca2932723",
+    "results/systems/monarch_seeded/downstream_manifest.json": "dcba7c5a13bd30fe65f1c644912d0e82e34f9a1cf44ae2a22f87d7c791c2384b",
+    "results/systems/monarch_seeded/extraction_manifest.json": "72ebf6b4c629d979ea280c6fd6d01c3dd82b124717bcb2dea351f43568c8ae29",
+    "results/systems/monarch_seeded/local_pdf_access.json": "25b79e8e73082eecd3f46ae5098f6035f0c5c1f94846c1505ae3f92f2c79971c",
+    "results/systems/monarch_seeded/seed_access.json": "f953f776ce11e7f0097556e77ce3dca26ce2ff7301dc6cb77891dc4a3d2961ab",
+    "results/systems/monarch_seeded/semantic_review.json": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+    "results/systems/monarch_seeded/assay_scope_manifest.json": "915b8ac93c856e001cefd3023930d968ad4f2bbf0024a51bafbaa0269ab61002",
+    "results/systems/monarch_seeded/preparation.json": "834137c9b420b8ec67cf7f4585f1d88f2a65b16630cd9eb73e93e35166668938"
+  },
+  "seed_retrieval": [
+    {
+      "source_id": "LEFEVRE2010",
+      "seed_id": "lefevre_2010",
+      "year": "2010",
+      "europe_pmc_status": "not_open_access",
+      "local_status": "retrieved",
+      "source_kind": "user_supplied_pdf",
+      "selected_for_extraction": true
+    },
+    {
+      "source_id": "LEFEVRE2012",
+      "seed_id": "lefevre_2012",
+      "year": "2012",
+      "europe_pmc_status": "not_open_access",
+      "local_status": "retrieved",
+      "source_kind": "user_supplied_pdf",
+      "selected_for_extraction": true
+    },
+    {
+      "source_id": "DEROODE2008",
+      "seed_id": "deroode_2008",
+      "year": "2008",
+      "europe_pmc_status": "not_open_access",
+      "local_status": "retrieved",
+      "source_kind": "user_supplied_pdf",
+      "selected_for_extraction": false
+    },
+    {
+      "source_id": "STERNBERG2012",
+      "seed_id": "sternberg_2012",
+      "year": "2012",
+      "europe_pmc_status": "not_open_access",
+      "local_status": "retrieved",
+      "source_kind": "user_supplied_pdf",
+      "selected_for_extraction": false
+    },
+    {
+      "source_id": "GOWLER2015",
+      "seed_id": "gowler_2015",
+      "year": "2015",
+      "europe_pmc_status": "not_open_access",
+      "local_status": "retrieved",
+      "source_kind": "user_supplied_pdf",
+      "selected_for_extraction": false
+    }
+  ],
+  "assay_scope": {
+    "system": "monarch",
+    "status": "complete",
+    "blocked_reason": null,
+    "primary_fungal_assays": 16322,
+    "primary_assays_by_organism": {
+      "Candida albicans": 11912,
+      "Cryptococcus neoformans": 2038,
+      "Aspergillus fumigatus": 2372
+    },
+    "parasite_organism": "Ophryocystis elektroscirrha",
+    "parasite_assays_all_types": 0,
+    "primary_assay_type": "F",
+    "parasite_assay_type_filter": null,
+    "assay_mismatch": "Ophryocystis elektroscirrha is outside the configured ChEMBL assay panel; fungal bioactivity is a coverage probe and does not test the monarch-parasite mechanism.",
+    "parasite_absent_from_complete_inventory": true,
+    "zero_assays_interpretation": "Database assay coverage only; inactivity is unmeasured.",
+    "query_count": 22,
+    "offline": false,
+    "errors": {}
+  },
+  "preservation": {
+    "submission_only_requested_monarch_line_changed": true,
+    "frozen_commit": "98b5e09",
+    "frozen_files": [
+      "docs/analysis_plan.md",
+      "config/analysis.json"
+    ],
+    "original_seeded_preservation_audit": "Existing original-file-set failure remains disclosed; this edit does not rerun that audit."
+  },
+  "prior_planner_validation": {
+    "test_command": ".venv/bin/python -m pytest -q",
+    "tests_passed": 981,
+    "tests_failed": 0,
+    "duration_seconds": 5.83,
+    "javascript_syntax_check": "node --check src/experiments/browser_planner.js: passed",
+    "planner_fixture_export": "passed",
+    "browser_preview": "blocked: Browser Use URL policy disallows the local file URL; no workaround attempted"
+  },
+  "current_test_scope": "Publication links, scientific source agreement, frozen-file hashes, protected submission text and Git tracking; no code changed in this task.",
+  "private_paths_ignored": [
+    ".env",
+    ".venv/",
+    "data/raw/",
+    "data/interim/",
+    "research/"
+  ],
+  "ds_store_ignored_and_not_staged": true,
+  "decision_table": "docs/publication_git_decisions.md",
+  "historical_whitespace_note": {
+    "status": "warning",
+    "path": "results/grounding_development_v3/byte_forensics.json",
+    "detail": "Existing blank line at EOF preserved because later verification manifests hash this artifact."
+  },
+  "publication_links": {
+    "README.md": [
+      "data/processed/behaviour/metrics.json",
+      "data/processed/behaviour/miconia_verification.json",
+      "docs/amendment_2026-09-12_reporting_gate.md",
+      "docs/amendment_2026-09-13_trema_taxonomy.md",
+      "docs/analysis_plan.md",
+      "docs/chemistry_export.md",
+      "docs/design_audit.md",
+      "docs/experiment_workflows.md",
+      "docs/pipeline.md",
+      "results/day2_status.md",
+      "results/experiment_planner/index.html",
+      "results/funnel.json",
+      "results/grounding_development_v1/summary.md",
+      "results/grounding_development_v2/summary.md",
+      "results/grounding_development_v3/summary.md",
+      "results/grounding_development_v4/heldout_summary.md",
+      "results/grounding_development_v4/summary.md",
+      "results/grounding_development_v5/summary.md",
+      "results/pipeline_report.md",
+      "results/recall_baseline.md",
+      "results/systems/monarch_seeded/funnel.json",
+      "results/systems/monarch_seeded/summary.md",
+      "results/systems/summary.md"
+    ],
+    "results/systems/summary.md": [
+      "data/processed/behaviour/metrics.json",
+      "results/grounding_development_v5/summary.md",
+      "results/systems/attine_actino/control_preflight.json",
+      "results/systems/attine_actino/currie_recovery/summary.md",
+      "results/systems/attine_actino/funnel.json",
+      "results/systems/attine_actino/positive_control.json",
+      "results/systems/attine_actino/reference_set.json",
+      "results/systems/attine_actino/semantic_review.json",
+      "results/systems/attine_actino/taxonomy_microbial/summary.md",
+      "results/systems/attine_actino/verification.json",
+      "results/systems/monarch/funnel.json",
+      "results/systems/monarch_seeded/assay_scope_manifest.json",
+      "results/systems/monarch_seeded/downstream_manifest.json",
+      "results/systems/monarch_seeded/extraction_manifest.json",
+      "results/systems/monarch_seeded/funnel.json",
+      "results/systems/monarch_seeded/local_pdf_access.json",
+      "results/systems/monarch_seeded/preparation.json",
+      "results/systems/monarch_seeded/seed_access.json",
+      "results/systems/monarch_seeded/semantic_review.json",
+      "results/systems/monarch_seeded/summary.md",
+      "results/systems/propolis/downstream_manifest.json",
+      "results/systems/propolis/funnel.json",
+      "results/systems/propolis/semantic_review.json",
+      "results/systems/propolis/verification.json"
+    ],
+    "results/systems/monarch_seeded/summary.md": [
+      "docs/source_gaps_monarch_seeded.md",
+      "results/systems/monarch_seeded/assay_scope_manifest.json",
+      "results/systems/monarch_seeded/bibliography_audit.json",
+      "results/systems/monarch_seeded/downstream_manifest.json",
+      "results/systems/monarch_seeded/extraction_manifest.json",
+      "results/systems/monarch_seeded/funnel.json",
+      "results/systems/monarch_seeded/local_pdf_access.json",
+      "results/systems/monarch_seeded/seed_access.json",
+      "results/systems/monarch_seeded/semantic_review.json",
+      "results/systems/monarch_seeded/source_design_review.json",
+      "results/systems/monarch_seeded/verification.json"
+    ],
+    "results/business_case/judges_submission_v2.md": [
+      "README.md",
+      "docs/amendment_2026-09-12_reporting_gate.md",
+      "docs/analysis_plan.md",
+      "docs/pipeline.md",
+      "results/experiment_planner/index.html",
+      "results/funnel.json",
+      "results/grounding_development_v1/summary.md",
+      "results/grounding_development_v2/summary.md",
+      "results/grounding_development_v3/summary.md",
+      "results/grounding_development_v4/heldout_summary.md",
+      "results/grounding_development_v4/summary.md",
+      "results/grounding_development_v5/summary.md",
+      "results/grounding_development_v6/heldout_sample4_summary.md",
+      "results/grounding_development_v6/summary.md",
+      "results/metrics.json",
+      "results/pipeline_report.md",
+      "results/systems/attine_actino/currie_recovery/summary.md",
+      "results/systems/attine_actino/taxonomy_microbial/summary.md",
+      "results/systems/monarch_seeded/summary.md",
+      "results/systems/summary.md"
+    ]
+  },
+  "unique_local_file_targets": 51,
+  "publication_links_status": "passed: all local targets exist, are tracked and are unignored",
+  "submission_link_target_count": 20,
+  "private_paths_ignored_and_untracked": true,
+  "results_git_status_summary": {
+    "A ": 102,
+    " M": 1
+  }
+}

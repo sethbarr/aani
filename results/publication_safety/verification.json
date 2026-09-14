@@ -1,0 +1,750 @@
+{
+  "verified_at": "2026-09-14T00:07:32.329272+00:00",
+  "status": "passed",
+  "blocked_reason": null,
+  "scope": "Current indexed paths and their working bytes; Git history is separate.",
+  "tracked_files_checked": 277,
+  "source_blocks_checked": 18133,
+  "source_prose_violations": [],
+  "retained_attributed_quotes": [
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        0,
+        "evidence",
+        0,
+        "quote"
+      ],
+      "words": 8,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        1,
+        "evidence",
+        0,
+        "quote"
+      ],
+      "words": 5,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        1,
+        "evidence",
+        1,
+        "quote"
+      ],
+      "words": 12,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        1,
+        "evidence",
+        2,
+        "quote"
+      ],
+      "words": 4,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        2,
+        "evidence",
+        0,
+        "quote"
+      ],
+      "words": 5,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        2,
+        "evidence",
+        1,
+        "quote"
+      ],
+      "words": 12,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        3,
+        "evidence",
+        0,
+        "quote"
+      ],
+      "words": 6,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        4,
+        "evidence",
+        0,
+        "quote"
+      ],
+      "words": 13,
+      "source_id": "PMC11543716"
+    },
+    {
+      "path": "config/pilot_name_mappings.json",
+      "json_path": [
+        "mappings",
+        4,
+        "evidence",
+        1,
+        "quote"
+      ],
+      "words": 3,
+      "source_id": "PMC11543716"
+    }
+  ],
+  "maximum_retained_quote_words": 13,
+  "projections": [
+    {
+      "file": "results/grounding_development_v1/compare.json",
+      "source_fields_replaced": 58,
+      "non_source_values_checked": 1060,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v2/compare.json",
+      "source_fields_replaced": 219,
+      "non_source_values_checked": 3089,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v2/saved_candidate_diagnostic.json",
+      "source_fields_replaced": 92,
+      "non_source_values_checked": 1074,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v3/byte_forensics.json",
+      "source_fields_replaced": 16,
+      "non_source_values_checked": 417,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v3/compare.json",
+      "source_fields_replaced": 534,
+      "non_source_values_checked": 6603,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v3/repeat_comparison.json",
+      "source_fields_replaced": 438,
+      "non_source_values_checked": 5638,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v3/repeat_failures.json",
+      "source_fields_replaced": 72,
+      "non_source_values_checked": 1146,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v4/compare.json",
+      "source_fields_replaced": 512,
+      "non_source_values_checked": 6459,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v4/heldout_cached_control_evidence.json",
+      "source_fields_replaced": 21,
+      "non_source_values_checked": 269,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v4/heldout_failures.json",
+      "source_fields_replaced": 14,
+      "non_source_values_checked": 385,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v4/heldout_protocol.json",
+      "source_fields_replaced": 3,
+      "non_source_values_checked": 422,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v4/heldout_scores.json",
+      "source_fields_replaced": 333,
+      "non_source_values_checked": 4400,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v6/development_scores.json",
+      "source_fields_replaced": 333,
+      "non_source_values_checked": 4638,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v6/heldout_sample4_protocol.json",
+      "source_fields_replaced": 3,
+      "non_source_values_checked": 1131,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/grounding_development_v6/heldout_sample4_scores.json",
+      "source_fields_replaced": 410,
+      "non_source_values_checked": 5811,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/recall_baseline.json",
+      "source_fields_replaced": 47,
+      "non_source_values_checked": 963,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/systems/attine_actino/currie_recovery/diagnosis.json",
+      "source_fields_replaced": 71,
+      "non_source_values_checked": 191,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/systems/attine_actino/reference_set.json",
+      "source_fields_replaced": 2,
+      "non_source_values_checked": 66,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/systems/attine_actino/semantic_review.json",
+      "source_fields_replaced": 10,
+      "non_source_values_checked": 190,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/systems/monarch/semantic_review.json",
+      "source_fields_replaced": 11,
+      "non_source_values_checked": 150,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/systems/monarch_seeded/semantic_review.json",
+      "source_fields_replaced": 57,
+      "non_source_values_checked": 847,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    },
+    {
+      "file": "results/systems/monarch_seeded/source_design_review.json",
+      "source_fields_replaced": 8,
+      "non_source_values_checked": 111,
+      "non_source_values_unchanged": true,
+      "private_references_resolved": true
+    }
+  ],
+  "markdown_references": [
+    {
+      "file": "docs/targeted_saverschek.md",
+      "reference_id": "r00000",
+      "resolved": true
+    }
+  ],
+  "local_file_links": [
+    {
+      "document": "README.md",
+      "target": "data/processed/behaviour/metrics.json",
+      "resolved_path": "data/processed/behaviour/metrics.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/processed/behaviour/miconia_verification.json",
+      "resolved_path": "data/processed/behaviour/miconia_verification.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/amendment_2026-09-12_reporting_gate.md",
+      "resolved_path": "docs/amendment_2026-09-12_reporting_gate.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/amendment_2026-09-13_trema_taxonomy.md",
+      "resolved_path": "docs/amendment_2026-09-13_trema_taxonomy.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/analysis_plan.md",
+      "resolved_path": "docs/analysis_plan.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/chemistry_export.md",
+      "resolved_path": "docs/chemistry_export.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/design_audit.md",
+      "resolved_path": "docs/design_audit.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/experiment_workflows.md",
+      "resolved_path": "docs/experiment_workflows.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/pipeline.md",
+      "resolved_path": "docs/pipeline.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "docs/publication_safety.md",
+      "resolved_path": "docs/publication_safety.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/day2_status.md",
+      "resolved_path": "results/day2_status.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/experiment_planner/index.html",
+      "resolved_path": "results/experiment_planner/index.html",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/funnel.json",
+      "resolved_path": "results/funnel.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v1/summary.md",
+      "resolved_path": "results/grounding_development_v1/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v2/summary.md",
+      "resolved_path": "results/grounding_development_v2/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v3/summary.md",
+      "resolved_path": "results/grounding_development_v3/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v4/heldout_summary.md",
+      "resolved_path": "results/grounding_development_v4/heldout_summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v4/summary.md",
+      "resolved_path": "results/grounding_development_v4/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v5/summary.md",
+      "resolved_path": "results/grounding_development_v5/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v6/heldout_sample4_summary.md",
+      "resolved_path": "results/grounding_development_v6/heldout_sample4_summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/grounding_development_v6/summary.md",
+      "resolved_path": "results/grounding_development_v6/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/pipeline_report.md",
+      "resolved_path": "results/pipeline_report.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/publication_safety/audit.md",
+      "resolved_path": "results/publication_safety/audit.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/publication_safety/licences.json",
+      "resolved_path": "results/publication_safety/licences.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/recall_baseline.md",
+      "resolved_path": "results/recall_baseline.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/systems/monarch_seeded/funnel.json",
+      "resolved_path": "results/systems/monarch_seeded/funnel.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/systems/monarch_seeded/summary.md",
+      "resolved_path": "results/systems/monarch_seeded/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/systems/monarch_seeded/verification.json",
+      "resolved_path": "results/systems/monarch_seeded/verification.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "README.md",
+      "target": "results/systems/summary.md",
+      "resolved_path": "results/systems/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../../README.md",
+      "resolved_path": "README.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../../README.md",
+      "resolved_path": "README.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../../docs/amendment_2026-09-12_reporting_gate.md",
+      "resolved_path": "docs/amendment_2026-09-12_reporting_gate.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../../docs/analysis_plan.md",
+      "resolved_path": "docs/analysis_plan.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../../docs/publication_safety.md",
+      "resolved_path": "docs/publication_safety.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../experiment_planner/index.html",
+      "resolved_path": "results/experiment_planner/index.html",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../funnel.json",
+      "resolved_path": "results/funnel.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v1/summary.md",
+      "resolved_path": "results/grounding_development_v1/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v2/summary.md",
+      "resolved_path": "results/grounding_development_v2/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v3/summary.md",
+      "resolved_path": "results/grounding_development_v3/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v4/heldout_summary.md",
+      "resolved_path": "results/grounding_development_v4/heldout_summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v4/summary.md",
+      "resolved_path": "results/grounding_development_v4/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v5/summary.md",
+      "resolved_path": "results/grounding_development_v5/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v6/heldout_sample4_summary.md",
+      "resolved_path": "results/grounding_development_v6/heldout_sample4_summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../grounding_development_v6/summary.md",
+      "resolved_path": "results/grounding_development_v6/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../metrics.json",
+      "resolved_path": "results/metrics.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../pipeline_report.md",
+      "resolved_path": "results/pipeline_report.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../publication_safety/audit.md",
+      "resolved_path": "results/publication_safety/audit.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../publication_safety/licences.json",
+      "resolved_path": "results/publication_safety/licences.json",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../systems/attine_actino/currie_recovery/summary.md",
+      "resolved_path": "results/systems/attine_actino/currie_recovery/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../systems/attine_actino/taxonomy_microbial/summary.md",
+      "resolved_path": "results/systems/attine_actino/taxonomy_microbial/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../systems/monarch_seeded/summary.md",
+      "resolved_path": "results/systems/monarch_seeded/summary.md",
+      "exists": true,
+      "tracked": true
+    },
+    {
+      "document": "results/business_case/judges_submission_v2.md",
+      "target": "../systems/summary.md",
+      "resolved_path": "results/systems/summary.md",
+      "exists": true,
+      "tracked": true
+    }
+  ],
+  "private_ignore_checks": [
+    {
+      "path": ".env",
+      "ignored": true,
+      "tracked_files": []
+    },
+    {
+      "path": ".venv",
+      "ignored": true,
+      "tracked_files": []
+    },
+    {
+      "path": "data/raw",
+      "ignored": true,
+      "tracked_files": []
+    },
+    {
+      "path": "data/interim",
+      "ignored": true,
+      "tracked_files": []
+    },
+    {
+      "path": "research",
+      "ignored": true,
+      "tracked_files": []
+    },
+    {
+      "path": ".DS_Store",
+      "ignored": true,
+      "tracked_files": []
+    }
+  ],
+  "distinct_staged_byte_checks": [
+    {
+      "path": "results/pipeline_report.md",
+      "index_sha256": "217286d2915774a7de11e3f7bfed82761c09b593692fab91ffd6ac188e497a0e",
+      "working_sha256": "a6534ebee0b85d1086d6e547a0ff98b53647bf324c633b786f37e7bec47cd46a",
+      "source_violations": []
+    },
+    {
+      "path": "results/publication_safety/replay_verification.json",
+      "index_sha256": "8667e99593ee12e4134a24e55a6a3f53aa75104a0279b154ab325a9e145ac94b",
+      "working_sha256": "e62aaf8f104e2f61b3c93da88d8eb1d708f5761728d8d316d21199713016ef4f",
+      "source_violations": []
+    },
+    {
+      "path": "results/publication_safety/test_verification.json",
+      "index_sha256": "1867616198b7b02d6c0a0d78f13cd3b278e4984cda3c776639757d0b7d30baca",
+      "working_sha256": "05eef67453461542dc939c90701631132a8003214632659c1f852df6241acda5",
+      "source_violations": []
+    },
+    {
+      "path": "scripts/extract.py",
+      "index_sha256": "b76924a19017aa3621714429951ff13db059f5a9646fa07bba31d43e3a28cfa3",
+      "working_sha256": "3ff7ab9cd9e3e4052811f9910736ac3bc00dc10f688d2fceec516afc46142974",
+      "source_violations": []
+    },
+    {
+      "path": "scripts/system_pipeline.py",
+      "index_sha256": "a5c9f60bb6b9446662b8036cdf8d12568169e1a8a532158a708b3025fba45926",
+      "working_sha256": "985df5c3955e3864c56d67163ee39637f5bb57901189dabe42ef803912be9d2f",
+      "source_violations": []
+    },
+    {
+      "path": "src/extraction/pipeline.py",
+      "index_sha256": "18ae0764bc28d0a1bbe2263ddb802078e96d09c0ac3784461ea8dd06cfe30ea8",
+      "working_sha256": "c1fbfd8a1b94b36b189ddb15561d0e952639d230a9009be23a8693c2d441e458",
+      "source_violations": []
+    },
+    {
+      "path": "src/systems/extraction.py",
+      "index_sha256": "34b8580cb345c6f7043ceeb25f33ac50bbf6ec5568a535f6e0de5039f668b0b7",
+      "working_sha256": "bcf4e938e4271fb8bc506bbe4e7380cb1aa93abfee02d2e38425e0293543ed90",
+      "source_violations": []
+    },
+    {
+      "path": "tests/test_systems.py",
+      "index_sha256": "84c3be9cd02b1b87edd18cc467483f80c6c3fa57c171103d0411b29b4d93966e",
+      "working_sha256": "3d5dde769069b435b4bad55fd618abfd65ca32a28a479d821071cdc1563d12ac",
+      "source_violations": []
+    }
+  ],
+  "private_original_count": 260,
+  "private_originals_unchanged": true,
+  "frozen_files": [
+    {
+      "path": "docs/analysis_plan.md",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "expected_sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "unchanged": true
+    },
+    {
+      "path": "config/analysis.json",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "expected_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "unchanged": true
+    }
+  ],
+  "model_requests": 0,
+  "history_rewritten": false,
+  "full_text_policy": "Full text is retained locally and is not redistributed in current public projections."
+}

@@ -1,0 +1,1067 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "score_path": "results/grounding_development_v4/heldout_scores.json",
+  "score_sha256_verified_before_inspection": "03bb36570391c2e1de5ebdf906b704869d1f1c528b989f7767a3555b3e00c37e",
+  "score_was_saved_complete_before_failure_inspection": true,
+  "diagnostic_only": true,
+  "model_requests": 0,
+  "rule_changed": false,
+  "classifier_changed": false,
+  "scores_changed": false,
+  "original_classification_preserved": {
+    "other": 7
+  },
+  "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+  "record_count": 7,
+  "mismatch_occurrences_across_records": 7,
+  "distinct_cached_character_locations": 1,
+  "scope_note": "This supplementary diagnostic is outside the predeclared classifier attribution scope, which supports emitted controls or printable Unicode substitutions. All seven original categories remain other. No candidate, score, policy, or validator is changed.",
+  "v4_exclusion": "The frozen rule permits emitted non-whitespace C0 controls mapped to cached ± or ¼. These records instead emit ASCII hyphen U+002D at a cached U+0002 position.",
+  "records": [
+    {
+      "record_id": "610b4c743e780f51f60b42e14455a32cf0dc5e06b225f76b4fb205d9ac72bdc6",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "chunk_index": 1,
+      "candidate_index": 11,
+      "species": "Inga goldmanii",
+      "direction": "accepted",
+      "ordered_failure_reason": "ungrounded_quote",
+      "original_category": "other",
+      "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+      "source_id": "SAVERSCHEK2010",
+      "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "source_block": "b00003",
+      "source_section": "Published page 692; PDF page 4",
+      "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+      "raw_model_quote": {
+        "private_reference": "r00000"
+      },
+      "raw_cached_quote": {
+        "private_reference": "r00001"
+      },
+      "source_quote_start": 4096,
+      "source_quote_end": 4349,
+      "offset_unit": "unicode_code_point",
+      "unique_source_alignment": true,
+      "alignment_count": 1,
+      "alignment_proof": {
+        "method": "Exact literal prefix occurrence followed by equal-length whole-quote comparison",
+        "literal_prefix": {
+          "private_reference": "r00002"
+        },
+        "literal_prefix_occurrence_count": 1,
+        "normalized_source_start": 4096,
+        "normalized_quote_length": 253,
+        "all_other_normalized_characters_exact": true,
+        "mismatch_count": 1
+      },
+      "mismatch": {
+        "model_character": "-",
+        "cached_character": "\u0002",
+        "model_codepoint": "U+002D",
+        "cached_codepoint": "U+0002",
+        "model_utf8_hex": "2d",
+        "cached_utf8_hex": "02",
+        "model_offset": 225,
+        "source_offset": 4321
+      },
+      "applied_to_validator": false
+    },
+    {
+      "record_id": "5e350c3f4b391ce7c9118f80fdcded2567d5fd026305150f81930d41bbd4bbde",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "chunk_index": 1,
+      "candidate_index": 12,
+      "species": "Inga goldmanii",
+      "direction": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "original_category": "other",
+      "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+      "source_id": "SAVERSCHEK2010",
+      "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "source_block": "b00003",
+      "source_section": "Published page 692; PDF page 4",
+      "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+      "raw_model_quote": {
+        "private_reference": "r00003"
+      },
+      "raw_cached_quote": {
+        "private_reference": "r00004"
+      },
+      "source_quote_start": 4096,
+      "source_quote_end": 4349,
+      "offset_unit": "unicode_code_point",
+      "unique_source_alignment": true,
+      "alignment_count": 1,
+      "alignment_proof": {
+        "method": "Exact literal prefix occurrence followed by equal-length whole-quote comparison",
+        "literal_prefix": {
+          "private_reference": "r00005"
+        },
+        "literal_prefix_occurrence_count": 1,
+        "normalized_source_start": 4096,
+        "normalized_quote_length": 253,
+        "all_other_normalized_characters_exact": true,
+        "mismatch_count": 1
+      },
+      "mismatch": {
+        "model_character": "-",
+        "cached_character": "\u0002",
+        "model_codepoint": "U+002D",
+        "cached_codepoint": "U+0002",
+        "model_utf8_hex": "2d",
+        "cached_utf8_hex": "02",
+        "model_offset": 225,
+        "source_offset": 4321
+      },
+      "applied_to_validator": false
+    },
+    {
+      "record_id": "ced5ecf3436c1b0076d49b676175d83a374d11cf43dbc76f6506845d86002fe1",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "chunk_index": 1,
+      "candidate_index": 13,
+      "species": "Tetragastris panamensis",
+      "direction": "accepted",
+      "ordered_failure_reason": "ungrounded_quote",
+      "original_category": "other",
+      "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+      "source_id": "SAVERSCHEK2010",
+      "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "source_block": "b00003",
+      "source_section": "Published page 692; PDF page 4",
+      "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+      "raw_model_quote": {
+        "private_reference": "r00006"
+      },
+      "raw_cached_quote": {
+        "private_reference": "r00007"
+      },
+      "source_quote_start": 4096,
+      "source_quote_end": 4349,
+      "offset_unit": "unicode_code_point",
+      "unique_source_alignment": true,
+      "alignment_count": 1,
+      "alignment_proof": {
+        "method": "Exact literal prefix occurrence followed by equal-length whole-quote comparison",
+        "literal_prefix": {
+          "private_reference": "r00008"
+        },
+        "literal_prefix_occurrence_count": 1,
+        "normalized_source_start": 4096,
+        "normalized_quote_length": 253,
+        "all_other_normalized_characters_exact": true,
+        "mismatch_count": 1
+      },
+      "mismatch": {
+        "model_character": "-",
+        "cached_character": "\u0002",
+        "model_codepoint": "U+002D",
+        "cached_codepoint": "U+0002",
+        "model_utf8_hex": "2d",
+        "cached_utf8_hex": "02",
+        "model_offset": 225,
+        "source_offset": 4321
+      },
+      "applied_to_validator": false
+    },
+    {
+      "record_id": "765778645bfe45f15b1c9e3fbcdd347d9e1969773c3abc42e19a1ad52f83d504",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "chunk_index": 1,
+      "candidate_index": 14,
+      "species": "Tetragastris panamensis",
+      "direction": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "original_category": "other",
+      "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+      "source_id": "SAVERSCHEK2010",
+      "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "source_block": "b00003",
+      "source_section": "Published page 692; PDF page 4",
+      "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+      "raw_model_quote": {
+        "private_reference": "r00009"
+      },
+      "raw_cached_quote": {
+        "private_reference": "r00010"
+      },
+      "source_quote_start": 4096,
+      "source_quote_end": 4349,
+      "offset_unit": "unicode_code_point",
+      "unique_source_alignment": true,
+      "alignment_count": 1,
+      "alignment_proof": {
+        "method": "Exact literal prefix occurrence followed by equal-length whole-quote comparison",
+        "literal_prefix": {
+          "private_reference": "r00011"
+        },
+        "literal_prefix_occurrence_count": 1,
+        "normalized_source_start": 4096,
+        "normalized_quote_length": 253,
+        "all_other_normalized_characters_exact": true,
+        "mismatch_count": 1
+      },
+      "mismatch": {
+        "model_character": "-",
+        "cached_character": "\u0002",
+        "model_codepoint": "U+002D",
+        "cached_codepoint": "U+0002",
+        "model_utf8_hex": "2d",
+        "cached_utf8_hex": "02",
+        "model_offset": 225,
+        "source_offset": 4321
+      },
+      "applied_to_validator": false
+    },
+    {
+      "record_id": "b36b24567132641c9e6600eb759f530491ebf0083a17ea92bf2fd761eb335bec",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "chunk_index": 1,
+      "candidate_index": 15,
+      "species": "Tetragastris panamensis",
+      "direction": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "original_category": "other",
+      "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+      "source_id": "SAVERSCHEK2010",
+      "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "source_block": "b00003",
+      "source_section": "Published page 692; PDF page 4",
+      "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+      "raw_model_quote": {
+        "private_reference": "r00012"
+      },
+      "raw_cached_quote": {
+        "private_reference": "r00013"
+      },
+      "source_quote_start": 3957,
+      "source_quote_end": 4349,
+      "offset_unit": "unicode_code_point",
+      "unique_source_alignment": true,
+      "alignment_count": 1,
+      "alignment_proof": {
+        "method": "Exact literal prefix occurrence followed by equal-length whole-quote comparison",
+        "literal_prefix": {
+          "private_reference": "r00014"
+        },
+        "literal_prefix_occurrence_count": 1,
+        "normalized_source_start": 3957,
+        "normalized_quote_length": 392,
+        "all_other_normalized_characters_exact": true,
+        "mismatch_count": 1
+      },
+      "mismatch": {
+        "model_character": "-",
+        "cached_character": "\u0002",
+        "model_codepoint": "U+002D",
+        "cached_codepoint": "U+0002",
+        "model_utf8_hex": "2d",
+        "cached_utf8_hex": "02",
+        "model_offset": 364,
+        "source_offset": 4321
+      },
+      "applied_to_validator": false
+    },
+    {
+      "record_id": "cbc4d423967a9379a60458ab66577daae6ae5f874fb4c247970696198f6cbd19",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "chunk_index": 1,
+      "candidate_index": 16,
+      "species": "Trichilia tuberculata",
+      "direction": "accepted",
+      "ordered_failure_reason": "ungrounded_quote",
+      "original_category": "other",
+      "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+      "source_id": "SAVERSCHEK2010",
+      "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "source_block": "b00003",
+      "source_section": "Published page 692; PDF page 4",
+      "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+      "raw_model_quote": {
+        "private_reference": "r00015"
+      },
+      "raw_cached_quote": {
+        "private_reference": "r00016"
+      },
+      "source_quote_start": 4096,
+      "source_quote_end": 4349,
+      "offset_unit": "unicode_code_point",
+      "unique_source_alignment": true,
+      "alignment_count": 1,
+      "alignment_proof": {
+        "method": "Exact literal prefix occurrence followed by equal-length whole-quote comparison",
+        "literal_prefix": {
+          "private_reference": "r00017"
+        },
+        "literal_prefix_occurrence_count": 1,
+        "normalized_source_start": 4096,
+        "normalized_quote_length": 253,
+        "all_other_normalized_characters_exact": true,
+        "mismatch_count": 1
+      },
+      "mismatch": {
+        "model_character": "-",
+        "cached_character": "\u0002",
+        "model_codepoint": "U+002D",
+        "cached_codepoint": "U+0002",
+        "model_utf8_hex": "2d",
+        "cached_utf8_hex": "02",
+        "model_offset": 225,
+        "source_offset": 4321
+      },
+      "applied_to_validator": false
+    },
+    {
+      "record_id": "d9844a1898e93c3354fbd2749a35e06620c59db166a85956da9188c7a7c10b57",
+      "input_hash": "2c6f4f21695869cbd91eb5fe305073129e98120c21f296cdd502980f54aa8d6a",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "chunk_index": 1,
+      "candidate_index": 18,
+      "species": "Trichilia tuberculata",
+      "direction": "rejected",
+      "ordered_failure_reason": "ungrounded_quote",
+      "original_category": "other",
+      "supplemental_subtype": "cached_control_rendered_as_ascii_hyphen",
+      "source_id": "SAVERSCHEK2010",
+      "source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+      "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+      "source_block": "b00003",
+      "source_section": "Published page 692; PDF page 4",
+      "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+      "raw_model_quote": {
+        "private_reference": "r00018"
+      },
+      "raw_cached_quote": {
+        "private_reference": "r00019"
+      },
+      "source_quote_start": 3957,
+      "source_quote_end": 4349,
+      "offset_unit": "unicode_code_point",
+      "unique_source_alignment": true,
+      "alignment_count": 1,
+      "alignment_proof": {
+        "method": "Exact literal prefix occurrence followed by equal-length whole-quote comparison",
+        "literal_prefix": {
+          "private_reference": "r00020"
+        },
+        "literal_prefix_occurrence_count": 1,
+        "normalized_source_start": 3957,
+        "normalized_quote_length": 392,
+        "all_other_normalized_characters_exact": true,
+        "mismatch_count": 1
+      },
+      "mismatch": {
+        "model_character": "-",
+        "cached_character": "\u0002",
+        "model_codepoint": "U+002D",
+        "cached_codepoint": "U+0002",
+        "model_utf8_hex": "2d",
+        "cached_utf8_hex": "02",
+        "model_offset": 364,
+        "source_offset": 4321
+      },
+      "applied_to_validator": false
+    }
+  ],
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+    "original_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          0,
+          "raw_model_quote"
+        ],
+        "private_utf8_byte_start": 2122,
+        "private_utf8_byte_end": 2377,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          0,
+          "raw_cached_quote"
+        ],
+        "private_utf8_byte_start": 2405,
+        "private_utf8_byte_end": 2665,
+        "encoded_span_sha256": "22f307866ebabe4699ab15df6e37e7e6e3f2b0817e3561badff6ed8607863bd3",
+        "value_utf8_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4351,
+            "span_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00002",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          0,
+          "alignment_proof",
+          "literal_prefix"
+        ],
+        "private_utf8_byte_start": 2997,
+        "private_utf8_byte_end": 3217,
+        "encoded_span_sha256": "670f4ca080097157800b41d7811b62df35e1742b00fa22b5b741773838af07fe",
+        "value_utf8_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4316,
+            "span_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+            "source_words": 36,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00003",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          1,
+          "raw_model_quote"
+        ],
+        "private_utf8_byte_start": 4763,
+        "private_utf8_byte_end": 5018,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00004",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          1,
+          "raw_cached_quote"
+        ],
+        "private_utf8_byte_start": 5046,
+        "private_utf8_byte_end": 5306,
+        "encoded_span_sha256": "22f307866ebabe4699ab15df6e37e7e6e3f2b0817e3561badff6ed8607863bd3",
+        "value_utf8_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4351,
+            "span_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00005",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          1,
+          "alignment_proof",
+          "literal_prefix"
+        ],
+        "private_utf8_byte_start": 5638,
+        "private_utf8_byte_end": 5858,
+        "encoded_span_sha256": "670f4ca080097157800b41d7811b62df35e1742b00fa22b5b741773838af07fe",
+        "value_utf8_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4316,
+            "span_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+            "source_words": 36,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00006",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          2,
+          "raw_model_quote"
+        ],
+        "private_utf8_byte_start": 7413,
+        "private_utf8_byte_end": 7668,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00007",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          2,
+          "raw_cached_quote"
+        ],
+        "private_utf8_byte_start": 7696,
+        "private_utf8_byte_end": 7956,
+        "encoded_span_sha256": "22f307866ebabe4699ab15df6e37e7e6e3f2b0817e3561badff6ed8607863bd3",
+        "value_utf8_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4351,
+            "span_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00008",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          2,
+          "alignment_proof",
+          "literal_prefix"
+        ],
+        "private_utf8_byte_start": 8288,
+        "private_utf8_byte_end": 8508,
+        "encoded_span_sha256": "670f4ca080097157800b41d7811b62df35e1742b00fa22b5b741773838af07fe",
+        "value_utf8_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4316,
+            "span_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+            "source_words": 36,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00009",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          3,
+          "raw_model_quote"
+        ],
+        "private_utf8_byte_start": 10063,
+        "private_utf8_byte_end": 10318,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00010",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          3,
+          "raw_cached_quote"
+        ],
+        "private_utf8_byte_start": 10346,
+        "private_utf8_byte_end": 10606,
+        "encoded_span_sha256": "22f307866ebabe4699ab15df6e37e7e6e3f2b0817e3561badff6ed8607863bd3",
+        "value_utf8_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4351,
+            "span_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00011",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          3,
+          "alignment_proof",
+          "literal_prefix"
+        ],
+        "private_utf8_byte_start": 10938,
+        "private_utf8_byte_end": 11158,
+        "encoded_span_sha256": "670f4ca080097157800b41d7811b62df35e1742b00fa22b5b741773838af07fe",
+        "value_utf8_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4316,
+            "span_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+            "source_words": 36,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00012",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          4,
+          "raw_model_quote"
+        ],
+        "private_utf8_byte_start": 12713,
+        "private_utf8_byte_end": 13107,
+        "encoded_span_sha256": "829e77e7ce016e27dd8c7008eb624414eaa774fbb80bb356a81d18e27322664b",
+        "value_utf8_sha256": "8f8553500da68860d9dab4853483c8eaa7bbbe749719e37adf5082c7fda20871",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "22a7d4c62ab5502046f114ec59b88827f48af4b328b9e465b0bfdc5ecb0fb177",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00013",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          4,
+          "raw_cached_quote"
+        ],
+        "private_utf8_byte_start": 13135,
+        "private_utf8_byte_end": 13534,
+        "encoded_span_sha256": "50d7730c1f07672b9ed0aeea698933c95776a4d3b2073a1ef4201c4037b19713",
+        "value_utf8_sha256": "a5c1639e0ff1f19711406a441b1d5197d53f012ac2e256a53c1cd63f7e4ba0cc",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4351,
+            "span_sha256": "a5c1639e0ff1f19711406a441b1d5197d53f012ac2e256a53c1cd63f7e4ba0cc",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00014",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          4,
+          "alignment_proof",
+          "literal_prefix"
+        ],
+        "private_utf8_byte_start": 13866,
+        "private_utf8_byte_end": 14225,
+        "encoded_span_sha256": "fa0eee7c317a50e9fc2c7ff2a8e5826e16f6c0926c1fbc8b34ff99053e511b4f",
+        "value_utf8_sha256": "dd1d5cd13fdb1801695462e02282395974e8dbd92172767d55e5417e4ff0150d",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4316,
+            "span_sha256": "dd1d5cd13fdb1801695462e02282395974e8dbd92172767d55e5417e4ff0150d",
+            "source_words": 61,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00015",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          5,
+          "raw_model_quote"
+        ],
+        "private_utf8_byte_start": 15778,
+        "private_utf8_byte_end": 16033,
+        "encoded_span_sha256": "99b2a2393c080d97ebeefdaa77d5e8e706e3b76bab344460a9e020472e4c7c96",
+        "value_utf8_sha256": "70f137187854abc35e5acdb351fe7a32a461aa4de2ed3c7624f46379fd6d0081",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "c2395eb8b8b3ed4b0418beda83c2e4d0f35daf107febfdfe40cdeafa2c0d2c03",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00016",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          5,
+          "raw_cached_quote"
+        ],
+        "private_utf8_byte_start": 16061,
+        "private_utf8_byte_end": 16321,
+        "encoded_span_sha256": "22f307866ebabe4699ab15df6e37e7e6e3f2b0817e3561badff6ed8607863bd3",
+        "value_utf8_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4351,
+            "span_sha256": "1a7b03b96dc8f62878f8cc41d5ebb52f42693015cf79bac2df6f9de14f611ad4",
+            "source_words": 39,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00017",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          5,
+          "alignment_proof",
+          "literal_prefix"
+        ],
+        "private_utf8_byte_start": 16653,
+        "private_utf8_byte_end": 16873,
+        "encoded_span_sha256": "670f4ca080097157800b41d7811b62df35e1742b00fa22b5b741773838af07fe",
+        "value_utf8_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4098,
+            "block_utf8_byte_end": 4316,
+            "span_sha256": "be996b5a3b1ea58672d1dc29c792b33668efc845101b04a8f28ac07723707ef3",
+            "source_words": 36,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00018",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          6,
+          "raw_model_quote"
+        ],
+        "private_utf8_byte_start": 18426,
+        "private_utf8_byte_end": 18820,
+        "encoded_span_sha256": "829e77e7ce016e27dd8c7008eb624414eaa774fbb80bb356a81d18e27322664b",
+        "value_utf8_sha256": "8f8553500da68860d9dab4853483c8eaa7bbbe749719e37adf5082c7fda20871",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4349,
+            "span_sha256": "22a7d4c62ab5502046f114ec59b88827f48af4b328b9e465b0bfdc5ecb0fb177",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00019",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          6,
+          "raw_cached_quote"
+        ],
+        "private_utf8_byte_start": 18848,
+        "private_utf8_byte_end": 19247,
+        "encoded_span_sha256": "50d7730c1f07672b9ed0aeea698933c95776a4d3b2073a1ef4201c4037b19713",
+        "value_utf8_sha256": "a5c1639e0ff1f19711406a441b1d5197d53f012ac2e256a53c1cd63f7e4ba0cc",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4351,
+            "span_sha256": "a5c1639e0ff1f19711406a441b1d5197d53f012ac2e256a53c1cd63f7e4ba0cc",
+            "source_words": 64,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00020",
+        "private_path": "data/interim/publication_safety/originals/results/grounding_development_v4/heldout_cached_control_evidence.json",
+        "private_file_sha256": "d2a0de969f0f9f63fe03e1c4c36214b1929a56d091eba9b2742699959628489f",
+        "json_path": [
+          "records",
+          6,
+          "alignment_proof",
+          "literal_prefix"
+        ],
+        "private_utf8_byte_start": 19579,
+        "private_utf8_byte_end": 19938,
+        "encoded_span_sha256": "fa0eee7c317a50e9fc2c7ff2a8e5826e16f6c0926c1fbc8b34ff99053e511b4f",
+        "value_utf8_sha256": "dd1d5cd13fdb1801695462e02282395974e8dbd92172767d55e5417e4ff0150d",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3959,
+            "block_utf8_byte_end": 4316,
+            "span_sha256": "dd1d5cd13fdb1801695462e02282395974e8dbd92172767d55e5417e4ff0150d",
+            "source_words": 61,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
+}

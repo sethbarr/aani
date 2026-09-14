@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "system": "monarch",
+  "status": "complete",
+  "blocked_reason": null,
+  "review_type": "post_extraction_semantic_review",
+  "review_date": "2026-09-13",
+  "input_path": "data/interim/systems/monarch/extraction/observations.jsonl",
+  "input_sha256": "dcbf436c4886504a0403883389383420ec99fa8f889506c8c8e64f860ed3875b",
+  "model_candidates": 5,
+  "grounded_records": 5,
+  "reviewed": 5,
+  "included": 2,
+  "excluded": 3,
+  "secondary_included": 1,
+  "primary_source_included": 1,
+  "direct_directional_included": 1,
+  "focal_eligible": 0,
+  "infection_comparison_eligible": 0,
+  "eligible_output_path": "data/interim/systems/monarch/semantic_review/observations.jsonl",
+  "criteria": [
+    "Keep immutable model responses and raw observations unchanged; add decisions and source anchors separately.",
+    "Require the quoted text to report the extracted observation and support its direction.",
+    "Keep correct secondary evidence for descriptive taxonomy coverage and exclude it from direct directional chemistry selection.",
+    "The declared infection-dependent mechanism requires an infected-versus-uninfected oviposition comparison. Adjacent direct observations remain separately identified for ancillary coverage.",
+    "Preserve within-species treatment, sex, and infection context. Never turn low or absent oviposition into choice-test rejection.",
+    "Additional source anchors support identity, context, and quantitative audit; they do not alter single-quote validation or its counts."
+  ],
+  "limitations": [
+    "No retained record directly compares infected and uninfected females.",
+    "The only direct directional record concerns watering treatment within one milkweed species; its chemistry join measures ancillary oviposition coverage.",
+    "The other retained record is secondary; the original cited studies were not independently re-extracted.",
+    "The retained water-treatment candidate includes a statistic from another source block. Its raw value is preserved and flagged outside the quoted evidence.",
+    "The Asclepias incarnata taxonomy query uses a documented source-supported abbreviation expansion, while target_name_as_written remains unchanged.",
+    "The frozen assay organisms are human-pathogenic fungi; Ophryocystis elektroscirrha falls outside that panel."
+  ],
+  "decisions": [
+    {
+      "record_id": "824ea5be5084af89f7f550b4ba011622b19550a306f68bf4bc2b9af4afa67c95",
+      "source_id": "PMC12585044",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "response_hash": "f4691f77b598c1a71bf45bcb6f0e5ddb3365c9dee2e2ebf4263e362e68bfb1f3",
+      "block_id": "b00003",
+      "evidence_quote": {
+        "private_reference": "r00000"
+      },
+      "decision": "include",
+      "semantic_decision": "include",
+      "semantic_reason": "The quote explicitly reports controlled oviposition preference on swamp milkweed and correctly identifies this as secondary evidence.",
+      "semantic_scope": "secondary_species_comparison",
+      "semantic_primary_source": false,
+      "semantic_direct_observation": false,
+      "semantic_secondary": true,
+      "focal_eligible": false,
+      "infection_comparison_eligible": false,
+      "focal_ineligibility_reason": "No infected-versus-uninfected female comparison is given.",
+      "infection_status": "unreported",
+      "sex_context": "ovipositing adult females; sex inferred from the reported oviposition behavior",
+      "treatment_context": "controlled comparison of milkweed species",
+      "direction_scope": "secondary species preference",
+      "direct_chemistry_eligible": false,
+      "taxonomy_query_name": "Asclepias incarnata",
+      "taxonomy_query_rank": "species",
+      "taxonomy_name_resolution": {
+        "method": "source_supported_abbreviation_expansion",
+        "source_id": "PMC12585044",
+        "block_id": "b00000",
+        "section": "Abstract",
+        "quote": {
+          "private_reference": "r00001"
+        }
+      },
+      "semantic_auxiliary_evidence": [
+        {
+          "purpose": "organism_identity",
+          "source_id": "PMC12585044",
+          "block_id": "b00000",
+          "section": "Abstract",
+          "quote": {
+            "private_reference": "r00002"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "64c983fe790e8f4d415a34719c7f6d31ceee20715283e6733c1ada12318428e0",
+      "source_id": "PMC12585044",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "response_hash": "f4691f77b598c1a71bf45bcb6f0e5ddb3365c9dee2e2ebf4263e362e68bfb1f3",
+      "block_id": "b00003",
+      "evidence_quote": {
+        "private_reference": "r00003"
+      },
+      "decision": "exclude",
+      "reason": "The quoted preference concerns an unspecified, high-cardenolide subset of milkweed species. The extracted target 'milkweed' and rank 'genus' do not identify the preferred taxon or license an accept label for an entire genus. The article's surrounding introduction identifies Asclepias as milkweed context, but supplying a named preferred taxon would require an additional interpretation.",
+      "semantic_secondary": true,
+      "semantic_primary_source": false,
+      "semantic_direct_observation": false,
+      "focal_eligible": false,
+      "infection_comparison_eligible": false,
+      "infection_status": "infected_females_secondary_statement",
+      "sex_context": "ovipositing adult females",
+      "treatment_context": "infection-associated choice of high-cardenolide plants, reported secondarily",
+      "descriptive_use": "A cited statement that infected females favor high-cardenolide milkweeds; no explicit uninfected comparator or named preferred taxon.",
+      "activity_check": "Cardenolides are a compound class. Anti-parasitic describes broad activity without a specific compound, quantitative assay, or eligible frozen-panel assay."
+    },
+    {
+      "record_id": "ded847959937f544e88afe52ef0e1aced69ea24140638afffdd602cf25aee9db",
+      "source_id": "PMC10370756",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+      "response_hash": "bcff2b2c5a1289b5d8b51aa4bc99820407490391b4027377cba8c87b74a6840c",
+      "block_id": "b00000",
+      "evidence_quote": {
+        "private_reference": "r00004"
+      },
+      "decision": "exclude",
+      "reason": "The quote describes what the investigators evaluated and contains no observed result. Direction unknown preserves the missing result, but behavioural_choice=true cannot turn this design statement into an extracted behavioral observation. Results elsewhere in the same source are retained as audit context and do not replace the frozen model quote.",
+      "semantic_secondary": false,
+      "semantic_primary_source": true,
+      "semantic_direct_observation": false,
+      "focal_eligible": false,
+      "infection_comparison_eligible": false,
+      "infection_status": "unreported",
+      "sex_context": "one adult male and one adult female per experimental cage",
+      "treatment_context": "aphid-free versus aphid-infested Asclepias curassavica",
+      "descriptive_use": "Evidence that a relevant study was retrieved; excluded from retained observation and directional coverage counts.",
+      "auxiliary_evidence": [
+        {
+          "purpose": "source_has_result_not_extracted_in_candidate_quote",
+          "source_id": "PMC10370756",
+          "block_id": "b00000",
+          "section": "Abstract",
+          "quote": {
+            "private_reference": "r00005"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "fd4bc2a165044f99e2b8f13a4c5ce84194125401463c80e0e0f46126ebf2ec9f",
+      "source_id": "PMC10430791",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+      "response_hash": "43e7d15ab07f996c67524e6734fe46c74447bcb0ec72b3e409c1d028dfcb6b34",
+      "block_id": "b00000",
+      "evidence_quote": {
+        "private_reference": "r00006"
+      },
+      "decision": "include",
+      "semantic_decision": "include",
+      "semantic_reason": "The quote reports more eggs on reduced-water Asclepias fascicularis in a controlled within-species experiment. The record supports ancillary oviposition coverage with its treatment context retained.",
+      "semantic_scope": "adjacent_within_species_water_treatment",
+      "semantic_primary_source": true,
+      "semantic_direct_observation": true,
+      "semantic_secondary": false,
+      "focal_eligible": false,
+      "infection_comparison_eligible": false,
+      "focal_ineligibility_reason": "The comparison concerns plant watering treatment; female infection status is unreported.",
+      "infection_status": "unreported",
+      "sex_context": "single mated, gravid female per trial; n=15 females",
+      "treatment_context": "reduced-water (30% soil field capacity) versus control (70% soil field capacity), same plant species, three-hour flight-cage trials",
+      "direction_scope": "preference for the reduced-water treatment of Asclepias fascicularis",
+      "direct_chemistry_eligible": true,
+      "chemistry_interpretation": "ancillary oviposition coverage; this single treatment comparison does not establish a general plant-species preference or the infection-dependent mechanism",
+      "quantitative_grounded_in_evidence_quote": false,
+      "quantitative_measure_use": "auxiliary_source_supported_only; exclude from single-quote-grounded quantitative outcomes",
+      "semantic_auxiliary_evidence": [
+        {
+          "purpose": "quantitative_check",
+          "source_id": "PMC10430791",
+          "block_id": "b00013",
+          "section": "Body / Results",
+          "quote": {
+            "private_reference": "r00007"
+          },
+          "interpretation": "The original candidate statistic is present in another source block; it is absent from the original evidence quote."
+        },
+        {
+          "purpose": "treatment_and_sex_context",
+          "source_id": "PMC10430791",
+          "block_id": "b00007",
+          "section": "Body / Materials and Methods / Experimental Design",
+          "quote": {
+            "private_reference": "r00008"
+          }
+        },
+        {
+          "purpose": "watering_conditions",
+          "source_id": "PMC10430791",
+          "block_id": "b00014",
+          "section": "Body / Results",
+          "quote": {
+            "private_reference": "r00009"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "f2681f96c6d66ee7eb69ad34bc3b2d5c4d88e3a1e55434124acebad3f6371af6",
+      "source_id": "PMC9197062",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc",
+      "response_hash": "91593e652bf967258db1e049c35b58c81aa3cf9b0e07065dceab1607a19caaa5",
+      "block_id": "b00042",
+      "evidence_quote": {
+        "private_reference": "r00010"
+      },
+      "decision": "exclude",
+      "reason": "Rare or absent oviposition does not establish avoidance in a choice test. The quote supplies no explicit choice-test comparator or avoidance result, so direction reject violates the configured semantics.",
+      "semantic_secondary": true,
+      "semantic_primary_source": false,
+      "semantic_direct_observation": false,
+      "focal_eligible": false,
+      "infection_comparison_eligible": false,
+      "infection_status": "unreported",
+      "sex_context": "adult monarchs; ovipositing females implied",
+      "treatment_context": "secondary host-use discussion",
+      "descriptive_use": "Low or absent oviposition on Araujia sericifera may be described separately as unknown direction; the raw rejected record is preserved unchanged."
+    }
+  ],
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+    "original_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 2704,
+        "private_utf8_byte_end": 2866,
+        "encoded_span_sha256": "9cc0a8f6e694786577adccc1475f3027421f2347aa99d807db7badd9aac4d3f3",
+        "value_utf8_sha256": "17f9793045fd2642694a083e752ba17aff2bb35c67f6690b8bb02a2b9c059c20",
+        "source_ids": [
+          "PMC12585044"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "4da05d91d25ea8b007c6c444abf130db432e54700533a9e5bb04a80bbfd7f2a6",
+            "block_utf8_byte_start": 170,
+            "block_utf8_byte_end": 330,
+            "span_sha256": "17f9793045fd2642694a083e752ba17aff2bb35c67f6690b8bb02a2b9c059c20",
+            "source_words": 23,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          0,
+          "taxonomy_name_resolution",
+          "quote"
+        ],
+        "private_utf8_byte_start": 4062,
+        "private_utf8_byte_end": 4100,
+        "encoded_span_sha256": "7e25982e4b07e3a43f1f6072eed2433ab2a84eccb26cc0e63192a1b2e0e00315",
+        "value_utf8_sha256": "479cf33237b145e5ba57cacc8e8c79f1580932500bbb4f32657866d3c68cb91a",
+        "source_ids": [
+          "PMC12585044"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00000",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "3f2b62b05370e3a7a63fe75fd1a14b93a204149399cda2c5a767c8ea9d56ca4d",
+            "block_utf8_byte_start": 667,
+            "block_utf8_byte_end": 703,
+            "span_sha256": "479cf33237b145e5ba57cacc8e8c79f1580932500bbb4f32657866d3c68cb91a",
+            "source_words": 4,
+            "kind": "p"
+          },
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00020",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "20e5a5abe210b482d398759e3449247c5b534f4611ad87975371ca2d4d14c182",
+            "block_utf8_byte_start": 86,
+            "block_utf8_byte_end": 122,
+            "span_sha256": "479cf33237b145e5ba57cacc8e8c79f1580932500bbb4f32657866d3c68cb91a",
+            "source_words": 4,
+            "kind": "p"
+          },
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00020",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "20e5a5abe210b482d398759e3449247c5b534f4611ad87975371ca2d4d14c182",
+            "block_utf8_byte_start": 1230,
+            "block_utf8_byte_end": 1266,
+            "span_sha256": "479cf33237b145e5ba57cacc8e8c79f1580932500bbb4f32657866d3c68cb91a",
+            "source_words": 4,
+            "kind": "p"
+          },
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00024",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "5587627960788077aced96fd70cc85c0dc0d4ba7661505560e8bdb3e8dfc68f6",
+            "block_utf8_byte_start": 6,
+            "block_utf8_byte_end": 42,
+            "span_sha256": "479cf33237b145e5ba57cacc8e8c79f1580932500bbb4f32657866d3c68cb91a",
+            "source_words": 4,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00002",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          0,
+          "semantic_auxiliary_evidence",
+          0,
+          "quote"
+        ],
+        "private_utf8_byte_start": 4323,
+        "private_utf8_byte_end": 4378,
+        "encoded_span_sha256": "37389c87ade682cf6e815675cb92df9099530e052e05295ad20e435a735f3c7f",
+        "value_utf8_sha256": "bb2bf77423576507343cb54175fc5929c2695683bc1e856f76a3e3df9b9d1c4a",
+        "source_ids": [
+          "PMC12585044"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00000",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "3f2b62b05370e3a7a63fe75fd1a14b93a204149399cda2c5a767c8ea9d56ca4d",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 53,
+            "span_sha256": "bb2bf77423576507343cb54175fc5929c2695683bc1e856f76a3e3df9b9d1c4a",
+            "source_words": 6,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00003",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 4762,
+        "private_utf8_byte_end": 5048,
+        "encoded_span_sha256": "ba1b42c5a472225aa2539193415db24647fb2c2ff0e58fa62d3fee4691cbf434",
+        "value_utf8_sha256": "cf47fd45d7ad1f649cdb9263c9edab0c0531d73c7dbc88cdac73a5c229e0e63b",
+        "source_ids": [
+          "PMC12585044"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "4da05d91d25ea8b007c6c444abf130db432e54700533a9e5bb04a80bbfd7f2a6",
+            "block_utf8_byte_start": 601,
+            "block_utf8_byte_end": 885,
+            "span_sha256": "cf47fd45d7ad1f649cdb9263c9edab0c0531d73c7dbc88cdac73a5c229e0e63b",
+            "source_words": 33,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00004",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          2,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 6613,
+        "private_utf8_byte_end": 6870,
+        "encoded_span_sha256": "f7af21d2c1159afa3839ff59f927ab47d017080c163b4a5b6bcc3e4641cefc94",
+        "value_utf8_sha256": "c8e736f02f4fbc92aabdb08a8c8514844aafe6302f69cd7af25e1d854664007d",
+        "source_ids": [
+          "PMC10370756"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10370756",
+            "block_id": "b00000",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10370756.json",
+            "source_file_sha256": "1bfad74be23588151c2a2971c4a63cd5384fc37823ed254dd3d9c797d62f8d50",
+            "block_text_sha256": "1e7894844393d82e2ba8e0277cd44af418fe13e5614aac4bf95471f744196500",
+            "block_utf8_byte_start": 628,
+            "block_utf8_byte_end": 883,
+            "span_sha256": "c8e736f02f4fbc92aabdb08a8c8514844aafe6302f69cd7af25e1d854664007d",
+            "source_words": 35,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00005",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          2,
+          "auxiliary_evidence",
+          0,
+          "quote"
+        ],
+        "private_utf8_byte_start": 8049,
+        "private_utf8_byte_end": 8148,
+        "encoded_span_sha256": "5e6879782c3da76da6e15130e64145dc40d2d098dd62702ca39e4d401c38e8bf",
+        "value_utf8_sha256": "06e590cfd01b12aa0b2306ea6debde5a3300425029d4bcfd33ba9ad1303c4f0d",
+        "source_ids": [
+          "PMC10370756"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10370756",
+            "block_id": "b00000",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10370756.json",
+            "source_file_sha256": "1bfad74be23588151c2a2971c4a63cd5384fc37823ed254dd3d9c797d62f8d50",
+            "block_text_sha256": "1e7894844393d82e2ba8e0277cd44af418fe13e5614aac4bf95471f744196500",
+            "block_utf8_byte_start": 1032,
+            "block_utf8_byte_end": 1129,
+            "span_sha256": "06e590cfd01b12aa0b2306ea6debde5a3300425029d4bcfd33ba9ad1303c4f0d",
+            "source_words": 12,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00006",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          3,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 8532,
+        "private_utf8_byte_end": 8748,
+        "encoded_span_sha256": "c451f05bfde87ba0ac7313637183a9f7f6ddbef5f9e0fed4455d856c4994bbd3",
+        "value_utf8_sha256": "968b93e0273693c51fafe5977ed026515b3d13194692150a04807dab87bcfc03",
+        "source_ids": [
+          "PMC10430791"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10430791",
+            "block_id": "b00000",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10430791.json",
+            "source_file_sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c",
+            "block_text_sha256": "04ec6274830667318127dd250c7a65ae15b5ac957eef0de7dc4a24cc9815a48e",
+            "block_utf8_byte_start": 584,
+            "block_utf8_byte_end": 798,
+            "span_sha256": "968b93e0273693c51fafe5977ed026515b3d13194692150a04807dab87bcfc03",
+            "source_words": 31,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00007",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          3,
+          "semantic_auxiliary_evidence",
+          0,
+          "quote"
+        ],
+        "private_utf8_byte_start": 10445,
+        "private_utf8_byte_end": 10489,
+        "encoded_span_sha256": "a238e11dde2cd2d233de45128e029dec9a54a11375a10d8a802c108ca3102ec3",
+        "value_utf8_sha256": "43b247e26e861696cdfdb4ac8625d788b5edb05f21dfbc8bf9d1d13495d4440f",
+        "source_ids": [
+          "PMC10430791"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10430791",
+            "block_id": "b00013",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10430791.json",
+            "source_file_sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c",
+            "block_text_sha256": "1d25e40ffe40ce02e31748ce5dda00e03eefc49fba13b5c0e35f7ed71d407850",
+            "block_utf8_byte_start": 123,
+            "block_utf8_byte_end": 165,
+            "span_sha256": "43b247e26e861696cdfdb4ac8625d788b5edb05f21dfbc8bf9d1d13495d4440f",
+            "source_words": 11,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00008",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          3,
+          "semantic_auxiliary_evidence",
+          1,
+          "quote"
+        ],
+        "private_utf8_byte_start": 10872,
+        "private_utf8_byte_end": 11047,
+        "encoded_span_sha256": "f2aa7fc39aa6871b652cc8e317b600db791631e905e630f3e5f6997c025ccdb0",
+        "value_utf8_sha256": "ff2cbb29de54094ec8bf90ef2fdf45947732aadcae8ec01e66bbe433beb2b91c",
+        "source_ids": [
+          "PMC10430791"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10430791",
+            "block_id": "b00007",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10430791.json",
+            "source_file_sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c",
+            "block_text_sha256": "58e7abe9bde77eee5b9697d3b11b4decbf916286e45af11320e95855162a7b53",
+            "block_utf8_byte_start": 378,
+            "block_utf8_byte_end": 551,
+            "span_sha256": "ff2cbb29de54094ec8bf90ef2fdf45947732aadcae8ec01e66bbe433beb2b91c",
+            "source_words": 28,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00009",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          3,
+          "semantic_auxiliary_evidence",
+          2,
+          "quote"
+        ],
+        "private_utf8_byte_start": 11241,
+        "private_utf8_byte_end": 11367,
+        "encoded_span_sha256": "6c3cfcded378115a63add184c17ccfa228346ffc2d2ff67896aa9180f60654c2",
+        "value_utf8_sha256": "e2abb9ffd03abf78cc53313b775fbdd105b2624788b9eb9deb3c1a87e5380663",
+        "source_ids": [
+          "PMC10430791"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10430791",
+            "block_id": "b00014",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10430791.json",
+            "source_file_sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c",
+            "block_text_sha256": "09eda80e16d555e404515a69f01b937439ab5eed2cc86bd54864d5a0a9726587",
+            "block_utf8_byte_start": 68,
+            "block_utf8_byte_end": 192,
+            "span_sha256": "e2abb9ffd03abf78cc53313b775fbdd105b2624788b9eb9deb3c1a87e5380663",
+            "source_words": 18,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00010",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch/semantic_review.json",
+        "private_file_sha256": "950721e0d16a561448dc19a757f742d24fcc241a36eb94320f73a45698acb6cd",
+        "json_path": [
+          "decisions",
+          4,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 11750,
+        "private_utf8_byte_end": 11938,
+        "encoded_span_sha256": "ab1c15b873d82f0df9cfbadc555d7e1b5e88d0bf3c03ef08b7e5558325c39c3c",
+        "value_utf8_sha256": "d8a2e82e83ba52af2fa24172c17d13748e5bdfa4d97f03460984f83aa87ff376",
+        "source_ids": [
+          "PMC9197062"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC9197062",
+            "block_id": "b00042",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC9197062.json",
+            "source_file_sha256": "054c2269ab3d427b604d8d100fd218fcd94d041e28e01f71f2277f503aa0d3ad",
+            "block_text_sha256": "3d9d5a2ce01504f47f1d3ff4b8113d0700cae42392027af21a2e0a134bad830e",
+            "block_utf8_byte_start": 119,
+            "block_utf8_byte_end": 305,
+            "span_sha256": "d8a2e82e83ba52af2fa24172c17d13748e5bdfa4d97f03460984f83aa87ff376",
+            "source_words": 30,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
+}

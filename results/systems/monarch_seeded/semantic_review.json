@@ -1,0 +1,3346 @@
+{
+  "system": "monarch_seeded",
+  "status": "complete",
+  "blocked_reason": null,
+  "offline": false,
+  "input_records": 9,
+  "included": 4,
+  "excluded": 5,
+  "infection_status_counts": {
+    "infected": 2,
+    "uninfected": 2
+  },
+  "reviewed_infection_status_counts": {
+    "infected": 2,
+    "uninfected": 2,
+    "unreported": 5
+  },
+  "origin_counts": {
+    "model_record": 4
+  },
+  "focal_recovery": {
+    "source_design_recovered": true,
+    "source_design_sources": [
+      "LEFEVRE2010",
+      "LEFEVRE2012"
+    ],
+    "source_design_scope": "reviewed source designs and sources represented among reviewed model records",
+    "focal_model_record_count": 4,
+    "model_infected_uninfected_pair_recovered": true,
+    "paired_model_experiments": [
+      {
+        "source_id": "LEFEVRE2010",
+        "experiment_id": "lefevre_2010_experiment_2_adult_oviposition_july_2009"
+      }
+    ],
+    "curator_context_expansion_count": 0,
+    "unreported_model_record_count": 0,
+    "counts_interpretation": "Descriptive reviewed-record coverage; excluded from inference.",
+    "model_pairing_unit": "source_id + experiment_id",
+    "model_pairing_interpretation": "Both infection groups occur in original model records from the same reviewed experiment. Their retained target species may differ.",
+    "same_target_pairing_unit": "source_id + experiment_id + validated taxonomy_query_name (target_name_as_written fallback)",
+    "same_target_model_panel_count": 0,
+    "same_target_model_panel_recovered": false,
+    "same_target_model_panels": []
+  },
+  "raw_input_path": "/Users/seth/Documents/ChatGPT/hackathon/data/interim/systems/monarch_seeded/extraction/observations.jsonl",
+  "raw_input_sha256": "7d22b7b69a5d2b5e4614af892955283d80985ed9fd6e671abe81e7947754ba9d",
+  "adjudications_path": "/Users/seth/Documents/ChatGPT/hackathon/results/systems/monarch_seeded/semantic_adjudications.json",
+  "adjudications_hash": "b9b3e9ce48924cb0a82586058684eacea2dfd6c74bce5ee02ddb181388d261d1",
+  "source_design_adjudications_hash": "1bd1b3a6c3364d676198a4122e372e6d7691d96a53d346ed26fccfe4f9abee48",
+  "taxonomy_query_expansions": 4,
+  "independent_experiment_count": 2,
+  "record_count_caveat": "Distinct published analyses of one experiment remain distinct raw model records. They do not increase the independent experiment count.",
+  "analysis_performed": false,
+  "completed_at": "2026-09-13T19:52:04.554705+00:00",
+  "method": "Explicit source-reviewed adjudications, deterministic exact evidence validation and preserved raw model records.",
+  "decisions": [
+    {
+      "record_id": "c66f20b89857e7b49a0ea9edf113ca01ea8aa5156f354ecde58d172660897e3c",
+      "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+      "source_id": "LEFEVRE2010",
+      "raw_model_record": {
+        "behaving_organism_as_written": "females",
+        "target_name_as_written": "A. curassavica",
+        "taxonomic_rank": "species",
+        "direction": "accept",
+        "evidence_type": "lab_choice_assay",
+        "quantitative_measure": "odds ratio (OR) = 2.28; 95% confidence interval (CI) = (1.87, 2.68); P < 0.001",
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "LEFEVRE2010",
+        "section": "PDF / Page 6",
+        "block_id": "pdf:p06:b007",
+        "evidence_quote": {
+          "private_reference": "r00000"
+        },
+        "extraction_confidence": 0.95,
+        "behavioural_choice": true,
+        "study_context": "Adult oviposition choice assay comparing infected and uninfected female monarchs presented with Asclepias plants.",
+        "original_source_id": null,
+        "record_id": "c66f20b89857e7b49a0ea9edf113ca01ea8aa5156f354ecde58d172660897e3c",
+        "source_url": "https://doi.org/10.1111/j.1461-0248.2010.01537.x",
+        "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "9fd99f3de8699ad9f9e365af009a4bb52b6ca94de5664334626f1e570f3e5064",
+        "extraction_request_hash": "91bd7ca6fd42271bd995b4c4ec422212f1bfb99fc9f017bb457789cde32760a4",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "95228429b25213e5555ed41c36731f72a69814db399b40949094c8bfb047c570",
+      "infection_status": "infected",
+      "infection_subject": "choosing_adult_female",
+      "infection_evidence": [
+        {
+          "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p06:b007",
+          "section": "PDF / Page 6",
+          "evidence_quote": {
+            "private_reference": "r00001"
+          }
+        }
+      ],
+      "primary_oviposition_choice": true,
+      "between_milkweed_species": true,
+      "choosing_adult_female": true,
+      "design_evidence": [
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00002"
+          }
+        },
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00003"
+          }
+        }
+      ],
+      "experiment_id": "lefevre_2010_experiment_2_adult_oviposition_july_2009",
+      "same_experiment_comparison": true,
+      "compared_infection_groups": [
+        "infected",
+        "uninfected"
+      ],
+      "comparison_evidence": [
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00004"
+          }
+        },
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p04:b042",
+          "section": "PDF / Page 4",
+          "evidence_quote": {
+            "private_reference": "r00005"
+          }
+        }
+      ],
+      "direction_supported": true,
+      "decision": "include",
+      "note": "The source quotes the adult female infection contrast. Its own Experiment 2 methods and preference results establish primary between-species choice. This is the main reported analysis of the same 2010 experiment as record 36c19e07; it does not add an independent experiment.",
+      "reason_codes": [],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "infected",
+        "infection_subject": "choosing_adult_female",
+        "infection_evidence": [
+          {
+            "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b007",
+            "section": "PDF / Page 6",
+            "evidence_quote": {
+              "private_reference": "r00006"
+            },
+            "start": 186,
+            "end": 427,
+            "block_text_sha256": "f93384c2bcbff1cdc245e790f9965912cfda73ca974af6ced596a4d656c53ef3",
+            "evidence_hash": "afa010316d22b3e92af9108c7871e71baf55ed3f276e956a0827fde14bd6ad29"
+          }
+        ],
+        "primary_oviposition_choice": true,
+        "between_milkweed_species": true,
+        "choosing_adult_female": true,
+        "design_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00007"
+            },
+            "start": 1256,
+            "end": 1590,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "327b5cc60a31af4788e5833e5eb53cd2277cdef0573e1209e29cca4d0da3008a"
+          },
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00008"
+            },
+            "start": 2041,
+            "end": 2186,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "4f8b98800f5580fa2c50689dd860ff7bcbdc10702e8cd1d8d798843be48f7952"
+          }
+        ],
+        "experiment_id": "lefevre_2010_experiment_2_adult_oviposition_july_2009",
+        "same_experiment_comparison": true,
+        "compared_infection_groups": [
+          "infected",
+          "uninfected"
+        ],
+        "comparison_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00009"
+            },
+            "start": 1783,
+            "end": 1922,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "f5d1d61dedfc2cff6b21043059174a439de96b04210e1145b93229ade885e2d1"
+          },
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "section": "PDF / Page 4",
+            "evidence_quote": {
+              "private_reference": "r00010"
+            },
+            "start": 418,
+            "end": 607,
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "evidence_hash": "3de93ff5c783838612fa3e42ca5de3afb3802d3819cfb4ae70264cfc4b31de75"
+          }
+        ],
+        "direction_supported": true,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": true,
+        "focal_eligible": true,
+        "infection_comparison_eligible": true,
+        "infection_flags": []
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1",
+      "taxonomy_query": {
+        "name": "Asclepias curassavica",
+        "rank": "species",
+        "reason": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00011"
+            }
+          }
+        ]
+      },
+      "validated_taxonomy_query": {
+        "taxonomy_query_name": "Asclepias curassavica",
+        "taxonomy_query_rank": "species",
+        "taxonomy_query_provenance": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "taxonomy_query_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00012"
+            },
+            "start": 0,
+            "end": 423,
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "evidence_hash": "310fe55418e6f2392f8d96cbaff9e88e462d8fd329436a4ea23d804ea704e413"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "36c19e076981ca89a75680ccbc19c11e5e8b99d55c57e5ee3b9d0ea78904c432",
+      "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+      "source_id": "LEFEVRE2010",
+      "raw_model_record": {
+        "behaving_organism_as_written": "females",
+        "target_name_as_written": "A. curassavica",
+        "taxonomic_rank": "species",
+        "direction": "accept",
+        "evidence_type": "lab_choice_assay",
+        "quantitative_measure": "OR = 2.23; CI = (2.01, 2.43); P < 0.001",
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "LEFEVRE2010",
+        "section": "PDF / Page 6",
+        "block_id": "pdf:p06:b010",
+        "evidence_quote": {
+          "private_reference": "r00013"
+        },
+        "extraction_confidence": 0.95,
+        "behavioural_choice": true,
+        "study_context": "Adult oviposition choice reanalysis using number of eggs per gram of foliage comparing infected and uninfected females.",
+        "original_source_id": null,
+        "record_id": "36c19e076981ca89a75680ccbc19c11e5e8b99d55c57e5ee3b9d0ea78904c432",
+        "source_url": "https://doi.org/10.1111/j.1461-0248.2010.01537.x",
+        "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "9fd99f3de8699ad9f9e365af009a4bb52b6ca94de5664334626f1e570f3e5064",
+        "extraction_request_hash": "91bd7ca6fd42271bd995b4c4ec422212f1bfb99fc9f017bb457789cde32760a4",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "68f8d9690aa2ac6ab46eed69d5c4570fd9d4ce540410316113a2a6b8a4144c49",
+      "infection_status": "infected",
+      "infection_subject": "choosing_adult_female",
+      "infection_evidence": [
+        {
+          "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p06:b010",
+          "section": "PDF / Page 6",
+          "evidence_quote": {
+            "private_reference": "r00014"
+          }
+        }
+      ],
+      "primary_oviposition_choice": true,
+      "between_milkweed_species": true,
+      "choosing_adult_female": true,
+      "design_evidence": [
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00015"
+          }
+        },
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00016"
+          }
+        }
+      ],
+      "experiment_id": "lefevre_2010_experiment_2_adult_oviposition_july_2009",
+      "same_experiment_comparison": true,
+      "compared_infection_groups": [
+        "infected",
+        "uninfected"
+      ],
+      "comparison_evidence": [
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00017"
+          }
+        },
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p04:b042",
+          "section": "PDF / Page 4",
+          "evidence_quote": {
+            "private_reference": "r00018"
+          }
+        }
+      ],
+      "direction_supported": true,
+      "decision": "include",
+      "note": "The quote explicitly reports infected female preference for A. curassavica and uninfected no preference. This record describes the foliage-biomass reanalysis of the same 2010 Experiment 2; retain the raw analytical context without treating it as an independent experiment.",
+      "reason_codes": [],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "infected",
+        "infection_subject": "choosing_adult_female",
+        "infection_evidence": [
+          {
+            "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b010",
+            "section": "PDF / Page 6",
+            "evidence_quote": {
+              "private_reference": "r00019"
+            },
+            "start": 1296,
+            "end": 1563,
+            "block_text_sha256": "1c842935d10e74447411048ebe155989f50c359e47fd3a8896e5a0d514f8ed5b",
+            "evidence_hash": "3fef179ead36a0060669f85e880b8648e1047463309fa6bf3d6ec75c62efcebb"
+          }
+        ],
+        "primary_oviposition_choice": true,
+        "between_milkweed_species": true,
+        "choosing_adult_female": true,
+        "design_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00020"
+            },
+            "start": 1256,
+            "end": 1590,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "327b5cc60a31af4788e5833e5eb53cd2277cdef0573e1209e29cca4d0da3008a"
+          },
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00021"
+            },
+            "start": 2041,
+            "end": 2186,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "4f8b98800f5580fa2c50689dd860ff7bcbdc10702e8cd1d8d798843be48f7952"
+          }
+        ],
+        "experiment_id": "lefevre_2010_experiment_2_adult_oviposition_july_2009",
+        "same_experiment_comparison": true,
+        "compared_infection_groups": [
+          "infected",
+          "uninfected"
+        ],
+        "comparison_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00022"
+            },
+            "start": 1783,
+            "end": 1922,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "f5d1d61dedfc2cff6b21043059174a439de96b04210e1145b93229ade885e2d1"
+          },
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "section": "PDF / Page 4",
+            "evidence_quote": {
+              "private_reference": "r00023"
+            },
+            "start": 418,
+            "end": 607,
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "evidence_hash": "3de93ff5c783838612fa3e42ca5de3afb3802d3819cfb4ae70264cfc4b31de75"
+          }
+        ],
+        "direction_supported": true,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": true,
+        "focal_eligible": true,
+        "infection_comparison_eligible": true,
+        "infection_flags": []
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1",
+      "taxonomy_query": {
+        "name": "Asclepias curassavica",
+        "rank": "species",
+        "reason": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00024"
+            }
+          }
+        ]
+      },
+      "validated_taxonomy_query": {
+        "taxonomy_query_name": "Asclepias curassavica",
+        "taxonomy_query_rank": "species",
+        "taxonomy_query_provenance": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "taxonomy_query_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00025"
+            },
+            "start": 0,
+            "end": 423,
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "evidence_hash": "310fe55418e6f2392f8d96cbaff9e88e462d8fd329436a4ea23d804ea704e413"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "335e52a423612bd9c63cd823b6f130ccfbb1a14108522050f8776796cdbe4c8e",
+      "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+      "source_id": "LEFEVRE2010",
+      "raw_model_record": {
+        "behaving_organism_as_written": "monarchs",
+        "target_name_as_written": "A. incarnata",
+        "taxonomic_rank": "species",
+        "direction": "unknown",
+        "evidence_type": "lab_choice_assay",
+        "quantitative_measure": null,
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "LEFEVRE2010",
+        "section": "PDF / Page 7",
+        "block_id": "pdf:p07:b006",
+        "evidence_quote": {
+          "private_reference": "r00026"
+        },
+        "extraction_confidence": 0.9,
+        "behavioural_choice": true,
+        "study_context": "Discussion of lack of oviposition preference for A. incarnata by uninfected monarchs in choice experiments.",
+        "original_source_id": null,
+        "record_id": "335e52a423612bd9c63cd823b6f130ccfbb1a14108522050f8776796cdbe4c8e",
+        "source_url": "https://doi.org/10.1111/j.1461-0248.2010.01537.x",
+        "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "9fd99f3de8699ad9f9e365af009a4bb52b6ca94de5664334626f1e570f3e5064",
+        "extraction_request_hash": "91bd7ca6fd42271bd995b4c4ec422212f1bfb99fc9f017bb457789cde32760a4",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "94db7e1a39e5bdf85aa8eaf44ed6d4b5283a316d1c1210d17579f20b5f8ba761",
+      "infection_status": "uninfected",
+      "infection_subject": "choosing_adult_female",
+      "infection_evidence": [
+        {
+          "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p07:b006",
+          "section": "PDF / Page 7",
+          "evidence_quote": {
+            "private_reference": "r00027"
+          }
+        }
+      ],
+      "primary_oviposition_choice": true,
+      "between_milkweed_species": true,
+      "choosing_adult_female": true,
+      "design_evidence": [
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00028"
+          }
+        },
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00029"
+          }
+        }
+      ],
+      "experiment_id": "lefevre_2010_experiment_2_adult_oviposition_july_2009",
+      "same_experiment_comparison": true,
+      "compared_infection_groups": [
+        "infected",
+        "uninfected"
+      ],
+      "comparison_evidence": [
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p03:b004",
+          "section": "PDF / Page 3",
+          "evidence_quote": {
+            "private_reference": "r00030"
+          }
+        },
+        {
+          "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+          "source_id": "LEFEVRE2010",
+          "block_id": "pdf:p04:b042",
+          "section": "PDF / Page 4",
+          "evidence_quote": {
+            "private_reference": "r00031"
+          }
+        }
+      ],
+      "direction_supported": true,
+      "decision": "include",
+      "note": "The source discusses its own Experiment 2 and refers to Figure 1b. The quoted no-preference statement concerns uninfected females in the primary dual-species oviposition test. Preserve unknown direction; it establishes neither acceptance nor rejection of A. incarnata.",
+      "reason_codes": [],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "uninfected",
+        "infection_subject": "choosing_adult_female",
+        "infection_evidence": [
+          {
+            "input_hash": "02e770973e9b285536846e934b7b1b2faed44f781416f0d952652581d2102108",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p07:b006",
+            "section": "PDF / Page 7",
+            "evidence_quote": {
+              "private_reference": "r00032"
+            },
+            "start": 115,
+            "end": 330,
+            "block_text_sha256": "f2a82cb8720e9b2c8cf632fc97ccf147f328676ac91453a78b3b83de623e8e15",
+            "evidence_hash": "4168336807eac9d71ee9ab233337af4404ed3ab8c200bc97e02b3936c2891fc1"
+          }
+        ],
+        "primary_oviposition_choice": true,
+        "between_milkweed_species": true,
+        "choosing_adult_female": true,
+        "design_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00033"
+            },
+            "start": 1256,
+            "end": 1590,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "327b5cc60a31af4788e5833e5eb53cd2277cdef0573e1209e29cca4d0da3008a"
+          },
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00034"
+            },
+            "start": 2041,
+            "end": 2186,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "4f8b98800f5580fa2c50689dd860ff7bcbdc10702e8cd1d8d798843be48f7952"
+          }
+        ],
+        "experiment_id": "lefevre_2010_experiment_2_adult_oviposition_july_2009",
+        "same_experiment_comparison": true,
+        "compared_infection_groups": [
+          "infected",
+          "uninfected"
+        ],
+        "comparison_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "section": "PDF / Page 3",
+            "evidence_quote": {
+              "private_reference": "r00035"
+            },
+            "start": 1783,
+            "end": 1922,
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "evidence_hash": "f5d1d61dedfc2cff6b21043059174a439de96b04210e1145b93229ade885e2d1"
+          },
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "section": "PDF / Page 4",
+            "evidence_quote": {
+              "private_reference": "r00036"
+            },
+            "start": 418,
+            "end": 607,
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "evidence_hash": "3de93ff5c783838612fa3e42ca5de3afb3802d3819cfb4ae70264cfc4b31de75"
+          }
+        ],
+        "direction_supported": true,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": true,
+        "focal_eligible": true,
+        "infection_comparison_eligible": true,
+        "infection_flags": []
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1",
+      "taxonomy_query": {
+        "name": "Asclepias incarnata",
+        "rank": "species",
+        "reason": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00037"
+            }
+          }
+        ]
+      },
+      "validated_taxonomy_query": {
+        "taxonomy_query_name": "Asclepias incarnata",
+        "taxonomy_query_rank": "species",
+        "taxonomy_query_provenance": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "taxonomy_query_evidence": [
+          {
+            "input_hash": "c14175bdfe85536281ac7a0240f5f5e4bbf4db5517d2fef5028376963b1db330",
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00038"
+            },
+            "start": 0,
+            "end": 423,
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "evidence_hash": "310fe55418e6f2392f8d96cbaff9e88e462d8fd329436a4ea23d804ea704e413"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "d687d4d2f06b3bdcb128d19e2743e0f602e8ccb9d318f1d015cdb26433c2d2c8",
+      "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+      "source_id": "LEFEVRE2012",
+      "raw_model_record": {
+        "behaving_organism_as_written": "uninfected females",
+        "target_name_as_written": "A. curassavica",
+        "taxonomic_rank": "species",
+        "direction": "unknown",
+        "evidence_type": "lab_choice_assay",
+        "quantitative_measure": "laid only 48.5% of their eggs on A. curassavica",
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "LEFEVRE2012",
+        "section": "PDF / Page 7",
+        "block_id": "pdf:p07:b002",
+        "evidence_quote": {
+          "private_reference": "r00039"
+        },
+        "extraction_confidence": 0.95,
+        "behavioural_choice": true,
+        "study_context": "Dual-choice oviposition assay comparing preference for A. curassavica and A. incarnata between infected and uninfected female monarchs.",
+        "original_source_id": null,
+        "record_id": "d687d4d2f06b3bdcb128d19e2743e0f602e8ccb9d318f1d015cdb26433c2d2c8",
+        "source_url": "https://doi.org/10.1111/j.1365-2656.2011.01901.x",
+        "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "c7ed6d6c5df8c2918a1c7e669cb386f724220f4b509548e6084c8bbe72a72cd4",
+        "extraction_request_hash": "74b0d3c143f651a7e3d687538db4065c208e3e5ea0c04ba1bf27c7b72a9d5f9a",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "1caf7d12c8310c3e270296e6da7b3910d504821410236d566831fca73718a412",
+      "infection_status": "uninfected",
+      "infection_subject": "choosing_adult_female",
+      "infection_evidence": [
+        {
+          "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+          "source_id": "LEFEVRE2012",
+          "block_id": "pdf:p07:b002",
+          "section": "PDF / Page 7",
+          "evidence_quote": {
+            "private_reference": "r00040"
+          }
+        }
+      ],
+      "primary_oviposition_choice": true,
+      "between_milkweed_species": true,
+      "choosing_adult_female": true,
+      "design_evidence": [
+        {
+          "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+          "source_id": "LEFEVRE2012",
+          "block_id": "pdf:p05:b006",
+          "section": "PDF / Page 5",
+          "evidence_quote": {
+            "private_reference": "r00041"
+          }
+        },
+        {
+          "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+          "source_id": "LEFEVRE2012",
+          "block_id": "pdf:p05:b006",
+          "section": "PDF / Page 5",
+          "evidence_quote": {
+            "private_reference": "r00042"
+          }
+        }
+      ],
+      "experiment_id": "lefevre_2012_trans_generational_medication_eastern_monarchs",
+      "same_experiment_comparison": true,
+      "compared_infection_groups": [
+        "infected",
+        "uninfected"
+      ],
+      "comparison_evidence": [
+        {
+          "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+          "source_id": "LEFEVRE2012",
+          "block_id": "pdf:p05:b006",
+          "section": "PDF / Page 5",
+          "evidence_quote": {
+            "private_reference": "r00043"
+          }
+        },
+        {
+          "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+          "source_id": "LEFEVRE2012",
+          "block_id": "pdf:p07:b001",
+          "section": "PDF / Page 7",
+          "evidence_quote": {
+            "private_reference": "r00044"
+          }
+        }
+      ],
+      "direction_supported": true,
+      "decision": "include",
+      "note": "The quote explicitly reports no preference in uninfected females in the new 2012 primary dual-choice experiment. Preserve unknown direction. The raw quantitative_measure of 48.5% is verified against the separately anchored Figure 5 caption; quantitative verification therefore uses additional source context. The infected preference candidate failed original grounding and is not recreated here.",
+      "reason_codes": [],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "uninfected",
+        "infection_subject": "choosing_adult_female",
+        "infection_evidence": [
+          {
+            "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b002",
+            "section": "PDF / Page 7",
+            "evidence_quote": {
+              "private_reference": "r00045"
+            },
+            "start": 69,
+            "end": 142,
+            "block_text_sha256": "01a9226c97770b25707451cdd59c243d389e9bc423819a91cbf37eb4b742a549",
+            "evidence_hash": "70795f9b4e958dbeb2dafdf7cf9e81ebd0133d94666e5a75b2ccf0c4c51708e3"
+          }
+        ],
+        "primary_oviposition_choice": true,
+        "between_milkweed_species": true,
+        "choosing_adult_female": true,
+        "design_evidence": [
+          {
+            "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00046"
+            },
+            "start": 0,
+            "end": 142,
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "evidence_hash": "0930ee45642f0f8d0add81d6a6d82cd11445acf52441b8ede53dcdc701a1bed0"
+          },
+          {
+            "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00047"
+            },
+            "start": 1637,
+            "end": 1828,
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "evidence_hash": "7f5736c0b343dc4ea9253547ea6b3811aadd9fd89a5030861a01146291ce8525"
+          }
+        ],
+        "experiment_id": "lefevre_2012_trans_generational_medication_eastern_monarchs",
+        "same_experiment_comparison": true,
+        "compared_infection_groups": [
+          "infected",
+          "uninfected"
+        ],
+        "comparison_evidence": [
+          {
+            "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "section": "PDF / Page 5",
+            "evidence_quote": {
+              "private_reference": "r00048"
+            },
+            "start": 1182,
+            "end": 1282,
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "evidence_hash": "a4d7ec7bc6dd06e681f36304d84dad31ac62b3d4fd12198fbc6f015549c2db21"
+          },
+          {
+            "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b001",
+            "section": "PDF / Page 7",
+            "evidence_quote": {
+              "private_reference": "r00049"
+            },
+            "start": 174,
+            "end": 307,
+            "block_text_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "evidence_hash": "f0010c2b18de57f1f4349ddfe061257368506496b4eacaaa4554186505f2bbe2"
+          }
+        ],
+        "direction_supported": true,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": true,
+        "focal_eligible": true,
+        "infection_comparison_eligible": true,
+        "infection_flags": []
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1",
+      "taxonomy_query": {
+        "name": "Asclepias curassavica",
+        "rank": "species",
+        "reason": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "evidence": [
+          {
+            "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b001",
+            "section": "PDF / Page 7",
+            "evidence_quote": {
+              "private_reference": "r00050"
+            }
+          }
+        ]
+      },
+      "validated_taxonomy_query": {
+        "taxonomy_query_name": "Asclepias curassavica",
+        "taxonomy_query_rank": "species",
+        "taxonomy_query_provenance": "Expand the abbreviated genus using the full binomial printed in the same source; preserve target_name_as_written, model quote and record ID.",
+        "taxonomy_query_evidence": [
+          {
+            "input_hash": "38fe139e453003dcb8759d6d7a7508997a50e51785f7f9226f776e3f0bafefbe",
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b001",
+            "section": "PDF / Page 7",
+            "evidence_quote": {
+              "private_reference": "r00051"
+            },
+            "start": 0,
+            "end": 307,
+            "block_text_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "evidence_hash": "4e3f595a5921a77848a49aa7170755d809f120fb0ad9274d2e6342067c91bcab"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "824ea5be5084af89f7f550b4ba011622b19550a306f68bf4bc2b9af4afa67c95",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "source_id": "PMC12585044",
+      "raw_model_record": {
+        "behaving_organism_as_written": "monarch butterflies",
+        "target_name_as_written": "swamp milkweed (A. incarnata)",
+        "taxonomic_rank": "species",
+        "direction": "accept",
+        "evidence_type": "review_secondary",
+        "quantitative_measure": null,
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "PMC12585044",
+        "section": "Body / Introduction",
+        "block_id": "b00003",
+        "evidence_quote": {
+          "private_reference": "r00052"
+        },
+        "extraction_confidence": 0.95,
+        "behavioural_choice": true,
+        "study_context": "Controlled environment choice assay (review of literature)",
+        "original_source_id": "9,11,13",
+        "record_id": "824ea5be5084af89f7f550b4ba011622b19550a306f68bf4bc2b9af4afa67c95",
+        "source_url": "https://europepmc.org/articles/PMC12585044",
+        "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "f4691f77b598c1a71bf45bcb6f0e5ddb3365c9dee2e2ebf4263e362e68bfb1f3",
+        "extraction_request_hash": "c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "b7ecf95877139a4dff79b645105763d66ce66cce705f2ee7129b149685eafe0f",
+      "infection_status": "unreported",
+      "infection_subject": "unreported",
+      "infection_evidence": [],
+      "primary_oviposition_choice": false,
+      "between_milkweed_species": false,
+      "choosing_adult_female": false,
+      "design_evidence": [],
+      "experiment_id": null,
+      "same_experiment_comparison": false,
+      "compared_infection_groups": [],
+      "comparison_evidence": [],
+      "direction_supported": false,
+      "decision": "exclude",
+      "note": "This introduction sentence attributes the controlled choice finding to references 9, 11 and 13. It is a secondary statement with no choosing-female infection status established for a primary experiment in this source.",
+      "reason_codes": [
+        "secondary_oviposition_citation"
+      ],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "unreported",
+        "infection_subject": "unreported",
+        "infection_evidence": [],
+        "primary_oviposition_choice": false,
+        "between_milkweed_species": false,
+        "choosing_adult_female": false,
+        "design_evidence": [],
+        "experiment_id": null,
+        "same_experiment_comparison": false,
+        "compared_infection_groups": [],
+        "comparison_evidence": [],
+        "direction_supported": false,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": false,
+        "focal_eligible": false,
+        "infection_comparison_eligible": false,
+        "infection_flags": [
+          "choosing_female_infection_unreported",
+          "focal_species_choice_design_not_established",
+          "infected_uninfected_comparison_not_established"
+        ]
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1"
+    },
+    {
+      "record_id": "64c983fe790e8f4d415a34719c7f6d31ceee20715283e6733c1ada12318428e0",
+      "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+      "source_id": "PMC12585044",
+      "raw_model_record": {
+        "behaving_organism_as_written": "monarch butterflies",
+        "target_name_as_written": "milkweed",
+        "taxonomic_rank": "genus",
+        "direction": "accept",
+        "evidence_type": "review_secondary",
+        "quantitative_measure": null,
+        "compound_name_as_written": "cardenolides",
+        "activity_target_as_written": "Ophryocystis elektroscirrha (OE)",
+        "activity_outcome": "suppresses",
+        "source_id": "PMC12585044",
+        "section": "Body / Introduction",
+        "block_id": "b00003",
+        "evidence_quote": {
+          "private_reference": "r00053"
+        },
+        "extraction_confidence": 0.95,
+        "behavioural_choice": true,
+        "study_context": "Oviposition preference by OE-parasitized monarch females (literature cited)",
+        "original_source_id": "14,15",
+        "record_id": "64c983fe790e8f4d415a34719c7f6d31ceee20715283e6733c1ada12318428e0",
+        "source_url": "https://europepmc.org/articles/PMC12585044",
+        "input_hash": "5b94622b85ef2194599e6bf1c8b938c71c561471f8730d866f4ebed0d9d3c585",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "f4691f77b598c1a71bf45bcb6f0e5ddb3365c9dee2e2ebf4263e362e68bfb1f3",
+        "extraction_request_hash": "c30956f84c0b4f1068be6f9ab4af541de3dd192add231d5b7a483167f0816724",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "dd3bd53e406f859fcaae23a3da88fa6df27c8af406d10fd950a1c1ed036adb14",
+      "infection_status": "unreported",
+      "infection_subject": "unreported",
+      "infection_evidence": [],
+      "primary_oviposition_choice": false,
+      "between_milkweed_species": false,
+      "choosing_adult_female": false,
+      "design_evidence": [],
+      "experiment_id": null,
+      "same_experiment_comparison": false,
+      "compared_infection_groups": [],
+      "comparison_evidence": [],
+      "direction_supported": false,
+      "decision": "exclude",
+      "note": "This introduction sentence cites references 14 and 15 and names generic milkweed instead of a species-choice target. Its infected-organism wording does not establish a primary choosing-adult-female comparison in this source. Preserve the raw activity fields only in the audit.",
+      "reason_codes": [
+        "secondary_unspecified_milkweed_claim"
+      ],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "unreported",
+        "infection_subject": "unreported",
+        "infection_evidence": [],
+        "primary_oviposition_choice": false,
+        "between_milkweed_species": false,
+        "choosing_adult_female": false,
+        "design_evidence": [],
+        "experiment_id": null,
+        "same_experiment_comparison": false,
+        "compared_infection_groups": [],
+        "comparison_evidence": [],
+        "direction_supported": false,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": false,
+        "focal_eligible": false,
+        "infection_comparison_eligible": false,
+        "infection_flags": [
+          "choosing_female_infection_unreported",
+          "focal_species_choice_design_not_established",
+          "infected_uninfected_comparison_not_established"
+        ]
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1"
+    },
+    {
+      "record_id": "ded847959937f544e88afe52ef0e1aced69ea24140638afffdd602cf25aee9db",
+      "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+      "source_id": "PMC10370756",
+      "raw_model_record": {
+        "behaving_organism_as_written": "Danaus plexippus",
+        "target_name_as_written": "Asclepias curassavica",
+        "taxonomic_rank": "species",
+        "direction": "unknown",
+        "evidence_type": "lab_choice_assay",
+        "quantitative_measure": null,
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "PMC10370756",
+        "section": "Abstract",
+        "block_id": "b00000",
+        "evidence_quote": {
+          "private_reference": "r00054"
+        },
+        "extraction_confidence": 0.85,
+        "behavioural_choice": true,
+        "study_context": "Evaluation of monarch butterfly oviposition preference on aphid-free versus aphid-infested tropical milkweed plants.",
+        "original_source_id": null,
+        "record_id": "ded847959937f544e88afe52ef0e1aced69ea24140638afffdd602cf25aee9db",
+        "source_url": "https://europepmc.org/articles/PMC10370756",
+        "input_hash": "423187937febd4447063108da48a781b5289c250b6f3b95c69af915b5ceca8fa",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "bcff2b2c5a1289b5d8b51aa4bc99820407490391b4027377cba8c87b74a6840c",
+        "extraction_request_hash": "506714b46fe5afd336d1c1de6a64f3437327a5eea0aa37ac89952ad0b42cb45c",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "8bc5e5c3afacd4b546ee6b9b19790f23f4e7188e95b7f5e2bc4bad158707ac4f",
+      "infection_status": "unreported",
+      "infection_subject": "unreported",
+      "infection_evidence": [],
+      "primary_oviposition_choice": false,
+      "between_milkweed_species": false,
+      "choosing_adult_female": false,
+      "design_evidence": [],
+      "experiment_id": null,
+      "same_experiment_comparison": false,
+      "compared_infection_groups": [],
+      "comparison_evidence": [],
+      "direction_supported": false,
+      "decision": "exclude",
+      "note": "The quote describes evaluating aphid effects within A. curassavica and supplies no between-milkweed-species preference result. The choosing-female infection status is unreported.",
+      "reason_codes": [
+        "within_species_aphid_treatment"
+      ],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "unreported",
+        "infection_subject": "unreported",
+        "infection_evidence": [],
+        "primary_oviposition_choice": false,
+        "between_milkweed_species": false,
+        "choosing_adult_female": false,
+        "design_evidence": [],
+        "experiment_id": null,
+        "same_experiment_comparison": false,
+        "compared_infection_groups": [],
+        "comparison_evidence": [],
+        "direction_supported": false,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": false,
+        "focal_eligible": false,
+        "infection_comparison_eligible": false,
+        "infection_flags": [
+          "choosing_female_infection_unreported",
+          "focal_species_choice_design_not_established",
+          "infected_uninfected_comparison_not_established"
+        ]
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1"
+    },
+    {
+      "record_id": "fd4bc2a165044f99e2b8f13a4c5ce84194125401463c80e0e0f46126ebf2ec9f",
+      "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+      "source_id": "PMC10430791",
+      "raw_model_record": {
+        "behaving_organism_as_written": "Danaus plexippus",
+        "target_name_as_written": "Asclepias fascicularis",
+        "taxonomic_rank": "species",
+        "direction": "accept",
+        "evidence_type": "lab_choice_assay",
+        "quantitative_measure": "βwater = 0.46 ± 0.21, z = 2.19, P < 0.03",
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "PMC10430791",
+        "section": "Abstract",
+        "block_id": "b00000",
+        "evidence_quote": {
+          "private_reference": "r00055"
+        },
+        "extraction_confidence": 0.95,
+        "behavioural_choice": true,
+        "study_context": "Flight cage oviposition choice experiment testing female monarch preference between reduced-water and well-watered Asclepias fascicularis plants",
+        "original_source_id": null,
+        "record_id": "fd4bc2a165044f99e2b8f13a4c5ce84194125401463c80e0e0f46126ebf2ec9f",
+        "source_url": "https://europepmc.org/articles/PMC10430791",
+        "input_hash": "de30868268f7754736b81adf5dda863900dc9166189e64b9fa81916c2e1bc455",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "43e7d15ab07f996c67524e6734fe46c74447bcb0ec72b3e409c1d028dfcb6b34",
+        "extraction_request_hash": "8edcdb5f093ab781405fc4d594f46c4fa873c29c84465b471c76f6e19811d8a6",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "eb363b6ed431e9130682f378f59ad8f04bf89c8514ed89988ef7e3ee807342ff",
+      "infection_status": "unreported",
+      "infection_subject": "unreported",
+      "infection_evidence": [],
+      "primary_oviposition_choice": false,
+      "between_milkweed_species": false,
+      "choosing_adult_female": false,
+      "design_evidence": [],
+      "experiment_id": null,
+      "same_experiment_comparison": false,
+      "compared_infection_groups": [],
+      "comparison_evidence": [],
+      "direction_supported": false,
+      "decision": "exclude",
+      "note": "This is a direct female oviposition contrast between watering treatments of A. fascicularis. It does not satisfy the fixed between-species accept/reject semantics. The choosing females' infection status is unreported.",
+      "reason_codes": [
+        "within_species_watering_treatment"
+      ],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "unreported",
+        "infection_subject": "unreported",
+        "infection_evidence": [],
+        "primary_oviposition_choice": false,
+        "between_milkweed_species": false,
+        "choosing_adult_female": false,
+        "design_evidence": [],
+        "experiment_id": null,
+        "same_experiment_comparison": false,
+        "compared_infection_groups": [],
+        "comparison_evidence": [],
+        "direction_supported": false,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": false,
+        "focal_eligible": false,
+        "infection_comparison_eligible": false,
+        "infection_flags": [
+          "choosing_female_infection_unreported",
+          "focal_species_choice_design_not_established",
+          "infected_uninfected_comparison_not_established"
+        ]
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1"
+    },
+    {
+      "record_id": "f2681f96c6d66ee7eb69ad34bc3b2d5c4d88e3a1e55434124acebad3f6371af6",
+      "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc",
+      "source_id": "PMC9197062",
+      "raw_model_record": {
+        "behaving_organism_as_written": "adult monarchs",
+        "target_name_as_written": "A. sericifera",
+        "taxonomic_rank": "species",
+        "direction": "reject",
+        "evidence_type": "review_secondary",
+        "quantitative_measure": null,
+        "compound_name_as_written": null,
+        "activity_target_as_written": null,
+        "activity_outcome": "unknown",
+        "source_id": "PMC9197062",
+        "section": "Body / Discussion",
+        "block_id": "b00042",
+        "evidence_quote": {
+          "private_reference": "r00056"
+        },
+        "extraction_confidence": 0.9,
+        "behavioural_choice": true,
+        "study_context": "Discussion of host range and secondary review of monarch oviposition on Araujia sericifera",
+        "original_source_id": "78, 111",
+        "record_id": "f2681f96c6d66ee7eb69ad34bc3b2d5c4d88e3a1e55434124acebad3f6371af6",
+        "source_url": "https://europepmc.org/articles/PMC9197062",
+        "input_hash": "10fcb55f5c81cd73dd9395841b5fe911ea4d7ca6beb6925ee3ecf7ba29de18bc",
+        "engine": "gemini-3.8-flash",
+        "provider": "gemini",
+        "response_hash": "91593e652bf967258db1e049c35b58c81aa3cf9b0e07065dceab1607a19caaa5",
+        "extraction_request_hash": "bfefafc469eb2a6a5244f7ab005837e737fc1a9d4e542becd88e3ebcee2813ae",
+        "resolved_model": "gemini-3.8-flash"
+      },
+      "raw_model_record_hash": "67aacf9dbdcea0abbefdf0fbc6cb3414893cabaf59006610b6927fbb2199dead",
+      "infection_status": "unreported",
+      "infection_subject": "unreported",
+      "infection_evidence": [],
+      "primary_oviposition_choice": false,
+      "between_milkweed_species": false,
+      "choosing_adult_female": false,
+      "design_evidence": [],
+      "experiment_id": null,
+      "same_experiment_comparison": false,
+      "compared_infection_groups": [],
+      "comparison_evidence": [],
+      "direction_supported": false,
+      "decision": "exclude",
+      "note": "The adult oviposition claim is attributed to references 78 and 111. The present source directly studied larval development on A. sericifera; it does not supply a primary female species-choice experiment or choosing-female infection status.",
+      "reason_codes": [
+        "secondary_host_range_oviposition_statement"
+      ],
+      "context_expansions": [],
+      "validated_annotation": {
+        "infection_status": "unreported",
+        "infection_subject": "unreported",
+        "infection_evidence": [],
+        "primary_oviposition_choice": false,
+        "between_milkweed_species": false,
+        "choosing_adult_female": false,
+        "design_evidence": [],
+        "experiment_id": null,
+        "same_experiment_comparison": false,
+        "compared_infection_groups": [],
+        "comparison_evidence": [],
+        "direction_supported": false,
+        "infection_status_provenance": "explicit_manual_source_review",
+        "source_design_eligible": false,
+        "focal_eligible": false,
+        "infection_comparison_eligible": false,
+        "infection_flags": [
+          "choosing_female_infection_unreported",
+          "focal_species_choice_design_not_established",
+          "infected_uninfected_comparison_not_established"
+        ]
+      },
+      "context_expansion_ids": [],
+      "semantic_review_version": "monarch_explicit_infection_review_v1"
+    }
+  ],
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+    "original_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 3390,
+        "private_utf8_byte_end": 3637,
+        "encoded_span_sha256": "ccb7e88d67450d1f7f156adc3d9dfae67e6dd2d5b1425db3e8bc879fe7e42d06",
+        "value_utf8_sha256": "a096882f6c4f0519e48510d074cdc5f1a97b021c940f8565fbe60e6b9306fd20",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b007",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "f93384c2bcbff1cdc245e790f9965912cfda73ca974af6ced596a4d656c53ef3",
+            "block_utf8_byte_start": 189,
+            "block_utf8_byte_end": 430,
+            "span_sha256": "a096882f6c4f0519e48510d074cdc5f1a97b021c940f8565fbe60e6b9306fd20",
+            "source_words": 39,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 4925,
+        "private_utf8_byte_end": 5172,
+        "encoded_span_sha256": "ccb7e88d67450d1f7f156adc3d9dfae67e6dd2d5b1425db3e8bc879fe7e42d06",
+        "value_utf8_sha256": "a096882f6c4f0519e48510d074cdc5f1a97b021c940f8565fbe60e6b9306fd20",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b007",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "f93384c2bcbff1cdc245e790f9965912cfda73ca974af6ced596a4d656c53ef3",
+            "block_utf8_byte_start": 189,
+            "block_utf8_byte_end": 430,
+            "span_sha256": "a096882f6c4f0519e48510d074cdc5f1a97b021c940f8565fbe60e6b9306fd20",
+            "source_words": 39,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00002",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 5581,
+        "private_utf8_byte_end": 5922,
+        "encoded_span_sha256": "0e876c9cdb258ca6d03617350c1f1260c676d1bd64e4708e6792881333c5d9cc",
+        "value_utf8_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1261,
+            "block_utf8_byte_end": 1595,
+            "span_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+            "source_words": 61,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00003",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 6177,
+        "private_utf8_byte_end": 6326,
+        "encoded_span_sha256": "9860e1b2c2c8e15cc9bd512e54ee9a8780cd94959ac3795c8bef268d47968c18",
+        "value_utf8_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 2048,
+            "block_utf8_byte_end": 2193,
+            "span_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+            "source_words": 28,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00004",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 6829,
+        "private_utf8_byte_end": 6972,
+        "encoded_span_sha256": "7797f96684d5ac7cc1d6f537852630d6d1c2a24639c9a1a64938a0d85291a802",
+        "value_utf8_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1790,
+            "block_utf8_byte_end": 1929,
+            "span_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+            "source_words": 21,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00005",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 7227,
+        "private_utf8_byte_end": 7419,
+        "encoded_span_sha256": "4d0aa9afdfe0be57bc1a144acc9d471149915fc65946f18ccfd5dc31787227d7",
+        "value_utf8_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "block_utf8_byte_start": 418,
+            "block_utf8_byte_end": 607,
+            "span_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+            "source_words": 31,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00006",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "validated_annotation",
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 8266,
+        "private_utf8_byte_end": 8513,
+        "encoded_span_sha256": "ccb7e88d67450d1f7f156adc3d9dfae67e6dd2d5b1425db3e8bc879fe7e42d06",
+        "value_utf8_sha256": "a096882f6c4f0519e48510d074cdc5f1a97b021c940f8565fbe60e6b9306fd20",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b007",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "f93384c2bcbff1cdc245e790f9965912cfda73ca974af6ced596a4d656c53ef3",
+            "block_utf8_byte_start": 189,
+            "block_utf8_byte_end": 430,
+            "span_sha256": "a096882f6c4f0519e48510d074cdc5f1a97b021c940f8565fbe60e6b9306fd20",
+            "source_words": 39,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00007",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "validated_annotation",
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 9194,
+        "private_utf8_byte_end": 9535,
+        "encoded_span_sha256": "0e876c9cdb258ca6d03617350c1f1260c676d1bd64e4708e6792881333c5d9cc",
+        "value_utf8_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1261,
+            "block_utf8_byte_end": 1595,
+            "span_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+            "source_words": 61,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00008",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "validated_annotation",
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 10054,
+        "private_utf8_byte_end": 10203,
+        "encoded_span_sha256": "9860e1b2c2c8e15cc9bd512e54ee9a8780cd94959ac3795c8bef268d47968c18",
+        "value_utf8_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 2048,
+            "block_utf8_byte_end": 2193,
+            "span_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+            "source_words": 28,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00009",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "validated_annotation",
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 10986,
+        "private_utf8_byte_end": 11129,
+        "encoded_span_sha256": "7797f96684d5ac7cc1d6f537852630d6d1c2a24639c9a1a64938a0d85291a802",
+        "value_utf8_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1790,
+            "block_utf8_byte_end": 1929,
+            "span_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+            "source_words": 21,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00010",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "validated_annotation",
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 11648,
+        "private_utf8_byte_end": 11840,
+        "encoded_span_sha256": "4d0aa9afdfe0be57bc1a144acc9d471149915fc65946f18ccfd5dc31787227d7",
+        "value_utf8_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "block_utf8_byte_start": 418,
+            "block_utf8_byte_end": 607,
+            "span_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+            "source_words": 31,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00011",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "taxonomy_query",
+          "evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 13020,
+        "private_utf8_byte_end": 13453,
+        "encoded_span_sha256": "3b2875e2146eeea9f15ab831ceccd0625efd6ac9d0b7b39bac5ed9ae30675cfa",
+        "value_utf8_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 425,
+            "span_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "source_words": 62,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00012",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          0,
+          "validated_taxonomy_query",
+          "taxonomy_query_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 14092,
+        "private_utf8_byte_end": 14525,
+        "encoded_span_sha256": "3b2875e2146eeea9f15ab831ceccd0625efd6ac9d0b7b39bac5ed9ae30675cfa",
+        "value_utf8_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 425,
+            "span_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "source_words": 62,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00013",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 15601,
+        "private_utf8_byte_end": 15875,
+        "encoded_span_sha256": "6135d6151c7c6f79f77a179183d53af960152820f4481a9fb7a32cc1dfc00385",
+        "value_utf8_sha256": "f227a9761cc68712c6073964ab72241ac3fb884e66b79714941ecc38442b98e7",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b010",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "1c842935d10e74447411048ebe155989f50c359e47fd3a8896e5a0d514f8ed5b",
+            "block_utf8_byte_start": 1296,
+            "block_utf8_byte_end": 1563,
+            "span_sha256": "f227a9761cc68712c6073964ab72241ac3fb884e66b79714941ecc38442b98e7",
+            "source_words": 45,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00014",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 17169,
+        "private_utf8_byte_end": 17443,
+        "encoded_span_sha256": "6135d6151c7c6f79f77a179183d53af960152820f4481a9fb7a32cc1dfc00385",
+        "value_utf8_sha256": "f227a9761cc68712c6073964ab72241ac3fb884e66b79714941ecc38442b98e7",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b010",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "1c842935d10e74447411048ebe155989f50c359e47fd3a8896e5a0d514f8ed5b",
+            "block_utf8_byte_start": 1296,
+            "block_utf8_byte_end": 1563,
+            "span_sha256": "f227a9761cc68712c6073964ab72241ac3fb884e66b79714941ecc38442b98e7",
+            "source_words": 45,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00015",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 17852,
+        "private_utf8_byte_end": 18193,
+        "encoded_span_sha256": "0e876c9cdb258ca6d03617350c1f1260c676d1bd64e4708e6792881333c5d9cc",
+        "value_utf8_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1261,
+            "block_utf8_byte_end": 1595,
+            "span_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+            "source_words": 61,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00016",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 18448,
+        "private_utf8_byte_end": 18597,
+        "encoded_span_sha256": "9860e1b2c2c8e15cc9bd512e54ee9a8780cd94959ac3795c8bef268d47968c18",
+        "value_utf8_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 2048,
+            "block_utf8_byte_end": 2193,
+            "span_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+            "source_words": 28,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00017",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 19100,
+        "private_utf8_byte_end": 19243,
+        "encoded_span_sha256": "7797f96684d5ac7cc1d6f537852630d6d1c2a24639c9a1a64938a0d85291a802",
+        "value_utf8_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1790,
+            "block_utf8_byte_end": 1929,
+            "span_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+            "source_words": 21,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00018",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 19498,
+        "private_utf8_byte_end": 19690,
+        "encoded_span_sha256": "4d0aa9afdfe0be57bc1a144acc9d471149915fc65946f18ccfd5dc31787227d7",
+        "value_utf8_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "block_utf8_byte_start": 418,
+            "block_utf8_byte_end": 607,
+            "span_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+            "source_words": 31,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00019",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "validated_annotation",
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 20535,
+        "private_utf8_byte_end": 20809,
+        "encoded_span_sha256": "6135d6151c7c6f79f77a179183d53af960152820f4481a9fb7a32cc1dfc00385",
+        "value_utf8_sha256": "f227a9761cc68712c6073964ab72241ac3fb884e66b79714941ecc38442b98e7",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p06:b010",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "1c842935d10e74447411048ebe155989f50c359e47fd3a8896e5a0d514f8ed5b",
+            "block_utf8_byte_start": 1296,
+            "block_utf8_byte_end": 1563,
+            "span_sha256": "f227a9761cc68712c6073964ab72241ac3fb884e66b79714941ecc38442b98e7",
+            "source_words": 45,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00020",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "validated_annotation",
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 21492,
+        "private_utf8_byte_end": 21833,
+        "encoded_span_sha256": "0e876c9cdb258ca6d03617350c1f1260c676d1bd64e4708e6792881333c5d9cc",
+        "value_utf8_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1261,
+            "block_utf8_byte_end": 1595,
+            "span_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+            "source_words": 61,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00021",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "validated_annotation",
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 22352,
+        "private_utf8_byte_end": 22501,
+        "encoded_span_sha256": "9860e1b2c2c8e15cc9bd512e54ee9a8780cd94959ac3795c8bef268d47968c18",
+        "value_utf8_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 2048,
+            "block_utf8_byte_end": 2193,
+            "span_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+            "source_words": 28,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00022",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "validated_annotation",
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 23284,
+        "private_utf8_byte_end": 23427,
+        "encoded_span_sha256": "7797f96684d5ac7cc1d6f537852630d6d1c2a24639c9a1a64938a0d85291a802",
+        "value_utf8_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1790,
+            "block_utf8_byte_end": 1929,
+            "span_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+            "source_words": 21,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00023",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "validated_annotation",
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 23946,
+        "private_utf8_byte_end": 24138,
+        "encoded_span_sha256": "4d0aa9afdfe0be57bc1a144acc9d471149915fc65946f18ccfd5dc31787227d7",
+        "value_utf8_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "block_utf8_byte_start": 418,
+            "block_utf8_byte_end": 607,
+            "span_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+            "source_words": 31,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00024",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "taxonomy_query",
+          "evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 25318,
+        "private_utf8_byte_end": 25751,
+        "encoded_span_sha256": "3b2875e2146eeea9f15ab831ceccd0625efd6ac9d0b7b39bac5ed9ae30675cfa",
+        "value_utf8_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 425,
+            "span_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "source_words": 62,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00025",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          1,
+          "validated_taxonomy_query",
+          "taxonomy_query_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 26390,
+        "private_utf8_byte_end": 26823,
+        "encoded_span_sha256": "3b2875e2146eeea9f15ab831ceccd0625efd6ac9d0b7b39bac5ed9ae30675cfa",
+        "value_utf8_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 425,
+            "span_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "source_words": 62,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00026",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 27862,
+        "private_utf8_byte_end": 28082,
+        "encoded_span_sha256": "44430fbf818b1db1097fba516f8205fb32585e21b89474b1273549b10495f7d9",
+        "value_utf8_sha256": "4d26d37f7232f5fd4c82b61e664f250d3aa1b395ea2028fa33e579e1f61d0f17",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p07:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "f2a82cb8720e9b2c8cf632fc97ccf147f328676ac91453a78b3b83de623e8e15",
+            "block_utf8_byte_start": 115,
+            "block_utf8_byte_end": 330,
+            "span_sha256": "4d26d37f7232f5fd4c82b61e664f250d3aa1b395ea2028fa33e579e1f61d0f17",
+            "source_words": 34,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00027",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 29365,
+        "private_utf8_byte_end": 29585,
+        "encoded_span_sha256": "44430fbf818b1db1097fba516f8205fb32585e21b89474b1273549b10495f7d9",
+        "value_utf8_sha256": "4d26d37f7232f5fd4c82b61e664f250d3aa1b395ea2028fa33e579e1f61d0f17",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p07:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "f2a82cb8720e9b2c8cf632fc97ccf147f328676ac91453a78b3b83de623e8e15",
+            "block_utf8_byte_start": 115,
+            "block_utf8_byte_end": 330,
+            "span_sha256": "4d26d37f7232f5fd4c82b61e664f250d3aa1b395ea2028fa33e579e1f61d0f17",
+            "source_words": 34,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00028",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 29994,
+        "private_utf8_byte_end": 30335,
+        "encoded_span_sha256": "0e876c9cdb258ca6d03617350c1f1260c676d1bd64e4708e6792881333c5d9cc",
+        "value_utf8_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1261,
+            "block_utf8_byte_end": 1595,
+            "span_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+            "source_words": 61,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00029",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 30590,
+        "private_utf8_byte_end": 30739,
+        "encoded_span_sha256": "9860e1b2c2c8e15cc9bd512e54ee9a8780cd94959ac3795c8bef268d47968c18",
+        "value_utf8_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 2048,
+            "block_utf8_byte_end": 2193,
+            "span_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+            "source_words": 28,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00030",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 31242,
+        "private_utf8_byte_end": 31385,
+        "encoded_span_sha256": "7797f96684d5ac7cc1d6f537852630d6d1c2a24639c9a1a64938a0d85291a802",
+        "value_utf8_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1790,
+            "block_utf8_byte_end": 1929,
+            "span_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+            "source_words": 21,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00031",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 31640,
+        "private_utf8_byte_end": 31832,
+        "encoded_span_sha256": "4d0aa9afdfe0be57bc1a144acc9d471149915fc65946f18ccfd5dc31787227d7",
+        "value_utf8_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "block_utf8_byte_start": 418,
+            "block_utf8_byte_end": 607,
+            "span_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+            "source_words": 31,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00032",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "validated_annotation",
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 32675,
+        "private_utf8_byte_end": 32895,
+        "encoded_span_sha256": "44430fbf818b1db1097fba516f8205fb32585e21b89474b1273549b10495f7d9",
+        "value_utf8_sha256": "4d26d37f7232f5fd4c82b61e664f250d3aa1b395ea2028fa33e579e1f61d0f17",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p07:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "f2a82cb8720e9b2c8cf632fc97ccf147f328676ac91453a78b3b83de623e8e15",
+            "block_utf8_byte_start": 115,
+            "block_utf8_byte_end": 330,
+            "span_sha256": "4d26d37f7232f5fd4c82b61e664f250d3aa1b395ea2028fa33e579e1f61d0f17",
+            "source_words": 34,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00033",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "validated_annotation",
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 33576,
+        "private_utf8_byte_end": 33917,
+        "encoded_span_sha256": "0e876c9cdb258ca6d03617350c1f1260c676d1bd64e4708e6792881333c5d9cc",
+        "value_utf8_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1261,
+            "block_utf8_byte_end": 1595,
+            "span_sha256": "190aead64db61b5b1d426ae20b4c1706e7e9b751ee11c7d7e169351c2a7b8424",
+            "source_words": 61,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00034",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "validated_annotation",
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 34436,
+        "private_utf8_byte_end": 34585,
+        "encoded_span_sha256": "9860e1b2c2c8e15cc9bd512e54ee9a8780cd94959ac3795c8bef268d47968c18",
+        "value_utf8_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 2048,
+            "block_utf8_byte_end": 2193,
+            "span_sha256": "9f2fe87ae0af5d56fb06002a6b290b714e7e4e97f97f1378b1b5f78750282aec",
+            "source_words": 28,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00035",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "validated_annotation",
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 35368,
+        "private_utf8_byte_end": 35511,
+        "encoded_span_sha256": "7797f96684d5ac7cc1d6f537852630d6d1c2a24639c9a1a64938a0d85291a802",
+        "value_utf8_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p03:b004",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "bd9f826c7b579bf598c835daf88bf24b00ba2c85468e29ea14e640ed66ea6aab",
+            "block_utf8_byte_start": 1790,
+            "block_utf8_byte_end": 1929,
+            "span_sha256": "2b3f7c337c5a1b89ad70a2ea3f37f1d5426537c42ff7e45cf95cad142cdd13d4",
+            "source_words": 21,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00036",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "validated_annotation",
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 36030,
+        "private_utf8_byte_end": 36222,
+        "encoded_span_sha256": "4d0aa9afdfe0be57bc1a144acc9d471149915fc65946f18ccfd5dc31787227d7",
+        "value_utf8_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p04:b042",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "5c5eb19a714baa74fa4ef0c41f53d87a64a2532d773294f78933bb8158001f59",
+            "block_utf8_byte_start": 418,
+            "block_utf8_byte_end": 607,
+            "span_sha256": "f311baf298db78b61a6fe6afabeeed11dd2ce57415c4789d8e364866ac3e66e2",
+            "source_words": 31,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00037",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "taxonomy_query",
+          "evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 37400,
+        "private_utf8_byte_end": 37833,
+        "encoded_span_sha256": "3b2875e2146eeea9f15ab831ceccd0625efd6ac9d0b7b39bac5ed9ae30675cfa",
+        "value_utf8_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 425,
+            "span_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "source_words": 62,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00038",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          2,
+          "validated_taxonomy_query",
+          "taxonomy_query_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 38470,
+        "private_utf8_byte_end": 38903,
+        "encoded_span_sha256": "3b2875e2146eeea9f15ab831ceccd0625efd6ac9d0b7b39bac5ed9ae30675cfa",
+        "value_utf8_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+        "source_ids": [
+          "LEFEVRE2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p05:b019",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 425,
+            "span_sha256": "54ea3a6f3b4763dfb8e5a0600eb08c4ddf974b03fb6d44ce72d648ab3f6edea6",
+            "source_words": 62,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00039",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 39999,
+        "private_utf8_byte_end": 40143,
+        "encoded_span_sha256": "f13e03d6d4d882adbd653bbf8bd2d2162e91f60798b5d4f41537a6d95e21c21d",
+        "value_utf8_sha256": "b9782413bb33184453c73c14f57f42f3f71588cbfc765493909ca025cad4790f",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b002",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "01a9226c97770b25707451cdd59c243d389e9bc423819a91cbf37eb4b742a549",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 141,
+            "span_sha256": "7d03696b8c3af2a50ddaeae9c70827ba845f18f547b1d796992c7b7163d2778f",
+            "source_words": 19,
+            "kind": "pdf_text_block"
+          },
+          {
+            "source_id": "LEFEVRE2010",
+            "block_id": "pdf:p08:b001",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2010.json",
+            "source_file_sha256": "3cacd9de4037768fd028d25eee90c9291c182e2a287e09208012dfa737ada374",
+            "block_text_sha256": "fb356fd3e5c3c6240ccf95245ae5da5049a7e251eb7f50cf3fe22929b7038924",
+            "block_utf8_byte_start": 679,
+            "block_utf8_byte_end": 729,
+            "span_sha256": "cd164441034be545daad8af1774b5b9e57bf3dad5d0b4426b34bc225fc008c9a",
+            "source_words": 7,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00040",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 41455,
+        "private_utf8_byte_end": 41531,
+        "encoded_span_sha256": "3c503da38650a00c0144b837ddc11538af76dc94a23a45a8f583b0ac219ef388",
+        "value_utf8_sha256": "e1c54a6c465103e86943a7555c12837e0a5310cb83199057d849b3d5dc061583",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b002",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "01a9226c97770b25707451cdd59c243d389e9bc423819a91cbf37eb4b742a549",
+            "block_utf8_byte_start": 69,
+            "block_utf8_byte_end": 142,
+            "span_sha256": "e1c54a6c465103e86943a7555c12837e0a5310cb83199057d849b3d5dc061583",
+            "source_words": 10,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00041",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 41940,
+        "private_utf8_byte_end": 42088,
+        "encoded_span_sha256": "14ece80c32dceaf82bf6e30650a37aceed3f2049e9677d45834055b2af1d4f15",
+        "value_utf8_sha256": "eff9a6759e9d8bdb7d796f64fca86a4a7db8ccbfd073141d92dd750d71e82dba",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 144,
+            "span_sha256": "eff9a6759e9d8bdb7d796f64fca86a4a7db8ccbfd073141d92dd750d71e82dba",
+            "source_words": 20,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00042",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 42343,
+        "private_utf8_byte_end": 42538,
+        "encoded_span_sha256": "38a1e76f4e8ac995b621227d4c4733ace7bf5d6eb2dc4f85220ce24dbaba95d5",
+        "value_utf8_sha256": "13d47aca84b5558c623b5ed7a2659cfe32260097d436989f8923245cf55b6b90",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "block_utf8_byte_start": 1651,
+            "block_utf8_byte_end": 1842,
+            "span_sha256": "13d47aca84b5558c623b5ed7a2659cfe32260097d436989f8923245cf55b6b90",
+            "source_words": 36,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00043",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 43047,
+        "private_utf8_byte_end": 43150,
+        "encoded_span_sha256": "ed0b7138de6aa2611eba15f98817bf4930e39adf2e43342a9f609d7155bf55b0",
+        "value_utf8_sha256": "c8d2ac10ce37d801fa7f3051de3313c31d243a996b08e44ae18f2cdec3dab02b",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "block_utf8_byte_start": 1188,
+            "block_utf8_byte_end": 1288,
+            "span_sha256": "c8d2ac10ce37d801fa7f3051de3313c31d243a996b08e44ae18f2cdec3dab02b",
+            "source_words": 19,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00044",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 43405,
+        "private_utf8_byte_end": 43542,
+        "encoded_span_sha256": "b6b307111845841138297f33daff8db9ba6e72a6d1eaab75ead0fdf462c4d82d",
+        "value_utf8_sha256": "69361079ac7d19b6e4fbc2e1e1718f8c4d3f1217c2a4116043d22555a757b10e",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b001",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "block_utf8_byte_start": 174,
+            "block_utf8_byte_end": 307,
+            "span_sha256": "69361079ac7d19b6e4fbc2e1e1718f8c4d3f1217c2a4116043d22555a757b10e",
+            "source_words": 22,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00045",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "validated_annotation",
+          "infection_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 44512,
+        "private_utf8_byte_end": 44588,
+        "encoded_span_sha256": "3c503da38650a00c0144b837ddc11538af76dc94a23a45a8f583b0ac219ef388",
+        "value_utf8_sha256": "e1c54a6c465103e86943a7555c12837e0a5310cb83199057d849b3d5dc061583",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b002",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "01a9226c97770b25707451cdd59c243d389e9bc423819a91cbf37eb4b742a549",
+            "block_utf8_byte_start": 69,
+            "block_utf8_byte_end": 142,
+            "span_sha256": "e1c54a6c465103e86943a7555c12837e0a5310cb83199057d849b3d5dc061583",
+            "source_words": 10,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00046",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "validated_annotation",
+          "design_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 45268,
+        "private_utf8_byte_end": 45416,
+        "encoded_span_sha256": "14ece80c32dceaf82bf6e30650a37aceed3f2049e9677d45834055b2af1d4f15",
+        "value_utf8_sha256": "eff9a6759e9d8bdb7d796f64fca86a4a7db8ccbfd073141d92dd750d71e82dba",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 144,
+            "span_sha256": "eff9a6759e9d8bdb7d796f64fca86a4a7db8ccbfd073141d92dd750d71e82dba",
+            "source_words": 20,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00047",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "validated_annotation",
+          "design_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 45931,
+        "private_utf8_byte_end": 46126,
+        "encoded_span_sha256": "38a1e76f4e8ac995b621227d4c4733ace7bf5d6eb2dc4f85220ce24dbaba95d5",
+        "value_utf8_sha256": "13d47aca84b5558c623b5ed7a2659cfe32260097d436989f8923245cf55b6b90",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "block_utf8_byte_start": 1651,
+            "block_utf8_byte_end": 1842,
+            "span_sha256": "13d47aca84b5558c623b5ed7a2659cfe32260097d436989f8923245cf55b6b90",
+            "source_words": 36,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00048",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "validated_annotation",
+          "comparison_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 46915,
+        "private_utf8_byte_end": 47018,
+        "encoded_span_sha256": "ed0b7138de6aa2611eba15f98817bf4930e39adf2e43342a9f609d7155bf55b0",
+        "value_utf8_sha256": "c8d2ac10ce37d801fa7f3051de3313c31d243a996b08e44ae18f2cdec3dab02b",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p05:b006",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "4ade997a59d45a4274a0716bb4766b389a1ccb9dceae4dc5d6bd353a1c29f45f",
+            "block_utf8_byte_start": 1188,
+            "block_utf8_byte_end": 1288,
+            "span_sha256": "c8d2ac10ce37d801fa7f3051de3313c31d243a996b08e44ae18f2cdec3dab02b",
+            "source_words": 19,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00049",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "validated_annotation",
+          "comparison_evidence",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 47537,
+        "private_utf8_byte_end": 47674,
+        "encoded_span_sha256": "b6b307111845841138297f33daff8db9ba6e72a6d1eaab75ead0fdf462c4d82d",
+        "value_utf8_sha256": "69361079ac7d19b6e4fbc2e1e1718f8c4d3f1217c2a4116043d22555a757b10e",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b001",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "block_utf8_byte_start": 174,
+            "block_utf8_byte_end": 307,
+            "span_sha256": "69361079ac7d19b6e4fbc2e1e1718f8c4d3f1217c2a4116043d22555a757b10e",
+            "source_words": 22,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00050",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "taxonomy_query",
+          "evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 48854,
+        "private_utf8_byte_end": 49167,
+        "encoded_span_sha256": "79906574198980c40e1a4938aed5018947dddad0692de192c76db9a12b54f595",
+        "value_utf8_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b001",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 307,
+            "span_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "source_words": 45,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00051",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          3,
+          "validated_taxonomy_query",
+          "taxonomy_query_evidence",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 49806,
+        "private_utf8_byte_end": 50119,
+        "encoded_span_sha256": "79906574198980c40e1a4938aed5018947dddad0692de192c76db9a12b54f595",
+        "value_utf8_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+        "source_ids": [
+          "LEFEVRE2012"
+        ],
+        "source_spans": [
+          {
+            "source_id": "LEFEVRE2012",
+            "block_id": "pdf:p07:b001",
+            "private_source_path": "data/interim/systems/monarch_seeded/corpus/texts/LEFEVRE2012.json",
+            "source_file_sha256": "edc0e0a0ea09b60807a41195cfab9457e09133c76f35481332a939389b20becb",
+            "block_text_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "block_utf8_byte_start": 0,
+            "block_utf8_byte_end": 307,
+            "span_sha256": "5fbf068a0d3cf30985cc2658774342f037fd5622c0bc2fca1dc52d166c7cad75",
+            "source_words": 45,
+            "kind": "pdf_text_block"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00052",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          4,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 51186,
+        "private_utf8_byte_end": 51348,
+        "encoded_span_sha256": "9cc0a8f6e694786577adccc1475f3027421f2347aa99d807db7badd9aac4d3f3",
+        "value_utf8_sha256": "17f9793045fd2642694a083e752ba17aff2bb35c67f6690b8bb02a2b9c059c20",
+        "source_ids": [
+          "PMC12585044"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "4da05d91d25ea8b007c6c444abf130db432e54700533a9e5bb04a80bbfd7f2a6",
+            "block_utf8_byte_start": 170,
+            "block_utf8_byte_end": 330,
+            "span_sha256": "17f9793045fd2642694a083e752ba17aff2bb35c67f6690b8bb02a2b9c059c20",
+            "source_words": 23,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00053",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          5,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 54856,
+        "private_utf8_byte_end": 55142,
+        "encoded_span_sha256": "ba1b42c5a472225aa2539193415db24647fb2c2ff0e58fa62d3fee4691cbf434",
+        "value_utf8_sha256": "cf47fd45d7ad1f649cdb9263c9edab0c0531d73c7dbc88cdac73a5c229e0e63b",
+        "source_ids": [
+          "PMC12585044"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC12585044",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC12585044.json",
+            "source_file_sha256": "e4245ebad754b2c99ddb4b372df93cbf54d254f7e8336692cc2b8cf302065c3c",
+            "block_text_sha256": "4da05d91d25ea8b007c6c444abf130db432e54700533a9e5bb04a80bbfd7f2a6",
+            "block_utf8_byte_start": 601,
+            "block_utf8_byte_end": 885,
+            "span_sha256": "cf47fd45d7ad1f649cdb9263c9edab0c0531d73c7dbc88cdac73a5c229e0e63b",
+            "source_words": 33,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00054",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          6,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 58689,
+        "private_utf8_byte_end": 58946,
+        "encoded_span_sha256": "f7af21d2c1159afa3839ff59f927ab47d017080c163b4a5b6bcc3e4641cefc94",
+        "value_utf8_sha256": "c8e736f02f4fbc92aabdb08a8c8514844aafe6302f69cd7af25e1d854664007d",
+        "source_ids": [
+          "PMC10370756"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10370756",
+            "block_id": "b00000",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10370756.json",
+            "source_file_sha256": "1bfad74be23588151c2a2971c4a63cd5384fc37823ed254dd3d9c797d62f8d50",
+            "block_text_sha256": "1e7894844393d82e2ba8e0277cd44af418fe13e5614aac4bf95471f744196500",
+            "block_utf8_byte_start": 628,
+            "block_utf8_byte_end": 883,
+            "span_sha256": "c8e736f02f4fbc92aabdb08a8c8514844aafe6302f69cd7af25e1d854664007d",
+            "source_words": 35,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00055",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          7,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 62467,
+        "private_utf8_byte_end": 62683,
+        "encoded_span_sha256": "c451f05bfde87ba0ac7313637183a9f7f6ddbef5f9e0fed4455d856c4994bbd3",
+        "value_utf8_sha256": "968b93e0273693c51fafe5977ed026515b3d13194692150a04807dab87bcfc03",
+        "source_ids": [
+          "PMC10430791"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC10430791",
+            "block_id": "b00000",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC10430791.json",
+            "source_file_sha256": "3480bb41037320288de7a91ee6cfd7550b43ffc85c781f5b7fe63e1ad035b74c",
+            "block_text_sha256": "04ec6274830667318127dd250c7a65ae15b5ac957eef0de7dc4a24cc9815a48e",
+            "block_utf8_byte_start": 584,
+            "block_utf8_byte_end": 798,
+            "span_sha256": "968b93e0273693c51fafe5977ed026515b3d13194692150a04807dab87bcfc03",
+            "source_words": 31,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00056",
+        "private_path": "data/interim/publication_safety/originals/results/systems/monarch_seeded/semantic_review.json",
+        "private_file_sha256": "03db702a90a9602f7905809331d0a5248ecd62a9cc69901a39e327e2534baec0",
+        "json_path": [
+          "decisions",
+          8,
+          "raw_model_record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 66230,
+        "private_utf8_byte_end": 66418,
+        "encoded_span_sha256": "ab1c15b873d82f0df9cfbadc555d7e1b5e88d0bf3c03ef08b7e5558325c39c3c",
+        "value_utf8_sha256": "d8a2e82e83ba52af2fa24172c17d13748e5bdfa4d97f03460984f83aa87ff376",
+        "source_ids": [
+          "PMC9197062"
+        ],
+        "source_spans": [
+          {
+            "source_id": "PMC9197062",
+            "block_id": "b00042",
+            "private_source_path": "data/interim/systems/monarch/corpus/texts/PMC9197062.json",
+            "source_file_sha256": "054c2269ab3d427b604d8d100fd218fcd94d041e28e01f71f2277f503aa0d3ad",
+            "block_text_sha256": "3d9d5a2ce01504f47f1d3ff4b8113d0700cae42392027af21a2e0a134bad830e",
+            "block_utf8_byte_start": 119,
+            "block_utf8_byte_end": 305,
+            "span_sha256": "d8a2e82e83ba52af2fa24172c17d13748e5bdfa4d97f03460984f83aa87ff376",
+            "source_words": 30,
+            "kind": "p"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
+}

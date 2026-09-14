@@ -1,0 +1,71 @@
+{
+  "status": "passed_with_declared_source_gaps",
+  "data_replay": {
+    "matched": true,
+    "files_compared": 30,
+    "sha256": {
+      "results/saverschek_audit/extraction_candidate_audit.csv": "6133882e3833bcee7e3a1d0c94411ea9e7becec80bc5d054e4ce9f7736c20d80",
+      "results/saverschek_audit/table1_provisional_transcription.csv": "d33ae9231766f48d39f588b2ed7fd77db23a5c912050e68605075171e47b4579",
+      "results/saverschek_audit/taxonomy_matched_directional.csv": "5fcc2fcdb4809cf48da5e708723f2943c5a3663ecd024d60e0215840a6efc5fb",
+      "results/saverschek_audit/report_content.json": "26e54a565b5ccc173c6e04866d1f53f80692f4ddf1391135d37f5da2d7d6db34",
+      "results/saverschek_audit/combined_contextual_observations.jsonl": "d3f46032a30694cb7db0946eb6cab9565089206740e0c58232fcad5d00689f32",
+      "results/saverschek_audit/summary.json": "b029924d72026f5629a271f647e7aa4e11aa5330b77b9ab072a4aa30bc005ded",
+      "results/saverschek_audit/curated_directional_observations.csv": "fcfef9687528a8cffb9c3955c05aaafe663f011822e197d4939370d4505b4731",
+      "results/saverschek_audit/taxonomy_matched_directional.jsonl": "5600dd5af9bf24d9b1fcb7b20493ccee4835491de1410a45235d113082dd5e5a",
+      "results/saverschek_audit/source_genus_audit.jsonl": "67a4c78875119c19bca77b6c469107267aa5cb70864ed28d062c7f5f3d92c672",
+      "results/saverschek_audit/behavior_matrix.svg": "6964ab5b502a6bad71efce62c5a0c12b658d39f6ef45a95f80889c2ef4af4db2",
+      "results/saverschek_audit/behavior_matrix.png": "0f171533958e4549dac5135630a8bc90d6441d1d6bf3690c5d1162455a2fc2a5",
+      "results/saverschek_audit/evidence_anchors.json": "3b9d28a3762190529b718de6d9fbd308bbb8d9f0a052c9b5a9c11da9c4fcc5ae",
+      "results/saverschek_audit/combined_genus_eligible_observations.jsonl": "8c6c344f5292591e4694e3ec1ba902bf53f47f64719cc12cd599021d6366765f",
+      "results/saverschek_audit/manipulation_phases.jsonl": "c2e8ef893f05696e8f619bd0f820a12d8833be68fb7857c139c0e52b6e140beb",
+      "results/saverschek_audit/study_report.md": "1cc6ea9474efcdf8a147f153df683095853ed5c4a219e47641b01817a3956c10",
+      "results/saverschek_audit/combined_conflict_hold.csv": "14208871795ae52a831a81cab410d502ef2ccd7ec1d81db9c5e3d357c8d12217",
+      "results/saverschek_audit/combined_genera.csv": "2cb2e78d44988eadbc3c7193f10dacf5989f0d3a660ae7f957cde5875ecc86d8",
+      "results/saverschek_audit/curated_directional_observations.jsonl": "b0b37dbd5535aee76ab6915f5a93e854c6be83637047cdb8f80a333636e82406",
+      "results/saverschek_audit/natural_contexts.jsonl": "3ab5923fae44b2ef7e7fe68cb357dfa949ae3b8e0618ee7603bc4e06b37d5ac2",
+      "results/saverschek_audit/source_genus_audit.csv": "0a774442772c4e35f2faf35cadc8bf345574ed8470d51bf4bbf71b760f94aa2f",
+      "results/saverschek_audit/natural_contexts.csv": "891e4cba2b790d988d6e990dfca16a6bbccc5879451a44eb7dfbe4e2086bb4ba",
+      "results/saverschek_audit/combined_conflict_hold.jsonl": "4c4124f2447907f33e2b45419644d262a0334b126d928124e30679fe70cb11db",
+      "results/saverschek_audit/sensitivity_counts.csv": "5a93303d543aef65f59e36e8fcdf4d6a5194f3a5a7fd82fee40ea03ec5502b79",
+      "results/saverschek_audit/table1_provisional_transcription.jsonl": "0d05dc82dfe9bb96086fefe4161ea7698302d41dfede621490fe7621f6a62f0e",
+      "results/saverschek_audit/manipulation_phases.csv": "42ed2fb1898e1be02c4da82ad544118b680f9fc14264c3bf0c39e333a7c491a8",
+      "results/saverschek_audit/combined_contextual_observations.csv": "c5ff4fb6081a7a0989f111a3a11789254eca3045e3f984b99b4b25e950ac7cfa",
+      "results/saverschek_audit/extraction_candidate_audit.jsonl": "245185ca3884499bdd8af5c6dd9362757e3ec30d99387991242452ddb9fba19f",
+      "results/saverschek_audit/combined_genus_eligible_observations.csv": "e7574de629ea317868c23733220be3355d7d8ff92fe8edf3c71b6a1e09036669",
+      "results/saverschek_audit/combined_genera.jsonl": "38c33c7bf3e5a15f5e429010a4f4aab2e5e485d56b2574800ec95a3ddb2eaa5d",
+      "results/saverschek_audit/sensitivity_counts.jsonl": "eb0a1acf3181fba7266473d62f78e178085d16606f9ac75cf104fab532ed71cf"
+    }
+  },
+  "taxonomy_replay": {
+    "exact_byte_match": true,
+    "files": [
+      "observations.jsonl",
+      "review.jsonl",
+      "metrics.json"
+    ],
+    "matched": 10,
+    "review": 1
+  },
+  "regression_tests": {
+    "command": ".venv/bin/pytest -q tests/test_saverschek_audit.py",
+    "passed": 4,
+    "failed": 0
+  },
+  "lint": {
+    "tool": "ruff",
+    "new_scripts_and_tests": "passed"
+  },
+  "pdf": {
+    "path": "output/pdf/saverschek_behavioral_audit.pdf",
+    "sha256": "44baa0002845fcbb67b0891b02f71cdd17ebf12c98861adc9874e240171a2672",
+    "pages": 8,
+    "all_pages_rendered_and_visually_inspected": true,
+    "layout_defects_found": 0
+  },
+  "source_limitations": {
+    "original_pdf_graphics_verified": false,
+    "unresolved_natural_directions": 23,
+    "visually_verified_table_cells": 0
+  },
+  "audit_scope": "Codex-assisted source audit and data integrity; not blinded human replication or independent reproduction of published statistics"
+}

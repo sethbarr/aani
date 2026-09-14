@@ -1,0 +1,3412 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "blocked_reason": null,
+  "exercise_type": "synthetic algorithm check",
+  "scope": "Invented text under an unrelated source and block identifier; every source hash is bound before matching. This checks the algorithm across C0 codes and adversarial text changes. It provides no evidence from a held-out paper or model sample.",
+  "model_requests": 0,
+  "policy": {
+    "version": "glyph_v4",
+    "model_characters": "non_whitespace_c0",
+    "source_glyphs": [
+      "±",
+      "¼"
+    ],
+    "mapping_scope": "candidate",
+    "alignment": "unique_equal_length"
+  },
+  "implementation": {
+    "path": "src/extraction/adaptive_glyph_grounding.py",
+    "sha256": "297a55e6f461c26c91a9f51dc24a4bcf14de6c67bc40aceef9d605788024b342"
+  },
+  "counts": {
+    "case_count": 91,
+    "expected_accepted": 51,
+    "expected_rejected": 40,
+    "actual_accepted": 51,
+    "actual_rejected": 40,
+    "passed": 91,
+    "failed": 0
+  },
+  "categories": {
+    "ambiguous_alignment": {
+      "case_count": 1,
+      "expected_accepted": 0,
+      "expected_rejected": 1,
+      "actual_accepted": 0,
+      "actual_rejected": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "changed_direction": {
+      "case_count": 1,
+      "expected_accepted": 0,
+      "expected_rejected": 1,
+      "actual_accepted": 0,
+      "actual_rejected": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "changed_length": {
+      "case_count": 2,
+      "expected_accepted": 0,
+      "expected_rejected": 2,
+      "actual_accepted": 0,
+      "actual_rejected": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "changed_number": {
+      "case_count": 1,
+      "expected_accepted": 0,
+      "expected_rejected": 1,
+      "actual_accepted": 0,
+      "actual_rejected": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "changed_sign": {
+      "case_count": 1,
+      "expected_accepted": 0,
+      "expected_rejected": 1,
+      "actual_accepted": 0,
+      "actual_rejected": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "changed_word": {
+      "case_count": 1,
+      "expected_accepted": 0,
+      "expected_rejected": 1,
+      "actual_accepted": 0,
+      "actual_rejected": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "conflicting_mapping": {
+      "case_count": 1,
+      "expected_accepted": 0,
+      "expected_rejected": 1,
+      "actual_accepted": 0,
+      "actual_rejected": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "consistent_mapping": {
+      "case_count": 3,
+      "expected_accepted": 3,
+      "expected_rejected": 0,
+      "actual_accepted": 3,
+      "actual_rejected": 0,
+      "passed": 3,
+      "failed": 0
+    },
+    "disallowed_model_character": {
+      "case_count": 3,
+      "expected_accepted": 0,
+      "expected_rejected": 3,
+      "actual_accepted": 0,
+      "actual_rejected": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "disallowed_target": {
+      "case_count": 5,
+      "expected_accepted": 0,
+      "expected_rejected": 5,
+      "actual_accepted": 0,
+      "actual_rejected": 5,
+      "passed": 5,
+      "failed": 0
+    },
+    "exact_control": {
+      "case_count": 2,
+      "expected_accepted": 2,
+      "expected_rejected": 0,
+      "actual_accepted": 2,
+      "actual_rejected": 0,
+      "passed": 2,
+      "failed": 0
+    },
+    "missing_anchor": {
+      "case_count": 3,
+      "expected_accepted": 0,
+      "expected_rejected": 3,
+      "actual_accepted": 0,
+      "actual_rejected": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "non_whitespace_c0_substitution": {
+      "case_count": 46,
+      "expected_accepted": 46,
+      "expected_rejected": 0,
+      "actual_accepted": 46,
+      "actual_rejected": 0,
+      "passed": 46,
+      "failed": 0
+    },
+    "source_binding": {
+      "case_count": 3,
+      "expected_accepted": 0,
+      "expected_rejected": 3,
+      "actual_accepted": 0,
+      "actual_rejected": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "whitespace_substitution": {
+      "case_count": 18,
+      "expected_accepted": 0,
+      "expected_rejected": 18,
+      "actual_accepted": 0,
+      "actual_rejected": 18,
+      "passed": 18,
+      "failed": 0
+    }
+  },
+  "control_coverage": {
+    "definition": "Observed means emitted as a replacement for ± or ¼; literal controls already present in source text are excluded from that designation.",
+    "non_whitespace_c0_code_count": 23,
+    "c0_whitespace_code_count": 9,
+    "source_glyph_count": 2,
+    "observed_control_codepoints": [
+      "U+0001",
+      "U+0003",
+      "U+0010",
+      "U+0011"
+    ],
+    "previously_observed_codes": {
+      "case_count": 8,
+      "expected_accepted": 8,
+      "expected_rejected": 0,
+      "actual_accepted": 8,
+      "actual_rejected": 0,
+      "passed": 8,
+      "failed": 0
+    },
+    "codes_not_observed_as_glyph_substitutions": {
+      "case_count": 38,
+      "expected_accepted": 38,
+      "expected_rejected": 0,
+      "actual_accepted": 38,
+      "actual_rejected": 0,
+      "passed": 38,
+      "failed": 0
+    }
+  },
+  "probes": [
+    {
+      "id": "c0_0000_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0000 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0000",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0000 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0000",
+            "source_character": "±",
+            "model_codepoint": "U+0000",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0000",
+            "source_character": "±",
+            "model_codepoint": "U+0000",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0000_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0000 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0000",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0000 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0000",
+            "source_character": "¼",
+            "model_codepoint": "U+0000",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0000",
+            "source_character": "¼",
+            "model_codepoint": "U+0000",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0001_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0001 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0001",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0001 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0001",
+            "source_character": "±",
+            "model_codepoint": "U+0001",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0001",
+            "source_character": "±",
+            "model_codepoint": "U+0001",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0001_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0001 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0001",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0001 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0001",
+            "source_character": "¼",
+            "model_codepoint": "U+0001",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0001",
+            "source_character": "¼",
+            "model_codepoint": "U+0001",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0002_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0002 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0002",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0002 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0002_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0002 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0002",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0002 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0002",
+            "source_character": "¼",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0002",
+            "source_character": "¼",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0003_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0003 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0003",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0003 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0003",
+            "source_character": "±",
+            "model_codepoint": "U+0003",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0003",
+            "source_character": "±",
+            "model_codepoint": "U+0003",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0003_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0003 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0003",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0003 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0003",
+            "source_character": "¼",
+            "model_codepoint": "U+0003",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0003",
+            "source_character": "¼",
+            "model_codepoint": "U+0003",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0004_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0004 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0004",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0004 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0004",
+            "source_character": "±",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0004",
+            "source_character": "±",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0004_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0004 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0004",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0004 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0004",
+            "source_character": "¼",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0004",
+            "source_character": "¼",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0005_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0005 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0005",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0005 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0005",
+            "source_character": "±",
+            "model_codepoint": "U+0005",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0005",
+            "source_character": "±",
+            "model_codepoint": "U+0005",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0005_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0005 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0005",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0005 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0005",
+            "source_character": "¼",
+            "model_codepoint": "U+0005",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0005",
+            "source_character": "¼",
+            "model_codepoint": "U+0005",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0006_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0006 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0006",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0006 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0006",
+            "source_character": "±",
+            "model_codepoint": "U+0006",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0006",
+            "source_character": "±",
+            "model_codepoint": "U+0006",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0006_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0006 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0006",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0006 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0006",
+            "source_character": "¼",
+            "model_codepoint": "U+0006",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0006",
+            "source_character": "¼",
+            "model_codepoint": "U+0006",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0007_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0007 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0007",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0007 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0007",
+            "source_character": "±",
+            "model_codepoint": "U+0007",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0007",
+            "source_character": "±",
+            "model_codepoint": "U+0007",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0007_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0007 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0007",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0007 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0007",
+            "source_character": "¼",
+            "model_codepoint": "U+0007",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0007",
+            "source_character": "¼",
+            "model_codepoint": "U+0007",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0008_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \b 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0008",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \b 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\b",
+            "source_character": "±",
+            "model_codepoint": "U+0008",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\b",
+            "source_character": "±",
+            "model_codepoint": "U+0008",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0008_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \b 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0008",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \b 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\b",
+            "source_character": "¼",
+            "model_codepoint": "U+0008",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\b",
+            "source_character": "¼",
+            "model_codepoint": "U+0008",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0009_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \t 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+0009",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0009_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \t 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+0009",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000a_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \n 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000A",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000a_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \n 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000A",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000b_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u000b 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000B",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000b_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u000b 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000B",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000c_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \f 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000C",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000c_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \f 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000C",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000d_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \r 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000D",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000d_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \r 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+000D",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000e_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u000e 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+000E",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u000e 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u000e",
+            "source_character": "±",
+            "model_codepoint": "U+000E",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u000e",
+            "source_character": "±",
+            "model_codepoint": "U+000E",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000e_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u000e 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+000E",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u000e 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u000e",
+            "source_character": "¼",
+            "model_codepoint": "U+000E",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u000e",
+            "source_character": "¼",
+            "model_codepoint": "U+000E",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000f_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u000f 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+000F",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u000f 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u000f",
+            "source_character": "±",
+            "model_codepoint": "U+000F",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u000f",
+            "source_character": "±",
+            "model_codepoint": "U+000F",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_000f_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u000f 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+000F",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u000f 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u000f",
+            "source_character": "¼",
+            "model_codepoint": "U+000F",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u000f",
+            "source_character": "¼",
+            "model_codepoint": "U+000F",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0010_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0010 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0010",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0010 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0010",
+            "source_character": "±",
+            "model_codepoint": "U+0010",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0010",
+            "source_character": "±",
+            "model_codepoint": "U+0010",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0010_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0010 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0010",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0010 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0010",
+            "source_character": "¼",
+            "model_codepoint": "U+0010",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0010",
+            "source_character": "¼",
+            "model_codepoint": "U+0010",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0011_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0011 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0011",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0011 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0011",
+            "source_character": "±",
+            "model_codepoint": "U+0011",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0011",
+            "source_character": "±",
+            "model_codepoint": "U+0011",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0011_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0011 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0011",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": true,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0011 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0011",
+            "source_character": "¼",
+            "model_codepoint": "U+0011",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0011",
+            "source_character": "¼",
+            "model_codepoint": "U+0011",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0012_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0012 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0012",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0012 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0012",
+            "source_character": "±",
+            "model_codepoint": "U+0012",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0012",
+            "source_character": "±",
+            "model_codepoint": "U+0012",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0012_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0012 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0012",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0012 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0012",
+            "source_character": "¼",
+            "model_codepoint": "U+0012",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0012",
+            "source_character": "¼",
+            "model_codepoint": "U+0012",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0013_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0013 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0013",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0013 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0013",
+            "source_character": "±",
+            "model_codepoint": "U+0013",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0013",
+            "source_character": "±",
+            "model_codepoint": "U+0013",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0013_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0013 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0013",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0013 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0013",
+            "source_character": "¼",
+            "model_codepoint": "U+0013",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0013",
+            "source_character": "¼",
+            "model_codepoint": "U+0013",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0014_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0014 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0014",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0014 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0014",
+            "source_character": "±",
+            "model_codepoint": "U+0014",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0014",
+            "source_character": "±",
+            "model_codepoint": "U+0014",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0014_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0014 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0014",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0014 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0014",
+            "source_character": "¼",
+            "model_codepoint": "U+0014",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0014",
+            "source_character": "¼",
+            "model_codepoint": "U+0014",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0015_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0015 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0015",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0015 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0015",
+            "source_character": "±",
+            "model_codepoint": "U+0015",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0015",
+            "source_character": "±",
+            "model_codepoint": "U+0015",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0015_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0015 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0015",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0015 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0015",
+            "source_character": "¼",
+            "model_codepoint": "U+0015",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0015",
+            "source_character": "¼",
+            "model_codepoint": "U+0015",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0016_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0016 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0016",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0016 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0016",
+            "source_character": "±",
+            "model_codepoint": "U+0016",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0016",
+            "source_character": "±",
+            "model_codepoint": "U+0016",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0016_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0016 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0016",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0016 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0016",
+            "source_character": "¼",
+            "model_codepoint": "U+0016",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0016",
+            "source_character": "¼",
+            "model_codepoint": "U+0016",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0017_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0017 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0017",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0017 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0017",
+            "source_character": "±",
+            "model_codepoint": "U+0017",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0017",
+            "source_character": "±",
+            "model_codepoint": "U+0017",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0017_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0017 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0017",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0017 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0017",
+            "source_character": "¼",
+            "model_codepoint": "U+0017",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0017",
+            "source_character": "¼",
+            "model_codepoint": "U+0017",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0018_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0018 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0018",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0018 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0018",
+            "source_character": "±",
+            "model_codepoint": "U+0018",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0018",
+            "source_character": "±",
+            "model_codepoint": "U+0018",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0018_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0018 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0018",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0018 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0018",
+            "source_character": "¼",
+            "model_codepoint": "U+0018",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0018",
+            "source_character": "¼",
+            "model_codepoint": "U+0018",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0019_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0019 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0019",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0019 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0019",
+            "source_character": "±",
+            "model_codepoint": "U+0019",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0019",
+            "source_character": "±",
+            "model_codepoint": "U+0019",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_0019_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u0019 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+0019",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u0019 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u0019",
+            "source_character": "¼",
+            "model_codepoint": "U+0019",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0019",
+            "source_character": "¼",
+            "model_codepoint": "U+0019",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001a_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001a 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+001A",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u001a 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u001a",
+            "source_character": "±",
+            "model_codepoint": "U+001A",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u001a",
+            "source_character": "±",
+            "model_codepoint": "U+001A",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001a_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001a 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+001A",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u001a 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u001a",
+            "source_character": "¼",
+            "model_codepoint": "U+001A",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u001a",
+            "source_character": "¼",
+            "model_codepoint": "U+001A",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001b_to_00b1",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001b 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+001B",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ± 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u001b 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u001b",
+            "source_character": "±",
+            "model_codepoint": "U+001B",
+            "source_codepoint": "U+00B1",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "55f35c01980c3b5bfde8f782f97a10e930e12018d06e7df3e9a18bbfe349269b",
+        "inferred_mapping": [
+          {
+            "model_character": "\u001b",
+            "source_character": "±",
+            "model_codepoint": "U+001B",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001b_to_00bc",
+      "category": "non_whitespace_c0_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001b 8 units; accepted material.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": "U+001B",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 49,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Invented result: 72 ¼ 8 units; accepted material.",
+        "emitted_quote": "Invented result: 72 \u001b 8 units; accepted material.",
+        "replacements": [
+          {
+            "model_character": "\u001b",
+            "source_character": "¼",
+            "model_codepoint": "U+001B",
+            "source_codepoint": "U+00BC",
+            "model_offset": 20,
+            "source_offset": 20
+          }
+        ],
+        "block_text_sha256": "795316d18b5221cac9388d54fff8f1c38b2a9afebbae8b57f05e04f2a67a7fa8",
+        "inferred_mapping": [
+          {
+            "model_character": "\u001b",
+            "source_character": "¼",
+            "model_codepoint": "U+001B",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001c_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001c 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001C",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001c_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001c 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001C",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001d_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001d 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001D",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001d_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001d 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001D",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001e_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001e 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001E",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001e_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001e 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001E",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001f_to_00b1",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ± 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001f 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001F",
+      "cached_glyph": "±",
+      "cached_codepoint": "U+00B1",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c0_001f_to_00bc",
+      "category": "whitespace_substitution",
+      "source_text": "Invented result: 72 ¼ 8 units; accepted material.",
+      "emitted_quote": "Invented result: 72 \u001f 8 units; accepted material.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": "U+001F",
+      "cached_glyph": "¼",
+      "cached_codepoint": "U+00BC",
+      "previously_observed_control_code": false,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "changed_number",
+      "category": "changed_number",
+      "source_text": "Result 72 ± 8 units accepted.",
+      "emitted_quote": "Result 73 \u0002 8 units accepted.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "changed_sign",
+      "category": "changed_sign",
+      "source_text": "Result -72 ± 8 units accepted.",
+      "emitted_quote": "Result +72 \u0002 8 units accepted.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "changed_word",
+      "category": "changed_word",
+      "source_text": "Result 72 ± 8 units accepted.",
+      "emitted_quote": "Result 72 \u0002 8 grams accepted.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "changed_direction",
+      "category": "changed_direction",
+      "source_text": "Result 72 ± 8 units accepted.",
+      "emitted_quote": "Result 72 \u0002 8 units rejected.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "inserted_printable",
+      "category": "changed_length",
+      "source_text": "Result 72 ± 8 units accepted.",
+      "emitted_quote": "Result 720 \u0002 8 units accepted.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "deleted_printable",
+      "category": "changed_length",
+      "source_text": "Result 72 ± 8 units accepted.",
+      "emitted_quote": "Result 7 \u0002 8 units accepted.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "digit_target",
+      "category": "disallowed_target",
+      "source_text": "Left 4 right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "letter_target",
+      "category": "disallowed_target",
+      "source_text": "Left Q right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "other_glyph_target",
+      "category": "disallowed_target",
+      "source_text": "Left ≈ right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "minus_target",
+      "category": "disallowed_target",
+      "source_text": "Left − right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "control_target",
+      "category": "disallowed_target",
+      "source_text": "Left \u0003 right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "printable_model_character",
+      "category": "disallowed_model_character",
+      "source_text": "Left ± right.",
+      "emitted_quote": "Left ? right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "c1_model_character",
+      "category": "disallowed_model_character",
+      "source_text": "Left ± right.",
+      "emitted_quote": "Left  right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "delete_model_character",
+      "category": "disallowed_model_character",
+      "source_text": "Left ± right.",
+      "emitted_quote": "Left  right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "ambiguous_alignment",
+      "category": "ambiguous_alignment",
+      "source_text": "Left ± right. Left ± right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ambiguous_glyph_match",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "ambiguous_glyph_match",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "missing_left_anchor",
+      "category": "missing_anchor",
+      "source_text": "± right.",
+      "emitted_quote": "\u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "unanchored_glyph_match",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "unanchored_glyph_match",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "missing_right_anchor",
+      "category": "missing_anchor",
+      "source_text": "Left ±",
+      "emitted_quote": "Left \u0002",
+      "expected_accepted": false,
+      "expected_reason": "unanchored_glyph_match",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "unanchored_glyph_match",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "control_only_quote",
+      "category": "missing_anchor",
+      "source_text": "±",
+      "emitted_quote": "\u0002",
+      "expected_accepted": false,
+      "expected_reason": "unanchored_glyph_match",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "unanchored_glyph_match",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "same_control_conflicting_targets",
+      "category": "conflicting_mapping",
+      "source_text": "Left ± middle ¼ right.",
+      "emitted_quote": "Left \u0002 middle \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "conflicting_glyph_mapping",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": false,
+      "actual_reason": "conflicting_glyph_mapping",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "same_control_consistent_targets",
+      "category": "consistent_mapping",
+      "source_text": "Left ± middle ± right.",
+      "emitted_quote": "Left \u0002 middle \u0002 right.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 22,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Left ± middle ± right.",
+        "emitted_quote": "Left \u0002 middle \u0002 right.",
+        "replacements": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1",
+            "model_offset": 5,
+            "source_offset": 5
+          },
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1",
+            "model_offset": 14,
+            "source_offset": 14
+          }
+        ],
+        "block_text_sha256": "e9cece51e8058afa3fb05546d7883e0b7e19a93946d3a952e4f71baaef35c07f",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "distinct_controls_distinct_targets",
+      "category": "consistent_mapping",
+      "source_text": "Left ± middle ¼ right.",
+      "emitted_quote": "Left \u0002 middle \u0004 right.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 22,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Left ± middle ¼ right.",
+        "emitted_quote": "Left \u0002 middle \u0004 right.",
+        "replacements": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1",
+            "model_offset": 5,
+            "source_offset": 5
+          },
+          {
+            "model_character": "\u0004",
+            "source_character": "¼",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00BC",
+            "model_offset": 14,
+            "source_offset": 14
+          }
+        ],
+        "block_text_sha256": "2f0b326e3d48282d3332a1fb21b8b35536a4ca4c147194a6cf5543d0c176b152",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1"
+          },
+          {
+            "model_character": "\u0004",
+            "source_character": "¼",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00BC"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "distinct_controls_same_target",
+      "category": "consistent_mapping",
+      "source_text": "Left ± middle ± right.",
+      "emitted_quote": "Left \u0002 middle \u0004 right.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "source_anchored_control_glyph",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 22,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Left ± middle ± right.",
+        "emitted_quote": "Left \u0002 middle \u0004 right.",
+        "replacements": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1",
+            "model_offset": 5,
+            "source_offset": 5
+          },
+          {
+            "model_character": "\u0004",
+            "source_character": "±",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00B1",
+            "model_offset": 14,
+            "source_offset": 14
+          }
+        ],
+        "block_text_sha256": "e9cece51e8058afa3fb05546d7883e0b7e19a93946d3a952e4f71baaef35c07f",
+        "inferred_mapping": [
+          {
+            "model_character": "\u0002",
+            "source_character": "±",
+            "model_codepoint": "U+0002",
+            "source_codepoint": "U+00B1"
+          },
+          {
+            "model_character": "\u0004",
+            "source_character": "±",
+            "model_codepoint": "U+0004",
+            "source_codepoint": "U+00B1"
+          }
+        ]
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "literal_control_exact_match",
+      "category": "exact_control",
+      "source_text": "Left \u0002 middle ± right.",
+      "emitted_quote": "Left \u0002 middle ± right.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "exact",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 22,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Left \u0002 middle ± right.",
+        "emitted_quote": "Left \u0002 middle ± right.",
+        "replacements": [],
+        "block_text_sha256": "4e454fa4e8186ff7cc1d3c0715109d6fb831bb1da492b9e563075ede256c5218",
+        "inferred_mapping": []
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "whitespace_exact_match",
+      "category": "exact_control",
+      "source_text": "Left ± middle ¼ right.",
+      "emitted_quote": "Left\t±\nmiddle ¼ right.",
+      "expected_accepted": true,
+      "expected_reason": null,
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "bound",
+      "actual_accepted": true,
+      "actual_reason": null,
+      "passed": true,
+      "match": {
+        "route": "exact",
+        "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+        "source_block": "invented_block_47",
+        "section": "synthetic",
+        "start": 0,
+        "end": 22,
+        "offset_unit": "unicode_code_point",
+        "matched_source_quote": "Left ± middle ¼ right.",
+        "emitted_quote": "Left\t±\nmiddle ¼ right.",
+        "replacements": [],
+        "block_text_sha256": "2f0b326e3d48282d3332a1fb21b8b35536a4ca4c147194a6cf5543d0c176b152",
+        "inferred_mapping": []
+      },
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "source_binding_missing",
+      "category": "source_binding",
+      "source_text": "Left ± right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "missing",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "source_binding_changed",
+      "category": "source_binding",
+      "source_text": "Left ± right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "changed",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    },
+    {
+      "id": "source_binding_wrong_source",
+      "category": "source_binding",
+      "source_text": "Left ± right.",
+      "emitted_quote": "Left \u0002 right.",
+      "expected_accepted": false,
+      "expected_reason": "ungrounded_quote",
+      "model_codepoint": null,
+      "cached_glyph": null,
+      "cached_codepoint": null,
+      "previously_observed_control_code": null,
+      "source_binding": "wrong_source",
+      "actual_accepted": false,
+      "actual_reason": "ungrounded_quote",
+      "passed": true,
+      "match": null,
+      "source_id": "SYNTHETIC_GLYPH_EXERCISE",
+      "block_id": "invented_block_47"
+    }
+  ]
+}

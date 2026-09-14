@@ -1,0 +1,2461 @@
+{
+  "schema_version": 1,
+  "system": "attine_actino",
+  "verified_at": "2026-09-13T17:07:26.925717+00:00",
+  "status": "passed",
+  "failed_checks": 0,
+  "unavailable_checks": 0,
+  "passed_checks": 276,
+  "network_calls": 0,
+  "model_calls": 0,
+  "approved_jobs": 11,
+  "ignored_provenance_fields": [
+    "cache_path",
+    "completed_at",
+    "config_path",
+    "contract_path",
+    "deadline",
+    "funnel_path",
+    "generated_at",
+    "genus_input_path",
+    "imported_at",
+    "input_path",
+    "offline",
+    "output_path",
+    "prepared_at",
+    "retrieved_at",
+    "selected_source_rows_path",
+    "semantic_input_path",
+    "started_at"
+  ],
+  "corpus_replay": {
+    "live_ready_texts": 20,
+    "replay_ready_texts": 20,
+    "texts_compared": 20,
+    "documents": [
+      {
+        "source_id": "PMC13098279",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC13098279.json",
+        "sha256": "14ce82367ccce0089e10318c12673d26d35faf057002c1eb656cb9cf086b4a1d",
+        "document_digest": "f9356daad4a63c0b6bac708837f3ee96ee7a5c9c0f0cc823514fc89bea881335",
+        "blocks_digest": "2ee9e259f4a19ea8c61c5d6617cba56de9a7d60e8429237e0ea59277be480003",
+        "blocks": 59
+      },
+      {
+        "source_id": "PMC12756850",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC12756850.json",
+        "sha256": "b29e85009d5e41481def6b71ad3ee6438e486f5d4dfac5d99a0a5ce5ffe81cdd",
+        "document_digest": "dfb122f45ab7ce7863ed3c5222388f553d36287e789c470459a0faa55b6450c2",
+        "blocks_digest": "9279635b36f7276cfeb7ce547a45914096842b36ea764dca35cf57517eabde70",
+        "blocks": 30
+      },
+      {
+        "source_id": "PMC12423291",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC12423291.json",
+        "sha256": "777efcd4426c7ac149db3cc1f34a7b45d5d2af6ec0900b742074db5af61c41ee",
+        "document_digest": "972f4efa4867d676f9d92fd9bdbe4a97175b09cda5147866558fb76b6d423523",
+        "blocks_digest": "dc82f9e1be9767e8487242ec5a5518048b199a3a85b2677e703d247bf790c055",
+        "blocks": 62
+      },
+      {
+        "source_id": "PMC11959280",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC11959280.json",
+        "sha256": "3f19a2d32f3ddb7a398afa4294da9a405c6343de825436887113d840e595fba3",
+        "document_digest": "14f5c5aa2ffe40f4abd185b5824d95a90d92e965224a5dd6a946604a56db3551",
+        "blocks_digest": "287b8d791a42ae9f86cf94b1b8ccc47aead68aef7ecfc7fee2c5bff1416dbd31",
+        "blocks": 71
+      },
+      {
+        "source_id": "PMC11474983",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC11474983.json",
+        "sha256": "520bb0674de7df125911ec64b4ff30313ead1ed8c7a3c7485626ae7e6f777cd7",
+        "document_digest": "015e76e4c4e9398d383beae5250cd732dd21a6b111861641a2ecb2dedecabd7a",
+        "blocks_digest": "2c20698f53235ccca4924c499817a3e93e69bdc18ba112b7859a6adb2197ac88",
+        "blocks": 54
+      },
+      {
+        "source_id": "PMC11265373",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC11265373.json",
+        "sha256": "7cdb91ebfae98911d5a8d87b8e5f97d424fb7b2569101bcb38ec0ac8bb8bd2c8",
+        "document_digest": "0f74899e215e5602cf5c840a9475040ecd2140a3d80fa0045da891786edf7a35",
+        "blocks_digest": "c8b2e5f9fcf3be5d5b389c3b3ce4fa883f4c4cf61e90c90361d18e7bbe1d300a",
+        "blocks": 64
+      },
+      {
+        "source_id": "PMC10955170",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC10955170.json",
+        "sha256": "5ef114847a27337689dfffea221c959cf922a47626a685951e8c6224fb3407ec",
+        "document_digest": "8c2906180a61322b05a8142d81a16ffc007efaf5d60f202a8545a950e6da0fee",
+        "blocks_digest": "10852cd13c3abe2d5d26016c9956b100ddcf933e2c4fe1755d43b5289a28d123",
+        "blocks": 28
+      },
+      {
+        "source_id": "PMC10384482",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC10384482.json",
+        "sha256": "33c68520f5a40f1d79d7dddfb1bb6496b645c5dbf8caf5c364d2ffaec1a097c1",
+        "document_digest": "1c1805402fd151e6677ced22d7cc703cfd262f2e86512e9a6c841464653c67a5",
+        "blocks_digest": "dc394627c8e21af801726e1b4ae927f7a2b9a17d463dfd483c0806f37a5de707",
+        "blocks": 95
+      },
+      {
+        "source_id": "PMC9965205",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC9965205.json",
+        "sha256": "fec8b0c3eac48666e76c467b164430b55f82663d8ab89c5fe0a2e06455cfd4ec",
+        "document_digest": "04bbf05d13041f13a97dde62a9985cc5657a26d99d4fb1c1042d2dd7ea86eacd",
+        "blocks_digest": "067f60c0a7eeaf4e73da05afaf224d1c61e9f27ccf29b27067e21264de3b03e8",
+        "blocks": 56
+      },
+      {
+        "source_id": "PMC9907069",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC9907069.json",
+        "sha256": "0168942a252ad1983bf815d0573ef6a72cc9f6b1114267483b1a8da889b44fc6",
+        "document_digest": "8e427054bce8a3a137c2c6f6b9d597fb506f712cc4334a799d294b528fe147a1",
+        "blocks_digest": "8446a6fc210f8d035419a8fb1d60283d83cf9db03a7ba3b12104ca957a752822",
+        "blocks": 53
+      },
+      {
+        "source_id": "PMC9288931",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC9288931.json",
+        "sha256": "ec0dd5f7ba9003ca286813eecab926611084dac8942937c808b58571187da788",
+        "document_digest": "023cf7efc5262b61df0bdce01259fd3e4870a7fee879ee7e9308f7cdcc67b600",
+        "blocks_digest": "5a71470f5b9ef02cd48e994860c57979ac86dece90fc5ae9b36ffdddb559dc08",
+        "blocks": 58
+      },
+      {
+        "source_id": "PMC9029082",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC9029082.json",
+        "sha256": "be916ad75c20e438c15b8d97104a7be1efe3518e28d97a12a7501d4ba194f6d6",
+        "document_digest": "1f722052d6e9a8bf4509490287f27484a76f523c9df10009358924dae7f108a2",
+        "blocks_digest": "5b1785bc8f0219d67ec089e3f7c7eb654cc2bc94e8568aa9f4a7b302df6ecb02",
+        "blocks": 82
+      },
+      {
+        "source_id": "PMC8930869",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8930869.json",
+        "sha256": "e8ad56367216def56c47663f4b23ca1d4a2043405b1e416afe14b6a63b5f1360",
+        "document_digest": "076de0d6a37f218dbbbe172dcfb3feb08f20776c1feb39543211d6c20ab3959f",
+        "blocks_digest": "758c99249c8b5f7d947daa42cd029dab4965819fbf3ca7a91b2b66da8462a9ed",
+        "blocks": 65
+      },
+      {
+        "source_id": "PMC8778871",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8778871.json",
+        "sha256": "9902bc170145c60d9d93ac3fa2e344f8ef8249cabca52049e28ced216f412827",
+        "document_digest": "542800affe403dfc51b74f55a505e331dd2fbfdfa692cff1b65d7a4119cce2c1",
+        "blocks_digest": "b7d2132e74c08bd3149dce8fdb27bc9e06c6eba2d5fb4df2451ab8356027443c",
+        "blocks": 51
+      },
+      {
+        "source_id": "PMC8689564",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8689564.json",
+        "sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c",
+        "document_digest": "8e1151395f590ec104ee3f2dc5792c8c6d4e1c227a7f1ea957538d529c0c584a",
+        "blocks_digest": "003e7789fa3aaf43d94f4fdb32502e76eadfacb1269367921cc9635901c8977c",
+        "blocks": 80
+      },
+      {
+        "source_id": "PMC8703566",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8703566.json",
+        "sha256": "612abae912564faaa8ea21390ddf5bac0350ad06d1d4694946a0e39d09c5f774",
+        "document_digest": "1654afa0d79039f95bdc03c1c0974f77842a2a741b26ba8b1d694d154e0608fc",
+        "blocks_digest": "c606cf2e92ab750a2b367bd34e042e871ec45a18accfc4f9add4831a95725ffa",
+        "blocks": 43
+      },
+      {
+        "source_id": "PMC8444595",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8444595.json",
+        "sha256": "d9dd9916730ca23fd50f84351f31c0beabd859b5b0aca983a08fc2ed2c96c9da",
+        "document_digest": "30951c0a53dd81abba5d06372f0b869ba0f5152eb865a6dcd2bb734d95b300aa",
+        "blocks_digest": "c3af142dd1aa162d7fa27df6500d1718d854b21b15c1a3cdf599a71a6840343f",
+        "blocks": 57
+      },
+      {
+        "source_id": "PMC8383443",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8383443.json",
+        "sha256": "00dbcd708478cd09be2b8b6d1908016f7bb4cc0d2f7435d8ac5f44b4d48ed0ec",
+        "document_digest": "666b6d6fed755057ca85e4a00d18cdeec21dbc85e6e5a93e9afc017d9818837e",
+        "blocks_digest": "3d1530e33c1c472c41d88a3c14eaa8a5caba8b3f3872020964e173b4051aee1c",
+        "blocks": 105
+      },
+      {
+        "source_id": "PMC8400888",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8400888.json",
+        "sha256": "34987399916fedda806ae907af151bccac8509cbe05fa995d8b3451346aece34",
+        "document_digest": "828a4371c7b864c5157bd2257b7285e62442cf9c5ede8d252ddc34fb82d32a56",
+        "blocks_digest": "df0086109831968badcc8d863603fca4de1bf37e98fe423f168fb7c2a2cd02b9",
+        "blocks": 47
+      },
+      {
+        "source_id": "PMC8358438",
+        "path": "data/interim/systems/attine_actino/corpus/texts/PMC8358438.json",
+        "sha256": "c8f4b75d3badf5d8cfd3bfa51e43de61b027408df10a138fe14e9842ff896f13",
+        "document_digest": "af85baee843c6215acba80143f1f6834b2cbcdf9f935a3ead14c807407ae851a",
+        "blocks_digest": "7b031e6197804a79088d0a04ba88d9adef986af0460ad6a062c32cb548a55c3c",
+        "blocks": 78
+      }
+    ]
+  },
+  "cache_inventory": [
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/04092bd92d150057f7fff17230e29eac7b9a58adb59af3b1e39905282047d00b.json",
+      "bytes": 174257,
+      "sha256": "afaa93874785c393c9e164014d1a8f601133a8ad509c0e93d62c3eed8cb77f70",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/0d163b2c5b13135370cb88d84987806bbd5bc19614e32fc1f8a93a6a183db399.json",
+      "bytes": 555548,
+      "sha256": "3791defaadc95d05677800bd99e586cba9ddcf40e13d93d089297ca1c32f25aa",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/11b912b61abb598d3f140c4edfc732518c99106440cdc537a04ed2a43eda2c00.json",
+      "bytes": 215465,
+      "sha256": "f591442fd326b292118187441454ba80949439543044d48760b2b876c6be3c02",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/16330d4360fb0e091c86f661a724e778e635c19e051532437a2f8119696c37b8.json",
+      "bytes": 151457,
+      "sha256": "c56bb1bcf513d84a3d9a99d0e3787e0ddca621c78c6320fcb4cc43b441838918",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/179cfb08bf7658704987e61293d3fc897a2e22dfd07b740bc8cab4ee80d05804.json",
+      "bytes": 35962,
+      "sha256": "24f3b6e4def6efb59dc1e6f0af8b73bd9ad6edcab5228615275bca275ca6905e",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/1b5d1a4f2cc34abd67e5281f47b4c198e468141273946c7c8cfd037b80fa2851.json",
+      "bytes": 159005,
+      "sha256": "202d1456abfdee670d74da6332a3a00d565ecae5a56bba8c96389286f7dd140b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/1dc228a84fe2dfbf2b66e1666197a449d2d7134d3ef6c80f4784d72268cdbf78.json",
+      "bytes": 173473,
+      "sha256": "4ac967b6070cff2ac070a7979a7871a24a6b23227883744fbc1b26209d769cfd",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/2a3b6d1873f352e79b868a38479393612e0c61a67bd19ecb797a930655120a73.json",
+      "bytes": 210370,
+      "sha256": "8691cb53892cff4b882918a9f6a9eb2e80a09a88c5725126a912aac8c321c2a1",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/2ddb1e59c17566b1836196a3104e6f4052086bd58c90bbd568285f9476a35404.json",
+      "bytes": 223094,
+      "sha256": "da4f600e0de295870517bc11e8f507c6f52f799f261f52a517cc9c4cff577e56",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/4404539232cc38a3f2e6c395d11c6cfc0991c41e62bdcb93ae47f4612080c65a.json",
+      "bytes": 30350,
+      "sha256": "8b49b16ff5bb77a8e0ef662aa0f407bcf41ac669121ba73516c726642c8fdd67",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/505dcc70eb22eebe2a9cd985c95088d7daf115fb37e860b6b6fafd7fd14b8a4c.json",
+      "bytes": 279434,
+      "sha256": "8beca22c95e9de88a9ce60a721b34d897b938759fcbc1cb0a4e30346427264f7",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/55cbf93910da0530e86f7ac1854dadad87a5f08734c5afc31a8301e4ec9cca29.json",
+      "bytes": 7453,
+      "sha256": "82fda93f15b7f9f0bac221ffcbe3b54f6552e369a663cdae53f1f4f1e0107770",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/56867bdcc92e7e4239365a4a48242d8cd6ae30caf566b8f2534b3609fb355e59.json",
+      "bytes": 33926,
+      "sha256": "ba30b1e098f842821225ea48ea4fd8dbbbfe0d9a4112c53df2fdec5a68897700",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/65ff559d4b4f3acfe73d34f4297bd4a153ed67625dc9c81bdcd45e07d00e0c20.json",
+      "bytes": 256602,
+      "sha256": "c0d924119b1ac7e6e668e16eafe4e20ce58ebae64cb6d99bf7ed617b5ec5ee17",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/686f1e836c0ac75f09292f2dcfc501318e1842bd1a070df2266d2a2203cb5fcb.json",
+      "bytes": 234469,
+      "sha256": "6daaaf44f1b22185b4d530a45a19d6dbcf7f036eb16999c52e6423b479d3435b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/6b91e647dd7625289f1a1303a83912718374e3a7fd52746dd567268647364cc0.json",
+      "bytes": 762,
+      "sha256": "a8bc8acb2ac1927a6ba94b75a87103aa6b269f3eda97c967dafe73d702c7bec1",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/6c6d203296331575b5fdc70a487c0a77f25d8f55dbc789bbe7526dbc66981586.json",
+      "bytes": 16847,
+      "sha256": "e327f1f464cb8d9bb3742a171715527b3bba6209fbc9d64acd0edd3e8d48083b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/77588fc33898fdc39f00ed6580fec262b9b75933fd452cff7270a7bf5d95d9d4.json",
+      "bytes": 43290,
+      "sha256": "80fd53148d1bb459b86629a7773fbe2a059ba7b14534ffd98d1956ff0d54572c",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/7e569f63bb3f9b68b99305a4ee6a751b50e2a299d940b72e8bef717afd4fc115.json",
+      "bytes": 136102,
+      "sha256": "b622ec5a3f7fb51e5b962ec372b29c3d88dc4d5fe23021d380b03df4f804aeb9",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/83f3b79a3c472b58a1c0e8fe84643152d82cdd9e398a9c7c537000a89f522ab2.json",
+      "bytes": 275421,
+      "sha256": "9be1a63dc631ddcd6d11d73270e52ed8c8b4a3831684d7e145a0cdd43e527bb7",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/86d0132cb2dbee7627219bb012ea26d22ab4e0e258247c0df4f6c1e8d12e8eca.json",
+      "bytes": 36931,
+      "sha256": "a7a59670f969589954c52576122c5714b85194cdc99ccf9f9d841d19526720a4",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/93b376b66d533f134fef044ba846f12d916e93be27577c09e819fe297d2be851.json",
+      "bytes": 38272,
+      "sha256": "f21a46fe32e26b1a453c41eaeb34ba0aeb893857d5bb65210b6b136d4145a8e3",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/97219d97d828a53ff2fb49b248623e8df804d2df72d30d017e5ab9836f4ffa72.json",
+      "bytes": 36677,
+      "sha256": "7154d33fa6136f58e5258e7e2b5bbb1827809edb8f446210c34629571babb776",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/98136f9110c99a9f06fbc717c4efe9ea7e41f8ff507ffc53c431e212389bf18a.json",
+      "bytes": 266881,
+      "sha256": "b561ca79f5ce7095af03393c47bdac1ec4dc4c8b9ab411753d6a60c61d7f37e1",
+      "attempts": 4
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/9b04edfe803eb8e388a96b160c2c1b2bf812aa39f205cb188b0926b86773f527.json",
+      "bytes": 227905,
+      "sha256": "bb01edf10e3ab0ee0929387b3915831fbb14e3a20f3446062aad46d02744071e",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/a70886d33678eab325719ac43ca9c058100c3955768b8739913e9daca00d3af4.json",
+      "bytes": 170197,
+      "sha256": "676875c9a1513d37f5da098e4d3219a8a47604d8e91e51fffd52949f268781b4",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/bc6a950dcd614ff3772bcb249cfbae5b48b67a8cb7b976e4112dc0caa87d8cfc.json",
+      "bytes": 1731,
+      "sha256": "0af31a4f7e7a2cc9452bc81bb8f25ea2c676f216944b4eb10c173fc5baf80dee",
+      "attempts": 4
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/c30c632acebba9432d7060191ec02ba7db6833edcd6bcc03e451fb14edeb9214.json",
+      "bytes": 1611,
+      "sha256": "f3c23d3909ab91b39aabdf6b40d15028c2f34736c401fb315788133f32731d04",
+      "attempts": 4
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/c980894ac69a1cb2e3ae19621e9719a9a2bc65bfcad0ef2ca15f38d1638b069c.json",
+      "bytes": 6993,
+      "sha256": "a9f97ca5ad511b7d6b3b9db1d701fc73a0b51770656220d6fd573596b5cd969b",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/cb28dcfb6e84ca8d26d9dea52e055a6f85ef80444bbe851896231c2a90cf1487.json",
+      "bytes": 193098,
+      "sha256": "43e1451beff71cc779374ddb5e14b7987e2f66ecc3fe04809d9ff7809a30bf22",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/cdf7e475e2c41aff153bd2834b086ddfbf78eea51ed0998fb1d532facf5f71ef.json",
+      "bytes": 21688,
+      "sha256": "5f5d9b0ecb20a5ce97bb86e7488000f1a30f44afc24576f352f4d7403689a26c",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/d1349749761de01ff88cbcc68e8964163e6496d7e92856ec0827c39d2872370d.json",
+      "bytes": 346,
+      "sha256": "0adfe9c42e0c4571f704c14a5c3ddb1a8b158e63b8b24b44bebcc711c7bff013",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/d508ca88b4e92a22db7197b98836a86ade7ca484c9160662e7a3e108dc9d3dc0.json",
+      "bytes": 369129,
+      "sha256": "546f995b3a46116e0c61be96258310ee330a7a0b7c945778175d03fee078b40d",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/d9cab42634dd60bf26c42a5b619ee0ab46490fa031df6293019f4e010f03861b.json",
+      "bytes": 212249,
+      "sha256": "43415093af8b1e8dc3b8b9302f1c5af434a56d8363a16ffcd99580ca1912e0bb",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/df086ef81f3ec1128d53851f9dd89b7bfc362b5f450931bca27d560ee7ae9034.json",
+      "bytes": 405326,
+      "sha256": "0485136eaaa71e5ce7025306834ce5e12d3c27111a7b762047dcbf34052893ec",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/e01390b434a46ff5b4f12296d7758c158f9b11ecf46522304b9f328309817a48.json",
+      "bytes": 4388,
+      "sha256": "6b524aaca8d38da42ae2f716db31ed2ad15bcf1eaeecbc98f0bb2e980e8d93e2",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/e827b6bc341332e76294698e466ff9afe2fa12958b6cb9cb9a548a8113093585.json",
+      "bytes": 32378,
+      "sha256": "7873185db57237726a6497986f47ecdd36d73c2df7537488e9ad380419d980bf",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/ed7294743cd85e44033cedbd763ea3a06dbfd91abf766f005ae0e8e73a11c18c.json",
+      "bytes": 292713,
+      "sha256": "123bb2ab5f24e8d7c7c54b531929888c5f4b4d9b8e6ae865671daf4220839915",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/http/f60559b628bea83424382915dfde1c59764c83beacab1cf56d33ebf838cfb390.json",
+      "bytes": 36077,
+      "sha256": "dac75f3727fa1cf0b870dbdd1507d52cd4fa23f7decb5820b6b8d29815f9b734",
+      "attempts": 1
+    },
+    {
+      "path": "data/interim/systems/attine_actino/cache/taxonomy/http/8c7f44df24ab6264e885096e6e0986b1f40841595e361189ce4d24a489223398.json",
+      "bytes": 1671,
+      "sha256": "6d9483ef6211342f6090d4c194d9e3a9b7608585ff97661ef59b670c7b8902b8",
+      "attempts": 1
+    }
+  ],
+  "checks": [
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/04092bd92d150057f7fff17230e29eac7b9a58adb59af3b1e39905282047d00b.json",
+      "request_hash": "04092bd92d150057f7fff17230e29eac7b9a58adb59af3b1e39905282047d00b"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/04092bd92d150057f7fff17230e29eac7b9a58adb59af3b1e39905282047d00b.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/0d163b2c5b13135370cb88d84987806bbd5bc19614e32fc1f8a93a6a183db399.json",
+      "request_hash": "0d163b2c5b13135370cb88d84987806bbd5bc19614e32fc1f8a93a6a183db399"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/0d163b2c5b13135370cb88d84987806bbd5bc19614e32fc1f8a93a6a183db399.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/11b912b61abb598d3f140c4edfc732518c99106440cdc537a04ed2a43eda2c00.json",
+      "request_hash": "11b912b61abb598d3f140c4edfc732518c99106440cdc537a04ed2a43eda2c00"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/11b912b61abb598d3f140c4edfc732518c99106440cdc537a04ed2a43eda2c00.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/16330d4360fb0e091c86f661a724e778e635c19e051532437a2f8119696c37b8.json",
+      "request_hash": "16330d4360fb0e091c86f661a724e778e635c19e051532437a2f8119696c37b8"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/16330d4360fb0e091c86f661a724e778e635c19e051532437a2f8119696c37b8.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/179cfb08bf7658704987e61293d3fc897a2e22dfd07b740bc8cab4ee80d05804.json",
+      "request_hash": "179cfb08bf7658704987e61293d3fc897a2e22dfd07b740bc8cab4ee80d05804"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/179cfb08bf7658704987e61293d3fc897a2e22dfd07b740bc8cab4ee80d05804.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/1b5d1a4f2cc34abd67e5281f47b4c198e468141273946c7c8cfd037b80fa2851.json",
+      "request_hash": "1b5d1a4f2cc34abd67e5281f47b4c198e468141273946c7c8cfd037b80fa2851"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/1b5d1a4f2cc34abd67e5281f47b4c198e468141273946c7c8cfd037b80fa2851.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/1dc228a84fe2dfbf2b66e1666197a449d2d7134d3ef6c80f4784d72268cdbf78.json",
+      "request_hash": "1dc228a84fe2dfbf2b66e1666197a449d2d7134d3ef6c80f4784d72268cdbf78"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/1dc228a84fe2dfbf2b66e1666197a449d2d7134d3ef6c80f4784d72268cdbf78.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/2a3b6d1873f352e79b868a38479393612e0c61a67bd19ecb797a930655120a73.json",
+      "request_hash": "2a3b6d1873f352e79b868a38479393612e0c61a67bd19ecb797a930655120a73"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/2a3b6d1873f352e79b868a38479393612e0c61a67bd19ecb797a930655120a73.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/2ddb1e59c17566b1836196a3104e6f4052086bd58c90bbd568285f9476a35404.json",
+      "request_hash": "2ddb1e59c17566b1836196a3104e6f4052086bd58c90bbd568285f9476a35404"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/2ddb1e59c17566b1836196a3104e6f4052086bd58c90bbd568285f9476a35404.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/4404539232cc38a3f2e6c395d11c6cfc0991c41e62bdcb93ae47f4612080c65a.json",
+      "request_hash": "4404539232cc38a3f2e6c395d11c6cfc0991c41e62bdcb93ae47f4612080c65a"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/4404539232cc38a3f2e6c395d11c6cfc0991c41e62bdcb93ae47f4612080c65a.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/505dcc70eb22eebe2a9cd985c95088d7daf115fb37e860b6b6fafd7fd14b8a4c.json",
+      "request_hash": "505dcc70eb22eebe2a9cd985c95088d7daf115fb37e860b6b6fafd7fd14b8a4c"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/505dcc70eb22eebe2a9cd985c95088d7daf115fb37e860b6b6fafd7fd14b8a4c.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/55cbf93910da0530e86f7ac1854dadad87a5f08734c5afc31a8301e4ec9cca29.json",
+      "request_hash": "55cbf93910da0530e86f7ac1854dadad87a5f08734c5afc31a8301e4ec9cca29"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/55cbf93910da0530e86f7ac1854dadad87a5f08734c5afc31a8301e4ec9cca29.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/56867bdcc92e7e4239365a4a48242d8cd6ae30caf566b8f2534b3609fb355e59.json",
+      "request_hash": "56867bdcc92e7e4239365a4a48242d8cd6ae30caf566b8f2534b3609fb355e59"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/56867bdcc92e7e4239365a4a48242d8cd6ae30caf566b8f2534b3609fb355e59.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/65ff559d4b4f3acfe73d34f4297bd4a153ed67625dc9c81bdcd45e07d00e0c20.json",
+      "request_hash": "65ff559d4b4f3acfe73d34f4297bd4a153ed67625dc9c81bdcd45e07d00e0c20"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/65ff559d4b4f3acfe73d34f4297bd4a153ed67625dc9c81bdcd45e07d00e0c20.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/686f1e836c0ac75f09292f2dcfc501318e1842bd1a070df2266d2a2203cb5fcb.json",
+      "request_hash": "686f1e836c0ac75f09292f2dcfc501318e1842bd1a070df2266d2a2203cb5fcb"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/686f1e836c0ac75f09292f2dcfc501318e1842bd1a070df2266d2a2203cb5fcb.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/6b91e647dd7625289f1a1303a83912718374e3a7fd52746dd567268647364cc0.json",
+      "request_hash": "6b91e647dd7625289f1a1303a83912718374e3a7fd52746dd567268647364cc0"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/6b91e647dd7625289f1a1303a83912718374e3a7fd52746dd567268647364cc0.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/6c6d203296331575b5fdc70a487c0a77f25d8f55dbc789bbe7526dbc66981586.json",
+      "request_hash": "6c6d203296331575b5fdc70a487c0a77f25d8f55dbc789bbe7526dbc66981586"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/6c6d203296331575b5fdc70a487c0a77f25d8f55dbc789bbe7526dbc66981586.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/77588fc33898fdc39f00ed6580fec262b9b75933fd452cff7270a7bf5d95d9d4.json",
+      "request_hash": "77588fc33898fdc39f00ed6580fec262b9b75933fd452cff7270a7bf5d95d9d4"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/77588fc33898fdc39f00ed6580fec262b9b75933fd452cff7270a7bf5d95d9d4.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/7e569f63bb3f9b68b99305a4ee6a751b50e2a299d940b72e8bef717afd4fc115.json",
+      "request_hash": "7e569f63bb3f9b68b99305a4ee6a751b50e2a299d940b72e8bef717afd4fc115"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/7e569f63bb3f9b68b99305a4ee6a751b50e2a299d940b72e8bef717afd4fc115.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/83f3b79a3c472b58a1c0e8fe84643152d82cdd9e398a9c7c537000a89f522ab2.json",
+      "request_hash": "83f3b79a3c472b58a1c0e8fe84643152d82cdd9e398a9c7c537000a89f522ab2"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/83f3b79a3c472b58a1c0e8fe84643152d82cdd9e398a9c7c537000a89f522ab2.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/86d0132cb2dbee7627219bb012ea26d22ab4e0e258247c0df4f6c1e8d12e8eca.json",
+      "request_hash": "86d0132cb2dbee7627219bb012ea26d22ab4e0e258247c0df4f6c1e8d12e8eca"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/86d0132cb2dbee7627219bb012ea26d22ab4e0e258247c0df4f6c1e8d12e8eca.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/93b376b66d533f134fef044ba846f12d916e93be27577c09e819fe297d2be851.json",
+      "request_hash": "93b376b66d533f134fef044ba846f12d916e93be27577c09e819fe297d2be851"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/93b376b66d533f134fef044ba846f12d916e93be27577c09e819fe297d2be851.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/97219d97d828a53ff2fb49b248623e8df804d2df72d30d017e5ab9836f4ffa72.json",
+      "request_hash": "97219d97d828a53ff2fb49b248623e8df804d2df72d30d017e5ab9836f4ffa72"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/97219d97d828a53ff2fb49b248623e8df804d2df72d30d017e5ab9836f4ffa72.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/98136f9110c99a9f06fbc717c4efe9ea7e41f8ff507ffc53c431e212389bf18a.json",
+      "request_hash": "98136f9110c99a9f06fbc717c4efe9ea7e41f8ff507ffc53c431e212389bf18a"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/98136f9110c99a9f06fbc717c4efe9ea7e41f8ff507ffc53c431e212389bf18a.json",
+      "attempts": 4
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/9b04edfe803eb8e388a96b160c2c1b2bf812aa39f205cb188b0926b86773f527.json",
+      "request_hash": "9b04edfe803eb8e388a96b160c2c1b2bf812aa39f205cb188b0926b86773f527"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/9b04edfe803eb8e388a96b160c2c1b2bf812aa39f205cb188b0926b86773f527.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/a70886d33678eab325719ac43ca9c058100c3955768b8739913e9daca00d3af4.json",
+      "request_hash": "a70886d33678eab325719ac43ca9c058100c3955768b8739913e9daca00d3af4"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/a70886d33678eab325719ac43ca9c058100c3955768b8739913e9daca00d3af4.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/bc6a950dcd614ff3772bcb249cfbae5b48b67a8cb7b976e4112dc0caa87d8cfc.json",
+      "request_hash": "bc6a950dcd614ff3772bcb249cfbae5b48b67a8cb7b976e4112dc0caa87d8cfc"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/bc6a950dcd614ff3772bcb249cfbae5b48b67a8cb7b976e4112dc0caa87d8cfc.json",
+      "attempts": 4
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/c30c632acebba9432d7060191ec02ba7db6833edcd6bcc03e451fb14edeb9214.json",
+      "request_hash": "c30c632acebba9432d7060191ec02ba7db6833edcd6bcc03e451fb14edeb9214"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/c30c632acebba9432d7060191ec02ba7db6833edcd6bcc03e451fb14edeb9214.json",
+      "attempts": 4
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/c980894ac69a1cb2e3ae19621e9719a9a2bc65bfcad0ef2ca15f38d1638b069c.json",
+      "request_hash": "c980894ac69a1cb2e3ae19621e9719a9a2bc65bfcad0ef2ca15f38d1638b069c"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/c980894ac69a1cb2e3ae19621e9719a9a2bc65bfcad0ef2ca15f38d1638b069c.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/cb28dcfb6e84ca8d26d9dea52e055a6f85ef80444bbe851896231c2a90cf1487.json",
+      "request_hash": "cb28dcfb6e84ca8d26d9dea52e055a6f85ef80444bbe851896231c2a90cf1487"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/cb28dcfb6e84ca8d26d9dea52e055a6f85ef80444bbe851896231c2a90cf1487.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/cdf7e475e2c41aff153bd2834b086ddfbf78eea51ed0998fb1d532facf5f71ef.json",
+      "request_hash": "cdf7e475e2c41aff153bd2834b086ddfbf78eea51ed0998fb1d532facf5f71ef"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/cdf7e475e2c41aff153bd2834b086ddfbf78eea51ed0998fb1d532facf5f71ef.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/d1349749761de01ff88cbcc68e8964163e6496d7e92856ec0827c39d2872370d.json",
+      "request_hash": "d1349749761de01ff88cbcc68e8964163e6496d7e92856ec0827c39d2872370d"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/d1349749761de01ff88cbcc68e8964163e6496d7e92856ec0827c39d2872370d.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/d508ca88b4e92a22db7197b98836a86ade7ca484c9160662e7a3e108dc9d3dc0.json",
+      "request_hash": "d508ca88b4e92a22db7197b98836a86ade7ca484c9160662e7a3e108dc9d3dc0"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/d508ca88b4e92a22db7197b98836a86ade7ca484c9160662e7a3e108dc9d3dc0.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/d9cab42634dd60bf26c42a5b619ee0ab46490fa031df6293019f4e010f03861b.json",
+      "request_hash": "d9cab42634dd60bf26c42a5b619ee0ab46490fa031df6293019f4e010f03861b"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/d9cab42634dd60bf26c42a5b619ee0ab46490fa031df6293019f4e010f03861b.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/df086ef81f3ec1128d53851f9dd89b7bfc362b5f450931bca27d560ee7ae9034.json",
+      "request_hash": "df086ef81f3ec1128d53851f9dd89b7bfc362b5f450931bca27d560ee7ae9034"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/df086ef81f3ec1128d53851f9dd89b7bfc362b5f450931bca27d560ee7ae9034.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/e01390b434a46ff5b4f12296d7758c158f9b11ecf46522304b9f328309817a48.json",
+      "request_hash": "e01390b434a46ff5b4f12296d7758c158f9b11ecf46522304b9f328309817a48"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/e01390b434a46ff5b4f12296d7758c158f9b11ecf46522304b9f328309817a48.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/e827b6bc341332e76294698e466ff9afe2fa12958b6cb9cb9a548a8113093585.json",
+      "request_hash": "e827b6bc341332e76294698e466ff9afe2fa12958b6cb9cb9a548a8113093585"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/e827b6bc341332e76294698e466ff9afe2fa12958b6cb9cb9a548a8113093585.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/ed7294743cd85e44033cedbd763ea3a06dbfd91abf766f005ae0e8e73a11c18c.json",
+      "request_hash": "ed7294743cd85e44033cedbd763ea3a06dbfd91abf766f005ae0e8e73a11c18c"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/ed7294743cd85e44033cedbd763ea3a06dbfd91abf766f005ae0e8e73a11c18c.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/f60559b628bea83424382915dfde1c59764c83beacab1cf56d33ebf838cfb390.json",
+      "request_hash": "f60559b628bea83424382915dfde1c59764c83beacab1cf56d33ebf838cfb390"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/http/f60559b628bea83424382915dfde1c59764c83beacab1cf56d33ebf838cfb390.json",
+      "attempts": 1
+    },
+    {
+      "check": "cached_request_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/taxonomy/http/8c7f44df24ab6264e885096e6e0986b1f40841595e361189ce4d24a489223398.json",
+      "request_hash": "8c7f44df24ab6264e885096e6e0986b1f40841595e361189ce4d24a489223398"
+    },
+    {
+      "check": "cached_response_attempts",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/cache/taxonomy/http/8c7f44df24ab6264e885096e6e0986b1f40841595e361189ce4d24a489223398.json",
+      "attempts": 1
+    },
+    {
+      "check": "cache_inventory",
+      "status": "passed",
+      "files": 40,
+      "bytes": 5569548
+    },
+    {
+      "check": "corpus_source_statuses",
+      "status": "passed",
+      "live_sources": 22,
+      "replay_sources": 22
+    },
+    {
+      "check": "corpus_ready_source_set",
+      "status": "passed"
+    },
+    {
+      "check": "corpus_text:PMC13098279",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC13098279.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC13098279.json",
+      "comparison": "byte_exact",
+      "live_sha256": "14ce82367ccce0089e10318c12673d26d35faf057002c1eb656cb9cf086b4a1d",
+      "replay_sha256": "14ce82367ccce0089e10318c12673d26d35faf057002c1eb656cb9cf086b4a1d"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC13098279"
+    },
+    {
+      "check": "corpus_text:PMC12756850",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC12756850.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC12756850.json",
+      "comparison": "byte_exact",
+      "live_sha256": "b29e85009d5e41481def6b71ad3ee6438e486f5d4dfac5d99a0a5ce5ffe81cdd",
+      "replay_sha256": "b29e85009d5e41481def6b71ad3ee6438e486f5d4dfac5d99a0a5ce5ffe81cdd"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12756850"
+    },
+    {
+      "check": "corpus_text:PMC12423291",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC12423291.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC12423291.json",
+      "comparison": "byte_exact",
+      "live_sha256": "777efcd4426c7ac149db3cc1f34a7b45d5d2af6ec0900b742074db5af61c41ee",
+      "replay_sha256": "777efcd4426c7ac149db3cc1f34a7b45d5d2af6ec0900b742074db5af61c41ee"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC12423291"
+    },
+    {
+      "check": "corpus_text:PMC11959280",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC11959280.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC11959280.json",
+      "comparison": "byte_exact",
+      "live_sha256": "3f19a2d32f3ddb7a398afa4294da9a405c6343de825436887113d840e595fba3",
+      "replay_sha256": "3f19a2d32f3ddb7a398afa4294da9a405c6343de825436887113d840e595fba3"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC11959280"
+    },
+    {
+      "check": "corpus_text:PMC11474983",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC11474983.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC11474983.json",
+      "comparison": "byte_exact",
+      "live_sha256": "520bb0674de7df125911ec64b4ff30313ead1ed8c7a3c7485626ae7e6f777cd7",
+      "replay_sha256": "520bb0674de7df125911ec64b4ff30313ead1ed8c7a3c7485626ae7e6f777cd7"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC11474983"
+    },
+    {
+      "check": "corpus_text:PMC11265373",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC11265373.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC11265373.json",
+      "comparison": "byte_exact",
+      "live_sha256": "7cdb91ebfae98911d5a8d87b8e5f97d424fb7b2569101bcb38ec0ac8bb8bd2c8",
+      "replay_sha256": "7cdb91ebfae98911d5a8d87b8e5f97d424fb7b2569101bcb38ec0ac8bb8bd2c8"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC11265373"
+    },
+    {
+      "check": "corpus_text:PMC10955170",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC10955170.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC10955170.json",
+      "comparison": "byte_exact",
+      "live_sha256": "5ef114847a27337689dfffea221c959cf922a47626a685951e8c6224fb3407ec",
+      "replay_sha256": "5ef114847a27337689dfffea221c959cf922a47626a685951e8c6224fb3407ec"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC10955170"
+    },
+    {
+      "check": "corpus_text:PMC10384482",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC10384482.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC10384482.json",
+      "comparison": "byte_exact",
+      "live_sha256": "33c68520f5a40f1d79d7dddfb1bb6496b645c5dbf8caf5c364d2ffaec1a097c1",
+      "replay_sha256": "33c68520f5a40f1d79d7dddfb1bb6496b645c5dbf8caf5c364d2ffaec1a097c1"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC10384482"
+    },
+    {
+      "check": "corpus_text:PMC9965205",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC9965205.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC9965205.json",
+      "comparison": "byte_exact",
+      "live_sha256": "fec8b0c3eac48666e76c467b164430b55f82663d8ab89c5fe0a2e06455cfd4ec",
+      "replay_sha256": "fec8b0c3eac48666e76c467b164430b55f82663d8ab89c5fe0a2e06455cfd4ec"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9965205"
+    },
+    {
+      "check": "corpus_text:PMC9907069",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC9907069.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC9907069.json",
+      "comparison": "byte_exact",
+      "live_sha256": "0168942a252ad1983bf815d0573ef6a72cc9f6b1114267483b1a8da889b44fc6",
+      "replay_sha256": "0168942a252ad1983bf815d0573ef6a72cc9f6b1114267483b1a8da889b44fc6"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9907069"
+    },
+    {
+      "check": "corpus_text:PMC9288931",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC9288931.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC9288931.json",
+      "comparison": "byte_exact",
+      "live_sha256": "ec0dd5f7ba9003ca286813eecab926611084dac8942937c808b58571187da788",
+      "replay_sha256": "ec0dd5f7ba9003ca286813eecab926611084dac8942937c808b58571187da788"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9288931"
+    },
+    {
+      "check": "corpus_text:PMC9029082",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC9029082.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC9029082.json",
+      "comparison": "byte_exact",
+      "live_sha256": "be916ad75c20e438c15b8d97104a7be1efe3518e28d97a12a7501d4ba194f6d6",
+      "replay_sha256": "be916ad75c20e438c15b8d97104a7be1efe3518e28d97a12a7501d4ba194f6d6"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC9029082"
+    },
+    {
+      "check": "corpus_text:PMC8930869",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8930869.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8930869.json",
+      "comparison": "byte_exact",
+      "live_sha256": "e8ad56367216def56c47663f4b23ca1d4a2043405b1e416afe14b6a63b5f1360",
+      "replay_sha256": "e8ad56367216def56c47663f4b23ca1d4a2043405b1e416afe14b6a63b5f1360"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8930869"
+    },
+    {
+      "check": "corpus_text:PMC8778871",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8778871.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8778871.json",
+      "comparison": "byte_exact",
+      "live_sha256": "9902bc170145c60d9d93ac3fa2e344f8ef8249cabca52049e28ced216f412827",
+      "replay_sha256": "9902bc170145c60d9d93ac3fa2e344f8ef8249cabca52049e28ced216f412827"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8778871"
+    },
+    {
+      "check": "corpus_text:PMC8689564",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8689564.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8689564.json",
+      "comparison": "byte_exact",
+      "live_sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c",
+      "replay_sha256": "9d009498657d9baf45a8018fda8e196d31856785c35d781729e6b73539684d2c"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8689564"
+    },
+    {
+      "check": "corpus_text:PMC8703566",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8703566.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8703566.json",
+      "comparison": "byte_exact",
+      "live_sha256": "612abae912564faaa8ea21390ddf5bac0350ad06d1d4694946a0e39d09c5f774",
+      "replay_sha256": "612abae912564faaa8ea21390ddf5bac0350ad06d1d4694946a0e39d09c5f774"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8703566"
+    },
+    {
+      "check": "corpus_text:PMC8444595",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8444595.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8444595.json",
+      "comparison": "byte_exact",
+      "live_sha256": "d9dd9916730ca23fd50f84351f31c0beabd859b5b0aca983a08fc2ed2c96c9da",
+      "replay_sha256": "d9dd9916730ca23fd50f84351f31c0beabd859b5b0aca983a08fc2ed2c96c9da"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8444595"
+    },
+    {
+      "check": "corpus_text:PMC8383443",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8383443.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8383443.json",
+      "comparison": "byte_exact",
+      "live_sha256": "00dbcd708478cd09be2b8b6d1908016f7bb4cc0d2f7435d8ac5f44b4d48ed0ec",
+      "replay_sha256": "00dbcd708478cd09be2b8b6d1908016f7bb4cc0d2f7435d8ac5f44b4d48ed0ec"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8383443"
+    },
+    {
+      "check": "corpus_text:PMC8400888",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8400888.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8400888.json",
+      "comparison": "byte_exact",
+      "live_sha256": "34987399916fedda806ae907af151bccac8509cbe05fa995d8b3451346aece34",
+      "replay_sha256": "34987399916fedda806ae907af151bccac8509cbe05fa995d8b3451346aece34"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8400888"
+    },
+    {
+      "check": "corpus_text:PMC8358438",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/corpus/texts/PMC8358438.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/corpus/texts/PMC8358438.json",
+      "comparison": "byte_exact",
+      "live_sha256": "c8f4b75d3badf5d8cfd3bfa51e43de61b027408df10a138fe14e9842ff896f13",
+      "replay_sha256": "c8f4b75d3badf5d8cfd3bfa51e43de61b027408df10a138fe14e9842ff896f13"
+    },
+    {
+      "check": "corpus_block_identity",
+      "status": "passed",
+      "source_id": "PMC8358438"
+    },
+    {
+      "check": "payload_approval_scope",
+      "status": "passed",
+      "approved_jobs": 11,
+      "selected_jobs": 11
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/reference_sources/extraction_payloads/74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f.json",
+      "input_hash": "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "CURRIE1999",
+      "input_hash": "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f",
+      "blocks_digest": "959d41d8d2ad9514be6c0f73701b63202a994feb7e5194bc7a2b84780cc54b38"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/reference_sources/extraction_payloads/dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1.json",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC2748230",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1",
+      "blocks_digest": "6c6e0e5c00db5ab5e9567452f28119beb3db72cc10e7bf49cc8fd825205fb37f"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189.json",
+      "input_hash": "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC13098279",
+      "input_hash": "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189",
+      "blocks_digest": "07a40ae428b993b916516aad8b5fee68d91fe679b8433565b8f93f2731adec8a"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753.json",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC13098279",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753",
+      "blocks_digest": "9f429fa544df04ed77aca8f66b7ac5815e7deebc6010d18b1a3a28b3326660cb"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7.json",
+      "input_hash": "dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC13098279",
+      "input_hash": "dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7",
+      "blocks_digest": "d914c465f8fc0938db7cddf1899060646f1883f826129f0afc8e313615c187d7"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b.json",
+      "input_hash": "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC10384482",
+      "input_hash": "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b",
+      "blocks_digest": "f83879e4656a6f295b092259dd77ddfe48cb1487234d9afe1549bf745c734dc2"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63.json",
+      "input_hash": "f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC10384482",
+      "input_hash": "f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63",
+      "blocks_digest": "9ed3bec437273430368e67c6cbb71cdc5bc4440ad9865b1360cb3cad598b1ff9"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e.json",
+      "input_hash": "103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC10384482",
+      "input_hash": "103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e",
+      "blocks_digest": "869814491bca9b088d079747938f94c0109fec6f4e3f3f127968fbeb561bec22"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12.json",
+      "input_hash": "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC8689564",
+      "input_hash": "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12",
+      "blocks_digest": "f0818b82fd2a69ff83106100b5dd59780e0ffc8b46d8c6cfd7813fd40899f55e"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759.json",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC8689564",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+      "blocks_digest": "66814895c4839be0431ac24a44bbceac0b1b985c54bca088d278792785bbab98"
+    },
+    {
+      "check": "payload_hash",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction_payloads/33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49.json",
+      "input_hash": "33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49"
+    },
+    {
+      "check": "payload_blocks_match_source",
+      "status": "passed",
+      "source_id": "PMC8689564",
+      "input_hash": "33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49",
+      "blocks_digest": "819fff8d6f02b2d9a228e3c7d2ab19892a2e04441de55d7e876fce93becec733"
+    },
+    {
+      "check": "extraction_replay:observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/observations.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+      "replay_sha256": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+      "live_records": 10,
+      "replay_records": 10
+    },
+    {
+      "check": "extraction_replay:rejections.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/rejections.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/rejections.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "3975d5739a069484eb37dc065d91cd187ba43307ff0c35384d553ac0d2e586d5",
+      "replay_sha256": "3975d5739a069484eb37dc065d91cd187ba43307ff0c35384d553ac0d2e586d5",
+      "live_records": 1,
+      "replay_records": 1
+    },
+    {
+      "check": "extraction_replay:failures.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/failures.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/failures.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "extraction_replay:job_status.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/job_status.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/job_status.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "ace9eaba8ce1b9a98c851c7d9ae6f1d80ccfef08c13bb5fdbf28b96ebd87dfad",
+      "replay_sha256": "ace9eaba8ce1b9a98c851c7d9ae6f1d80ccfef08c13bb5fdbf28b96ebd87dfad",
+      "live_records": 11,
+      "replay_records": 11
+    },
+    {
+      "check": "extraction_replay:partial_observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/partial_observations.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/partial_observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "extraction_replay:observations_progress.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/observations_progress.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/observations_progress.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+      "replay_sha256": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+      "live_records": 10,
+      "replay_records": 10
+    },
+    {
+      "check": "extraction_replay:metrics.json",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/metrics.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/metrics.json",
+      "comparison": "byte_exact",
+      "live_sha256": "e6893300c577e159f035ad45707ccd0d8c790db73115bbc09b58df8158cdf1c2",
+      "replay_sha256": "e6893300c577e159f035ad45707ccd0d8c790db73115bbc09b58df8158cdf1c2"
+    },
+    {
+      "check": "extraction_replay:run_manifest",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/run_manifest.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/run_manifest.json",
+      "comparison": "scientific_json",
+      "live_sha256": "c64b632830cdaf58fae3a42e1cb93390105a0ab53d3a5b13ccdec6622436bd04",
+      "replay_sha256": "87b133693a550026fa060e01f324b4affeaff74b4a8ef5948c9b71b94c62b9ac",
+      "live_scientific_hash": "250b9065b7a8072baddb63df3e05aa67c750e0aac3c1b1ae472ca21d42fc1fa2",
+      "replay_scientific_hash": "250b9065b7a8072baddb63df3e05aa67c750e0aac3c1b1ae472ca21d42fc1fa2",
+      "live_scientific_metrics": {
+        "jobs": 11,
+        "input_hashes": [
+          "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f",
+          "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1",
+          "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189",
+          "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753",
+          "dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7",
+          "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b",
+          "f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63",
+          "103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e",
+          "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12",
+          "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+          "33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49"
+        ],
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "grounding_version": "single_quote_v1",
+        "prompt_schema_comparability": "system_adapted; differs_from_leafcutter_default_contract",
+        "saverschek_v2_priority_status": "complete",
+        "metrics": {
+          "papers": 5,
+          "jobs": 11,
+          "candidate_records": 11,
+          "grounded_records": 10,
+          "retained_records": 10,
+          "retained_records_interpretation": "complete_source_grounded_records_before_semantic_review",
+          "complete_papers": 5,
+          "incomplete_papers": 0,
+          "complete_jobs": 11,
+          "rejected_candidates": 1,
+          "rejection_rate": 0.09090909090909091,
+          "response_failures": 0,
+          "blocked_reason": null,
+          "unattempted_jobs": 0
+        }
+      },
+      "replay_scientific_metrics": {
+        "jobs": 11,
+        "input_hashes": [
+          "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f",
+          "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1",
+          "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189",
+          "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753",
+          "dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7",
+          "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b",
+          "f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63",
+          "103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e",
+          "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12",
+          "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+          "33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49"
+        ],
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "grounding_version": "single_quote_v1",
+        "prompt_schema_comparability": "system_adapted; differs_from_leafcutter_default_contract",
+        "saverschek_v2_priority_status": "complete",
+        "metrics": {
+          "papers": 5,
+          "jobs": 11,
+          "candidate_records": 11,
+          "grounded_records": 10,
+          "retained_records": 10,
+          "retained_records_interpretation": "complete_source_grounded_records_before_semantic_review",
+          "complete_papers": 5,
+          "incomplete_papers": 0,
+          "complete_jobs": 11,
+          "rejected_candidates": 1,
+          "rejection_rate": 0.09090909090909091,
+          "response_failures": 0,
+          "blocked_reason": null,
+          "unattempted_jobs": 0
+        }
+      }
+    },
+    {
+      "check": "extraction_jobs_match_selection",
+      "status": "passed",
+      "completed": 11,
+      "total": 11
+    },
+    {
+      "check": "model_response_replay:74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f.json",
+      "comparison": "byte_exact",
+      "live_sha256": "3758101d1d6cb6dbbb50d64faf5aad5ec6ca1b9112c2ae317e44054f8c04ff27",
+      "replay_sha256": "3758101d1d6cb6dbbb50d64faf5aad5ec6ca1b9112c2ae317e44054f8c04ff27"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f",
+      "request_hash": "56867bdcc92e7e4239365a4a48242d8cd6ae30caf566b8f2534b3609fb355e59",
+      "cached_response_sha256": "9134b25c378d4af8cb13730affa584e2463f4534e075c52da96504cc55d0424f"
+    },
+    {
+      "check": "model_response_replay:dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1.json",
+      "comparison": "byte_exact",
+      "live_sha256": "1db7ee094ad066c370122e30d50fe78237bfcaff20ad46f5fa2841a4b0d91f58",
+      "replay_sha256": "1db7ee094ad066c370122e30d50fe78237bfcaff20ad46f5fa2841a4b0d91f58"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1",
+      "request_hash": "4404539232cc38a3f2e6c395d11c6cfc0991c41e62bdcb93ae47f4612080c65a",
+      "cached_response_sha256": "e4682335c80a79994b29366448be497c15b48138c9b754a79ca0ec1673d3d881"
+    },
+    {
+      "check": "model_response_replay:8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189.json",
+      "comparison": "byte_exact",
+      "live_sha256": "b402ab774bef27eb2441b21db859cb9bfaf097aed3543f951d94c7cde73b37de",
+      "replay_sha256": "b402ab774bef27eb2441b21db859cb9bfaf097aed3543f951d94c7cde73b37de"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189",
+      "request_hash": "f60559b628bea83424382915dfde1c59764c83beacab1cf56d33ebf838cfb390",
+      "cached_response_sha256": "2c74cea2fed1f37da61e0fc2a14dbf1a798db98aa73a1c3f440c4faf2598ea61"
+    },
+    {
+      "check": "model_response_replay:771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753.json",
+      "comparison": "byte_exact",
+      "live_sha256": "24338ba08e8b8fbba31d7fef8efc2ac98d6cdb6501893929858c1b5e6b65eb45",
+      "replay_sha256": "24338ba08e8b8fbba31d7fef8efc2ac98d6cdb6501893929858c1b5e6b65eb45"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753",
+      "request_hash": "179cfb08bf7658704987e61293d3fc897a2e22dfd07b740bc8cab4ee80d05804",
+      "cached_response_sha256": "d150a5b906c208cda828d59b17b666f822a2d95454474991680781b8e2cf4694"
+    },
+    {
+      "check": "model_response_replay:dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7.json",
+      "comparison": "byte_exact",
+      "live_sha256": "ab92d3bae433bc98f83b69b8f1043c4ad6de0a015fee14606ffdb0bb312d6c78",
+      "replay_sha256": "ab92d3bae433bc98f83b69b8f1043c4ad6de0a015fee14606ffdb0bb312d6c78"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7",
+      "request_hash": "6c6d203296331575b5fdc70a487c0a77f25d8f55dbc789bbe7526dbc66981586",
+      "cached_response_sha256": "30c5f2b15976a8bae13ae979f880ebb5e4f70b43ea445c4fc584f039b614540e"
+    },
+    {
+      "check": "model_response_replay:c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b.json",
+      "comparison": "byte_exact",
+      "live_sha256": "537e56dd0fb9d6fda8948b634a8acf3cf93d88d17fc3fc3bee2348c12fcd5717",
+      "replay_sha256": "537e56dd0fb9d6fda8948b634a8acf3cf93d88d17fc3fc3bee2348c12fcd5717"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b",
+      "request_hash": "97219d97d828a53ff2fb49b248623e8df804d2df72d30d017e5ab9836f4ffa72",
+      "cached_response_sha256": "5b2bb09dee58fa95af84b9603b28f07669abffc0d79441ba1fb4e3fd3dc8e857"
+    },
+    {
+      "check": "model_response_replay:f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63.json",
+      "comparison": "byte_exact",
+      "live_sha256": "8c23397f6ffaea715fcf9774929dbd657db3bebb6a9009e726c182e97aa886d6",
+      "replay_sha256": "8c23397f6ffaea715fcf9774929dbd657db3bebb6a9009e726c182e97aa886d6"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63",
+      "request_hash": "93b376b66d533f134fef044ba846f12d916e93be27577c09e819fe297d2be851",
+      "cached_response_sha256": "96cdaf1760447915c107d52f9e92992cd5c8d5cac99da660d9a25ef966464e76"
+    },
+    {
+      "check": "model_response_replay:103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e.json",
+      "comparison": "byte_exact",
+      "live_sha256": "5045f92030a3c9f528af816459a365a3365af7dd1dd60b7bbcc79e47a555f351",
+      "replay_sha256": "5045f92030a3c9f528af816459a365a3365af7dd1dd60b7bbcc79e47a555f351"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e",
+      "request_hash": "cdf7e475e2c41aff153bd2834b086ddfbf78eea51ed0998fb1d532facf5f71ef",
+      "cached_response_sha256": "44b48ea935770affb43654a8ff839c3a6c5ef3ee1bf5d2a8d5cd3d2accd984ba"
+    },
+    {
+      "check": "model_response_replay:e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12.json",
+      "comparison": "byte_exact",
+      "live_sha256": "bc903853638f24d88193b35528f3682b193936343553cf559aeeaf4d1fe039ec",
+      "replay_sha256": "bc903853638f24d88193b35528f3682b193936343553cf559aeeaf4d1fe039ec"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12",
+      "request_hash": "86d0132cb2dbee7627219bb012ea26d22ab4e0e258247c0df4f6c1e8d12e8eca",
+      "cached_response_sha256": "792a6f534d506d8d709d86edac1fdbf7705e388f387fa62a7dd5f879a7dea3cb"
+    },
+    {
+      "check": "model_response_replay:691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759.json",
+      "comparison": "byte_exact",
+      "live_sha256": "51cf0dc6bf0261a5588be203199100dbd25558058d96bb85275563376e74ce07",
+      "replay_sha256": "51cf0dc6bf0261a5588be203199100dbd25558058d96bb85275563376e74ce07"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759",
+      "request_hash": "77588fc33898fdc39f00ed6580fec262b9b75933fd452cff7270a7bf5d95d9d4",
+      "cached_response_sha256": "5e360c0d5f6bda1d4393496b7ead68e918043c2634c1d76f3650f523bee95d45"
+    },
+    {
+      "check": "model_response_replay:33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/extraction/responses/33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/extraction/responses/33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49.json",
+      "comparison": "byte_exact",
+      "live_sha256": "b820a698277c38d0f974fbb8c3ff02aa4a9e953463d1f64b25bbe418d8a76c3e",
+      "replay_sha256": "b820a698277c38d0f974fbb8c3ff02aa4a9e953463d1f64b25bbe418d8a76c3e"
+    },
+    {
+      "check": "model_response_input_identity",
+      "status": "passed",
+      "input_hash": "33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49"
+    },
+    {
+      "check": "model_request_matches_payload",
+      "status": "passed",
+      "input_hash": "33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49"
+    },
+    {
+      "check": "model_response_matches_cache",
+      "status": "passed",
+      "input_hash": "33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49",
+      "request_hash": "c980894ac69a1cb2e3ae19621e9719a9a2bc65bfcad0ef2ca15f38d1638b069c",
+      "cached_response_sha256": "f2e07fa77917ffbaf7dbf21b733577aaea35871e8fca900adf142449969d314f"
+    },
+    {
+      "check": "model_response_file_set",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/extraction",
+      "files": 11,
+      "expected": 11
+    },
+    {
+      "check": "model_response_file_set",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/offline_replay/extraction",
+      "files": 11,
+      "expected": 11
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e",
+      "input_hash": "dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "329abdd3e6632d8d109922fc803f0d69b4d7ee7b947f565b96e5276b798bebf2",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "329abdd3e6632d8d109922fc803f0d69b4d7ee7b947f565b96e5276b798bebf2",
+      "input_hash": "8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "71f57e3566ef0fa46aa3db44d3f838613e53303a9928d7d2fa7d50fd0c718a15",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "71f57e3566ef0fa46aa3db44d3f838613e53303a9928d7d2fa7d50fd0c718a15",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "6d6b5479a3f72359c788bbf01215728695d395b9cd1a2a3dfa53ca5672cf28c1",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "6d6b5479a3f72359c788bbf01215728695d395b9cd1a2a3dfa53ca5672cf28c1",
+      "input_hash": "771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "b909994a2d7f929467c79b5e6d595c69b57dc1a5214aea5d565845526dfca15b",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "b909994a2d7f929467c79b5e6d595c69b57dc1a5214aea5d565845526dfca15b",
+      "input_hash": "c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "e6dbd8242865c85c5ac38cabcd186e68d13787d22407c5fa6c2161f069f2a019",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "e6dbd8242865c85c5ac38cabcd186e68d13787d22407c5fa6c2161f069f2a019",
+      "input_hash": "e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "97376a7596dee491b5d00cab9be98be51d9e44e3084f31062f8116d9cb7ccb52",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "97376a7596dee491b5d00cab9be98be51d9e44e3084f31062f8116d9cb7ccb52",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "b1527d731386132cd7bbf13a800f1dbdcdd288981ab10637ba104a8db9e39d9e",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "b1527d731386132cd7bbf13a800f1dbdcdd288981ab10637ba104a8db9e39d9e",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "8d3be3a7f056c9ad459bda876e98cdd2f5b1df268ce6c1a2c0544885a8528309",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "8d3be3a7f056c9ad459bda876e98cdd2f5b1df268ce6c1a2c0544885a8528309",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759"
+    },
+    {
+      "check": "retained_quote_grounding",
+      "status": "passed",
+      "record_id": "2de86549feb977111a081ab1060385ef5f9af7bdc1065c6ea810826f08cdecbe",
+      "reason": null
+    },
+    {
+      "check": "grounded_record_response_provenance",
+      "status": "passed",
+      "record_id": "2de86549feb977111a081ab1060385ef5f9af7bdc1065c6ea810826f08cdecbe",
+      "input_hash": "691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759"
+    },
+    {
+      "check": "semantic_record_ids_unique",
+      "status": "passed"
+    },
+    {
+      "check": "semantic_raw_fields_unchanged",
+      "status": "passed",
+      "record_id": "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e"
+    },
+    {
+      "check": "semantic_raw_fields_unchanged",
+      "status": "passed",
+      "record_id": "329abdd3e6632d8d109922fc803f0d69b4d7ee7b947f565b96e5276b798bebf2"
+    },
+    {
+      "check": "semantic_raw_fields_unchanged",
+      "status": "passed",
+      "record_id": "97376a7596dee491b5d00cab9be98be51d9e44e3084f31062f8116d9cb7ccb52"
+    },
+    {
+      "check": "semantic_raw_fields_unchanged",
+      "status": "passed",
+      "record_id": "b1527d731386132cd7bbf13a800f1dbdcdd288981ab10637ba104a8db9e39d9e"
+    },
+    {
+      "check": "semantic_raw_fields_unchanged",
+      "status": "passed",
+      "record_id": "8d3be3a7f056c9ad459bda876e98cdd2f5b1df268ce6c1a2c0544885a8528309"
+    },
+    {
+      "check": "semantic_review_actual_counts",
+      "status": "passed",
+      "raw_grounded": 10,
+      "semantic_included": 5
+    },
+    {
+      "check": "downstream_metrics:taxonomy",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/taxonomy/metrics.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/taxonomy/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "2d4de2b5213812dda16aad63cbaa330d56fa986460dc8b9fac3a2efb3cd18f75",
+      "replay_sha256": "9fca08a9d24b9bc2019d104a54083306afd18956eb27118def2a578e8b8a1ff0",
+      "live_scientific_hash": "6aea4e8a43c5144098b68777075c3bf4791ed131f49e751886ac61f7aaa28427",
+      "replay_scientific_hash": "6aea4e8a43c5144098b68777075c3bf4791ed131f49e751886ac61f7aaa28427",
+      "live_scientific_metrics": {
+        "matched_observations": 0,
+        "review_observations": 5,
+        "unique_names": 1,
+        "status": "complete",
+        "blocked_reason": null,
+        "incomplete_reason": null,
+        "failed_observations": 0,
+        "system": "attine_actino",
+        "kingdom": "Bacteria",
+        "resolved_taxa": 0,
+        "input_sha256": "0d986cfe447e5d060e9ebaf59b16f690fc18bc5322005b75f24cb89658093ba5"
+      },
+      "replay_scientific_metrics": {
+        "matched_observations": 0,
+        "review_observations": 5,
+        "unique_names": 1,
+        "status": "complete",
+        "blocked_reason": null,
+        "incomplete_reason": null,
+        "failed_observations": 0,
+        "system": "attine_actino",
+        "kingdom": "Bacteria",
+        "resolved_taxa": 0,
+        "input_sha256": "0d986cfe447e5d060e9ebaf59b16f690fc18bc5322005b75f24cb89658093ba5"
+      }
+    },
+    {
+      "check": "downstream_records:taxonomy/observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/taxonomy/observations.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/taxonomy/observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:taxonomy/review.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/taxonomy/review.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/taxonomy/review.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "bd88bfe4f374bb206f4474c9db8ea938d803d5f2493572dc91aaa76390672b26",
+      "replay_sha256": "bd88bfe4f374bb206f4474c9db8ea938d803d5f2493572dc91aaa76390672b26",
+      "live_records": 5,
+      "replay_records": 5
+    },
+    {
+      "check": "downstream_metrics:behaviour",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/behaviour/metrics.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/behaviour/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "f7affd8794317c71523862af493e17b38063a275bff78bc2bb2720d338363fee",
+      "replay_sha256": "6b0a943101c8c3e756f0c2d86e5d4d0201ae1119841ef9151d831944cd7c5bbc",
+      "live_scientific_hash": "b1fe3f600cfe7ec75548c8ec568780800e875a0bc62ffdaf7e3828d338fb37c4",
+      "replay_scientific_hash": "b1fe3f600cfe7ec75548c8ec568780800e875a0bc62ffdaf7e3828d338fb37c4",
+      "live_scientific_metrics": {
+        "status": "complete",
+        "blocked_reason": null,
+        "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "resolved_observations": 0,
+        "duplicate_observations": 0,
+        "resolved_genera": 0,
+        "eligible_genera": 0,
+        "accepted_genera": 0,
+        "rejected_genera": 0,
+        "conflict_genera": 0,
+        "unknown_genera": 0,
+        "focal_eligible_genera": 0,
+        "infection_comparison_eligible_genera": 0,
+        "ancillary_oviposition_genera": 0,
+        "direct_directional_observations": 0,
+        "unknown_direction_observations": 0,
+        "ineligible_observations": 0
+      },
+      "replay_scientific_metrics": {
+        "status": "complete",
+        "blocked_reason": null,
+        "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "resolved_observations": 0,
+        "duplicate_observations": 0,
+        "resolved_genera": 0,
+        "eligible_genera": 0,
+        "accepted_genera": 0,
+        "rejected_genera": 0,
+        "conflict_genera": 0,
+        "unknown_genera": 0,
+        "focal_eligible_genera": 0,
+        "infection_comparison_eligible_genera": 0,
+        "ancillary_oviposition_genera": 0,
+        "direct_directional_observations": 0,
+        "unknown_direction_observations": 0,
+        "ineligible_observations": 0
+      }
+    },
+    {
+      "check": "downstream_records:behaviour/conflicts.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/behaviour/conflicts.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/behaviour/conflicts.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:behaviour/duplicates.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/behaviour/duplicates.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/behaviour/duplicates.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:behaviour/genera.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/behaviour/genera.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/behaviour/genera.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:behaviour/genus_coverage.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/behaviour/genus_coverage.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/behaviour/genus_coverage.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:behaviour/observations.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/behaviour/observations.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/behaviour/observations.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_records:behaviour/review.jsonl",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/behaviour/review.jsonl",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/behaviour/review.jsonl",
+      "comparison": "byte_exact",
+      "live_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "live_records": 0,
+      "replay_records": 0
+    },
+    {
+      "check": "downstream_metrics:chemistry",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/chemistry/metrics.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/chemistry/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "10bc7b23eaf6874e1c9adaa10bd58b4170af9455ab1c454bca1f0e2a100ae0dc",
+      "replay_sha256": "10bc7b23eaf6874e1c9adaa10bd58b4170af9455ab1c454bca1f0e2a100ae0dc",
+      "live_scientific_hash": "acaf96b95d4be1ce8728df7bef1bfdcd36d563794aae6b6380f24b9d5c8fcb4f",
+      "replay_scientific_hash": "acaf96b95d4be1ce8728df7bef1bfdcd36d563794aae6b6380f24b9d5c8fcb4f",
+      "live_scientific_metrics": {
+        "status": "not_applicable",
+        "blocked_reason": "disabled_in_system_config"
+      },
+      "replay_scientific_metrics": {
+        "status": "not_applicable",
+        "blocked_reason": "disabled_in_system_config"
+      }
+    },
+    {
+      "check": "downstream_metrics:bioactivity",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/bioactivity/metrics.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/bioactivity/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "10bc7b23eaf6874e1c9adaa10bd58b4170af9455ab1c454bca1f0e2a100ae0dc",
+      "replay_sha256": "10bc7b23eaf6874e1c9adaa10bd58b4170af9455ab1c454bca1f0e2a100ae0dc",
+      "live_scientific_hash": "acaf96b95d4be1ce8728df7bef1bfdcd36d563794aae6b6380f24b9d5c8fcb4f",
+      "replay_scientific_hash": "acaf96b95d4be1ce8728df7bef1bfdcd36d563794aae6b6380f24b9d5c8fcb4f",
+      "live_scientific_metrics": {
+        "status": "not_applicable",
+        "blocked_reason": "disabled_in_system_config"
+      },
+      "replay_scientific_metrics": {
+        "status": "not_applicable",
+        "blocked_reason": "disabled_in_system_config"
+      }
+    },
+    {
+      "check": "downstream_metrics:assay_scope",
+      "status": "passed",
+      "live_path": "data/interim/systems/attine_actino/assay_scope/metrics.json",
+      "replay_path": "data/interim/systems/attine_actino/offline_replay/assay_scope/metrics.json",
+      "comparison": "scientific_json",
+      "live_sha256": "10bc7b23eaf6874e1c9adaa10bd58b4170af9455ab1c454bca1f0e2a100ae0dc",
+      "replay_sha256": "10bc7b23eaf6874e1c9adaa10bd58b4170af9455ab1c454bca1f0e2a100ae0dc",
+      "live_scientific_hash": "acaf96b95d4be1ce8728df7bef1bfdcd36d563794aae6b6380f24b9d5c8fcb4f",
+      "replay_scientific_hash": "acaf96b95d4be1ce8728df7bef1bfdcd36d563794aae6b6380f24b9d5c8fcb4f",
+      "live_scientific_metrics": {
+        "status": "not_applicable",
+        "blocked_reason": "disabled_in_system_config"
+      },
+      "replay_scientific_metrics": {
+        "status": "not_applicable",
+        "blocked_reason": "disabled_in_system_config"
+      }
+    },
+    {
+      "check": "control_document_digest",
+      "status": "passed",
+      "source_id": "CURRIE1999",
+      "document_digest": "c8ebcdd6f349ab152db293544ec28c4342a08671b9aa1ba37a01203371417923",
+      "blocks_digest": "959d41d8d2ad9514be6c0f73701b63202a994feb7e5194bc7a2b84780cc54b38"
+    },
+    {
+      "check": "control_pdf_checksum",
+      "status": "passed",
+      "path": "data/interim/systems/attine_actino/reference_sources/currie_1999/source.pdf"
+    },
+    {
+      "check": "control_document_digest",
+      "status": "passed",
+      "source_id": "PMC2748230",
+      "document_digest": "3a7ecb8058016b8409b0f54a8c8cec4443f1ae33f138ddea568f43215bfa6e41",
+      "blocks_digest": "6c6e0e5c00db5ab5e9567452f28119beb3db72cc10e7bf49cc8fd825205fb37f"
+    },
+    {
+      "check": "control_bioc_cache",
+      "status": "passed",
+      "source_id": "PMC2748230",
+      "path": "data/interim/systems/attine_actino/cache/http/e827b6bc341332e76294698e466ff9afe2fa12958b6cb9cb9a548a8113093585.json"
+    },
+    {
+      "check": "frozen_primary_file",
+      "status": "passed",
+      "path": "docs/analysis_plan.md",
+      "commit": "98b5e09",
+      "expected_sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d"
+    },
+    {
+      "check": "frozen_primary_file",
+      "status": "passed",
+      "path": "config/analysis.json",
+      "commit": "98b5e09",
+      "expected_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9"
+    },
+    {
+      "check": "primary_recorded_hashes_available",
+      "status": "passed",
+      "inputs": 28
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "config/pilot_screening.json",
+      "expected_sha256": "93ed535fd4ffdc39564372d3e56de9826c4b167a06a141c1ed8a3c9e8aa58643",
+      "sha256": "93ed535fd4ffdc39564372d3e56de9826c4b167a06a141c1ed8a3c9e8aa58643"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/corpus/manifest.jsonl",
+      "expected_sha256": "9eefbbe489358f3bc8105a590043d78dc28fd15cb7acb6ca042923c3175fc065",
+      "sha256": "9eefbbe489358f3bc8105a590043d78dc28fd15cb7acb6ca042923c3175fc065"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/corpus_targeted_saverschek/manifest.jsonl",
+      "expected_sha256": "1e7dec315c7f2f0428644a06419a9864ec8abe7f5b06cf97677dd7293f174767",
+      "sha256": "1e7dec315c7f2f0428644a06419a9864ec8abe7f5b06cf97677dd7293f174767"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_gemini/metrics.json",
+      "expected_sha256": "6e06622a83470945516cc3539a50dbe32228db6e2225ade5be3da383267b6d34",
+      "sha256": "6e06622a83470945516cc3539a50dbe32228db6e2225ade5be3da383267b6d34"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_gemini/semantic_review_observations.jsonl",
+      "expected_sha256": "80d80534d1bf7cb69dacf478bd2efc4b98ed15e45fa3c8d641a6662f14b2d9f0",
+      "sha256": "80d80534d1bf7cb69dacf478bd2efc4b98ed15e45fa3c8d641a6662f14b2d9f0"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_saverschek/metrics.json",
+      "expected_sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871",
+      "sha256": "1cc98919db411e4315fd62588e8534fee6539066a66c55b7c2b857c265c52871"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/extraction_saverschek/semantic_review_observations.jsonl",
+      "expected_sha256": "6223434bbc33e193dd0693f24f15b14a1e844b32b4f1c8906c2a0b584ac50a8c",
+      "sha256": "6223434bbc33e193dd0693f24f15b14a1e844b32b4f1c8906c2a0b584ac50a8c"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/pending_evidence_review/corpus/manifest.jsonl",
+      "expected_sha256": "ca43ca3a53b762e13c498256c95b1b329f4107dddb3b6cb16e01ec31c0c6c8ca",
+      "sha256": "ca43ca3a53b762e13c498256c95b1b329f4107dddb3b6cb16e01ec31c0c6c8ca"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/saverschek_audit/taxonomy/review.jsonl",
+      "expected_sha256": "65e4da5beb63cdc27d8b66caaa6a83bccf7c982288ce8c7d219a115b0718997a",
+      "sha256": "65e4da5beb63cdc27d8b66caaa6a83bccf7c982288ce8c7d219a115b0718997a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/taxonomy_pilot/observations.jsonl",
+      "expected_sha256": "40bccd963248ff6f761cbcdc9f09f0d9e5ad7175b199e806ff4ca9cd51a853de",
+      "sha256": "40bccd963248ff6f761cbcdc9f09f0d9e5ad7175b199e806ff4ca9cd51a853de"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/taxonomy_recovered/observations.jsonl",
+      "expected_sha256": "afb6211a90ee0fa9de5e56b18b95375632d6ef42ee8c8246e8f316d7b2fad33a",
+      "sha256": "afb6211a90ee0fa9de5e56b18b95375632d6ef42ee8c8246e8f316d7b2fad33a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/interim/taxonomy_saverschek/observations.jsonl",
+      "expected_sha256": "54d238e722285c0be6f573bea069e9ae96253c96a69c6f5063a9509829b0723a",
+      "sha256": "54d238e722285c0be6f573bea069e9ae96253c96a69c6f5063a9509829b0723a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/all_genera.jsonl",
+      "expected_sha256": "cab7d38ea4153dd5fbf0d9ddea6954d73e135d04ea4b85eb2a0b82eaf7d4a4bd",
+      "sha256": "cab7d38ea4153dd5fbf0d9ddea6954d73e135d04ea4b85eb2a0b82eaf7d4a4bd"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/conflicts.jsonl",
+      "expected_sha256": "413500ffc5a549b4dc75ca25ea9a6396ff4f53b7b99a98a914039bd50e51ff2e",
+      "sha256": "413500ffc5a549b4dc75ca25ea9a6396ff4f53b7b99a98a914039bd50e51ff2e"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/genera.jsonl",
+      "expected_sha256": "e89c8c4a82ee96ca3a5770a3701f0610b60a69d248fb85eb23ede536d86c901a",
+      "sha256": "e89c8c4a82ee96ca3a5770a3701f0610b60a69d248fb85eb23ede536d86c901a"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/metrics.json",
+      "expected_sha256": "4002be6c0a7f250f9ca4733f4d515aaac16a13901558ce572bf7041e189eadbf",
+      "sha256": "4002be6c0a7f250f9ca4733f4d515aaac16a13901558ce572bf7041e189eadbf"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/observations.jsonl",
+      "expected_sha256": "53cbc79b3658d574e5769b834d37b8f690e19628b0d9cdcefdf5f6efa927a2a5",
+      "sha256": "53cbc79b3658d574e5769b834d37b8f690e19628b0d9cdcefdf5f6efa927a2a5"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/behaviour/run_manifest.json",
+      "expected_sha256": "d17d8a0c2fd674ba79776d05831a511d6e8f32baee6e11bdc755a87ac354e5e8",
+      "sha256": "d17d8a0c2fd674ba79776d05831a511d6e8f32baee6e11bdc755a87ac354e5e8"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/bioactivity/labels.jsonl",
+      "expected_sha256": "95c7aac2c46bda48cbb112299aefe7c84f869fa567374ca6944234ce73c59b4d",
+      "sha256": "95c7aac2c46bda48cbb112299aefe7c84f869fa567374ca6944234ce73c59b4d"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/bioactivity/metrics.json",
+      "expected_sha256": "143d16707ea5f75bd88d9b388c890be6c31b74f0b925c111a95b02065d59e7d9",
+      "sha256": "143d16707ea5f75bd88d9b388c890be6c31b74f0b925c111a95b02065d59e7d9"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/bioactivity/run_manifest.json",
+      "expected_sha256": "442de21eb904b4674442266313e93747926096eb15f70ed90e11459ec937e7d5",
+      "sha256": "442de21eb904b4674442266313e93747926096eb15f70ed90e11459ec937e7d5"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/chemistry/metrics.json",
+      "expected_sha256": "db3081b0290d282a198ae8327c5b6843659b3520dcf2fdd16b7891475d42c650",
+      "sha256": "db3081b0290d282a198ae8327c5b6843659b3520dcf2fdd16b7891475d42c650"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/chemistry/occurrences.jsonl",
+      "expected_sha256": "5b22d4cd15a6ce08f880bc079ec6ada48f53c4991155847f2bf851699c5cc400",
+      "sha256": "5b22d4cd15a6ce08f880bc079ec6ada48f53c4991155847f2bf851699c5cc400"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "data/processed/chemistry/run_manifest.json",
+      "expected_sha256": "db87cb865a102058959cd4464132862faccd1862ba8603f25c6c7604c313438f",
+      "sha256": "db87cb865a102058959cd4464132862faccd1862ba8603f25c6c7604c313438f"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "results/primary/summary.json",
+      "expected_sha256": "bb4dc17b69f5ab53ef7c38aa074b2716ae19e0cf7f25874d72721f270eb983c2",
+      "sha256": "bb4dc17b69f5ab53ef7c38aa074b2716ae19e0cf7f25874d72721f270eb983c2"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "results/saverschek_audit/summary.json",
+      "expected_sha256": "b029924d72026f5629a271f647e7aa4e11aa5330b77b9ab072a4aa30bc005ded",
+      "sha256": "b029924d72026f5629a271f647e7aa4e11aa5330b77b9ab072a4aa30bc005ded"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "docs/analysis_plan.md",
+      "expected_sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d"
+    },
+    {
+      "check": "primary_recorded_input_checksum",
+      "status": "passed",
+      "path": "config/analysis.json",
+      "expected_sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9"
+    }
+  ]
+}

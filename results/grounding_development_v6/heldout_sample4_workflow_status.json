@@ -1,0 +1,84 @@
+{
+  "status": "complete",
+  "score_path": "results/grounding_development_v6/heldout_sample4_scores.json",
+  "score_sha256": "b45d43aeb292ad89a1e9dd53d5ae8854e43b6948453a5bc46b78d19acaaa6dc8",
+  "blocked_reason": null,
+  "sample4_groups": {
+    "PRIMARY": {
+      "species_denominator": 6,
+      "species_direction_pair_denominator": 6,
+      "unscorable_species": [],
+      "reference_provenance_species": {
+        "author_prose": 2,
+        "table_derived": 4
+      },
+      "table_membership_dependent_species": 4,
+      "stages": {
+        "detection": {
+          "species_count": 2,
+          "species_direction_pair_count": 2
+        },
+        "survival": {
+          "species_count": 2,
+          "species_direction_pair_count": 2
+        },
+        "correctness": {
+          "species_count": 2,
+          "species_direction_pair_count": 2
+        }
+      }
+    },
+    "CONTEXT": {
+      "species_denominator": 5,
+      "species_direction_pair_denominator": 10,
+      "unscorable_species": [],
+      "reference_provenance_species": {
+        "author_prose": 4,
+        "table_derived": 1
+      },
+      "table_membership_dependent_species": 1,
+      "stages": {
+        "detection": {
+          "species_count": 2,
+          "species_direction_pair_count": 3,
+          "direction_coverage": {
+            "both_directions_surfaced": 1,
+            "collapsed_to_one": 1,
+            "absent": 3,
+            "unscorable": 0
+          }
+        },
+        "survival": {
+          "species_count": 2,
+          "species_direction_pair_count": 3,
+          "direction_coverage": {
+            "both_directions_surfaced": 1,
+            "collapsed_to_one": 1,
+            "absent": 3,
+            "unscorable": 0
+          }
+        },
+        "correctness": {
+          "species_count": 2,
+          "species_direction_pair_count": 3,
+          "direction_coverage": {
+            "both_directions_surfaced": 1,
+            "collapsed_to_one": 1,
+            "absent": 3,
+            "unscorable": 0
+          }
+        }
+      }
+    }
+  },
+  "sample4_stage_yield": {
+    "status": "complete",
+    "blocked_reason": null,
+    "grounding_passes": 7,
+    "candidate_records": 13,
+    "grounding_failures": 6,
+    "interpretation": "Candidate stage yield includes outside-panel proposals."
+  },
+  "finished_at": "2026-09-13T19:29:02.787287+00:00",
+  "seconds_remaining": 4862.21271
+}

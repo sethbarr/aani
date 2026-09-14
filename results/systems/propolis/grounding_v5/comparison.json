@@ -1,0 +1,500 @@
+{
+  "status": "passed",
+  "metrics": {
+    "system": "propolis",
+    "mode": "printable_confusables_v5_on_system_single_quote_v1",
+    "status": "complete",
+    "blocked_reason": null,
+    "offline": true,
+    "model_calls": 0,
+    "network_calls": 0,
+    "jobs_replayed": 12,
+    "candidate_records": 2,
+    "v4_accepted": 0,
+    "v5_accepted": 2,
+    "exact_grounding_routes": 0,
+    "control_glyph_grounding_routes": 0,
+    "printable_confusable_grounding_routes": 2,
+    "newly_accepted_record_ids": [
+      "aa19e89f5e021b21acc17a632f3ce1c1e136729c50accae361c364ca0c0b5463",
+      "c68fed94ca9a7e7259b2cdc0d79f9c297404187c5e032ef1d0f82d4c615d0e34"
+    ],
+    "lost_record_ids": [],
+    "unchanged_record_ids": [],
+    "direction_changes": [],
+    "semantic_review": {
+      "grounding_passes_advancing": 2,
+      "reviewed": 2,
+      "semantic_secondary": 2,
+      "semantic_direct_observations": 0,
+      "focal_eligible": 0,
+      "focal_retained": 0
+    }
+  },
+  "byte_comparisons": [
+    {
+      "path": "observations.jsonl",
+      "sha256": "a3972e198b0cd1da1ff0cdacee3c4f17f5153f25e0cd6a56a92d7a1fecf7cb82",
+      "identical": true
+    },
+    {
+      "path": "candidate_audit.jsonl",
+      "sha256": "ada99cea4378bdfc1b78219435b41466f73dce532876714a1150cbf2ff93da04",
+      "identical": true
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "006ac1d48c39e084edcedb6e9381e2fb9f45d84cc19be921f6d59063fc9e4b51",
+      "identical": true
+    },
+    {
+      "path": "job_status.jsonl",
+      "sha256": "57859e7ee788574913ad646f8c7d4cc5f059c5bbdbad1b0c156f624601e6e4ab",
+      "identical": true
+    },
+    {
+      "path": "semantic_review.json",
+      "sha256": "1b0a3c57508696881660eb7c560ef6b73a045afea7ffd0756eae38844d008ebd",
+      "identical": true
+    },
+    {
+      "path": "jobs/03b8e990b4ba5e2a48f164ba552d01b3e38253e57e4b596ef8bc0f5318cf5299.json",
+      "sha256": "9329fc50b43f54f6820d596fe2c2ca080ed9fab2b170e7a7a41815e0acb65e30",
+      "identical": true
+    },
+    {
+      "path": "jobs/30d1f381b27b7f94010108e94c311f82a9818351a6091bf41d47b01ea2279681.json",
+      "sha256": "8fac4832ee41443b623f9fd9ed74b2cf7637441537360352921411b08c645b51",
+      "identical": true
+    },
+    {
+      "path": "jobs/331022cf6f8e2db380dbc8fda0b33b08404f6fd01c652aab7992cf2d92d32615.json",
+      "sha256": "ed90675e43a415ac0bf642f104530bfa3191ba50e12ac7919d16b4a0621181b7",
+      "identical": true
+    },
+    {
+      "path": "jobs/4616acdd4e974d6eb616e2994c0bdbb80279310ca24e6e0f83fcf287d2cdd888.json",
+      "sha256": "84245890bcbb1af0d3c679fe779cf7ac6d53e1b173204fae9d9ec19dc9377093",
+      "identical": true
+    },
+    {
+      "path": "jobs/4eca6f80770303465f2771120549564a6625d0821c663a0b492f3192c8564ff2.json",
+      "sha256": "7e29552ca24dbe3b882af082d2c10d593487c769662b8b7ea8b0c46a31cfd946",
+      "identical": true
+    },
+    {
+      "path": "jobs/6445068b8ec8990728336bc2b958f18634bc4d71f732736e036c12717b702fdc.json",
+      "sha256": "8a2e6fc56fc628075c4c78b0a43c3701fb3932c06096cc2a1596e8056a6ad19d",
+      "identical": true
+    },
+    {
+      "path": "jobs/7a576dee52dc360213a593b85addbd99292ad2a56fb6b3d68228503232b41057.json",
+      "sha256": "af4396b164607dd3cab3c5c76554779fbec98a9a43434caeca82d0b3eba05164",
+      "identical": true
+    },
+    {
+      "path": "jobs/adf329ef42ff98e6e1c66e32fb46a49487a3d9daca9e04099e110f23075f7e39.json",
+      "sha256": "19e5483f6d0794a1df2d928306034f1f94465ec78c289e6ef19610b9b0b91291",
+      "identical": true
+    },
+    {
+      "path": "jobs/c7c2d1ea206097368dc2f981e68906e3a5cb75a6f44303cd114be3f56d83de69.json",
+      "sha256": "a853a9a8fc109da22b3feb7925786101c130762a800d3482179830fda4e3ebd8",
+      "identical": true
+    },
+    {
+      "path": "jobs/d3340158d8418cde571c6baef2b85e2aa897f9808189a610e1d3bb870cc59f02.json",
+      "sha256": "2a79d22037a6f566901b038c0a90c0ab20d841364d1845cebfa0f2bcf26d5660",
+      "identical": true
+    },
+    {
+      "path": "jobs/eb863f42b8978353110a1b56ba4143b09add49ae67ee617bdb9a0d7d8f44186f.json",
+      "sha256": "569c3c8594f4c5eb1d49384031cd08705c4217d81c23c0ae48e506565da9491d",
+      "identical": true
+    },
+    {
+      "path": "jobs/f15b28d020400ff109467504522d9ad9c753d7943bda0a027ab83cb15bffa081.json",
+      "sha256": "6e5429ed45494d30e4fc94fa2444355fd7654c4afc12715957301bc640392a61",
+      "identical": true
+    }
+  ],
+  "protected_inputs": [
+    {
+      "path": "config/analysis.json",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "unchanged": true
+    },
+    {
+      "path": "config/grounding_glyphs_v4.json",
+      "sha256": "0951f604d10acd1f9fdea61c13e93cbaa86cda5986dd385c0395a8cd62e77061",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/failures.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/job_status.jsonl",
+      "sha256": "54bf57c71932cf16b67f58d1f36c0d89897efc5bdc100eeb83c4df87a4d8b21b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/metrics.json",
+      "sha256": "0d27f0e2d6230b120671105ba1c43ef1bb812776c26403fc825c3074901239e8",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/observations.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/observations_progress.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/partial_observations.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/rejections.jsonl",
+      "sha256": "64f6af7454f1d18c74c400450cc7fef9daacc793b47187ab4da47c63a39ee315",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/11166b3af0057bdac25cd2df9173fd3eb57dcb3d07475de2496b0bc85a50922c.json",
+      "sha256": "039cbaef2d4407edc8b26b637e56ba8c3409949f9d925379dfe58c59739664eb",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/2c771bba93a66b4dcd8824fa5909be3a808931118c46641a3f6bba898c26091f.json",
+      "sha256": "570ac58bae9aba2f85cd5f2a51fec9b1f95b5ca1741a5c24c08c247730bf1882",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/469fd776946c5274ded66be802c6d717bb331237a97f5f744f3746e199ded678.json",
+      "sha256": "2e3a7a2e29e18a9af3c97b3e8fc2b6bd29c9e3b609b3a7c964a4350b3d53af01",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/4b71fa5646642c1c984de9441886ff3d8306af4d4995ad22c844ce225cd2f6f0.json",
+      "sha256": "ed5c55f2cf3f7619f8a39255d7071e4d91b533fe1ca4bd55df21231fbb8ded43",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/4e0868d59db4fde28a2fbada7b1a611b3633a36e0b77e51abf418b8e4597171c.json",
+      "sha256": "642e118213dd7ef11d5482ade30fb96504c60f2f9abc4c298fa276e9b9eaa7dc",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/89685d5ca25a19aef899ae49eea17107d5287a2b043fb83b23b6ada4dfa19756.json",
+      "sha256": "6f00cdb02bc171329177ba9bc1f5750e22b22bab3a46e4b9f5a6e3f6b22f09ff",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/8fcec4f9b28af6a39d0d92fe012fc5d7390a70c62355083e113e04267837e939.json",
+      "sha256": "418a9a2fb5b14f0293f61a4e498bdcf737519aeca766f512b3533870afa9702e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/9269e8ad9d5b84f52345476ec42cba6087317e8be2d3094c1bf0bbf9cf710710.json",
+      "sha256": "0ec109f6ac65f54c9c9f95920343eec767fc2b8be1895b574ea7274f7e3e1710",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/aaa8225f196478effc90399f7483ef420a7e39b43aa868d39ba1f5a3f33980e0.json",
+      "sha256": "7a5945c0c6adde157a26e8884efae069658239dc4dd4b346813a63ade4d1b964",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/b062f9ed5ef512c9df974fe72354dfbcf968b000acb01d697e4370d8d20c38de.json",
+      "sha256": "387a364c2845da0da417029c9f3ff3c0ec4af09c684eac680c0abe313b24b6c3",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/c2de3de4a998072b78305092a4aaaaaedf5f8b15172de7cdf2ca7f375573a388.json",
+      "sha256": "4eda9ebd420060cc0b4145bc0ca6ab82f531c57f446ebc5cc6cf9d0fd9aa7723",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/responses/fb45aa1f773a70199aa46d4abafe33215d500eb5e9bb1e056588758978a70b2d.json",
+      "sha256": "5a5dd2431d2bacbc8d79c2eb423218c009f163906ee09da257d08d0db6ffe62c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/run_manifest.json",
+      "sha256": "6c3c154c0c5f427eea7861104610680b2d3c316c9e202f4fd5cb70c4e0023cbe",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction/semantic_review.json",
+      "sha256": "7ebb1ae0bb44a5ec854b30d79af65f2ee0c457fe908aac23073afe96e8855230",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/11166b3af0057bdac25cd2df9173fd3eb57dcb3d07475de2496b0bc85a50922c.json",
+      "sha256": "3966b5e3a61e894824bfea4ca60ec6bfa8bb91244ee4a5142a192556dbfe3b96",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/2c771bba93a66b4dcd8824fa5909be3a808931118c46641a3f6bba898c26091f.json",
+      "sha256": "1e9dba5dcaaa4309a69e28b1b7a4029fdf2f8623352e8060b450c1f979025c40",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/469fd776946c5274ded66be802c6d717bb331237a97f5f744f3746e199ded678.json",
+      "sha256": "4f7576cfd8c650927d9446fdfd3c8b540bf39f10b64e86e8b4f76920f6e52ef2",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/4b71fa5646642c1c984de9441886ff3d8306af4d4995ad22c844ce225cd2f6f0.json",
+      "sha256": "1dc3ad54956c4083844dc02560db3239f5386a618487adeebc3677285b77af2a",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/4e0868d59db4fde28a2fbada7b1a611b3633a36e0b77e51abf418b8e4597171c.json",
+      "sha256": "b25e8ae69fa48685938f4ba80a1e1c45d8b688fb26323a4cb923b3363a698435",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/89685d5ca25a19aef899ae49eea17107d5287a2b043fb83b23b6ada4dfa19756.json",
+      "sha256": "52da85b8859cf627fe9b3a6ba581867bb546d3a5c0bc60cd5a8af80b081341d1",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/8fcec4f9b28af6a39d0d92fe012fc5d7390a70c62355083e113e04267837e939.json",
+      "sha256": "8449d23da0b1513cd781e7b1f740ff7cc4d6d210f944f567d1f12ba579e0c531",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/9269e8ad9d5b84f52345476ec42cba6087317e8be2d3094c1bf0bbf9cf710710.json",
+      "sha256": "fe77d9eca94b6e2e9b7a2cfad8e95a1ada457255d21e1a3432c62da42df589b0",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/aaa8225f196478effc90399f7483ef420a7e39b43aa868d39ba1f5a3f33980e0.json",
+      "sha256": "16b3adfefafa9fb3f7ec5ee5f41885047b252d6e88793f81cee9135161ca9960",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/b062f9ed5ef512c9df974fe72354dfbcf968b000acb01d697e4370d8d20c38de.json",
+      "sha256": "e7e6abefaaf313af81e0c5b1c714da5fdad6cb535a1d9ccf5b363aa2790262c6",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/c2de3de4a998072b78305092a4aaaaaedf5f8b15172de7cdf2ca7f375573a388.json",
+      "sha256": "863f18cf91accb30465ea99ec0627cb3f24d51b51adfd152f01e2d58b480d4bf",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/fb45aa1f773a70199aa46d4abafe33215d500eb5e9bb1e056588758978a70b2d.json",
+      "sha256": "d28a099a173086f07882d877ad4519038564093b481b77ac5ff30cf4a6abc75a",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/extraction_payloads/index.json",
+      "sha256": "6a74100efef4f82eaa55391067b4f598d66f9d01cb792f030669b044207a8917",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/candidate_audit.jsonl",
+      "sha256": "4f7f5149f89df7a5d6324fa0cc637465b71ae96bfac692f3474b1244e23dcec7",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/job_status.jsonl",
+      "sha256": "6d5efa9de260d655b58460ef4de9a4e64e633b49115e1aa44042133900f782a7",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/17056d39d75f197e162348809ab42ef89759fd7762bdfd45fadb84880ad60086.json",
+      "sha256": "42d458db1da6e9caf208434bdb213a955e4165e9c0106ba4e4f094a3889aecb6",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/524f0084ad019afde00e18ee64c4ddd2ba96ff4a86c9267ffa1bef59cf9fb5ea.json",
+      "sha256": "0ed46c9845606c811e58b57ab7e8cab06a167235479bb9c95a309f7d976b135c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/57cb7ddbc42c9f6967bf1ef68ae94e4c47c07b9af11227be26a9551358c1c380.json",
+      "sha256": "bd4f284381f06731711c7a748cf5cc4b0edc486c73d94e7f12c9a53eb9f6672b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/5d03f30804ef3900149b29b0768455d654007fa99a198b426a087eebe721eb9e.json",
+      "sha256": "8857e60994565007a450f31dff2225dfbd417c982591ef6847f821bc51a060a4",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/6638e4dd72791bce3280544ebcc35d99807d60edbaceb105cc88aca79acd08aa.json",
+      "sha256": "d9a4601cb7d4ba6e94f3c2dac874b6a79603396cf8308a28d2683b0c59a7b13e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/70208637777a1a3412097bce6526c98c74fc2a6bb8860584872fac0c23527e8b.json",
+      "sha256": "86041d674d19e20e3998e5da5c57feff2ebd9d13c4e499e16df1a1f5dea208fd",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/7da76169452704580184cd65f52433c9dce3d5ad1085b107bc4b40fdbcdbcd54.json",
+      "sha256": "efbf3b5264ab510eb6554a0b3e4d9a927edcf32da29916b4b7ca83425b6fd0c4",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/81656063e107d13118f4bed0a0844aa5869448514a1a69d50b9e0bc907fe9432.json",
+      "sha256": "54ff117221d42cf881f04dc4d513af784d59d08a0e633d0b3d1fe36e8951f490",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/9bf56e6cd6516bb29774829ae060c640d368703ab5b4f308ff3849b3cb39e68d.json",
+      "sha256": "13297643d8820f1c7ee7f32963a8e45cc044f9210e0bf734dbe6b90348ca3870",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/ab950d348055cd4c992ce56fb86e4107269e5409bb28591d4529828ae08cdef6.json",
+      "sha256": "de045fdd8e973a21d62d0e21ce92a12951a27456f310d1643773f24a1916f49c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/cde3d60330bb7f322cbc7d20af00c9216d8c4d4f12d4802de2c2fd0e737bd543.json",
+      "sha256": "24f2e8930d8b05d4b162155b348797b96157c1877439e4bd0ef8df83b072f404",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/jobs/ee209443bbde97ce7bb5bf49ae8431f46a5b8ac2a609472a2c96fca9538a4df5.json",
+      "sha256": "cff410c1b61c525a87bc2fbbb5892089bb6d05212569caee8bab6f37fa0aca7e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/metrics.json",
+      "sha256": "cc9ff0caefce2bcf36c8e5aaf76c7c825b1bc5dafd5dd53e7d5982f4daa5a5b0",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/replay/observations.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/candidate_audit.jsonl",
+      "sha256": "4f7f5149f89df7a5d6324fa0cc637465b71ae96bfac692f3474b1244e23dcec7",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/job_status.jsonl",
+      "sha256": "6d5efa9de260d655b58460ef4de9a4e64e633b49115e1aa44042133900f782a7",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/17056d39d75f197e162348809ab42ef89759fd7762bdfd45fadb84880ad60086.json",
+      "sha256": "42d458db1da6e9caf208434bdb213a955e4165e9c0106ba4e4f094a3889aecb6",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/524f0084ad019afde00e18ee64c4ddd2ba96ff4a86c9267ffa1bef59cf9fb5ea.json",
+      "sha256": "0ed46c9845606c811e58b57ab7e8cab06a167235479bb9c95a309f7d976b135c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/57cb7ddbc42c9f6967bf1ef68ae94e4c47c07b9af11227be26a9551358c1c380.json",
+      "sha256": "bd4f284381f06731711c7a748cf5cc4b0edc486c73d94e7f12c9a53eb9f6672b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/5d03f30804ef3900149b29b0768455d654007fa99a198b426a087eebe721eb9e.json",
+      "sha256": "8857e60994565007a450f31dff2225dfbd417c982591ef6847f821bc51a060a4",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/6638e4dd72791bce3280544ebcc35d99807d60edbaceb105cc88aca79acd08aa.json",
+      "sha256": "d9a4601cb7d4ba6e94f3c2dac874b6a79603396cf8308a28d2683b0c59a7b13e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/70208637777a1a3412097bce6526c98c74fc2a6bb8860584872fac0c23527e8b.json",
+      "sha256": "86041d674d19e20e3998e5da5c57feff2ebd9d13c4e499e16df1a1f5dea208fd",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/7da76169452704580184cd65f52433c9dce3d5ad1085b107bc4b40fdbcdbcd54.json",
+      "sha256": "efbf3b5264ab510eb6554a0b3e4d9a927edcf32da29916b4b7ca83425b6fd0c4",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/81656063e107d13118f4bed0a0844aa5869448514a1a69d50b9e0bc907fe9432.json",
+      "sha256": "54ff117221d42cf881f04dc4d513af784d59d08a0e633d0b3d1fe36e8951f490",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/9bf56e6cd6516bb29774829ae060c640d368703ab5b4f308ff3849b3cb39e68d.json",
+      "sha256": "13297643d8820f1c7ee7f32963a8e45cc044f9210e0bf734dbe6b90348ca3870",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/ab950d348055cd4c992ce56fb86e4107269e5409bb28591d4529828ae08cdef6.json",
+      "sha256": "de045fdd8e973a21d62d0e21ce92a12951a27456f310d1643773f24a1916f49c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/cde3d60330bb7f322cbc7d20af00c9216d8c4d4f12d4802de2c2fd0e737bd543.json",
+      "sha256": "24f2e8930d8b05d4b162155b348797b96157c1877439e4bd0ef8df83b072f404",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/jobs/ee209443bbde97ce7bb5bf49ae8431f46a5b8ac2a609472a2c96fca9538a4df5.json",
+      "sha256": "cff410c1b61c525a87bc2fbbb5892089bb6d05212569caee8bab6f37fa0aca7e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/metrics.json",
+      "sha256": "cc9ff0caefce2bcf36c8e5aaf76c7c825b1bc5dafd5dd53e7d5982f4daa5a5b0",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/propolis/grounding_v4/run/observations.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "docs/analysis_plan.md",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/propolis/grounding_v4/comparison.json",
+      "sha256": "08d370c9953460dd9095c25414fc3f10059c93e980ba8c991f8b55a3e79fff88",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/propolis/grounding_v4/protocol.json",
+      "sha256": "ab280685546a403d4da708ddd891bea9932ab7dd6494239d5bbac254b9130d08",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/propolis/grounding_v4/summary.md",
+      "sha256": "492388d47b4991f663e92b32f274c8c01d48cd43a18edbd864a2f9d9c8542655",
+      "unchanged": true
+    },
+    {
+      "path": "src/extraction/adaptive_glyph_grounding.py",
+      "sha256": "297a55e6f461c26c91a9f51dc24a4bcf14de6c67bc40aceef9d605788024b342",
+      "unchanged": true
+    },
+    {
+      "path": "src/extraction/multispan_v4.py",
+      "sha256": "de9491a16ac4afe6a53ffa706614d0d5aed2a541b234307d6dfed37c3a2fffd4",
+      "unchanged": true
+    },
+    {
+      "path": "src/systems/grounding_v4.py",
+      "sha256": "90d78213cbfd8fa753af97884b87db6c8ff2d344aec904ab7640c9faae5aa79d",
+      "unchanged": true
+    }
+  ],
+  "model_calls": 0,
+  "network_calls": 0
+}

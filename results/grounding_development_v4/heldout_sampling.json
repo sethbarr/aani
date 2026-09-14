@@ -1,0 +1,64 @@
+{
+  "sample": 3,
+  "role": "held-out model draw",
+  "finished_at": "2026-09-13T17:32:47.544848+00:00",
+  "status": "complete",
+  "blocked_reason": null,
+  "cache": "data/raw/grounding_v4_sample3",
+  "raw_output": "data/interim/extraction_saverschek_multispan_v2_sample3",
+  "network_attempts": 3,
+  "transport_retries": 0,
+  "attempt_log": [
+    {
+      "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+      "attempt_number": 1,
+      "started_at": "2026-09-13T17:32:18.269168+00:00",
+      "kind": "http_response",
+      "retry_reason": null,
+      "finished_at": "2026-09-13T17:32:20.838159+00:00",
+      "http_status": 200
+    },
+    {
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "attempt_number": 1,
+      "started_at": "2026-09-13T17:32:20.841056+00:00",
+      "kind": "http_response",
+      "retry_reason": null,
+      "finished_at": "2026-09-13T17:32:44.262670+00:00",
+      "http_status": 200
+    },
+    {
+      "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+      "attempt_number": 1,
+      "started_at": "2026-09-13T17:32:44.269031+00:00",
+      "kind": "http_response",
+      "retry_reason": null,
+      "finished_at": "2026-09-13T17:32:47.540865+00:00",
+      "http_status": 200
+    }
+  ],
+  "outcomes": [
+    {
+      "chunk_index": 0,
+      "status": "response_saved",
+      "request_hash": "bd6f23b87e654ce66234b45d5d4ef70a40daa5bd689c3fb30e7471f29a5b56cc",
+      "response_path": "data/interim/extraction_saverschek_multispan_v2_sample3/responses/76a001e2f6434c4094c9d607e0cf68775de9b5a4cd417ee48bd1fe803e5d3d77.json",
+      "response_sha256": "4b4ad9d657c08ec29cd977c8ebc5649ce3bdaad2b2a889273cf905baa3aff010"
+    },
+    {
+      "chunk_index": 1,
+      "status": "response_saved",
+      "request_hash": "da296973b8502007d1b84181eef5369512448c56d0bfbd41b278b0565911a97b",
+      "response_path": "data/interim/extraction_saverschek_multispan_v2_sample3/responses/6d763f1011d4607780c4f4eecdc583f4c5c82bfb574ad39a9207db792f6c8729.json",
+      "response_sha256": "853a6456635ecaa8952960bdc31193f7a80bc20a8afa7770880ff526a5456ba1"
+    },
+    {
+      "chunk_index": 2,
+      "status": "response_saved",
+      "request_hash": "8e890939c9e14f0421d878d09c39aec7260f776e7d8b87e6837d7459dc724a76",
+      "response_path": "data/interim/extraction_saverschek_multispan_v2_sample3/responses/760c7967955ef359b90add36a5b38d956a3db6720ceda2300d59a5e7eaa8036f.json",
+      "response_sha256": "423920015a631f239af55d83c994de049e5ea24efdc961f2c20e572549e8fcd1"
+    }
+  ],
+  "failure_candidates_inspected": false
+}

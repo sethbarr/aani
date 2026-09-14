@@ -1,0 +1,470 @@
+{
+  "status": "passed",
+  "metrics": {
+    "system": "attine_actino",
+    "mode": "printable_confusables_v5_on_system_single_quote_v1",
+    "status": "complete",
+    "blocked_reason": null,
+    "offline": true,
+    "model_calls": 0,
+    "network_calls": 0,
+    "jobs_replayed": 11,
+    "candidate_records": 11,
+    "v4_accepted": 10,
+    "v5_accepted": 10,
+    "exact_grounding_routes": 10,
+    "control_glyph_grounding_routes": 0,
+    "printable_confusable_grounding_routes": 0,
+    "newly_accepted_record_ids": [],
+    "lost_record_ids": [],
+    "unchanged_record_ids": [
+      "2de86549feb977111a081ab1060385ef5f9af7bdc1065c6ea810826f08cdecbe",
+      "329abdd3e6632d8d109922fc803f0d69b4d7ee7b947f565b96e5276b798bebf2",
+      "49142d6591b7ccfb3bdb373a032206e7af8426e580537c266e58e641def1a55e",
+      "6d6b5479a3f72359c788bbf01215728695d395b9cd1a2a3dfa53ca5672cf28c1",
+      "71f57e3566ef0fa46aa3db44d3f838613e53303a9928d7d2fa7d50fd0c718a15",
+      "8d3be3a7f056c9ad459bda876e98cdd2f5b1df268ce6c1a2c0544885a8528309",
+      "97376a7596dee491b5d00cab9be98be51d9e44e3084f31062f8116d9cb7ccb52",
+      "b1527d731386132cd7bbf13a800f1dbdcdd288981ab10637ba104a8db9e39d9e",
+      "b909994a2d7f929467c79b5e6d595c69b57dc1a5214aea5d565845526dfca15b",
+      "e6dbd8242865c85c5ac38cabcd186e68d13787d22407c5fa6c2161f069f2a019"
+    ],
+    "direction_changes": []
+  },
+  "byte_comparisons": [
+    {
+      "path": "observations.jsonl",
+      "sha256": "1fc5703b05960dd17a47eb3349458127796e537cad2557c0946f486c4aecebdf",
+      "identical": true
+    },
+    {
+      "path": "candidate_audit.jsonl",
+      "sha256": "4ab92f9d937251e2be17bc3e50e8c6c8578f4692fe84b2f5edb804792813ef5a",
+      "identical": true
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "873272a34081fa009487b3aad14d2ae51682eadf14ca8511f2ce09db8e2e362a",
+      "identical": true
+    },
+    {
+      "path": "job_status.jsonl",
+      "sha256": "ecf2b63c09914ae5815793c8a59aac18ed5255d37b71d60a5146ce0913363777",
+      "identical": true
+    },
+    {
+      "path": "jobs/15d802419b17f6d21bccdbfcd4f555f4be32f88576d53dca849b9c1f956229b5.json",
+      "sha256": "782a70f8b24e37e02e2612b6aa096be2ada7e9ecb32065b54a875202695e187e",
+      "identical": true
+    },
+    {
+      "path": "jobs/19edf565aa5b6e0e84006980de833c2ddd64c5be15a92e6ba3827bec86c62da9.json",
+      "sha256": "4c6eba1db0960bf858a780b3991bfd99747934ac749e1a0b1146bf8e82467601",
+      "identical": true
+    },
+    {
+      "path": "jobs/2d78ea1860c2322a3945f5688b667cbdaf188eefc07c7ba974b4e03de4c2e67c.json",
+      "sha256": "23360e5c1ca229e4a779722a56c4929c7a04ff5ed51d4b466165f87e489c0fd1",
+      "identical": true
+    },
+    {
+      "path": "jobs/52a9407364c52d40808ed606e205dd27c3dd0e27ba39db7ebc830c24479d4858.json",
+      "sha256": "b388bfc43ea2ab12e88019b1ae6a1692d251a43844b61bd2cfbfc9bcd811814a",
+      "identical": true
+    },
+    {
+      "path": "jobs/6d2ee1e79f6a037c5f5a1ca3cdbccafc8c5eabc380f6699cae948aedac1aed34.json",
+      "sha256": "57e64381019fc9718e70f86fd93da68c8adff52917a71f6bb4eccd5abea59d96",
+      "identical": true
+    },
+    {
+      "path": "jobs/8605f9d15842f34043104682d758964cf11dc505c2cfa6d052110df2b8981ad4.json",
+      "sha256": "57970787ae228fe1d9a5b16558bb97ab539ffa2a8ee09327ae0ad2b7944d976a",
+      "identical": true
+    },
+    {
+      "path": "jobs/8cc0925c3d3ed1f84d03a63dbf1e5c42c41ec3a4248be49271c90f6839e58908.json",
+      "sha256": "83ca27c0d5c358ac5eb508cf19cc7dadb3cfffa848a9a81a84ebd35a83c165fc",
+      "identical": true
+    },
+    {
+      "path": "jobs/93a03d697946f92826233586e197f25372f038563039e937c02b2d2e7959bf14.json",
+      "sha256": "686a50022d67ed5361955ff5a15a31d1a174f5c586146da5bdfeeda976dd15e7",
+      "identical": true
+    },
+    {
+      "path": "jobs/aa8b394a002e1a167cd793176a513c9b0195b34d53746600b4f6fdfc6cf62920.json",
+      "sha256": "ecc9abd368d983e073c9e919b98814da22487ca1b4654cc60b82443eae1dd17f",
+      "identical": true
+    },
+    {
+      "path": "jobs/b03ea7d1219b47dd6aace1d8f9fb302297fdbb319a481dd36aa3b40ddeb96c65.json",
+      "sha256": "dc46102d6c2be3c521df86d58923c2f2d1b0d9a790c7045cbd1745886b8612f6",
+      "identical": true
+    },
+    {
+      "path": "jobs/de0297a3b29e1a3fc76f0d20153339affff3cb44314c32695c715d872b6d505b.json",
+      "sha256": "5098ece1af095572ecceeb87c531d7891e484cb4587d03fcb80125ec96ee7e91",
+      "identical": true
+    }
+  ],
+  "protected_inputs": [
+    {
+      "path": "config/analysis.json",
+      "sha256": "bff5ef0f06ba745b313fca26cfebaa0b6be06a42f13e185300af321218367de9",
+      "unchanged": true
+    },
+    {
+      "path": "config/grounding_glyphs_v4.json",
+      "sha256": "0951f604d10acd1f9fdea61c13e93cbaa86cda5986dd385c0395a8cd62e77061",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/failures.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/job_status.jsonl",
+      "sha256": "ace9eaba8ce1b9a98c851c7d9ae6f1d80ccfef08c13bb5fdbf28b96ebd87dfad",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/metrics.json",
+      "sha256": "e6893300c577e159f035ad45707ccd0d8c790db73115bbc09b58df8158cdf1c2",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/observations.jsonl",
+      "sha256": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/observations_progress.jsonl",
+      "sha256": "270ac82257c9427df41fa5e631cbd5c9b4b430e48b22f8e20b0b6efdfa84f477",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/partial_observations.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/rejections.jsonl",
+      "sha256": "3975d5739a069484eb37dc065d91cd187ba43307ff0c35384d553ac0d2e586d5",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e.json",
+      "sha256": "5045f92030a3c9f528af816459a365a3365af7dd1dd60b7bbcc79e47a555f351",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49.json",
+      "sha256": "b820a698277c38d0f974fbb8c3ff02aa4a9e953463d1f64b25bbe418d8a76c3e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759.json",
+      "sha256": "51cf0dc6bf0261a5588be203199100dbd25558058d96bb85275563376e74ce07",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/74c1ee6a105a05d5c5745d7be624efca8a7050135afd10b2991b371254c2eb2f.json",
+      "sha256": "3758101d1d6cb6dbbb50d64faf5aad5ec6ca1b9112c2ae317e44054f8c04ff27",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753.json",
+      "sha256": "24338ba08e8b8fbba31d7fef8efc2ac98d6cdb6501893929858c1b5e6b65eb45",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189.json",
+      "sha256": "b402ab774bef27eb2441b21db859cb9bfaf097aed3543f951d94c7cde73b37de",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b.json",
+      "sha256": "537e56dd0fb9d6fda8948b634a8acf3cf93d88d17fc3fc3bee2348c12fcd5717",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7.json",
+      "sha256": "ab92d3bae433bc98f83b69b8f1043c4ad6de0a015fee14606ffdb0bb312d6c78",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/dcfd9fa11a092e3da13d76d3e24781659c1cc576ae29f0a9f8c7a74c8d0240b1.json",
+      "sha256": "1db7ee094ad066c370122e30d50fe78237bfcaff20ad46f5fa2841a4b0d91f58",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12.json",
+      "sha256": "bc903853638f24d88193b35528f3682b193936343553cf559aeeaf4d1fe039ec",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/responses/f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63.json",
+      "sha256": "8c23397f6ffaea715fcf9774929dbd657db3bebb6a9009e726c182e97aa886d6",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/run_manifest.json",
+      "sha256": "c64b632830cdaf58fae3a42e1cb93390105a0ab53d3a5b13ccdec6622436bd04",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction/semantic_review.json",
+      "sha256": "46c50ce4df709b20c86aba27da8b4047099aea1604d6d5eb6642bb0d56e2c467",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/103c8dc30c39e5f59dcb43ad363a8ae7f802ee762f1f31f1539434af6bd5cb8e.json",
+      "sha256": "87df933438173eadcdf6f0d689d3576ce0d6e3aa71a8fe755dfcccbdb9857b80",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/33756c7bd522c5f992a217765d102bab9004694218525d0c402e3e196a46bd49.json",
+      "sha256": "7297dcbf4ef6392f76fdb1cf168b9d02e222f1cb7a1b79e166512b405694318d",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/691d9abfff95a5ebfbe4c1bfa93c3a7de66314da144e2bfe57a7b0997af91759.json",
+      "sha256": "7500b95762e6ddb8ceff10230f2a01b65e182ebc2cd3aee31b7c847cddaf1d57",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/771cb4029e1f78ba027ced46102c079f944f7d4cb8acffdb69e8453aa0f76753.json",
+      "sha256": "c372748cf007674769bcef0f41a81ddbde72366500fe2733362206eaecc3c5dc",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/8f1512823434a6bbebcb352d91882673a1a2e3ff256d00f22e3c1a9b86101189.json",
+      "sha256": "93524678a2f0fb675d60b39e423c2ad41d323f16f594d20ba20c8cfd7e492f6b",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/ab6193a7892d27e5b6c5ed99b6cbb9eb23e84a8bc8f0105448e1c26dfb3df243.json",
+      "sha256": "dfc49610a069f956f6aebe5aa53c5ee29a6e0f14806a2b399a18ae4f07f7ba5e",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/c21634e251bd52197610602c29bd9307eafc3a8e5aaf41c77dcd38c5ab210b2b.json",
+      "sha256": "4bae3e63ae49419e7a09fb5f68c12962d6bdd8011b1e50bc715088db832ab1e3",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/dc83ac05c31bd6b88753f2d44af6808f2832acb85ec2c48adc00bc0a453b88a7.json",
+      "sha256": "0dfc82b2c11ce423a6c2bb0f9f751cfb92c406674c6ece57d9118aa0ec1234e1",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/de196e06f54d9b9e210485d884b5e485547538c5b375280970ebde2328e23144.json",
+      "sha256": "3ae5267c8aa54d4d93630095c5f57fab1a134d850f9a7d05f64cf50f454e05b5",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/e0e7d446c5624c8259d78a72b2b444459abd8114d87d484256eb1cb6cee1cf12.json",
+      "sha256": "cc1e1bb95c145693a7d2712ecf30dd3c44f9e97cf6240452e819bc2ae21e6e51",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/f9b579b406eb3f7bc02dc2c1988e6a37bd782aacee16d62f2dac7888a0b50c63.json",
+      "sha256": "efcfd728689115f3e95cb293c3ab6002ac51edbce8f09ebf59cad0682307e3ef",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/extraction_payloads/index.json",
+      "sha256": "e1bd937daa6ad3e1e6d5aa85884a246a7c53999e735b7a437787fc73eee86062",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/candidate_audit.jsonl",
+      "sha256": "3e74ad039bc5a03883aa51a3d934b4c1925a95f1c411499010c473e036369ac2",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/job_status.jsonl",
+      "sha256": "eff3ae927914a715ea891f2717c670dd7c01a71ef9bf48ec9ab9fb4e1ce9b0f0",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/1136b9e9d9b292907940ffce7feac94b183b33857c934db05db86e76fc2fc81c.json",
+      "sha256": "b4d3a431bde212c0ddfd681f5f22beb65992f19ab9b0eea1d40b90275027fdb9",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/169acfc1b19c8bc95dfd1eaa217d03da823bfd80bae34c0aa141c5d94f7b3da5.json",
+      "sha256": "638fba777e0fabb4c93a364b505307df4c102e55edaff9dff37e41fd0eaca2f9",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/2101de28270c226e5da7c5cc330382aafc2dd3979467839ef783840d3bc54380.json",
+      "sha256": "225197822531b2f805d8127dc28384f3a3d9a6d8955b63b6f775b6a46bba580c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/4a8addcaa3ded2d7a58527871c3d1a8ac850d4651d54210305fd6b8662e00ad0.json",
+      "sha256": "ed25a25cfe4ee00d862886a0215714305655d17a33968937619ae99dd5036265",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/89ed94ff0b62bea9130888fad362d78ebab8b5297e15611a3918494c0297d016.json",
+      "sha256": "a4463688e44451b631c79673992563d91c13332a71a3fa0c2b7069c26269357a",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/929af3ef5e5347d4e5a41836dac126b07f32bbd01c127523b3ad4bc3da393f2f.json",
+      "sha256": "57f1d7ed3eac5f488e9ab0c0d4e9d39da1760672da0143c4600a1d088433a65d",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/a5d1a4130901168eff19701c8b4dcefcdbd5db3f1366a11ed3fef75995e6e408.json",
+      "sha256": "7619ac01cd7fd2a7500c65c763e4950b4f32a290bd3178d816445248c7acaf07",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/be62bbdbdd3dc6bc6a7c1bbc5df75d673d1cd4caea6328593a040d59391e04f0.json",
+      "sha256": "eae7b0b18ca202c691a4d6ee8e8d9e2b6a638a8ecf7fd46880c616e98c194674",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/c1275d7722ae20eb989eeae088b209c93eefaa70d68a6f728d65345ccb603e6d.json",
+      "sha256": "c8038a0c3125a86940e74842c352f33cf69bd2bd41c35c1735c3aaee4e8cc736",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/d9f4067f0901a1cc2bdb24b46d23bacb7e645149681c07a7e5c0e17f3560e137.json",
+      "sha256": "d22f83af6e86a27ac44b764d5d3e4fde437a86fb44e717767b64290fdae22145",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/jobs/dedfd10bbd0f32a27202b3d08982b16379fa535bd61d52544063058d5f00097c.json",
+      "sha256": "9130ae96b2617f068aec2bac88869f0ec122bf8f9dfc7cca72d894af7c2f0ff1",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/metrics.json",
+      "sha256": "77e02557fdf8cbf70966865791b5a3fdae68136570520de8c4bf8c8e14e04794",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/replay/observations.jsonl",
+      "sha256": "4f28d8f5b00ca719cc4abddb0ccf6e4ee59a83ff37eddef93c3eb4714504c7eb",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/candidate_audit.jsonl",
+      "sha256": "3e74ad039bc5a03883aa51a3d934b4c1925a95f1c411499010c473e036369ac2",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/job_status.jsonl",
+      "sha256": "eff3ae927914a715ea891f2717c670dd7c01a71ef9bf48ec9ab9fb4e1ce9b0f0",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/1136b9e9d9b292907940ffce7feac94b183b33857c934db05db86e76fc2fc81c.json",
+      "sha256": "b4d3a431bde212c0ddfd681f5f22beb65992f19ab9b0eea1d40b90275027fdb9",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/169acfc1b19c8bc95dfd1eaa217d03da823bfd80bae34c0aa141c5d94f7b3da5.json",
+      "sha256": "638fba777e0fabb4c93a364b505307df4c102e55edaff9dff37e41fd0eaca2f9",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/2101de28270c226e5da7c5cc330382aafc2dd3979467839ef783840d3bc54380.json",
+      "sha256": "225197822531b2f805d8127dc28384f3a3d9a6d8955b63b6f775b6a46bba580c",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/4a8addcaa3ded2d7a58527871c3d1a8ac850d4651d54210305fd6b8662e00ad0.json",
+      "sha256": "ed25a25cfe4ee00d862886a0215714305655d17a33968937619ae99dd5036265",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/89ed94ff0b62bea9130888fad362d78ebab8b5297e15611a3918494c0297d016.json",
+      "sha256": "a4463688e44451b631c79673992563d91c13332a71a3fa0c2b7069c26269357a",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/929af3ef5e5347d4e5a41836dac126b07f32bbd01c127523b3ad4bc3da393f2f.json",
+      "sha256": "57f1d7ed3eac5f488e9ab0c0d4e9d39da1760672da0143c4600a1d088433a65d",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/a5d1a4130901168eff19701c8b4dcefcdbd5db3f1366a11ed3fef75995e6e408.json",
+      "sha256": "7619ac01cd7fd2a7500c65c763e4950b4f32a290bd3178d816445248c7acaf07",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/be62bbdbdd3dc6bc6a7c1bbc5df75d673d1cd4caea6328593a040d59391e04f0.json",
+      "sha256": "eae7b0b18ca202c691a4d6ee8e8d9e2b6a638a8ecf7fd46880c616e98c194674",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/c1275d7722ae20eb989eeae088b209c93eefaa70d68a6f728d65345ccb603e6d.json",
+      "sha256": "c8038a0c3125a86940e74842c352f33cf69bd2bd41c35c1735c3aaee4e8cc736",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/d9f4067f0901a1cc2bdb24b46d23bacb7e645149681c07a7e5c0e17f3560e137.json",
+      "sha256": "d22f83af6e86a27ac44b764d5d3e4fde437a86fb44e717767b64290fdae22145",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/jobs/dedfd10bbd0f32a27202b3d08982b16379fa535bd61d52544063058d5f00097c.json",
+      "sha256": "9130ae96b2617f068aec2bac88869f0ec122bf8f9dfc7cca72d894af7c2f0ff1",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/metrics.json",
+      "sha256": "77e02557fdf8cbf70966865791b5a3fdae68136570520de8c4bf8c8e14e04794",
+      "unchanged": true
+    },
+    {
+      "path": "data/interim/systems/attine_actino/grounding_v4/run/observations.jsonl",
+      "sha256": "4f28d8f5b00ca719cc4abddb0ccf6e4ee59a83ff37eddef93c3eb4714504c7eb",
+      "unchanged": true
+    },
+    {
+      "path": "docs/analysis_plan.md",
+      "sha256": "296ad8f447d081b8a2ef9d9cfdd0467faa355622f815d3d7392d4b75b2297d6d",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/attine_actino/grounding_v4/comparison.json",
+      "sha256": "79e71a2d404af93fd5cb71ced4fc8a0319c96dbe84cc7ae8f77d2a30681f9318",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/attine_actino/grounding_v4/protocol.json",
+      "sha256": "9dfd7ecc601ac1ddf64598f090669c667ffaff12ee72d143056e26410066723a",
+      "unchanged": true
+    },
+    {
+      "path": "results/systems/attine_actino/grounding_v4/summary.md",
+      "sha256": "64d1b53f473d5c462f4312e0882f7e1a61af43b066195566c6be32e8531673bf",
+      "unchanged": true
+    },
+    {
+      "path": "src/extraction/adaptive_glyph_grounding.py",
+      "sha256": "297a55e6f461c26c91a9f51dc24a4bcf14de6c67bc40aceef9d605788024b342",
+      "unchanged": true
+    },
+    {
+      "path": "src/extraction/multispan_v4.py",
+      "sha256": "de9491a16ac4afe6a53ffa706614d0d5aed2a541b234307d6dfed37c3a2fffd4",
+      "unchanged": true
+    },
+    {
+      "path": "src/systems/grounding_v4.py",
+      "sha256": "90d78213cbfd8fa753af97884b87db6c8ff2d344aec904ab7640c9faae5aa79d",
+      "unchanged": true
+    }
+  ],
+  "model_calls": 0,
+  "network_calls": 0
+}

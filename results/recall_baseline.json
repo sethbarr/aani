@@ -112,7 +112,9 @@
               "pdf_page": 4,
               "source_line_start": 343,
               "source_line_end": 347,
-              "evidence_quote": "trail clearing occurred. Desmopsis panamensis, on the other hand, was immediately rejected by all colonies, irrespective of the habitat (Fig. 3b). Foragers from all colonies showed active avoidance, which means almost no intake and a very marked trail-clearing behaviour on all tested days. Hymenaea courbaril was actively rejected by",
+              "evidence_quote": {
+                "private_reference": "r00000"
+              },
               "raw_request_hashes": [
                 "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
               ],
@@ -169,7 +171,9 @@
               "pdf_page": 4,
               "source_line_start": 384,
               "source_line_end": 386,
-              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "evidence_quote": {
+                "private_reference": "r00001"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -184,7 +188,9 @@
               "pdf_page": 6,
               "source_line_start": 584,
               "source_line_end": 590,
-              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "evidence_quote": {
+                "private_reference": "r00002"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -199,7 +205,9 @@
               "pdf_page": 6,
               "source_line_start": 602,
               "source_line_end": 605,
-              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "evidence_quote": {
+                "private_reference": "r00003"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -214,7 +222,9 @@
               "pdf_page": 6,
               "source_line_start": 586,
               "source_line_end": 586,
-              "evidence_quote": "Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01",
+              "evidence_quote": {
+                "private_reference": "r00004"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -265,7 +275,9 @@
               "pdf_page": 4,
               "source_line_start": 384,
               "source_line_end": 386,
-              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "evidence_quote": {
+                "private_reference": "r00005"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -280,7 +292,9 @@
               "pdf_page": 6,
               "source_line_start": 584,
               "source_line_end": 590,
-              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "evidence_quote": {
+                "private_reference": "r00006"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -295,7 +309,9 @@
               "pdf_page": 6,
               "source_line_start": 602,
               "source_line_end": 605,
-              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "evidence_quote": {
+                "private_reference": "r00007"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -310,7 +326,9 @@
               "pdf_page": 6,
               "source_line_start": 588,
               "source_line_end": 588,
-              "evidence_quote": "Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01",
+              "evidence_quote": {
+                "private_reference": "r00008"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -361,7 +379,9 @@
               "pdf_page": 4,
               "source_line_start": 384,
               "source_line_end": 386,
-              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "evidence_quote": {
+                "private_reference": "r00009"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -376,7 +396,9 @@
               "pdf_page": 6,
               "source_line_start": 584,
               "source_line_end": 590,
-              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "evidence_quote": {
+                "private_reference": "r00010"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -391,7 +413,9 @@
               "pdf_page": 6,
               "source_line_start": 602,
               "source_line_end": 605,
-              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "evidence_quote": {
+                "private_reference": "r00011"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -406,7 +430,9 @@
               "pdf_page": 6,
               "source_line_start": 589,
               "source_line_end": 589,
-              "evidence_quote": "Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01",
+              "evidence_quote": {
+                "private_reference": "r00012"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -457,7 +483,9 @@
               "pdf_page": 4,
               "source_line_start": 384,
               "source_line_end": 386,
-              "evidence_quote": "a general shift in the observed ranking (Fig. 4a). Only two species, Spondias and Miconia, showed a positive PIs on day 2, while the other nine plants were all clearly avoided. Colonies in the p-habitat, on the",
+              "evidence_quote": {
+                "private_reference": "r00013"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -472,7 +500,9 @@
               "pdf_page": 6,
               "source_line_start": 584,
               "source_line_end": 590,
-              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "evidence_quote": {
+                "private_reference": "r00014"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -487,7 +517,9 @@
               "pdf_page": 6,
               "source_line_start": 602,
               "source_line_end": 605,
-              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "evidence_quote": {
+                "private_reference": "r00015"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -502,7 +534,9 @@
               "pdf_page": 6,
               "source_line_start": 590,
               "source_line_end": 590,
-              "evidence_quote": "Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "evidence_quote": {
+                "private_reference": "r00016"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -553,7 +587,9 @@
               "pdf_page": 4,
               "source_line_start": 341,
               "source_line_end": 343,
-              "evidence_quote": "from both the p-habitat and the a-habitat. Spondias mombin (Fig. 3a) was always accepted on all days in both habitats, and no trail clearing occurred. Desmopsis panamensis, on the other hand,",
+              "evidence_quote": {
+                "private_reference": "r00017"
+              },
               "raw_request_hashes": [
                 "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
               ],
@@ -611,7 +647,9 @@
               "pdf_page": 4,
               "source_line_start": 347,
               "source_line_end": 355,
-              "evidence_quote": "on all tested days. Hymenaea courbaril was actively rejected by foragers from colonies in the p-habitat (Fig. 3c). They showed almost no intake and trail-clearing behaviour on all 3 days, with a slightly increasing rejection over time. Foragers from colonies in the a-habitat, conversely, accepted H. courbaril well on day 1, with nearly no trail clearing, but rejected it on the two following tests on days 2 and 3. The rejection increased slightly from hardly any intake and little trail clearing on the second day to marked rejection with strong trail clearing on the third day.",
+              "evidence_quote": {
+                "private_reference": "r00018"
+              },
               "raw_request_hashes": [
                 "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
               ],
@@ -635,7 +673,9 @@
               "pdf_page": 4,
               "source_line_start": 347,
               "source_line_end": 355,
-              "evidence_quote": "on all tested days. Hymenaea courbaril was actively rejected by foragers from colonies in the p-habitat (Fig. 3c). They showed almost no intake and trail-clearing behaviour on all 3 days, with a slightly increasing rejection over time. Foragers from colonies in the a-habitat, conversely, accepted H. courbaril well on day 1, with nearly no trail clearing, but rejected it on the two following tests on days 2 and 3. The rejection increased slightly from hardly any intake and little trail clearing on the second day to marked rejection with strong trail clearing on the third day.",
+              "evidence_quote": {
+                "private_reference": "r00019"
+              },
               "raw_request_hashes": [
                 "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
               ],
@@ -698,7 +738,9 @@
               "pdf_page": 4,
               "source_line_start": 378,
               "source_line_end": 384,
-              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "evidence_quote": {
+                "private_reference": "r00020"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -722,7 +764,9 @@
               "pdf_page": 4,
               "source_line_start": 378,
               "source_line_end": 384,
-              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "evidence_quote": {
+                "private_reference": "r00021"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -778,7 +822,9 @@
               "pdf_page": 4,
               "source_line_start": 378,
               "source_line_end": 384,
-              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "evidence_quote": {
+                "private_reference": "r00022"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -802,7 +848,9 @@
               "pdf_page": 4,
               "source_line_start": 378,
               "source_line_end": 384,
-              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "evidence_quote": {
+                "private_reference": "r00023"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -858,7 +906,9 @@
               "pdf_page": 4,
               "source_line_start": 378,
               "source_line_end": 384,
-              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "evidence_quote": {
+                "private_reference": "r00024"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -882,7 +932,9 @@
               "pdf_page": 4,
               "source_line_start": 378,
               "source_line_end": 384,
-              "evidence_quote": "The effect of experience on plant acceptability was also evident in the additional experiment with simultaneous presentation of the 11 plant species. Ranking of the tested plants occurred and changed over time as a result of experience in colonies from the a-habitat (Fig. 4). Leaf discs of Hymenaea, Inga, Tetragastris and Trichilia were accepted on day 1, but significantly avoided the following day, thus leading to a general shift in the observed ranking (Fig. 4a). Only two species,",
+              "evidence_quote": {
+                "private_reference": "r00025"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -938,7 +990,9 @@
               "pdf_page": 4,
               "source_line_start": 392,
               "source_line_end": 394,
-              "evidence_quote": "same in both locations on the second day. As in the a-habitat, Miconia was also accepted on both days of the experiment, in contrast to the results of the individual tests (Table 1).",
+              "evidence_quote": {
+                "private_reference": "r00026"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -953,7 +1007,9 @@
               "pdf_page": 7,
               "source_line_start": 609,
               "source_line_end": 617,
-              "evidence_quote": "Miconia argentea was surprisingly well accepted in the ranking experiment, in contrast to the previous experiment when it was offered alone. A reason for this could be the reference material with which M. argentea was offered. Animals generally seem to rank resources in their foraging area and appear to concentrate their foraging effort on the best items (MacArthur & Pianka 1966; Schoener 1969; Wirth et al. 2003). Within the given choice among 11 species of low palatability, M. argentea seemed to be the second best option next to S. mombin. Sampling behaviour and intake of",
+              "evidence_quote": {
+                "private_reference": "r00027"
+              },
               "raw_request_hashes": [
                 "174793afe6a1e000da99ce37c52ca2b34e2f0dc8125dba9eff5abb2e70a2ca84"
               ],
@@ -977,7 +1033,9 @@
               "pdf_page": 4,
               "source_line_start": 341,
               "source_line_end": 343,
-              "evidence_quote": "from both the p-habitat and the a-habitat. Spondias mombin (Fig. 3a) was always accepted on all days in both habitats, and no trail clearing occurred. Desmopsis panamensis, on the other hand,",
+              "evidence_quote": {
+                "private_reference": "r00028"
+              },
               "raw_request_hashes": [
                 "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6"
               ],
@@ -992,7 +1050,9 @@
               "pdf_page": 4,
               "source_line_start": 366,
               "source_line_end": 377,
-              "evidence_quote": "Comparisons between the responses of colonies from the two habitats when presented with the 10 other, less-attractive plant species clearly indicated the occurrence of experience-based delayed avoidance. Avoidance, both immediate and delayed, was manifested as a very low to nonexistent intake and a marked trail clearing, resulting mostly in negative PIs. Whereas colonies from the p-habitat rejected the 10 tested plant species during the first test on day 1, as well as on the following days, colonies from the a-habitat initially accepted four of the 10 species (Hymenaea, Inga, Tetragastris and Trichilia), but rejected them on the following 2 days in a way similar to the colonies in the p-habitat (Table 1, habitat\u0002related rejection species). On day 1, their PIs values were signifi\u0002cantly higher than those of colonies from the p-habitat (statistics in Table 1).",
+              "evidence_quote": {
+                "private_reference": "r00029"
+              },
               "raw_request_hashes": [
                 "45231126a83e60a8e4dda66d0d16f4abb1c35bc50cdb6f5e9042d3577b1128b6",
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
@@ -1008,7 +1068,9 @@
               "pdf_page": 6,
               "source_line_start": 584,
               "source_line_end": 590,
-              "evidence_quote": "Immediate rejection Desmopsis panamensis \u00040.11\u00030.07 \u00040.06\u00030.02 \u00040.05\u00030.01 \u00040.03\u00030.01 \u00040.03\u00030.01 \u00040.02\u00030.01 Hiraea grandifolia \u00040.13\u00030.07 \u00040.07\u00030.03 \u00040.04\u00030.01 \u00040.06\u00030.02 \u00040.02\u00030.00 \u00040.01\u00030.01 Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 Randia armata \u00040.50\u00030.18 \u00040.16\u00030.03 \u00040.15\u00030.02 \u00040.08\u00030.05 \u00040.05\u00030.02 \u00040.03\u00030.01 Sorocea affinis \u00040.27\u00030.14 \u00040.13\u00030.05 \u00040.07\u00030.02 \u00040.00\u00030.00 \u00040.05\u00030.01 \u00040.03\u00030.01 Trema micrantha \u00040.02\u00030.01 \u00040.02\u00030.02 \u00040.04\u00030.02 \u00040.03\u00030.02 \u00040.04\u00030.04 \u00040.02\u00030.03",
+              "evidence_quote": {
+                "private_reference": "r00030"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -1023,7 +1085,9 @@
               "pdf_page": 6,
               "source_line_start": 602,
               "source_line_end": 605,
-              "evidence_quote": "Plants are grouped according to the observed behaviour of the ants. Pick-up rates are shown as standardized palatability index (PIs ¼ standardized intake rate\u0004standardized trail-clearing rate). Negative values indicate that the rate of trail clearing exceeded the rate of intake. The response of ants to the last four plant species depended on the habitat. They were immediately rejected in the p-habitat, and rejected after a delay in the a-habitat. Statistically significant differences between habitats or days are indicated in bold. Statistics were performed using a general linear model followed by a Fisher’s least significant difference test.",
+              "evidence_quote": {
+                "private_reference": "r00031"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -1038,7 +1102,9 @@
               "pdf_page": 6,
               "source_line_start": 587,
               "source_line_end": 587,
-              "evidence_quote": "Miconia argentea 0.01\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00 0.00\u00030.00",
+              "evidence_quote": {
+                "private_reference": "r00032"
+              },
               "raw_request_hashes": [
                 "8b01fa615356da46dda67fd9cf66163605a0e7ff2942a13b19dc855549878274"
               ],
@@ -1082,7 +1148,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 692; PDF page 4",
         "block_id": "b00003",
-        "evidence_quote": "Spondias mombin (Fig. 3a) was always accepted on all days in both habitats, and no trail clearing occurred.",
+        "evidence_quote": {
+          "private_reference": "r00033"
+        },
         "extraction_confidence": 0.95,
         "substrate_treatment": "natural",
         "rejection_timing": "unspecified",
@@ -1109,7 +1177,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 692; PDF page 4",
         "block_id": "b00003",
-        "evidence_quote": "Desmopsis panamensis, on the other hand, was immediately rejected by all colonies, irrespective of the habitat (Fig. 3b).",
+        "evidence_quote": {
+          "private_reference": "r00034"
+        },
         "extraction_confidence": 0.95,
         "substrate_treatment": "natural",
         "rejection_timing": "immediate",
@@ -1136,7 +1206,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 692; PDF page 4",
         "block_id": "b00003",
-        "evidence_quote": "Hymenaea courbaril was actively rejected by foragers from colonies in the p-habitat (Fig. 3c). They showed almost no intake and trail-clearing behaviour on all 3 days, with a slightly increasing rejection over time.",
+        "evidence_quote": {
+          "private_reference": "r00035"
+        },
         "extraction_confidence": 0.95,
         "substrate_treatment": "natural",
         "rejection_timing": "immediate",
@@ -1163,7 +1235,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 692; PDF page 4",
         "block_id": "b00003",
-        "evidence_quote": "Foragers from colonies in the a-habitat, conversely, accepted H. courbaril well on day 1, with nearly no trail clearing, but rejected it on the two following tests on days 2 and 3.",
+        "evidence_quote": {
+          "private_reference": "r00036"
+        },
         "extraction_confidence": 0.95,
         "substrate_treatment": "natural",
         "rejection_timing": "delayed",
@@ -1190,7 +1264,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 694; PDF page 6",
         "block_id": "b00005",
-        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Hiraea grandifolia",
+        "evidence_quote": {
+          "private_reference": "r00037"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "immediate",
@@ -1217,7 +1293,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 694; PDF page 6",
         "block_id": "b00005",
-        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Randia armata",
+        "evidence_quote": {
+          "private_reference": "r00038"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "immediate",
@@ -1244,7 +1322,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 694; PDF page 6",
         "block_id": "b00005",
-        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Sorocea affinis",
+        "evidence_quote": {
+          "private_reference": "r00039"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "immediate",
@@ -1271,7 +1351,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 694; PDF page 6",
         "block_id": "b00005",
-        "evidence_quote": "Table 1 List of the 11 plant species tested over 3 consecutive days for acceptance or avoidance (Ncthree colonies per plant species and habitat)... Trema micrantha",
+        "evidence_quote": {
+          "private_reference": "r00040"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "immediate",
@@ -1298,7 +1380,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 694; PDF page 6",
         "block_id": "b00005",
-        "evidence_quote": "Inga goldmanii 0.03±0.02 -0.020.01 -0.040.02 0.30±0.05 -0.11±0.03 -0.060.01 Between habitats on day 1: P<0.001 Day 1–day 2 in a-habitat: P<0.0001",
+        "evidence_quote": {
+          "private_reference": "r00041"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "delayed",
@@ -1325,7 +1409,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 694; PDF page 6",
         "block_id": "b00005",
-        "evidence_quote": "Tetragastris panamensis -0.32±0.11 -0.150.03 -0.130.02 0.14±0.10 -0.040.03 -0.050.03 Between habitats on day 1: P<0.001",
+        "evidence_quote": {
+          "private_reference": "r00042"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "delayed",
@@ -1352,7 +1438,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 694; PDF page 6",
         "block_id": "b00005",
-        "evidence_quote": "Trichilia tuberculata -0.02±0.07 -0.060.01 -0.040.03 0.20±0.07 0.06±0.03 -0.010.00 Between habitats on day 1: P<0.05 Day 1–day 2 in a-habitat: P<0.05",
+        "evidence_quote": {
+          "private_reference": "r00043"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "delayed",
@@ -1379,7 +1467,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 692; PDF page 4",
         "block_id": "b00003",
-        "evidence_quote": "As all five experimental colonies readily accepted S. lindenianum before the treatment, this acceptance served as a control to show the unchanged and high palatability of the substrate over time.",
+        "evidence_quote": {
+          "private_reference": "r00044"
+        },
         "extraction_confidence": 0.9,
         "substrate_treatment": "natural",
         "rejection_timing": "unspecified",
@@ -1406,7 +1496,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 693; PDF page 5",
         "block_id": "b00004",
-        "evidence_quote": "After the initial intake of leaf discs of S. lindenianum treated with fungicide and the observed rejection 2 days later, very low intake of the untreated substrate could be observed for approximately 12 weeks (Fig. 6a).",
+        "evidence_quote": {
+          "private_reference": "r00045"
+        },
         "extraction_confidence": 0.95,
         "substrate_treatment": "natural",
         "rejection_timing": "delayed",
@@ -1433,7 +1525,9 @@
         "source_id": "SAVERSCHEK2010",
         "section": "Published page 696; PDF page 8",
         "block_id": "b00007",
-        "evidence_quote": "Laboratory colonies of A. octospinosus rejected yellow yams for 38 days after the last contact (Rahbe et al. 1988)",
+        "evidence_quote": {
+          "private_reference": "r00046"
+        },
         "extraction_confidence": 0.95,
         "substrate_treatment": "unclear",
         "rejection_timing": "delayed",
@@ -1497,5 +1591,1783 @@
       "sha256": "02eba4f88aa0c0684abec47f922cc498092378578c5a39586c0a203596cf0d56"
     }
   ],
-  "cached_source_matches_audit_hash": true
+  "cached_source_matches_audit_hash": true,
+  "publication": {
+    "notice": "Full text is retained locally and is not redistributed. Source fields are private references; scientific counts and decisions retain their original values. Historical artifact hashes identify the byte-exact private originals.",
+    "private_original": "data/interim/publication_safety/originals/results/recall_baseline.json",
+    "original_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+    "retained_source_quotations": 0,
+    "redactions": [
+      {
+        "reference_id": "r00000",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          0,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 3843,
+        "private_utf8_byte_end": 4179,
+        "encoded_span_sha256": "bcbd4a547ee93562481c2769e5f25a67c69db23fd7b38952e8c3cf38105b2c51",
+        "value_utf8_sha256": "3485fd68ac3458ab2843fc7e37f4e2cd93b75540fbe3e4fdc9796060cb32e326",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 2107,
+            "block_utf8_byte_end": 2441,
+            "span_sha256": "3485fd68ac3458ab2843fc7e37f4e2cd93b75540fbe3e4fdc9796060cb32e326",
+            "source_words": 49,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00001",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          1,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 5969,
+        "private_utf8_byte_end": 6181,
+        "encoded_span_sha256": "57549a3252418639c416decfef85922192ad91f237a03267424a59f762df1264",
+        "value_utf8_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4892,
+            "block_utf8_byte_end": 5102,
+            "span_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+            "source_words": 37,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00002",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          1,
+          "reference_support",
+          0,
+          "anchors",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 6789,
+        "private_utf8_byte_end": 7633,
+        "encoded_span_sha256": "8049f5ca4a7eefadad9ce97e8437e1f5e94af9286246c894e718c991826aaab7",
+        "value_utf8_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5205,
+            "block_utf8_byte_end": 5717,
+            "span_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+            "source_words": 50,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00003",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          1,
+          "reference_support",
+          0,
+          "anchors",
+          2,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 8233,
+        "private_utf8_byte_end": 8892,
+        "encoded_span_sha256": "e392d1caaae9a4e734a71f80d4c4bab4aabfde61d3b6e426c79be6b4466e0893",
+        "value_utf8_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6302,
+            "block_utf8_byte_end": 6954,
+            "span_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+            "source_words": 96,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00004",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          1,
+          "reference_support",
+          0,
+          "anchors",
+          3,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 9495,
+        "private_utf8_byte_end": 9641,
+        "encoded_span_sha256": "276b5709b61af4e774212a09875bfcd825baed48ab68a957cd2ed7d03f570144",
+        "value_utf8_sha256": "c552cd8614c1f5b96763cc0da085a309c2874c17c4f823777d76ec0b752de19f",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5312,
+            "block_utf8_byte_end": 5396,
+            "span_sha256": "c552cd8614c1f5b96763cc0da085a309c2874c17c4f823777d76ec0b752de19f",
+            "source_words": 8,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00005",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          2,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 11292,
+        "private_utf8_byte_end": 11504,
+        "encoded_span_sha256": "57549a3252418639c416decfef85922192ad91f237a03267424a59f762df1264",
+        "value_utf8_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4892,
+            "block_utf8_byte_end": 5102,
+            "span_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+            "source_words": 37,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00006",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          2,
+          "reference_support",
+          0,
+          "anchors",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 12112,
+        "private_utf8_byte_end": 12956,
+        "encoded_span_sha256": "8049f5ca4a7eefadad9ce97e8437e1f5e94af9286246c894e718c991826aaab7",
+        "value_utf8_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5205,
+            "block_utf8_byte_end": 5717,
+            "span_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+            "source_words": 50,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00007",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          2,
+          "reference_support",
+          0,
+          "anchors",
+          2,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 13556,
+        "private_utf8_byte_end": 14215,
+        "encoded_span_sha256": "e392d1caaae9a4e734a71f80d4c4bab4aabfde61d3b6e426c79be6b4466e0893",
+        "value_utf8_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6302,
+            "block_utf8_byte_end": 6954,
+            "span_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+            "source_words": 96,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00008",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          2,
+          "reference_support",
+          0,
+          "anchors",
+          3,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 14818,
+        "private_utf8_byte_end": 14959,
+        "encoded_span_sha256": "1cdae63e9f997996fe8e056662e2126c91f8c782d365b008c2615080d57741ad",
+        "value_utf8_sha256": "226bf9862e7a725ac5059da71d21b2fab807970280e1d79418ccd25c8bc7e5af",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5474,
+            "block_utf8_byte_end": 5553,
+            "span_sha256": "226bf9862e7a725ac5059da71d21b2fab807970280e1d79418ccd25c8bc7e5af",
+            "source_words": 8,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00009",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          3,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 16612,
+        "private_utf8_byte_end": 16824,
+        "encoded_span_sha256": "57549a3252418639c416decfef85922192ad91f237a03267424a59f762df1264",
+        "value_utf8_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4892,
+            "block_utf8_byte_end": 5102,
+            "span_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+            "source_words": 37,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00010",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          3,
+          "reference_support",
+          0,
+          "anchors",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 17432,
+        "private_utf8_byte_end": 18276,
+        "encoded_span_sha256": "8049f5ca4a7eefadad9ce97e8437e1f5e94af9286246c894e718c991826aaab7",
+        "value_utf8_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5205,
+            "block_utf8_byte_end": 5717,
+            "span_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+            "source_words": 50,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00011",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          3,
+          "reference_support",
+          0,
+          "anchors",
+          2,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 18876,
+        "private_utf8_byte_end": 19535,
+        "encoded_span_sha256": "e392d1caaae9a4e734a71f80d4c4bab4aabfde61d3b6e426c79be6b4466e0893",
+        "value_utf8_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6302,
+            "block_utf8_byte_end": 6954,
+            "span_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+            "source_words": 96,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00012",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          3,
+          "reference_support",
+          0,
+          "anchors",
+          3,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 20139,
+        "private_utf8_byte_end": 20282,
+        "encoded_span_sha256": "e472a8c091c1d4a219b4aff5b8b96f206298b5f90543d06908f53757da3ddf2d",
+        "value_utf8_sha256": "8ccbd427af1810cb3cdc76774bb1f6e3696ef2d4708355c7a77f99072b928546",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5554,
+            "block_utf8_byte_end": 5635,
+            "span_sha256": "8ccbd427af1810cb3cdc76774bb1f6e3696ef2d4708355c7a77f99072b928546",
+            "source_words": 8,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00013",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          4,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 21935,
+        "private_utf8_byte_end": 22147,
+        "encoded_span_sha256": "57549a3252418639c416decfef85922192ad91f237a03267424a59f762df1264",
+        "value_utf8_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4892,
+            "block_utf8_byte_end": 5102,
+            "span_sha256": "cac15c5014481a07995ce14e8bd6bd48b6c97c784cf2bbb223828734fdc6cfc2",
+            "source_words": 37,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00014",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          4,
+          "reference_support",
+          0,
+          "anchors",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 22755,
+        "private_utf8_byte_end": 23599,
+        "encoded_span_sha256": "8049f5ca4a7eefadad9ce97e8437e1f5e94af9286246c894e718c991826aaab7",
+        "value_utf8_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5205,
+            "block_utf8_byte_end": 5717,
+            "span_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+            "source_words": 50,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00015",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          4,
+          "reference_support",
+          0,
+          "anchors",
+          2,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 24199,
+        "private_utf8_byte_end": 24858,
+        "encoded_span_sha256": "e392d1caaae9a4e734a71f80d4c4bab4aabfde61d3b6e426c79be6b4466e0893",
+        "value_utf8_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6302,
+            "block_utf8_byte_end": 6954,
+            "span_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+            "source_words": 96,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00016",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          4,
+          "reference_support",
+          0,
+          "anchors",
+          3,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 25460,
+        "private_utf8_byte_end": 25603,
+        "encoded_span_sha256": "75b176f0d90f0f875681c7ed37c3ed0ad7591ffe3b12f7114d7f898e781f8738",
+        "value_utf8_sha256": "f3d1c3393acec7179df91fb332f08916e147f92000b78cd473c095c045a37f18",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5636,
+            "block_utf8_byte_end": 5717,
+            "span_sha256": "f3d1c3393acec7179df91fb332f08916e147f92000b78cd473c095c045a37f18",
+            "source_words": 8,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00017",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          5,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 27240,
+        "private_utf8_byte_end": 27433,
+        "encoded_span_sha256": "b1a7c421fb77e287edaa36ea6c68b513c393625ad10d09f1c9eded2fd66b28f4",
+        "value_utf8_sha256": "8ea9083a7391c61dac8c9226b571bd34f11296f20c6d85ca0b5f5f268bf94d5c",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 1981,
+            "block_utf8_byte_end": 2172,
+            "span_sha256": "8ea9083a7391c61dac8c9226b571bd34f11296f20c6d85ca0b5f5f268bf94d5c",
+            "source_words": 31,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00018",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          6,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 29227,
+        "private_utf8_byte_end": 29810,
+        "encoded_span_sha256": "1944b2d38552589700ffab0994daa976470f2135c2b31784ba11c9d47a624c1b",
+        "value_utf8_sha256": "446df710977e6d06b3eeec189c206d486d180d555423d26b835fd7b4bdbc2ddf",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 2378,
+            "block_utf8_byte_end": 2959,
+            "span_sha256": "446df710977e6d06b3eeec189c206d486d180d555423d26b835fd7b4bdbc2ddf",
+            "source_words": 96,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00019",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          6,
+          "reference_support",
+          1,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 30708,
+        "private_utf8_byte_end": 31291,
+        "encoded_span_sha256": "1944b2d38552589700ffab0994daa976470f2135c2b31784ba11c9d47a624c1b",
+        "value_utf8_sha256": "446df710977e6d06b3eeec189c206d486d180d555423d26b835fd7b4bdbc2ddf",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 2378,
+            "block_utf8_byte_end": 2959,
+            "span_sha256": "446df710977e6d06b3eeec189c206d486d180d555423d26b835fd7b4bdbc2ddf",
+            "source_words": 96,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00020",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          7,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 33293,
+        "private_utf8_byte_end": 33782,
+        "encoded_span_sha256": "4cf8433ddef9c25646b93e81db140db7c07d39d64b5c5733befed20429e80daa",
+        "value_utf8_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4473,
+            "block_utf8_byte_end": 4960,
+            "span_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+            "source_words": 78,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00021",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          7,
+          "reference_support",
+          1,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 34686,
+        "private_utf8_byte_end": 35175,
+        "encoded_span_sha256": "4cf8433ddef9c25646b93e81db140db7c07d39d64b5c5733befed20429e80daa",
+        "value_utf8_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4473,
+            "block_utf8_byte_end": 4960,
+            "span_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+            "source_words": 78,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00022",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          8,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 36954,
+        "private_utf8_byte_end": 37443,
+        "encoded_span_sha256": "4cf8433ddef9c25646b93e81db140db7c07d39d64b5c5733befed20429e80daa",
+        "value_utf8_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4473,
+            "block_utf8_byte_end": 4960,
+            "span_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+            "source_words": 78,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00023",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          8,
+          "reference_support",
+          1,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 38347,
+        "private_utf8_byte_end": 38836,
+        "encoded_span_sha256": "4cf8433ddef9c25646b93e81db140db7c07d39d64b5c5733befed20429e80daa",
+        "value_utf8_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4473,
+            "block_utf8_byte_end": 4960,
+            "span_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+            "source_words": 78,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00024",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          9,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 40614,
+        "private_utf8_byte_end": 41103,
+        "encoded_span_sha256": "4cf8433ddef9c25646b93e81db140db7c07d39d64b5c5733befed20429e80daa",
+        "value_utf8_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4473,
+            "block_utf8_byte_end": 4960,
+            "span_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+            "source_words": 78,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00025",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          9,
+          "reference_support",
+          1,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 42007,
+        "private_utf8_byte_end": 42496,
+        "encoded_span_sha256": "4cf8433ddef9c25646b93e81db140db7c07d39d64b5c5733befed20429e80daa",
+        "value_utf8_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 4473,
+            "block_utf8_byte_end": 4960,
+            "span_sha256": "513080d29dd8cae275f950a5292ff8887a18c96344b51fc607e62a0bb44b863b",
+            "source_words": 78,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00026",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          10,
+          "reference_support",
+          0,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 44264,
+        "private_utf8_byte_end": 44448,
+        "encoded_span_sha256": "44da15935a0c4fbdc55ff97a07975463e5a591cf46b36fc7ffe15ef844b7e3d4",
+        "value_utf8_sha256": "055493a0759ccc2c8009cc3ace9a4b96d85df6d1ab0ccca772fc54f1e32939ca",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 5447,
+            "block_utf8_byte_end": 5629,
+            "span_sha256": "055493a0759ccc2c8009cc3ace9a4b96d85df6d1ab0ccca772fc54f1e32939ca",
+            "source_words": 33,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00027",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          10,
+          "reference_support",
+          0,
+          "anchors",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 45059,
+        "private_utf8_byte_end": 45640,
+        "encoded_span_sha256": "11050e17b121c1af970ee481656dc479bcc5e9a50193a5a99899144a1e862c7b",
+        "value_utf8_sha256": "d44f42d84637bb0ab3493ebc051848a5e55a6c79068f04c866307513234406c1",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00006",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "5b8a83ab977d94cd0364aa0d03f4cc7d4257f1ae20e060751811f46ea825b865",
+            "block_utf8_byte_start": 133,
+            "block_utf8_byte_end": 712,
+            "span_sha256": "d44f42d84637bb0ab3493ebc051848a5e55a6c79068f04c866307513234406c1",
+            "source_words": 95,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00028",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          10,
+          "reference_support",
+          1,
+          "anchors",
+          0,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 46541,
+        "private_utf8_byte_end": 46734,
+        "encoded_span_sha256": "b1a7c421fb77e287edaa36ea6c68b513c393625ad10d09f1c9eded2fd66b28f4",
+        "value_utf8_sha256": "8ea9083a7391c61dac8c9226b571bd34f11296f20c6d85ca0b5f5f268bf94d5c",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 1981,
+            "block_utf8_byte_end": 2172,
+            "span_sha256": "8ea9083a7391c61dac8c9226b571bd34f11296f20c6d85ca0b5f5f268bf94d5c",
+            "source_words": 31,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00029",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          10,
+          "reference_support",
+          1,
+          "anchors",
+          1,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 47348,
+        "private_utf8_byte_end": 48230,
+        "encoded_span_sha256": "74868b2c2119f01238884e49cd9098dfc0ff8092545203d83a5f3ab3531531f3",
+        "value_utf8_sha256": "dd15805645b5fcaa036a4f2769d17eb0e4b41343e3fb731e0186bf202fd5c461",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 3602,
+            "block_utf8_byte_end": 4472,
+            "span_sha256": "dd15805645b5fcaa036a4f2769d17eb0e4b41343e3fb731e0186bf202fd5c461",
+            "source_words": 135,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00030",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          10,
+          "reference_support",
+          1,
+          "anchors",
+          2,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 48922,
+        "private_utf8_byte_end": 49766,
+        "encoded_span_sha256": "8049f5ca4a7eefadad9ce97e8437e1f5e94af9286246c894e718c991826aaab7",
+        "value_utf8_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5205,
+            "block_utf8_byte_end": 5717,
+            "span_sha256": "6fea3c1dd42f83f1413c200d633d22bb21cb2efab592422c301eef5067e3c00d",
+            "source_words": 50,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00031",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          10,
+          "reference_support",
+          1,
+          "anchors",
+          3,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 50366,
+        "private_utf8_byte_end": 51025,
+        "encoded_span_sha256": "e392d1caaae9a4e734a71f80d4c4bab4aabfde61d3b6e426c79be6b4466e0893",
+        "value_utf8_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6302,
+            "block_utf8_byte_end": 6954,
+            "span_sha256": "178638c290701a7e39dc16c39929390cc5a9df0372160111effed318cb8fafd2",
+            "source_words": 96,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00032",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "species",
+          10,
+          "reference_support",
+          1,
+          "anchors",
+          4,
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 51629,
+        "private_utf8_byte_end": 51737,
+        "encoded_span_sha256": "ce62f0a591cb1a34ce51967591096cd1ef7ce02679d161c734102cb972c90ab2",
+        "value_utf8_sha256": "51e9c329884b7ea0288e216540822af143f9f41ccd502e7f8f085ac1d8606237",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5397,
+            "block_utf8_byte_end": 5473,
+            "span_sha256": "51e9c329884b7ea0288e216540822af143f9f41ccd502e7f8f085ac1d8606237",
+            "source_words": 8,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00033",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          0,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 53461,
+        "private_utf8_byte_end": 53570,
+        "encoded_span_sha256": "8f92b9ac7d29b66d8306921f732aa38d40e5cd28c9bdb193556a9c39e88715c8",
+        "value_utf8_sha256": "7f26c4da5e91d5f7f9ec97c3416395f3929ed686ea2c74c2da63ec2de37f446a",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 2024,
+            "block_utf8_byte_end": 2131,
+            "span_sha256": "7f26c4da5e91d5f7f9ec97c3416395f3929ed686ea2c74c2da63ec2de37f446a",
+            "source_words": 18,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00034",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          1,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 54897,
+        "private_utf8_byte_end": 55020,
+        "encoded_span_sha256": "ad2fa026d44a02a4824d1b21e6666950eee3d8fbe80016895b4a38f5815064fd",
+        "value_utf8_sha256": "ca6491f229eade33a2c9d1b9fc7ae83819b5370be657e6193f05f070348e491f",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 2132,
+            "block_utf8_byte_end": 2253,
+            "span_sha256": "ca6491f229eade33a2c9d1b9fc7ae83819b5370be657e6193f05f070348e491f",
+            "source_words": 18,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00035",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          2,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 56334,
+        "private_utf8_byte_end": 56551,
+        "encoded_span_sha256": "e1cff078166cdca96b1be745bc7f24cbe255e5ee755174c76e78941bd5182295",
+        "value_utf8_sha256": "cb9ea004029850b32c6607520e88e9c5607a67f681a9867ec3de4622296fb15f",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 2398,
+            "block_utf8_byte_end": 2613,
+            "span_sha256": "cb9ea004029850b32c6607520e88e9c5607a67f681a9867ec3de4622296fb15f",
+            "source_words": 33,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00036",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          3,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 57876,
+        "private_utf8_byte_end": 58058,
+        "encoded_span_sha256": "0f0b49ebdb01dc751d5994418a428daded9bd5071ebd99cc78176a6b0e6e8aa2",
+        "value_utf8_sha256": "ea6229077d177a68a8a5f22911f44afba7d77a417d084c931bb1f4182e522559",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 2614,
+            "block_utf8_byte_end": 2794,
+            "span_sha256": "ea6229077d177a68a8a5f22911f44afba7d77a417d084c931bb1f4182e522559",
+            "source_words": 32,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00037",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          4,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 59395,
+        "private_utf8_byte_end": 59563,
+        "encoded_span_sha256": "c6fb668c41e79e29e0a2f95b79dda17f4a4a97d404be631bcd8286b59ba99fa0",
+        "value_utf8_sha256": "0e1ea331f9ecba8e1a68e89effcc4f4262aa159b25da4e742b75ea0fbd9af58e",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 4908,
+            "block_utf8_byte_end": 5003,
+            "span_sha256": "a5f3ab832d724e00bb7588558e363845b030b86a01c1c42057b5f7b2df1b5882",
+            "source_words": 17,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5014,
+            "block_utf8_byte_end": 5052,
+            "span_sha256": "cce1fb5b831767621ce55a3da1296509ff46765f4363851030ec01109ec93f61",
+            "source_words": 6,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00038",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          5,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 60889,
+        "private_utf8_byte_end": 61052,
+        "encoded_span_sha256": "a2fbb5b1bf00d941c1a33372fd7ce2d4e205bbda65dba0ee8f95cb5718691e8f",
+        "value_utf8_sha256": "53caf65b025e302ad44e063607b250d957db4d9c6273a930bf0a816c1c4f2bec",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 4908,
+            "block_utf8_byte_end": 5003,
+            "span_sha256": "a5f3ab832d724e00bb7588558e363845b030b86a01c1c42057b5f7b2df1b5882",
+            "source_words": 17,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5014,
+            "block_utf8_byte_end": 5052,
+            "span_sha256": "cce1fb5b831767621ce55a3da1296509ff46765f4363851030ec01109ec93f61",
+            "source_words": 6,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00039",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          6,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 62380,
+        "private_utf8_byte_end": 62545,
+        "encoded_span_sha256": "dee24957ade81c23593846f5f1a975f14462028f76a1b2bc95676b1dfadaec7c",
+        "value_utf8_sha256": "48299ee0f47a87df910b27e83626c66fd80a7495d0f2f1436f849ba242e47fb1",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 4908,
+            "block_utf8_byte_end": 5003,
+            "span_sha256": "a5f3ab832d724e00bb7588558e363845b030b86a01c1c42057b5f7b2df1b5882",
+            "source_words": 17,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5014,
+            "block_utf8_byte_end": 5052,
+            "span_sha256": "cce1fb5b831767621ce55a3da1296509ff46765f4363851030ec01109ec93f61",
+            "source_words": 6,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00040",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          7,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 63873,
+        "private_utf8_byte_end": 64038,
+        "encoded_span_sha256": "6743b4446d1fbaba253e801efdbb7cb958861bf93657e600c76432d6cf1aa0a9",
+        "value_utf8_sha256": "1e0d840f4dc2f211f495164c50a6ca4fc912677e470e02fb70a44fcf77732728",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 4908,
+            "block_utf8_byte_end": 5003,
+            "span_sha256": "a5f3ab832d724e00bb7588558e363845b030b86a01c1c42057b5f7b2df1b5882",
+            "source_words": 17,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5014,
+            "block_utf8_byte_end": 5052,
+            "span_sha256": "cce1fb5b831767621ce55a3da1296509ff46765f4363851030ec01109ec93f61",
+            "source_words": 6,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00041",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          8,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 65385,
+        "private_utf8_byte_end": 65537,
+        "encoded_span_sha256": "e039fdb491fe271dc38f7c2b26dbd35da2154a91602b450bbf9775f2b340e8a7",
+        "value_utf8_sha256": "01741e5330a5a1b540e206c767d8aabb5f5719452166ba191b54285d862abf58",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5864,
+            "block_utf8_byte_end": 5892,
+            "span_sha256": "f1043e9d68611e7dd12ff9d046fe7dfb68173d2d211bb1d09982a8aa3065c801",
+            "source_words": 4,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5909,
+            "block_utf8_byte_end": 5937,
+            "span_sha256": "1ce8145ec79c8488a0c17dde9fc2add66c49af5855ee82b815ef66ec2ce5160b",
+            "source_words": 4,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5943,
+            "block_utf8_byte_end": 6017,
+            "span_sha256": "3950344e51aa2c28aaab21f8375f85898d0c5de9306a952eaa1882cd12726cc7",
+            "source_words": 13,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00042",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          9,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 66892,
+        "private_utf8_byte_end": 67015,
+        "encoded_span_sha256": "d43dec841a98fea194c0f47a2081657c0a54490c5ff296de508f3966ac45fe03",
+        "value_utf8_sha256": "1750782beef864c42434bfd0f9862da2bfb670e91871497d044266b5b9107eaa",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6018,
+            "block_utf8_byte_end": 6056,
+            "span_sha256": "9eab824ceb53b522833f55c611695c04b41541f99c40712ee0fadd49dba80d69",
+            "source_words": 4,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6073,
+            "block_utf8_byte_end": 6089,
+            "span_sha256": "a527518ee4f2a33c95016676b288762a1c9da443f7b7592be265a88e05415ee2",
+            "source_words": 3,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 5827,
+            "block_utf8_byte_end": 5860,
+            "span_sha256": "547c7470cd001b1c3e56e4d019339a8c7e4bba3c848d9c99282b369da4863a68",
+            "source_words": 7,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00043",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          10,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 68367,
+        "private_utf8_byte_end": 68523,
+        "encoded_span_sha256": "ad013a4539c76c3aad1a82a5d15ef3567b6f6cae11fe6957bc637535037257da",
+        "value_utf8_sha256": "fe891e3b4cf3dd52162984315e62780bad57ea02532f8238926948a6cd7a6137",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6144,
+            "block_utf8_byte_end": 6180,
+            "span_sha256": "6dce71f180298c2a1fb120805f672062df50665496ef86fea87965d85536e342",
+            "source_words": 4,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6197,
+            "block_utf8_byte_end": 6224,
+            "span_sha256": "05ecf2517abbaa7cf71aa32e7d1de68f7393764ee72b569d6800926aba410808",
+            "source_words": 4,
+            "kind": "pdf_page_text"
+          },
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00005",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e39febd0f3d86422c266b3cb03e2741b8db0236da2693a617e0218acf894661d",
+            "block_utf8_byte_start": 6230,
+            "block_utf8_byte_end": 6301,
+            "span_sha256": "5f0b1798cc445a15f10295afcdcc8960a2b3156d88b0918ded28ddba61eca0f2",
+            "source_words": 13,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00044",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          11,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 69795,
+        "private_utf8_byte_end": 69992,
+        "encoded_span_sha256": "ec27b47815474260cea381e2b77764c469125c9ac08b11b889c1bdbf9616853e",
+        "value_utf8_sha256": "3d12a7e005cc0825a35079aa20fd0864713b941ab3a6de7e2cc90438f3adf9c3",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00003",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "e1908cad9b1c86f10c3ccaaaecfdcdba8c937d721b6b383933344882ac0efc94",
+            "block_utf8_byte_start": 552,
+            "block_utf8_byte_end": 747,
+            "span_sha256": "3d12a7e005cc0825a35079aa20fd0864713b941ab3a6de7e2cc90438f3adf9c3",
+            "source_words": 30,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00045",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          12,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 71336,
+        "private_utf8_byte_end": 71557,
+        "encoded_span_sha256": "1455605a1542e2dc09d0f82bbe24b036ee24f4329b90be1d1a7585df56c45754",
+        "value_utf8_sha256": "5d0e748ffffc119f2df17114157c45881563946e65146e5719d44603cf429e5c",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00004",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "92eb34346648815d46a618de2e0a15d530f831bd36a112b68f613208c533d5ea",
+            "block_utf8_byte_start": 1100,
+            "block_utf8_byte_end": 1319,
+            "span_sha256": "5d0e748ffffc119f2df17114157c45881563946e65146e5719d44603cf429e5c",
+            "source_words": 36,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      },
+      {
+        "reference_id": "r00046",
+        "private_path": "data/interim/publication_safety/originals/results/recall_baseline.json",
+        "private_file_sha256": "ce04827287e5be3782dc0be5ac9fe66ad8b1bc46d4d76c3f167088e5c120a48d",
+        "json_path": [
+          "candidates",
+          13,
+          "record",
+          "evidence_quote"
+        ],
+        "private_utf8_byte_start": 72899,
+        "private_utf8_byte_end": 73015,
+        "encoded_span_sha256": "8e1fe120669fcf758fb19092978188b75652a0dbbd7597123e4dd23cd09301a5",
+        "value_utf8_sha256": "21ac591b1af431f6e0cd2f32271102dcca2083b1a57a0f2f200eab1b9bbcdf6e",
+        "source_ids": [
+          "SAVERSCHEK2010"
+        ],
+        "source_spans": [
+          {
+            "source_id": "SAVERSCHEK2010",
+            "block_id": "b00007",
+            "private_source_path": "data/interim/corpus_targeted_saverschek/texts/SAVERSCHEK2010.json",
+            "source_file_sha256": "7773b43d2e729a5f0993b422a7e4cf720b9caf7a6b8bad0e9ce3843842946a0d",
+            "block_text_sha256": "79cb932da64d164c830d1d648bf65108ece15ffb4a485dbf5f7dd92b70ce150b",
+            "block_utf8_byte_start": 887,
+            "block_utf8_byte_end": 1001,
+            "span_sha256": "21ac591b1af431f6e0cd2f32271102dcca2083b1a57a0f2f200eab1b9bbcdf6e",
+            "source_words": 19,
+            "kind": "pdf_page_text"
+          }
+        ],
+        "reason": "source_field_or_reconstruction_fragment"
+      }
+    ]
+  }
 }
