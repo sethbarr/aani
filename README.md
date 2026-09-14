@@ -62,6 +62,14 @@ and only one is in the rejected arm. Two measured limits guide the next work:
    and retained all six PRIMARY species; the eighth draw returned invalid JSON.
    The comparison cannot distinguish sampling variance from proposal suppression.
 
+The [chemical-distance robustness analysis](results/chemical_distance_robustness/summary.md)
+reports 16 predeclared controls and 32,000 random-reference draws. The within-corpus
+similarity gap persists after small-structure removal, fingerprint collapse,
+size/genus matching, and exclusion of classes linked to Arabidopsis. Matching and
+collapse reduce its magnitude. This describes retrieved assay coverage within the
+plant corpus; it supplies no antifungal activity prediction or explanation of why
+coverage is uneven. The original biological feasibility result remains unchanged.
+
 The prior is old; the proposal to mine it dates to zoopharmacognosy work in the
 1990s. What is new is that extracting and joining scattered behavioural
 observations to chemical structure is now tractable. Leafcutters are case one
