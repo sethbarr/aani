@@ -5,6 +5,7 @@ from pathlib import Path
 
 from src.chemical_distance.convention import DOMAIN_CONVENTION
 from src.chemical_distance.neighbours import Distribution
+from src.chemical_distance.nullmodel import NullResult, RarefactionPoint
 
 
 @dataclass(frozen=True)
@@ -76,6 +77,8 @@ class Report:
         unknown_scaffolds: Scaffold overlap for the unknown compounds.
         classified_scaffolds: Scaffold overlap for the classified compounds.
         genus_rows: Per-genus statistics.
+        null_result: The random-reference permutation control.
+        rarefaction: Median similarity as the reference set grows.
         verdict: One-sentence verdict on the coverage gap.
     """
 
@@ -104,6 +107,8 @@ class Report:
     unknown_scaffolds: ScaffoldOverlap
     classified_scaffolds: ScaffoldOverlap
     genus_rows: tuple[GenusRow, ...]
+    null_result: NullResult
+    rarefaction: tuple[RarefactionPoint, ...]
     verdict: str
 
 
@@ -227,6 +232,72 @@ def render_genera(rows: tuple[GenusRow, ...]) -> list[str]:
     return lines
 
 
+def render_null(report: Report) -> list[str]:
+    """Render the random-reference permutation control.
+
+    Args:
+        report: The assembled report.
+
+    Returns:
+        Markdown lines.
+    """
+    result = report.null_result
+    inside = result.null_low <= result.observed <= result.null_high
+    if result.observed < result.null_low:
+        reading = (
+            "The tested compounds leave the rest of the corpus further away than any "
+            "comparable random subset does, which means testing concentrated on a narrow "
+            "region of this chemical space rather than sampling it evenly."
+        )
+    elif inside:
+        reading = (
+            "The tested compounds leave the rest of the corpus exactly as far away as a "
+            "random subset of the same size would, so nothing about which compounds were "
+            "tested is chemically distinctive."
+        )
+    else:
+        reading = (
+            "The tested compounds leave the rest of the corpus closer than a random subset "
+            "of the same size would, so testing spread across this chemical space more "
+            "evenly than chance."
+        )
+    lines = [
+        f"Each of {result.draws} draws takes a random subset of the corpus the size of the",
+        "tested set and measures how far it leaves every compound it does not contain. The",
+        "observed statistic is built identically, so no compound is ever its own neighbour",
+        "and membership of the reference set cannot inflate either number. This is the",
+        "control the classified-versus-unknown contrast cannot provide.",
+        "",
+        "| Quantity | Value |",
+        "| --- | ---: |",
+        f"| Median similarity, observed against the real tested set | "
+        f"{result.observed:.3f} |",
+        f"| Median similarity, random subsets of the same size | {result.null_median:.3f} |",
+        f"| Random subsets, 95% interval | {result.null_low:.3f} to {result.null_high:.3f} |",
+        f"| Draws at or below observed | {result.at_or_below} of {result.draws} |",
+        f"| p | {result.p_value:.4f} |",
+        "",
+        reading,
+        "",
+        "### How much of the distance is the small reference set",
+        "",
+        "| Reference compounds | Median nearest-neighbour similarity | Draws averaged |",
+        "| --- | ---: | ---: |",
+    ]
+    for point in report.rarefaction:
+        lines.append(f"| {point.size} | {point.median:.3f} | {point.draws} |")
+    lines.extend(
+        [
+            "",
+            "The curve is still climbing steeply at the full reference size, so the absolute",
+            "similarities above understate what a complete tested set would give. The",
+            "permutation control is unaffected, because every draw is matched to the real",
+            "reference set for size.",
+        ]
+    )
+    return lines
+
+
 def render(report: Report) -> str:
     """Render the complete summary.
 
@@ -327,7 +398,15 @@ def render(report: Report) -> str:
     lines.extend(
         [
             "",
-            "## 6. Limitations that bound every number above",
+            "## 6. Does testing track chemistry, or only history?",
+            "",
+        ]
+    )
+    lines.extend(render_null(report))
+    lines.extend(
+        [
+            "",
+            "## 7. Limitations that bound every number above",
             "",
             "**The reference set is the compounds retrieved during the bioactivity stage,",
             "not every compound ChEMBL holds for these assays.** The cached retrieval",
@@ -347,7 +426,7 @@ def render(report: Report) -> str:
             "compound is also a plant structure from these genera, so this measures",
             "distance within the corpus, not distance to antifungal chemistry at large.",
             "",
-            "## 7. Verdict",
+            "## 8. Verdict",
             "",
             report.verdict,
             "",

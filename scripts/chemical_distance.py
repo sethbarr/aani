@@ -10,6 +10,7 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
+import numpy as np
 import rdkit
 
 from src.chemical_distance.convention import DOMAIN_CONVENTION
@@ -39,6 +40,12 @@ from src.chemical_distance.neighbours import (
     nearest_neighbours,
     scaffold_overlap,
 )
+from src.chemical_distance.nullmodel import (
+    NullResult,
+    permutation_null,
+    rarefaction,
+    similarity_matrix,
+)
 from src.chemical_distance.summary import (
     GenusRow,
     Report,
@@ -56,6 +63,10 @@ BEHAVIOUR = ROOT / "data/processed/behaviour/all_genera.csv"
 OUTPUT = ROOT / "results/chemical_distance"
 
 LOW_COMPLEXITY_FLOOR = 6
+NULL_DRAWS = 2000
+RAREFACTION_DRAWS = 200
+RAREFACTION_SIZES = (10, 25, 50, 98)
+SEED = 20260914
 
 REQUESTED_ORGANISMS = (
     "Candida albicans",
@@ -194,54 +205,65 @@ def build_verdict(
     never_tested: Distribution,
     already_tested: Distribution,
     classified: Distribution,
+    null: NullResult,
     overlap: int,
     overlap_total: int,
 ) -> str:
     """Compose the verdict on whether chemical novelty explains the gap.
 
-    The verdict weighs the headline contrast against its own control. Compounds
-    that were assayed but yielded no usable label belong to the reference set
-    without carrying a label, so the distance between them and the classified
-    compounds measures how much of the contrast is construction rather than
-    discovery.
+    The classified-versus-unknown contrast cannot settle the question on its
+    own, because the classified compounds belong to the reference set and
+    co-assayed compounds resemble one another. The permutation control settles
+    it, by asking whether the real tested set is chemically distinctive against
+    random subsets of the same size drawn from the same corpus.
 
     Args:
         never_tested: Distribution for unknown compounds never assayed at all.
         already_tested: Distribution for unknown compounds assayed without a
             usable label.
         classified: Classified-compound distribution against the tested set.
+        null: The random-reference permutation control.
         overlap: Distinct unknown scaffolds shared with the tested set.
         overlap_total: Distinct unknown scaffolds in total.
 
     Returns:
         One sentence stating the verdict, with the numbers it rests on.
     """
-    gap = classified.median - never_tested.median
-    control = abs(classified.median - already_tested.median)
-    if gap <= 0.05:
+    confounded = abs(classified.median - already_tested.median) < 0.5 * (
+        classified.median - never_tested.median
+    )
+    caveat = (
+        "the raw contrast between classified and unknown compounds is uninformative on "
+        "its own, since compounds assayed without a usable label sit just as close at "
+        f"{already_tested.median:.3f}, but "
+        if confounded
+        else ""
+    )
+    if null.observed < null.null_low:
         reading = (
-            "chemical novelty does not explain the coverage gap, which is better "
-            "attributed to where assay effort has historically been spent"
+            "the tested compounds leave the rest of the corpus further away than every "
+            "comparable random subset does, so testing concentrated on a narrow region of "
+            "this chemical space and the coverage gap is genuinely a novelty gap rather "
+            "than an artefact of which compounds share an assay"
         )
-    elif control < 0.5 * gap:
+    elif null.observed > null.null_high:
         reading = (
-            "the distance tracks whether a compound has ever been assayed rather than "
-            "whether its assay yielded a label, leaving the gap consistent with chemical "
-            "novelty but not separable by this design from the tautology that co-assayed "
-            "compounds resemble one another"
+            "the tested compounds leave the rest of the corpus closer than a random subset "
+            "would, so chemical novelty does not explain the coverage gap"
         )
     else:
         reading = (
-            "the separation survives its own control, so chemical unfamiliarity is a "
-            "credible part of why the untested structures went untested"
+            "the tested compounds leave the rest of the corpus no further away than a "
+            "random subset of the same size, so chemical novelty does not explain the "
+            "coverage gap, which is better attributed to where assay effort has gone"
         )
     return (
         f"Never-assayed compounds sit at a median nearest-neighbour similarity of "
-        f"{never_tested.median:.3f} to the tested set while classified compounds sit at "
-        f"{classified.median:.3f}, a difference of {gap:+.3f}, but compounds that were "
-        f"assayed and yielded no usable label sit at {already_tested.median:.3f}, and only "
-        f"{overlap} of {overlap_total} distinct unknown scaffolds occur in the tested set "
-        f"at all, so {reading}."
+        f"{null.observed:.3f} to the tested set against a random-subset null of "
+        f"{null.null_median:.3f} with a 95% interval of {null.null_low:.3f} to "
+        f"{null.null_high:.3f} and {null.at_or_below} of {null.draws} draws at or below "
+        f"the observed value, and only {overlap} of {overlap_total} distinct unknown "
+        f"scaffolds occur in the tested set at all, so {caveat}{reading}."
     )
 
 
@@ -282,6 +304,15 @@ def write_manifest(path: Path, report: Report, rows: int) -> None:
         },
         "applicability_domain_convention": DOMAIN_CONVENTION,
         "self_excluded_from_reference": True,
+        "permutation_control": {
+            "draws": NULL_DRAWS,
+            "seed": SEED,
+            "observed": report.null_result.observed,
+            "null_median": report.null_result.null_median,
+            "null_interval": [report.null_result.null_low, report.null_result.null_high],
+            "draws_at_or_below_observed": report.null_result.at_or_below,
+            "p_value": report.null_result.p_value,
+        },
         "requested_organisms": list(REQUESTED_ORGANISMS),
         "inventory_organisms": list(report.reference_organisms),
         "organisms_absent_from_inventory": list(report.missing_organisms),
@@ -347,6 +378,16 @@ def build_report(inputs: Inputs) -> tuple[Report, list[PriorityRow]]:
         for item in unknown
     ]
 
+    corpus_keys = sorted(structures)
+    corpus = [structures[key] for key in corpus_keys]
+    corpus_index = {key: position for position, key in enumerate(corpus_keys)}
+    matrix = similarity_matrix(corpus)
+    reference_positions = np.array(
+        sorted(corpus_index[key] for key in tested_ids if key in corpus_index)
+    )
+    null = permutation_null(matrix, reference_positions, NULL_DRAWS, SEED)
+    curve = rarefaction(matrix, reference_positions, RAREFACTION_SIZES, RAREFACTION_DRAWS, SEED)
+
     unknown_distribution = describe([item.similarity for item in unknown_vs_tested.values()])
     never_tested_distribution = describe(
         [
@@ -395,10 +436,13 @@ def build_report(inputs: Inputs) -> tuple[Report, list[PriorityRow]]:
         unknown_scaffolds=unknown_overlap,
         classified_scaffolds=overlap_of(classified_structures, reference),
         genus_rows=genus_rows(unknown, structures, unknown_vs_tested, reference, inputs.behaviour),
+        null_result=null,
+        rarefaction=curve,
         verdict=build_verdict(
             never_tested_distribution,
             already_tested_distribution,
             classified_distribution,
+            null,
             unknown_overlap.shared_scaffolds,
             unknown_overlap.query_scaffolds,
         ),

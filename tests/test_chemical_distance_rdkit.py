@@ -113,3 +113,74 @@ def test_heavy_atom_count_is_recorded() -> None:
     built = structures_for(["N", "c1ccccc1O"])
     assert built[0].heavy_atoms == 1
     assert built[1].heavy_atoms == 7
+
+
+def test_similarity_matrix_reproduces_rdkit_exactly() -> None:
+    """The vectorised matrix must agree with RDKit's own Tanimoto."""
+    from rdkit import DataStructs
+
+    from src.chemical_distance.nullmodel import similarity_matrix
+
+    built = structures_for(["c1ccccc1O", "CC(=O)Oc1ccccc1C(=O)O", "CCCCO", "c1ccncc1"])
+    matrix = similarity_matrix(built)
+    for row, structure in enumerate(built):
+        expected = DataStructs.BulkTanimotoSimilarity(
+            structure.fingerprint, [item.fingerprint for item in built]
+        )
+        for column, value in enumerate(expected):
+            assert matrix[row][column] == pytest.approx(value, abs=1e-6)
+
+
+def test_similarity_matrix_is_symmetric_with_a_unit_diagonal() -> None:
+    """Self-similarity must be one and the matrix must be symmetric."""
+    from src.chemical_distance.nullmodel import similarity_matrix
+
+    matrix = similarity_matrix(structures_for(["c1ccccc1O", "CCCCO", "c1ccncc1"]))
+    for row in range(matrix.shape[0]):
+        assert matrix[row][row] == pytest.approx(1.0)
+        for column in range(matrix.shape[0]):
+            assert matrix[row][column] == pytest.approx(matrix[column][row])
+
+
+def test_permutation_control_is_reproducible_and_excludes_members() -> None:
+    """The control must be seed-reproducible and query only non-members."""
+    import numpy as np
+
+    from src.chemical_distance.nullmodel import permutation_null, similarity_matrix
+
+    built = structures_for(
+        ["c1ccccc1O", "CC(=O)Oc1ccccc1C(=O)O", "CCCCO", "c1ccncc1", "CCN", "c1ccc2ccccc2c1"]
+    )
+    matrix = similarity_matrix(built)
+    references = np.array([0, 1])
+    first = permutation_null(matrix, references, draws=32, seed=7)
+    second = permutation_null(matrix, references, draws=32, seed=7)
+    assert first == second
+    assert first.draws == 32
+    assert 0.0 < first.p_value <= 1.0
+    assert first.observed <= 1.0
+
+
+def test_permutation_p_value_is_never_zero() -> None:
+    """The plus-one correction must keep the reported p above zero."""
+    import numpy as np
+
+    from src.chemical_distance.nullmodel import permutation_null, similarity_matrix
+
+    built = structures_for(["c1ccccc1O", "CCCCO", "c1ccncc1", "CCN"])
+    result = permutation_null(similarity_matrix(built), np.array([0]), draws=16, seed=3)
+    assert result.p_value >= 1 / 17
+
+
+def test_rarefaction_returns_one_point_per_requested_size() -> None:
+    """Sizes above the reference set must be skipped, not raise."""
+    import numpy as np
+
+    from src.chemical_distance.nullmodel import rarefaction, similarity_matrix
+
+    built = structures_for(["c1ccccc1O", "CC(=O)Oc1ccccc1C(=O)O", "CCCCO", "c1ccncc1"])
+    points = rarefaction(
+        similarity_matrix(built), np.array([0, 1]), sizes=(1, 2, 99), draws=4, seed=5
+    )
+    assert [point.size for point in points] == [1, 2]
+    assert points[-1].draws == 1
