@@ -37,3 +37,7 @@ Report unique compound counts and activity counts for every tier, split into con
 Write results/any_fungus_coverage/summary.md, coverage.csv (one row per compound per tier, with aligned JSON arrays for organisms, endpoints, values, units, and activity IDs), and measurements.csv (one row per compound/activity/tier for direct inspection), plus machine-readable provenance, taxonomy mapping, and replay verification. Report counts alongside percentages; no statistical test is planned. If T2-inclusive labels appear potentially computable, describe that observation using coverage and the frozen minimum-genera constraint without constructing new labels or recomputing inference.
 
 Stop retrieval by the deadline and report partial tiers with missing draws of data named by molecule, assay, and taxon identifiers as available. Absence of a ChEMBL record does not establish absence of published measurements: extract-level assays and uncurated literature remain a separate gap. Complete the report and offline verification within the window where practical; record any timing deviation.
+
+## User scope clarification during retrieval
+
+The current frozen behaviour table has five rejected genera: Desmopsis, Hiraea, Randia, Sorocea, and Trema. After checking this discrepancy, the user explicitly instructed “use all five.” The rejected-genus report therefore includes all five. Desmopsis and Hiraea have no mapped chemistry. This changes the requested subgroup definition to agree with the frozen input; no primary input or label changes.
