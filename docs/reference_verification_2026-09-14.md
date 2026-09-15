@@ -125,7 +125,9 @@ remove the check rather than satisfy it. Reverting the two files was also
 rejected, because the reclassification is the requested correction and is
 substantively right.
 
-This is left as an open decision. Either the baseline is re-pinned at a new
+This is left as an open decision. Until it is taken, `tests/conftest.py` skips the
+27 tests that depend on the pin, with this note as the stated reason, and
+`scripts.publication_safety test` reports the eight edited frozen inputs as changed. Either the baseline is re-pinned at a new
 commit as a recorded amendment, with the reason stated, or the two report files
 are regenerated and re-pinned together. Both require a decision that is outside
 a documentation fix, and neither changes any recall number: the provenance

@@ -203,9 +203,15 @@ The PDF appears at `output/pdf/pipeline_report.pdf` and the command prints its
 path, page count and SHA-256. It is rendered from the committed
 `results/pipeline_report.md`, `results/funnel.json` and `results/summary.json`,
 so it works without the private caches. The committed copy of that PDF is
-also tracked at the same path for reference. Check the renderer with
-`.venv/bin/python -m pytest tests/test_render_report.py`; most of the wider
-test suite needs the untracked local data and fails on a fresh clone.
+also tracked at the same path for reference. Run the tests with
+`.venv/bin/python -m pytest`. On a fresh clone the suite is green with skips:
+`tests/conftest.py` quarantines the tests that read untracked local inputs and
+the 27 that depend on the pinned recall baseline, each with a reason. The
+baseline pin is an open decision recorded in
+[the reference verification note](docs/reference_verification_2026-09-14.md);
+those tests run again once it is re-pinned. The unskipped suite runs in the
+private mirror with `.venv/bin/python -m scripts.publication_safety test`, which
+is blocked by the same open decision.
 
 ### Full pipeline run
 
