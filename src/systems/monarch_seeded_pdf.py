@@ -232,7 +232,7 @@ def main() -> None:
     """Import the explicitly supplied PDFs or replay their cached source text."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
-    parser.add_argument("--supplied-dir", type=Path, default=Path("/Users/seth/Downloads"))
+    parser.add_argument("--supplied-dir", type=Path, default=Path("data/raw/supplied_pdfs"))
     parser.add_argument("--offline", action="store_true")
     args = parser.parse_args()
     report = import_seed_pdfs(args.root, args.supplied_dir, args.offline)

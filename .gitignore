@@ -12,7 +12,11 @@ data/interim/
 
 # Large downloads, private research inputs and local build artifacts.
 tmp/
-output/
+# Local build artifacts, except the PDF produced by the documented clean run.
+output/*
+!output/pdf/
+output/pdf/*
+!output/pdf/pipeline_report.pdf
 .chart-data-*/
 
 # Judge-facing research workstream: derived outputs and browsers only.

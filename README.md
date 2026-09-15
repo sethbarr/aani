@@ -94,7 +94,7 @@ implementation are committed with their validation tests.
 
 Offline replay requires the prepared inputs and populated cache described in
 [the pipeline guide](docs/pipeline.md); a fresh clone alone cannot reproduce the
-full run. With those inputs available, run the offline command below with the
+full run, but it can render the committed results to a PDF (see Quick start below). With those inputs available, run the offline command below with the
 explicit Trema taxonomy supplement.
 
 Reader replay against the original reference hashes uses the private mirror:
@@ -185,6 +185,33 @@ and retains unknowns outside the classified denominator. All 2,198 mapped
 structures were queried: seven active, 17 inactive and 2,174 unknown, with zero
 retrieval failures. The primary subset contains 1,866 structures; the remainder
 supports sensitivity reaggregation. See [export provenance](docs/chemistry_export.md).
+
+### Quick start from a fresh clone
+
+Requires Python 3.12 (`python3.12 --version`). No system packages are needed:
+the PDF is rendered with pure-Python ReportLab.
+
+```bash
+git clone https://github.com/sethbarr/aani.git
+cd aani
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m scripts.render_report
+```
+
+The PDF appears at `output/pdf/pipeline_report.pdf` and the command prints its
+path, page count and SHA-256. It is rendered from the committed
+`results/pipeline_report.md`, `results/funnel.json` and `results/summary.json`,
+so it works without the private caches. The committed copy of that PDF is
+also tracked at the same path for reference. Run the tests with
+`.venv/bin/python -m pytest`.
+
+### Full pipeline run
+
+The commands below re-run stages 3-6. They need prepared inputs that are not
+tracked by Git (`data/interim/`, `data/raw/`); without them the command exits
+with a `prepared_inputs_missing` message and touches nothing. See
+[the pipeline guide](docs/pipeline.md) for how to prepare them.
 
 Run stages 3-6 from the prepared, source-audited taxonomy inputs:
 
@@ -372,7 +399,7 @@ results/nondiscordant/     discordance sensitivity
 results/saverschek_audit/  completed text audit and evidence bundle
 results/experiment_planner/ prospective planning artifacts
 results/business_case/     project business-case artifacts
-output/pdf/               readable reports
+output/pdf/                 pipeline_report.pdf, rendered by scripts.render_report
 scripts/                    one CLI entry point per stage
 tests/                      scientific edge cases and offline integration
 ```
