@@ -35,9 +35,9 @@ Two brackets survive the 20-point scenario:
 | Caryophyllene oxide, Howard1988 | 25% inhibition at 10 µg/mL; 100% at 100 µg/mL | **10 < C50 ≤ 100 µg/mL** |
 | Kokusaginine, Biavatti2002 | 20% inhibition at 50 µg/mL; 100% at 100 µg/mL | **50 < C50 ≤ 100 µg/mL** |
 
-Originals: [Howard Table 1, PDF 7 / printed 65](../../sources/howard1988terpenoids.pdf#page=7); [Biavatti Table 1, PDF 3 / printed 68](../../sources/raulinoa2002.pdf#page=3). Different protocols prevent comparing these two ranges as a potency ranking. The Howard outcome uses an ordinal visual scale; Biavatti refers to an earlier assay protocol without restating all details.
+Originals: [Howard Table 1, PDF 7 / printed 65](https://doi.org/10.1007/BF01022531#page=7); [Biavatti Table 1, PDF 3 / printed 68](https://doi.org/10.1590/S0103-50532002000100010#page=3). Different protocols prevent comparing these two ranges as a potency ranking. The Howard outcome uses an ordinal visual scale; Biavatti refers to an earlier assay protocol without restating all details.
 
-The same-paper coumarin comparison remains informative under the 20-point buffer: **xanthyletin gives C50 ≤25 µg/mL**, whereas **clausarin gives C50 >75 µg/mL or never reaches 50%**. That supports testing the two materials side by side with confirmed exposure. It does not establish statistical superiority or a structural mechanism. [Godoy2005, Table 1, PDF 3 / printed 671](../../sources/coumarins2005.pdf#page=3).
+The same-paper coumarin comparison remains informative under the 20-point buffer: **xanthyletin gives C50 ≤25 µg/mL**, whereas **clausarin gives C50 >75 µg/mL or never reaches 50%**. That supports testing the two materials side by side with confirmed exposure. It does not establish statistical superiority or a structural mechanism. [Godoy2005, Table 1, PDF 3 / printed 671](https://doi.org/10.1590/S0103-50532005000400031#page=3).
 
 There are 45 ordered material pairs in the literal scenario and 34 under the 20-point buffer, calculated only where one material's upper bound is at or below another's strict lower bound in the same study, readout, route and time. These are not 45 or 34 independent discoveries: pairs reuse the same observations. Reference chemicals are excluded from those pair counts. No cross-study ordering is calculated.
 
@@ -53,10 +53,10 @@ Re-reading the original methods did not provide enough information to assign the
 
 | Material | What the original establishes | What remains needed |
 |---|---|---|
-| Argentilactone | NMR/MS identification, a drawn structure and comparison with earlier literature | Absolute stereochemistry of the tested isolate; the paper does not report an optical rotation or an explicit R/S assignment in the inspected characterization. [PDF 3–4](../../sources/napal2015.pdf#page=3) |
-| Caryophyllene oxide | Isolation and comparison with an authentic sample in 1983 | Traceable stereochemical identity of the authentic/test material; a present-day database name hit does not identify the historical batch. [PDF 3](../../sources/hubbell1983.pdf#page=3) |
-| Kolavenol | Named chemical, structural scheme and historical plant links; materials chosen for availability | Exact assay-batch origin and stereochemical correspondence. [Howard PDF 3](../../sources/howard1988terpenoids.pdf#page=3) |
-| Citral | Purchased from Sigma-Aldrich | Product/lot and isomer composition; neither is established by the cited supplier name alone. [Melo PDF 2](../../sources/melo2020.pdf#page=2) |
+| Argentilactone | NMR/MS identification, a drawn structure and comparison with earlier literature | Absolute stereochemistry of the tested isolate; the paper does not report an optical rotation or an explicit R/S assignment in the inspected characterization. [PDF 3–4](https://doi.org/10.1016/J.INDCROP.2015.07.001#page=3) |
+| Caryophyllene oxide | Isolation and comparison with an authentic sample in 1983 | Traceable stereochemical identity of the authentic/test material; a present-day database name hit does not identify the historical batch. [PDF 3](https://doi.org/10.1007/BF00376846#page=3) |
+| Kolavenol | Named chemical, structural scheme and historical plant links; materials chosen for availability | Exact assay-batch origin and stereochemical correspondence. [Howard PDF 3](https://doi.org/10.1007/BF01022531#page=3) |
+| Citral | Purchased from Sigma-Aldrich | Product/lot and isomer composition; neither is established by the cited supplier name alone. [Melo PDF 2](https://doi.org/10.1007/s11356-020-08170-z#page=2) |
 
 The current source-code and candidate-structure flags therefore remain. This is a missing-material-specification problem, not a request for another copy of those full texts. No new full text is required to inspect the calculations delivered here.
 

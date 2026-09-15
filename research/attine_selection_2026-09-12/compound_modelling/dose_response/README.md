@@ -11,7 +11,7 @@
 | [Salazar dose envelopes](salazar_visible_envelopes.csv) | 14 dose groups across extract and dillapiole; no invented means or replicate counts |
 | [Howard plant table](howard50_plants.csv) / [monthly values](howard_monthly_harvest.csv) | 50 plants; 148 plant-month harvest means and SDs; nonpolar-extract deterrence classes |
 | [Chemical graphs](source_structure_graphs.csv) | One achiral coumarin and three lignan connectivity graphs, linked to source codes |
-| [New Portuguese original](fernandes1988.pdf) | Fernandes et al. 1988, the isolation paper cited by Pagnocca1996 |
+| [New Portuguese original](https://doi.org/10.1590/1809-43921988185442) | Fernandes et al. 1988, the isolation paper cited by Pagnocca1996 |
 
 These are supplementary outputs. The original 149-record extraction, later 71-record molecular table, and frozen primary project analysis are unchanged. Digitized points are not new experiments and must not be counted alongside their published IC50 as independent observations.
 
@@ -30,7 +30,7 @@ The unweighted Probit reconstructions give the following approximate midpoints. 
 | M. lundiana oil, citral chemotype | Contact | 217.9 | 217 | µL treatment/L medium |
 | Citral | Contact | 289.9 | 286 | µL treatment/L medium |
 
-Original: [Melo2020, PDF 8 / printed 17310, Figure 2](../../sources/melo2020.pdf#page=8), [publisher](https://doi.org/10.1007/s11356-020-08170-z). The eight series are two oils and two purchased materials, each in two exposure routes, not eight independent chemicals. The original source reports four replications, but does not identify the aggregation behind each plotted marker in the caption. Replicate-level values and run/isolate nesting were not recovered. The two oils are mixtures; exact isopulegol stereochemistry and citral composition remain unresolved.
+Original: [Melo2020, PDF 8 / printed 17310, Figure 2](https://doi.org/10.1007/s11356-020-08170-z#page=8), [publisher](https://doi.org/10.1007/s11356-020-08170-z). The eight series are two oils and two purchased materials, each in two exposure routes, not eight independent chemicals. The original source reports four replications, but does not identify the aggregation behind each plotted marker in the caption. Replicate-level values and run/isolate nesting were not recovered. The two oils are mixtures; exact isopulegol stereochemistry and citral composition remain unresolved.
 
 Across both curve forms, reconstructed midpoints differ from the printed estimates by at most 3.2%. This is a consistency check on figure recovery, not external validation or improved precision. Agreement between two fixed-asymptote curves does not establish those asymptotes biologically. Curves are displayed only across each series' observed concentration range.
 
@@ -44,13 +44,13 @@ Each fit also omits one visible marker in turn. In four of eight series, removin
 
 ## Why dillapiole was not refitted
 
-[Salazar2020, PDF 5 / printed 672, Figure 3](../../sources/salazar2020.pdf#page=5) contains overlapping open circles, particularly at complete inhibition. Methods specify five repetitions, but the image does not reveal every repetition or its multiplicity. Fitting each visible circle once would give hidden or coincident observations too little weight. Reconstructing five repeats from the picture would invent data.
+[Salazar2020, PDF 5 / printed 672, Figure 3](https://doi.org/10.1007/s10886-020-01170-w#page=5) contains overlapping open circles, particularly at complete inhibition. Methods specify five repetitions, but the image does not reveal every repetition or its multiplicity. Fitting each visible circle once would give hidden or coincident observations too little weight. Reconstructing five repeats from the picture would invent data.
 
 The saved envelopes are rounded visible vertical extents at each dose, not estimated means, quartiles, confidence intervals or the full replicate range. They retain useful checks: dillapiole is below 50% at 25 ppm and above it at 50 ppm, consistent with the source's fitted IC50 of 38 ppm. The extract crosses between 100 and 250 ppm, consistent with the published 102 ppm. The source's three-parameter asymptotic exponential model and IC95s are not regenerated from these envelopes. Author-supplied per-plate responses or unambiguous per-dose summaries would permit a better refit. Another copy of the same PDF is not needed.
 
 ## Chemical identity progress
 
-The four [rendered structures](source_structure_graphs.png) were transcribed from [Godoy Figure 1](../../sources/coumarins2005.pdf#page=3) and [Pagnocca Figure 1](../../sources/pagnocca1996.pdf#page=3), parsed and rendered with RDKit, then visually compared with the originals. This establishes a usable, explicit connectivity representation without choosing a compound solely by a name-database hit.
+The four [rendered structures](source_structure_graphs.png) were transcribed from [Godoy Figure 1](https://doi.org/10.1590/S0103-50532005000400031#page=3) and [Pagnocca Figure 1](https://repositorio.unesp.br/entities/publication/44608eaa-b84f-4614-8e00-6f6fb9c5caf1#page=3), parsed and rendered with RDKit, then visually compared with the originals. This establishes a usable, explicit connectivity representation without choosing a compound solely by a name-database hit.
 
 * **C043 / coumarin 8:** the figure and name support 7-hydroxy-3-(1,1-dimethylallyl)-8-methoxycoumarin, an achiral graph with calculated formula C15H16O4.
 * **C010 / lignan 5:** a dibenzylbutyrolactone with one veratryl and one piperonyl substituent. The carbonyl-adjacent benzyl group is piperonyl in the assay figure.
@@ -59,13 +59,13 @@ The four [rendered structures](source_structure_graphs.png) were transcribed fro
 
 The three lignan SMILES deliberately leave two stereocenters unassigned. Their connectivity InChIKeys are not identifiers for an exact stereochemical assay material. All four graphs remain in a supplementary audit instead of silently changing the registry's identity status. No molecular descriptor was treated as an activity measurement.
 
-The newly recovered [Fernandes1988 original](fernandes1988.pdf), [DOI](https://doi.org/10.1590/1809-43921988185442), provides the earlier Virola leaf-isolation route and reports (2R,3R) assignments. However, its abstract and Scheme 1 disagree over numbering of the mixed versus doubly piperonyl lactones. Its drawings also require positional comparison, not a match by substituent names alone. This prevents an automatic source-code/stereochemical crosswalk to the 1996 assay. Historical batch identity is still unverified. The full text was obtained openly; no library help was needed for this paper.
+The newly recovered [Fernandes1988 original](https://doi.org/10.1590/1809-43921988185442), [DOI](https://doi.org/10.1590/1809-43921988185442), provides the earlier Virola leaf-isolation route and reports (2R,3R) assignments. However, its abstract and Scheme 1 disagree over numbering of the mixed versus doubly piperonyl lactones. Its drawings also require positional comparison, not a match by substituent names alone. This prevents an automatic source-code/stereochemical crosswalk to the 1996 assay. Historical batch identity is still unverified. The full text was obtained openly; no library help was needed for this paper.
 
 ## Howard's plant-selection comparison
 
 The supplement's harvest and nonpolar-extract columns are now transcribed for all 50 plants. Nineteen have source class 3 (highly deterrent), eleven class 2, twelve class 1 (not statistically significant), and eight class 0. The monthly harvest values are means and SDs across three ant colonies. Jacquinia pungens has June only because leaves were present only in that month; missing months were not entered as zeroes.
 
-This separates a plant being poorly harvested from evidence that its nonpolar extract deterred ants. It does **not** establish fungal toxicity. The source's alkaloid/tannin, nutrient, water and biomass columns are not yet fully transcribed. Taxonomic spellings are retained as printed; no modern synonym reconciliation was performed. Two partially obscured rendered rows were cross-read with the PDF text layer and flagged. Original: [Howard1987 supplement, definitions PDF 2 and table PDF 3–9](../../sources/howard1987_supplement.pdf#page=2).
+This separates a plant being poorly harvested from evidence that its nonpolar extract deterred ants. It does **not** establish fungal toxicity. The source's alkaloid/tannin, nutrient, water and biomass columns are not yet fully transcribed. Taxonomic spellings are retained as printed; no modern synonym reconciliation was performed. Two partially obscured rendered rows were cross-read with the PDF text layer and flagged. Original: [Howard1987 supplement, definitions PDF 2 and table PDF 3–9](https://doi.org/10.2307/1938455#page=2).
 
 ## Remaining work and where your help would matter
 
