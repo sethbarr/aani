@@ -8,7 +8,7 @@
 
 This DEVELOPMENT SET is one panel from one paper and is not a sample from any population. All eleven species are scorable. Desmopsis rejection and Spondias acceptance survive correctly; Hymenaea supplies only its rejection direction. Miconia is absent from the original candidates.
 
-Under the documented conservative named-prose convention, PRIMARY has 2 author_prose and 4 table_derived species; CONTEXT has 4 author_prose and 1 table_derived. Table categories assign the latter labels; numerical signs do not. The table transcription remains visually unverified. Group/complement prose corroborates these labels. The [baseline report](recall_baseline.md) explains the convention and shared-text contamination risk, with record-level provenance in [JSON](recall_baseline.json).
+Under the documented provenance convention, PRIMARY has 2 author_prose and 4 author_table_grouping species; CONTEXT has 4 author_prose and 1 author_table_grouping. Directions were checked against Table 1 of the original and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. Semantic support for individual rows and captions remains unverified. Group/complement prose corroborates these labels. The [baseline report](recall_baseline.md) explains the convention and shared-text contamination risk, with record-level provenance in [JSON](recall_baseline.json).
 
 lme4: available; R version 4.5.0 (2025-04-11) lme4=2.0.6. Analysis was rerun. Current inference blockers: fewer_than_minimum_joined_genera, need_two_genera_per_direction.
 

@@ -5,6 +5,17 @@ from pathlib import Path
 
 from src.common.io import digest, read_json, read_jsonl
 
+AUTHOR_PROSE = "author_prose"
+AUTHOR_TABLE_GROUPING = "author_table_grouping"
+PROVENANCE_CLASSES = (AUTHOR_PROSE, AUTHOR_TABLE_GROUPING)
+
+MICONIA_CONTEXT_BASIS = (
+    "Miconia argentea is grouped under the printed immediate-rejection heading in Table 1 "
+    "of the original, and was accepted in both habitats in the simultaneous-choice tests. "
+    "It is held in CONTEXT on that basis, carrying both directions. Denominators are "
+    "unchanged at 6 PRIMARY and 5 CONTEXT."
+)
+
 PANEL = {
     "Desmopsis panamensis": ("PRIMARY", ["rejected"]),
     "Hiraea grandifolia": ("PRIMARY", ["rejected"]),
@@ -72,7 +83,7 @@ def make_reference(audit: dict, source: dict) -> list[dict]:
                     anchors.append({"anchor_id": anchor_id, **anchor})
             support.append({
                 "direction": direction,
-                "provenance_strength": "table_derived" if membership else "author_prose",
+                "provenance_strength": AUTHOR_TABLE_GROUPING if membership else AUTHOR_PROSE,
                 "attribution": attribution,
                 "table_membership_dependency": membership,
                 "numerical_values_used_for_direction": False,
@@ -80,9 +91,9 @@ def make_reference(audit: dict, source: dict) -> list[dict]:
             })
         result.append({
             "species": name, "group": group, "reference_directions": directions,
-            "provenance_strength": "table_derived" if any(
-                s["provenance_strength"] == "table_derived" for s in support
-            ) else "author_prose",
+            "provenance_strength": AUTHOR_TABLE_GROUPING if any(
+                s["provenance_strength"] == AUTHOR_TABLE_GROUPING for s in support
+            ) else AUTHOR_PROSE,
             "table_membership_dependency": any(s["table_membership_dependency"] for s in support),
             "reference_support": support,
             "scorable": not reasons, "blocked_reason": ";".join(reasons) or None,
@@ -179,7 +190,7 @@ def summarise_group(rows: list[dict], group: str) -> dict:
         "unscorable_species": [r["species"] for r in selected if not r["scorable"]],
         "reference_provenance_species": {
             strength: sum(r["provenance_strength"] == strength for r in selected)
-            for strength in ("author_prose", "table_derived")
+            for strength in PROVENANCE_CLASSES
         },
         "table_membership_dependent_species": sum(r["table_membership_dependency"] for r in selected),
         "stages": {},
@@ -218,7 +229,8 @@ def build_baseline(audit: dict, source: dict, extraction: Path) -> dict:
         "sampling_scope": "One panel from one paper; it is not a sample from any population.",
         "name_matching": "Exact full names as written; taxonomy resolution does not gate this measurement.",
         "direction_scoring": "Only structured outcome fields count; a second direction mentioned in a quote does not count as an emitted pair.",
-        "provenance_convention": "Conservative named-prose convention: author_prose requires an explicitly named species/genus and direction (named groups qualify). Table category-to-row mapping is table_derived even where group/complement prose corroborates the label. A mixed species receives its weaker pair tag. Numerical signs never define a reference direction.",
+        "provenance_convention": "author_prose requires an explicitly named species or genus and direction; named groups qualify. author_table_grouping records a species placed under a printed author heading in Table 1 and is stronger provenance. Numerical signs never define a reference direction.",
+        "miconia_context_basis": MICONIA_CONTEXT_BASIS,
         "inventory": {**inventory, "natural_panel_candidates": len(scoped),
                       "outside_panel_candidates": len(candidates) - len(scoped)},
         "groups": {group: summarise_group(rows, group) for group in ("PRIMARY", "CONTEXT")},

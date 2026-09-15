@@ -179,10 +179,12 @@ def build_identity_comparison(extraction: Path, root: Path) -> dict:
         "and is not a sample from any population.",
         "reference_provenance_species": {
             strength: sum(row["provenance_strength"] == strength for row in baseline["species"])
-            for strength in ("author_prose", "table_derived")
+            for strength in ("author_prose", "author_table_grouping")
         },
-        "table_caveat": "The numerical table transcription was never visually verified against the "
-        "PDF, so table-derived labels are weaker ground truth. Reference labels remain unchanged.",
+        "table_caveat": "Directions were checked against Table 1 of the original PDF and the groupings are "
+        "author-assigned, not our inference from numerical signs. What remains unverified "
+        "is the semantic support for individual rows and captions. Reference labels remain "
+        "unchanged.",
     }
 
 
@@ -260,8 +262,9 @@ def render_identity_summary(report: dict) -> str:
     provenance = report["reference_provenance_species"]
     lines += [
         f"Reference provenance remains {provenance['author_prose']} author_prose and "
-        f"{provenance['table_derived']} table_derived species. PRIMARY has 2 author_prose and "
-        "4 table_derived; CONTEXT has 4 author_prose and 1 table_derived. " + report["table_caveat"],
+        f"{provenance['author_table_grouping']} author_table_grouping species. PRIMARY has "
+        "2 author_prose and 4 author_table_grouping; CONTEXT has 4 author_prose and "
+        "1 author_table_grouping. " + report["table_caveat"],
         "", report["contamination_risk"], "", report["v1_scoring_note"], "",
         "Candidate pass/failure counts are stage yields.", "",
         f"Baseline artifacts and recorded inputs unchanged: "

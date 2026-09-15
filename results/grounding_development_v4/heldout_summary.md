@@ -62,4 +62,4 @@ All 189 focused transport, scoring, diagnostic, recovery-guard and v4 grounding 
 
 ## Reference limitations
 
-The curator matrix was produced by reading the same text blocks the extractor read, so shared blind spots would inflate apparent recall. The curator had complete cached text including tables; the original extractor worked chunk-wise under a strict quote constraint. The numerical table transcription was never visually verified against the PDF, so table-derived reference labels remain weaker ground truth.
+The curator matrix was produced by reading the same text blocks the extractor read, so shared blind spots would inflate apparent recall. The curator had complete cached text including tables; the original extractor worked chunk-wise under a strict quote constraint. Directions were checked against Table 1 of the original PDF and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. What remains unverified is the semantic support for individual rows and captions.

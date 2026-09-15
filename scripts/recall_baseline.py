@@ -42,26 +42,33 @@ def render_report(report: dict) -> str:
         "| --- | --- | --- | --- | --- | --- | --- |",
     ]
     for row in report["species"]:
-        provenance = row["provenance_strength"] + (
-            "; table membership required" if row["table_membership_dependency"] else ""
-        )
+        mixed = len({s["provenance_strength"] for s in row["reference_support"]}) > 1
+        suffix = "; printed Table 1 heading" if row["table_membership_dependency"] else ""
+        if suffix and mixed:
+            suffix += " plus prose acceptance"
+        provenance = row["provenance_strength"] + suffix
         lines.append(f"| {row['species']} | {row['group']} | {', '.join(row['reference_directions'])} | "
                      f"{row['detection']} | {row['survival']} | "
                      f"{', '.join(row['correct_directions']) or 'absent'} | {provenance} |")
     lines += [
-        "", "Reference provenance uses a conservative named-prose convention: author_prose "
-        "requires an explicit species/genus and direction; named groups qualify. PRIMARY has "
-        "2 author_prose and 4 table_derived species; CONTEXT has 4 author_prose and 1 table_derived. "
-        "Overall this is 6 prose and 5 table species, or 11 prose and 5 table direction pairs. "
-        "Miconia has prose acceptance and table-derived rejection; its species tag takes the weaker pair.", "",
-        "Table-derived here means the author's category-to-row mapping in Table 1. Numerical "
-        "signs never determine directions. The numerical transcription was never visually verified "
-        "against the PDF, so these labels are weaker ground truth. Group/complement prose also "
-        "supports these five labels: nine species except Spondias and Miconia were avoided on "
-        "simultaneous day 2; all ten except Spondias were rejected in individual p-habitat tests. "
-        "Allowing group/complement attribution would classify all eleven as prose-supported. "
-        "The conservative tags expose the table mapping dependency; reference directions stay fixed. "
-        "Exact anchors and source hashes are in JSON.", "",
+        "", "Reference provenance distinguishes explicit `author_prose` from the stronger "
+        "`author_table_grouping`, which records species placed under a printed author heading "
+        "in Table 1. PRIMARY has 2 `author_prose` and 4 `author_table_grouping` species; "
+        "CONTEXT has 4 `author_prose` and 1 `author_table_grouping`. Overall this is 6 prose "
+        "and 5 author-grouped species, or 11 prose and 5 author-grouped direction pairs. "
+        "Miconia has prose acceptance and author-grouped rejection, so its species tag records "
+        "`author_table_grouping`.", "",
+        "Reference directions were manually checked against Table 1 of the original PDF and "
+        "follow its printed author headings: `Acceptance`, `Immediate rejection`, and "
+        "`Habitat-related rejection`. These are author-assigned groupings; numerical signs do "
+        "not determine directions. Semantic support for individual rows and captions remains "
+        "unverified. Group/complement prose also supports these five labels: nine species "
+        "except Spondias and Miconia were avoided on simultaneous day 2; all ten except "
+        "Spondias were rejected in individual p-habitat tests. Miconia is grouped under "
+        "`Immediate rejection` in Table 1 and accepted in both habitats in the "
+        "simultaneous-choice tests, so it remains in CONTEXT. Reference directions and the "
+        "6 PRIMARY / 5 CONTEXT denominators stay fixed. Exact anchors and source hashes are "
+        "in JSON.", "",
         "Contamination risk: the curator matrix was produced by reading the same text blocks "
         "the extractor read, so shared blind spots would inflate apparent recall. The curator "
         "had the complete cached text including tables; the extractor worked chunk-wise under "

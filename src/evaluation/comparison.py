@@ -174,7 +174,7 @@ def summarise_development_group(rows: list[dict], group: str) -> dict:
         "species_direction_pair_denominator": sum(len(r["reference_directions"]) for r in selected),
         "reference_provenance_species": {
             strength: sum(row["provenance_strength"] == strength for row in selected)
-            for strength in ("author_prose", "table_derived")
+            for strength in ("author_prose", "author_table_grouping")
         },
         "stages": {},
     }
@@ -381,8 +381,9 @@ def render_comparison(report: dict) -> str:
     context = report["development"]["groups"]["CONTEXT"]["reference_provenance_species"]
     lines += [
         "", f"Reference provenance is unchanged: PRIMARY has {primary['author_prose']} author_prose "
-        f"and {primary['table_derived']} table_derived species; CONTEXT has "
-        f"{context['author_prose']} author_prose and {context['table_derived']} table_derived species. "
+        f"and {primary['author_table_grouping']} author_table_grouping species; CONTEXT has "
+        f"{context['author_prose']} author_prose and {context['author_table_grouping']} "
+        f"author_table_grouping species. "
         "The numerical table transcription was never visually verified against the PDF, so "
         "table-derived labels are weaker ground truth. All reference labels and provenance tags "
         "come directly from the saved baseline.", "", report["contamination_risk"], "",

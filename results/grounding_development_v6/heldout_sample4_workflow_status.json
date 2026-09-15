@@ -10,7 +10,7 @@
       "unscorable_species": [],
       "reference_provenance_species": {
         "author_prose": 2,
-        "table_derived": 4
+        "author_table_grouping": 4
       },
       "table_membership_dependent_species": 4,
       "stages": {
@@ -34,7 +34,7 @@
       "unscorable_species": [],
       "reference_provenance_species": {
         "author_prose": 4,
-        "table_derived": 1
+        "author_table_grouping": 1
       },
       "table_membership_dependent_species": 1,
       "stages": {

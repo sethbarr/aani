@@ -14,9 +14,11 @@ from any population. All 11 species remain in their original groups.
 CONTEXT direction-pair counts were 4 of 10 detected and 1 of 10 surviving/correct
 in the baseline; the experiment detected 3 of 10 and retained 0 of 10. Hymenaea
 had both directions proposed; Miconia had acceptance proposed. The reference
-provenance remains six author_prose and five table_derived species: PRIMARY two
-and four, CONTEXT four and one. Table transcription was never visually verified
-against the PDF, so table-derived labels are weaker ground truth.
+provenance remains six author_prose and five author_table_grouping species: PRIMARY two
+and four, CONTEXT four and one. Directions were checked against Table 1 of the
+original PDF and follow the authors' printed headings, so these are
+author-assigned groupings rather than inferences from numerical signs. What
+remains unverified is the semantic support for individual rows and captions.
 
 Six first-run records failed `ant_requires_review`. Every candidate used
 `A. colombica`, and the producing chunk lacks its full name. One Hymenaea

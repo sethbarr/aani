@@ -9,7 +9,20 @@
   "sampling_scope": "One panel from one paper; it is not a sample from any population.",
   "name_matching": "Exact full names as written; taxonomy resolution does not gate this measurement.",
   "direction_scoring": "Only structured outcome fields count; a second direction mentioned in a quote does not count as an emitted pair.",
-  "provenance_convention": "Conservative named-prose convention: author_prose requires an explicitly named species/genus and direction (named groups qualify). Table category-to-row mapping is table_derived even where group/complement prose corroborates the label. A mixed species receives its weaker pair tag. Numerical signs never define a reference direction.",
+  "provenance_convention": "author_prose requires an explicitly named species or genus and direction; named groups qualify. author_table_grouping records a species placed under a printed author heading in Table 1 and is stronger provenance. Numerical signs never define a reference direction.",
+  "miconia_context_basis": "Miconia argentea is grouped under the printed immediate-rejection heading in Table 1 of the original, and was accepted in both habitats in the simultaneous-choice tests. It is held in CONTEXT on that basis, carrying both directions. Denominators are unchanged at 6 PRIMARY and 5 CONTEXT.",
+  "reference_verification": {
+    "method": "manual check against Table 1 of the original PDF",
+    "checked_on": "2026-09-14",
+    "checked_by": "manual reviewer",
+    "printed_author_headings": [
+      "Acceptance",
+      "Immediate rejection",
+      "Habitat-related rejection"
+    ],
+    "verified_scope": "Reference directions and species placement under the printed author headings.",
+    "remaining_unverified_scope": "Semantic support for individual rows and captions."
+  },
   "inventory": {
     "candidate_records": 14,
     "grounding_passes": 6,
@@ -26,7 +39,7 @@
       "unscorable_species": [],
       "reference_provenance_species": {
         "author_prose": 2,
-        "table_derived": 4
+        "author_table_grouping": 4
       },
       "table_membership_dependent_species": 4,
       "stages": {
@@ -50,7 +63,7 @@
       "unscorable_species": [],
       "reference_provenance_species": {
         "author_prose": 4,
-        "table_derived": 1
+        "author_table_grouping": 1
       },
       "table_membership_dependent_species": 1,
       "stages": {
@@ -153,12 +166,12 @@
       "reference_directions": [
         "rejected"
       ],
-      "provenance_strength": "table_derived",
+      "provenance_strength": "author_table_grouping",
       "table_membership_dependency": true,
       "reference_support": [
         {
           "direction": "rejected",
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "attribution": "all_nine_except_spondias_and_miconia",
           "table_membership_dependency": true,
           "numerical_values_used_for_direction": false,
@@ -257,12 +270,12 @@
       "reference_directions": [
         "rejected"
       ],
-      "provenance_strength": "table_derived",
+      "provenance_strength": "author_table_grouping",
       "table_membership_dependency": true,
       "reference_support": [
         {
           "direction": "rejected",
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "attribution": "all_nine_except_spondias_and_miconia",
           "table_membership_dependency": true,
           "numerical_values_used_for_direction": false,
@@ -361,12 +374,12 @@
       "reference_directions": [
         "rejected"
       ],
-      "provenance_strength": "table_derived",
+      "provenance_strength": "author_table_grouping",
       "table_membership_dependency": true,
       "reference_support": [
         {
           "direction": "rejected",
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "attribution": "all_nine_except_spondias_and_miconia",
           "table_membership_dependency": true,
           "numerical_values_used_for_direction": false,
@@ -465,12 +478,12 @@
       "reference_directions": [
         "rejected"
       ],
-      "provenance_strength": "table_derived",
+      "provenance_strength": "author_table_grouping",
       "table_membership_dependency": true,
       "reference_support": [
         {
           "direction": "rejected",
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "attribution": "all_nine_except_spondias_and_miconia",
           "table_membership_dependency": true,
           "numerical_values_used_for_direction": false,
@@ -968,11 +981,12 @@
     {
       "species": "Miconia argentea",
       "group": "CONTEXT",
+      "context_assignment_basis": "Table 1 groups Miconia argentea under Immediate rejection, while the simultaneous-choice tests report acceptance in both habitats; the conflicting directions keep the species in CONTEXT.",
       "reference_directions": [
         "accepted",
         "rejected"
       ],
-      "provenance_strength": "table_derived",
+      "provenance_strength": "author_table_grouping",
       "table_membership_dependency": true,
       "reference_support": [
         {
@@ -1020,7 +1034,7 @@
         },
         {
           "direction": "rejected",
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "attribution": "all_ten_except_spondias",
           "table_membership_dependency": true,
           "numerical_values_used_for_direction": false,

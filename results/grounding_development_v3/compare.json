@@ -121,7 +121,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 2,
-          "table_derived": 4
+          "author_table_grouping": 4
         },
         "table_membership_dependent_species": 4,
         "stages": {
@@ -145,7 +145,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 4,
-          "table_derived": 1
+          "author_table_grouping": 1
         },
         "table_membership_dependent_species": 1,
         "stages": {
@@ -248,12 +248,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -352,12 +352,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -456,12 +456,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -560,12 +560,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -1067,7 +1067,7 @@
           "accepted",
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
@@ -1115,7 +1115,7 @@
           },
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_ten_except_spondias",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -1352,7 +1352,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 2,
-          "table_derived": 4
+          "author_table_grouping": 4
         },
         "table_membership_dependent_species": 4,
         "stages": {
@@ -1376,7 +1376,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 4,
-          "table_derived": 1
+          "author_table_grouping": 1
         },
         "table_membership_dependent_species": 1,
         "stages": {
@@ -1473,12 +1473,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -1573,12 +1573,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -1673,12 +1673,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -1773,12 +1773,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -2254,7 +2254,7 @@
           "accepted",
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
@@ -2302,7 +2302,7 @@
           },
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_ten_except_spondias",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -2922,7 +2922,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 2,
-          "table_derived": 4
+          "author_table_grouping": 4
         },
         "table_membership_dependent_species": 4,
         "stages": {
@@ -2946,7 +2946,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 4,
-          "table_derived": 1
+          "author_table_grouping": 1
         },
         "table_membership_dependent_species": 1,
         "stages": {
@@ -3049,12 +3049,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -3153,12 +3153,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -3263,12 +3263,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -3373,12 +3373,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -3891,7 +3891,7 @@
           "accepted",
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
@@ -3939,7 +3939,7 @@
           },
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_ten_except_spondias",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -5409,9 +5409,9 @@
   "contamination_risk": "The curator matrix was produced by reading the same text blocks the extractor read, so shared blind spots would inflate apparent recall. The curator had the complete cached text including tables; the original extractor worked chunk-wise under a strict quote constraint. Implementers know the reference. This is one panel from one paper and is not a sample from any population.",
   "reference_provenance_species": {
     "author_prose": 6,
-    "table_derived": 5
+    "author_table_grouping": 5
   },
-  "table_caveat": "The numerical table transcription was never visually verified against the PDF, so table-derived labels are weaker ground truth. Reference labels remain unchanged.",
+  "table_caveat": "Directions were checked against Table 1 of the original PDF and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. What remains unverified is the semantic support for individual rows and captions. Reference labels are unchanged.",
   "v3": {
     "extraction": "data/interim/extraction_saverschek_multispan_v3",
     "status": "complete",
@@ -5568,7 +5568,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 2,
-          "table_derived": 4
+          "author_table_grouping": 4
         },
         "table_membership_dependent_species": 4,
         "stages": {
@@ -5592,7 +5592,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 4,
-          "table_derived": 1
+          "author_table_grouping": 1
         },
         "table_membership_dependent_species": 1,
         "stages": {
@@ -5695,12 +5695,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -5805,12 +5805,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -5915,12 +5915,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -6025,12 +6025,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -6583,7 +6583,7 @@
           "accepted",
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
@@ -6631,7 +6631,7 @@
           },
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_ten_except_spondias",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -9558,7 +9558,7 @@
           "unscorable_species": [],
           "reference_provenance_species": {
             "author_prose": 2,
-            "table_derived": 4
+            "author_table_grouping": 4
           },
           "table_membership_dependent_species": 4,
           "stages": {
@@ -9582,7 +9582,7 @@
           "unscorable_species": [],
           "reference_provenance_species": {
             "author_prose": 4,
-            "table_derived": 1
+            "author_table_grouping": 1
           },
           "table_membership_dependent_species": 1,
           "stages": {
@@ -9685,12 +9685,12 @@
           "reference_directions": [
             "rejected"
           ],
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "table_membership_dependency": true,
           "reference_support": [
             {
               "direction": "rejected",
-              "provenance_strength": "table_derived",
+              "provenance_strength": "author_table_grouping",
               "attribution": "all_nine_except_spondias_and_miconia",
               "table_membership_dependency": true,
               "numerical_values_used_for_direction": false,
@@ -9789,12 +9789,12 @@
           "reference_directions": [
             "rejected"
           ],
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "table_membership_dependency": true,
           "reference_support": [
             {
               "direction": "rejected",
-              "provenance_strength": "table_derived",
+              "provenance_strength": "author_table_grouping",
               "attribution": "all_nine_except_spondias_and_miconia",
               "table_membership_dependency": true,
               "numerical_values_used_for_direction": false,
@@ -9893,12 +9893,12 @@
           "reference_directions": [
             "rejected"
           ],
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "table_membership_dependency": true,
           "reference_support": [
             {
               "direction": "rejected",
-              "provenance_strength": "table_derived",
+              "provenance_strength": "author_table_grouping",
               "attribution": "all_nine_except_spondias_and_miconia",
               "table_membership_dependency": true,
               "numerical_values_used_for_direction": false,
@@ -9997,12 +9997,12 @@
           "reference_directions": [
             "rejected"
           ],
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "table_membership_dependency": true,
           "reference_support": [
             {
               "direction": "rejected",
-              "provenance_strength": "table_derived",
+              "provenance_strength": "author_table_grouping",
               "attribution": "all_nine_except_spondias_and_miconia",
               "table_membership_dependency": true,
               "numerical_values_used_for_direction": false,
@@ -10509,7 +10509,7 @@
             "accepted",
             "rejected"
           ],
-          "provenance_strength": "table_derived",
+          "provenance_strength": "author_table_grouping",
           "table_membership_dependency": true,
           "reference_support": [
             {
@@ -10557,7 +10557,7 @@
             },
             {
               "direction": "rejected",
-              "provenance_strength": "table_derived",
+              "provenance_strength": "author_table_grouping",
               "attribution": "all_ten_except_spondias",
               "table_membership_dependency": true,
               "numerical_values_used_for_direction": false,

@@ -45,21 +45,38 @@ def test_quote_mention_does_not_emit_acceptance() -> None:
     assert hymenaea["correct_directions"] == ["rejected"]
 
 
-def test_provenance_is_weakest_pair_and_ignores_table_sign() -> None:
-    """Expose Miconia's mixed provenance without deriving direction from its zero cells."""
+def test_provenance_records_author_grouping_and_ignores_table_sign() -> None:
+    """Expose Miconia's mixed provenance without deriving direction from its zero cells.
+
+    Table 1 groups species under printed author headings, so a grouped label is an
+    author-assigned category rather than an inference of ours. The denominators and
+    the split are unchanged by that reclassification.
+    """
     report = baseline()
     assert report["groups"]["PRIMARY"]["reference_provenance_species"] == {
-        "author_prose": 2, "table_derived": 4,
+        "author_prose": 2, "author_table_grouping": 4,
     }
     assert report["groups"]["CONTEXT"]["reference_provenance_species"] == {
-        "author_prose": 4, "table_derived": 1,
+        "author_prose": 4, "author_table_grouping": 1,
     }
     miconia = next(r for r in report["species"] if r["species"] == "Miconia argentea")
     assert miconia["reference_directions"] == ["accepted", "rejected"]
     assert [s["provenance_strength"] for s in miconia["reference_support"]] == [
-        "author_prose", "table_derived",
+        "author_prose", "author_table_grouping",
     ]
+    assert miconia["provenance_strength"] == "author_table_grouping"
     assert not any(s["numerical_values_used_for_direction"] for s in miconia["reference_support"])
+
+
+def test_miconia_context_basis_is_recorded() -> None:
+    """The reference-set definition must state why Miconia is held in CONTEXT."""
+    report = baseline()
+    basis = report["miconia_context_basis"]
+    assert "Immediate rejection" in basis or "immediate-rejection" in basis
+    assert "CONTEXT" in basis
+    assert "6 PRIMARY" in basis and "5 CONTEXT" in basis
+    assert report["groups"]["PRIMARY"]["species_denominator"] == 6
+    assert report["groups"]["CONTEXT"]["species_denominator"] == 5
 
 
 def test_unscorable_reference_stays_in_denominator() -> None:

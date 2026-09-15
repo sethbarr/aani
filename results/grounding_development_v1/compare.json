@@ -121,7 +121,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 2,
-          "table_derived": 4
+          "author_table_grouping": 4
         },
         "table_membership_dependent_species": 4,
         "stages": {
@@ -145,7 +145,7 @@
         "unscorable_species": [],
         "reference_provenance_species": {
           "author_prose": 4,
-          "table_derived": 1
+          "author_table_grouping": 1
         },
         "table_membership_dependent_species": 1,
         "stages": {
@@ -276,7 +276,7 @@
         "species_direction_pair_denominator": 6,
         "reference_provenance_species": {
           "author_prose": 2,
-          "table_derived": 4
+          "author_table_grouping": 4
         },
         "stages": {
           "detection": {
@@ -307,7 +307,7 @@
         "species_direction_pair_denominator": 10,
         "reference_provenance_species": {
           "author_prose": 4,
-          "table_derived": 1
+          "author_table_grouping": 1
         },
         "stages": {
           "detection": {
@@ -423,12 +423,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -534,12 +534,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -645,12 +645,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -756,12 +756,12 @@
         "reference_directions": [
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_nine_except_spondias_and_miconia",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,
@@ -1303,7 +1303,7 @@
           "accepted",
           "rejected"
         ],
-        "provenance_strength": "table_derived",
+        "provenance_strength": "author_table_grouping",
         "table_membership_dependency": true,
         "reference_support": [
           {
@@ -1351,7 +1351,7 @@
           },
           {
             "direction": "rejected",
-            "provenance_strength": "table_derived",
+            "provenance_strength": "author_table_grouping",
             "attribution": "all_ten_except_spondias",
             "table_membership_dependency": true,
             "numerical_values_used_for_direction": false,

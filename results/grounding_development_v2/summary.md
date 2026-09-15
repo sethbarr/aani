@@ -64,7 +64,7 @@ All 61 protected files and frozen protocol files are unchanged. Tests:
 223 passed, one pre-existing missing experiment-planner template failure;
 scoped Ruff passed.
 
-Reference provenance remains six author_prose and five table_derived species
+Reference provenance remains six author_prose and five author_table_grouping species
 (PRIMARY two/four; CONTEXT four/one). The table transcription was never visually
 verified against the PDF. Correctness measures label agreement; semantic-review
 flags remain. Curator and extractor share cached text, so shared blind spots

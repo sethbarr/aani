@@ -161,8 +161,9 @@ def build_generalized_comparison(root: Path) -> dict:
         "sampling_caveat": "Both existing samples informed development of the generalized "
         "glyph rule. Neither sample is an independent test of that rule. Both samples are "
         "reported separately, with every raw proposal retained.",
-        "table_caveat": "The numerical table transcription was never visually verified against "
-        "the PDF, so table-derived labels are weaker ground truth. Reference labels remain "
+        "table_caveat": "Directions were checked against Table 1 of the original PDF and the groupings are "
+        "author-assigned, not our inference from numerical signs. What remains unverified "
+        "is the semantic support for individual rows and captions. Reference labels remain "
         "unchanged.",
         **runs,
     }

@@ -121,7 +121,9 @@ def test_v1_failure_reasons_and_provenance_are_preserved() -> None:
     assert reasons["all_candidates"] == {"ant_requires_review": 6, "name_surface_not_in_quote": 1}
     assert reasons["dominant_reasons"] == ["ant_requires_review"]
     assert reasons["dominant_reason_count"] == 6
-    assert report["reference_provenance_species"] == {"author_prose": 6, "table_derived": 5}
+    assert report["reference_provenance_species"] == {
+        "author_prose": 6, "author_table_grouping": 5,
+    }
     assert report["baseline_integrity"]["all_original_bytes_unchanged"]
 
 

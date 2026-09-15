@@ -65,7 +65,7 @@ Machine-readable evidence is in `verification.json`, `generalization_checks.json
 
 The propolis failure informed this policy, so propolis is development evidence. The leafcutter, monarch, and attine samples are also saved development artifacts. Synthetic probes test implementation boundaries and do not estimate unseen-run performance.
 
-The curator and extractor may share cached-source errors. Curators can inspect complete cached documents while extraction works chunk-wise. The leafcutter table transcription still lacks visual verification against the PDF, and table-derived direction labels remain weaker ground truth. Structured-direction agreement does not adjudicate semantic support in table rows or captions.
+The curator and extractor may share cached-source errors. Curators can inspect complete cached documents while extraction works chunk-wise. Directions were checked against Table 1 of the original PDF and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. The numerical cell transcription still lacks visual verification. Structured-direction agreement does not adjudicate semantic support in table rows or captions.
 
 The default extractor is unchanged. V1 through v4 remain available, and v5 requires `--grounding multispan_v5`.
 

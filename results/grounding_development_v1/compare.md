@@ -29,7 +29,7 @@ Detection counts any raw candidate bearing the species name. Survival counts can
 | Trichilia tuberculata | CONTEXT | accepted, rejected | False | False | absent | scored |
 | Miconia argentea | CONTEXT | accepted, rejected | True | False | absent | scored |
 
-Reference provenance is unchanged: PRIMARY has 2 author_prose and 4 table_derived species; CONTEXT has 4 author_prose and 1 table_derived species. The numerical table transcription was never visually verified against the PDF, so table-derived labels are weaker ground truth. All reference labels and provenance tags come directly from the saved baseline.
+Reference provenance is unchanged: PRIMARY has 2 author_prose and 4 author_table_grouping species; CONTEXT has 4 author_prose and 1 author_table_grouping species. Directions were checked against Table 1 of the original PDF and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. What remains unverified is the semantic support for individual rows and captions. Reference labels are unchanged. All reference labels and provenance tags come directly from the saved baseline.
 
 The curator matrix was produced by reading the same text blocks the extractor read, so shared blind spots would inflate apparent recall. The curator had the complete cached text including tables; the original extractor worked chunk-wise under a strict quote constraint. The reference was known during development, which adds direct development-set contamination. This run provides no independent generalization estimate.
 

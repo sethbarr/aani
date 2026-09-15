@@ -26,7 +26,7 @@ v2 PRIMARY survival is 4 of 6, above the baseline 2 of 6.
 
 The dominant recorded v2 grounding failure reason is supporting_evidence[0]:ungrounded_quote, supporting_evidence[1]:ungrounded_quote (5 of 16 failed candidates per listed reason).
 
-Reference provenance remains 6 author_prose and 5 table_derived species. PRIMARY has 2 author_prose and 4 table_derived; CONTEXT has 4 author_prose and 1 table_derived. The numerical table transcription was never visually verified against the PDF, so table-derived labels are weaker ground truth. Reference labels remain unchanged.
+Reference provenance remains 6 author_prose and 5 author_table_grouping species. PRIMARY has 2 author_prose and 4 author_table_grouping; CONTEXT has 4 author_prose and 1 author_table_grouping. Directions were checked against Table 1 of the original PDF and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. What remains unverified is the semantic support for individual rows and captions. Reference labels are unchanged.
 
 The curator matrix was produced by reading the same text blocks the extractor read, so shared blind spots would inflate apparent recall. The curator had the complete cached text including tables; the original extractor worked chunk-wise under a strict quote constraint. Implementers know the reference. This is one panel from one paper and is not a sample from any population.
 

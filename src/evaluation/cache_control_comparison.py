@@ -144,8 +144,10 @@ def build_comparison(root: Path, include_sample4: bool = False) -> dict:
         "the extractor, so shared blind spots would inflate apparent recall. The curator had "
         "the complete cache including tables; the original extractor worked chunk-wise under "
         "a strict quote constraint.",
-        "table_caveat": "The numerical table transcription was never visually verified against "
-        "the PDF, so table-derived labels remain weaker ground truth. Reference labels are unchanged.",
+        "table_caveat": "Directions were checked against Table 1 of the original PDF and the groupings are "
+        "author-assigned, not our inference from numerical signs. What remains unverified "
+        "is the semantic support for individual rows and captions. Reference labels remain "
+        "unchanged.",
         **runs,
     }
 

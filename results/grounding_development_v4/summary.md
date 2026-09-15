@@ -68,9 +68,9 @@ Both existing samples informed development of the generalized glyph rule. Neithe
 
 The curator matrix was produced by reading the same text blocks the extractor read, so shared blind spots would inflate apparent recall. The curator had the complete cached text including tables; the original extractor worked chunk-wise under a strict quote constraint. Implementers know the reference. This is one panel from one paper and is not a sample from any population.
 
-The numerical table transcription was never visually verified against the PDF, so table-derived labels are weaker ground truth. Reference labels remain unchanged.
+Directions were checked against Table 1 of the original PDF and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. What remains unverified is the semantic support for individual rows and captions. Reference labels are unchanged.
 
-This DEVELOPMENT SET is one panel from one paper and is not a sample from any population. Semantic support of table-derived directions remains unadjudicated. The default extractor and all earlier validators are preserved; select `--grounding multispan_v4` to use this mode. The biological feasibility-failure label is unchanged.
+This DEVELOPMENT SET is one panel from one paper and is not a sample from any population. Directions follow the authors' printed Table 1 headings, checked against the original PDF; the semantic support of individual rows and captions remains unadjudicated. The default extractor and all earlier validators are preserved; select `--grounding multispan_v4` to use this mode. The biological feasibility-failure label is unchanged.
 
 The rule and reproduction commands are documented in [the dated amendment](../../docs/amendment_2026-09-13_generalized_glyph_grounding.md).
 

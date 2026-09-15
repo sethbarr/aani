@@ -79,7 +79,7 @@ Sample 4 leaves v6’s cache-side generalisation untested because none of its 13
 
 Offline replay and preservation status: passed.
 
-The numerical table transcription was never visually verified against the PDF, so table-derived labels remain weaker ground truth. Reference labels are unchanged.
+Directions were checked against Table 1 of the original PDF and follow the authors' printed headings, so these are author-assigned groupings rather than inferences from numerical signs. What remains unverified is the semantic support for individual rows and captions. Reference labels are unchanged.
 
 The frozen protocol files remain at `98b5e09`; thresholds, unanimity, assay eligibility, unknown activity, and the 25-genus feasibility gate are unchanged. The biological feasibility-failure label is unchanged.
 
