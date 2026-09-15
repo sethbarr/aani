@@ -1,0 +1,638 @@
+[
+  {
+    "comparison_block": "melo2020|agar_contact|censored_IC50||Seven days; citral recovery: further seven days on untreated PDA.",
+    "source_id": "melo2020",
+    "route": "agar_contact",
+    "endpoint_family": "censored_IC50",
+    "dose_ug_ml": "",
+    "record_count": 5,
+    "compound_count": 5,
+    "compounds": [
+      "1,8-Cineole",
+      "Limonene",
+      "Linalool",
+      "Sulcatyl acetate",
+      "p-Cymene"
+    ],
+    "record_ids": [
+      "F104",
+      "F105",
+      "F106",
+      "F107",
+      "F108"
+    ]
+  },
+  {
+    "comparison_block": "melo2020|fumigation|censored_IC50||Seven days; citral recovery: further seven days on untreated PDA.",
+    "source_id": "melo2020",
+    "route": "fumigation",
+    "endpoint_family": "censored_IC50",
+    "dose_ug_ml": "",
+    "record_count": 5,
+    "compound_count": 5,
+    "compounds": [
+      "1,8-Cineole",
+      "Limonene",
+      "Linalool",
+      "Sulcatyl acetate",
+      "p-Cymene"
+    ],
+    "record_ids": [
+      "F094",
+      "F095",
+      "F096",
+      "F097",
+      "F098"
+    ]
+  },
+  {
+    "comparison_block": "pagnocca1996|agar_contact|coarse_visual_growth|200|30–35 days at 25±1°C",
+    "source_id": "pagnocca1996",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 200,
+    "record_count": 5,
+    "compound_count": 5,
+    "compounds": [
+      "Epigalgravin",
+      "Episesamin",
+      "Lignan 5",
+      "Lignan 8",
+      "Philygenol"
+    ],
+    "record_ids": [
+      "F016",
+      "F017",
+      "F018",
+      "F020",
+      "F021"
+    ]
+  },
+  {
+    "comparison_block": "raulinoa2002|agar_contact|coarse_visual_growth|100|Not restated; do not assume the exact duration of the cited protocol.",
+    "source_id": "raulinoa2002",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 100,
+    "record_count": 5,
+    "compound_count": 5,
+    "compounds": [
+      "2-n-Nonyl-4-quinolone",
+      "Flindersiamine",
+      "Kokusaginine",
+      "Maculine",
+      "Skimmianine"
+    ],
+    "record_ids": [
+      "M011",
+      "M013",
+      "M015",
+      "M016",
+      "M018"
+    ]
+  },
+  {
+    "comparison_block": "raulinoa2002|agar_contact|coarse_visual_growth|50|Not restated; do not assume the exact duration of the cited protocol.",
+    "source_id": "raulinoa2002",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 50,
+    "record_count": 4,
+    "compound_count": 4,
+    "compounds": [
+      "2-n-Nonyl-4-quinolone",
+      "Kokusaginine",
+      "Maculine",
+      "Skimmianine"
+    ],
+    "record_ids": [
+      "M010",
+      "M012",
+      "M014",
+      "M017"
+    ]
+  },
+  {
+    "comparison_block": "souza2005|agar_contact|coarse_visual_growth|100|Not restated; cited1990 protocol reads30–35 days, not independently confirmed for this run.",
+    "source_id": "souza2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 100,
+    "record_count": 4,
+    "compound_count": 4,
+    "compounds": [
+      "Germanicol",
+      "Stigmast-4-en-3-one",
+      "β-Amyrin",
+      "β-Sitosterol"
+    ],
+    "record_ids": [
+      "F078",
+      "F079",
+      "F080",
+      "F081"
+    ]
+  },
+  {
+    "comparison_block": "souza2005|agar_contact|coarse_visual_growth|50|Not restated; cited1990 protocol reads30–35 days, not independently confirmed for this run.",
+    "source_id": "souza2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 50,
+    "record_count": 4,
+    "compound_count": 4,
+    "compounds": [
+      "Platydesmine",
+      "Syringaldehyde",
+      "Syringaresinol",
+      "Vanillic acid"
+    ],
+    "record_ids": [
+      "F083",
+      "F084",
+      "F085",
+      "F088"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|75|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 75,
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "7-Hydroxy-3-(1,1-dimethylallyl)-8-methoxycoumarin",
+      "Clausarin"
+    ],
+    "record_ids": [
+      "M004",
+      "M008"
+    ]
+  },
+  {
+    "comparison_block": "howard1988terpenoids|agar_contact|ordinal_growth|14.0|Table 1 endpoint is day 7; growth was also followed through day 28.",
+    "source_id": "howard1988terpenoids",
+    "route": "agar_contact",
+    "endpoint_family": "ordinal_growth",
+    "dose_ug_ml": 14.0,
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "Caryophyllene",
+      "Nerolidol"
+    ],
+    "record_ids": [
+      "F007",
+      "F013"
+    ]
+  },
+  {
+    "comparison_block": "howard1988terpenoids|agar_contact|ordinal_growth|140.0|Table 1 endpoint is day 7; growth was also followed through day 28.",
+    "source_id": "howard1988terpenoids",
+    "route": "agar_contact",
+    "endpoint_family": "ordinal_growth",
+    "dose_ug_ml": 140.0,
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "Caryophyllene",
+      "Nerolidol"
+    ],
+    "record_ids": [
+      "F006",
+      "F012"
+    ]
+  },
+  {
+    "comparison_block": "lobo2020papaya|Agar contact|radial_growth_inhibition|500.0|Five weeks",
+    "source_id": "lobo2020papaya",
+    "route": "Agar contact",
+    "endpoint_family": "radial_growth_inhibition",
+    "dose_ug_ml": 500.0,
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "Carpaine",
+      "Squalene"
+    ],
+    "record_ids": [
+      "F073",
+      "F074"
+    ]
+  },
+  {
+    "comparison_block": "melo2020|agar_contact|fitted_IC50||Seven days; citral recovery: further seven days on untreated PDA.",
+    "source_id": "melo2020",
+    "route": "agar_contact",
+    "endpoint_family": "fitted_IC50",
+    "dose_ug_ml": "",
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "Citral (isomer composition unspecified)",
+      "Isopulegol"
+    ],
+    "record_ids": [
+      "F100",
+      "F102"
+    ]
+  },
+  {
+    "comparison_block": "melo2020|fumigation|fitted_IC50||Seven days; citral recovery: further seven days on untreated PDA.",
+    "source_id": "melo2020",
+    "route": "fumigation",
+    "endpoint_family": "fitted_IC50",
+    "dose_ug_ml": "",
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "Citral (isomer composition unspecified)",
+      "Isopulegol"
+    ],
+    "record_ids": [
+      "F090",
+      "F092"
+    ]
+  },
+  {
+    "comparison_block": "napal2015|broth_contact|MIC||MIC incubation duration not clearly restated separately from 48-hour TLC screen; do not inherit automatically.",
+    "source_id": "napal2015",
+    "route": "broth_contact",
+    "endpoint_family": "MIC",
+    "dose_ug_ml": "",
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "Argentilactone",
+      "Carbendazim"
+    ],
+    "record_ids": [
+      "M019",
+      "M020"
+    ]
+  },
+  {
+    "comparison_block": "souza2005|agar_contact|coarse_visual_growth|60|Not restated; cited1990 protocol reads30–35 days, not independently confirmed for this run.",
+    "source_id": "souza2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 60,
+    "record_count": 2,
+    "compound_count": 2,
+    "compounds": [
+      "1-Methyl-4-methoxy-2-quinolone",
+      "3β-Hydroxystigmast-5-en-7-one"
+    ],
+    "record_ids": [
+      "F082",
+      "F087"
+    ]
+  },
+  {
+    "comparison_block": "bigi2004|agar_contact|outcome_ambiguous_hold|1000|30 days at 25±1°C",
+    "source_id": "bigi2004",
+    "route": "agar_contact",
+    "endpoint_family": "outcome_ambiguous_hold",
+    "dose_ug_ml": 1000,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Ricinine"
+    ],
+    "record_ids": [
+      "F040"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|25|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 25,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Xanthyletin"
+    ],
+    "record_ids": [
+      "M007"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|50|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 50,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Piperonyl butoxide"
+    ],
+    "record_ids": [
+      "M009"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|64|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 64,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Suberosin"
+    ],
+    "record_ids": [
+      "M002"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|65|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 65,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Umbelliferone"
+    ],
+    "record_ids": [
+      "M006"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|70|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 70,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Xanthoxyletin"
+    ],
+    "record_ids": [
+      "M003"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|72|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 72,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Angelicin"
+    ],
+    "record_ids": [
+      "M001"
+    ]
+  },
+  {
+    "comparison_block": "coumarins2005|agar_contact|coarse_visual_growth|80|30 days at 25±1°C",
+    "source_id": "coumarins2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 80,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Isopimpinellin"
+    ],
+    "record_ids": [
+      "M005"
+    ]
+  },
+  {
+    "comparison_block": "howard1988terpenoids|agar_contact|ordinal_growth|10.0|Table 1 endpoint is day 7; growth was also followed through day 28.",
+    "source_id": "howard1988terpenoids",
+    "route": "agar_contact",
+    "endpoint_family": "ordinal_growth",
+    "dose_ug_ml": 10.0,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Caryophyllene oxide"
+    ],
+    "record_ids": [
+      "F009"
+    ]
+  },
+  {
+    "comparison_block": "howard1988terpenoids|agar_contact|ordinal_growth|100.0|Table 1 endpoint is day 7; growth was also followed through day 28.",
+    "source_id": "howard1988terpenoids",
+    "route": "agar_contact",
+    "endpoint_family": "ordinal_growth",
+    "dose_ug_ml": 100.0,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Caryophyllene oxide"
+    ],
+    "record_ids": [
+      "F008"
+    ]
+  },
+  {
+    "comparison_block": "howard1988terpenoids|agar_contact|ordinal_growth|11.0|Table 1 endpoint is day 7; growth was also followed through day 28.",
+    "source_id": "howard1988terpenoids",
+    "route": "agar_contact",
+    "endpoint_family": "ordinal_growth",
+    "dose_ug_ml": 11.0,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Kolavenol"
+    ],
+    "record_ids": [
+      "F011"
+    ]
+  },
+  {
+    "comparison_block": "howard1988terpenoids|agar_contact|ordinal_growth|110.0|Table 1 endpoint is day 7; growth was also followed through day 28.",
+    "source_id": "howard1988terpenoids",
+    "route": "agar_contact",
+    "endpoint_family": "ordinal_growth",
+    "dose_ug_ml": 110.0,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Kolavenol"
+    ],
+    "record_ids": [
+      "F010"
+    ]
+  },
+  {
+    "comparison_block": "hubbell1983|agar_contact|culture_damage_incidence|100|Visible culture damage within 48 h",
+    "source_id": "hubbell1983",
+    "route": "agar_contact",
+    "endpoint_family": "culture_damage_incidence",
+    "dose_ug_ml": 100,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Caryophyllene oxide"
+    ],
+    "record_ids": [
+      "F022"
+    ]
+  },
+  {
+    "comparison_block": "hubbell1983|agar_contact|culture_damage_incidence|30000|Visible culture damage within 48 h",
+    "source_id": "hubbell1983",
+    "route": "agar_contact",
+    "endpoint_family": "culture_damage_incidence",
+    "dose_ug_ml": 30000,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Caryophyllene oxide"
+    ],
+    "record_ids": [
+      "F024"
+    ]
+  },
+  {
+    "comparison_block": "hubbell1983|agar_contact|culture_damage_incidence|3000|Visible culture damage within 48 h",
+    "source_id": "hubbell1983",
+    "route": "agar_contact",
+    "endpoint_family": "culture_damage_incidence",
+    "dose_ug_ml": 3000,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Caryophyllene oxide"
+    ],
+    "record_ids": [
+      "F023"
+    ]
+  },
+  {
+    "comparison_block": "lobo2020papaya|Agar contact|qualitative_null|500.0|Five weeks",
+    "source_id": "lobo2020papaya",
+    "route": "Agar contact",
+    "endpoint_family": "qualitative_null",
+    "dose_ug_ml": 500.0,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Quercetin"
+    ],
+    "record_ids": [
+      "F076"
+    ]
+  },
+  {
+    "comparison_block": "melo2020|fumigation|recovery_after_exposure||Seven days; citral recovery: further seven days on untreated PDA.",
+    "source_id": "melo2020",
+    "route": "fumigation",
+    "endpoint_family": "recovery_after_exposure",
+    "dose_ug_ml": "",
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Citral (isomer composition unspecified)"
+    ],
+    "record_ids": [
+      "F109"
+    ]
+  },
+  {
+    "comparison_block": "pagnocca1996|agar_contact|coarse_visual_growth|160|30–35 days at 25±1°C",
+    "source_id": "pagnocca1996",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 160,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Eudesmin"
+    ],
+    "record_ids": [
+      "F015"
+    ]
+  },
+  {
+    "comparison_block": "pagnocca1996|agar_contact|coarse_visual_growth|210|30–35 days at 25±1°C",
+    "source_id": "pagnocca1996",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 210,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Lignan 6"
+    ],
+    "record_ids": [
+      "F019"
+    ]
+  },
+  {
+    "comparison_block": "pagnocca1996|agar_contact|coarse_visual_growth|70|30–35 days at 25±1°C",
+    "source_id": "pagnocca1996",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 70,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Sesamin"
+    ],
+    "record_ids": [
+      "F014"
+    ]
+  },
+  {
+    "comparison_block": "salazar2020|agar_contact|fitted_IC50||Growth followed for five weeks; dose-response endpoint reported over this assay.",
+    "source_id": "salazar2020",
+    "route": "agar_contact",
+    "endpoint_family": "fitted_IC50",
+    "dose_ug_ml": "",
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Dillapiol"
+    ],
+    "record_ids": [
+      "F003"
+    ]
+  },
+  {
+    "comparison_block": "salazar2020|agar_contact|secondary_fit_same_curve||Growth followed for five weeks; dose-response endpoint reported over this assay.",
+    "source_id": "salazar2020",
+    "route": "agar_contact",
+    "endpoint_family": "secondary_fit_same_curve",
+    "dose_ug_ml": "",
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Dillapiol"
+    ],
+    "record_ids": [
+      "F004"
+    ]
+  },
+  {
+    "comparison_block": "souza2005|agar_contact|coarse_visual_growth|40|Not restated; cited1990 protocol reads30–35 days, not independently confirmed for this run.",
+    "source_id": "souza2005",
+    "route": "agar_contact",
+    "endpoint_family": "coarse_visual_growth",
+    "dose_ug_ml": 40,
+    "record_count": 1,
+    "compound_count": 1,
+    "compounds": [
+      "Dictamnine"
+    ],
+    "record_ids": [
+      "F086"
+    ]
+  }
+]

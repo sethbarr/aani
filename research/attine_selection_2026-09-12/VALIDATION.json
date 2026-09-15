@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-12",
+  "bibliography_count": 157,
+  "candidate_count": 98,
+  "pdf_count": 33,
+  "combined_assay_record_count": 149,
+  "batch2_assay_record_count": 109,
+  "received_full_text_requests": 11,
+  "pending_journal_article_requests": 1,
+  "related_morais_thesis_available": true,
+  "source_links_resolve": true,
+  "supplied_original_hashes_match": true,
+  "guide_links_resolve": true,
+  "endpoint_intervals_ordered": true,
+  "dose_basis_safeguards_pass": true,
+  "javascript_syntax": "passed",
+  "validation_scope": "Artifact integrity and selected rendering checks; scientific review depth is recorded per source. PDF pages containing key numerical tables and figures visually checked.",
+  "browser_validation": {
+    "candidate_count_rendered": 98,
+    "assay_count_rendered": 149,
+    "mentha_piperita_filter_records": 4,
+    "citral_purchased_filter_records": 3,
+    "dose_basis_and_reported_intervals_visible": true,
+    "deliverable_marked": true
+  }
+}

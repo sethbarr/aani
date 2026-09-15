@@ -1,0 +1,2623 @@
+[
+  {
+    "compound_id": "C001",
+    "preferred_name": "Dillapiol",
+    "source_names": [
+      "Dillapiole"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Phenylpropanoid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "Dillapiole",
+    "pubchem_candidate_cids": [
+      10231
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Dillapiole/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10231",
+    "exact_pubchem_cid": 10231,
+    "exact_inchikey": "LIKYNOPXHGPMIH-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C(C2=C(C=C1CC=C)OCO2)OC",
+    "candidate_smiles": "COC1=C(C2=C(C=C1CC=C)OCO2)OC",
+    "candidate_connectivity_smiles": "COC1=C(C2=C(C=C1CC=C)OCO2)OC",
+    "candidate_inchikey": "LIKYNOPXHGPMIH-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C12H14O4",
+    "candidate_molecular_weight": "222.24",
+    "candidate_xlogp": 2.7,
+    "candidate_tpsa": 36.9,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 4,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "salazar2020"
+    ],
+    "source_plants": [
+      "Piper holtonii"
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F003",
+      "F004"
+    ],
+    "source_locators": [
+      {
+        "source_id": "salazar2020",
+        "locator": "PDF 4–5 / printed 671–672; Figs 1–3 and results prose",
+        "url": "https://doi.org/10.1007/s10886-020-01170-w",
+        "pdf": "../sources/salazar2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C002",
+    "preferred_name": "Caryophyllene",
+    "source_names": [
+      "Caryophyllene"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Caryophyllene",
+    "pubchem_candidate_cids": [
+      5281515
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Caryophyllene/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281515",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C/C/1=C\\CCC(=C)[C@H]2CC([C@@H]2CC1)(C)C",
+    "candidate_connectivity_smiles": "CC1=CCCC(=C)C2CC(C2CC1)(C)C",
+    "candidate_inchikey": "NPNUFJAVOOONJE-GFUGXAQUSA-N",
+    "candidate_molecular_formula": "C15H24",
+    "candidate_molecular_weight": "204.35",
+    "candidate_xlogp": 4.4,
+    "candidate_tpsa": 0,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 0,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "howard1988terpenoids"
+    ],
+    "source_plants": [
+      "Hymenaea courbaril"
+    ],
+    "source_organs": [
+      "Leaves; previously reported origin, assay-batch provenance unresolved"
+    ],
+    "record_ids": [
+      "F006",
+      "F007"
+    ],
+    "source_locators": [
+      {
+        "source_id": "howard1988terpenoids",
+        "locator": "PDF 7 / printed 65; Table 1",
+        "url": "https://doi.org/10.1007/BF01022531",
+        "pdf": "../sources/howard1988terpenoids.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C003",
+    "preferred_name": "Caryophyllene oxide",
+    "source_names": [
+      "Caryophyllene epoxide"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "caryophyllene oxide",
+    "pubchem_candidate_cids": [
+      1742210
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/caryophyllene%20oxide/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1742210",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C[C@@]12CC[C@@H]3[C@H](CC3(C)C)C(=C)CC[C@H]1O2",
+    "candidate_connectivity_smiles": "CC1(CC2C1CCC3(C(O3)CCC2=C)C)C",
+    "candidate_inchikey": "NVEQFIOZRFFVFW-RGCMKSIDSA-N",
+    "candidate_molecular_formula": "C15H24O",
+    "candidate_molecular_weight": "220.35",
+    "candidate_xlogp": 3.6,
+    "candidate_tpsa": 12.5,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 5,
+    "source_count": 2,
+    "source_ids": [
+      "howard1988terpenoids",
+      "hubbell1983"
+    ],
+    "source_plants": [
+      "Hymenaea courbaril",
+      "Hymenaea courbaril; Melampodium divaricatum; Vismea baccifera [as printed; Vismia linkage]"
+    ],
+    "source_organs": [
+      "Leaves; previously reported origin, assay-batch provenance unresolved",
+      "Mature leaves"
+    ],
+    "record_ids": [
+      "F008",
+      "F009",
+      "F022",
+      "F023",
+      "F024"
+    ],
+    "source_locators": [
+      {
+        "source_id": "howard1988terpenoids",
+        "locator": "PDF 7 / printed 65; Table 1",
+        "url": "https://doi.org/10.1007/BF01022531",
+        "pdf": "../sources/howard1988terpenoids.pdf"
+      },
+      {
+        "source_id": "hubbell1983",
+        "locator": "PDF 5 / printed 325; Fungal bioassays",
+        "url": "https://doi.org/10.1007/BF00376846",
+        "pdf": "../sources/hubbell1983.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C004",
+    "preferred_name": "Kolavenol",
+    "source_names": [
+      "Kolavenol"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Kolavenol",
+    "pubchem_candidate_cids": [
+      6442554
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Kolavenol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6442554",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C[C@@H]1CC[C@@]2([C@@H]([C@@]1(C)CC/C(=C/CO)/C)CCC=C2C)C",
+    "candidate_connectivity_smiles": "CC1CCC2(C(C1(C)CCC(=CCO)C)CCC=C2C)C",
+    "candidate_inchikey": "PQTMZYKTDFKGKV-UUMJGGROSA-N",
+    "candidate_molecular_formula": "C20H34O",
+    "candidate_molecular_weight": "290.5",
+    "candidate_xlogp": 6,
+    "candidate_tpsa": 20.2,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "howard1988terpenoids"
+    ],
+    "source_plants": [
+      "Melampodium divaricatum; Vismea baccifera [as printed; Vismia linkage]"
+    ],
+    "source_organs": [
+      "Leaves; previously reported origin, assay-batch provenance unresolved"
+    ],
+    "record_ids": [
+      "F010",
+      "F011"
+    ],
+    "source_locators": [
+      {
+        "source_id": "howard1988terpenoids",
+        "locator": "PDF 7 / printed 65; Table 1",
+        "url": "https://doi.org/10.1007/BF01022531",
+        "pdf": "../sources/howard1988terpenoids.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C005",
+    "preferred_name": "Nerolidol",
+    "source_names": [
+      "Nerolidol"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Nerolidol",
+    "pubchem_candidate_cids": [
+      5284507
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nerolidol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5284507",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC(=CCC/C(=C/CCC(C)(C=C)O)/C)C",
+    "candidate_connectivity_smiles": "CC(=CCCC(=CCCC(C)(C=C)O)C)C",
+    "candidate_inchikey": "FQTLCLSUCSAZDY-SDNWHVSQSA-N",
+    "candidate_molecular_formula": "C15H26O",
+    "candidate_molecular_weight": "222.37",
+    "candidate_xlogp": 4.6,
+    "candidate_tpsa": 20.2,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "howard1988terpenoids"
+    ],
+    "source_plants": [
+      "Vismea baccifera [as printed; Vismia linkage]"
+    ],
+    "source_organs": [
+      "Leaves; previously reported origin, assay-batch provenance unresolved"
+    ],
+    "record_ids": [
+      "F012",
+      "F013"
+    ],
+    "source_locators": [
+      {
+        "source_id": "howard1988terpenoids",
+        "locator": "PDF 7 / printed 65; Table 1",
+        "url": "https://doi.org/10.1007/BF01022531",
+        "pdf": "../sources/howard1988terpenoids.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C006",
+    "preferred_name": "Sesamin",
+    "source_names": [
+      "Sesamin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Sesamin",
+    "pubchem_candidate_cids": [
+      72307
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sesamin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/72307",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C1[C@H]2[C@H](CO[C@@H]2C3=CC4=C(C=C3)OCO4)[C@H](O1)C5=CC6=C(C=C5)OCO6",
+    "candidate_connectivity_smiles": "C1C2C(COC2C3=CC4=C(C=C3)OCO4)C(O1)C5=CC6=C(C=C5)OCO6",
+    "candidate_inchikey": "PEYUIKBAABKQKQ-AFHBHXEDSA-N",
+    "candidate_molecular_formula": "C20H18O6",
+    "candidate_molecular_weight": "354.4",
+    "candidate_xlogp": 2.7,
+    "candidate_tpsa": 55.4,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 6,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Virola sebifera"
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F014"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C007",
+    "preferred_name": "Eudesmin",
+    "source_names": [
+      "Eudesmin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Eudesmin",
+    "pubchem_candidate_cids": [
+      73117
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Eudesmin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/73117",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "COC1=C(C=C(C=C1)[C@@H]2[C@H]3CO[C@@H]([C@H]3CO2)C4=CC(=C(C=C4)OC)OC)OC",
+    "candidate_connectivity_smiles": "COC1=C(C=C(C=C1)C2C3COC(C3CO2)C4=CC(=C(C=C4)OC)OC)OC",
+    "candidate_inchikey": "PEUUVVGQIVMSAW-RZTYQLBFSA-N",
+    "candidate_molecular_formula": "C22H26O6",
+    "candidate_molecular_weight": "386.4",
+    "candidate_xlogp": 2.9,
+    "candidate_tpsa": 55.4,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 6,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Virola sebifera"
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F015"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C008",
+    "preferred_name": "Episesamin",
+    "source_names": [
+      "Episesamin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "ambiguous_name_lookup",
+    "identity_note": "PubChem returned sesamin, asarinin and a stereounspecified record. None selected. Preserve the episesamin activity separately.",
+    "pubchem_query": "Episesamin",
+    "pubchem_candidate_cids": [
+      72307,
+      101612,
+      5204
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Episesamin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "",
+    "candidate_connectivity_smiles": "",
+    "candidate_inchikey": "",
+    "candidate_molecular_formula": "",
+    "candidate_molecular_weight": "",
+    "candidate_xlogp": "",
+    "candidate_tpsa": "",
+    "candidate_hbond_donors": "",
+    "candidate_hbond_acceptors": "",
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Virola sp."
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F016"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C009",
+    "preferred_name": "Philygenol",
+    "source_names": [
+      "Philygenol"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "database_unresolved",
+    "identity_note": "Name query did not resolve; preserve source identity without guessing an analogue.",
+    "pubchem_query": "Philygenol",
+    "pubchem_candidate_cids": [],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Philygenol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "",
+    "candidate_connectivity_smiles": "",
+    "candidate_inchikey": "",
+    "candidate_molecular_formula": "",
+    "candidate_molecular_weight": "",
+    "candidate_xlogp": "",
+    "candidate_tpsa": "",
+    "candidate_hbond_donors": "",
+    "candidate_hbond_acceptors": "",
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Otoba parvifolia"
+    ],
+    "source_organs": [
+      "Fruits"
+    ],
+    "record_ids": [
+      "F017"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C010",
+    "preferred_name": "Lignan 5",
+    "source_names": [
+      "Lignan 5"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "source_code_unresolved",
+    "identity_note": "Identity is source-local Figure 1 code; manual structure transcription and independent check required.",
+    "pubchem_query": "",
+    "pubchem_candidate_cids": [],
+    "pubchem_query_url": "",
+    "pubchem_candidate_url": "",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "",
+    "candidate_connectivity_smiles": "",
+    "candidate_inchikey": "",
+    "candidate_molecular_formula": "",
+    "candidate_molecular_weight": "",
+    "candidate_xlogp": "",
+    "candidate_tpsa": "",
+    "candidate_hbond_donors": "",
+    "candidate_hbond_acceptors": "",
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Virola sebifera"
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F018"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C011",
+    "preferred_name": "Lignan 6",
+    "source_names": [
+      "Lignan 6"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "source_code_unresolved",
+    "identity_note": "Identity is source-local Figure 1 code; manual structure transcription and independent check required.",
+    "pubchem_query": "",
+    "pubchem_candidate_cids": [],
+    "pubchem_query_url": "",
+    "pubchem_candidate_url": "",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "",
+    "candidate_connectivity_smiles": "",
+    "candidate_inchikey": "",
+    "candidate_molecular_formula": "",
+    "candidate_molecular_weight": "",
+    "candidate_xlogp": "",
+    "candidate_tpsa": "",
+    "candidate_hbond_donors": "",
+    "candidate_hbond_acceptors": "",
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Virola sebifera"
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F019"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C012",
+    "preferred_name": "Epigalgravin",
+    "source_names": [
+      "Epigalgravin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "database_unresolved",
+    "identity_note": "Name query did not resolve; preserve source identity without guessing an analogue.",
+    "pubchem_query": "Epigalgravin",
+    "pubchem_candidate_cids": [],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Epigalgravin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "",
+    "candidate_connectivity_smiles": "",
+    "candidate_inchikey": "",
+    "candidate_molecular_formula": "",
+    "candidate_molecular_weight": "",
+    "candidate_xlogp": "",
+    "candidate_tpsa": "",
+    "candidate_hbond_donors": "",
+    "candidate_hbond_acceptors": "",
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Virola sp."
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F020"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C013",
+    "preferred_name": "Lignan 8",
+    "source_names": [
+      "Lignan 8"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "source_code_unresolved",
+    "identity_note": "Identity is source-local Figure 1 code; manual structure transcription and independent check required.",
+    "pubchem_query": "",
+    "pubchem_candidate_cids": [],
+    "pubchem_query_url": "",
+    "pubchem_candidate_url": "",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "",
+    "candidate_connectivity_smiles": "",
+    "candidate_inchikey": "",
+    "candidate_molecular_formula": "",
+    "candidate_molecular_weight": "",
+    "candidate_xlogp": "",
+    "candidate_tpsa": "",
+    "candidate_hbond_donors": "",
+    "candidate_hbond_acceptors": "",
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "pagnocca1996"
+    ],
+    "source_plants": [
+      "Virola sp."
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "F021"
+    ],
+    "source_locators": [
+      {
+        "source_id": "pagnocca1996",
+        "locator": "PDF 4 / printed 1328; Table 1",
+        "url": "https://doi.org/10.1007/BF02266969",
+        "pdf": "../sources/pagnocca1996.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C014",
+    "preferred_name": "Ricinine",
+    "source_names": [
+      "Ricinine"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Pyridone alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "Ricinine",
+    "pubchem_candidate_cids": [
+      10666
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ricinine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10666",
+    "exact_pubchem_cid": 10666,
+    "exact_inchikey": "PETSAYFQSGAEQY-UHFFFAOYSA-N",
+    "exact_smiles": "CN1C=CC(=C(C1=O)C#N)OC",
+    "candidate_smiles": "CN1C=CC(=C(C1=O)C#N)OC",
+    "candidate_connectivity_smiles": "CN1C=CC(=C(C1=O)C#N)OC",
+    "candidate_inchikey": "PETSAYFQSGAEQY-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C8H8N2O2",
+    "candidate_molecular_weight": "164.16",
+    "candidate_xlogp": 0,
+    "candidate_tpsa": 53.3,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 3,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "bigi2004"
+    ],
+    "source_plants": [
+      "Ricinus communis"
+    ],
+    "source_organs": [
+      "Leaves; isolated from methanol fraction of DCM extract"
+    ],
+    "record_ids": [
+      "F040"
+    ],
+    "source_locators": [
+      {
+        "source_id": "bigi2004",
+        "locator": "PDF 3–4 / printed 935–936; Tables 1–3 and results prose",
+        "url": "https://doi.org/10.1002/ps.892",
+        "pdf": "../sources/bigi2004.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C015",
+    "preferred_name": "Squalene",
+    "source_names": [
+      "Squalene"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Squalene",
+    "pubchem_candidate_cids": [
+      638072
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Squalene/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/638072",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC(=CCC/C(=C/CC/C(=C/CC/C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)/C)/C)C",
+    "candidate_connectivity_smiles": "CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C)C",
+    "candidate_inchikey": "YYGNTYWPHWGJRM-AAJYLUCBSA-N",
+    "candidate_molecular_formula": "C30H50",
+    "candidate_molecular_weight": "410.7",
+    "candidate_xlogp": 11.6,
+    "candidate_tpsa": 0,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 0,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "lobo2020papaya"
+    ],
+    "source_plants": [
+      "Carica papaya (quercetin reagent not isolated from this sample)"
+    ],
+    "source_organs": [
+      "Leaves; commercial quercetin comparator where indicated"
+    ],
+    "record_ids": [
+      "F073"
+    ],
+    "source_locators": [
+      {
+        "source_id": "lobo2020papaya",
+        "locator": "PDF 5,8 / printed 205,208; sections3.1,3.3 and Fig 3",
+        "url": "https://doi.org/10.1080/09670874.2019.1610812",
+        "pdf": "../sources/lobo2020papaya.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C016",
+    "preferred_name": "Carpaine",
+    "source_names": [
+      "Carpaine"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Macrocyclic alkaloid",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Carpaine",
+    "pubchem_candidate_cids": [
+      442630
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Carpaine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/442630",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C[C@H]1[C@@H]2CC[C@H](N1)CCCCCCCC(=O)O[C@H]3CC[C@@H](CCCCCCCC(=O)O2)N[C@H]3C",
+    "candidate_connectivity_smiles": "CC1C2CCC(N1)CCCCCCCC(=O)OC3CCC(CCCCCCCC(=O)O2)NC3C",
+    "candidate_inchikey": "AMSCMASJCYVAIF-QCVMBYIASA-N",
+    "candidate_molecular_formula": "C28H50N2O4",
+    "candidate_molecular_weight": "478.7",
+    "candidate_xlogp": 6.3,
+    "candidate_tpsa": 76.7,
+    "candidate_hbond_donors": 2,
+    "candidate_hbond_acceptors": 6,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "lobo2020papaya"
+    ],
+    "source_plants": [
+      "Carica papaya (quercetin reagent not isolated from this sample)"
+    ],
+    "source_organs": [
+      "Leaves; commercial quercetin comparator where indicated"
+    ],
+    "record_ids": [
+      "F074"
+    ],
+    "source_locators": [
+      {
+        "source_id": "lobo2020papaya",
+        "locator": "PDF 5,8 / printed 205,208; sections3.1,3.3 and Fig 3",
+        "url": "https://doi.org/10.1080/09670874.2019.1610812",
+        "pdf": "../sources/lobo2020papaya.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C017",
+    "preferred_name": "Quercetin",
+    "source_names": [
+      "Quercetin (commercial aglycone)"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Flavonoid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "quercetin",
+    "pubchem_candidate_cids": [
+      5280343
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/quercetin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280343",
+    "exact_pubchem_cid": 5280343,
+    "exact_inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+    "exact_smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O",
+    "candidate_smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O",
+    "candidate_connectivity_smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O",
+    "candidate_inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C15H10O7",
+    "candidate_molecular_weight": "302.23",
+    "candidate_xlogp": 1.5,
+    "candidate_tpsa": 127,
+    "candidate_hbond_donors": 5,
+    "candidate_hbond_acceptors": 7,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "lobo2020papaya"
+    ],
+    "source_plants": [
+      "Carica papaya (quercetin reagent not isolated from this sample)"
+    ],
+    "source_organs": [
+      "Leaves; commercial quercetin comparator where indicated"
+    ],
+    "record_ids": [
+      "F076"
+    ],
+    "source_locators": [
+      {
+        "source_id": "lobo2020papaya",
+        "locator": "PDF 5,8 / printed 205,208; sections3.1,3.3 and Fig 3",
+        "url": "https://doi.org/10.1080/09670874.2019.1610812",
+        "pdf": "../sources/lobo2020papaya.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C018",
+    "preferred_name": "Germanicol",
+    "source_names": [
+      "Germanicol"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Steroid / triterpenoid",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Germanicol",
+    "pubchem_candidate_cids": [
+      122857
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Germanicol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/122857",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C[C@@]12CC[C@@]3([C@@H](C1=CC(CC2)(C)C)CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)C",
+    "candidate_connectivity_smiles": "CC1(CCC2(CCC3(C(C2=C1)CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C)C)C",
+    "candidate_inchikey": "QMUXVPRGNJLGRT-PNTWTTAKSA-N",
+    "candidate_molecular_formula": "C30H50O",
+    "candidate_molecular_weight": "426.7",
+    "candidate_xlogp": 9.4,
+    "candidate_tpsa": 20.2,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F078"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C019",
+    "preferred_name": "β-Amyrin",
+    "source_names": [
+      "β-Amyrin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Steroid / triterpenoid",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "beta-amyrin",
+    "pubchem_candidate_cids": [
+      73145
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/beta-amyrin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/73145",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C[C@@]12CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]1CC(CC2)(C)C)C",
+    "candidate_connectivity_smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C)C",
+    "candidate_inchikey": "JFSHUTJDVKUMTJ-QHPUVITPSA-N",
+    "candidate_molecular_formula": "C30H50O",
+    "candidate_molecular_weight": "426.7",
+    "candidate_xlogp": 9.2,
+    "candidate_tpsa": 20.2,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F079"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C020",
+    "preferred_name": "β-Sitosterol",
+    "source_names": [
+      "β-Sitosterol"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Steroid / triterpenoid",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "beta-sitosterol",
+    "pubchem_candidate_cids": [
+      222284
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/beta-sitosterol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC[C@H](CC[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C)C(C)C",
+    "candidate_connectivity_smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C",
+    "candidate_inchikey": "KZJWDPNRJALLNS-VJSFXXLFSA-N",
+    "candidate_molecular_formula": "C29H50O",
+    "candidate_molecular_weight": "414.7",
+    "candidate_xlogp": 9.3,
+    "candidate_tpsa": 20.2,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F080"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C021",
+    "preferred_name": "Stigmast-4-en-3-one",
+    "source_names": [
+      "Stigmast-4-en-3-one"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Steroid / triterpenoid",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Stigmast-4-en-3-one",
+    "pubchem_candidate_cids": [
+      5484202
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Stigmast-4-en-3-one/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5484202",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC[C@H](CC[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CCC4=CC(=O)CC[C@]34C)C)C(C)C",
+    "candidate_connectivity_smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C)C(C)C",
+    "candidate_inchikey": "RUVUHIUYGJBLGI-XJZKHKOHSA-N",
+    "candidate_molecular_formula": "C29H48O",
+    "candidate_molecular_weight": "412.7",
+    "candidate_xlogp": 9.3,
+    "candidate_tpsa": 17.1,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F081"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C022",
+    "preferred_name": "3β-Hydroxystigmast-5-en-7-one",
+    "source_names": [
+      "3β-Hydroxystigmast-5-en-7-one"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Steroid / triterpenoid",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "7-ketositosterol",
+    "pubchem_candidate_cids": [
+      160608
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7-ketositosterol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/160608",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC[C@H](CC[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C(=O)C=C4[C@@]3(CC[C@@H](C4)O)C)C)C(C)C",
+    "candidate_connectivity_smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2C(=O)C=C4C3(CCC(C4)O)C)C)C(C)C",
+    "candidate_inchikey": "ICFXJOAKQGDRCT-ZIHMWMKCSA-N",
+    "candidate_molecular_formula": "C29H48O2",
+    "candidate_molecular_weight": "428.7",
+    "candidate_xlogp": 8.3,
+    "candidate_tpsa": 37.3,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 2,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F082"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C023",
+    "preferred_name": "Syringaresinol",
+    "source_names": [
+      "Syringaresinol"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Lignan",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Syringaresinol",
+    "pubchem_candidate_cids": [
+      100067
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Syringaresinol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/100067",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "COC1=CC(=CC(=C1O)OC)C2C3COC(C3CO2)C4=CC(=C(C(=C4)OC)O)OC",
+    "candidate_connectivity_smiles": "COC1=CC(=CC(=C1O)OC)C2C3COC(C3CO2)C4=CC(=C(C(=C4)OC)O)OC",
+    "candidate_inchikey": "KOWMJRJXZMEZLD-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C22H26O8",
+    "candidate_molecular_weight": "418.4",
+    "candidate_xlogp": 2.2,
+    "candidate_tpsa": 95.8,
+    "candidate_hbond_donors": 2,
+    "candidate_hbond_acceptors": 8,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F083"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C024",
+    "preferred_name": "Syringaldehyde",
+    "source_names": [
+      "Syringaldehyde"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Phenolic aldehyde",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "Syringaldehyde",
+    "pubchem_candidate_cids": [
+      8655
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Syringaldehyde/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8655",
+    "exact_pubchem_cid": 8655,
+    "exact_inchikey": "KCDXJAYRVLXPFO-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=CC(=CC(=C1O)OC)C=O",
+    "candidate_smiles": "COC1=CC(=CC(=C1O)OC)C=O",
+    "candidate_connectivity_smiles": "COC1=CC(=CC(=C1O)OC)C=O",
+    "candidate_inchikey": "KCDXJAYRVLXPFO-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C9H10O4",
+    "candidate_molecular_weight": "182.17",
+    "candidate_xlogp": 0,
+    "candidate_tpsa": 55.8,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 4,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F084"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C025",
+    "preferred_name": "Vanillic acid",
+    "source_names": [
+      "Vanillic acid"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Phenolic acid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "Vanillic acid",
+    "pubchem_candidate_cids": [
+      8468
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Vanillic%20acid/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8468",
+    "exact_pubchem_cid": 8468,
+    "exact_inchikey": "WKOLLVMJNQIZCI-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C(C=CC(=C1)C(=O)O)O",
+    "candidate_smiles": "COC1=C(C=CC(=C1)C(=O)O)O",
+    "candidate_connectivity_smiles": "COC1=C(C=CC(=C1)C(=O)O)O",
+    "candidate_inchikey": "WKOLLVMJNQIZCI-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C8H8O4",
+    "candidate_molecular_weight": "168.15",
+    "candidate_xlogp": 1.4,
+    "candidate_tpsa": 66.8,
+    "candidate_hbond_donors": 2,
+    "candidate_hbond_acceptors": 4,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F085"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C026",
+    "preferred_name": "Dictamnine",
+    "source_names": [
+      "Dictamine [dictamnine]"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "dictamnine",
+    "pubchem_candidate_cids": [
+      68085
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dictamnine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/68085",
+    "exact_pubchem_cid": 68085,
+    "exact_inchikey": "WIONIXOBNMDJFJ-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C2C=COC2=NC3=CC=CC=C31",
+    "candidate_smiles": "COC1=C2C=COC2=NC3=CC=CC=C31",
+    "candidate_connectivity_smiles": "COC1=C2C=COC2=NC3=CC=CC=C31",
+    "candidate_inchikey": "WIONIXOBNMDJFJ-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C12H9NO2",
+    "candidate_molecular_weight": "199.20",
+    "candidate_xlogp": 2.7,
+    "candidate_tpsa": 35.3,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 3,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F086"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C027",
+    "preferred_name": "1-Methyl-4-methoxy-2-quinolone",
+    "source_names": [
+      "1-Methyl-4-methoxy-2-quinolone"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "4-methoxy-1-methylquinolin-2-one",
+    "pubchem_candidate_cids": [
+      182073
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/4-methoxy-1-methylquinolin-2-one/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/182073",
+    "exact_pubchem_cid": 182073,
+    "exact_inchikey": "SPBLFONLHXBBQE-UHFFFAOYSA-N",
+    "exact_smiles": "CN1C2=CC=CC=C2C(=CC1=O)OC",
+    "candidate_smiles": "CN1C2=CC=CC=C2C(=CC1=O)OC",
+    "candidate_connectivity_smiles": "CN1C2=CC=CC=C2C(=CC1=O)OC",
+    "candidate_inchikey": "SPBLFONLHXBBQE-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C11H11NO2",
+    "candidate_molecular_weight": "189.21",
+    "candidate_xlogp": 1.2,
+    "candidate_tpsa": 29.5,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 2,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F087"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C028",
+    "preferred_name": "Platydesmine",
+    "source_names": [
+      "Platydesmine"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Platydesmine",
+    "pubchem_candidate_cids": [
+      6451457
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Platydesmine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6451457",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC(C)([C@H]1CC2=C(C3=CC=CC=C3N=C2O1)OC)O",
+    "candidate_connectivity_smiles": "CC(C)(C1CC2=C(C3=CC=CC=C3N=C2O1)OC)O",
+    "candidate_inchikey": "OYGWMFMSZPRSPD-GFCCVEGCSA-N",
+    "candidate_molecular_formula": "C15H17NO3",
+    "candidate_molecular_weight": "259.30",
+    "candidate_xlogp": 2.5,
+    "candidate_tpsa": 51.6,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 4,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "souza2005"
+    ],
+    "source_plants": [
+      "Pilocarpus grandiflorus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "F088"
+    ],
+    "source_locators": [
+      {
+        "source_id": "souza2005",
+        "locator": "PDF 3 / printed 789; Table 3",
+        "url": "https://doi.org/10.1515/znb-2005-0715",
+        "pdf": "../sources/souza2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C029",
+    "preferred_name": "Isopulegol",
+    "source_names": [
+      "Isopulegol (purchased)"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "isopulegol",
+    "pubchem_candidate_cids": [
+      170833
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/isopulegol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/170833",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "C[C@@H]1CC[C@H]([C@@H](C1)O)C(=C)C",
+    "candidate_connectivity_smiles": "CC1CCC(C(C1)O)C(=C)C",
+    "candidate_inchikey": "ZYTMANIQRDEHIO-KXUCPTDWSA-N",
+    "candidate_molecular_formula": "C10H18O",
+    "candidate_molecular_weight": "154.25",
+    "candidate_xlogp": 3,
+    "candidate_tpsa": 20.2,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "melo2020"
+    ],
+    "source_plants": [
+      "Myrcia lundiana"
+    ],
+    "source_organs": [
+      "Leaves for oils; purchased compound comparators"
+    ],
+    "record_ids": [
+      "F090",
+      "F100"
+    ],
+    "source_locators": [
+      {
+        "source_id": "melo2020",
+        "locator": "PDF 5,8–9 / printed 17307,17310–17311; Figs 2–3",
+        "url": "https://doi.org/10.1007/s11356-020-08170-z",
+        "pdf": "../sources/melo2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C030",
+    "preferred_name": "Citral (isomer composition unspecified)",
+    "source_names": [
+      "Citral (purchased)"
+    ],
+    "material_scope": "isomer_unspecified_material",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "isomer_composition_unresolved",
+    "identity_note": "PubChem query resolves an E-isomer representation (CID 638011); paper gives no reagent isomer ratio. Candidate is not the identity of the entire tested material.",
+    "pubchem_query": "citral",
+    "pubchem_candidate_cids": [
+      638011
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/citral/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/638011",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC(=CCC/C(=C/C=O)/C)C",
+    "candidate_connectivity_smiles": "CC(=CCCC(=CC=O)C)C",
+    "candidate_inchikey": "WTEVQBCEXWBHNA-JXMROGBWSA-N",
+    "candidate_molecular_formula": "C10H16O",
+    "candidate_molecular_weight": "152.23",
+    "candidate_xlogp": 3,
+    "candidate_tpsa": 17.1,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 3,
+    "source_count": 1,
+    "source_ids": [
+      "melo2020"
+    ],
+    "source_plants": [
+      "Myrcia lundiana"
+    ],
+    "source_organs": [
+      "Leaves for oils; purchased compound comparators",
+      "Purchased reagent comparator"
+    ],
+    "record_ids": [
+      "F092",
+      "F102",
+      "F109"
+    ],
+    "source_locators": [
+      {
+        "source_id": "melo2020",
+        "locator": "PDF 5,8–9 / printed 17307,17310–17311; Figs 2–3",
+        "url": "https://doi.org/10.1007/s11356-020-08170-z",
+        "pdf": "../sources/melo2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C031",
+    "preferred_name": "1,8-Cineole",
+    "source_names": [
+      "1,8-Cineol"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "eucalyptol",
+    "pubchem_candidate_cids": [
+      2758
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/eucalyptol/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2758",
+    "exact_pubchem_cid": 2758,
+    "exact_inchikey": "WEEGYLXZBRQIMU-UHFFFAOYSA-N",
+    "exact_smiles": "CC1(C2CCC(O1)(CC2)C)C",
+    "candidate_smiles": "CC1(C2CCC(O1)(CC2)C)C",
+    "candidate_connectivity_smiles": "CC1(C2CCC(O1)(CC2)C)C",
+    "candidate_inchikey": "WEEGYLXZBRQIMU-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C10H18O",
+    "candidate_molecular_weight": "154.25",
+    "candidate_xlogp": 2.5,
+    "candidate_tpsa": 9.2,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "melo2020"
+    ],
+    "source_plants": [
+      "Myrcia lundiana / Aristolochia trilobata study"
+    ],
+    "source_organs": [
+      "Purchased reagent"
+    ],
+    "record_ids": [
+      "F094",
+      "F104"
+    ],
+    "source_locators": [
+      {
+        "source_id": "melo2020",
+        "locator": "PDF 5,8–9 / printed 17307,17310–17311; Figs 2–3",
+        "url": "https://doi.org/10.1007/s11356-020-08170-z",
+        "pdf": "../sources/melo2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C032",
+    "preferred_name": "Sulcatyl acetate",
+    "source_names": [
+      "Sulcatyl acetate"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "6-methylhept-5-en-2-yl acetate",
+    "pubchem_candidate_cids": [
+      87947
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/6-methylhept-5-en-2-yl%20acetate/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/87947",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC(CCC=C(C)C)OC(=O)C",
+    "candidate_connectivity_smiles": "CC(CCC=C(C)C)OC(=O)C",
+    "candidate_inchikey": "ZAKWGQOSOHQPJA-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C10H18O2",
+    "candidate_molecular_weight": "170.25",
+    "candidate_xlogp": 2.9,
+    "candidate_tpsa": 26.3,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 2,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "melo2020"
+    ],
+    "source_plants": [
+      "Aristolochia trilobata study"
+    ],
+    "source_organs": [
+      "Synthesized comparator"
+    ],
+    "record_ids": [
+      "F095",
+      "F105"
+    ],
+    "source_locators": [
+      {
+        "source_id": "melo2020",
+        "locator": "PDF 5,8–9 / printed 17307,17310–17311; Figs 2–3",
+        "url": "https://doi.org/10.1007/s11356-020-08170-z",
+        "pdf": "../sources/melo2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C033",
+    "preferred_name": "Limonene",
+    "source_names": [
+      "Limonene"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Limonene",
+    "pubchem_candidate_cids": [
+      22311
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Limonene/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/22311",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC1=CCC(CC1)C(=C)C",
+    "candidate_connectivity_smiles": "CC1=CCC(CC1)C(=C)C",
+    "candidate_inchikey": "XMGQYMWWDOXHJM-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C10H16",
+    "candidate_molecular_weight": "136.23",
+    "candidate_xlogp": 3.4,
+    "candidate_tpsa": 0,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 0,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "melo2020"
+    ],
+    "source_plants": [
+      "Aristolochia trilobata study"
+    ],
+    "source_organs": [
+      "Purchased reagent"
+    ],
+    "record_ids": [
+      "F096",
+      "F106"
+    ],
+    "source_locators": [
+      {
+        "source_id": "melo2020",
+        "locator": "PDF 5,8–9 / printed 17307,17310–17311; Figs 2–3",
+        "url": "https://doi.org/10.1007/s11356-020-08170-z",
+        "pdf": "../sources/melo2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C034",
+    "preferred_name": "Linalool",
+    "source_names": [
+      "Linalool"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "Linalool",
+    "pubchem_candidate_cids": [
+      6549
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Linalool/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6549",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CC(=CCCC(C)(C=C)O)C",
+    "candidate_connectivity_smiles": "CC(=CCCC(C)(C=C)O)C",
+    "candidate_inchikey": "CDOSHBSSFJOMGT-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C10H18O",
+    "candidate_molecular_weight": "154.25",
+    "candidate_xlogp": 2.7,
+    "candidate_tpsa": 20.2,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 1,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "melo2020"
+    ],
+    "source_plants": [
+      "Aristolochia trilobata study"
+    ],
+    "source_organs": [
+      "Purchased reagent"
+    ],
+    "record_ids": [
+      "F097",
+      "F107"
+    ],
+    "source_locators": [
+      {
+        "source_id": "melo2020",
+        "locator": "PDF 5,8–9 / printed 17307,17310–17311; Figs 2–3",
+        "url": "https://doi.org/10.1007/s11356-020-08170-z",
+        "pdf": "../sources/melo2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C035",
+    "preferred_name": "p-Cymene",
+    "source_names": [
+      "p-Cymene"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Terpenoid / terpene derivative",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "p-Cymene",
+    "pubchem_candidate_cids": [
+      7463
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/p-Cymene/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7463",
+    "exact_pubchem_cid": 7463,
+    "exact_inchikey": "HFPZCAJZSCWRBC-UHFFFAOYSA-N",
+    "exact_smiles": "CC1=CC=C(C=C1)C(C)C",
+    "candidate_smiles": "CC1=CC=C(C=C1)C(C)C",
+    "candidate_connectivity_smiles": "CC1=CC=C(C=C1)C(C)C",
+    "candidate_inchikey": "HFPZCAJZSCWRBC-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C10H14",
+    "candidate_molecular_weight": "134.22",
+    "candidate_xlogp": 4.1,
+    "candidate_tpsa": 0,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 0,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "melo2020"
+    ],
+    "source_plants": [
+      "Aristolochia trilobata study"
+    ],
+    "source_organs": [
+      "Purchased reagent"
+    ],
+    "record_ids": [
+      "F098",
+      "F108"
+    ],
+    "source_locators": [
+      {
+        "source_id": "melo2020",
+        "locator": "PDF 5,8–9 / printed 17307,17310–17311; Figs 2–3",
+        "url": "https://doi.org/10.1007/s11356-020-08170-z",
+        "pdf": "../sources/melo2020.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C036",
+    "preferred_name": "Angelicin",
+    "source_names": [
+      "Angelicin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "angelicin",
+    "pubchem_candidate_cids": [
+      10658
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/angelicin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10658",
+    "exact_pubchem_cid": 10658,
+    "exact_inchikey": "XDROKJSWHURZGO-UHFFFAOYSA-N",
+    "exact_smiles": "C1=CC2=C(C=CO2)C3=C1C=CC(=O)O3",
+    "candidate_smiles": "C1=CC2=C(C=CO2)C3=C1C=CC(=O)O3",
+    "candidate_connectivity_smiles": "C1=CC2=C(C=CO2)C3=C1C=CC(=O)O3",
+    "candidate_inchikey": "XDROKJSWHURZGO-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C11H6O3",
+    "candidate_molecular_weight": "186.16",
+    "candidate_xlogp": 2,
+    "candidate_tpsa": 39.4,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 3,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Citrus limonia"
+    ],
+    "source_organs": [
+      "Roots"
+    ],
+    "record_ids": [
+      "M001"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C037",
+    "preferred_name": "Suberosin",
+    "source_names": [
+      "Suberosin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "suberosin",
+    "pubchem_candidate_cids": [
+      68486
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/suberosin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/68486",
+    "exact_pubchem_cid": 68486,
+    "exact_inchikey": "RSZDAYHEZSRVHS-UHFFFAOYSA-N",
+    "exact_smiles": "CC(=CCC1=C(C=C2C(=C1)C=CC(=O)O2)OC)C",
+    "candidate_smiles": "CC(=CCC1=C(C=C2C(=C1)C=CC(=O)O2)OC)C",
+    "candidate_connectivity_smiles": "CC(=CCC1=C(C=C2C(=C1)C=CC(=O)O2)OC)C",
+    "candidate_inchikey": "RSZDAYHEZSRVHS-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C15H16O3",
+    "candidate_molecular_weight": "244.28",
+    "candidate_xlogp": 3.8,
+    "candidate_tpsa": 35.5,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 3,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Citrus limonia"
+    ],
+    "source_organs": [
+      "Roots"
+    ],
+    "record_ids": [
+      "M002"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C038",
+    "preferred_name": "Xanthoxyletin",
+    "source_names": [
+      "Xanthoxyletin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "xanthoxyletin",
+    "pubchem_candidate_cids": [
+      66548
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/xanthoxyletin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/66548",
+    "exact_pubchem_cid": 66548,
+    "exact_inchikey": "JSJIIHRNDMLJGK-UHFFFAOYSA-N",
+    "exact_smiles": "CC1(C=CC2=C(O1)C=C3C(=C2OC)C=CC(=O)O3)C",
+    "candidate_smiles": "CC1(C=CC2=C(O1)C=C3C(=C2OC)C=CC(=O)O3)C",
+    "candidate_connectivity_smiles": "CC1(C=CC2=C(O1)C=C3C(=C2OC)C=CC(=O)O3)C",
+    "candidate_inchikey": "JSJIIHRNDMLJGK-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C15H14O4",
+    "candidate_molecular_weight": "258.27",
+    "candidate_xlogp": 2.8,
+    "candidate_tpsa": 44.8,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 4,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Citrus limonia"
+    ],
+    "source_organs": [
+      "Roots"
+    ],
+    "record_ids": [
+      "M003"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C039",
+    "preferred_name": "Clausarin",
+    "source_names": [
+      "Clausarin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "clausarin",
+    "pubchem_candidate_cids": [
+      5315945
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/clausarin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5315945",
+    "exact_pubchem_cid": 5315945,
+    "exact_inchikey": "LMEKIDFKWUPZGE-UHFFFAOYSA-N",
+    "exact_smiles": "CC1(C=CC2=C(O1)C(=C3C(=C2O)C=C(C(=O)O3)C(C)(C)C=C)C(C)(C)C=C)C",
+    "candidate_smiles": "CC1(C=CC2=C(O1)C(=C3C(=C2O)C=C(C(=O)O3)C(C)(C)C=C)C(C)(C)C=C)C",
+    "candidate_connectivity_smiles": "CC1(C=CC2=C(O1)C(=C3C(=C2O)C=C(C(=O)O3)C(C)(C)C=C)C(C)(C)C=C)C",
+    "candidate_inchikey": "LMEKIDFKWUPZGE-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C24H28O4",
+    "candidate_molecular_weight": "380.5",
+    "candidate_xlogp": 6.4,
+    "candidate_tpsa": 55.8,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 4,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Citrus limonia"
+    ],
+    "source_organs": [
+      "Roots"
+    ],
+    "record_ids": [
+      "M004"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C040",
+    "preferred_name": "Isopimpinellin",
+    "source_names": [
+      "Isopimpinellin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "isopimpinellin",
+    "pubchem_candidate_cids": [
+      68079
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/isopimpinellin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/68079",
+    "exact_pubchem_cid": 68079,
+    "exact_inchikey": "DFMAXQKDIGCMTL-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C2C=COC2=C(C3=C1C=CC(=O)O3)OC",
+    "candidate_smiles": "COC1=C2C=COC2=C(C3=C1C=CC(=O)O3)OC",
+    "candidate_connectivity_smiles": "COC1=C2C=COC2=C(C3=C1C=CC(=O)O3)OC",
+    "candidate_inchikey": "DFMAXQKDIGCMTL-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C13H10O5",
+    "candidate_molecular_weight": "246.21",
+    "candidate_xlogp": 1.9,
+    "candidate_tpsa": 57.9,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 5,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Adiscanthus fusciflorus"
+    ],
+    "source_organs": [
+      "Roots"
+    ],
+    "record_ids": [
+      "M005"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C041",
+    "preferred_name": "Umbelliferone",
+    "source_names": [
+      "Umbelliferone"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "umbelliferone",
+    "pubchem_candidate_cids": [
+      5281426
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/umbelliferone/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281426",
+    "exact_pubchem_cid": 5281426,
+    "exact_inchikey": "ORHBXUUXSCNDEV-UHFFFAOYSA-N",
+    "exact_smiles": "C1=CC(=CC2=C1C=CC(=O)O2)O",
+    "candidate_smiles": "C1=CC(=CC2=C1C=CC(=O)O2)O",
+    "candidate_connectivity_smiles": "C1=CC(=CC2=C1C=CC(=O)O2)O",
+    "candidate_inchikey": "ORHBXUUXSCNDEV-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C9H6O3",
+    "candidate_molecular_weight": "162.14",
+    "candidate_xlogp": 1.6,
+    "candidate_tpsa": 46.5,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 3,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Picramnia teapensis"
+    ],
+    "source_organs": [
+      "Bark"
+    ],
+    "record_ids": [
+      "M006"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C042",
+    "preferred_name": "Xanthyletin",
+    "source_names": [
+      "Xanthyletin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "xanthyletin",
+    "pubchem_candidate_cids": [
+      65188
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/xanthyletin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/65188",
+    "exact_pubchem_cid": 65188,
+    "exact_inchikey": "QOTBQNVNUBKJMS-UHFFFAOYSA-N",
+    "exact_smiles": "CC1(C=CC2=C(O1)C=C3C(=C2)C=CC(=O)O3)C",
+    "candidate_smiles": "CC1(C=CC2=C(O1)C=C3C(=C2)C=CC(=O)O3)C",
+    "candidate_connectivity_smiles": "CC1(C=CC2=C(O1)C=C3C(=C2)C=CC(=O)O3)C",
+    "candidate_inchikey": "QOTBQNVNUBKJMS-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C14H12O3",
+    "candidate_molecular_weight": "228.24",
+    "candidate_xlogp": 2.8,
+    "candidate_tpsa": 35.5,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 3,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Pilocarpus riedelianus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "M007"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C043",
+    "preferred_name": "7-Hydroxy-3-(1,1-dimethylallyl)-8-methoxycoumarin",
+    "source_names": [
+      "7-Hydroxy-3-(1,1-dimethylallyl)-8-methoxycoumarin"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Coumarin",
+    "identity_status": "database_unresolved",
+    "identity_note": "Name query did not resolve; preserve source identity without guessing an analogue.",
+    "pubchem_query": "7-hydroxy-3-(1,1-dimethylallyl)-8-methoxycoumarin",
+    "pubchem_candidate_cids": [],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7-hydroxy-3-%281%2C1-dimethylallyl%29-8-methoxycoumarin/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "",
+    "candidate_connectivity_smiles": "",
+    "candidate_inchikey": "",
+    "candidate_molecular_formula": "",
+    "candidate_molecular_weight": "",
+    "candidate_xlogp": "",
+    "candidate_tpsa": "",
+    "candidate_hbond_donors": "",
+    "candidate_hbond_acceptors": "",
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Pilocarpus riedelianus"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "M008"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C044",
+    "preferred_name": "Piperonyl butoxide",
+    "source_names": [
+      "Piperonyl butoxide"
+    ],
+    "material_scope": "reference_compound",
+    "chemical_family": "Synthetic benzodioxole reference",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "piperonyl butoxide",
+    "pubchem_candidate_cids": [
+      5794
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/piperonyl%20butoxide/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5794",
+    "exact_pubchem_cid": 5794,
+    "exact_inchikey": "FIPWRIJSWJWJAI-UHFFFAOYSA-N",
+    "exact_smiles": "CCCCOCCOCCOCC1=CC2=C(C=C1CCC)OCO2",
+    "candidate_smiles": "CCCCOCCOCCOCC1=CC2=C(C=C1CCC)OCO2",
+    "candidate_connectivity_smiles": "CCCCOCCOCCOCC1=CC2=C(C=C1CCC)OCO2",
+    "candidate_inchikey": "FIPWRIJSWJWJAI-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C19H30O5",
+    "candidate_molecular_weight": "338.4",
+    "candidate_xlogp": 3.7,
+    "candidate_tpsa": 46.2,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 5,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "coumarins2005"
+    ],
+    "source_plants": [
+      "Not applicable"
+    ],
+    "source_organs": [
+      "Commercial reference"
+    ],
+    "record_ids": [
+      "M009"
+    ],
+    "source_locators": [
+      {
+        "source_id": "coumarins2005",
+        "locator": "PDF 3 / printed 671; Table 1 and Figure 1",
+        "url": "https://doi.org/10.1590/S0103-50532005000400031",
+        "pdf": "../sources/coumarins2005.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C045",
+    "preferred_name": "Skimmianine",
+    "source_names": [
+      "Skimmianine"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "skimmianine",
+    "pubchem_candidate_cids": [
+      6760
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/skimmianine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6760",
+    "exact_pubchem_cid": 6760,
+    "exact_inchikey": "SLSIBLKBHNKZTB-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C(C2=C(C=C1)C(=C3C=COC3=N2)OC)OC",
+    "candidate_smiles": "COC1=C(C2=C(C=C1)C(=C3C=COC3=N2)OC)OC",
+    "candidate_connectivity_smiles": "COC1=C(C2=C(C=C1)C(=C3C=COC3=N2)OC)OC",
+    "candidate_inchikey": "SLSIBLKBHNKZTB-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C14H13NO4",
+    "candidate_molecular_weight": "259.26",
+    "candidate_xlogp": 2.8,
+    "candidate_tpsa": 53.7,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 5,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "raulinoa2002"
+    ],
+    "source_plants": [
+      "Raulinoa echinata"
+    ],
+    "source_organs": [
+      "Stems; also detected in leaves"
+    ],
+    "record_ids": [
+      "M010",
+      "M011"
+    ],
+    "source_locators": [
+      {
+        "source_id": "raulinoa2002",
+        "locator": "PDF 3 / printed 68; Table 1",
+        "url": "https://doi.org/10.1590/S0103-50532002000100010",
+        "pdf": "../sources/raulinoa2002.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C046",
+    "preferred_name": "Kokusaginine",
+    "source_names": [
+      "Kokusaginine"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "kokusaginine",
+    "pubchem_candidate_cids": [
+      10227
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/kokusaginine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10227",
+    "exact_pubchem_cid": 10227,
+    "exact_inchikey": "JBRXRVFXQIKPEA-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C(C=C2C(=C1)C(=C3C=COC3=N2)OC)OC",
+    "candidate_smiles": "COC1=C(C=C2C(=C1)C(=C3C=COC3=N2)OC)OC",
+    "candidate_connectivity_smiles": "COC1=C(C=C2C(=C1)C(=C3C=COC3=N2)OC)OC",
+    "candidate_inchikey": "JBRXRVFXQIKPEA-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C14H13NO4",
+    "candidate_molecular_weight": "259.26",
+    "candidate_xlogp": 2.6,
+    "candidate_tpsa": 53.7,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 5,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "raulinoa2002"
+    ],
+    "source_plants": [
+      "Raulinoa echinata"
+    ],
+    "source_organs": [
+      "Stems; also detected in leaves"
+    ],
+    "record_ids": [
+      "M012",
+      "M013"
+    ],
+    "source_locators": [
+      {
+        "source_id": "raulinoa2002",
+        "locator": "PDF 3 / printed 68; Table 1",
+        "url": "https://doi.org/10.1590/S0103-50532002000100010",
+        "pdf": "../sources/raulinoa2002.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C047",
+    "preferred_name": "Maculine",
+    "source_names": [
+      "Maculine"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "maculine",
+    "pubchem_candidate_cids": [
+      68232
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/maculine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/68232",
+    "exact_pubchem_cid": 68232,
+    "exact_inchikey": "VPNYHHBCMOYPCJ-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C2C=COC2=NC3=CC4=C(C=C31)OCO4",
+    "candidate_smiles": "COC1=C2C=COC2=NC3=CC4=C(C=C31)OCO4",
+    "candidate_connectivity_smiles": "COC1=C2C=COC2=NC3=CC4=C(C=C31)OCO4",
+    "candidate_inchikey": "VPNYHHBCMOYPCJ-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C13H9NO4",
+    "candidate_molecular_weight": "243.21",
+    "candidate_xlogp": 2.5,
+    "candidate_tpsa": 53.7,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 5,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "raulinoa2002"
+    ],
+    "source_plants": [
+      "Raulinoa echinata"
+    ],
+    "source_organs": [
+      "Stems; also detected in leaves"
+    ],
+    "record_ids": [
+      "M014",
+      "M015"
+    ],
+    "source_locators": [
+      {
+        "source_id": "raulinoa2002",
+        "locator": "PDF 3 / printed 68; Table 1",
+        "url": "https://doi.org/10.1590/S0103-50532002000100010",
+        "pdf": "../sources/raulinoa2002.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C048",
+    "preferred_name": "Flindersiamine",
+    "source_names": [
+      "Flindersiamine"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "flindersiamine",
+    "pubchem_candidate_cids": [
+      68221
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/flindersiamine/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/68221",
+    "exact_pubchem_cid": 68221,
+    "exact_inchikey": "IMJCEVWDXKCHOI-UHFFFAOYSA-N",
+    "exact_smiles": "COC1=C2C=COC2=NC3=C(C4=C(C=C31)OCO4)OC",
+    "candidate_smiles": "COC1=C2C=COC2=NC3=C(C4=C(C=C31)OCO4)OC",
+    "candidate_connectivity_smiles": "COC1=C2C=COC2=NC3=C(C4=C(C=C31)OCO4)OC",
+    "candidate_inchikey": "IMJCEVWDXKCHOI-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C14H11NO5",
+    "candidate_molecular_weight": "273.24",
+    "candidate_xlogp": 2.7,
+    "candidate_tpsa": 63,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 6,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "raulinoa2002"
+    ],
+    "source_plants": [
+      "Raulinoa echinata"
+    ],
+    "source_organs": [
+      "Stems"
+    ],
+    "record_ids": [
+      "M016"
+    ],
+    "source_locators": [
+      {
+        "source_id": "raulinoa2002",
+        "locator": "PDF 3 / printed 68; Table 1",
+        "url": "https://doi.org/10.1590/S0103-50532002000100010",
+        "pdf": "../sources/raulinoa2002.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C049",
+    "preferred_name": "2-n-Nonyl-4-quinolone",
+    "source_names": [
+      "2-n-Nonyl-4-quinolone"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Quinoline alkaloid",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "2-n-nonyl-4-quinolone",
+    "pubchem_candidate_cids": [
+      9856730
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-n-nonyl-4-quinolone/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/9856730",
+    "exact_pubchem_cid": 9856730,
+    "exact_inchikey": "KKRXDNYRUZGPFM-UHFFFAOYSA-N",
+    "exact_smiles": "CCCCCCCCCC1=CC(=O)C2=CC=CC=C2N1",
+    "candidate_smiles": "CCCCCCCCCC1=CC(=O)C2=CC=CC=C2N1",
+    "candidate_connectivity_smiles": "CCCCCCCCCC1=CC(=O)C2=CC=CC=C2N1",
+    "candidate_inchikey": "KKRXDNYRUZGPFM-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C18H25NO",
+    "candidate_molecular_weight": "271.4",
+    "candidate_xlogp": 6,
+    "candidate_tpsa": 29.1,
+    "candidate_hbond_donors": 1,
+    "candidate_hbond_acceptors": 2,
+    "record_count": 2,
+    "source_count": 1,
+    "source_ids": [
+      "raulinoa2002"
+    ],
+    "source_plants": [
+      "Raulinoa echinata"
+    ],
+    "source_organs": [
+      "Leaves"
+    ],
+    "record_ids": [
+      "M017",
+      "M018"
+    ],
+    "source_locators": [
+      {
+        "source_id": "raulinoa2002",
+        "locator": "PDF 3 / printed 68; Table 1",
+        "url": "https://doi.org/10.1590/S0103-50532002000100010",
+        "pdf": "../sources/raulinoa2002.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C050",
+    "preferred_name": "Argentilactone",
+    "source_names": [
+      "Argentilactone"
+    ],
+    "material_scope": "natural_product_compound_concept",
+    "chemical_family": "Unsaturated lactone",
+    "identity_status": "stereochemistry_or_identity_review",
+    "identity_note": "Name-based candidate only. Compare source stereochemistry, double-bond geometry and reagent specification before assigning an exact structure.",
+    "pubchem_query": "argentilactone",
+    "pubchem_candidate_cids": [
+      5463411
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/argentilactone/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5463411",
+    "exact_pubchem_cid": "",
+    "exact_inchikey": "",
+    "exact_smiles": "",
+    "candidate_smiles": "CCCCC/C=C\\C1CC=CC(=O)O1",
+    "candidate_connectivity_smiles": "CCCCCC=CC1CC=CC(=O)O1",
+    "candidate_inchikey": "DSPGZXFLJQTNDA-VURMDHGXSA-N",
+    "candidate_molecular_formula": "C12H18O2",
+    "candidate_molecular_weight": "194.27",
+    "candidate_xlogp": 3.6,
+    "candidate_tpsa": 26.3,
+    "candidate_hbond_donors": 0,
+    "candidate_hbond_acceptors": 2,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "napal2015"
+    ],
+    "source_plants": [
+      "Aristolochia argentina"
+    ],
+    "source_organs": [
+      "Aerial parts"
+    ],
+    "record_ids": [
+      "M019"
+    ],
+    "source_locators": [
+      {
+        "source_id": "napal2015",
+        "locator": "PDF 4 / printed 278; Table 2 and Figure 1",
+        "url": "https://doi.org/10.1016/j.indcrop.2015.07.001",
+        "pdf": "../sources/napal2015.pdf"
+      }
+    ]
+  },
+  {
+    "compound_id": "C051",
+    "preferred_name": "Carbendazim",
+    "source_names": [
+      "Carbendazim"
+    ],
+    "material_scope": "reference_compound",
+    "chemical_family": "Synthetic benzimidazole reference",
+    "identity_status": "achiral_identity_resolved",
+    "identity_note": "Source chemical name/structure is consistent with PubChem connectivity; reagent purity and physical form are not established by this mapping.",
+    "pubchem_query": "carbendazim",
+    "pubchem_candidate_cids": [
+      25429
+    ],
+    "pubchem_query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbendazim/property/MolecularFormula,MolecularWeight,InChIKey,SMILES,ConnectivitySMILES,IUPACName,Title,XLogP,TPSA,HBondDonorCount,HBondAcceptorCount/JSON",
+    "pubchem_candidate_url": "https://pubchem.ncbi.nlm.nih.gov/compound/25429",
+    "exact_pubchem_cid": 25429,
+    "exact_inchikey": "TWFZGCMQGLPBSX-UHFFFAOYSA-N",
+    "exact_smiles": "COC(=O)NC1=NC2=CC=CC=C2N1",
+    "candidate_smiles": "COC(=O)NC1=NC2=CC=CC=C2N1",
+    "candidate_connectivity_smiles": "COC(=O)NC1=NC2=CC=CC=C2N1",
+    "candidate_inchikey": "TWFZGCMQGLPBSX-UHFFFAOYSA-N",
+    "candidate_molecular_formula": "C9H9N3O2",
+    "candidate_molecular_weight": "191.19",
+    "candidate_xlogp": 1.5,
+    "candidate_tpsa": 67,
+    "candidate_hbond_donors": 2,
+    "candidate_hbond_acceptors": 3,
+    "record_count": 1,
+    "source_count": 1,
+    "source_ids": [
+      "napal2015"
+    ],
+    "source_plants": [
+      "Not applicable"
+    ],
+    "source_organs": [
+      "Commercial reference"
+    ],
+    "record_ids": [
+      "M020"
+    ],
+    "source_locators": [
+      {
+        "source_id": "napal2015",
+        "locator": "PDF 4 / printed 278; Table 2 and Figure 1",
+        "url": "https://doi.org/10.1016/j.indcrop.2015.07.001",
+        "pdf": "../sources/napal2015.pdf"
+      }
+    ]
+  }
+]

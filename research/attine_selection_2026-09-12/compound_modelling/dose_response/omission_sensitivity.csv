@@ -1,0 +1,73 @@
+series_id,model,omitted_point,c50,status
+melo_a_oil_isopulegol,probit,melo_a_oil_isopulegol_1,130.7160744467137,descriptive refit; boundary=False
+melo_a_oil_isopulegol,probit,melo_a_oil_isopulegol_2,148.79822009185614,descriptive refit; boundary=False
+melo_a_oil_isopulegol,probit,melo_a_oil_isopulegol_3,142.62871843167315,descriptive refit; boundary=False
+melo_a_oil_isopulegol,probit,melo_a_oil_isopulegol_4,142.91366357437346,descriptive refit; boundary=False
+melo_a_oil_isopulegol,probit,melo_a_oil_isopulegol_5,136.02100435680268,descriptive refit; boundary=False
+melo_a_oil_isopulegol,logistic,melo_a_oil_isopulegol_1,130.71579227151778,descriptive refit; boundary=False
+melo_a_oil_isopulegol,logistic,melo_a_oil_isopulegol_2,151.60981557340827,descriptive refit; boundary=False
+melo_a_oil_isopulegol,logistic,melo_a_oil_isopulegol_3,143.98802238701677,descriptive refit; boundary=False
+melo_a_oil_isopulegol,logistic,melo_a_oil_isopulegol_4,143.7572260046425,descriptive refit; boundary=False
+melo_a_oil_isopulegol,logistic,melo_a_oil_isopulegol_5,136.9857833006961,descriptive refit; boundary=False
+melo_a_isopulegol,probit,melo_a_isopulegol_1,156.21877952232245,descriptive refit; boundary=False
+melo_a_isopulegol,probit,melo_a_isopulegol_2,148.59325079483273,descriptive refit; boundary=False
+melo_a_isopulegol,probit,melo_a_isopulegol_3,150.0149141447433,descriptive refit; boundary=False
+melo_a_isopulegol,probit,melo_a_isopulegol_4,159.38644067638958,descriptive refit; boundary=False
+melo_a_isopulegol,logistic,melo_a_isopulegol_1,156.31590685520447,descriptive refit; boundary=False
+melo_a_isopulegol,logistic,melo_a_isopulegol_2,152.46408395263867,descriptive refit; boundary=False
+melo_a_isopulegol,logistic,melo_a_isopulegol_3,149.881384227614,descriptive refit; boundary=False
+melo_a_isopulegol,logistic,melo_a_isopulegol_4,159.44546258261002,descriptive refit; boundary=False
+melo_a_oil_citral,probit,melo_a_oil_citral_1,105.22186861815332,descriptive refit; boundary=False
+melo_a_oil_citral,probit,melo_a_oil_citral_2,106.60937831240867,descriptive refit; boundary=False
+melo_a_oil_citral,probit,melo_a_oil_citral_3,104.7885914683851,descriptive refit; boundary=False
+melo_a_oil_citral,probit,melo_a_oil_citral_4,100.51817411619129,descriptive refit; boundary=False
+melo_a_oil_citral,probit,melo_a_oil_citral_5,102.72005814461237,descriptive refit; boundary=False
+melo_a_oil_citral,probit,melo_a_oil_citral_6,,remaining points do not bracket 50%; fit withheld
+melo_a_oil_citral,logistic,melo_a_oil_citral_1,105.38521205157852,descriptive refit; boundary=False
+melo_a_oil_citral,logistic,melo_a_oil_citral_2,106.90247883227737,descriptive refit; boundary=False
+melo_a_oil_citral,logistic,melo_a_oil_citral_3,105.35999822897966,descriptive refit; boundary=False
+melo_a_oil_citral,logistic,melo_a_oil_citral_4,100.90746072530284,descriptive refit; boundary=False
+melo_a_oil_citral,logistic,melo_a_oil_citral_5,102.93960672011792,descriptive refit; boundary=False
+melo_a_oil_citral,logistic,melo_a_oil_citral_6,,remaining points do not bracket 50%; fit withheld
+melo_a_citral,probit,melo_a_citral_1,32.542903390244625,descriptive refit; boundary=False
+melo_a_citral,probit,melo_a_citral_2,29.396086890050316,descriptive refit; boundary=False
+melo_a_citral,probit,melo_a_citral_3,33.81296462559056,descriptive refit; boundary=False
+melo_a_citral,probit,melo_a_citral_4,32.36155661117229,descriptive refit; boundary=False
+melo_a_citral,logistic,melo_a_citral_1,32.278067230104654,descriptive refit; boundary=False
+melo_a_citral,logistic,melo_a_citral_2,29.781357753254074,descriptive refit; boundary=False
+melo_a_citral,logistic,melo_a_citral_3,33.174164195214786,descriptive refit; boundary=False
+melo_a_citral,logistic,melo_a_citral_4,32.17178221542488,descriptive refit; boundary=False
+melo_b_oil_isopulegol,probit,melo_b_oil_isopulegol_1,,remaining points do not bracket 50%; fit withheld
+melo_b_oil_isopulegol,probit,melo_b_oil_isopulegol_2,221.69214097264285,descriptive refit; boundary=False
+melo_b_oil_isopulegol,probit,melo_b_oil_isopulegol_3,232.20459350825573,descriptive refit; boundary=False
+melo_b_oil_isopulegol,probit,melo_b_oil_isopulegol_4,258.4040639743744,descriptive refit; boundary=False
+melo_b_oil_isopulegol,logistic,melo_b_oil_isopulegol_1,,remaining points do not bracket 50%; fit withheld
+melo_b_oil_isopulegol,logistic,melo_b_oil_isopulegol_2,222.68981296493556,descriptive refit; boundary=False
+melo_b_oil_isopulegol,logistic,melo_b_oil_isopulegol_3,234.56253440510167,descriptive refit; boundary=False
+melo_b_oil_isopulegol,logistic,melo_b_oil_isopulegol_4,260.61203048385636,descriptive refit; boundary=False
+melo_b_isopulegol,probit,melo_b_isopulegol_1,,remaining points do not bracket 50%; fit withheld
+melo_b_isopulegol,probit,melo_b_isopulegol_2,659.7096289912846,descriptive refit; boundary=False
+melo_b_isopulegol,probit,melo_b_isopulegol_3,701.3896780175478,descriptive refit; boundary=False
+melo_b_isopulegol,probit,melo_b_isopulegol_4,693.5141937928269,descriptive refit; boundary=False
+melo_b_isopulegol,logistic,melo_b_isopulegol_1,,remaining points do not bracket 50%; fit withheld
+melo_b_isopulegol,logistic,melo_b_isopulegol_2,657.7698207995439,descriptive refit; boundary=False
+melo_b_isopulegol,logistic,melo_b_isopulegol_3,700.8243536109364,descriptive refit; boundary=False
+melo_b_isopulegol,logistic,melo_b_isopulegol_4,693.3615774534367,descriptive refit; boundary=False
+melo_b_oil_citral,probit,melo_b_oil_citral_1,217.17416231560097,descriptive refit; boundary=False
+melo_b_oil_citral,probit,melo_b_oil_citral_2,219.99066605226233,descriptive refit; boundary=False
+melo_b_oil_citral,probit,melo_b_oil_citral_3,211.56811065269844,descriptive refit; boundary=False
+melo_b_oil_citral,probit,melo_b_oil_citral_4,,remaining points do not bracket 50%; fit withheld
+melo_b_oil_citral,logistic,melo_b_oil_citral_1,218.19694990288815,descriptive refit; boundary=False
+melo_b_oil_citral,logistic,melo_b_oil_citral_2,222.07877351352562,descriptive refit; boundary=False
+melo_b_oil_citral,logistic,melo_b_oil_citral_3,216.06742480501853,descriptive refit; boundary=False
+melo_b_oil_citral,logistic,melo_b_oil_citral_4,,remaining points do not bracket 50%; fit withheld
+melo_b_citral,probit,melo_b_citral_1,289.0856356255622,descriptive refit; boundary=False
+melo_b_citral,probit,melo_b_citral_2,281.93970584084525,descriptive refit; boundary=False
+melo_b_citral,probit,melo_b_citral_3,282.5067969928,descriptive refit; boundary=False
+melo_b_citral,probit,melo_b_citral_4,305.7392373192397,descriptive refit; boundary=False
+melo_b_citral,probit,melo_b_citral_5,272.3748847610449,descriptive refit; boundary=False
+melo_b_citral,logistic,melo_b_citral_1,291.9054706391732,descriptive refit; boundary=False
+melo_b_citral,logistic,melo_b_citral_2,285.36718799072696,descriptive refit; boundary=False
+melo_b_citral,logistic,melo_b_citral_3,287.58117647347706,descriptive refit; boundary=False
+melo_b_citral,logistic,melo_b_citral_4,311.9434774729112,descriptive refit; boundary=False
+melo_b_citral,logistic,melo_b_citral_5,276.12044369601205,descriptive refit; boundary=False

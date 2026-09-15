@@ -1,0 +1,17 @@
+{
+  "discovery_records": 1834,
+  "bibliographic_records": 157,
+  "candidate_rows": 98,
+  "priorities": {
+    "1 \u2014 First validation": 9,
+    "2 \u2014 Direct assay": 32,
+    "3 \u2014 Tentative": 44,
+    "4 \u2014 Negative/control": 13
+  },
+  "local_nonharvest_leads": 33,
+  "paired_screen_species": 89,
+  "paired_screen_fungal_positives": 11,
+  "paired_screen_antiforaging_gt70": 12,
+  "paired_screen_both": 2,
+  "pdf_files": 33
+}

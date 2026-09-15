@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-12",
+  "base_records": 149,
+  "base_molecular_records": 51,
+  "base_compound_concepts": 35,
+  "supplemental_records": 20,
+  "total_records_in_scope": 169,
+  "molecular_and_reference_records": 71,
+  "compound_and_reference_concepts": 51,
+  "natural_product_material_concepts": 49,
+  "source_coded_unresolved_compounds": 3,
+  "reference_compounds": 2,
+  "molecular_source_papers": 11,
+  "conservative_source_blocks": 10,
+  "repeated_compounds_across_papers": [
+    "Caryophyllene oxide"
+  ],
+  "molecular_endpoint_family_counts": {
+    "fitted_IC50": 5,
+    "secondary_fit_same_curve": 1,
+    "ordinal_growth": 8,
+    "coarse_visual_growth": 37,
+    "culture_damage_incidence": 3,
+    "outcome_ambiguous_hold": 1,
+    "radial_growth_inhibition": 2,
+    "qualitative_null": 1,
+    "censored_IC50": 10,
+    "recovery_after_exposure": 1,
+    "MIC": 2
+  },
+  "identity_status_counts": {
+    "achiral_identity_resolved": 23,
+    "stereochemistry_or_identity_review": 20,
+    "ambiguous_name_lookup": 1,
+    "database_unresolved": 3,
+    "source_code_unresolved": 3,
+    "isomer_composition_unresolved": 1
+  },
+  "named_candidates_with_pubchem_hits": 45,
+  "largest_same_source_dose_endpoint_block": 5,
+  "exact_natural_product_structures": 21,
+  "natural_product_MIC_concepts": [
+    "Argentilactone"
+  ],
+  "natural_product_uncensored_IC50_concepts": [
+    "Citral (isomer composition unspecified)",
+    "Dillapiol",
+    "Isopulegol"
+  ],
+  "quantitative_prediction_model_fitted": false,
+  "conclusion": "Evidence supports source-specific comparisons and a validation panel. It does not support a validated general structure–potency predictor for attine cultivars.",
+  "independence_caveat": "Source blocks are bookkeeping clusters, not verified independent experiments or molecularly distinct isolates.",
+  "scope_caveat": "This audits the 149-row extraction plus three selected original tables; it is not a census of all 157 bibliography records or all compounds in the literature."
+}

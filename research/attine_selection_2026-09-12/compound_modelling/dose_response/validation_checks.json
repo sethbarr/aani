@@ -1,0 +1,17 @@
+{
+  "unit_tests_passed": 8,
+  "javascript_syntax": true,
+  "links_exist": true,
+  "input_files_unchanged_since_vault_snapshot": true,
+  "visual_marker_alignment_reviewed": true,
+  "source_graphs_visually_reviewed": true,
+  "source_page_numbers_preserved": true,
+  "new_biological_confidence_intervals": 0,
+  "new_compound_predictions": 0,
+  "browser_exposure_switch": true,
+  "browser_curve_toggle": true,
+  "browser_plant_search": true,
+  "browser_deterrence_filter_30": true,
+  "browser_all_plants_reset_50": true,
+  "browser_visual_review": true
+}

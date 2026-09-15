@@ -1,0 +1,44 @@
+{
+  "sources": {
+    "melo2020": {
+      "pdf": "sources/melo2020.pdf",
+      "pdf_page": 8,
+      "pdf_sha256": "810409f73ac59cbd6b2d822e9a8c69f211f179c4f22d9ba0a91b251043978286",
+      "embedded_image": "melo2020_figure_0.png",
+      "image_sha256": "09630647a240a97303c55039ef3a0aa14a5993fb16498908efacb979bc7ce312",
+      "image_size": [
+        1302,
+        1937
+      ]
+    },
+    "salazar2020": {
+      "pdf": "sources/salazar2020.pdf",
+      "pdf_page": 5,
+      "pdf_sha256": "aacf4361850d4b4270844065660c15de40bc8bf4eec0303de729dd438b7ad735",
+      "embedded_image": "salazar2020_figure_0.jpg",
+      "image_sha256": "a27b2dd3c94c53e20442fff2c21a4a102d4c1af8e82985c0f08d9e3d8a22c85c",
+      "image_size": [
+        1527,
+        765
+      ]
+    }
+  },
+  "melo_axes": {
+    "a": {
+      "x_left": 118.0,
+      "x_right": 1262.5,
+      "y_top": 11.5,
+      "y_bottom": 794.0
+    },
+    "b": {
+      "x_left": 118.0,
+      "x_right": 1262.5,
+      "y_top": 1036.0,
+      "y_bottom": 1818.5
+    }
+  },
+  "x_transform": "log10(dose) = -2 + 6*(x-x_left)/(x_right-x_left)",
+  "y_transform": "fraction = (y_bottom-y)/(y_bottom-y_top)",
+  "tolerance": "\u00b13 native pixels for distinct markers; \u00b15 for two overlapping markers; analyst tolerance, not measured error",
+  "source_access_check": "Publisher pages and focused DOI queries checked; no raw-data attachment found in inspected pages. Not proof of absence."
+}

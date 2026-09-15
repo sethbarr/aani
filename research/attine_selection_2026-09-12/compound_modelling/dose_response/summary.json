@@ -1,0 +1,18 @@
+{
+  "series": 8,
+  "plotted_points": 36,
+  "descriptive_fits": 16,
+  "source_papers_fitted": 1,
+  "salazar_new_fits": 0,
+  "raw_replicates_recovered": 0,
+  "novel_compound_predictions": 0,
+  "max_abs_percent_difference_from_author": 3.1146369196112245,
+  "any_optimizer_boundary": false,
+  "limitations": [
+    "Two-parameter curves fix asymptotes at 0 and 100%.",
+    "Visible-marker weighting does not recreate author Probit analysis.",
+    "No biological confidence interval or new significance test calculated.",
+    "Digitized marker coordinates are approximate; printed precision is not measurement precision.",
+    "Melo contact-screen prose says 1400 \u00b5L/L, whereas Fig. 2 null bounds say >1000; neither is silently substituted."
+  ]
+}

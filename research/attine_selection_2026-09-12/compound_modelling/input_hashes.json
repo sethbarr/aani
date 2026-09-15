@@ -1,0 +1,8 @@
+{
+  "compound_assays_from_fulltexts.json": "4f800e3c6e08b4e3832515ef26e889c95c6b5eb9c8d55f48aa6a4fe9fe34ab94",
+  "assay_contexts_from_fulltexts.json": "8e1df1302c0cb44457584d64893636fa6344922a3b59913fcc7055d0904992aa",
+  "sources/napal2015.pdf": "254da9e5de1e63948d116fd5702245af12af26417205be8f57db9ed054952a8d",
+  "sources/coumarins2005.pdf": "b25ea4cc7430706fbe28cabd34885c01340766e77d12f94f70276d43ace20b7c",
+  "sources/raulinoa2002.pdf": "49aef68cf857e649b759f0af2cdf12097698b1e008c05c55549392d301071035",
+  "compound_modelling/pubchem_retrieval_log.json": "4be9c1180406ae122ea1769f68f8259870f530cfcc6c5e618b045289555e4d0a"
+}

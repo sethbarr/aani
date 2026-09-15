@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-12",
+  "checks": {
+    "unique_registry_ids": true,
+    "unique_assay_ids": true,
+    "assays_resolve_to_registry": true,
+    "record_count_consistency": true,
+    "all_source_pdf_links_resolve": true,
+    "supplemental_source_scope": true,
+    "ambiguous_ricinine_held_out": true,
+    "uncertain_citral_not_exact_structure": true,
+    "episesamin_not_merged": true,
+    "unknown_structures_not_assigned": true,
+    "no_potency_model_fitted": true,
+    "reference_chemicals_separate": true,
+    "coarse_endpoints_not_converted_to_MIC": true,
+    "melo_routes_separate": true,
+    "source_hashes_unchanged": true,
+    "report_links_resolve": true,
+    "ten_panel_materials": true
+  },
+  "scope": "Integrity checks, source table visual inspection, and explicit identity/endpoint safeguards. No model validation claimed.",
+  "javascript_syntax": "passed",
+  "browser_checks": {
+    "panel_entries": 10,
+    "all_entries": 51,
+    "resolved_identity_entries": 23,
+    "episesamin_search_entries": 1,
+    "episesamin_candidate_warning_and_pdf_link_visible": true,
+    "final_panel_screenshot_reviewed": true
+  }
+}
