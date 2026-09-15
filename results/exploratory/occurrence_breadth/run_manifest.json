@@ -1,0 +1,362 @@
+{
+  "label": "exploratory, not prespecified",
+  "frozen_protocol": "98b5e09199a5eef0c46be452793e953f5a2af31e",
+  "generated_at": "2026-09-15T11:27:46.299388+00:00",
+  "tested_definition": "A structure is tested when the bioactivity stage assigned it an active or inactive label: at least one ChEMBL measurement on a functional assay against Candida albicans, Cryptococcus neoformans or Aspergillus fumigatus, with an eligible endpoint, a molar unit and a potency readable against the frozen threshold (labels.jsonl, label != unknown).",
+  "collapse": {
+    "structures": 2198,
+    "connectivity_units": 1620,
+    "tested_structures": 24,
+    "tested_connectivity_units": 24
+  },
+  "inputs": {
+    "occurrences": "data/interim/exploratory/occurrence_breadth_inputs/chemistry/occurrences.jsonl sha256 5b22d4cd15a6ce08f880bc079ec6ada48f53c4991155847f2bf851699c5cc400",
+    "labels": "data/interim/exploratory/occurrence_breadth_inputs/bioactivity/labels.jsonl sha256 95c7aac2c46bda48cbb112299aefe7c84f869fa567374ca6944234ce73c59b4d",
+    "lotus_export": "data/raw/chemistry_export/downloads/6893a0d2b680e5ecbe5b835c82d72aa4001c3ee0aa62e3d58932a03191cb8f31.body sha256 ffb310fffb395514e2fec5f42b682812d4f459c8783b884c67a737621ee2b5d2",
+    "chemistry_join": "input_hash 1dcd1d19cfbb269e4326c4a62979eed068fb4e1b03c69de8e611e1f37db806cb; unique_compounds 2198",
+    "lotus_rows_scanned": "6467819 (0 malformed rows skipped)",
+    "input_note": "The chemistry join and labels were produced by the frozen chemistry and bioactivity stages replayed offline from the committed genus list; the input_hash above should equal the committed data/processed/chemistry/metrics.json.",
+    "seed": "1729",
+    "permutations": "10000"
+  },
+  "comparisons": {
+    "structure": {
+      "organisms": {
+        "metric": "organisms",
+        "n_tested": 24,
+        "n_untested": 2174,
+        "tested_median": 140.0,
+        "tested_iqr": [
+          53.5,
+          338.5
+        ],
+        "untested_median": 4.0,
+        "untested_iqr": [
+          1.0,
+          25.0
+        ],
+        "difference_in_medians": 136.0,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.7069342226310948,
+        "permutations": 10000,
+        "seed": 1729
+      },
+      "genera": {
+        "metric": "genera",
+        "n_tested": 24,
+        "n_untested": 2174,
+        "tested_median": 87.5,
+        "tested_iqr": [
+          42.0,
+          179.75
+        ],
+        "untested_median": 3.0,
+        "untested_iqr": [
+          1.0,
+          19.0
+        ],
+        "difference_in_medians": 84.5,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.7063017479300828,
+        "permutations": 10000,
+        "seed": 1729
+      },
+      "families": {
+        "metric": "families",
+        "n_tested": 24,
+        "n_untested": 2174,
+        "tested_median": 44.5,
+        "tested_iqr": [
+          18.0,
+          93.5
+        ],
+        "untested_median": 3.0,
+        "untested_iqr": [
+          1.0,
+          14.0
+        ],
+        "difference_in_medians": 41.5,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.6958563324133702,
+        "permutations": 10000,
+        "seed": 1729
+      },
+      "references": {
+        "metric": "references",
+        "n_tested": 24,
+        "n_untested": 2174,
+        "tested_median": 100.5,
+        "tested_iqr": [
+          55.0,
+          293.25
+        ],
+        "untested_median": 4.0,
+        "untested_iqr": [
+          1.0,
+          22.0
+        ],
+        "difference_in_medians": 96.5,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.7354530818767249,
+        "permutations": 10000,
+        "seed": 1729
+      }
+    },
+    "connectivity": {
+      "organisms": {
+        "metric": "organisms",
+        "n_tested": 24,
+        "n_untested": 1596,
+        "tested_median": 175.5,
+        "tested_iqr": [
+          93.0,
+          382.0
+        ],
+        "untested_median": 7.0,
+        "untested_iqr": [
+          2.0,
+          45.0
+        ],
+        "difference_in_medians": 168.5,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.7126148705096074,
+        "permutations": 10000,
+        "seed": 1729
+      },
+      "genera": {
+        "metric": "genera",
+        "n_tested": 24,
+        "n_untested": 1596,
+        "tested_median": 136.5,
+        "tested_iqr": [
+          51.0,
+          192.0
+        ],
+        "untested_median": 6.0,
+        "untested_iqr": [
+          1.0,
+          29.0
+        ],
+        "difference_in_medians": 130.5,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.6921209273182958,
+        "permutations": 10000,
+        "seed": 1729
+      },
+      "families": {
+        "metric": "families",
+        "n_tested": 24,
+        "n_untested": 1596,
+        "tested_median": 63.5,
+        "tested_iqr": [
+          18.5,
+          100.25
+        ],
+        "untested_median": 4.0,
+        "untested_iqr": [
+          1.0,
+          18.0
+        ],
+        "difference_in_medians": 59.5,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.662907268170426,
+        "permutations": 10000,
+        "seed": 1729
+      },
+      "references": {
+        "metric": "references",
+        "n_tested": 24,
+        "n_untested": 1596,
+        "tested_median": 129.0,
+        "tested_iqr": [
+          92.75,
+          323.25
+        ],
+        "untested_median": 7.0,
+        "untested_iqr": [
+          2.0,
+          35.25
+        ],
+        "difference_in_medians": 122.0,
+        "p_greater": 9.999000099990002e-05,
+        "p_two_sided": 9.999000099990002e-05,
+        "rank_biserial": 0.7522190893901419,
+        "permutations": 10000,
+        "seed": 1729
+      }
+    }
+  },
+  "stratified_genera": {
+    "structure": [
+      {
+        "stratum": "Q1 fewest references",
+        "reference_range": [
+          1,
+          1
+        ],
+        "n_tested": 1,
+        "n_untested": 740,
+        "skipped_reason": "only 1 tested units; fewer than 5",
+        "comparison": null
+      },
+      {
+        "stratum": "Q2",
+        "reference_range": [
+          2,
+          4
+        ],
+        "n_tested": 1,
+        "n_untested": 393,
+        "skipped_reason": "only 1 tested units; fewer than 5",
+        "comparison": null
+      },
+      {
+        "stratum": "Q3",
+        "reference_range": [
+          5,
+          23
+        ],
+        "n_tested": 1,
+        "n_untested": 514,
+        "skipped_reason": "only 1 tested units; fewer than 5",
+        "comparison": null
+      },
+      {
+        "stratum": "Q4 most references",
+        "reference_range": [
+          24,
+          2493
+        ],
+        "n_tested": 21,
+        "n_untested": 527,
+        "skipped_reason": "",
+        "comparison": {
+          "metric": "genera",
+          "n_tested": 21,
+          "n_untested": 527,
+          "tested_median": 117.0,
+          "tested_iqr": [
+            57.0,
+            245.0
+          ],
+          "untested_median": 59.0,
+          "untested_iqr": [
+            30.0,
+            111.5
+          ],
+          "difference_in_medians": 58.0,
+          "p_greater": 0.003999600039996,
+          "p_two_sided": 0.003999600039996,
+          "rank_biserial": 0.3180627089545496,
+          "permutations": 10000,
+          "seed": 1732
+        }
+      }
+    ],
+    "connectivity": [
+      {
+        "stratum": "Q1 fewest references",
+        "reference_range": [
+          1,
+          2
+        ],
+        "n_tested": 0,
+        "n_untested": 527,
+        "skipped_reason": "only 0 tested units; fewer than 5",
+        "comparison": null
+      },
+      {
+        "stratum": "Q2",
+        "reference_range": [
+          3,
+          7
+        ],
+        "n_tested": 1,
+        "n_untested": 291,
+        "skipped_reason": "only 1 tested units; fewer than 5",
+        "comparison": null
+      },
+      {
+        "stratum": "Q3",
+        "reference_range": [
+          8,
+          37
+        ],
+        "n_tested": 2,
+        "n_untested": 395,
+        "skipped_reason": "only 2 tested units; fewer than 5",
+        "comparison": null
+      },
+      {
+        "stratum": "Q4 most references",
+        "reference_range": [
+          38,
+          2998
+        ],
+        "n_tested": 21,
+        "n_untested": 383,
+        "skipped_reason": "",
+        "comparison": {
+          "metric": "genera",
+          "n_tested": 21,
+          "n_untested": 383,
+          "tested_median": 138.0,
+          "tested_iqr": [
+            76.0,
+            273.0
+          ],
+          "untested_median": 83.0,
+          "untested_iqr": [
+            48.5,
+            140.0
+          ],
+          "difference_in_medians": 55.0,
+          "p_greater": 0.010298970102989701,
+          "p_two_sided": 0.010298970102989701,
+          "rank_biserial": 0.2736541091632476,
+          "permutations": 10000,
+          "seed": 1732
+        }
+      }
+    ]
+  },
+  "within_stratum_permutation_genera": {
+    "structure": {
+      "difference_in_medians": 84.5,
+      "p_greater": 0.023397660233976603,
+      "p_two_sided": 0.023397660233976603
+    },
+    "connectivity": {
+      "difference_in_medians": 130.5,
+      "p_greater": 0.0012998700129987,
+      "p_two_sided": 0.0012998700129987
+    }
+  },
+  "power_genera": {
+    "structure": {
+      "n_tested": 24,
+      "alpha": 0.05,
+      "target_power": 0.8,
+      "critical_difference": 6.5,
+      "minimum_detectable_difference": 9.0,
+      "power_at_minimum": 0.9575,
+      "simulations": 2000
+    },
+    "connectivity": {
+      "n_tested": 24,
+      "alpha": 0.05,
+      "target_power": 0.8,
+      "critical_difference": 10.0,
+      "minimum_detectable_difference": 12.0,
+      "power_at_minimum": 0.8085,
+      "simulations": 2000
+    }
+  }
+}

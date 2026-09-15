@@ -379,3 +379,14 @@ results/any_fungus_coverage/*
 !research/attine_selection_2026-09-12/compound_modelling/response_constraints/within_study_orderings.csv
 !results/saverschek_audit/README.md
 !results/saverschek_audit/study_report.md
+
+# Exploratory, not prespecified: post hoc analyses outside the frozen plan.
+!results/exploratory/
+results/exploratory/*
+!results/exploratory/occurrence_breadth/
+results/exploratory/occurrence_breadth/*
+!results/exploratory/occurrence_breadth/per_structure_occurrence.csv
+!results/exploratory/occurrence_breadth/summary.md
+!results/exploratory/occurrence_breadth/genera_breadth.png
+!results/exploratory/occurrence_breadth/genera_breadth.svg
+!results/exploratory/occurrence_breadth/run_manifest.json
