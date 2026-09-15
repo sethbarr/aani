@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aani — evidence record</title>
+<style>
+:root{
+  --paper:#FCFCFA;
+  --ink:#161A17;
+  --ink-soft:#5C625D;
+  --rule:#DCDED9;
+  --plate:#245C3A;
+  --plate-pale:#E4EBE4;
+  --caveat:#8A5A00;
+  --measure:68ch;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font:400 18px/1.62 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+}
+.wrap{max-width:860px;margin:0 auto;padding:0 28px 120px}
+
+/* two-column shell: prose left, persistent index right */
+.shell{display:grid;grid-template-columns:minmax(0,1fr) 232px;gap:56px;max-width:1180px;margin:0 auto;padding:0 28px 120px;align-items:start}
+.shell .wrap{max-width:none;margin:0;padding:0}
+.rail{position:sticky;top:34px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.8rem;line-height:1.45;padding-top:6.2rem}
+.rail h3{font-size:.8rem;font-weight:600;margin:0 0 .7em;color:var(--ink);letter-spacing:0}
+.rail h3+h3{margin-top:2em}
+.rail ul{list-style:none;padding:0;margin:0 0 .4em;max-width:none}
+.rail li{margin:0 0 .52em}
+.rail a{color:var(--ink-soft);text-decoration:none;display:block;border-left:2px solid var(--rule);padding-left:.7em}
+.rail a:hover,.rail a:focus-visible{color:var(--plate);border-left-color:var(--plate);text-decoration:none}
+.rail .sub{color:var(--ink-soft);opacity:.75;font-size:.74rem;display:block;padding-left:.7em;margin:-.3em 0 .6em}
+.rail .grp{border-top:1px solid var(--rule);padding-top:1.3em;margin-top:1.5em}
+:target{scroll-margin-top:28px}
+p,ul,ol{max-width:var(--measure)}
+h1,h2,h3{font-weight:600;line-height:1.18;letter-spacing:-0.01em}
+h1{font-size:2.6rem;margin:0 0 .4em}
+h2{font-size:1.5rem;margin:3.4em 0 .6em;padding-top:1.1em;border-top:1px solid var(--rule)}
+h3{font-size:1.06rem;margin:2em 0 .4em}
+a{color:var(--plate);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--plate);outline-offset:3px}
+.lede{font-size:1.22rem;color:var(--ink);margin:0 0 1.4em}
+.meta{font-size:.9rem;color:var(--ink-soft);margin:0 0 3.2em}
+.num,table,.strip-key{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-variant-numeric:tabular-nums}
+
+header.top{padding:5rem 0 0}
+.mark{font-size:3.4rem;font-weight:600;letter-spacing:-0.03em;margin:0 0 .1em}
+.mark span{color:var(--plate)}
+
+/* hero coverage strip */
+.strip-frame{margin:2.6em 0 .9em}
+#strip{width:100%;height:auto;display:block}
+.strip-key{font-size:.86rem;color:var(--ink-soft);display:flex;gap:1.6em;flex-wrap:wrap;margin-top:.7em}
+.swatch{display:inline-block;width:.68em;height:.68em;margin-right:.45em;vertical-align:baseline}
+.sw-on{background:var(--plate)}
+.sw-off{background:var(--plate-pale)}
+
+table{width:100%;border-collapse:collapse;font-size:.92rem;margin:1.6em 0}
+caption{text-align:left;font-family:inherit;font-size:.95rem;color:var(--ink-soft);padding-bottom:.7em}
+th,td{text-align:left;padding:.5em .8em .5em 0;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:600}
+td.n,th.n{text-align:right;padding-right:1.2em}
+tr.total td{border-bottom:2px solid var(--ink);font-weight:600}
+
+.caveat{
+  border-left:3px solid var(--caveat);
+  padding:.1em 0 .1em 1.1em;
+  margin:1.6em 0;
+  color:var(--caveat);
+  font-size:.98rem;
+  max-width:var(--measure);
+}
+.caveat p{margin:.5em 0;max-width:none}
+
+.stages{list-style:none;padding:0;margin:1.4em 0;counter-reset:s}.stages li{counter-increment:s;padding:.55em 0 .55em 2.6em;position:relative;border-bottom:1px solid var(--rule);max-width:var(--measure)}
+.stages li::before{content:counter(s);position:absolute;left:0;top:.62em;font:600 .82rem/1 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--plate)}
+
+.links{list-style:none;padding:0;margin:1.4em 0;max-width:var(--measure)}
+.links li{padding:.6em 0;border-bottom:1px solid var(--rule)}
+.links .note{display:block;font-size:.9rem;color:var(--ink-soft)}
+
+code{font:.86em/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--plate-pale);padding:.12em .38em;border-radius:2px}
+pre{background:var(--plate-pale);padding:1em 1.1em;overflow-x:auto;font-size:.84rem;max-width:var(--measure)}
+pre code{background:none;padding:0}
+
+footer{margin-top:5em;padding-top:1.4em;border-top:1px solid var(--rule);font-size:.88rem;color:var(--ink-soft)}
+
+/* interactive grid */
+.strip-hint{font-size:.82rem;color:var(--ink-soft);margin:.6em 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+#strip rect.hit{cursor:pointer}
+#strip rect.hit:hover,#strip rect.hit:focus{stroke:var(--ink);stroke-width:1.4}
+
+/* modal */
+.modal[hidden]{display:none}
+.modal{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(22,26,23,.42)}
+.modal-box{background:var(--paper);max-width:620px;width:100%;max-height:82vh;overflow:auto;padding:30px 32px 34px;border:1px solid var(--rule)}
+.modal-box h3{margin-top:0}
+.modal-box table{margin-top:1.1em}
+.modal-close{float:right;border:1px solid var(--rule);background:none;color:var(--ink-soft);font:inherit;font-size:.82rem;padding:.25em .7em;cursor:pointer}
+.modal-close:hover{color:var(--plate);border-color:var(--plate)}
+
+/* tier bars */
+.tier{margin:1.9em 0 0}
+.tier-row{margin-bottom:1.35em;max-width:var(--measure)}
+.tier-head{display:flex;justify-content:space-between;align-items:baseline;gap:1em;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.86rem;margin-bottom:.35em}
+.tier-head b{font-weight:600;color:var(--ink)}
+.tier-head span{color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.tier-bar{height:20px;background:var(--plate-pale);position:relative;overflow:hidden}
+.tier-bar i{position:absolute;left:0;top:0;bottom:0;background:var(--plate);display:block}
+.tier-bar.zero{background:none;border:1px dashed var(--caveat);height:20px}
+.tier-note{font-size:.8rem;color:var(--ink-soft);margin:.3em 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.tier-zero-note{color:var(--caveat)}
+
+/* forward path */
+.path{list-style:none;padding:0;margin:1.6em 0;max-width:var(--measure)}
+.path li{display:grid;grid-template-columns:78px 1fr;gap:1.1em;padding:.85em 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.path .fig{font:600 1.45rem/1 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--plate);text-align:right;font-variant-numeric:tabular-nums}
+.path .fig.none{color:var(--caveat)}
+.path .lbl{font-size:.97rem}
+.path .lbl em{color:var(--ink-soft);font-style:normal;display:block;font-size:.86rem;margin-top:.15em}
+
+/* summary box */
+.tldr{border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);padding:1.5em 0 1.3em;margin:0 0 3.2em;max-width:var(--measure)}
+.tldr h2{font-size:.82rem;margin:0 0 .9em;padding:0;border:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--ink-soft);font-weight:600}
+.tldr ul{list-style:none;padding:0;margin:0}
+.tldr li{display:grid;grid-template-columns:96px 1fr;gap:1.1em;padding:.5em 0;align-items:baseline}
+.tldr b{font:600 1.18rem/1.2 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--plate);text-align:right;font-variant-numeric:tabular-nums}
+.tldr b.none{color:var(--caveat)}
+.tldr span{font-size:.97rem}
+@media (max-width:520px){.tldr li{grid-template-columns:1fr;gap:.15em}.tldr b{text-align:left}}
+
+@media (max-width:980px){
+  .shell{grid-template-columns:minmax(0,1fr);gap:0;padding:0 24px 90px}
+  .rail{position:static;padding-top:3em;margin-top:3.5em;border-top:1px solid var(--rule)}
+  .rail h3{padding-top:1.2em}
+}
+@media (max-width:640px){
+  body{font-size:17px}
+  h1,.mark{font-size:2.1rem}
+  .shell{padding:0 20px 80px}
+  table{font-size:.85rem}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+<div class="wrap">
+
+<header class="top">
+  <p class="mark">a<span>a</span>ni</p>
+  <h1>Artificial and animal intelligence</h1>
+  <p class="lede">Leafcutter ants farm a fungus and can learn to avoid plants that harm it. Fifty years of those choices sit in the literature, never joined to chemistry. aani makes the join, keeps every source, and measures where the evidence runs out.</p>
+  <p class="meta">Battle of the Coasts, September 2026. Solo entry. Analysis plan frozen at commit <code>98b5e09</code> before any outcome was inspected.</p>
+</header>
+
+<div class="tldr">
+<h2>Four findings, in brief</h2>
+<ul>
+  <li><b class="none">0</b><span>of 2,198 plant compounds has ever been measured against the fungus leafcutter ants farm, the one organism the hypothesis is actually about</span></li>
+  <li><b>24</b><span>have a measurement against our three target pathogens in comparable units. 141 have one in some unit; the literature does not report them the same way</span></li>
+  <li><b>2 → 6</b><span>species recovered by our own reader after four distinct faults were diagnosed, every one of them corrupt source text rather than the model misreading</span></li>
+  <li><b>0/2,000</b><span>random compound subsets leave the corpus as far away as the tested set does. Assay coverage here is non-random with respect to chemistry</span></li>
+</ul>
+</div>
+
+<h2 id="gap" style="border:0;padding-top:0">Every plant compound we found, and the ones anyone has measured</h2>
+<div class="strip-frame">
+  <svg id="strip" viewBox="0 0 1000 176" role="img"
+       aria-label="A grid of 2,198 marks representing plant compounds mapped from ant-relevant genera. Twenty-four are inked, representing those with a comparable measurement against the three target pathogens.">
+  </svg>
+  <p class="strip-hint">Select an inked mark to see what a classified record contains.</p>
+  <p class="strip-key">
+    <span><span class="swatch sw-on"></span>24 measured against our three target pathogens in comparable units</span>
+    <span><span class="swatch sw-off"></span>2,174 without one</span>
+  </p>
+</div>
+<p>Behavioural evidence and phytochemistry are both machine readable. Whole-organism antifungal measurements for plant natural products are, for practical purposes, not. So the compounds exist, the behaviour that points at them exists, and the measurement that would connect the two mostly does not. The rest of this page is how we got there and what we checked on the way.</p>
+
+<div class="caveat">
+<p>“No comparable measurement” is not “never tested.” We swept ChEMBL for every fungal assay on these 2,198 compounds, resolving 835 assay organisms by lineage rather than by name. 141 compounds carry a measurement against the three target pathogens; only 91 of those 598 measurements are in units our frozen rules can compare, which is how 141 becomes 24. Across every fungus, 497 of 3,700 measurement rows carry a value in a convertible molar unit.</p>
+</div>
+
+<h2 id="cultivar">Nobody has tested any of this against the ants' own fungus</h2>
+<p>The same sweep returned zero. No assay in the retrieved set resolves to <em>Leucoagaricus gongylophorus</em>, to its synonyms, or to any documented attine cultivar. We cross-checked at the name level as well, because one cultivar anchor failed to resolve taxonomically: no cached assay carries an organism name in any cultivar genus, and none carries a description mentioning attine or leaf-cutting cultivation.</p>
+<p>That is the fungus the behaviour is about. When a colony rejects a plant, this is the organism it is protecting, and it is the only fungus against which the hypothesis makes a direct prediction. Of 2,198 compounds drawn from the plants those colonies accept and reject, none has ever been measured against it.</p>
+<p>The broader sweep shows these compounds are not neglected. 115 have been tested against other human fungal pathogens across 63 taxa, 96 against crop pathogens across 86 taxa, and 220 against other fungi — though 480 of that last group's measurements are on baker's yeast, a model organism rather than a pathogen. Twenty taxa carry both human and agricultural roles, <em>Fusarium</em> accounting for sixteen, so the tiers overlap and do not sum.</p>
+<div class="caveat">
+<p>Absence from ChEMBL is not absence from the literature. Extract-level assays and uncurated papers are a separate gap this retrieval cannot see. A hand audit of twenty compounds found exactly that: nine papers matched on compound and pathogen but assayed the crude plant extract rather than the compound.</p>
+</div>
+
+<h3>Why the missing organism is the commercially useful one</h3>
+<p>Every application we would pursue runs through the same untested measurement, which is why one experiment gates all three rather than each needing its own.</p>
+<table>
+<thead><tr><th>Application</th><th>What a cultivar assay gives it</th></tr></thead>
+<tbody>
+<tr><td>Leafcutter ant control</td><td>The cultivar is the control target, not a proxy for one. Colonies are killed by killing the garden, so a compound that inhibits <em>Leucoagaricus</em> is the product rather than a step toward it. This is the only application where a positive result is immediately the thing being sold.</td></tr>
+<tr><td>Crop protection</td><td>These compounds already have an agricultural track record: 96 of them carry measurements against crop pathogens across 86 taxa. What the cultivar assay adds is the selection logic — whether plant chemistry filtered by a farming insect over millions of years enriches for antifungal activity at all. That is the question the whole prior rests on, and it has never been asked of the organism doing the filtering.</td></tr>
+<tr><td>Human antifungals</td><td><em>Leucoagaricus</em> and <em>Cryptococcus</em> are both basidiomycetes, while most antifungal screening has run on ascomycetes such as <em>Candida</em> and <em>Aspergillus</em>. A cultivar readout is the closest available proxy for the phylum where the clinical gap is widest, and it is far cheaper to run than a clinical-isolate panel.</td></tr>
+</tbody>
+</table>
+<p>The sequencing follows from that. The cultivar assay is the cheapest experiment that can falsify the shared premise, it produces a directly saleable result in the nearest market, and it reads out on the phylum that matters for the furthest one. A negative result stops all three before any of them absorbs real capital, which is the property we want from a first experiment.</p>
+<div class="caveat">
+<p>None of this claims activity. It says the measurement that would decide the question has not been made, and that the same measurement serves three applications at different distances from revenue. Ant deterrence is a clue rather than a proxy: in one 89-plant screen, two of twelve strongly deterrent extracts inhibited the fungus.</p>
+</div>
+
+<h2 id="tiers">What these compounds have been tested against</h2>
+<p>We swept ChEMBL for every fungal assay on all 2,198 mapped structures and classified 835 assay organisms by lineage rather than by name. Bars show measurement records; the inked portion is the share reported in units our frozen rules can compare.</p>
+
+<div class="tier">
+  <div class="tier-row">
+    <div class="tier-head"><b>The ants' cultivar and other attine fungi</b><span>0 records &middot; 0 compounds &middot; 0 taxa</span></div>
+    <div class="tier-bar zero"></div>
+    <p class="tier-note tier-zero-note">Verified zero. No assay resolves to any cultivar taxon, and no cached assay carries a cultivar genus name or mentions attine cultivation.</p>
+  </div>
+  <div class="tier-row">
+    <div class="tier-head"><b>Our three target pathogens</b><span>598 records &middot; 141 compounds &middot; 4 taxa</span></div>
+    <div class="tier-bar"><i style="width:15.2%"></i></div>
+    <p class="tier-note">91 comparable. The other 507 are reported in units that cannot be converted to a molar concentration.</p>
+  </div>
+  <div class="tier-row">
+    <div class="tier-head"><b>Other human fungal pathogens</b><span>773 records &middot; 115 compounds &middot; 63 taxa</span></div>
+    <div class="tier-bar"><i style="width:9.4%"></i></div>
+    <p class="tier-note">73 comparable.</p>
+  </div>
+  <div class="tier-row">
+    <div class="tier-head"><b>Crop and plant pathogens</b><span>1,282 records &middot; 96 compounds &middot; 86 taxa</span></div>
+    <div class="tier-bar"><i style="width:4.1%"></i></div>
+    <p class="tier-note">53 comparable. Includes 55 records on oomycetes across 21 compounds, flagged and excluded from any true-fungus total.</p>
+  </div>
+  <div class="tier-row">
+    <div class="tier-head"><b>All other fungi</b><span>1,047 records &middot; 220 compounds &middot; 46 taxa</span></div>
+    <div class="tier-bar"><i style="width:26.7%"></i></div>
+    <p class="tier-note">280 comparable, but 492 records are on declared model organisms and 480 of those are baker's yeast.</p>
+  </div>
+</div>
+
+<p>Two things follow. These compounds are not neglected: 3,700 measurement records exist across 199 fungal taxa. And the reporting is fragmented enough that only 497 of those records carry a value anything can compare, which is why 141 compounds against the target pathogens becomes 24.</p>
+<div class="caveat">
+<p>Tiers overlap and do not sum. Twenty taxa carry both a human and an agricultural role, <em>Fusarium</em> accounting for sixteen, and their records are counted in each tier they belong to. That is also why these are bars rather than a pie: the categories are not parts of a whole.</p>
+</div>
+
+<h2 id="unlock">What a single experiment would settle</h2>
+<p>The compounds exist and the behavioural evidence pointing at them exists. What is missing is one measurement, and it is the same measurement for every application.</p>
+<ul class="path">
+  <li><span class="fig">2,198</span><span class="lbl">Compounds mapped from plants that leafcutter colonies accept and reject<em>From a checksum-verified LOTUS export, resolved through GBIF</em></span></li>
+  <li><span class="fig none">0</span><span class="lbl">Have ever been measured against <em style="display:inline">Leucoagaricus</em>, the fungus the ants are protecting<em>The only organism against which the hypothesis makes a direct prediction</em></span></li>
+  <li><span class="fig">10</span><span class="lbl">Materials on the validation panel, chosen to discriminate rather than confirm<em>Includes two reported inactives as controls</em></span></li>
+  <li><span class="fig">6</span><span class="lbl">Can be ordered today; four need identity resolution first<em>A published potency is not an orderable material until someone resolves what was tested</em></span></li>
+  <li><span class="fig">5</span><span class="lbl">Organisms in the proposed panel: the cultivar plus four human pathogens<em>One assay, read out three ways</em></span></li>
+</ul>
+<p>A positive result on the cultivar is the ant-control product itself, because colonies are killed by killing the garden. A positive result across the panel tests whether a farming insect's plant chemistry enriches for antifungal activity at all, which is the premise the crop-protection and human-medicine routes both rest on. A negative result stops all three before any of them absorbs real capital.</p>
+
+<h2 id="why">Why antifungals, and where this prior should bite</h2>
+<p>Fungal disease kills on the scale of malaria and tuberculosis and is treated with four drug classes. Azoles, echinocandins, polyenes and flucytosine are effectively the whole clinical arsenal, and resistance is eroding each of them. The WHO published its first fungal priority pathogen list in 2022 with <em>Cryptococcus neoformans</em>, <em>Candida auris</em>, <em>Aspergillus fumigatus</em> and <em>Candida albicans</em> in the critical group. The structural reason the pipeline is thin is that fungi are eukaryotes: most things that kill them have a human homologue to hit.</p>
+<p>Agriculture faces the same shortage through a different door, and the two are connected. Azole fungicides used on crops select for azole resistance in environmental <em>Aspergillus fumigatus</em>, which then appears in patients who have never taken an azole. A compound class that works outside the existing modes of action is worth more to both fields than another azole would be to either.</p>
+
+<h3>The specific claim, and its limits</h3>
+<p>What a leafcutter colony selects against is harm to a live basidiomycete, in a humid high-inoculum garden, over evolutionary time. That is a narrow and unusual filter, and it predicts different things for different targets.</p>
+<table>
+<thead><tr><th>Target</th><th>What the prior does and does not say</th></tr></thead>
+<tbody>
+<tr><td><em>Leucoagaricus</em>, the ants' cultivar</td><td>Directly predicted. This is the organism the behaviour is about, and the only one where a positive result confirms the mechanism rather than extrapolating from it.</td></tr>
+<tr><td><em>Cryptococcus neoformans</em></td><td>The nearest clinical relative. Both are Basidiomycota, while most antifungal screening has run on the ascomycete pathogens. Phylogenetic proximity is a reason to look, not evidence of activity.</td></tr>
+<tr><td><em>Rhizoctonia</em>, rusts and smuts</td><td>The crop pathogens where the prior should bite hardest, because they are basidiomycetes too. This is a testable prediction and we have not tested it.</td></tr>
+<tr><td><em>Candida</em>, <em>Aspergillus</em>, <em>Botrytis</em>, <em>Fusarium</em></td><td>Ascomycetes. The prior makes no phylum-based argument here. Activity would be welcome and would not follow from the selection story.</td></tr>
+</tbody>
+</table>
+<p>Stated plainly: this is a sourcing hypothesis about where to look for chemical novelty, and not a claim that any of these compounds works. Its strongest form is that a behaviour filtered by a farming insect may enrich for anti-basidiomycete chemistry that synthetic screening libraries do not contain, and the sharpest test of it is the one nobody has run.</p>
+<div class="caveat">
+<p>The hard limit is selectivity, and nothing here addresses it. A compound that stops a fungus growing in a petri dish is not a drug, plant secondary metabolites are frequently cytotoxic, and eukaryotic selectivity is exactly the barrier that keeps the antifungal pipeline thin. Any cultivar or pathogen result would need a mammalian cytotoxicity readout beside it before it meant anything clinical. Our own data also argues for caution: in one 89-plant screen, two of twelve strongly deterrent extracts inhibited the fungus.</p>
+</div>
+
+<h2 id="pipeline">What the pipeline does</h2><ol class="stages">
+  <li>Reads published behavioural observations and extracts each one with the sentence it came from.</li>
+  <li>Resolves plant names to accepted taxonomy through GBIF.</li>
+  <li>Attaches the compounds recorded for those plants from a checksum-verified LOTUS export.</li>
+  <li>Retrieves whole-organism fungal assays for those compounds from ChEMBL and applies the frozen eligibility rules.</li>
+</ol>
+<p>Every link keeps a source anchor. Every network response is cached by request hash, so the whole run replays with no API key.</p>
+
+<h2 id="funnel">The funnel</h2>
+<table>
+<caption>Primary pipeline. Every figure is reproducible from <a href="../results/funnel.json">funnel.json</a>.</caption>
+<tbody>
+<tr><td>Sources retrieved</td><td class="n num">33</td></tr>
+<tr><td>Sources selected after screening</td><td class="n num">13</td></tr>
+<tr><td>Extraction jobs</td><td class="n num">23</td></tr>
+<tr><td>Candidate records proposed</td><td class="n num">61</td></tr>
+<tr><td>Passed automatic grounding</td><td class="n num">41</td></tr>
+<tr><td>Retained after source review</td><td class="n num">9</td></tr>
+<tr><td>Directional contexts reaching analysis</td><td class="n num">96</td></tr>
+<tr><td>Plant genera after aggregation, conflicts excluded</td><td class="n num">11</td></tr>
+<tr><td>Plant genera with verified chemistry</td><td class="n num">9</td></tr>
+<tr><td>Plant genera with at least one classified compound</td><td class="n num">7</td></tr>
+<tr class="total"><td>Plant genera available for the prespecified test</td><td class="n num">7</td></tr>
+</tbody>
+</table>
+<p>Sixteen plant genera aggregate to six accepted, five rejected and five held out as context-dependent conflicts. Seven reach the assay stage, of which one is rejected. The protocol requires at least two genera per direction and twenty-five joined genera. Neither threshold is met, so the primary analysis is a feasibility failure and no enrichment statistic, p-value or ranked shortlist was produced. No threshold was relaxed to obtain one.</p>
+
+<div class="caveat">
+<p>Of the 96 directional contexts, 9 came from model extraction and the rest from curator audit of the same texts. We report that split rather than presenting curated evidence as pipeline output.</p>
+</div>
+
+<h2 id="reader">What we measured about our own reader</h2>
+<p>We scored the extractor against one field study whose eleven-species results the authors state directly. Table 1 of that paper groups species under printed headings — acceptance, immediate rejection, habitat-related rejection — so the reference directions are the authors' own categories rather than our reading of their numbers. Six species carry a single consistent direction across that table and the paper's simultaneous-choice tests; those six are the primary denominator. <em>Miconia argentea</em> is grouped under immediate rejection in Table 1 but accepted in both habitats in the simultaneous tests, so we hold it with the four habitat-dependent species as context-dependent rather than counting it either way.</p>
+<table>
+<caption>Primary species-direction pairs recovered, by validator version and sample.</caption>
+<thead><tr><th>Version</th><th>What changed</th><th class="n">Recovered</th></tr></thead>
+<tbody>
+<tr><td>baseline</td><td>Contiguous exact quotes</td><td class="n num">2 of 6</td></tr>
+<tr><td>v1</td><td>Two-span records introduced</td><td class="n num">0 of 6</td></tr>
+<tr><td>v2</td><td>Ant identity resolved once per paper</td><td class="n num">4 of 6</td></tr>
+<tr><td>v3</td><td>Two control characters the model substituted</td><td class="n num">6 of 6</td></tr>
+<tr><td>v4</td><td>Substituted codes inferred, not listed</td><td class="n num">6 of 6</td></tr>
+<tr><td>v4, held out</td><td>Rule frozen before the draw</td><td class="n num">6 of 6</td></tr>
+<tr><td>v6, held out</td><td>Rule frozen before the draw</td><td class="n num">2 of 6</td></tr>
+</tbody>
+</table>
+<p>Four distinct faults, all of them the source text or its transport rather than the model misreading: each chunk lost track of which ant species the paper was about; the model could not copy a plus-minus sign and substituted a control character; the character it chose differed between runs; and the cached paper text was itself corrupt, so the model silently corrected it and strict quoting rejected it for being right. We rebuilt the validator once for each, in the order they surfaced.</p>
+<p>Across four independent draws the validator never lost a detected reference pair. What varied was detection. A later experiment drew eight further samples under a frozen validator, and the seven that completed each detected all six species, so the weak draw looks like an outlier rather than a property of the schema. Single-span extraction produced fewer candidates and worse grounding with no detection gain, so the two-span design stays.</p>
+<div class="caveat">
+<p>One paper, one panel, and the people building the rules knew the reference. The reference directions have been checked against Table 1 of the original and are the authors' printed groupings, not our inference from their numbers; what remains unverified is the semantic support for individual table rows and captions. Performance on unseen papers is unmeasured, and that is the next experiment rather than a claim.</p>
+</div>
+
+<h2 id="distance">Is the untested chemistry different, or just unlucky?</h2>
+<p>The obvious comparison says different: compounds with no eligible measurement sit at median Tanimoto 0.320 from the tested set, against 0.649 for classified ones. That comparison is circular. Compounds measured together come from the same chemical series, so anything in the reference set resembles it by construction — and compounds that were assayed but produced no usable number sit at 0.640, indistinguishable from the classified group.</p>
+<p>The control that works is a permutation. Two thousand random subsets of the corpus, each matched to the tested set for size, leave the remaining compounds at median 0.400 with a 95% interval of 0.377 to 0.425. The real tested set leaves them at 0.320, and no draw in two thousand reaches that. Separately, 37 of 809 distinct scaffolds among the unmeasured compounds occur in the tested set at all.</p>
+<p>Within this corpus, assay coverage has been non-random with respect to chemistry. What has been measured occupies a narrow region, and what has not is structurally unlike it.</p>
+<div class="caveat">
+<p>The reference set is 98 compounds retrieved during this run, not every compound ChEMBL holds for these assays, and the saturation curve is still climbing at that size. Reference and query are drawn from the same corpus, so this measures coverage within it and not distance from antifungal chemistry generally. Expanding the reference could change the contrast. <em>Candida auris</em> is absent from the frozen inventory.</p>
+</div>
+
+<h2 id="systems">Three other animal systems</h2>
+<p>We specified three further coevolved systems in advance and ran each to a coverage funnel. Each stopped at a different stage, for a reason specific to that system.</p>
+<table>
+<thead><tr><th>System</th><th>Where it stopped</th></tr></thead>
+<tbody>
+<tr><td>Honeybee propolis</td><td>The open-access corpus reports resin chemistry and colony-level collection, never a bee choosing one resin source over another. Nothing survived semantic review.</td></tr>
+<tr><td>Monarch butterflies</td><td>Seeding the known primary sources recovered the infected-versus-uninfected comparison that a discovery query missed. The join then ends at the database: ChEMBL holds 16,322 functional assays across our three fungi and none at all for the monarch parasite.</td></tr>
+<tr><td>Attine ant bacteria</td><td>A positive control with two known relations. One recovered; the other missed because the prompt named the modern producer genus and the 1999 paper uses its historical synonym. Taxonomy resolves under a scoped microbial rule.</td></tr>
+</tbody>
+</table>
+<p>The architecture transferred. The outcomes did not, and biological transfer remains untested. Knowing precisely where each one broke is more useful than a clean sweep would have been.</p>
+
+<h2 id="browse">Browse the evidence</h2>
+<ul class="links">
+<li><a href="../research/attine_selection_2026-09-12/evidence_browser.html">Plant evidence browser</a><span class="note">98 candidate rows from 157 screened bibliographic records, each linked to its source.</span></li>
+<li><a href="../research/attine_selection_2026-09-12/compound_modelling/compound_browser.html">Compound evidence and validation panel</a><span class="note">Molecular and reference assay records with identity status and endpoint context preserved.</span></li>
+<li><a href="../research/attine_selection_2026-09-12/compound_modelling/dose_response/dose_response_browser.html">Published dose-response recovery</a><span class="note">Sixteen fits across eight material and exposure series, reconstructed from published figures. Largest deviation from the authors' own midpoints: 3.11%.</span></li>
+<li><a href="../results/experiment_planner/index.html">Experiment planner</a><span class="note">Planning export only. No connected instrument, no validated biological protocol.</span></li>
+</ul>
+
+<h2 id="counter">The counterexample we kept</h2>
+<p>In a selected 89-plant screen using one ant colony, twelve extracts were strongly deterrent and eleven inhibited the fungus. Two were both. Ant avoidance is a clue worth testing, and it is not a proxy for antifungal activity. Accepted plants can contain inhibitors and deterrent plants often do not. The pipeline surfaces that contrast rather than smoothing it, and it is the reason the next step is a measurement rather than a shortlist.</p>
+
+<h2 id="panel">What we would test, and what stands in the way</h2>
+<p>The validation panel is ten previously reported materials with published cultivar results, chosen so that a single experiment discriminates between competing explanations rather than confirming one. It includes two reported inactives — clausarin as a matched-class null, and kolavenol as a compound that deters ants without inhibiting the fungus.</p>
+<table>
+<caption>Procurement status. Identity resolution gates ordering: a compound whose stereochemistry is unresolved cannot be bought with confidence.</caption>
+<thead><tr><th>Material</th><th>Published result</th><th>Before ordering</th></tr></thead>
+<tbody>
+<tr><td>Dillapiol</td><td>IC50 38 ppm</td><td>Ready; confirm reagent purity</td></tr>
+<tr><td>Xanthyletin</td><td>100% inhibition at 25 µg/mL</td><td>Ready; keep distinct from xanthoxyletin</td></tr>
+<tr><td>Kokusaginine</td><td>20% at 50, 100% at 100 µg/mL</td><td>Ready</td></tr>
+<tr><td>Syringaldehyde</td><td>80% at 50 µg/mL</td><td>Ready</td></tr>
+<tr><td>Vanillic acid</td><td>80% at 50 µg/mL</td><td>Ready</td></tr>
+<tr><td>Clausarin</td><td>0% at 75 µg/mL</td><td>Ready; a null at one dose only</td></tr>
+<tr><td>Argentilactone</td><td>MIC 0.90 µg/mL</td><td>Absolute stereochemistry unresolved</td></tr>
+<tr><td>Caryophyllene oxide</td><td>No growth at 100 µg/mL</td><td>Stereochemistry unconfirmed</td></tr>
+<tr><td>Kolavenol</td><td>No inhibition at 11 or 110 µg/mL</td><td>Stereochemistry and provenance unresolved</td></tr>
+<tr><td>Citral</td><td>IC50 31.7 µL/L air</td><td>Isomer composition unspecified</td></tr>
+</tbody>
+</table>
+<p>Six can be ordered now. Four need identity work first, which is itself a finding: a published potency is not an orderable material until someone resolves what exactly was tested.</p>
+
+<h2 id="verify">Checking any of this</h2>
+<p>Clone the repository and replay the run with no API key:</p>
+<pre><code>.venv/bin/python -m scripts.run_pipeline --offline</code></pre>
+<p>The request-hash cache and the LOTUS export are too large to ship, so the repository carries run manifests, request hashes and stage metrics instead. <a href="../results/funnel.json">funnel.json</a> and <a href="../results/pipeline_report.md">pipeline_report.md</a> record every number on this page. The analysis plan and its thresholds are frozen at <code>98b5e09</code>; each subsequent change is a separate dated amendment, and the frozen files are byte-compared on every run.</p>
+
+<h2 id="limits">Not claimed</h2>
+<p>No novel molecule. No validated structure-activity predictor. No prospective improvement in hit rate. No customer, revenue or demonstrated willingness to pay. No biological experiment has been run; the laboratory work is a planning export with a water-only simulation behind it.</p>
+<p>The prespecified biological question is unresolved. Reporting that, with the coverage account that explains it, is the result.</p>
+
+<h2 id="next">What comes next</h2>
+<table>
+<thead><tr><th>Next</th><th>Because</th></tr></thead>
+<tbody>
+<tr><td>Retrieve compounds by assay rather than by plant, and recompute distances</td><td>The 98-compound reference is the largest limitation on the novelty result</td></tr>
+<tr><td>Audit the 74 measured-but-unclassifiable compounds for unit conversion</td><td>Most failed on reporting convention, not on the measurement itself</td></tr>
+<tr><td>Test the frozen reader on papers it has never seen, with references built before anyone looks at output</td><td>Everything known about the reader comes from one paper</td></tr>
+<tr><td>Stratify the permutation null by genus</td><td>One genus contributes 955 of the 2,174 unmeasured compounds</td></tr>
+<tr><td>Run the six orderable compounds against the ants' cultivar and the fungal panel</td><td>Nobody has ever measured any of these 2,198 compounds against <em>Leucoagaricus</em>, the organism the hypothesis is about</td></tr>
+</tbody>
+</table>
+
+<footer>
+<p>aani — artificial and animal intelligence. Seth Barribeau, MIT Sloan Fellows MBA 2027. Built for Battle of the Coasts, 12–15 September 2026.</p>
+</footer>
+
+</div>
+
+<nav class="rail" aria-label="Contents and files">
+  <h3>On this page</h3>
+  <ul>
+    <li><a href="#gap">The coverage gap</a></li>
+    <li><a href="#cultivar">The ants' own fungus</a></li>
+    <li><a href="#tiers">What has been tested</a></li>
+    <li><a href="#unlock">What one experiment settles</a></li>
+    <li><a href="#why">Why antifungals</a></li>
+    <li><a href="#pipeline">What the pipeline does</a></li>
+    <li><a href="#funnel">The funnel</a></li>
+    <li><a href="#reader">Measuring the reader</a></li>
+    <li><a href="#distance">Is it different chemistry?</a></li>
+    <li><a href="#systems">Three other systems</a></li>
+    <li><a href="#counter">The counterexample</a></li>
+    <li><a href="#panel">The validation panel</a></li>
+    <li><a href="#verify">Checking any of this</a></li>
+    <li><a href="#limits">Not claimed</a></li>
+    <li><a href="#next">What comes next</a></li>
+  </ul>
+
+  <div class="grp">
+  <h3>Browse the evidence</h3>
+  <ul>
+    <li><a href="../research/attine_selection_2026-09-12/evidence_browser.html">Plant evidence</a><span class="sub">98 candidate rows</span></li>
+    <li><a href="../research/attine_selection_2026-09-12/compound_modelling/compound_browser.html">Compound evidence</a><span class="sub">Assays and identity status</span></li>
+    <li><a href="../research/attine_selection_2026-09-12/compound_modelling/dose_response/dose_response_browser.html">Dose-response recovery</a><span class="sub">16 fits, 8 series</span></li>
+    <li><a href="../results/experiment_planner/index.html">Experiment planner</a><span class="sub">Planning export</span></li>
+  </ul>
+  </div>
+
+  <div class="grp">
+  <h3>Check the numbers</h3>
+  <ul>
+    <li><a href="../results/funnel.json">funnel.json</a></li>
+    <li><a href="../results/pipeline_report.md">Pipeline report</a></li>
+    <li><a href="../results/chemical_distance/summary.md">Chemical distance</a></li>
+    <li><a href="../results/any_fungus_coverage/summary.md">Any-fungus coverage</a></li>
+    <li><a href="../results/systems/summary.md">Exploratory systems</a></li>
+    <li><a href="../results/detection_variance/summary.md">Detection variance</a></li>
+  </ul>
+  </div>
+
+  <div class="grp">
+  <h3>Reader development</h3>
+  <ul>
+    <li><a href="../results/recall_baseline.md">Baseline recall</a></li>
+    <li><a href="../results/grounding_development_v4/summary.md">v4 and held-out</a></li>
+    <li><a href="../results/grounding_development_v6/summary.md">v6</a></li>
+    <li><a href="../results/grounding_development_v6/heldout_sample4_summary.md">Held-out sample 4</a></li>
+  </ul>
+  </div>
+
+  <div class="grp">
+  <h3>Protocol</h3>
+  <ul>
+    <li><a href="../docs/analysis_plan.md">Frozen analysis plan</a><span class="sub">Commit 98b5e09</span></li>
+    <li><a href="../docs/pipeline.md">Pipeline documentation</a></li>
+    <li><a href="../results/business_case/judges_submission_v2.md">Judge submission</a></li>
+    <li><a href="../results/publication_safety/audit.md">Publication safety audit</a></li>
+  </ul>
+  </div>
+</nav>
+
+</div>
+
+<div class="modal" id="cmodal" hidden role="dialog" aria-modal="true" aria-labelledby="cmodal-h">
+  <div class="modal-box">
+    <button class="modal-close" id="cmodal-x" type="button">Close</button>
+    <h3 id="cmodal-h">What a classified record holds</h3>
+    <p>Each inked mark is a compound with at least one measurement against <em>Candida albicans</em>, <em>Cryptococcus neoformans</em> or <em>Aspergillus fumigatus</em> reported in units the frozen rules can compare. Seven are labelled active at the 10 µM threshold and seventeen inactive.</p>
+    <p>Compounds are stored by InChIKey rather than by name, so the examples below are those we verified a name and a source measurement for during the hand audit. The full set is in the linked data.</p>
+    <table>
+      <thead><tr><th>Compound</th><th>Organism</th><th>Reported</th></tr></thead>
+      <tbody>
+        <tr><td>Linalool</td><td><em>C. albicans</em></td><td>MIC &gt; 200 µg/mL</td></tr>
+        <tr><td>Ursolic acid</td><td><em>C. albicans</em>, <em>C. neoformans</em></td><td>IC50 &gt; 50 µg/mL; MIC 32 µg/mL</td></tr>
+        <tr><td>Lupeol</td><td><em>C. albicans</em>, <em>C. neoformans</em></td><td>IC50 &gt; 1000 µg/mL</td></tr>
+        <tr><td>β-Sitosterol</td><td><em>C. albicans</em></td><td>MIC 50 µg</td></tr>
+      </tbody>
+    </table>
+    <p>Those four illustrate the reporting problem rather than the exception: every one is in µg/mL or a mass unit, so each was excluded from the comparable set, and every one reports no activity. The measurement exists and cannot be joined.</p>
+    <p><a href="../results/any_fungus_coverage/summary.md">Full coverage sweep</a> &middot; <a href="../results/funnel.json">funnel.json</a></p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var svg=document.getElementById('strip');
+  if(!svg) return;
+  var TOTAL=2198, INKED=24, COLS=61;
+  var rows=Math.ceil(TOTAL/COLS);
+  var cell=1000/COLS, size=cell*0.62, gap=(cell-size)/2;
+  svg.setAttribute('viewBox','0 0 1000 '+(rows*cell).toFixed(1));
+  // deterministic scatter so inked marks read as sparse, not clustered
+  var inked={}, step=Math.floor(TOTAL/INKED), seed=17;
+  for(var k=0;k<INKED;k++){ inked[(k*step+seed)%TOTAL]=1; }
+  var parts=[];
+  for(var i=0;i<TOTAL;i++){
+    var c=i%COLS, r=Math.floor(i/COLS), on=!!inked[i];
+    parts.push('<rect x="'+(c*cell+gap).toFixed(2)+'" y="'+(r*cell+gap).toFixed(2)+
+      '" width="'+size.toFixed(2)+'" height="'+size.toFixed(2)+
+      '" fill="'+(on?'#245C3A':'#E4EBE4')+'"'+
+      (on?' class="hit" tabindex="0" role="button" aria-label="Classified compound record"':'')+'/>');
+  }
+  svg.innerHTML=parts.join('');
+
+  var modal=document.getElementById('cmodal'),
+      closeBtn=document.getElementById('cmodal-x'),
+      lastFocus=null;
+  function open(el){ lastFocus=el; modal.hidden=false; closeBtn.focus(); }
+  function close(){ modal.hidden=true; if(lastFocus) lastFocus.focus(); }
+  svg.addEventListener('click',function(e){
+    if(e.target.classList.contains('hit')) open(e.target);
+  });
+  svg.addEventListener('keydown',function(e){
+    if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('hit')){
+      e.preventDefault(); open(e.target);
+    }
+  });
+  closeBtn.addEventListener('click',close);
+  modal.addEventListener('click',function(e){ if(e.target===modal) close(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!modal.hidden) close(); });
+})();
+</script>
+</body>
+</html>

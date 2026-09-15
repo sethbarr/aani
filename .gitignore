@@ -11,10 +11,56 @@ data/raw/
 data/interim/
 
 # Large downloads, private research inputs and local build artifacts.
-research/
 tmp/
 output/
 .chart-data-*/
+
+# Judge-facing research workstream: derived outputs and browsers only.
+# Source PDFs, page images, full texts and bulk caches stay local.
+!research/
+research/*
+!research/attine_selection_2026-09-12/
+research/attine_selection_2026-09-12/*
+!research/attine_selection_2026-09-12/START_HERE.md
+!research/attine_selection_2026-09-12/METHODS_AND_GAPS.md
+!research/attine_selection_2026-09-12/VALIDATION.json
+!research/attine_selection_2026-09-12/bundle_stats.json
+!research/attine_selection_2026-09-12/bibliography.csv
+!research/attine_selection_2026-09-12/napal2015_all_89_plants.csv
+!research/attine_selection_2026-09-12/napal_table.tsv
+!research/attine_selection_2026-09-12/evidence_browser.html
+
+!research/attine_selection_2026-09-12/compound_modelling/
+research/attine_selection_2026-09-12/compound_modelling/*
+!research/attine_selection_2026-09-12/compound_modelling/README.md
+!research/attine_selection_2026-09-12/compound_modelling/compound_browser.html
+!research/attine_selection_2026-09-12/compound_modelling/feasibility_counts.json
+!research/attine_selection_2026-09-12/compound_modelling/validation_panel.csv
+!research/attine_selection_2026-09-12/compound_modelling/validation_panel.json
+!research/attine_selection_2026-09-12/compound_modelling/comparison_blocks.csv
+!research/attine_selection_2026-09-12/compound_modelling/comparison_blocks.json
+!research/attine_selection_2026-09-12/compound_modelling/compound_registry.csv
+!research/attine_selection_2026-09-12/compound_modelling/compound_registry.json
+!research/attine_selection_2026-09-12/compound_modelling/molecular_assay_evidence.csv
+!research/attine_selection_2026-09-12/compound_modelling/molecular_assay_evidence.json
+!research/attine_selection_2026-09-12/compound_modelling/supplemental_assays.csv
+!research/attine_selection_2026-09-12/compound_modelling/supplemental_assays.json
+!research/attine_selection_2026-09-12/compound_modelling/input_hashes.json
+!research/attine_selection_2026-09-12/compound_modelling/validation_checks.json
+
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/
+research/attine_selection_2026-09-12/compound_modelling/dose_response/*
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/README.md
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/dose_response_browser.html
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/digitized_points.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/descriptive_fits.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/series_metadata.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/summary.json
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/calibration.json
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/omission_sensitivity.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/source_structure_graphs.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/validation_checks.json
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/dose_response_fits.svg
 
 # Publish compact run summaries, keeping full processed datasets local.
 data/processed/*
@@ -236,3 +282,49 @@ results/publication_safety/*
 !results/publication_safety/replay_verification.json
 !results/publication_safety/verification.json
 !results/publication_safety/test_verification.json
+
+# Judge-facing research workstream: derived outputs and browsers only.
+# Source PDFs, page images, full texts and bulk caches stay local.
+research/*
+!research/attine_selection_2026-09-12/
+research/attine_selection_2026-09-12/*
+!research/attine_selection_2026-09-12/START_HERE.md
+!research/attine_selection_2026-09-12/METHODS_AND_GAPS.md
+!research/attine_selection_2026-09-12/VALIDATION.json
+!research/attine_selection_2026-09-12/bundle_stats.json
+!research/attine_selection_2026-09-12/bibliography.csv
+!research/attine_selection_2026-09-12/napal2015_all_89_plants.csv
+!research/attine_selection_2026-09-12/napal_table.tsv
+!research/attine_selection_2026-09-12/evidence_browser.html
+
+!research/attine_selection_2026-09-12/compound_modelling/
+research/attine_selection_2026-09-12/compound_modelling/*
+!research/attine_selection_2026-09-12/compound_modelling/README.md
+!research/attine_selection_2026-09-12/compound_modelling/compound_browser.html
+!research/attine_selection_2026-09-12/compound_modelling/feasibility_counts.json
+!research/attine_selection_2026-09-12/compound_modelling/validation_panel.csv
+!research/attine_selection_2026-09-12/compound_modelling/validation_panel.json
+!research/attine_selection_2026-09-12/compound_modelling/comparison_blocks.csv
+!research/attine_selection_2026-09-12/compound_modelling/comparison_blocks.json
+!research/attine_selection_2026-09-12/compound_modelling/compound_registry.csv
+!research/attine_selection_2026-09-12/compound_modelling/compound_registry.json
+!research/attine_selection_2026-09-12/compound_modelling/molecular_assay_evidence.csv
+!research/attine_selection_2026-09-12/compound_modelling/molecular_assay_evidence.json
+!research/attine_selection_2026-09-12/compound_modelling/supplemental_assays.csv
+!research/attine_selection_2026-09-12/compound_modelling/supplemental_assays.json
+!research/attine_selection_2026-09-12/compound_modelling/input_hashes.json
+!research/attine_selection_2026-09-12/compound_modelling/validation_checks.json
+
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/
+research/attine_selection_2026-09-12/compound_modelling/dose_response/*
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/README.md
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/dose_response_browser.html
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/digitized_points.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/descriptive_fits.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/series_metadata.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/summary.json
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/calibration.json
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/omission_sensitivity.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/source_structure_graphs.csv
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/validation_checks.json
+!research/attine_selection_2026-09-12/compound_modelling/dose_response/dose_response_fits.svg
