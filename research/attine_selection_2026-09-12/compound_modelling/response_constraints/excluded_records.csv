@@ -1,0 +1,25 @@
+record_id,preferred_name,source_id,reason
+F003,Dillapiol,salazar2020,Different or ambiguous endpoint: fitted_IC50
+F004,Dillapiol,salazar2020,Different or ambiguous endpoint: secondary_fit_same_curve
+F022,Caryophyllene oxide,hubbell1983,Different or ambiguous endpoint: culture_damage_incidence
+F023,Caryophyllene oxide,hubbell1983,Different or ambiguous endpoint: culture_damage_incidence
+F024,Caryophyllene oxide,hubbell1983,Different or ambiguous endpoint: culture_damage_incidence
+F040,Ricinine,bigi2004,Different or ambiguous endpoint: outcome_ambiguous_hold
+F076,Quercetin,lobo2020papaya,Different or ambiguous endpoint: qualitative_null
+F090,Isopulegol,melo2020,Different or ambiguous endpoint: fitted_IC50
+F092,Citral (isomer composition unspecified),melo2020,Different or ambiguous endpoint: fitted_IC50
+F094,"1,8-Cineole",melo2020,Different or ambiguous endpoint: censored_IC50
+F095,Sulcatyl acetate,melo2020,Different or ambiguous endpoint: censored_IC50
+F096,Limonene,melo2020,Different or ambiguous endpoint: censored_IC50
+F097,Linalool,melo2020,Different or ambiguous endpoint: censored_IC50
+F098,p-Cymene,melo2020,Different or ambiguous endpoint: censored_IC50
+F100,Isopulegol,melo2020,Different or ambiguous endpoint: fitted_IC50
+F102,Citral (isomer composition unspecified),melo2020,Different or ambiguous endpoint: fitted_IC50
+F104,"1,8-Cineole",melo2020,Different or ambiguous endpoint: censored_IC50
+F105,Sulcatyl acetate,melo2020,Different or ambiguous endpoint: censored_IC50
+F106,Limonene,melo2020,Different or ambiguous endpoint: censored_IC50
+F107,Linalool,melo2020,Different or ambiguous endpoint: censored_IC50
+F108,p-Cymene,melo2020,Different or ambiguous endpoint: censored_IC50
+F109,Citral (isomer composition unspecified),melo2020,Different or ambiguous endpoint: recovery_after_exposure
+M019,Argentilactone,napal2015,Different or ambiguous endpoint: MIC
+M020,Carbendazim,napal2015,Different or ambiguous endpoint: MIC

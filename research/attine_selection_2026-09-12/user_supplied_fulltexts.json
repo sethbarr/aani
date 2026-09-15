@@ -1,0 +1,52 @@
+[
+  {
+    "source_id": "salazar2020",
+    "user_supplied_path": "/Users/seth/Downloads/s10886-020-01170-w.pdf",
+    "local_file": "sources/salazar2020.pdf",
+    "sha256": "aacf4361850d4b4270844065660c15de40bc8bf4eec0303de729dd438b7ad735",
+    "pages": 7,
+    "bytes": 465570,
+    "origin": "PDF supplied directly by user; original Downloads file preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "source_id": "howard1988terpenoids",
+    "user_supplied_path": "/Users/seth/Downloads/BF01022531.pdf",
+    "local_file": "sources/howard1988terpenoids.pdf",
+    "sha256": "0a6f33ad82e6aaa357b6981da96f5a1944792c5d14d2c0551c429ee0fa1e43bb",
+    "pages": 11,
+    "bytes": 588465,
+    "origin": "PDF supplied directly by user; original Downloads file preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "source_id": "pagnocca1996",
+    "user_supplied_path": "/Users/seth/Downloads/BF02266969.pdf",
+    "local_file": "sources/pagnocca1996.pdf",
+    "sha256": "3039010c57f58e0e65c2c9e1f2e59a067ad00006bbc9a231b438f23d8c9fc9ce",
+    "pages": 6,
+    "bytes": 244658,
+    "origin": "PDF supplied directly by user; original Downloads file preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "source_id": "hubbell1983",
+    "user_supplied_path": "/Users/seth/Downloads/BF00376846.pdf",
+    "local_file": "sources/hubbell1983.pdf",
+    "sha256": "f064828c19309bf850c401cc82a112977a04af77a7a265b4143c36c98968e68b",
+    "pages": 7,
+    "bytes": 827610,
+    "origin": "PDF supplied directly by user; original Downloads file preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "source_id": "bigi2004",
+    "user_supplied_path": "/Users/seth/Downloads/Pest Management Science - 2004 - Bigi - Activity of Ricinus communis  Euphorbiaceae  and ricinine against the leaf‐cutting.pdf",
+    "local_file": "sources/bigi2004.pdf",
+    "sha256": "b026b59cc79777065d5e80a933930cfb8a0192c892f5226665a5a14ca00ce885",
+    "pages": 6,
+    "bytes": 114609,
+    "origin": "PDF supplied directly by user; original Downloads file preserved",
+    "received_date": "2026-09-12"
+  }
+]

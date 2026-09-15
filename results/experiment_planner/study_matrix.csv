@@ -1,0 +1,16 @@
+plan_id,fungus_id,fungus,candidate_id,material,status,isolate_id,assay_method_version,endpoint,value,unit,qc_status,raw_data_uri,source_record_id
+fungal-67f41e49c7ce,attine_cultivar,Identified ant fungal cultivar,F003,Dillapiole,not_tested,,,,,,,,F003
+fungal-67f41e49c7ce,attine_cultivar,Identified ant fungal cultivar,F008,Caryophyllene epoxide,not_tested,,,,,,,,F008
+fungal-67f41e49c7ce,attine_cultivar,Identified ant fungal cultivar,F010,Kolavenol,not_tested,,,,,,,,F010
+fungal-67f41e49c7ce,s_cerevisiae,Saccharomyces cerevisiae,F003,Dillapiole,not_tested,,,,,,,,F003
+fungal-67f41e49c7ce,s_cerevisiae,Saccharomyces cerevisiae,F008,Caryophyllene epoxide,not_tested,,,,,,,,F008
+fungal-67f41e49c7ce,s_cerevisiae,Saccharomyces cerevisiae,F010,Kolavenol,not_tested,,,,,,,,F010
+fungal-67f41e49c7ce,s_pombe,Schizosaccharomyces pombe,F003,Dillapiole,not_tested,,,,,,,,F003
+fungal-67f41e49c7ce,s_pombe,Schizosaccharomyces pombe,F008,Caryophyllene epoxide,not_tested,,,,,,,,F008
+fungal-67f41e49c7ce,s_pombe,Schizosaccharomyces pombe,F010,Kolavenol,not_tested,,,,,,,,F010
+fungal-67f41e49c7ce,n_crassa,Neurospora crassa,F003,Dillapiole,not_tested,,,,,,,,F003
+fungal-67f41e49c7ce,n_crassa,Neurospora crassa,F008,Caryophyllene epoxide,not_tested,,,,,,,,F008
+fungal-67f41e49c7ce,n_crassa,Neurospora crassa,F010,Kolavenol,not_tested,,,,,,,,F010
+fungal-67f41e49c7ce,p_ostreatus,Pleurotus ostreatus,F003,Dillapiole,not_tested,,,,,,,,F003
+fungal-67f41e49c7ce,p_ostreatus,Pleurotus ostreatus,F008,Caryophyllene epoxide,not_tested,,,,,,,,F008
+fungal-67f41e49c7ce,p_ostreatus,Pleurotus ostreatus,F010,Kolavenol,not_tested,,,,,,,,F010

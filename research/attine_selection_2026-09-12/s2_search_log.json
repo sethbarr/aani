@@ -1,0 +1,90 @@
+[
+  {
+    "query_id": 1,
+    "query": "(\"leaf-cutting ants\" | \"leafcutting ants\" | \"leaf-cutter ants\" | \"leaf cutting ants\") + (plant | substrate | diet | food | foraging | selection | rejection | avoidance)",
+    "page": 1,
+    "total": 1164,
+    "returned": 1000,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28%22leaf-cutting+ants%22+%7C+%22leafcutting+ants%22+%7C+%22leaf-cutter+ants%22+%7C+%22leaf+cutting+ants%22%29+%2B+%28plant+%7C+substrate+%7C+diet+%7C+food+%7C+foraging+%7C+selection+%7C+rejection+%7C+avoidance%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 1,
+    "query": "(\"leaf-cutting ants\" | \"leafcutting ants\" | \"leaf-cutter ants\" | \"leaf cutting ants\") + (plant | substrate | diet | food | foraging | selection | rejection | avoidance)",
+    "page": 2,
+    "total": 1164,
+    "returned": 164,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28%22leaf-cutting+ants%22+%7C+%22leafcutting+ants%22+%7C+%22leaf-cutter+ants%22+%7C+%22leaf+cutting+ants%22%29+%2B+%28plant+%7C+substrate+%7C+diet+%7C+food+%7C+foraging+%7C+selection+%7C+rejection+%7C+avoidance%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate&token=PCOA3RZRB2ADACAF2CVTJTAOW2KIQXWFHBAPWWKMDTKM26DXPXNXXSFN5U4DULMJODIZBSHCY34XPJLOEWZTJKHKYSWOYJJAFYJDCCQQZZIS3N5Z2P3H56YHCT6Q"
+  },
+  {
+    "query_id": 2,
+    "query": "Acromyrmex + (plant | diet | selection | preference | foraging | rejection | substrate)",
+    "page": 1,
+    "total": 450,
+    "returned": 450,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=Acromyrmex+%2B+%28plant+%7C+diet+%7C+selection+%7C+preference+%7C+foraging+%7C+rejection+%7C+substrate%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 3,
+    "query": "(\"Atta cephalotes\" | \"Atta colombica\" | \"Atta sexdens\" | \"Atta texana\" | \"Atta laevigata\" | \"Atta mexicana\" | \"Atta insularis\") + (plant | diet | selection | preference | foraging | rejection)",
+    "page": 1,
+    "total": 597,
+    "returned": 597,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28%22Atta+cephalotes%22+%7C+%22Atta+colombica%22+%7C+%22Atta+sexdens%22+%7C+%22Atta+texana%22+%7C+%22Atta+laevigata%22+%7C+%22Atta+mexicana%22+%7C+%22Atta+insularis%22%29+%2B+%28plant+%7C+diet+%7C+selection+%7C+preference+%7C+foraging+%7C+rejection%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 4,
+    "query": "(\"Atta capiguara\" | \"Atta bisphaerica\" | \"Atta vollenweideri\" | \"Atta opaciceps\" | Amoimyrmex) + (plant | diet | selection | preference | foraging | grass)",
+    "page": 1,
+    "total": 102,
+    "returned": 102,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28%22Atta+capiguara%22+%7C+%22Atta+bisphaerica%22+%7C+%22Atta+vollenweideri%22+%7C+%22Atta+opaciceps%22+%7C+Amoimyrmex%29+%2B+%28plant+%7C+diet+%7C+selection+%7C+preference+%7C+foraging+%7C+grass%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 5,
+    "query": "\"formigas cortadeiras\" + (seleção | preferência | forrageamento | vegetal | plantas)",
+    "page": 1,
+    "total": 105,
+    "returned": 105,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%22formigas+cortadeiras%22+%2B+%28sele%C3%A7%C3%A3o+%7C+prefer%C3%AAncia+%7C+forrageamento+%7C+vegetal+%7C+plantas%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 6,
+    "query": "\"hormigas cortadoras\" + (selección | preferencia | forrajeo | plantas)",
+    "page": 1,
+    "total": 30,
+    "returned": 30,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%22hormigas+cortadoras%22+%2B+%28selecci%C3%B3n+%7C+preferencia+%7C+forrajeo+%7C+plantas%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 7,
+    "query": "(Blattschneiderameisen | \"fourmis champignonnistes\" | \"fourmis attines\") + (Pflanzen | choix | substrat | Futterwahl | Pflanzenwahl)",
+    "page": 1,
+    "total": 7,
+    "returned": 7,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28Blattschneiderameisen+%7C+%22fourmis+champignonnistes%22+%7C+%22fourmis+attines%22%29+%2B+%28Pflanzen+%7C+choix+%7C+substrat+%7C+Futterwahl+%7C+Pflanzenwahl%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 8,
+    "query": "(Trachymyrmex | Mycetomoellerius | Paratrachymyrmex | Sericomyrmex | Cyphomyrmex | Mycocepurus | Mycetarotes | Mycetophylax | Apterostigma) + (foraging | substrate | plant | diet | preference)",
+    "page": 1,
+    "total": 100,
+    "returned": 100,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28Trachymyrmex+%7C+Mycetomoellerius+%7C+Paratrachymyrmex+%7C+Sericomyrmex+%7C+Cyphomyrmex+%7C+Mycocepurus+%7C+Mycetarotes+%7C+Mycetophylax+%7C+Apterostigma%29+%2B+%28foraging+%7C+substrate+%7C+plant+%7C+diet+%7C+preference%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 9,
+    "query": "(Leucoagaricus | Leucocoprinus | Attamyces) + (plant | extract | alkaloid | lignan | coumarin | phytochemical | óleo | extrato | vegetal)",
+    "page": 1,
+    "total": 155,
+    "returned": 155,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28Leucoagaricus+%7C+Leucocoprinus+%7C+Attamyces%29+%2B+%28plant+%7C+extract+%7C+alkaloid+%7C+lignan+%7C+coumarin+%7C+phytochemical+%7C+%C3%B3leo+%7C+extrato+%7C+vegetal%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  },
+  {
+    "query_id": 10,
+    "query": "(\"formigas cortadeiras\" | \"hormigas cortadoras\" | \"leaf-cutting ants\") + (tese | thesis | dissertation | dissertação | tesis | rapport | report)",
+    "page": 1,
+    "total": 159,
+    "returned": 159,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28%22formigas+cortadeiras%22+%7C+%22hormigas+cortadoras%22+%7C+%22leaf-cutting+ants%22%29+%2B+%28tese+%7C+thesis+%7C+dissertation+%7C+disserta%C3%A7%C3%A3o+%7C+tesis+%7C+rapport+%7C+report%29&fields=title%2Cauthors%2Cyear%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract%2CpublicationTypes%2Cvenue%2CpublicationDate"
+  }
+]

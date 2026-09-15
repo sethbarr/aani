@@ -1,0 +1,79 @@
+[
+  {
+    "input_id": 1,
+    "user_supplied_path": "/Users/seth/Downloads/Boulogne et al. 2012 - Acromyrmex octospinosus (Hymenoptera - Formicidae) management - effects of TRAMILs fungicidal plant extracts.pdf",
+    "pages": 10,
+    "sha256": "050b5e4ddb7119b779c1c0345a269c59044a1196ce7388a0099ef92e6405f8db",
+    "chars": 43191,
+    "source_id": "boulogne2012",
+    "local_file": "sources/boulogne2012.pdf",
+    "origin": "PDF supplied directly by user; Downloads original preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "input_id": 2,
+    "user_supplied_path": "/Users/seth/Downloads/EBSCO-FullText-09_12_2026.pdf",
+    "pages": 15,
+    "sha256": "4535f6bd48f0b19d3bc567f9d83ca53f9c1de64df17d4c989c6f4b266cfa7407",
+    "chars": 59055,
+    "source_id": "lobo2020papaya",
+    "local_file": "sources/lobo2020papaya.pdf",
+    "origin": "PDF supplied directly by user; Downloads original preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "input_id": 3,
+    "user_supplied_path": "/Users/seth/Downloads/10.1515_znb-2005-0715.pdf",
+    "pages": 5,
+    "sha256": "0d4e80ed774f6581507fb285348fde39094ee3fbd4c276b0aebf5c26d41eefeb",
+    "chars": 16482,
+    "source_id": "souza2005",
+    "local_file": "sources/souza2005.pdf",
+    "origin": "PDF supplied directly by user; Downloads original preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "input_id": 4,
+    "user_supplied_path": "/Users/seth/Downloads/Lapointe et al. 1996 - Resistance to leafcutter ants (Hymenoptera - Formicidae) and inhibition of their fungal symbiont by tropical forage grasses.pdf",
+    "pages": 9,
+    "sha256": "78858999046e6fcfe85781fed8d8adaacdc9501bf07bc43ad9e31d595afa8dc2",
+    "chars": 32664,
+    "source_id": "lapointe1996",
+    "local_file": "sources/lapointe1996.pdf",
+    "origin": "PDF supplied directly by user; Downloads original preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "input_id": 5,
+    "user_supplied_path": "/Users/seth/Downloads/s11356-020-08170-z.pdf",
+    "pages": 11,
+    "sha256": "810409f73ac59cbd6b2d822e9a8c69f211f179c4f22d9ba0a91b251043978286",
+    "chars": 46489,
+    "source_id": "melo2020",
+    "local_file": "sources/melo2020.pdf",
+    "origin": "PDF supplied directly by user; Downloads original preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "input_id": 6,
+    "user_supplied_path": "/Users/seth/Downloads/Unknown Title - Unknown Title.pdf",
+    "pages": 4,
+    "sha256": "e9fa02f7edd389d9a203ae6fdc7d98b029db9b57b3b5c241c1558b85ab0b8a92",
+    "chars": 15771,
+    "source_id": "sesame1990",
+    "local_file": "sources/sesame1990.pdf",
+    "origin": "PDF supplied directly by user; Downloads original preserved",
+    "received_date": "2026-09-12"
+  },
+  {
+    "input_id": 7,
+    "user_supplied_path": "/Users/seth/Downloads/Araújo et al. 2022 - The symbiotic fungus Leucoagaricus gongylophorus (M ... cales, Agaricaceae) as a target organism to control leaf-cutting ants.pdf",
+    "pages": 28,
+    "sha256": "6ddf7ca45a00c84e63482b4c017cbff5c48dfa60ac57140fe5261cb2db388521",
+    "chars": 97471,
+    "source_id": "araujo2022",
+    "local_file": "sources/araujo2022.pdf",
+    "origin": "PDF supplied directly by user; Downloads original preserved",
+    "received_date": "2026-09-12"
+  }
+]

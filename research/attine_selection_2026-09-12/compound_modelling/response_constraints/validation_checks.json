@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-12",
+  "unit_tests_passed": 7,
+  "checks": {
+    "117_unique_scenarios": true,
+    "all_pdf_links_exist": true,
+    "input_unchanged": true,
+    "wider_buffers_never_tighten_ranges": true,
+    "orderings_have_disjoint_intervals": true,
+    "source_urls_resolve_to_correct_group": true,
+    "reference_not_in_pair_orderings": true,
+    "no_cross_study_or_unseen_compound_predictions": true,
+    "source_matched_examples": true,
+    "readme_links_exist": true,
+    "browser_source_and_material_filter": true,
+    "browser_response_buffer_updates_bounds": true,
+    "browser_reset_restores_39_groups": true,
+    "browser_visual_review": true,
+    "javascript_syntax_check": true
+  },
+  "scope": "Logical consistency and artifact integrity, not validation against new biological observations."
+}

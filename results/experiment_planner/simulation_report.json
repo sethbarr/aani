@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "scope": "water_only_layout_demo",
+  "plan_id": "fungal-67f41e49c7ce",
+  "protocol_sha256": "eb6fa98b3d335d1573657dcdfa3111118e127eda07a96e1823fe402570edfa2b",
+  "checked_at": "2026-09-12T20:56:13.107509+00:00",
+  "biological_assay_validated": false,
+  "robot_connected": false,
+  "opentrons_version": "8.8.2",
+  "logged_commands": 409,
+  "dispense_commands": 81,
+  "runlog": "simulation_runlog.txt"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "morais2015",
+    "url": "https://locus.ufv.br/bitstream/123456789/21434/1/artigo.pdf",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "source_id": "morais2012thesis",
+    "url": "https://locus.ufv.br/bitstream/123456789/3966/1/texto%20completo.pdf",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "source_id": "morais2015",
+    "url": "https://locus.ufv.br/bitstream/123456789/21434/1/artigo.pdf",
+    "final_url": "https://locus.ufv.br/bitstreams/8b1cf3fd-085e-46ab-952c-2f0eb4ba2725/download",
+    "bytes": 400853,
+    "content_type": "text/html; charset=utf-8",
+    "is_pdf": false
+  },
+  {
+    "source_id": "morais2012thesis",
+    "url": "https://locus.ufv.br/bitstream/123456789/3966/1/texto%20completo.pdf",
+    "final_url": "https://locus.ufv.br/server/api/core/bitstreams/da53d5c4-077b-4210-8036-f6bda05b963c/content",
+    "bytes": 222838,
+    "content_type": "application/pdf;charset=UTF-8",
+    "is_pdf": true,
+    "pages": 56,
+    "sha256": "11d350be3a161051aae97c0eeaf6d3aa601ce8188d263e7891829763cc00a8e5"
+  }
+]
